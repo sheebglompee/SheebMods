@@ -1,0 +1,16 @@
+﻿{
+    "Name": "Sun-Brella",
+    "Description": "The drooping petals on this flower casts a deep shade below.",
+    "Category": "Flower",
+    "Edibility": 0,
+    "Price": 80,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":  {},
+	"TranslationKey": "object.Sun-Brella",
+    "ContextTags": [
+    "season_Fall",
+    "color_orange",
+    "flower_item",
+  ],
+}

@@ -1,0 +1,32 @@
+{
+    "Name": "Grow Bag",
+    "Description": "A bag full of dirt. Provides a great enviroment for growing certain types of forage. Must be placed outdoors.",
+    "Price": 100,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 428,
+            "Count": 5,
+        },
+        {
+            "Object": 330,
+            "Count": 5,
+        },
+        {
+            "Object": 771,
+            "Count": 15,
+        }, ],
+    "IsDefault": false,
+    "CanPurchase": false,
+    "SkillUnlockName": "Foraging",
+    "SkillUnlockLevel": 4,
+    },
+    "CanPurchase": true,
+    "PurchaseFrom": "Pierre",
+    "PurchasePrice": 2500,
+	"TranslationKey": "BigCraftables.Grow-Bag",
+}

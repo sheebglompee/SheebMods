@@ -1,0 +1,12 @@
+﻿{
+  "adventure1.title": "A New Adventure Begins",
+  "adventure1.description": "Marlon would like to speak with you about the other residents in town. Enter the Adventurer's Guild between 2pm and 10pm to meet with him.",
+  "adventure1.objective": "Enter the Adventurer's guild",
+  "adventure2.title": "Invite someone to join you",
+  "adventure2.description": "Marlon has told you something special about the other residents in town. Ask a bachelor or bachelorette to follow you and see what they say. They may not join you until they know you better.",
+  "adventure2.objective": "Recruit a companion",
+  "adventure3.title": "Recruit 5 companions",
+  "adventure3.description": "You met with your first companion, but there are more. Successfully recruit a total of 5 companions.",
+  "adventure4.title": "The more the merrier",
+  "adventure4.description": "Get to know your fellow residents even better. Successfully invite 10 companions to follow you."
+}

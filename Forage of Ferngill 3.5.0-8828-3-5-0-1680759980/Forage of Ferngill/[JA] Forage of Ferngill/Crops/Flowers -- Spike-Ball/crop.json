@@ -1,0 +1,21 @@
+{
+    "Name": "Spike-Ball",
+    "Product": "Spike-Ball",
+    "SeedName": "Spike-Ball Seeds",
+    "SeedDescription": "Plant in Spring, Summer or Fall. Takes 7 days to grow.",
+    "Type": "Flower",
+    "Seasons": ["spring", "summer", "fall" ],
+    "Phases": [1, 1, 2, 2, 1],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": [
+        "255, 100, 177, 167",
+        "234, 99, 237, 158",
+        "157, 60, 247, 144",
+    ],
+    "SeedNameLocalization":
+    {},
+    "SeedDescriptionLocalization":
+    {},
+}

@@ -1,0 +1,57 @@
+﻿{
+    "Name": "Nut Cheese Press (PH)",
+    "Description": "This machine turns dairy-free nut milk into equally dairy-free cheese.",
+    "Price": 1,
+    "ProvidesLight": false,
+	"ReserveExtraIndexCount": 2,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 334,
+            "Count": 1,
+        },
+        {
+            "Object": 388,
+            "Count": 45,
+        },
+        {
+            "Object": 709,
+            "Count": 10,
+        }, ],
+        "CanPurchase": false,
+    },
+// Localization
+
+    "NameLocalization":
+    {
+        "default": "Nut Cheese Press",
+		"es": "Nut Cheese Press", //Spansih
+        "ko": "Nut Cheese Press", //Korean
+        "de": "Nusskäsepresse", //German
+        "fr": "Nut Cheese Press", //French
+        "hu": "Nut Cheese Press", //Hungarian
+        "it": "Nut Cheese Press", //Italian
+        "ja": "Nut Cheese Press", //Japanese
+        "pt": "Nut Cheese Press", //Portuguese
+        "ru": "Процессор", //Russian
+        "tr": "Nut Cheese Press", //Turkish
+        "zh": "坚果奶酪压榨机", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "This machine turns dairy-free nut milk into equally dairy-free cheese.", //Spansih
+        "ko": "This machine turns dairy-free nut milk into equally dairy-free cheese.", //Korean
+        "de": "Diese Maschine stellt aus milchfreier Nussmilch ebenso milchfreien Käse her.", //German
+        "fr": "This machine turns dairy-free nut milk into equally dairy-free cheese.", //French
+        "hu": "This machine turns dairy-free nut milk into equally dairy-free cheese.", //Hungarian
+        "it": "This machine turns dairy-free nut milk into equally dairy-free cheese.", //Italian
+        "ja": "This machine turns dairy-free nut milk into equally dairy-free cheese.", //Japanese
+        "pt": "This machine turns dairy-free nut milk into equally dairy-free cheese.", //Portuguese
+        "ru": "Эта машина берет орехи и другие измельчаемые предметы и превращает их в различные товары.", //Russian
+        "tr": "This machine turns dairy-free nut milk into equally dairy-free cheese.", //Turkish
+        "zh": "这台机器将不含乳制品的坚果牛奶变成同样不含乳制品的奶酪。 ", //Chinese (Simplified)
+    },
+	
+}

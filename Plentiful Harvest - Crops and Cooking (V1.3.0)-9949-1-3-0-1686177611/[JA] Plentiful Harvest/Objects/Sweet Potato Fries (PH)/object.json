@@ -1,0 +1,83 @@
+{
+    "Name": "Sweet Potato Fries (PH)", 
+    "Description": "Fried wedges of tasty sweet potato.", 
+    "Category": "Cooking",
+	"ContextTags": 
+        [
+		"color_orange",
+        "dye_medium"
+        ],
+    "Edibility": 34, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 1,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 120,
+    },  
+    "Price": 280, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": 247, 
+            "Count": 1,
+        },
+        {
+            "Object": "Sweet Potato (PH)", 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Harvey"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Shane"],
+    },
+
+// Localization
+
+    "NameLocalization":
+    {
+        "default": "Sweet Potato Fries",
+		"es": "Sweet Potato Fries", //Spansih
+        "ko": "Sweet Potato Fries", //Korean
+        "de": "Süßkartoffelpommes", //German
+        "fr": "Sweet Potato Fries", //French
+        "hu": "Sweet Potato Fries", //Hungarian
+        "it": "Sweet Potato Fries", //Italian
+        "ja": "Sweet Potato Fries", //Japanese
+        "pt": "Sweet Potato Fries", //Portuguese
+        "ru": "Сладкий картофель фри", //Russian
+        "tr": "Sweet Potato Fries", //Turkish
+        "zh": "油炸红薯条", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Fried wedges of tasty sweet potato.", //Spansih
+        "ko": "Fried wedges of tasty sweet potato.", //Korean
+        "de": "Frittierte Pommes von der leckeren Süßkartoffel.", //German
+        "fr": "Fried wedges of tasty sweet potato.", //French
+        "hu": "Fried wedges of tasty sweet potato.", //Hungarian
+        "it": "Fried wedges of tasty sweet potato.", //Italian
+        "ja": "Fried wedges of tasty sweet potato.", //Japanese
+        "pt": "Fried wedges of tasty sweet potato.", //Portuguese
+        "ru": "Жареные ломтики вкусного сладкого картофеля.", //Russian
+        "tr": "Fried wedges of tasty sweet potato.", //Turkish
+        "zh": "美味的油炸红薯条。", //Chinese (Simplified)
+    },
+	
+}

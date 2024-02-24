@@ -1,0 +1,177 @@
+{
+  "Name": "Ears (Rabbit Long Fluffy)",
+
+	// FRONT
+  "FrontAccessory": {
+    "DrawAfterPlayer": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 2,
+      "Y": 5
+    },
+    "AccessorySize": {
+      "Width": 20,
+      "Length": 20
+    },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      },
+      {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      },
+    ],
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      },
+      {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      },
+    ]
+  },
+
+	// RIGHT
+  "RightAccessory": {
+    "StartingPosition": {
+      "X": 0,
+      "Y": 20
+    },
+    "HeadPosition": {
+      "X": 3,
+      "Y": 5
+    },
+    "AccessorySize": {
+      "Width": 20,
+      "Length": 20
+    },
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      },
+      {
+        "Frame": 2,
+        "Duration": 100
+      },
+      {
+        "Frame": 3,
+        "Duration": 100
+      }
+    ]
+  },
+
+	// LEFT
+  "LeftAccessory": {
+    "Flipped": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 20
+    },
+    "HeadPosition": {
+      "X": 1,
+      "Y": 5
+    },
+    "AccessorySize": {
+      "Width": 20,
+      "Length": 20
+    },
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      },
+      {
+        "Frame": 2,
+        "Duration": 100
+      },
+      {
+        "Frame": 3,
+        "Duration": 100
+      }
+    ]
+  },
+
+	// BACK
+  "BackAccessory": {
+    "StartingPosition": {
+      "X": 0,
+      "Y": 40
+    },
+    "HeadPosition": {
+      "X": 2,
+      "Y": 3
+    },
+    "AccessorySize": {
+      "Width": 20,
+      "Length": 20
+    },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      },
+      {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      },
+    ],
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      },
+      {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      },
+    ]
+  }
+}

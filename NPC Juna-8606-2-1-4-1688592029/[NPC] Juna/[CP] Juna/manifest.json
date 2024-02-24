@@ -1,0 +1,24 @@
+{
+  "Name": "NPC Juna",
+  "Author": "elhrvy",
+  "Version": "2.1.4",
+  "Description": "Adds a scheming ballerina to Stardew Valley.",
+  "UniqueID": "elhrvy.NPCJuna",
+  "UpdateKeys": ["Nexus:8606", "ModDrop:977414"],
+  "Dependencies": [
+    { "UniqueID": "PeacefulEnd.CustomCompanions", "IsRequired": true},
+    { "UniqueID": "spacechase0.JsonAssets", "IsRequired": true},
+    { "UniqueID": "PurrplingCat.CustomGiftDialogue", "IsRequired": true},
+    { "UniqueID": "misscoriel.eventrepeater", "IsRequired": true},
+    
+    { "UniqueID": "aedenthorn.CustomFixedDialogue", "IsRequired": false },
+    { "UniqueID": "Esca.CustomNPCExclusions", "IsRequired": false },
+
+    { "UniqueID": "FlashShifter.StardewValleyExpandedCP", "IsRequired": false },
+    { "UniqueID": "Fellowclown.MagicalFamily", "IsRequired": false},
+    { "UniqueID": "DaisyNiko.SVR3", "IsRequired": false}
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

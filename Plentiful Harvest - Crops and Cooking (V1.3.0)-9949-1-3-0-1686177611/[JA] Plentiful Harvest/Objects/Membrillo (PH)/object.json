@@ -1,0 +1,83 @@
+{
+    "Name": "Membrillo (PH)", 
+    "Description": "A soft square of quince paste.", 
+    "Category": "Cooking",
+	"ContextTags": 
+        [
+		"color_yellow",
+        "dye_medium"
+        ],
+    "Edibility": 30, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 1,
+        "Attack": 0,
+        "Duration": 240,
+    }, 
+    "Price": 160, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": 245,
+            "Count": 1,
+        },
+        {
+            "Object": "Quince (PH)",
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Emily"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Dwarf"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Membrillo",
+		"es": "Membrillo", //Spansih
+        "ko": "Membrillo", //Korean
+        "de": "Membrillo", //German
+        "fr": "Membrillo", //French
+        "hu": "Membrillo", //Hungarian
+        "it": "Membrillo", //Italian
+        "ja": "Membrillo", //Japanese
+        "pt": "Membrillo", //Portuguese
+        "ru": "Мембрилло", //Russian
+        "tr": "Membrillo", //Turkish
+        "zh": "木梨果酱", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A soft square of quince paste.", //Spansih
+        "ko": "A soft square of quince paste.", //Korean
+        "de": "Eine süße Konfitüre aus Quittenfrüchten.", //German
+        "fr": "A soft square of quince paste.", //French
+        "hu": "A soft square of quince paste.", //Hungarian
+        "it": "A soft square of quince paste.", //Italian
+        "ja": "A soft square of quince paste.", //Japanese
+        "pt": "A soft square of quince paste.", //Portuguese
+        "ru": "Нежный квадратик айвовой пастилы.", //Russian
+        "tr": "A soft square of quince paste.", //Turkish
+        "zh": "软软的方形木梨果酱", //Chinese (Simplified)
+    },
+	
+}

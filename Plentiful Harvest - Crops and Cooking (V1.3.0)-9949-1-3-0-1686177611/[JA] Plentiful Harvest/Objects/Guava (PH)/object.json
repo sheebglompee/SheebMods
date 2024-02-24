@@ -1,0 +1,52 @@
+{
+    "Name": "Guava (PH)",
+    "Description": "The uses of this sweet fruit range from medicine to food, and even the wood of the tree is widely used.",
+    "Category": "Fruit",
+	"ContextTags": 
+        [
+        "season_summer",
+		"color_green"
+        ],
+    "Edibility": 20,
+    "Price": 115, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Haley", "George"],
+        "Like": ["Evelyn", "Leo", "Pierre", "Alex"],
+        "Neutral": null, 
+        "Dislike": ["Lewis", "Shane", "Penny", "Dwarf"], 
+        "Hate": ["Sebastian", "Pam"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Guava",
+		"es": "Guava", 
+        "ko": "Guava", 
+        "de": "Guave", 
+        "fr": "Guava", 
+        "hu": "Guava", 
+        "it": "Guava", 
+        "ja": "Guava",
+        "pt": "Guava", 
+        "ru": "Гуава", 
+        "tr": "Guava",
+        "zh": "番石榴", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "The uses of this sweet fruit range from medicine to food, and even the wood of the tree is widely used.", 
+        "ko": "The uses of this sweet fruit range from medicine to food, and even the wood of the tree is widely used.", 
+        "de": "Die Verwendung dieser süßen Frucht reicht von der Medizin bis zum Essen und sogar das Holz wird weiterverwertet.",
+        "fr": "The uses of this sweet fruit range from medicine to food, and even the wood of the tree is widely used.", 
+        "hu": "The uses of this sweet fruit range from medicine to food, and even the wood of the tree is widely used.",
+        "it": "The uses of this sweet fruit range from medicine to food, and even the wood of the tree is widely used.", 
+        "ja": "The uses of this sweet fruit range from medicine to food, and even the wood of the tree is widely used.", 
+        "pt": "The uses of this sweet fruit range from medicine to food, and even the wood of the tree is widely used.",
+        "ru": "Сфера применения этого сладкого плода варьируется от медицины до кулинарии. Широко используется даже древесина дерева.", 
+        "tr": "The uses of this sweet fruit range from medicine to food, and even the wood of the tree is widely used.", 
+        "zh": "这种甜果的用途从药物到食物都有，甚至这种树的木材也被广泛使用。",
+    },
+}

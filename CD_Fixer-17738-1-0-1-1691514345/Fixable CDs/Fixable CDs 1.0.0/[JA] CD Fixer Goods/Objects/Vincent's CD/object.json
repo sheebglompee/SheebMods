@@ -1,0 +1,16 @@
+{
+    "Name": "Vincent's CD",
+    "Description": "Vincent's personal playlist!",
+    "Category": "Crafting",
+    "Edibility": 0,
+    "EdibleIsDrink": false,
+    "Price": 0,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {
+        "Love": ["Vincent"],
+        "Like": ["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],
+        "Hate": ["Abigail","Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Haley","Jas","Krobus","Leo","Lewis","Marnie","Maru","Pierre","Penny","Sam","Sebastian","Willy","Wizard"]
+    }
+}
+

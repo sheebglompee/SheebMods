@@ -1,0 +1,16 @@
+﻿{
+    "Name": "Daye-Breaks",
+    "Description": "These small white flowers are often woven into a crown by children.",
+    "Category": "Flower",
+    "Edibility": 0,
+    "Price": 25,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Daye-Breaks",
+    "ContextTags": [
+    "season_spring",
+    "color_white",
+    "flower_item",
+  ],
+}

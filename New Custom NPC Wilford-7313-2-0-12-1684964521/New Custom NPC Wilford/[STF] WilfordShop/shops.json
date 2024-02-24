@@ -1,0 +1,132 @@
+{
+
+"Shops": [
+    {
+      "ShopName": "WilfordShop",
+	  "StoreCurrency": "Money",
+	  "Quote": "All the best just for you.",
+	  "When": ["t 800 2000"],
+
+      "ItemStocks": [
+        {
+          "ItemType": "Object",
+		  "StockPrice": 125,
+          "ItemNames": [
+            "Lavender Seeds WL"
+          ], 
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": 50,
+          "ItemNames": [
+            "Carrot Seeds WL"
+          ]
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": 90,
+          "ItemNames": [
+            "Vanilla Seeds WL"
+          ]
+        },
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true,
+		  "StockPrice": 2000,
+          "ItemNames": [
+            "Lavender Potato Soup WL"
+          ],
+		  "When": ["r 0.4"]
+        },
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true,
+		  "StockPrice": 1000,
+          "ItemNames": [
+            "Cheese Bite WL"
+          ],
+		  "When": ["f Wilford 750"]
+        },
+		{//Green Tea
+          "ItemType": "Object",
+		  "StockPrice": 150,
+          "ItemIDs": [
+            614
+          ],
+		  "Stock": 3,
+		  "When": ["r 0.2"]
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": 3000,
+          "ItemNames": [
+            "Coffee Bean"
+          ],
+		  "Stock": 1,
+		  "When": ["r 0.07"]
+        },
+		{//Tea Sapling
+          "ItemType": "Object",
+		  "StockPrice": 2000,
+          "ItemIDs": [
+            251
+          ],
+		  "Stock": 1,
+		  "When": ["r 0.1"]
+        },
+		{//Quality Fertilizer
+          "ItemType": "Object",
+		  "StockPrice": 125,
+          "ItemIDs": [
+            369
+          ],
+		  "When": ["r 0.7"]
+        },
+		{
+          "ItemType": "Object",
+		  "IsRecipe": true,
+		  "StockPrice": 1250,
+          "ItemNames": [
+            "Fairy Jelly WL"
+          ],
+		  "When": ["w rainy"]
+        },
+		{
+          "ItemType": "Object",
+          "ItemNames": [
+            "Poppy Seeds",
+			"Jazz Seeds",
+			"Tulip Bulb",
+			"Spangle Seeds",
+			"Sunflower Seeds",
+			"Fairy Seeds"
+          ],
+		  "MaxNumItemsSoldInItemStock": 2
+        },
+		{
+          "ItemType": "Object",
+          "ItemNames": [
+            "Rice Shoot",
+			"Blueberry Seeds",
+			"Red Cabbage Seeds",
+			"Starfruit Seeds",
+			"Wheat Seeds",
+			"Cranberry Seeds",
+			"Yam Seeds",
+			"Garlic Seeds",
+			"Amaranth Seeds",
+			"Eggplant Seeds"
+          ],
+		  "MaxNumItemsSoldInItemStock": 1,
+		  "When": ["r 0.4"]
+        }
+		],
+		"LocalizedQuote":
+		{
+		"ru": "Все самое лучшее только для тебя.",
+        "pt": "Tudo de bom só para você.",
+        "zh": "一切都是为了你"
+		}
+    }
+]
+}

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Wilford Shop",
+  "Author": "FloranceBless",
+  "Version": "1.0.0",
+  "Description": "Adds shop in Wilford's house",
+  "UniqueID": "fernandtea.STF.WIlfordShop",
+  "MinimumApiVersion": "2.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework"
+  }
+}

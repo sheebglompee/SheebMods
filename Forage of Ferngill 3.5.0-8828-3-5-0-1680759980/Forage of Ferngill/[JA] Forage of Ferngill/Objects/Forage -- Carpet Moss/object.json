@@ -1,0 +1,16 @@
+﻿{
+    "Name": "Carpet Moss",
+    "Description": "This fluffy ground moss is packed full of nutrients.",
+    "Category": "Greens",
+    "Edibility": 25,
+    "Price": 35,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Carpet-Moss",
+    "ContextTags": [
+	"season_winter",
+    "color_green",
+    "forage_item",
+  ],
+}

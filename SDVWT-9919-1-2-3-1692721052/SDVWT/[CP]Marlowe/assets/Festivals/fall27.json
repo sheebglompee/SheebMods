@@ -1,0 +1,34 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "Marlowe 31 62 4"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "Marlowe 31 62 4"
+        }
+      ],
+      {
+        "LogName": "Dialogue for fall27",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "Entries": {
+          "Marlowe": "I've been banned from the maze because I won too many times."
+        }
+      }
+    }
+  ]
+},

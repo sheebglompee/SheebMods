@@ -1,0 +1,482 @@
+{
+    //Guide for keys:
+	//1501 and 1504: Rude keys. Use for Abigail, Sebastian, Alex, Haley, and Shane.
+	//1499 and 1500: Keys that don't apply to the above cases.	
+	//Unless otherwise noted, the first lines are the same between spice and no spice cases. The *second* line is the spicy line.
+	"Changes":[
+		{
+			"LogName": "Abigail - Winter Star, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries":{
+				"Event.cs.1501": "{{i18n: UWS.Abigail.WinterStar.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1504": "{{i18n: UWS.Abigail.WinterStar.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Abigail": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Abigail": "FullyPlatonic, SexWithoutRomance",
+				"Abigail": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Sebastian - Winter Star, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries":{
+				"Event.cs.1501": "{{i18n: UWS.Sebastian.WinterStar.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1504": "{{i18n: UWS.Sebastian.WinterStar.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Sebastian": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Sebastian": "FullyPlatonic, SexWithoutRomance",
+				"Sebastian": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Alex - Winter Star, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries":{
+				"Event.cs.1501": "{{i18n: UWS.Alex.WinterStar.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1504": "{{i18n: UWS.Alex.WinterStar.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Alex": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Alex": "FullyPlatonic, SexWithoutRomance",
+				"Alex": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Haley - Winter Star, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries":{
+				"Event.cs.1501": "{{i18n: UWS.Haley.WinterStar.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1504": "{{i18n: UWS.Haley.WinterStar.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Haley": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Haley": "FullyPlatonic, SexWithoutRomance",
+				"Haley": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Shane - Winter Star, Fully Platonic Version", //Reminder to config 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries":{
+				"Event.cs.1501": "{{i18n: UWS.Shane.WinterStar.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1504": "{{i18n: UWS.Shane.WinterStar.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Shane": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"HasMod |contains=tenthousandcats.ImmersiveCShane": false,
+				"Amaranthacyan.PPAFSMAPI/Shane": "FullyPlatonic, SexWithoutRomance",
+				"Shane": "normal",
+			},
+		},
+		{
+			"LogName": "Shane - Winter Star, Fully Platonic Version", //Reminder to config 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries":{
+				"Event.cs.1501": "{{i18n: UWS.Shane.WinterStar.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1504": "{{i18n: UWS.Shane.WinterStar.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Shane": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Immersive Shane Override": "true",
+				"IC-Shane Conditional Overrides": "married only, dating and married",
+				"Amaranthacyan.PPAFSMAPI/Shane": "FullyPlatonic, SexWithoutRomance",
+				"Shane": "normal",
+			},
+		},
+		{
+			"LogName": "Emily - Winter Star, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Emily.WinterStar.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Emily.WinterStar.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Emily": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Emily": "FullyPlatonic, SexWithoutRomance",
+				"Emily": "normal",
+			},
+		},
+		{
+			"LogName": "Leah - Winter Star, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Leah.WinterStar.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Leah.WinterStar.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Leah": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Leah": "FullyPlatonic, SexWithoutRomance",
+				"Leah": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Elliott - Winter Star, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Elliott.WinterStar.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Elliott.WinterStar.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Elliott": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Elliott": "FullyPlatonic, SexWithoutRomance",
+				"Elliott": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Penny - Winter Star, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Penny.WinterStar.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Penny.WinterStar.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Penny": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Elliott": "FullyPlatonic, SexWithoutRomance",
+				"Penny": "normal",
+			},
+		},
+		{
+			"LogName": "Sam - Winter Star, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Sam.WinterStar.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Sam.WinterStar.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Sam": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Sam": "FullyPlatonic, SexWithoutRomance",
+				"Sam": "normal",
+			},
+		},
+		{
+			"LogName": "Sam - Winter Star, Fully Platonic Version, 14 Heart Variant", //This is a surprise to me, but it makes sense.
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Sam.WinterStar.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Sam.WinterStar.Housemate.Junimo.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Sam": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"HasSeenEvent |contains=3918603": "true",
+				"Amaranthacyan.PPAFSMAPI/Sam": "FullyPlatonic, SexWithoutRomance",
+				"Sam": "normal",
+			},
+		},
+		{
+			"LogName": "Harvey - Winter Star, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Harvey.WinterStar.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Harvey.WinterStar.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Harvey": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Harvey": "FullyPlatonic, SexWithoutRomance",
+				"Harvey": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Maru - Winter Star, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Maru.WinterStar.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Maru.WinterStar.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Maru": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Maru": "FullyPlatonic, SexWithoutRomance",
+				"Harvey": "normal, spicy",
+			},
+		},
+		//After editing the above, this should be the "SexWithoutRomance" setting - config still required to use spice
+		
+		{
+			"LogName": "Abigail - Winter Star, SexWithoutRomance, Optional Spice",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries":{
+				"Event.cs.1501": "{{i18n: UWS.Abigail.WinterStar.SWR.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1504": "{{i18n: UWS.Abigail.WinterStar.SWR.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Abigail": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Abigail": "SexWithoutRomance",
+				"Enable Spicy Dialogue": "true",
+				"Abigail": "spicy",
+			},
+		},
+		{
+			"LogName": "Sebastian - Winter Star, SexWithoutRomance, Optional Spice",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries":{
+				"Event.cs.1501": "{{i18n: UWS.Sebastian.WinterStar.SWR.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1504": "{{i18n: UWS.Sebastian.WinterStar.SWR.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Sebastian": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Sebastian": "SexWithoutRomance",
+				"Enable Spicy Dialogue": "true",
+				"Sebastian": "spicy",
+			},
+		},
+		{
+			"LogName": "Alex - Winter Star, SexWithoutRomance, Optional Spice",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries":{
+				"Event.cs.1501": "{{i18n: UWS.Alex.WinterStar.SWR.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1504": "{{i18n: UWS.Alex.WinterStar.SWR.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Alex": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Alex": "SexWithoutRomance",
+				"Enable Spicy Dialogue": "true",
+				"Alex": "spicy",
+			},
+		},
+		{
+			"LogName": "Haley - Winter Star, SexWithoutRomance, Optional Spice",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries":{
+				"Event.cs.1501": "{{i18n: UWS.Haley.WinterStar.SWR.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1504": "{{i18n: UWS.Haley.WinterStar.SWR.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Haley": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Haley": "SexWithoutRomance",
+				"Enable Spicy Dialogue": "true",
+				"Haley": "spicy",
+			},
+		},
+		{
+			"LogName": "Leah - Winter Star, SexWithoutRomance, Optional Spice",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Leah.WinterStar.SWR.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Leah.WinterStar.SWR.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Leah": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Leah": "SexWithoutRomance",
+				"Enable Spicy Dialogue": "true",
+				"Leah": "spicy",
+			},
+		},
+		{
+			"LogName": "Elliott - Winter Star, SexWithoutRomance, Optional Spice",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Elliott.WinterStar.SWR.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Elliott.WinterStar.SWR.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Elliott": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Elliott": "SexWithoutRomance",
+				"Enable Spicy Dialogue": "true",
+				"Elliott": "spicy",
+			},
+		},
+		{
+			"LogName": "Harvey - Winter Star, SexWithoutRomance, Optional Spice",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Harvey.WinterStar.SWR.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Harvey.WinterStar.SWR.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Harvey": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Harvey": "SexWithoutRomance",
+				"Enable Spicy Dialogue": "true",
+				"Harvey": "spicy",
+			},
+		},
+		{
+			"LogName": "Maru - Winter Star, SexWithoutRomance, Optional Spice", //This dialogue references a particular festival day bug with Maru.
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Maru.WinterStar.SWR.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Maru.WinterStar.SWR.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Maru": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Maru": "SexWithoutRomance",
+				"Enable Spicy Dialogue": "true",
+				"Maru": "spicy",
+			},
+		},
+		
+		// The following are "accidental config" dialogues - specifically, if a PPAF user with RomanceWithoutSex somehow enables the spicy option, this particular section deals with forcing it back to romance rather than giving them a spicy variant they do not want.
+		{
+			"LogName": "Abigail - Winter Star, Romance Fallback",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries":{
+				"Event.cs.1501": "{{i18n:UWS.Abigail.WinterStar.Married.Before}}",
+				"Event.cs.1504": "{{i18n:UWS.Abigail.WinterStar.Married.After}}",
+			},
+			"When": {
+				"relationship:Abigail": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Abigail": "RomanceWithoutSex",
+				"Enable Spicy Dialogue": "true",
+				"Abigail": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Sebastian - Winter Star, Romance Fallback",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries":{
+				"Event.cs.1501": "{{i18n:UWS.Sebastian.WinterStar.Married.Before}}",
+				"Event.cs.1504": "{{i18n:UWS.Sebastian.WinterStar.Married.After}}",
+			},
+			"When": {
+				"relationship:Sebastian": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Sebastian": "RomanceWithoutSex",
+				"Enable Spicy Dialogue": "true",
+				"Sebastian": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Alex - Winter Star, Romance Fallback",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries":{
+				"Event.cs.1501": "{{i18n:UWS.Alex.WinterStar.Married.Before}}",
+				"Event.cs.1504": "{{i18n:UWS.Alex.WinterStar.Married.After}}",
+			},
+			"When": {
+				"relationship:Alex": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Alex": "RomanceWithoutSex",
+				"Enable Spicy Dialogue": "true",
+				"Alex": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Haley - Winter Star, Romance Fallback",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries":{
+				"Event.cs.1501": "{{i18n:UWS.Haley.WinterStar.Married.Before}}",
+				"Event.cs.1504": "{{i18n:UWS.Haley.WinterStar.Married.After}}",
+			},
+			"When": {
+				"relationship:Haley": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Haley": "RomanceWithoutSex",
+				"Enable Spicy Dialogue": "true",
+				"Haley": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Leah - Winter Star, Romance Fallback",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries":{
+				"Event.cs.1499": "{{i18n:UWS.Leah.WinterStar.Married.Before}}",
+				"Event.cs.1500": "{{i18n:UWS.Leah.WinterStar.Married.After}}",
+			},
+			"When": {
+				"relationship:Leah": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Leah": "RomanceWithoutSex",
+				"Enable Spicy Dialogue": "true",
+				"Leah": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Elliott - Winter Star, Romance Fallback",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries":{
+				"Event.cs.1499": "{{i18n:UWS.Elliott.WinterStar.Married.Before}}",
+				"Event.cs.1500": "{{i18n:UWS.Elliott.WinterStar.Married.After}}", 
+			},
+			"When": {
+				"relationship:Elliott": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Elliott": "RomanceWithoutSex",
+				"Enable Spicy Dialogue": "true",
+				"Elliott": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Harvey - Winter Star, Romance Fallback",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries":{
+				"Event.cs.1499": "{{i18n:UWS.Harvey.WinterStar.Married.Before}}",
+				"Event.cs.1500": "{{i18n:UWS.Harvey.WinterStar.Married.After}}",
+			},
+			"When": {
+				"relationship:Harvey": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Harvey": "RomanceWithoutSex",
+				"Enable Spicy Dialogue": "true",
+				"Harvey": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Maru - Winter Star, Romance Fallback",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries":{
+				"Event.cs.1499": "{{i18n:UWS.Maru.WinterStar.Married.Before}}",
+				"Event.cs.1500": "{{i18n:UWS.Maru.WinterStar.Married.After}}",
+			},
+			"When": {
+				"relationship:Maru": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Maru": "RomanceWithoutSex",
+				"Enable Spicy Dialogue": "true",
+				"Maru": "normal, spicy",
+			},
+		},
+	],
+}

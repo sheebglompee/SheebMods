@@ -1,0 +1,55 @@
+{
+    "Name": "Nut Milk (PH)",
+    "Description": "Non dairy milk. It's still got a creamy mouthfeel.",
+    "Category": "ArtisanGoods",
+	"ContextTags": 
+        [
+        "ph_milk",
+		"drink_item", 
+		"milk_item,",
+		"color_white"
+        ],
+    "Edibility": 13,
+	"EdibleIsDrink": true,
+    "Price": 140, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": null,
+        "Like": ["Evelyn", "Jodi", "Leah", "Linus", "Marnie", "Pam", "Penny", "Pierre", "Robin"],
+        "Neutral": null, 
+        "Dislike": ["Lewis", "Haley", "Eliott", "Dwarf", "Wizard"], 
+        "Hate": ["Kent"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Nut Milk",
+		"es": "Nut Milk", 
+        "ko": "Nut Milk", 
+        "de": "Nussmilch", 
+        "fr": "Nut Milk", 
+        "hu": "Nut Milk", 
+        "it": "Nut Milk", 
+        "ja": "Nut Milk",
+        "pt": "Nut Milk", 
+        "ru": "Ореховое молоко", 
+        "tr": "Nut Milk",
+        "zh": "坚果牛奶", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Non dairy milk. It's still got a creamy mouthfeel.", 
+        "ko": "Non dairy milk. It's still got a creamy mouthfeel.", 
+        "de": "Eine milchfreie Milch. Sie hat immer noch ein cremiges Mundgefühl.",
+        "fr": "Non dairy milk. It's still got a creamy mouthfeel.", 
+        "hu": "Non dairy milk. It's still got a creamy mouthfeel.",
+        "it": "Non dairy milk. It's still got a creamy mouthfeel.", 
+        "ja": "Non dairy milk. It's still got a creamy mouthfeel.", 
+        "pt": "Non dairy milk. It's still got a creamy mouthfeel.",
+        "ru": "Безмолочное молоко. Однако вкус остается сливочный.", 
+        "tr": "Non dairy milk. It's still got a creamy mouthfeel.", 
+        "zh": "非牛奶。 它仍然有奶油的口感。",
+    },
+}

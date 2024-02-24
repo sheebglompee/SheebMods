@@ -1,0 +1,23 @@
+{
+  "Changes": [
+    {
+      "LogName": "Companion dialogues for Andy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Andy",
+      "Entries": {
+        "companionAccepted": "Seguro, granjero. ¡Hagamoslo!$1",
+        "companionRejected": "Hoy estoy demasiado ocupado en la granja.$2",
+        "companionRejectedNight": "¿Estas bromeando? ¡Ve a dormir por el bien de Yoba!$5",
+        "companionDismiss": "Oh, seguro. Yo me voy.$0#$b#Sabes donde encontrarme.$3",
+        "companionDismissAuto": "Perdón, granjero. Pero tengo que terminar, ya es de noche.$0#$b#No te preocupes, le pediré a Yoba que te cuide.$8",
+        "companionRecruited": "¿Deberíamos tomar un trago, @?$1",
+        "giveForages": "¡Oye, @, mira lo que encontré! Acá, ésto es para ti.",
+        "heal": "Querido Yoba un recien nacido de 3 kilos con 800 gramos...$8",
+        "nomedkits": "No abuses de la misericordia de Yoba.$7",
+        "companion_SeedShop": "No veo cómo alguien puede darse el lujo de comprar en este lugar.$5#$b#Pierre's tiene agallas cobrando tanto...$2",
+        "companion_Desert": "No hay más que arena y ni siquiera hay un MercaJoja... ¿Cómo podría alguien vivir aquí?$7#$b#Parece que Yoba abandonó este lugar hace años.$8",
+        "companion_Town": "En este pueblo solo me siento bienvenido en el salón, el altar de Yoba y en MercaJoja.$2#$b#Preferiría estar solo en el bosque...$8"
+      }
+    }
+  ]
+}

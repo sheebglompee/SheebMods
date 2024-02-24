@@ -1,0 +1,19 @@
+﻿{
+    "Name": "Frost-Spot Mushroom",
+    "Description": "Folk tales tell that these mark where a fairy froze to death.",
+    "Category": "Greens",
+    "CategoryTextOverride": "Mushroom",
+    "Edibility": -25,
+    "Price": 75,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Frost-Spot-Mushroom",
+    "ContextTags": [
+    "season_winter",
+    "color_blue",
+    "forage_item",
+    "mushroom_item",
+    "forage_item_mines",
+  ],
+}

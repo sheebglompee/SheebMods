@@ -1,0 +1,49 @@
+{
+	"Name": "Harvey Doll",
+	"Description": "Handcrafted doll made from repurposed materials and forage. Looks like Harvey.",
+	"Category": "Crafting",
+	"CategoryTextOverride": "Doll",
+	"Edibility": -300,
+	"Price": 300,
+	"IsColored": false,
+	"Recipe": {
+		"ResultCount": 1,
+		"Ingredients": [
+			{
+				"Object": 412, //Winter Root
+				"Count": 1
+			},
+			{
+				"Object": 168, //Trash
+				"Count": 1
+			},
+			{
+				"Object": "Base Doll",
+				"Count": 1
+			}
+		],
+		"IsDefault": true
+	},
+	"GiftTastes": {
+		"Love": ["Harvey", "Maru", "Philip"],
+		"Like": ["Emily", "Leah", "Jas", "Penny", "Sam", "Maddie"],
+		"Neutral": [
+			"Abigail",
+			"Alex",
+			"Elliott",
+			"Haley",
+			"Shane",
+			"Sebastian",
+			"Vincent",
+			"Jeric",
+			"Flor"
+		]
+	},
+	"NameLocalization": {
+		"ko": "하비 인형"
+	},
+	"DescriptionLocalization": {
+		"ko": "재활용품과 채집물로 만든 수공예 인형. 하비를 닮았습니다."
+	},
+	"CanPurchase": false
+}

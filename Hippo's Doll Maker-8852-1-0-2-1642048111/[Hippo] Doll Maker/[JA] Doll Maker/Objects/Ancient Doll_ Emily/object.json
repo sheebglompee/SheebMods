@@ -1,0 +1,60 @@
+{
+	"Name": "Emily Doll",
+	"Description": "Handcrafted doll made from repurposed materials and forage. Looks like Emily.",
+	"Category": "Crafting",
+	"CategoryTextOverride": "Doll",
+	"Edibility": -300,
+	"Price": 300,
+	"IsColored": false,
+	"Recipe": {
+		"ResultCount": 1,
+		"Ingredients": [
+			{
+				"Object": 16, //Wild Horseradish
+				"Count": 1
+			},
+			{
+				"Object": 168, //Trash
+				"Count": 1
+			},
+			{
+				"Object": "Base Doll",
+				"Count": 1
+			}
+		],
+		"IsDefault": true
+	},
+	"GiftTastes": {
+		"Love": ["Emily", "Leah", "Clint"],
+		"Like": [
+			"Haley",
+			"Jas",
+			"Penny",
+			"Sam",
+			"Corine",
+			"Daia",
+			"Philip",
+			"Maddie"
+		],
+		"Neutral": [
+			"Abigail",
+			"Alex",
+			"Elliott",
+			"Harvey",
+			"Maru",
+			"Shane",
+			"Sebastian",
+			"Vincent",
+			"Trinnie",
+			"Keahi",
+			"Yuuma"
+		]
+	},
+	"NameLocalization": {
+		"ko": "에밀리 인형"
+	},
+	"DescriptionLocalization": {
+		"ko": "재활용품과 채집물로 만든 수공예 인형. 에밀리를 닮았습니다."
+	},
+	"CanPurchase": false
+}

@@ -1,0 +1,95 @@
+{
+	
+    "Changes":[
+
+        { 
+            "LogName": "Elliott14Heart Pt 1 - Vanilla",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {  
+                "928202220/f Elliott {{FriendshipRequiredHeartToken}}/{{FriendshipRequiredEventTokenElliott}}/o Elliott/t 600 900/w sunny/U 8": "continue/64 15/farmer 64 16 2 Elliott 64 18 0/addConversationTopic ElliottGone1 0/addConversationTopic elliottGone 6/addWorldState elliottGone/skippable/pause 900/speak Elliott \"@! I've just received the most exciting news!\"/pause 50/jump Elliott/pause 500/speak Elliott \"It's very short notice... but I've been invited to do a reading tour for my book, '%book'!\"/emote farmer 32/pause 500/emote Elliott 28/pause 400/speak Elliott \"I'll be out of town for a week and wanted to let you know.\"/quickQuestion #I'll miss you.#I'll be happy to see you gone!#Don't go!(break)emote Elliott 32\\speak Elliott \"I'll miss you too, my dear friend.#$b#And I'll write to you every day, of course!\"\\emote farmer 32(break)jump Elliott\\pause 500\\speak Elliott \"Hah... good one. Now, don't get too excited...$8#$b#I'll be sure to write to you every day. I'll miss you!\"(break)speak Elliott \"But @... This is a rare opportunity for me. I must go!$s#$b#Please don't make me feel guilty about this. I'll write to you    every day, and I'll be back before you know it.\"/pause 1000/speak Elliott \"I leave early tomorrow morning...#$b#I need to pack!$8\"/pause 1000/end dialogue Elliott \"Don't let me forget my hairbrush, my hairspray, my silk nightcap, and my pomegranate conditioner!\"",
+                "928202226/e 928202225/A ElliottGone6/n elliottLetter5/x elliottLetter6 true": "null",
+                "928202225/e 928202224/A ElliottGone5/n elliottLetter4/x elliottLetter5 true": "null",
+                "928202224/e 928202223/A ElliottGone4/n elliottLetter3/x elliottLetter4 true": "null",
+                "928202223/e 928202222/A ElliottGone3/n elliottLetter2/x elliottLetter3 true": "null",
+                "928202222/e 928202221/A ElliottGone2/n elliottLetter1/x elliottLetter2 true": "null",
+                "928202221/e 928202220/A ElliottGone1/x elliottLetter1 true": "null"
+                    },
+
+            "When": {
+                    "EnableElliott": true,
+                    "HasMod |contains=tiakall.writerelliott": "false"
+                    }          
+	    },
+
+        { 
+            "LogName": "Elliott14Heart Pt 1 - Realistic Writer",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {  
+                "928202220/f Elliott {{FriendshipRequiredHeartToken}}/{{FriendshipRequiredEventTokenElliott}}/o Elliott/t 600 900/w sunny/U 8": "continue/64 15/farmer 64 16 2 Elliott 64 18 0/addConversationTopic ElliottGone1 0/addConversationTopic elliottGone 6/addWorldState elliottGone/skippable/pause 900/speak Elliott \"@! I've just received the most exciting news!\"/pause 50/jump Elliott/pause 500/speak Elliott \"It's very short notice... but I've been invited to do a reading tour for my book, '%book'!#$b#Do you know how rare this is for a debut author, @? Marketing like this is almost unheard of in this day and age!$8\"/emote farmer 32/pause 500/emote Elliott 28/pause 400/speak Elliott \"I'll be out of town for a week. It'll just be to Zuzu and Grampleton and some surrounding areas, but wanted to let you know.\"/quickQuestion #I'll miss you.#I'll be happy to see you gone!#Don't go!(break)emote Elliott 20\\speak Elliott \"I'll miss you too, my dear friend.#$b#And I'll write to you every day, of course!\"\\emote farmer 32(break)jump Elliott\\pause 500\\speak Elliott \"Hah... good one. Now, don't get too excited...$8#$b#I'll be sure to write to you every day. I'll miss you!\"(break)speak Elliott \"But @... This is a rare opportunity for me. I must go!$s#$b#Please don't make me feel guilty about this. I'll write to you    every day, and I'll be back before you know it.\"/pause 1000/speak Elliott \"I leave early tomorrow morning...#$b#I need to pack!$8\"/end dialogue Elliott \"Don't let me forget my hairbrush, my hairspray, my silk nightcap, and my pomegranate conditioner!\"",
+                "928202226/e 928202225/A ElliottGone6/n elliottLetter5/x elliottLetter6 true": "null",
+                "928202225/e 928202224/A ElliottGone5/n elliottLetter4/x elliottLetter5 true": "null",
+                "928202224/e 928202223/A ElliottGone4/n elliottLetter3/x elliottLetter4 true": "null",
+                "928202223/e 928202222/A ElliottGone3/n elliottLetter2/x elliottLetter3 true": "null",
+                "928202222/e 928202221/A ElliottGone2/n elliottLetter1/x elliottLetter2 true": "null",
+                "928202221/e 928202220/A ElliottGone1/x elliottLetter1 true": "null"
+                    },
+
+            "When": {
+                    "EnableElliott": true,
+                    "HasMod |contains=tiakall.writerelliott": "true"
+                    }          
+	    },
+
+        { 
+            "LogName": "Elliott14Heart Letters - Vanilla",
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {  
+                "elliottLetter1": "@, my friend,^^I've just arrived in Grampleton, to start the tour. I've forgotten how hectic the city is! The streets are packed with people... they either seem in a mad hurry, or lost in a daze, unaware of their surroundings. I miss Pelican Town already!^^I begin the tour this evening, at a local bookstore. I must admit, I'm becoming a bit nervous at the thought of public speaking... my stomach feels as if it's been twisted into a soft pretzel and doused with spicy cheese dip. Wish me luck!^^-From, Elliott^^P.S. I hope you had a peaceful night! My hotel neighbors were excessively noisy... %item conversationTopic ElliottGone2 0 %%[#]Letter From Elliott",
+                "elliottLetter2": "My dear @,^^The first reading went well, though the audience was a bit smaller than I'd hoped. Still, I sold enough copies of the book to pay for my (bug-infested) hotel room!^^In a few hours, I leave for Zuzu City. If yesterday's reading was a warm-up, this next one will be a true napalm blast...^^I miss everyone in Pelican Town very much. Remember to eat well! The hotel food here is making me long for Gus's homemade crab cakes...^-From, Elliott %item conversationTopic ElliottGone3 0 %%[#]Letter From Elliott 2",
+                "elliottLetter3": "My friend @,^^Last night in Zuzu City was quite the experience! It seems there's a large literary scene here... a few dozen people showed up at my reading!^^I even signed a couple of autographs... it's strange to be seen as someone important. It's all a matter of framing, a grand illusion... for truly I am no one special. Only your friend Elliott, as always.^^Currently I'm alone, in my hotel room, 'ingesting' a Joja Value Meal...^^Should this be called 'food'?^Or 'edible matter'?^I needn't long brood^It must be the latter^^I look forward to returning home soon. Say 'hello' to Gus and Willy for me!^^-From, Elliott %item conversationTopic ElliottGone4 0 %%[#]Letter From Elliott 3",
+                "elliottLetter4": "In dreams, when graced with lofty view^I gaze upon the sunlit sea^What distant shores I've travelled to^But time now clouds my memory^^There is but one eternal place^Where I shall someday pass before^In Valley dear, where my heart waits:^My little home beside the shore^^-Elliott %item conversationTopic ElliottGone5 0 %%[#]Letter From Elliott 4",
+                "elliottLetter5": "My dear @,^^I won't bore you with any more details about my readings. They are mostly the same.^^I'm sure your time has been much more exciting! I can't wait to return and see what progress has been made.^^On these long travels between towns, I amuse myself by closing my eyes and envisioning the valley... I see people sharing news as they pass at the store, hear the sweet murmur of the river beneath the bridge, and feel the warmth and cheer of a bustling night at the saloon. There's a lot to enjoy!^^Just don't stay out too late in the mines, my friend. It's dangerous in there! If you must go... bring plenty of food.^^-From, Elliott %item conversationTopic ElliottGone6 0 %%[#]Letter From Elliott 5",
+                "elliottLetter6": "My dear @,^^This will be my last letter before I return home. I've had a fine trip... though nothing too exciting. It's been nice to meet people who enjoy my work, but I'm eager to return home.^^I look forward to the comfort of my little house, the familiar swell and crash of waves, a friendly meal at the saloon, and most of all, catching up with you and sharing our tales of time apart.^^See you soon!^-From, Elliott %item conversationTopic ElliottGone7 0 %%[#]Letter From Elliott 6"
+                    },
+
+            "When": {
+                    "EnableElliott": true,
+                    "HasMod |contains=tiakall.writerelliott": "false"
+                    }          
+	    },
+
+            { 
+            "LogName": "Elliott14Heart Letters - Realistic Writer",
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {  
+                "elliottLetter1": "@, my friend,^^I've just arrived in Grampleton, to start the tour. I've forgotten how hectic the city is! The streets are packed with people... they either seem in a mad hurry, or lost in a daze, unaware of their surroundings. I miss Pelican Town already!^^I begin the tour this evening, at a local bookstore. I must admit, I'm becoming a bit nervous at the thought of public speaking... my stomach feels as if it's been twisted into a soft pretzel and doused with spicy cheese dip. Wish me luck!^^-From, Elliott^^P.S. I hope you had a peaceful night! My hotel neighbours were excessively noisy... %item conversationTopic ElliottGone2 0 %%[#]Letter From Elliott",
+                "elliottLetter2": "My dear @,^^The first reading went very well! I'm still a bit abuzz thinking I actually got to do something I dreamed of since I was a child.  The audience was a bit small, but the lady who ran the bookstore was such a lovely person, and very accomodating. She kept some of my books on stock to sell later, and I learned a little bit about how these small bookstores work. Maybe one day we'll have one in Pelican Town too!^^In a few hours, I leave for Zuzu City. If yesterday's reading was a warm-up, this next one will be a true napalm blast...^^I miss everyone in Pelican Town very much. Remember to eat well! The hotel food here is making me long for Gus's homemade crab cakes...^-From, Elliott %item conversationTopic ElliottGone3 0 %%[#]Letter From Elliott 2",
+                "elliottLetter3": "My friend @,^^Last night in Zuzu City was quite the experience! I was paired with a well-known author, a C. Sun, who has another book out in the same genre. So many people showed up just for them, but walked away with both our books! What a clever marketing trick! I thought this C. Sun would be too good to talk to a debut author, but they had so much helpful advice. We ended up exchanging email addresses and a promise to beta-read each other's next novel. Were I to ever become as famous, I hope I too can pay it forward.^^Currently I'm alone, in my hotel room, 'ingesting' a Joja Value Meal since I am responsible for my own travel costs...^^Should this be called 'food'?^Or 'edible matter'?^I needn't long brood^It must be the latter^^I look forward to returning home soon. Say 'hello' to Gus and Willy for me!^^-From, Elliott %item conversationTopic ElliottGone4 0 %%[#]Letter From Elliott 3",
+                "elliottLetter4": "In dreams, when graced with lofty view^I gaze upon the sunlit sea^What distant shores I've travelled to^But time now clouds my memory^^There is but one eternal place^Where I shall someday pass before^In Valley dear, where my heart waits:^My little home beside the shore^^-Elliott %item conversationTopic ElliottGone5 0 %%[#]Letter From Elliott 4",
+                "elliottLetter5": "My dear @,^^Last night's reading was four of us, all debut or mid-lister. We held a panel discussion about genre and writing, and afterwards the four of us went to a local dive and spent nearly half the night talking about writing and the industry.  It makes me realize that we are all in this together; as Willy would say, a rising tide lifts all boats.^^Even with the new friends I've made, I still long for the quiet of Pelican Town and the beauty of the valley. On these long travels between towns, I amuse myself by closing my eyes and envisioning our little town... I see people sharing news as they pass at the store, hear the sweet murmur of the river beneath the bridge, and feel the warmth and cheer of a bustling night at the saloon. There's a lot to enjoy!^^Just don't stay out too late in the mines, my friend. It's dangerous in there! If you must go... bring plenty of food.^^-From, Elliott %item conversationTopic ElliottGone6 0 %%[#]Letter From Elliott 5",
+                "elliottLetter6": "My dear @,^^This will be my last letter before I return home. This has been such an educational and gratifying experience, and I am glad I went. It's been heartwarming to meet people who enjoy my work, and to make new friends of my peers (whom I shall keep in touch with with the wonders of the internet--finally, a reason not to fear it so much.) Yet I am eager to return home.^^I look forward to the comfort of my little house, the familiar swell and crash of waves, a friendly meal at the saloon, and most of all, catching up with you and sharing our tales of time apart.^^See you soon!^-From, Elliott %item conversationTopic ElliottGone7 0 %%[#]Letter From Elliott 6"
+                    },
+
+            "When": {
+                    "EnableElliott": true,
+                    "HasMod |contains=tiakall.writerelliott": "true"
+                    }          
+	    },
+
+        { 
+            "LogName": "Elliott14Heart Pt 2",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {  
+                "928202227/e 928202226/A elliottGone/o Elliott/t 600 900": "continue/64 15/farmer 64 16 2 Elliott 64 18 0/pause 900/addConversationTopic ElliottTourOver 7/emote farmer 16 true/speak Elliott \"@, I'm back!\"/pause 400/speak Elliott \"Ah... I've missed seeing everyone.$l#$b#One drop of the big city and I'm quenched... I much prefer being back here in the valley!\"/pause 200/emote farmer 32/speak Elliott \"Well, I guess it's back to the old routine once again!$h#$b#I've got a sequel to get started on...\"/pause 500/end dialogue Elliott \"It's good to be back...\""
+                    },
+            "When": {
+                    "EnableElliott": true
+                    }          
+        }
+	]	
+}

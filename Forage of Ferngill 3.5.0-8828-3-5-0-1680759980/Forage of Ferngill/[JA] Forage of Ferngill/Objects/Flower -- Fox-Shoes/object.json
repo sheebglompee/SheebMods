@@ -1,0 +1,16 @@
+﻿{
+    "Name": "Fox-Shoes",
+    "Description": "Childrens tales say that Foxes wear these as slippers to sneak around silently.",
+    "Category": "Flower",
+    "Edibility": -50,
+    "Price": 55,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Fox-Shoes",
+    "ContextTags": [
+    "season_summer",
+    "color_pink",
+    "flower_item",
+  ],
+}

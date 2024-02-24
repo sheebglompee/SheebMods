@@ -1,0 +1,75 @@
+{
+"Changes": [
+    {
+      "LogName": "Witch Hut Events For Nul",
+      "Action": "Load",
+      "Target": "Data/Events/WitchHut",
+      "FromFile": "assets/Events/blank.json",
+      "When": {
+        "Load Witch Hut Blank File": "true"
+		}
+	},
+    {
+      "LogName": "Witch Swamp Events For Nul",
+      "Action": "Load",
+      "Target": "Data/Events/WitchSwamp",
+      "FromFile": "assets/Events/blank.json",
+      "When": {
+        "Load Witch Swamp Blank File": "true"
+		}
+	},
+	{
+		"LogName": "Introduction",
+		"Action": "EditData",
+		"Target": "Data/Events/WitchHut",
+		"Entries": {
+			"175920/e 529952": "echos/-1000 -1000/farmer 7 15 0 Nul 11 9 1/skippable/viewport 10 10 true/playSound doorClose/pause 500/faceDirection Nul 2/emote Nul 16/speak Nul \"H-hey!$5\"/emote farmer 16/startJittering/speed Nul 5/move Nul -4 0 2/speed Nul 5/move Nul 0 5 2/pause 500/speak Nul \"W-who are you?$3#$b#And...why have you come here?!$5\"/pause 500/faceDirection Nul 0/emote Nul 28/pause 500/emote farmer 40/pause 1500/faceDirection Nul 2/speak Nul \"Magic ink?#$b#That... Rasmodius sent you as a spy, didin't he?$5\"/emote Nul 12/emote farmer 28/stopJittering/pause 1500/emote Nul 28/speak Nul \"M-my apologies for scaring you. Nothing against you or Rasmodius, in fact, I greatly respect his work.$3#$b#It's just... he drove Lady Witch...$2#$b#... A-anyway, if that's what you're truly here for then please...just take the ink and leave through that red warp pad over there...$3#$b#And please, make haste...before Lady Witch catches you here$3\"/emote farmer 32/pause 500/speak Nul \"Me? Uh... Lady Witch refers to me as 'Nul Envoide' but you can may me Nul.#$b#And please... I-I'm not saying you shouldn't come back, you seem nice and all, but if you choose to, be on the watch for Lady Witch, for she tends to act mischievously e-especially towards associates of Rasmodius.$3#$b#I could use the company, anyway. Hurry along now.$h\"/pause 500/end",
+			},
+			},
+	{
+		"LogName": "Fishing",
+		"Action": "EditData",
+		"Target": "Data/Events/WitchSwamp",
+		"Entries": {
+			"175922/f Nul 500": "desolate/-1000 -1000/farmer -1000 -1000 0 Nul 23 23 1/skippable/viewport 23 23 true/showFrame Nul 17/pause 500/textAboveHead Nul \"Come on... Bite already...\"/pause 500/warp farmer 20 30/move farmer 0 -7 0/faceDirection farmer 1/pause 100/emote farmer 8/speak Nul \"Hello farmer... I'm just trying my hand at catching whatever mutated fish that lies below the swamp waters.\"/pause 500/emote farmer 40/pause 500/speak Nul \"No, no... It's okay, I'm just a bit hungry and needed something to snac-\"/message \"???: Nul!?! Nul Envoide!?!... Tch, where is that child?\"/pause 500/showFrame Nul 12/jump Nul/jump farmer/pause 800/speak Nul \"Uh oh. I-I have to go. Please leave, farmer. Quickly!\"/pause 100/speed Nul 4/move Nul 0 -1 1/speed Nul 4/move Nul -3 0 3/speed Nul 4/move Nul 0 -1 1/warp Nul -100 -100/globalFade/viewport -1000 -1000/pause 1500/message \"I wonder if Nul is eating properly.\"/pause 1200/message \"And... who was that on the other side of the door?\"/pause 500/end",
+			},
+			},
+	{
+		"LogName": "A Snack For You",
+		"Action": "EditData",
+		"Target": "Data/Events/WitchSwamp",
+		"Entries": {
+			"175924/e 175922/f Nul 1000/i 243": "desolate/-1000 -1000/farmer -1000 -1000 0 Nul 22 21 2/skippable/viewport 23 23 true/removeItem 243/showFrame Nul 16/pause 500/warp farmer 20 28/move farmer 0 -6 0/move farmer 2 0 1/faceDirection farmer 0/pause 100/emote farmer 8/speak Nul \"@? Hi.$h\"/pause 500/emote farmer 28/pause 500/speak Nul \"Sorry if I seem uninterested, I'm just reading a book on spells and charms. Let me finish this paragraph first.\"/pause 2500/showFrame Nul 0/speak Nul \"My apologies for the wait.#$b#Now... what was it you were saying?\"/pause 500/message \"You gave Nul a Miner's Treat.\"/jump Nul/emote Nul 16/pause 100/emote Nul 20/speak Nul \"Is this...? %firstnameletter... @, you shouldn't have...$s#$b#You know... I think it's only fair that I give you something in return, I insist.$h\"/pause 100/money 500/message \"You received 500g.\"/speak Nul \"It's not much, but it's what I can give out of the allowance Lady Witch gave me$h#$b#Though... I only use it to bribe Henchman into runing night time errands for me.\"/pause 1500/speak Nul \"Oh before you go, take this. I made a bit too much for lunch.[226]\"/message \"You received Spicy Eel.\"/pause 500/speak Nul \"Maybe one day we both can enjoy bonding over food by making it instead of exchanging it, haha.$h\"/end",
+			},
+			},
+	{
+		"LogName": "Free Bird",
+		"Action": "EditData",
+		"Target": "Data/Events/WitchHut",
+		"Entries": {
+			"175926/e 175924/f Nul 1500": "echos/-1000 -1000/farmer 3 10 3 Nul 2 9 2/skippable/viewport 1 9 true/pause 500/playSound slime/pause 1500/emote Nul 40/speak Nul \"Okay... good. Now we carefully add 1 part void mayonnaise and two parts periwinkle meat.\"/pause 500/playSound slime/pause 1000/screenFlash 1/playSound explosion/jump Nul/jump farmer 5/pause 100/emote Nul 8/emote farmer 16/pause 100/speak Nul \"Oh no... that wasn't supposed to happen. What went wrong?$2\"/pause 500/emote farmer 40/pause 500/emote Nul 8/pause 800/speak Nul \"You're right, @.\"/pause 100/pause 100/speak Nul \"I just need to retrace my steps and-\"/jump Nul/emote farmer 16/pause 500/speak Nul \"Aww... I was supposed to add 1 part void mayonnaise THEN two parts periwinkle meat, not add them at the same time.$2\"/pause 500/emote farmer 60/emote Nul 28/pause 100/speak Nul \"That's a shame. We'll have to restart our baking project...\"/pause 500/pause 500/speak Nul \"But that will have to wait another time for it seem that I ran out of ingredients for another attempt.\"/pause 500/emote farmer 32/pause 500/speak Nul \"You... wish to collect the ingredients yourself?$3\"/jump farmer/emote farmer 32/pause 500/speak Nul \"@, I... you're a kind soul.$h#$b#But I'm afraid that I will have to decline your offer.#$b#Not only will I feel guilty for sending you out, but I'm afraid Lady Witch may get suspicious of the new ingredients.$3#$b#Since as she is in charge of retrieving the needed food stuff it would be strange to have food randomly show up like that.\"/pause 100/emote farmer 40/pause 100/speak Nul \"To be honest... I would love to find food myself but...$3\"/pause 100/shake Nul 500/emote Nul 28/pause 100/speak Nul \"I... I'm scared, @. Not everyone is as nice as you are when faced with the unknown.$2#$b#You're the only unit of kindness I know, @... others have... others have brought harm.$2\"/pause 100/emote farmer 8/emote Nul 28/pause 100/speak Nul \"What do I mean? Well, I... was apart of a 'herd'. A group of other sheep-folk like me...$3\"/pause 100/emote farmer 16/pause 100/speak Nul \"Yes, and I was one of few 'black sheep' in that herd.#$b#I don't remember much because I was very young when it happened.#$b#All I remember was being mocked and physically by my peers for looking different.$3#$b#They went as far as to occasionally shear both me and others that looked like me until we felt the razors cut us.$2\"/pause 100/shake Nul 500/pause 100/speak Nul \"One of those days, Lady Witch flew over my meadow and I guess she caught a glimpse of the commotion.#$b#The next thing I knew, I ended up here to live with her and be her familiar, her apprentice, her... family...$2#$b#She and Rasmodius were like parents to me, until... until Rasmodius left....$2#$b#Lady Witch became more quick to anger until she became cold and distant all the time with me... even her skin turned green.$2\"/pause 500/quickQuestion #It's okay, I'll always be with you.#Do you want me to play a tiny violin for you?(break)switchEvent 175926_caring(break)switchEvent 175926_mean",
+
+			"175926_caring": "friendship Nul 100/pause 500/emote Nul 20/pause 500/speak Nul \"@, you sweetheart, could you be any kinder?$h#$b#That means alot... it really does.#$b#Maybe one day I can walk through town without worrying about the worst that could happen.#$b#... Promise me you'll be there to help, you know, just in case?$3\"/emote farmer 32/pause 100/emote Nul 20/end dialogue Nul \"I couldn't have asked for a better friend, @.$h#$b#Thank you, sugarcube.$h\"",
+
+			"175926_mean": "friendship Nul -750/pause 500/emote Nul 28/pause 500/speak Nul \"*sniff* @... I-I thought we were friends. How could you be so insensitive?$2#$b#You are an awful, awful person. I ought to put a curse on you...$5#b#Now leave.$5\"/emote Nul 12/pause 500/emote farmer 28/end dialogue Nul \"...$s#$b#%Nul seems to be ignoring you.\"",
+			},
+			},
+	{
+		"LogName": "Nul out in the World",
+		"Action": "EditData",
+		"Target": "Data/Events/Town",
+		"Entries": {
+			"175928/e 175926/t 1800 2000/f Nul 2000/w sunny/z spring/z summer/F": "echos/-1000 -1000/farmer 33 59 1 Nul -1000 -1000 0 Sam 45 57 1 Sebastian 47 57 3 Abigail -1000 -1000 0/addConversationTopic nulHere 3/skippable/viewport 40 56 true/beginSimultaneousCommand/move farmer 9 0 1/playSound doorClose/warp Nul 43 57/faceDirection Nul 2/faceDirection Sam 3/move Nul 0 2 2/warp Abigail 43 57 2/faceDirection Abigail 2/endSimultaneousCommand/textAboveHead Abigail \"See ya around, man!\"/faceDirection Nul 0/textAboveHead Nul \"You too, hun.\"/move Abigail 0 1 2/move Abigail 3 0 1/faceDirection Abigail 0/pause 100/faceDirection Sam 1/pause 100/faceDirection Nul 3/emote farmer 8/pause 200/speak Nul \"@! Just the person I wanted to see.$h\"/pause 100/emote farmer 16/pause 500/speak Nul \"What am I doing here? Well... that is a funny story.$3#$b#I know this may be surprising to hear, but I... I don't want to be afraid anymore, @.$3#$b#The more we've grown closer, the more I found myself feeling less scared of what to expect from the outside world.#$b#Yes, there are negatives to keep on the watch for, but I didn't allow that to stop me.$3#$b#For a few days now, I've been leaving the swamp behind Lady Witch's back, mainly to try and keep contact with Rasmodius.#$b#I've made contact with the local townsfolk in the process and it's surprising how welcoming they are...$h#$b#... for the most part at least.$2#$b#But now, with you by my side, I feel ready to explore this world.$h\"/pause 100/emote farmer 32/pause 500/speak Nul \"Now...#$b#May we visit your farm now?$h\"/pause 500/emote farmer 32/end",
+			},
+			},
+	{
+		"LogName": "Night on the beach",
+		"Action": "EditData",
+		"Target": "Data/Events/Beach",
+		"Entries": {
+			"1759210/e 175928/t 2000 2400/f Nul 2500/w sunny/D Nul": "desolate/-1000 -1000/farmer 87 36 2 Nul 86 40 2/skippable/viewport 85 38 true/pause 200/move farmer 0 4 2/emote Nul 40/pause 1000/speak Nul \"Up late too, huh?\"/pause 1000/showFrame Nul 19/pause 1000/speak Nul \"Come now... don't be shy. Sit.\"/pause 200/showFrame farmer 4/pause 500/emote Nul 40/pause 500/speak Nul \"I came out here to collect my thoughts... I never expected you to be here of all places this time of night.\"/pause 500/speak Nul \"Lady Witch... she... she caught my on my way home that night when I visited your farm.$3\"/pause 100/emote farmer 16/pause 200/emote farmer 8/pause 100/speak Nul \"Of course she was upset. Mostly because I've grown close with you while knowing your relation to Rasmodius.$3#$b#I begged and pleaded for her to spare you and how you're not like him.$2#$b#She huffed and puffed for a bit then she just... stopped. Like she was pondering and calculating her next move.#$b#After a few moments she sighed and said, 'So that farmer found their way into my quarters then found their way into your heart, Nul? Hmm... so be it. I was there once... but remember, dear, whatever happens don't forget my story.'\"/pause 500/speak Nul \"... At that point, I was confused as to what she was talking about, mainly in regards to how I felt about you... until...$3#$b#... until the day you asked to court me, @.$4\"/pause 100/emote Nul 60/pause 500/speak Nul \"@... you have no idea how happy and light-headed that made me feel knowing that you feel for me the same way I feel for you.$4\"/emote farmer 20/emote Nul 20/pause 500/speak Nul \"Let's spend some more time under the stars, @. It's better in the company of a loved one, anyway.$4\"/pause 500/emote farmer 20/globalFade/viewport -10000 -10000/pause 1500/speak Nul \"I... really adore you, @.$4\"/pause 1000/message \"I adore you too, Nul.\"/end",
+			},
+			},
+
+]
+}

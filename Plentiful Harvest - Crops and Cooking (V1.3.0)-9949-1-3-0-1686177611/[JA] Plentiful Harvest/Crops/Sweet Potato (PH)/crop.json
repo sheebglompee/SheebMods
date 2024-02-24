@@ -1,0 +1,53 @@
+{
+    "Name": "Sweet Potato (PH)", 
+    "Product": "Sweet Potato (PH)",
+    "SeedName": "Sweet Potato Seeds (PH)", 
+    "SeedDescription": "Plant these in the fall. Takes 6 days to mature and has a chance of yielding multiple tubers per harvest.", 
+    "Type": "Vegetable", 
+    "CropType": "Normal", 
+    "Seasons": ["fall"], 
+    "Phases": [1, 1, 2, 2], 
+    "RegrowthPhase": -1, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": false, 
+	"Bonus": 
+    {
+        "MinimumPerHarvest": 1, 
+        "MaximumPerHarvest": 3, 
+        "MaxIncreasePerFarmLevel": 5, 
+        "ExtraChance": 0.3, 
+    },
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "STF.PlentifulHarvest", 
+    "SeedPurchasePrice": 20, 
+
+    "SeedNameLocalization":
+    {
+        "default": "Sweet Potato Seeds",
+		"es": "Sweet Potato Seeds", 
+        "ko": "Sweet Potato Seeds", 
+        "de": "Süßkartoffel-Saat", 
+        "fr": "Sweet Potato Seeds", 
+        "hu": "Sweet Potato Seeds", 
+        "it": "Sweet Potato Seeds", 
+        "ja": "Sweet Potato Seeds", 
+        "pt": "Sweet Potato Seeds", 
+        "ru": "Семена сладкого картофеля", 
+        "tr": "Sweet Potato Seeds", 
+        "zh": "红薯种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plant these in the fall. Takes 6 days to mature and has a chance of yielding multiple tubers per harvest.", 
+        "ko": "Plant these in the fall. Takes 6 days to mature and has a chance of yielding multiple tubers per harvest.", 
+        "de": "Pflanze sie im Herbst. Wächst in 6 Tagen heran und bringt manchmal mehrere Süßkartoffeln pro Ernte ein.", 
+        "fr": "Plant these in the fall. Takes 6 days to mature and has a chance of yielding multiple tubers per harvest.", 
+        "hu": "Plant these in the fall. Takes 6 days to mature and has a chance of yielding multiple tubers per harvest.", 
+        "it": "Plant these in the fall. Takes 6 days to mature and has a chance of yielding multiple tubers per harvest.", 
+        "ja": "Plant these in the fall. Takes 6 days to mature and has a chance of yielding multiple tubers per harvest.", 
+        "pt": "Plant these in the fall. Takes 6 days to mature and has a chance of yielding multiple tubers per harvest.", 
+        "ru": "Сажайте осенью. Вырастает через 6 дней. Есть вероятность собрать несколько клубней.", 
+        "tr": "Plant these in the fall. Takes 6 days to mature and has a chance of yielding multiple tubers per harvest.", 
+        "zh": "秋天种植。 需要6天成熟，有机会获得多个红薯。", 
+    }
+}

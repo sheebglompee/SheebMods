@@ -1,0 +1,20 @@
+{
+    "Name": "Flower Press",
+    "Description": "A wooden press traditionally used to preserve flowers.",
+    "Price": 250,
+    "ProvidesLight": false,
+    "ReserveNextIndex": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 50,
+        },],
+        "CanPurchase": false,
+        "SkillUnlockName": "Foraging",
+        "SkillUnlockLevel": 1,
+    },
+	"TranslationKey": "BigCraftables.Flower-Press",
+}

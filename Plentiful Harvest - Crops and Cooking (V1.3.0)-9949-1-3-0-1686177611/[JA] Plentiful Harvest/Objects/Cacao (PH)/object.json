@@ -1,0 +1,54 @@
+{
+    "Name": "Cacao (PH)",
+    "Description": "These pods are full of little beans that, when refinned in a Processor, become cocoa powder.",
+    "Category": "ArtisanGoods",
+	"ContextTags": 
+        [
+        "season_summer",
+        "ph_cacao",
+		"color_brown",
+		"dye_medium"
+        ],
+    "Edibility": 15,
+    "Price": 85, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Leo", "Gus"],
+        "Like": ["Demetrius"],
+        "Neutral": null, 
+        "Dislike": ["Shane", "Haley", "Lewis", "George", "Sebastian", "Penny", "Alex", "Sam", "Harvey"], 
+        "Hate": ["Vincent", "Jas"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Cacao",
+		"es": "Cacao", 
+        "ko": "Cacao", 
+        "de": "Kakao", 
+        "fr": "Cacao", 
+        "hu": "Cacao", 
+        "it": "Cacao", 
+        "ja": "Cacao",
+        "pt": "Cacao", 
+        "ru": "Какао-стучки", 
+        "tr": "Cacao",
+        "zh": "可可豆", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "These pods are full of little beans that, when refinned in a Processor, become cocoa powder.", 
+        "ko": "These pods are full of little beans that, when refinned in a Processor, become cocoa powder.", 
+        "de": "Diese Schoten sind voller kleiner Bohnen. In einem Zerkleinerer können sie zu Kakaopulver verarbeitet werden.",
+        "fr": "These pods are full of little beans that, when refinned in a Processor, become cocoa powder.", 
+        "hu": "These pods are full of little beans that, when refinned in a Processor, become cocoa powder.",
+        "it": "These pods are full of little beans that, when refinned in a Processor, become cocoa powder.", 
+        "ja": "These pods are full of little beans that, when refinned in a Processor, become cocoa powder.", 
+        "pt": "These pods are full of little beans that, when refinned in a Processor, become cocoa powder.",
+        "ru": "В этих стручках полно маленьких какао-бобов, которые при измельчении на небольшой мельнице превращаются в какао-порошок.", 
+        "tr": "These pods are full of little beans that, when refinned in a Processor, become cocoa powder.", 
+        "zh": "这些豆荚里装满了小可可豆，在小磨坊里精炼后就变成了可可粉。",
+    },
+}

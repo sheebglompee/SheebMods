@@ -1,0 +1,57 @@
+﻿{
+    "Name": "Oil Maker (PH)",
+    "Description": "This machine turns additional items into oil for cooking.",
+    "Price": 1,
+    "ProvidesLight": false,
+	"ReserveExtraIndexCount": 2,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 336,
+            "Count": 1,
+        },
+        {
+            "Object": 766,
+            "Count": 50,
+        },
+        {
+            "Object": 709,
+            "Count": 20,
+        }, ],
+        "CanPurchase": false,
+    },
+// Localization
+
+    "NameLocalization":
+    {
+        "default": "Oil Maker",
+		"es": "Oil Maker", //Spansih
+        "ko": "Oil Maker", //Korean
+        "de": "Ölpresse", //German
+        "fr": "Oil Maker", //French
+        "hu": "Oil Maker", //Hungarian
+        "it": "Oil Maker", //Italian
+        "ja": "Oil Maker", //Japanese
+        "pt": "Oil Maker", //Portuguese
+        "ru": "Производитель масла", //Russian
+        "tr": "Oil Maker", //Turkish
+        "zh": "石油制造商", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "This machine turns additional items into oil for cooking.", //Spansih
+        "ko": "This machine turns additional items into oil for cooking.", //Korean
+        "de": "Diese Maschine stellt aus zugefügten Gegenstände Öl zum Kochen her.", //German
+        "fr": "This machine turns additional items into oil for cooking.", //French
+        "hu": "This machine turns additional items into oil for cooking.", //Hungarian
+        "it": "This machine turns additional items into oil for cooking.", //Italian
+        "ja": "This machine turns additional items into oil for cooking.", //Japanese
+        "pt": "This machine turns additional items into oil for cooking.", //Portuguese
+        "ru": "Эта машина превращает дополнительные предметы в масло для приготовления пищи.", //Russian
+        "tr": "This machine turns additional items into oil for cooking.", //Turkish
+        "zh": "这台机器将额外的物品变成油来烹饪。", //Chinese (Simplified)
+    },
+	
+}

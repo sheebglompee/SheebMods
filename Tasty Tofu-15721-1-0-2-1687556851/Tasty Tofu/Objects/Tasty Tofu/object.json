@@ -1,0 +1,32 @@
+{
+	"Name": "Tasty Tofu",
+	"Description": "A tasty block of fresh tofu.",
+	"Category": "Egg",
+	"Edibility": 12,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 100,
+	"IsColored": false,
+	"Recipe": {
+		"ResultCount": 1,
+		"Ingredients": [
+			{
+				"Object": "Soy (PH)", 
+				"Count": 1
+			},
+			{
+				"Object": 152,
+				"Count": 1
+			}
+		],
+		"IsDefault": "False",
+		"CanPurchase": "True",
+		"PurchaseFrom": "Gus",
+		"PurchasePrice": "50",
+	},
+	"GiftTastes": {
+		"Love": [
+			"Emily","Leah","Penny"
+		]
+	}
+}

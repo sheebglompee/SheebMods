@@ -1,0 +1,53 @@
+{
+    "Name": "Quince (PH)", 
+    "Product": "Quince (PH)",
+    "SeedName": "Quince Seeds (PH)", 
+    "SeedDescription": "Plant these in the fall. Takes 9 days to mature into a quince bush. Continues to produce after the first harvest, with a chance to yield multiple fruits.", 
+    "Type": "Fruit", 
+    "CropType": "Normal", 
+    "Seasons": ["fall"], 
+    "Phases": [1, 2, 2, 2, 2], 
+    "RegrowthPhase": 3, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": false, 
+	"Bonus": 
+    {
+        "MinimumPerHarvest": 1, 
+        "MaximumPerHarvest": 3, 
+        "MaxIncreasePerFarmLevel": 5, 
+        "ExtraChance": 0.2, 
+    },
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "STF.PlentifulHarvest", 
+    "SeedPurchasePrice": 80, 
+
+    "SeedNameLocalization":
+    {
+        "default": "Quince Seeds",
+		"es": "Quince Seeds", 
+        "ko": "Quince Seeds", 
+        "de": "Quitten-Saat", 
+        "fr": "Quince Seeds", 
+        "hu": "Quince Seeds", 
+        "it": "Quince Seeds", 
+        "ja": "Quince Seeds", 
+        "pt": "Quince Seeds", 
+        "ru": "Семена айвы", 
+        "tr": "Quince Seeds", 
+        "zh": "木梨种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plant these in the fall. Takes 9 days to mature into a quince bush. Continues to produce after the first harvest, with a chance to yield multiple fruits.", 
+        "ko": "Plant these in the fall. Takes 9 days to mature into a quince bush. Continues to produce after the first harvest, with a chance to yield multiple fruits.", 
+        "de": "Pflanze sie im Herbst. Wächst in 9 Tagen zu einem Quittenbusch heran, kann aber danach mehrmals geerntet werden. Bringt manchmal mehrere Quitten pro Ernte ein.", 
+        "fr": "Plant these in the fall. Takes 9 days to mature into a quince bush. Continues to produce after the first harvest, with a chance to yield multiple fruits.", 
+        "hu": "Plant these in the fall. Takes 9 days to mature into a quince bush. Continues to produce after the first harvest, with a chance to yield multiple fruits.", 
+        "it": "Plant these in the fall. Takes 9 days to mature into a quince bush. Continues to produce after the first harvest, with a chance to yield multiple fruits.", 
+        "ja": "Plant these in the fall. Takes 9 days to mature into a quince bush. Continues to produce after the first harvest, with a chance to yield multiple fruits.", 
+        "pt": "Plant these in the fall. Takes 9 days to mature into a quince bush. Continues to produce after the first harvest, with a chance to yield multiple fruits.", 
+        "ru": "Сажайте осенью. Вырастает через 9 дней и продолжает давать урожай после первого сбора.", 
+        "tr": "Plant these in the fall. Takes 9 days to mature into a quince bush. Continues to produce after the first harvest, with a chance to yield multiple fruits.", 
+        "zh": "秋天种植。 需要9天才能长成一棵木梨小树。 在第一次收获后继续结果，有机会产出多个木梨。", 
+    }
+}

@@ -1,0 +1,55 @@
+{
+  "Format": "1.0",
+  "Quests": [
+    {
+      // This quest is added to questlog by the story scenario AdventureBegins in C# (main NA dll)
+      "Name": "adventure1",
+      "Type": "Location",
+      "Title": "%i18n:adventure1.title",
+      "Description": "%i18n:adventure1.description",
+      "Objective": "%i18n:adventure1.objective",
+      "Reward": 0,
+      "Cancelable": false,
+      "Trigger": "AdventureGuild"
+    },
+    {
+      // This quest is added to questlog by the story scenario AdventureBegins in C# (main NA dll)
+      // This quest is completed by story scenario AdventureBegins when player recruits first companion
+      "Name": "adventure2",
+      "Type": "Basic",
+      "Title": "%i18n:adventure2.title",
+      "Description": "%i18n:adventure2.description",
+      "Objective": "%i18n:adventure2.objective",
+      "Reward": 250,
+      "Cancelable": false,
+      "NextQuests": [
+        "adventure3"
+      ]
+    },
+    {
+      // Added to questlog by complete quest adventure2
+      "Name": "adventure3",
+      "Type": "purrplingcat.npcadventure/Recruitment",
+      "Title": "%i18n:adventure3.title",
+      "Description": "%i18n:adventure3.description",
+      "Reward": 1000,
+      "Cancelable": true,
+      "Trigger": "5",
+      "NextQuests": [
+        "adventure4"
+      ]
+    },
+    {
+      // Added to questlog by complete quest adventure3
+      "Name": "adventure4",
+      "Type": "purrplingcat.npcadventure/Recruitment",
+      "Title": "%i18n:adventure4.title",
+      "Description": "%i18n:adventure4.description",
+      "Reward": 1250,
+      "Cancelable": true,
+      "Trigger": "10",
+      "AddMailOnComplete": "purrplingcat.npcadventure.adventureContinue tomorrow"
+    }
+  ],
+  "Offers": []
+}

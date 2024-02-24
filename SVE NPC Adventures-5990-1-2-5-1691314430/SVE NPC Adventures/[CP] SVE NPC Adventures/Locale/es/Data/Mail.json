@@ -1,0 +1,19 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load NPC Adventures mail data",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "purrplingcat.npcadventure.bagItemsSentLetter_Andy": "Hola {0},^^Olvidaste algunos artículos en mi bolso, así que te los envié.^Me divertí ayer, ¡espero verte pronto!^^    - {1}",
+        "purrplingcat.npcadventure.bagItemsSentLetter_Claire": "Hola {0},^^Vi algunas de tus cosas en mi bolso, así que te las he devuelto amablemente.^Ayer fue genial, ¡espero que volvamos a hacerlo pronto!^^    - {1}",
+        "purrplingcat.npcadventure.bagItemsSentLetter_MarlonFay": "Hola {0},^^¡Debiste estar distraído ayer, dejaste algunas de tus cosas en mi bolso!^Te las envié de vuelta, ¡sigue con el buen trabajo!^^    - {1}",
+        "purrplingcat.npcadventure.bagItemsSentLetter_MorrisTod": "Hola {0},^^Todavía tenía algunas de tus cosas en mi bolso, así que te las devolví. Eres un poco olvidadizo.^De todos modos, te veré por el pueblo.^^    - {1}",
+        "purrplingcat.npcadventure.bagItemsSentLetter_Olivia": "Hola {0},^^Ayer fue bastante lindo, pero olvidaste las cosas que pusiste en mi bolso. Te los envié de vuelta, no es gran cosa.^Gracias por salir conmigo. Podríamos hacerlo de nuevo alguna vez.^^    - {1}",
+        "purrplingcat.npcadventure.bagItemsSentLetter_Sophia": "Hola {0},^^Todavía tenía algunas de tus cosas en mi bolso, así que te las devolví. Eres un poco olvidadizo.^De todos modos, te veré por el pueblo.^^    - {1}",
+        "purrplingcat.npcadventure.bagItemsSentLetter_Susan": "Oye {0},^^¡Mi bolso se sentía muy pesado, así que lo revisé y me di cuenta de que dejaste tus cosas conmigo!^Tuve mucho cuidado con tus artículos, y todos deberían estar allí en tu granja ahora.^¡Ven a verme nuevamente en mi casa al lado de las líneas del tren!^^    - {1}",
+        "purrplingcat.npcadventure.bagItemsSentLetter_Victor": "Hola {0},^^Supongo que te olvidaste, pero pusiste algunas de tus cosas en mi bolso mientras estábamos juntos, y no las llevaste contigo después.^Estoy bastante seguro de que empaqué todo, espero que todo esté allí.^^     - {1}"
+      }      
+    }
+  ]
+}

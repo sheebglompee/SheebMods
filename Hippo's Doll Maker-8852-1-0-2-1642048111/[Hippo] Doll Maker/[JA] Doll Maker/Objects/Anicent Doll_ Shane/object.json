@@ -1,0 +1,52 @@
+{
+	"Name": "Shane Doll",
+	"Description": "Handcrafted doll made from repurposed materials and forage. Looks like Shane.",
+	"Category": "Crafting",
+	"CategoryTextOverride": "Doll",
+	"Edibility": -300,
+	"Price": 300,
+	"IsColored": false,
+	"Recipe": {
+		"ResultCount": 1,
+		"Ingredients": [
+			{
+				"Object": 399, //Spring Onion
+				"Count": 1
+			},
+			{
+				"Object": 168, //Trash
+				"Count": 1
+			},
+			{
+				"Object": "Base Doll",
+				"Count": 1
+			}
+		],
+		"IsDefault": true
+	},
+	"GiftTastes": {
+		"Love": ["Jas", "Marnie", "Philip"],
+		"Like": ["Emily", "Kent", "Leah", "Penny", "Shane", "Keahi", "Maddie"],
+		"Neutral": [
+			"Abigail",
+			"Alex",
+			"Elliott",
+			"Haley",
+			"Harvey",
+			"Maru",
+			"Sam",
+			"Sebastian",
+			"Vincent",
+			"Yuuma",
+			"Trinnie",
+			"Flor"
+		]
+	},
+	"NameLocalization": {
+		"ko": "셰인 인형"
+	},
+	"DescriptionLocalization": {
+		"ko": "재활용품과 채집물로 만든 수공예 인형. 셰인을 닮았습니다."
+	},
+	"CanPurchase": false
+}

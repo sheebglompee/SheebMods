@@ -1,0 +1,22 @@
+{
+//The art for this object (all four colorways) was created by Airyn!  
+	"Name": "Friendship Bracelet",
+	"Description": "Give this to someone to ask them to move in with you as your platonic partner. (Disables ceremony, kissing, and children; enables hugging and single beds.)",
+	"Price": 0,
+	"Category": "Crafting",
+	"Edibility": -300,
+	"CanPurchase": false,
+	"Recipe":
+    	{
+	    "IsDefault": true,
+      	    "ResultCount": 1,
+            "Ingredients": [
+        {
+            "Object": 460,
+            "Count": 1,
+        },],
+        "ContextTags": 
+        [	
+        ],
+    },
+}

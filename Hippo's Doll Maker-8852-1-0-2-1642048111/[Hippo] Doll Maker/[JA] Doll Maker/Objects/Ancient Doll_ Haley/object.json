@@ -1,0 +1,60 @@
+{
+	"Name": "Haley Doll",
+	"Description": "Handcrafted doll made from repurposed materials and forage. Looks like Haley.",
+	"Category": "Crafting",
+	"CategoryTextOverride": "Doll",
+	"Edibility": -300,
+	"Price": 300,
+	"IsColored": false,
+	"Recipe": {
+		"ResultCount": 1,
+		"Ingredients": [
+			{
+				"Object": 20, //Leek
+				"Count": 1
+			},
+			{
+				"Object": 168, //Trash
+				"Count": 1
+			},
+			{
+				"Object": "Base Doll",
+				"Count": 1
+			}
+		],
+		"IsDefault": true
+	},
+	"GiftTastes": {
+		"Love": ["Emily", "Haley", "Jeric"],
+		"Like": [
+			"Alex",
+			"Leah",
+			"Jas",
+			"Penny",
+			"Sam",
+			"Philip",
+			"Daia",
+			"Maddie"
+		],
+		"Neutral": [
+			"Abigail",
+			"Elliott",
+			"Harvey",
+			"Maru",
+			"Shane",
+			"Sebastian",
+			"Vincent",
+			"Flor",
+			"Yuuma",
+			"Keahi",
+			"Trinnie"
+		]
+	},
+	"NameLocalization": {
+		"ko": "헤일리 인형"
+	},
+	"DescriptionLocalization": {
+		"ko": "재활용품과 채집물로 만든 수공예 인형. 헤일리를 닮았습니다."
+	},
+	"CanPurchase": false
+}

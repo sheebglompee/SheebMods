@@ -1,0 +1,78 @@
+{
+  "Format": "2.0",
+  "Name": "Hector",
+  "Skills": [
+    { "Name": "forager" },
+    { "Name": "fighter" }
+  ],
+  "Rules": {
+	
+	/* Marriage */
+
+    // Hector will always go on an adventure, unless below 8 hearts while married
+    "O Hector/!f Hector 2000": "reject companionRejected_Spouse",
+    "O Hector": "accept",
+	
+	/* Regular */
+	
+	//Must have seen Hector's 4 heart event so taking them around town is not lore-breaking
+	
+	"k 12369023": "reject", //Could in theory put a reject companionRejected_Isolation key here instead to specify to the player why no adventuring. 
+
+    // Requires Hector to be talked to once to recruit (should happen normally, but covering bases)
+    "!f Hector 1": "reject",
+    
+    // They are recruitable anytime
+    "": "accept"
+  },
+  
+  "Bedtime": "2530",
+  "BedtimeSpouse": "2530",
+  
+  "Buffs": {
+  "Foraging": 4,
+	"Speed": 2,
+	"Luck": 2,
+	"Attack": 1,
+	"Defense": 1,
+  },
+  "BuffsDescription": "[Hector.buffs]",
+  
+  
+  "Weapons": {
+    "0": "Forest Sword",
+	  "1": "Forest Sword",
+	  "2": "Forest Sword",
+	  "3": "Forest Sword",
+	  "4": "Forest Sword",
+	  "5": "Ossified Blade",
+	  "6": "Ossified Blade",
+	  "7": "Ossified Blade",
+	  "8": "Ossified Blade",
+	  "9": "Dark Sword",
+	  "10": "Dark Sword",
+  },
+  "IdleBehaviors": [
+	{
+      "Behavior": "Animate",
+      "Animations": [
+        "Hector_drink",
+        "Hector_gurdy",
+        "Hector_scritch",
+        "Hector_hip",
+        "Hector_loaf",
+      ],
+      "Tendency": 3,
+      "MinDuration": 10,
+      "MaxDuration": 30
+    },
+	{
+      "Behavior": "Lookaround",
+      "FaceMinSeconds": 6,
+      "FaceMaxSeconds": 10,
+      "Tendency": 2.5,
+      "MinDuration": 10,
+      "MaxDuration": 30
+    }
+	]
+}

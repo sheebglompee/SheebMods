@@ -1,0 +1,54 @@
+{
+    "Name": "Walnut (PH)",
+    "Description": "It's got a tough shell, but only the seed is edible. It's a popular snack, though it's not a true nut.",
+    "Category": "ArtisanGoods",
+	"ContextTags": 
+        [
+        "season_spring",
+		"ph_oilable",
+        "ph_nut",
+		"color_brown"
+        ],
+    "Edibility": 15,
+    "Price": 85, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Penny", "Leo"],
+        "Like": ["Alex", "Linus", "Lewis"],
+        "Neutral": null, 
+        "Dislike": ["Sebastian"], 
+        "Hate": ["Willy"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Walnut",
+		"es": "Walnut", 
+        "ko": "Walnut", 
+        "de": "Walnuss", 
+        "fr": "Walnut", 
+        "hu": "Walnut", 
+        "it": "Walnut", 
+        "ja": "Walnut",
+        "pt": "Walnut", 
+        "ru": "Грецкий орех", 
+        "tr": "Walnut",
+        "zh": "核桃", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "It's got a tough shell, but only the seed is edible. It's a popular snack, though it's not a true nut.", 
+        "ko": "It's got a tough shell, but only the seed is edible. It's a popular snack, though it's not a true nut.", 
+        "de": "Sie hat eine harte Schale, aber nur der Kern ist essbar. Sie ist ein beliebter Snack, obwohl sie eigentlich keine Nuss ist.",
+        "fr": "It's got a tough shell, but only the seed is edible. It's a popular snack, though it's not a true nut.", 
+        "hu": "It's got a tough shell, but only the seed is edible. It's a popular snack, though it's not a true nut.",
+        "it": "It's got a tough shell, but only the seed is edible. It's a popular snack, though it's not a true nut.", 
+        "ja": "It's got a tough shell, but only the seed is edible. It's a popular snack, though it's not a true nut.", 
+        "pt": "It's got a tough shell, but only the seed is edible. It's a popular snack, though it's not a true nut.",
+        "ru": "Имеет крепкую скорлупу, под которой спрятана вкусная сердцевина. Его любят употреблять в пищу, хотя это и не настоящий орех.", 
+        "tr": "It's got a tough shell, but only the seed is edible. It's a popular snack, though it's not a true nut.", 
+        "zh": "它有一个坚硬的外壳，但只有种子可以食用。这是一种很受欢迎的零食，虽然它不是真正的坚果。",
+    },
+}

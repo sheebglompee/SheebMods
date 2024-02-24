@@ -1,0 +1,71 @@
+{
+    "Name": "Field Pea Succotash (PH)", 
+    "Description": "A basic but tasty bowl of peas and corn.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_green",
+        "dye_medium"
+        ],
+    "Edibility": 32, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs": null,  
+    "Price": 80, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Field Pea (PH)", 
+            "Count": 1,
+        },
+		{
+            "Object": 270, 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Clint", "Demetrius"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Vincent"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Field Pea Succotash",
+		"es": "Field Pea Succotash", //Spansih
+        "ko": "Field Pea Succotash", //Korean
+        "de": "Felderbsen-Succotash", //German
+        "fr": "Field Pea Succotash", //French
+        "hu": "Field Pea Succotash", //Hungarian
+        "it": "Field Pea Succotash", //Italian
+        "ja": "Field Pea Succotash", //Japanese
+        "pt": "Field Pea Succotash", //Portuguese
+        "ru": "Суккоташ", //Russian
+        "tr": "Field Pea Succotash", //Turkish
+        "zh": "紫花豌豆玉米饭", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A basic but tasty bowl of peas and corn.", //Spansih
+        "ko": "A basic but tasty bowl of peas and corn.", //Korean
+        "de": "Ein einfacher, aber leckerer Erbsen-Mais-Eintopf.", //German
+        "fr": "A basic but tasty bowl of peas and corn.", //French
+        "hu": "A basic but tasty bowl of peas and corn.", //Hungarian
+        "it": "A basic but tasty bowl of peas and corn.", //Italian
+        "ja": "A basic but tasty bowl of peas and corn.", //Japanese
+        "pt": "A basic but tasty bowl of peas and corn.", //Portuguese
+        "ru": "Простой, но вкусный салат с горохом и кукурузой.", //Russian
+        "tr": "A basic but tasty bowl of peas and corn.", //Turkish
+        "zh": "一碗简单但美味的紫花豌豆玉米饭。", //Chinese (Simplified)
+    },
+	
+}

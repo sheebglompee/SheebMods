@@ -1,0 +1,135 @@
+{
+  "Format": "1.28",
+  "ConfigSchema": {
+    "Load Witch Hut Blank File": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Set to false if you have another mod that adds events in the Witch's Hut"
+    },
+    "Load Witch Swamp Blank File": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Set to false if you have another mod that adds events in the Witch's Swamp"
+    }
+  },
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "data/NPCDispositions",
+      "Entries": {
+        "Nul": "teen/polite/shy/negative/male/datable/null/Other/winter 15/ PregnancyRole adopt/WitchHut 7 6/Nul"
+      }
+    },
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Nul": "This is amazing, @! Now I won't have to worry about eating algae for a while./-7 -26 -75 -79/This is very pretty, farmer,.. thank you... and thank you too, Player./-2 -12 -80/N-no thank you.../-5 -6 -27 456  457 812 814/...ew./-20 153 157/Thank you./-4"
+      }
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Nul",
+      "FromFile": "assets/img/spritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Nul",
+      "FromFile": "assets/img/portrait.png"
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Nul",
+      "FromFile": "assets/dialogue/Dialogue.json"
+    },
+    {
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "nul_sleep": "18/18/18",
+        "nul_read": "16/16/16",
+        "nul_watersearch": "17/17/17",
+        "nul_meditate": "19/19/19"
+      }
+    },
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueNul",
+      "FromFile": "assets/dialogue/MarriageDialogue.json"
+    },
+    {
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Nul0": "Y-you... you really wish to wed me, @? A-are you sure? Oh dear, you won't regret your decision... I promise!!$3",
+        "Nul1": "I'm so nervous for tomorrow, @. I feel as if I may pass out again.$4"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "strings/StringsFromCSFiles",
+      "Entries": {
+	"Utility.cs.5367": "When @ and Nul first arrived in Pelican Town, no one knew if they'd fit in with our community...#$b#But from this day forward, they're both going to be as much a part of this town as any of us!$h#$b#Let us celebrate that on this day, {0} of {1}, two different beings from two very different places are united in the bonds of marriage.",
+	"Utility.cs.5369": "When @ and Nul first arrived in Pelican Town, no one knew if they'd fit in with our community...#$b#But from this day forward, they're both going to be as much a part of this town as any of us!$h#$b#Let us celebrate that on this day, {0} of {1}, two different beings from two very different places are united in the bonds of marriage.",
+	"Utility.cs.5371": "@... Nul... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you partners bound by Yoba!$h",
+	"Utility.cs.5377": "@... Nul... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you partners bound by Yoba!$h",
+      },
+      "When": {
+      "Relationship:Nul": "Engaged"
+            }
+    },		
+    {
+      "LogName": "AntiSocial Flag",
+      "Action": "EditData",
+      "Target": "Data/AntiSocialNPCs",
+      "When": {
+        "HasSeenEvent |contains=175920": false
+      },
+      "Entries": {
+        "Nul": true
+      }
+    },
+    {
+      "LogName": "Custom NPC Exclusions",
+      "Action": "EditData",
+      "Target": "Data/CustomNPCExclusions",
+      "Entries": {
+        "Nul": "WinterStar MovieInvite ItemDelivery Socialize IslandVisit ShopDialog"
+      }
+    },
+    {
+          "LogName": "Events",
+	  "Action": "Include",
+	  "FromFile": "assets/Events/events.json"
+    },
+    {
+          "LogName": "8 Heart Event Dialogue",
+           "Action": "Include",
+           "FromFile": "assets/Events/posteventdialogue.json",
+    },
+    {
+          "LogName": "Festival Locations",
+	  "Action": "Include",
+	  "FromFile": "assets/Festivals/festivaldata.json"
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/SpouseRooms",
+            "Entries": {
+                "Nul": "Custom_Nul_SpouseRoom/0"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_Nul_SpouseRoom",
+            "FromFile": "assets/Maps/NulsRoom.tbin"
+        },
+  ]
+}

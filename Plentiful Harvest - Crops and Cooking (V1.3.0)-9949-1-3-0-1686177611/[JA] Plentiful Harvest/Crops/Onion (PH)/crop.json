@@ -1,0 +1,46 @@
+{
+    "Name": "Onion (PH)", 
+    "Product": "Onion (PH)",
+    "SeedName": "Onion Seeds (PH)", 
+    "SeedDescription": "Plant these in the summer. Takes 8 days to produce a mature onion.", 
+    "Type": "Vegetable", 
+    "CropType": "Normal", 
+    "Seasons": ["summer"], 
+    "Phases": [2, 2, 2, 2], 
+    "RegrowthPhase": -1, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": false, 
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "STF.PlentifulHarvest", 
+    "SeedPurchasePrice": 40, 
+
+    "SeedNameLocalization":
+    {
+        "default": "Onion Seeds",
+		"es": "Onion Seeds", 
+        "ko": "Onion Seeds", 
+        "de": "Zwiebel-Saat", 
+        "fr": "Onion Seeds", 
+        "hu": "Onion Seeds", 
+        "it": "Onion Seeds", 
+        "ja": "Onion Seeds", 
+        "pt": "Onion Seeds", 
+        "ru": "Семена лука", 
+        "tr": "Onion Seeds", 
+        "zh": "洋葱种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plant these in the summer. Takes 8 days to produce a mature onion.", 
+        "ko": "Plant these in the summer. Takes 8 days to produce a mature onion.", 
+        "de": "Pflanze sie im Sommer. Wächst in 8 Tagen heran.", 
+        "fr": "Plant these in the summer. Takes 8 days to produce a mature onion.", 
+        "hu": "Plant these in the summer. Takes 8 days to produce a mature onion.", 
+        "it": "Plant these in the summer. Takes 8 days to produce a mature onion.", 
+        "ja": "Plant these in the summer. Takes 8 days to produce a mature onion.", 
+        "pt": "Plant these in the summer. Takes 8 days to produce a mature onion.", 
+        "ru": "Сажайте летом. Вырастает через 8 дней.", 
+        "tr": "Plant these in the summer. Takes 8 days to produce a mature onion.", 
+        "zh": "夏天种植。需要8天长成一个成熟的洋葱头。", 
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "Name": "[MFM] SDVWT",
+    "Author": "Mortis",
+    "Version": "1.2.3",
+    "Description": "Custom Brownie edible recipe that you can recieve in the mail!",
+    "UniqueID": "Mortis.CannabisMailFrameworkMod",
+    "MinimumApiVersion": "3.8.0",
+    "ContentPackFor": {
+        "UniqueID": "DIGUS.MailFrameworkMod",
+        "MinimumVersion": "1.10.1"
+    }
+}

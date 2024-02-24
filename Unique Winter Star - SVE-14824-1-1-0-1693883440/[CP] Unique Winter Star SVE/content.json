@@ -1,0 +1,113 @@
+{
+    "Format": "1.28.0",
+    "ConfigSchema": {
+        "Enable Spicy Dialogue": {
+            "AllowValues": "true, false",
+            "Default": "false",
+			"Description": "Enables somewhat spicier dialogue from relevant spouses. Will not do anything without corresponding enabled options below.",
+			"Section": "Main Mod Changes",
+        },
+		"Debug Mode": {
+			"AllowValues": "enabled, disabled",
+            "Default": "disabled",
+			"Description": "Activates a debug JSON that can be edited to exclude SVE NPCs from gifting at the Winter Star. Between this and Unique Winter Star's Debug Mode, should always have two NPCs or more excluded.",
+			"Section": "Main Mod Changes",
+        },
+		"Sophia": {
+			"AllowValues": "disabled, normal, spicy",
+            "Default": "normal",
+			"Description": "If Spicy Dialogue is enabled, allow Sophia to say a slightly spicier end dialogue when married to the player.",
+			"Section": "Bachelor and Bachelorette Dialogue Changes",
+        },
+		"Claire": {
+			"AllowValues": "disabled, normal, spicy",
+            "Default": "normal",
+			"Description": "If Spicy Dialogue is enabled, allow Claire to say a slightly spicier end dialogue when married to the player.",
+			"Section": "Bachelor and Bachelorette Dialogue Changes",
+        },
+		"Victor": {
+			"AllowValues": "disabled, normal, spicy",
+            "Default": "normal",
+			"Description": "If Spicy Dialogue is enabled, allow Victor to say a slightly spicier end dialogue when married to the player.",
+			"Section": "Bachelor and Bachelorette Dialogue Changes",
+        },
+		"Olivia": {
+			"AllowValues": "disabled, normal, spicy",
+            "Default": "normal",
+			"Description": "If Spicy Dialogue is enabled, allow Olivia to say a slightly spicier end dialogue when married to the player.",
+			"Section": "Bachelor and Bachelorette Dialogue Changes",
+        },
+		"Andy": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Andy's dialogue changes at the Winter Star.",
+			"Section": "Townspeople Dialogue Changes",
+        },
+		"Susan": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Susan's dialogue changes at the Winter Star.",
+			"Section": "Townspeople Dialogue Changes",
+        },
+		"Marlon": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Marlon's dialogue changes at the Winter Star.",
+			"Section": "Townspeople Dialogue Changes",
+        },
+    },
+	"Changes":[
+		//Gifting a Villager Lines
+		{
+			"LogName": "SVE Regular Villagers - Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/EarlyLines/regular.json",
+		},
+		{
+			"LogName": "SVE Marriage Candidates - Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/EarlyLines/datables.json",
+		},
+		{
+			"LogName": "SVE Marriage Candidates - Dating, Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/EarlyLines/dating.json",
+		},
+		{
+			"LogName": "SVE Marriage Candidates - Married, Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/EarlyLines/marriage.json",
+		},
+		
+		//Villagers Gifting Farmer
+		{
+			"LogName": "SVE Regular Villagers - Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/SVE/regular.json",
+		},
+		{
+			"LogName": "SVE Marriage Candidates - Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/SVE/datables.json",
+		},
+		{
+			"LogName": "SVE Marriage Candidates - Dating, Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/SVE/dating.json",
+		},
+		{
+			"LogName": "SVE Marriage Candidates - Married, Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/SVE/marriage.json",
+		},
+		{
+			"LogName": "Debugging",
+			"Action": "Include",
+			"FromFile": "assets/Extras/debugger.json",
+			"When": {
+				"Debug Mode": "enabled",
+				"HasMod": "Esca.CustomNPCExclusions",
+			},
+		},
+    ]
+}

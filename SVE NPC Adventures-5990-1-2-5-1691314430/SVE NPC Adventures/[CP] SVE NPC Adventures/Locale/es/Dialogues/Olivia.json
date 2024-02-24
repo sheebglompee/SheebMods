@@ -1,0 +1,33 @@
+{
+  "Changes": [
+    {
+      "LogName": "Companion dialogues for Olivia",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Olivia",
+      "Entries": {
+        "companionAccepted": "¡Oh, eso suena divertido, cariño!$1",
+        "companionRejected": "Lo siento, cariño, pero para hoy mi horario está reservado.$2",
+        "companionRejectedNight": "Lo siento, cariño, pero es un poco tarde para mí.$0#$b#Simplemente soy un desastre cuando no duermo mis 8 horas.$2",
+        "companionDismiss": "Hoy disfruté de nuestro pequeño paseo, cariño.$1#$b#Si el tiempo lo permite, deberíamos hacer esto nuevamente.$3",
+        "companionDismissAuto": "¡Oh, se ha hecho tan tarde!$7#$b#Pido disculpas, pero tendré que volver ahora.$3",
+        "companionRecruited": "¿Listo para aprovechar el día, cariño?$0",
+        "companion_Forest_winter": "Cada año espero que el estanque se congele para poder patinar sobre hielo.$0#$b#Quién sabe... ¡quizás uno de estos días me despierte con un milagro de la Estrella de Invierno!$4",
+        "companion_Railroad": "Desearía que Caroline y Jodi se unieran a mí para un día de baños en el spa.$2#$b#Sería muy divertido, ¡pero esas dos pueden ser tan modestas!$4",
+        "companion_Beach_summer_Indoor_Day": "Debería haber traído un parasol. El sol es tan fuerte hoy.$2",
+        "companion_Beach_summer_Night": "La fresca brisa del mar es tan refrescante después de un largo día, ¿no te parece?$3",
+        "companion_JojaMart": "Realmente no puedo respaldar las comidas congeladas de Joja.$2#$b#¡Lo intenté hace un año y el sodio agregado hizo que mi cara se hinchara como un pez globo!$5",
+        "companion_JojaMart_Night": "Morris realmente hace trabajar demasiado a esa pobre chica, Claire.$2#$b#Todos necesitan dormir para mantenerse saludables, pero claramente no se le permite dormir lo suficiente.$5",
+        "companion_Farm": "¡Tu granja es tan pintoresca, @!$1#$b#Para empezar, los productos de origen local son en parte el por qué vine a Stardew Valley.$3",
+        "companion_Farm_Spouse": "Me siento tan en paz aquí en nuestra granja, cariño.$1#$b#Comparado con el ajetreo y el bullicio de Ciudad Zuzu, ¡se siente como nuestro pequeño pedazo del paraíso!$4",
+        "companion_Mine": "Espero poder recoger algunas piedras preciosas de calidad mientras estamos aquí.$3#$b#A mi madre le encantaría un collar nuevo y sé de un joyero fabuloso de Ciudad Sautine.$1",
+        "companion_Mountain": "Me encantaría hacer algo de yoga con este aire fresco de montaña.$1#$b#Me pregunto si Caroline y Jodi estarían interesadas en unirse.$3",
+        "companion_Mountain_summer": "¿Estás bien, cariño? Ten cuidado de no esforzarte demasiado con este calor.$2#$b#Deberíamos venir a darnos un baño en el lago un día para refrescarnos. ¿No sería eso fabuloso?$4",
+        "companion_Mountain_summer_spouse": "¿Estás BIEN, mi amor? Ten cuidado de no esforzarte demasiado con este calor.$2#$b#Deberíamos venir a darnos un baño en privado en el lago una noche para refrescarnos. ¿No sería eso... emocionante?$4",
+        "companion_Town_Night": "El cielo es tan radiante en el valle por la noche.$4#$b#Casi olvido cómo lucían las estrellas viviendo en Ciudad Zuzu con todas sus brillantes luces.$2",
+        "companion_Town_spring": "El aire fresco es realmente bueno para el cuerpo y la mente.$1#$b#Aunque me siento un poco culpable... Jodi se estresa tanto cada primavera debido a las alergias del pobre Sam.$2",
+        "companion_Town_Rainy": "Cariño... ¿Mi maquillaje se está corriendo?$7",
+        "companion_ArchaeologyHouse": "¿Crees que podría comprar una de estas chucherías de Gunther?$6#$b#Victor parece disfrutar de ese tipo de cosas.$3"
+      }
+    }
+  ]
+}

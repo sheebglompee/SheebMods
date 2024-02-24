@@ -1,0 +1,54 @@
+{
+    "Changes":
+    [
+
+//Yri Optional Events Personal Topics
+
+    // 6 Hearts 
+        //Woods
+        
+        {
+            "LogName": "The toll of war",
+            "Action": "EditData",
+            "Target": "Data/Events/Woods",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270012/f Yri 1250/d Fri/w sunny/z winter/t 1000 1800": "woodsTheme/-1000 -1000/Yri 9 8 0 farmer 19 12 3/addConversationTopic YriWar 7/viewport 9 8/skippable/pause 1000/move farmer -10 0 0/emote Yri 60/move farmer 0 -3 0/pause 1200/faceDirection Yri 2/pause 100/speak Yri \"Oh. Hi @, what are you doing here?$h#$b#Funny how we run into each other all the time.$h\"/emote farmer 8/pause 1500/speak Yri \"Say... Do you know anything about these ruins?\"/emote farmer 8/pause 1500/faceDirection Yri 0/pause 250/speak Yri \"Don't worry, nobody really knows anything about it.$h\"/pause 500/move Yri 2 0 0/pause 500/faceDirection Yri 1/faceDirection farmer 1/pause 500/faceDirection Yri 2/pause 500/faceDirection Yri 3/pause 500/emote farmer 8/pause 500/move Yri -2 0 2/faceDirection farmer 0/emote Yri 12/pause 1500/speak Yri \"Once this must have been a temple, but it looks like it fell to ruins.#$b#There was a war thousands of years ago, it destroyed most of Ferngill...many people lost their lives.$s#$b# So... Maybe nobody was alive to take care of the temple anymore?$s#$b# So many died but... You know...Those who survived lost so much more.$s#$b#The people that survived... They lost their friends and families but also their homes, cultural landmarks, places of worship and places to rest.$s#$b# Everything they build for themselves, their families and their community was lost or in ruins.$s\"/pause 100/emote Yri 40/pause 1500/faceDirection Yri 0/pause 150/speak Yri \"War is gruesome... War destroys the legacy of the people who once lived peacefully, just as we do now.$s#$b#...$s#$b#Right now people lose their lives, their family, their homes...$s\"/pause 100/move Yri -2 0 0/faceDirection farmer 3/pause 150/speak Yri \"...$s#$b#Sorry. I ruined the mood.$s#$b#I'm sure you didn't come here to listen to all that nonsense I just spewed.$h#$b#I think I should go and do something productive to lift my spirits up again.#$b#...See you, @!$h\"/move Yri 0 4 1 true/faceDirection farmer 2/move Yri 9 0 1/faceDirection farmer 1/move Yri 7 0 0 true/pause 400/globalFade/viewport -999 -999/end"
+            },
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false },
+        },
+    //6Heart SVE
+            {
+            "LogName": "The toll of war SVE",
+            "Action": "EditData",
+            "Target": "Data/Events/Woods",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270012/f Yri 1250/d Fri/w sunny/z winter/t 1000 1800": "woodsTheme/-1000 -1000/Yri 9 8 0 farmer 19 12 3/changeLocation Custom_WoodsCompat/addConversationTopic YriWar 7/viewport 9 8/skippable/pause 1000/move farmer -10 0 0/emote Yri 60/move farmer 0 -3 0/pause 1200/faceDirection Yri 2/pause 100/speak Yri \"Oh. Hi @, what are you doing here?$h#$b#Funny how we run into each other all the time.$h\"/emote farmer 8/pause 1500/speak Yri \"Say... Do you know anything about these ruins?\"/emote farmer 8/pause 1500/faceDirection Yri 0/pause 250/speak Yri \"Don't worry, nobody really knows anything about it.$h\"/pause 500/move Yri 2 0 0/pause 500/faceDirection Yri 1/faceDirection farmer 1/pause 500/faceDirection Yri 2/pause 500/faceDirection Yri 3/pause 500/emote farmer 8/pause 500/move Yri -2 0 2/faceDirection farmer 0/emote Yri 12/pause 1500/speak Yri \"Once this must have been a temple, but it looks like it fell to ruins.#$b#There was a war thousands of years ago, it destroyed most of Ferngill...many people lost their lives.$s#$b# So... Maybe nobody was alive to take care of the temple anymore?$s#$b# So many died but... You know...Those who survived lost so much more.$s#$b#The people that survived... They lost their friends and families but also their homes, cultural landmarks, places of worship and places to rest.$s#$b# Everything they build for themselves, their families and their community was lost or in ruins.$s\"/pause 100/emote Yri 40/pause 1500/faceDirection Yri 0/pause 150/speak Yri \"War is gruesome... War destroys the legacy of the people who once lived peacefully, just as we do now.$s#$b#...$s#$b#Right now people lose their lives, their family, their homes...$s\"/pause 100/move Yri -2 0 0/faceDirection farmer 3/pause 150/speak Yri \"...$s#$b#Sorry. I ruined the mood.$s#$b#I'm sure you didn't come here to listen to all that nonsense I just spewed.$h#$b#I think I should go and do something productive to lift my spirits up again.#$b#...See you, @!$h\"/move Yri 0 4 1 true/faceDirection farmer 2/move Yri 9 0 1/faceDirection farmer 1/move Yri 7 0 0 true/pause 400/globalFade/viewport -999 -999/end"
+            },
+        "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true },
+        },
+        
+        //ES Events
+        {
+            "LogName": "Nightmares",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_EastScarpe",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270011/f Yri 2500/d Fri/w sunny/z winter/t 2300 2600": "shaneTheme/-1000 -1000/Yri 24 62 2 farmer 17 71 0/addLantern 735 25 61 2/addConversationTopic YriNightmare 7/addTemporaryActor Nala 32 32 22 62 1/viewport 24 62/skippable/pause 1000/move farmer 0 -9 1 true/pause 1000/emote Yri 40/pause 2000/emote farmer 8/pause 1500/move farmer 4 0 1/speak Yri \"...$9\"/emote Nala 16/pause 1500/faceDirection Nala 3/faceDirection Yri 3/pause 150/jump Yri 4/emote Yri 16/pause 500/faceDirection Yri 1/pause 500/speak Yri \"...@?$10#$b#What are you doing here? It's late...$10\"/pause 100/emote farmer 40/pause 1500/faceDirection Yri 3/speak Yri \"I needed some fresh air so I took Nala for a walk.$10#$b#....$10#$b#Hey @, have you ever had a nightmare that felt so real that you woke up as scared as if it had really happened?$10\"/quickQuestion ...?#Yes, I know how you feel... Do you want to talk about it?#No, I've never had a nightmare like that. But I can listen if you like.#I'm actually on my way home. I don't have the time to listen to you.(break)speak Yri \"...$10#$b#I dreamt that my father got very sick...$10#$b#He couldn't leave his bed anymore and couldn't speak.$10#$b#I tried talking to him and holding his hand...$10\"\\faceDirection Yri 1\\faceDirection Nala 1\\speak Yri \"...but his body was ice cold and his eyes were cloudy and lifeless...$9#$b#I was so desperate to wake him and I cried out for him but nothing worked...$9#$b#...When I woke up, I checked my phone and called my parents. I was so relieved when my father answered the phone.$10#$b#I didn't tell him what happened but hearing his voice brought me peace....$10#$b#....$10#$b#....I'm sorry, @...I just need some time alone... Thanks for listening to me.$10\"(break)speak Yri \"...$10#$b#I dreamt that my father got very sick...$10#$b#He couldn't leave his bed anymore and couldn't speak.$10#$b#I tried talking to him and holding his hand...$10\"\\faceDirection Yri 1\\faceDirection Nala 1\\speak Yri \"...but his body was ice cold and his eyes were cloudy and lifeless...$9#$b#I was so desperate to wake him and I cried out for him but nothing worked...$9#$b#...When I woke up, I checked my phone and called my parents. I was so relieved when my father answered the phone.$10#$b#I didn't tell him what happened but hearing his voice brought me peace....$10#$b#....$10#$b#....I'm sorry, @... I just need some time alone... Thanks for listening to me.$10\"(break)speak Yri \"...$10#$b#I... It's okay... I'm sorry I held you up...$9\"/faceDirection Nala 1/pause 150/message \"Yri looks sad but tries to keep her composure in front of you. Nala licks Yri's hand to comfort her. \"/pause 150/move farmer -5 0 2/emote farmer 40/pause 1500/faceDirection farmer 1/pause 100/emote farmer 60/pause 1500/move farmer 0 10 2 true/pause 1000/emote Yri 40/pause 1000/globalFade/viewport -999 -999/end"
+            },
+
+            "When": { "HasMod: |contains=LemurKat.EastScarpe.CP": true }, 
+        },          
+    ]
+  }
+
+
+  

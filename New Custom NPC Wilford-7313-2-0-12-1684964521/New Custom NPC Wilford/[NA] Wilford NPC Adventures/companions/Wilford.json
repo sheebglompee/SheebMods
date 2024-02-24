@@ -1,0 +1,40 @@
+{
+  "Format": "2.0",
+  "Name": "Wilford",
+  "Skills": [
+    { "Name": "doctor" },
+	{ "Name": "forager" }
+  ],
+  "Rules": {
+    "f Wilford 1250": "accept",
+	"O Wilford/!f Wilford 2000": "reject",
+	"O Wilford": "accept"
+  },
+  "CanSuggest": "false",
+  "Buffs": {
+    "Farming": 2,
+    "Foraging": 2
+  },
+  "BuffsDescription": "Wilford is well versed in natural resources and has useful medical skills.#You gain +2 Foraging and +2 Farming while exploring the nature together.",
+  "IdleBehaviors": [
+    {
+      "Behavior": "Animate",
+      "Animations": [
+        "Wilford_Snail",
+        "Wilford_Flowers",
+        "Wilford_Garden"		
+      ],
+      "Tendency": 6,
+      "MinDuration": 10,
+      "MaxDuration": 30
+    },
+    {
+      "Behavior": "Lookaround",
+      "FaceMinSeconds": 2,
+      "FaceMaxSeconds": 5,
+      "Tendency": 2,
+      "MinDuration": 10,
+      "MaxDuration": 30
+    }
+  ]
+}

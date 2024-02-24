@@ -1,0 +1,65 @@
+{
+    "Name": "Lavender Potato Soup WL",
+    "Description": "Tender vegetable soup with a creamy texture and mild lavender flavor.",
+    "Category": "Cooking",
+    "Edibility": 80,
+    "EdibleIsDrink": false,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 30,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 3,
+        "Attack": 0,
+        "Duration": 700,
+    },
+	"CanSell": false,
+    "IsColored": false,
+	"IsDefault": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Lavender Twigs WL",
+            "Count": 3,
+        },
+        {
+            "Object": 192,
+            "Count": 1,
+        },
+		{
+            "Object": "Carrot WL",
+            "Count": 1,
+        }
+        ],
+        "CanPurchase": true,
+        "PurchaseRequirements": null
+    },
+    "GiftTastes":
+    {
+        "Love": [],
+        "Like": ["Leah", "Gus", "Sam", "Harvey, Wilford"],
+        "Neutral": [],
+        "Dislike": ["Kent"],
+    },
+
+    "NameLocalization":
+    {
+		"default": "Lavender Potato Soup",
+		"ru": "Суп из картофеля с лавандой",
+        "pt": "Sopa de batata de lavanda",
+        "zh": "薰衣草土豆汤"
+    },
+    "DescriptionLocalization":
+    {
+		"ru": "Нежный овощной суп с кремовой текстурой и мягким ароматом лаванды.",
+        "pt": "Sopa tenra de legumes com textura cremosa e um sabor suave a lavanda.",
+        "zh": "鲜嫩的蔬菜汤，质地细腻，有淡淡的薰衣草味道"
+    }
+}

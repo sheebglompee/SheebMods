@@ -1,0 +1,51 @@
+{
+    "Name": "Bell Pepper (PH)",
+    "Description": "It's super healthy and completely mild, unlike most peppers.",
+    "Category": "Vegetable",
+	"ContextTags": 
+        [
+        "season_summer"
+        ],
+    "Edibility": 12,
+    "Price": 100, 
+    "IsColored": true,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Shane", "Gus", "Jodi"],
+        "Like": ["Caroline", "Clint", "Linus", "Krobus", "Emily"],
+        "Neutral": null, 
+        "Dislike": ["Leo", "Pam", "Jas"], 
+        "Hate": ["Vincent", "Haley", "Abigail"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Bell Pepper",
+		"es": "Bell Pepper", 
+        "ko": "Bell Pepper", 
+        "de": "Paprika", 
+        "fr": "Bell Pepper", 
+        "hu": "Bell Pepper", 
+        "it": "Bell Pepper", 
+        "ja": "Bell Pepper",
+        "pt": "Bell Pepper", 
+        "ru": "Болгарский перец", 
+        "tr": "Bell Pepper",
+        "zh": "灯笼椒", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "It's super healthy and completely mild, unlike most peppers.", 
+        "ko": "It's super healthy and completely mild, unlike most peppers.", 
+        "de": "Es ist super gesund und sehr mild, im Gegensatz zu anderen Paprikaschoten.",
+        "fr": "It's super healthy and completely mild, unlike most peppers.", 
+        "hu": "It's super healthy and completely mild, unlike most peppers.",
+        "it": "It's super healthy and completely mild, unlike most peppers.", 
+        "ja": "It's super healthy and completely mild, unlike most peppers.", 
+        "pt": "It's super healthy and completely mild, unlike most peppers.",
+        "ru": "В отличие от большинства видов перца, этот супер полезный и очень мягкий.", 
+        "tr": "It's super healthy and completely mild, unlike most peppers.", 
+        "zh": "绿色蔬菜，辣度适中，不像其他辣椒。",
+    },
+}

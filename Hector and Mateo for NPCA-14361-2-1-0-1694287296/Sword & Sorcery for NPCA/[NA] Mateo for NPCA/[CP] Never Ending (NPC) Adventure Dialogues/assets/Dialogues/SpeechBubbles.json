@@ -1,0 +1,41 @@
+{
+  "Changes": [
+    {
+      "LogName": "Mateo NPC Adventure Speech Bubbles",
+      "Action": "EditData",
+      "Target": "Strings/SpeechBubbles",
+      "Entries": {
+		  "ambient_Forest_Mateo": "There's something inherently magical about this place.",
+		  "ambient_WizardHouse_Mateo": "I haven't been here since I was very little.",
+		  "ambient_Mine_Mateo": "Another day, another level deeper.",
+		  "ambient_Mine_Mateo~1": "Nothing beats little bit of dungeon crawling.",
+		  "ambient_Mine_Mateo~2": "I based a D&D storyline off of these mines.",
+		  "ambient_Mine_Mateo~3": "Be careful, {0}. Things could get rowdy.",
+		  "ambient_Town_Mateo": "It feels nostalgic to pass through town.",
+		  "ambient_Town_Mateo~1": "Wonder who we'll see around today!",
+		  "ambient_Town_Mateo~2": "We should grab some tonics from Doc Harvey.",
+		  "ambient_Mountain_Mateo": "I feel strangely at home in the mountains.",
+		  "ambient_Beach_Mateo": "I love a good sunrise off the pier.",
+		  "ambient_Beach_Mateo~1": "I love a good sunset off the pier.",
+		  "ambient_Desert_Mateo": "Do you have a prismatic shard on you?",
+		  "ambient_Desert_Mateo~1": "Have you investigated the weird pillars?",
+		  "ambient_Desert_Mateo~3": "There are big creature bones here!",
+		  "ambient_SeedShop_Mateo": "Hi Pierre!",
+		  "ambient_SeedShop_Mateo~2": "Did we need supplies?",
+		  "ambient_Saloon_Mateo": "Wonder what's on the jukebox tonight.",
+		  "ambient_Saloon_Mateo~1": "Let me buy you a drink, {0}.",
+		  "ambient_Saloon_Mateo~2": "Hey, folks!",
+		  "ambient_ArchaeologyHouse_Mateo": "I have a lot of history here...",
+		  "ambient_ArchaeologyHouse_Mateo~1": "Bringing me back to the scene of the crime, huh?",
+		  "ambient_ArchaeologyHouse_Mateo~2": "Hi Gunther!",
+		  "ambient_Railroad_Mateo": "I hope Sterling has stopped coming up here.",
+		  "ambient_Railroad_Mateo~1": "Have you been to the summit, {0}?",
+		  "fight_Mateo": "Heh...roll for initiative.",
+		  "fight_Mateo~1": "Nat 20!",
+		  "fight_Mateo~2": "Protecting the valley, one monster at a time.",
+		  "fight_Mateo~3": "Agh...I need a better armor class, haha!",
+		  "fight_Mateo~4": "Whoever clears the most, buys the other a drink!"
+	  },
+    },
+  ]
+}

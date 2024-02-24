@@ -1,0 +1,74 @@
+{
+    "Name": "PBJ Sandwich (PH)", 
+    "Description": "Nut butter and jelly, the classic.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_sand"
+        ],
+    "Edibility": 50, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":null,
+    "Price": 400, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Nut Butter (PH)",
+            "Count": 1,
+        },
+		{
+            "Object": 344,
+            "Count": 1,
+        },
+		{
+            "Object": 216,
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Jas"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "PBJ Sandwich",
+		"es": "PBJ Sandwich", //Spansih
+        "ko": "PBJ Sandwich", //Korean
+        "de": "Erdnuss-Marmeladen-Sandwich", //German
+        "fr": "PBJ Sandwich", //French
+        "hu": "PBJ Sandwich", //Hungarian
+        "it": "PBJ Sandwich", //Italian
+        "ja": "PBJ Sandwich", //Japanese
+        "pt": "PBJ Sandwich", //Portuguese
+        "ru": "Сэндвич", //Russian
+        "tr": "PBJ Sandwich", //Turkish
+        "zh": "花生酱果冻三明治", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Nut butter and jelly, the classic.", //Spansih
+        "ko": "Nut butter and jelly, the classic.", //Korean
+        "de": "Nussbutter und Marmelade, ein Klassiker.", //German
+        "fr": "Nut butter and jelly, the classic.", //French
+        "hu": "Nut butter and jelly, the classic.", //Hungarian
+        "it": "Nut butter and jelly, the classic.", //Italian
+        "ja": "Nut butter and jelly, the classic.", //Japanese
+        "pt": "Nut butter and jelly, the classic.", //Portuguese
+        "ru": "С ореховым маслом и джемом. Классика!", //Russian
+        "tr": "Nut butter and jelly, the classic.", //Turkish
+        "zh": "经典的坚果酱。", //Chinese (Simplified)
+    },
+	
+}

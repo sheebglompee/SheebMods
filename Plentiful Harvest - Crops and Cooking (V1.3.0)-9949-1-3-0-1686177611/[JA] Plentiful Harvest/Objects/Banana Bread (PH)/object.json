@@ -1,0 +1,91 @@
+{
+    "Name": "Banana Bread (PH)", 
+    "Description": "A little lemon juice makes the crust perfect.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_brown"
+        ],
+    "Edibility": 64, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 2,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 1,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 180,
+    },
+    "Price": 250, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": 246, 
+            "Count": 1,
+        },
+		{
+            "Object": 91, 
+            "Count": 1,
+        },
+		{
+            "Object": -5, 
+            "Count": 1,
+        },
+        {
+            "Object": -6, 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Abigail", "Penny"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Demetrius"],
+    },
+	  
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Banana Bread",
+		"es": "Banana Bread", //Spansih
+        "ko": "Banana Bread", //Korean
+        "de": "Bananenbrot", //German
+        "fr": "Banana Bread", //French
+        "hu": "Banana Bread", //Hungarian
+        "it": "Banana Bread", //Italian
+        "ja": "Banana Bread", //Japanese
+        "pt": "Banana Bread", //Portuguese
+        "ru": "Банановый хлеб", //Russian
+        "tr": "Banana Bread", //Turkish
+        "zh": "香蕉面包", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A little lemon juice makes the crust perfect.", //Spansih
+        "ko": "A little lemon juice makes the crust perfect.", //Korean
+        "de": "Ein wenig Zitronensaft macht die Kruste perfekt.", //German
+        "fr": "A little lemon juice makes the crust perfect.", //French
+        "hu": "A little lemon juice makes the crust perfect.", //Hungarian
+        "it": "A little lemon juice makes the crust perfect.", //Italian
+        "ja": "A little lemon juice makes the crust perfect.", //Japanese
+        "pt": "A little lemon juice makes the crust perfect.", //Portuguese
+        "ru": "Лимонный сок придает корочке безупречный вид!", //Russian
+        "tr": "A little lemon juice makes the crust perfect.", //Turkish
+        "zh": "加一点柠檬汁会让面包皮更美味。", //Chinese (Simplified)
+    },
+	
+}

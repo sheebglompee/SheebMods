@@ -1,0 +1,19 @@
+﻿{
+    "Name": "Ink-Dipped Mushroom",
+    "Description": "Witches use these to brew malicious potions.",
+    "Category": "Greens",
+    "CategoryTextOverride": "Mushroom",
+    "Edibility": -50,
+    "Price": 75,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":  {},
+	"TranslationKey": "object.Ink-Dipped-Mushroom",
+    "ContextTags": [
+	"season_fall",
+    "color_black",
+    "forage_item",
+    "mushroom_item",
+    "forage_item_mines",
+  ],
+}

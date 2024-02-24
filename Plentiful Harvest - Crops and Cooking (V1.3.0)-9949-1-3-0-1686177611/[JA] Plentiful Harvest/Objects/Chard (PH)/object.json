@@ -1,0 +1,53 @@
+{
+    "Name": "Chard (PH)",
+    "Description": "The red stalks are nutrient rich. Since it's been used in cooking for centuries it's adopted many confusing names.",
+    "Category": "Vegetable",
+	"ContextTags": 
+        [
+        "season_winter",
+		"color_red",
+		"dye_medium"
+        ],
+    "Edibility": 30,
+    "Price": 156, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Evelyn", "Marnie", "Penny", "Lewis"],
+        "Like": ["Caroline", "Gus", "Pierre", "Pam", "Linus"],
+        "Neutral": null, 
+        "Dislike": ["Shane", "Haley", "Sebastian", "Emily", "Leo"], 
+        "Hate": ["Jas", "Vincent", "Eliott"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Chard",
+		"es": "Chard", 
+        "ko": "Chard", 
+        "de": "Mangold", 
+        "fr": "Chard", 
+        "hu": "Chard", 
+        "it": "Chard", 
+        "ja": "Chard",
+        "pt": "Chard", 
+        "ru": "Мангольд", 
+        "tr": "Chard",
+        "zh": "甜菜", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "The red stalks are nutrient rich. Since it's been used in cooking for centuries it's adopted many confusing names.", 
+        "ko": "The red stalks are nutrient rich. Since it's been used in cooking for centuries it's adopted many confusing names.", 
+        "de": "Die roten Stängel sind nährstoffreich. Da es seit Jahrhunderten zum Kochen verwendet wird, hat es viele verwirrende Namen angenommen.",
+        "fr": "The red stalks are nutrient rich. Since it's been used in cooking for centuries it's adopted many confusing names.", 
+        "hu": "The red stalks are nutrient rich. Since it's been used in cooking for centuries it's adopted many confusing names.",
+        "it": "The red stalks are nutrient rich. Since it's been used in cooking for centuries it's adopted many confusing names.", 
+        "ja": "The red stalks are nutrient rich. Since it's been used in cooking for centuries it's adopted many confusing names.", 
+        "pt": "The red stalks are nutrient rich. Since it's been used in cooking for centuries it's adopted many confusing names.",
+        "ru": "Его красные стебли богаты питательными веществами. Поскольку растение веками использовалось в кулинарии, оно получило множество запутанных названий.", 
+        "tr": "The red stalks are nutrient rich. Since it's been used in cooking for centuries it's adopted many confusing names.", 
+        "zh": "甜菜茎营养丰富。几个世纪以来甜菜一直作为烹饪食材使用，所以有很多令人困惑的叫法。",
+    },
+}

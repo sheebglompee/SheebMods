@@ -1,0 +1,53 @@
+{
+    "Name": "Soy (PH)", 
+    "Product": "Soy (PH)",
+    "SeedName": "Soy Seeds (PH)", 
+    "SeedDescription": "Plant these in the fall. Takes 5 days to mature into a soy plant. Continues to produce after their first harvest, with a chance to yield multiple pods.", 
+    "Type": "Vegetable", 
+    "CropType": "Normal", 
+    "Seasons": ["fall"], 
+    "Phases": [1, 1, 1, 1, 1], 
+    "RegrowthPhase": 2, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": false, 
+	"Bonus": 
+    {
+        "MinimumPerHarvest": 1, 
+        "MaximumPerHarvest": 3, 
+        "MaxIncreasePerFarmLevel": 5, 
+        "ExtraChance": 0.2, 
+    },
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "STF.PlentifulHarvest", 
+    "SeedPurchasePrice": 64, 
+
+    "SeedNameLocalization":
+    {
+        "default": "Soy Seeds",
+		"es": "Soy Seeds", 
+        "ko": "Soy Seeds", 
+        "de": "Sojabohnen-Saat", 
+        "fr": "Soy Seeds", 
+        "hu": "Soy Seeds", 
+        "it": "Soy Seeds", 
+        "ja": "Soy Seeds", 
+        "pt": "Soy Seeds", 
+        "ru": "Семена сои", 
+        "tr": "Soy Seeds", 
+        "zh": "大豆种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plant these in the fall. Takes 5 days to mature into a soy plant. Continues to produce after their first harvest, with a chance to yield multiple pods.", 
+        "ko": "Plant these in the fall. Takes 5 days to mature into a soy plant. Continues to produce after their first harvest, with a chance to yield multiple pods.", 
+        "de": "Pflanze sie im Herbst. Wächst in 5 Tagen heran, kann aber danach mehrmals geerntet werden. Bringt manchmal mehrere Sojabohnen pro Ernte ein.", 
+        "fr": "Plant these in the fall. Takes 5 days to mature into a soy plant. Continues to produce after their first harvest, with a chance to yield multiple pods.", 
+        "hu": "Plant these in the fall. Takes 5 days to mature into a soy plant. Continues to produce after their first harvest, with a chance to yield multiple pods.", 
+        "it": "Plant these in the fall. Takes 5 days to mature into a soy plant. Continues to produce after their first harvest, with a chance to yield multiple pods.", 
+        "ja": "Plant these in the fall. Takes 5 days to mature into a soy plant. Continues to produce after their first harvest, with a chance to yield multiple pods.", 
+        "pt": "Plant these in the fall. Takes 5 days to mature into a soy plant. Continues to produce after their first harvest, with a chance to yield multiple pods.", 
+        "ru": "Сажайте осенью. Вырастает через 5 дней и продолжает давать урожай после первого сбора.", 
+        "tr": "Plant these in the fall. Takes 5 days to mature into a soy plant. Continues to produce after their first harvest, with a chance to yield multiple pods.", 
+        "zh": "秋天种植。 需要5天的时间成熟成大豆植株。在第一次收获后继续生产，有机会产出多个豆荚。 ", 
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Leo's CD",
+    "Description": "Leo's personal playlist!",
+    "Category": "Crafting",
+    "Edibility": 0,
+    "EdibleIsDrink": false,
+    "Price": 0,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {
+        "Love": ["Leo"],
+        "Hate": ["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]
+    }
+}

@@ -1,0 +1,16 @@
+﻿{
+    "Name": "Night-Shadow",
+    "Description": "Highly poisonous to humans, Hummingbirds are immmune to the toxin and love the taste of these flowers.",
+    "Category": "Flower",
+    "Edibility": -150,
+    "Price": 80,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":  {},
+	"TranslationKey": "object.Night-Shadow",
+    "ContextTags": [
+    "season_Fall",
+    "color_purple",
+    "flower_item",
+  ],
+}

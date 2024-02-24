@@ -1,0 +1,204 @@
+{
+    "Changes":
+    [
+
+//Yri Events 
+        
+        
+     //O Hearts 
+        //Robin House 
+        
+        {
+            "LogName": "YriIntroduction",
+            "Action": "EditData",
+            "Target": "Data/Events/ScienceHouse",
+            "Entries":
+            {
+                //Heart 0 First Meeting with Yri
+                "106270001/f Yri 0020/d Fri/t 900 1600": "distantBanjo/-1000 -1000/farmer 8 20 0 Robin 8 18 2 Yri -500 -500 0/addConversationTopic YriIntroduction 7/viewport 8 19/skippable/pause 1000/speak Robin \"Hi there, @. Are you feeling at home on the farm yet?#$b#Yri and I worked hard on your house to get it ready for you in time.$h\"/pause 100/emote Robin 20/pause 1000/playSound doorOpen/pause 150/warp Yri 6 24 0/playSound doorClose/pause 1000/textAboveHead Robin \"Yri!\"/pause 1000/textAboveHead Yri \"Hello, Robin!\"/move Yri 0 -4 1/pause 50/move Yri 1 0 1/faceDirection farmer 3/speak Robin \"Hello, Yri! We were just talking about you.\"/pause 100/speak Yri \"Hello, Robin! Hello, @! I heard you - you were talking loud enough that the whole valley could have listened in.$h\"/pause 100/speak Robin \"And I thought we made these walls soundproof.$h\"/pause 100/speak Yri \"I hope you commission Robin and me in the future when you expand your farm, @!#§b#We take great pride in our work, so you can expect only the highest quality from us.$h\"/pause 100/speak Robin \"Whatever you need for your farm - as long as Yri can design it, I can build it!#$b#Oh!$h#$b#I'm sorry to cut the conversation short, @, but since Yri's here now, we have some business to discuss.#$b#I hope you don't mind.\"/speak Yri \"Sorry, @. It was nice talking to you! I hope to see you later.$h\"/pause 100/move farmer 0 1 3/pause 50/move Yri 1 0 0/textAboveHead Yri \"The client called, they want to change...\"/move farmer -2 0 2/pause 50/move farmer 0 3 2/playSound doorOpen/warp farmer -500 -500/pause 150/playSound doorClose/pause 2000/globalFade/viewport -999 -999/end"
+            }
+        },
+    
+
+//2 Hearts 
+    //Robin House 
+        
+        {
+            "LogName": "Yri and Robin Project Meeting 1",
+            "Action": "EditData",
+            "Target": "Data/Events/ScienceHouse",
+            "Entries":
+            {
+                "106270006/f Yri 500/d Fri/t 900 1600": "continue/-1000 -1000/Yri 8 20 0 Robin 8 18 2 farmer -500 -500 0/addConversationTopic YriProjectMeeting 7/viewport 8 19/skippable/pause 1000/speak Yri \"I've talked with the client. He approved the blueprints and I submitted them today, so we're good to go.\"/pause 100/speak Robin \"The customer already paid for the materials upfront and the shipment should be delivered to the building site today.#$b#I'll start tomorrow morning. See you there?$h\"/pause 100/speak Yri \"Alright. Just one thing? Could you please do me a favor and not start working at 4 AM?$s\"/emote Yri 12/pause 1000/speak Yri \"We still have a few open noise complaints from the last site.$s\"/pause 100/playSound doorOpen/pause 50/warp farmer 6 24 0/playSound doorClose/pause 1000/textAboveHead Robin \"I just like an early start\"/pause 1000/textAboveHead Yri \"But not THAT early\"/move farmer 0 -4 1/pause 50/move farmer 1 0 1/faceDirection Yri 3/speak Robin \"Hello, @! Good to see you.\"/pause 100/speak Yri \"Good day, @. Oh no, don't worry, you're not interrupting us. I was just about to leave. I still have some work to do.#$b#See you tomorrow, Robin! Goodbye, @.\"/pause 100/move Yri 0 1 3/pause 50/move Yri -2 0 2/pause 50/move Yri 0 4 2/playSound doorOpen/warp Yri -500 -500/pause 100/playSound doorClose/move farmer 1 0 0/pause 100/speak Robin \"So, what brings you to my shop today?$h\"/pause 2000/globalFade/viewport -999 -999/end"
+            }
+        },
+
+        {
+            "LogName": "Yri and Robin Project Meeting 2",
+            "Action": "EditData",
+            "Target": "Data/Events/ScienceHouse",
+            "Entries":
+            {
+                "106270007/e 106270006/a YriProjectMeeting/f Yri 500/d Fri/t 900 1600": "continue/-1000 -1000/Yri 3 18 1 Robin 4 18 3 farmer -500 -500 0/addConversationTopic YriProjectMeeting2 7/viewport 4 20/skippable/pause 1000/emote Yri 12/pause 500/emote Robin 12/pause 1500/speak Robin \"That was a disaster!$3\"/pause 100/speak Yri \"I can't believe this!$a#$b#Joja Mining told us the shipment would be there!$a\"/pause 100/speak Robin \"That's the third time we've had to delay our work because of Joja.$s#$b#what should we tell the client now...$s\"/pause 1000/emote Yri 40/pause 1500/speak Yri \"Well... the truth. It isn't our fault, after all.$s#$b#...I still hate to be the bearer of bad news...$s\"pause 100/speak Robin \"I know... Next time, we'll make sure to order two weeks earlier.$s\"/pause 100/emote Yri 40/pause 1500/speak Robin \"Hey, come on. We're a team, you and I. We'll manage!$h\"/pause 200/emote Yri 20/pause 1500/speak Yri \"Thanks, Robin!$h#$b#Okay, let's do this!\"/textAboveHead Robin \"I'll call Joja Mining.\"/pause 1000/textAboveHead Yri \"And I'll inform the client!\"/pause 2000/globalFade/viewport -999 -999/end"
+            },
+        },
+
+        //TOWN EVENTS
+
+        {
+            "LogName": "Lewis What the Heck",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270005/f Yri 750/d Fri/w sunny/z winter/t 1200 1600": "continue/-1000 -1000/Yri 42 81 1 Lewis 48 81 1 farmer -500 -500 0/addConversationTopic YriLewisWhatTheHeck 7/viewport 45 81/skippable/pause 1000/speak Yri \"Lewis, you can't ignore me forever! We need to talk!$a\"/pause 100/speak Lewis \"I'm very, VERY busy, Yri, we can talk another time!$a#$b#I have to go. If you want to talk to me, please make an appointment...$s\"/pause 100/speak Yri \"But this is import--$s\"/speak Lewis \"I said I'm busy! Please, let's just talk later.$4\"/pause 100/textAboveHead Yri \"Lewis...\"/move Lewis 6 0 2/move Lewis 0 10 2 true/pause 2000/globalFade/viewport -999 -999/end"
+            },
+        },
+        
+
+    //Yri House
+        //4 Hearts 
+        {
+            "LogName": "Yri EcoDebacle",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_Yri_House",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left) 
+
+                "106270003/n YriTeaInvite/d Fri/t 0800 2200": "playful/-1000 -1000/Yri 21 8 0 farmer 13 16 0/viewport 21 9/skippable/addConversationTopic EcoDebacle 7/showFrame Yri 28/pause 1000/move farmer 0 -5 1/emote Yri 12/pause 1500/move farmer 6 0 1/emote Yri 16/speak Yri \"Hi, @! Give me a second, I just want to finish this letter.\"/pause 500/faceDirection Yri 0/textAboveHead Yri \"Mhm... I need to contact the clients over this...\"/move farmer 1 0 0/move farmer 0 -1 0/pause 1500/move Yri -1 0 2/move Yri 0 1 2/speak Yri \"Okay, so are you ready for some tea?$h#$b#...? What I'm working on? I'm sorry, the details of my work are confidential.#$b#But I can tell you roughly about a problem I have with this one...$s\"/emote Yri 60/pause 1500/speak Yri \"You know... the work of an architect isn't just drawing aesthetically-pleasing buildings.#$b#I also need to make sure the buildings I create on paper are functional, safe, and sustainable in reality.$h#$b#All while keeping the balance between budget constraints, environmental factors, and my client's needs.$h#$b#Which means sometimes I have to tell my clients that their plans won't work.$s#$b#People often don't know how many factors I have to account for.$s#$b#Which leads to my problem...$s#$b#Right now a client's requested a building... a factory, to be exact.\"/stopMusic/playMusic desolate/speak Yri \"...After much consideration, I came to the conclusion that I can't justify the environmental impact their project would have.$s#$b#It's a large-scale project and would pay extremely well... But...$s#$b#The location the client chose to build their factory is home to unique flora and fauna.$s#$b#Building it there would destroy the natural balance, not to mention the effects it would have on the wildlife.$s#$b#I sat on this for the last few nights, but there's no way to make it less devastating for the environment.$s\"/pause 100/emote Yri 40/pause 1500/speak Yri \"The problem is... I'm not worried about telling them that it's a bad idea.$s#$b#I'm worried that they will just hire someone else who will approve the plans anyway...$s#$b#I think you already know that you can build a structure anywhere you want on your land. Right, @?\"/emote farmer 16/pause 1500/speak Yri \"That's because the laws in the Ferngill Republic are kept simple to make it more desirable to build and settle here.#$b#If you own the land, you can do nearly everything with it as long as the community head approves it.#$b#And a factory would provide new jobs and boost the economy...$s#$b#...So I already know that the project will be green-lit no matter whether I take it on or not$b#$b#The question is, should I keep the project or not?#$b#I don't have money problems nor am I dependent on this job, so it wouldn't hurt me if I declined the offer, but still...\"/quickQuestion What do you think?#Take it on and try to positively influence it.#Don't take it if you can't morally justify it#Who cares about the environment anyway?(break)speak Yri \"Hmm, I think you're right, the money is good and if I don't do it, someone else will.#$b#And who knows, maybe I can somehow guide them in the right direction.$h#$b#Thank you, @.\"(break)speak Yri \"Hmm, I think you're right. The money is good, but I don't want to be responsible for the damage it will cause.#$b#I know someone with less values will take on the job, but at least I won't stoop down to their level.#$b#Thank you, @.\"(break)speak Yri \"@.... I-- I'm sorry. It was a bad idea to talk to you about this. Sorry that I unloaded all of that on you.$s\"/speak Yri \"I'm sorry, I took so much time out of your day with that. You came here for tea, not business. Why don't I make you some pancakes as an apology?[211]\"/emote farmer 56/pause 1000/globalFade/viewport -999 -999/end"
+            },
+        },
+        
+
+    //Robin House
+        //6 Hearts    
+    {
+            "LogName": "Introduction to the Quest",
+            "Action": "EditData",
+            "Target": "Data/Events/ScienceHouse",
+            "Entries":
+            {
+                //Heart Event 6-3 
+                "106270008/f Yri 1500/e 106270007/d Fri/t 900 1600": "continue/-1000 -1000/Yri 8 20 0 Robin 8 18 2 farmer -500 -500 0/addConversationTopic YriQuest 7/viewport 4 20/skippable/pause 1000/speak Robin \"Don't worry, 750 loads of wood should be enough.#$b#But I think we should rethink the amount of stone for the foundation.#$b#We should plan 15% more just in case the shipment has too many defects.$b\"/pause 100/speak Yri \"You're right, Joja Mining isn't known for their quality.#$b#Or their punctuality.$a#$b#We should look for another trader.\"/pause 100/speak Robin \"Yeah, someone reliable...\"/pause 50/speak Yri \"And skilled...\"/pause 50/speak Robin \"And fast...\"/pause 50/speak Yri \"And local...\"/pause 50/playSound doorOpen/pause 50/warp farmer 6 24 0/playSound doorClose/pause 1000/emote Robin 16/emote Yri 16/move farmer 0 -4 1/pause 50/move farmer 1 0 1/faceDirection Yri 3/pause 100/speak Robin \"@!#$b#Perfect timing!#$b#Can we interest you in a business opportunity?\"/pause 100/emote Yri 16/pause 1000/speak Yri \"Robin! Sorry, @, we didn't mean to jump you like that.$h#$b#You know... We're unhappy with our current supplier for stone.#$b#So we were thinking maybe, if you can cram it into your schedule, then maybe you'd be interested in assisting us?\"/pause 100/speak Robin \"We need 100 stone and the deadline would be 14 days.#$b#So that if you can't make it, we'll still have enough time to order from our current supplier.\"/pause 100/speak Yri \"What do you say?\"/question fork0 \"#Sure, I'll see what I can do#Sorry, I'm busy\"/fork FarmerAcceptedRobinQuest/pause 500/speak Robin \"Oh, of course. I'm sorry, @, I shouldn't have been so quick to rope you in.$s\"/speak Yri \"It's fine, don't worry about it. Robin and I will just keep looking for another supplier in the future.#$b#Sorry, I have to go, I have a client meeting soon. See you, Robin. Goodbye, @.\"/pause 100/move Yri 0 1 3/move Yri -2 0 2/faceDirection farmer 2/move Yri 0 3 2 true/pause 500/globalFade/viewport -999 -999/end",
+
+
+                "FarmerAcceptedRobinQuest": "resetVariable/pause 500/speak Robin \"Great! Thanks, I knew we could count on you!$h\"/speak Yri \"Thank you, I'm looking forward to it!$h#$b#Sorry, I have to go, I have a client meeting soon. See you, Robin, and thank you again, @. [quest:Robin_Stone yri.yri.QF]\"/pause 100/move Yri 0 1 3/move Yri -2 0 2/faceDirection farmer 2/move Yri 0 3 2 true/pause 500/globalFade/viewport -999 -999/end"
+            },
+        },
+        {
+            "LogName": "Yri and Robin Project Meeting 4 After Quest",
+            "Action": "EditData",
+            "Target": "Data/Events/ScienceHouse",
+            "Entries":
+            {
+                //Heart Event 6-4 
+                "106270009/n Yri.BroughtRobinStone/d Fri/t 900 1600": "continue/-1000 -1000/Yri 7 20 3 Robin 5 20 1 farmer 6 21 0/addConversationTopic QuestDoneRobin 7/viewport 6 21/skippable/pause 1000/emote Yri 56 true/pause 100/emote Robin 56/pause 1000/faceDirection Robin 2/faceDirection Yri 2/pause 250/emote Robin 32/speak Robin \"That stone was so wonderful to work with! You're the best!$h\"/emote farmer 32/speak Yri \"Robin is right! Not a single defect in the lot, they were all perfect.$h#$b#You saved us so much time and work with your delivery.$h\"/speak Robin \"As thank for your help, Yri and I asked Maru to build you something that might help you on your farm.$h\"/move Yri -1 0 2/speak Yri \"Here, @. I hope you like it.[645]$h\"/emote farmer 20/speak Robin \"This is the start of a great business relationship!$h\"/speak Yri \"We're looking forward to work with you in the future!$h\"/emote farmer 32 true/pause 1000/globalFade/viewport -999 -999/end"
+            },
+        },
+
+        //Lewis House
+
+        {
+            "LogName": "Yri vs Lewis 1",
+            "Action": "EditData",
+            "Target": "Data/Events/ManorHouse",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270013/f Yri 1750/d Fri/t 900 1600": "continue/-1000 -1000/Yri 4 8 3 Lewis 2 8 1 farmer -500 -500 0/addConversationTopic YriFight 7/viewport 5 8/skippable/pause 1000/speak Yri \"What do you mean my appointment is canceled?!$a\"/pause 100/speak Lewis \"Something important came up and I need to take care of that.$s\"/pause 100/speak Yri \"You can't do that!$a#$b#You cancelled the last two appointments as well!$a#$b#I waited so long to talk with you, you can't send me away again!$a\"/speak Lewis \"As mayor, it's my duty to take care of urgent matters! I don't have the time for you!$4\"/pause 100/speak Yri \"And the money you owe me for my work isn't important?!$a\"/speak Lewis \"I told you, I'll take care of that as soon as I have the time!$4\"/speak Yri \"IT'S BEEN TWO YEARS, LEWIS!$a\"/pause 300/playSound doorOpen/pause 150/warp farmer 4 11 0/playSound doorClose/textAboveHead Lewis \"We need time to see how the buildings hold up!\"/pause 1500/textAboveHead Yri \"Are you accusing us of sloppy work?!\"/pause 1000/emote farmer 8/pause 1500/speak Lewis \"You should go, Yri. @ is here...$a\"/speak Yri \"...$6\"/pause 200/emote Yri 12/move Yri 1 0 2/move Yri 0 3 2/speak Yri \"Next time, there won't be any excuses, Lewis!$6\"/playSound doorOpen/pause 150/warp Yri -500 -500/playSound doorClose/pause 500/speak Lewis \"...$2\"/emote farmer 8/pause 1500/globalFade/viewport -999 -999/end"
+            },
+             "When": {"HasSeenEvent |contains=106270005": true}
+        },
+        {
+            "LogName": "Yri vs Lewis 2",
+            "Action": "EditData",
+            "Target": "Data/Events/ManorHouse",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270014/e 106270013/d Fri/t 900 1600": "continue/-1000 -1000/Yri 44 78 2 farmer 50 81 3/changeLocation Town/viewport 44 78/skippable/pause 1000/move farmer -6 0 0/move farmer 0 -2 0/pause 100/speak Yri \"I'm sorry you had to see me like that, @.$s\"/pause 100/emote Yri 12/pause 1500/speak Yri \"I lost my cool...$s#$b#It's just so frustrating. Every time I try to talk to Lewis, he avoids me...$s#$b#It's been so long... Maybe I should give up...$s\"/speak Yri \"...$s#$b#I'm sorry, I didn't want to drag you into that. That's a thing between me and Lewis.$s#$b#You listening to me is already more that I can ask for.\"/pause 200/emote Yri 56/pause 1500/speak Yri \"Don't worry, give me a day or two and I'll be over it and annoying Lewis again.$h#$b#Listening to me while I rant is already help enough. Thank you, @.$h\"/emote farmer 32/pause 1200/globalFade/viewport -999 -999/end"
+            },
+        },
+        
+    //BusStop
+
+        {
+            "LogName": "Yri invites you tag along to a construction site",
+            "Action": "EditData",
+            "Target": "Data/Events/BusStop",
+            "Entries":
+           {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270023/n YriConstructionsiteInvite/d Fri/t 900 1600": "continue/-1000 -1000/Yri 13 18 0 farmer 6 23 1/addConversationTopic ConstructionSite 7/addTemporaryActor Maurice 16 32 -600 -600 0/viewport 14 19/skippable/pause 1000/move farmer 7 0 0/emote Yri 16/faceDirection Yri 2/move farmer 0 -3 0/pause 150/speak Yri \"Hello @, I'm glad you made it.$h#$b#We need to drive to the countryside east of Zuzu City. Are you ready?\"/emote farmer 56/move Yri 0 -7 0 true/move farmer 0 -7 0 false/globalFade/viewport -999 -999/warp farmer 14 27/warp Maurice -500 -500/warp Yri 15 27/changeToTemporaryMap YriConstructionsite/viewport 15 18 clamp/bgColor 0 0 0/ambientLight 0 0 0/playMusic SettlingIn/pause 1500/move Yri 0 -7 0 true/move farmer 0 -6 0 false/pause 150/faceDirection Yri 3/emote Yri 40/faceDirection Yri 0/speak Yri \"Hello, Maurice.#$b#I guess there are some things you want to tell me?$s\"/speak Maurice \"Good to see you, Yri. The workers are doing their best to stay ahead of the schedule, but we've run into a few issues.#$b#You've noticed it already but the oak... We had to cut it down. By the client's wish.$s\"/emote Yri 16/speak Yri \"But why?\"/speak Maurice \"The client complained that it would block the view from his office.$s\"/speak Yri \"...$s#$b#He didn't communicate this with me.$s\"/speak Maurice \"I know, that's why we were hesitant, but in the end the client insisted and put it in writing.$s\"/speak Yri \"It's okay, I'll battle it out with the client. I hope he's aware that cutting down a tree of that age will be expensive for him.\"/speak Maurice \"I hope you have more luck. He wasn't listening to any of us.#$b#By the way, who's your companion? Did you finally take on an apprentice?\"/speak Yri \"!!!$3#$b#Sorry, @! I totally forgot you.#$b#Maurice, this is @. We live in the same village, and I thought it would be fun to show @ my work place.$h\"/speak Maurice \"Nice to meet you.$h#$b#So Yri, how is my brother doing?\"/speak Yri \"He's trying to take over the town, as usual.\"/speak Maurice \"Well, he always was an ambitious kid.\"/speak Yri \"I still can't believe you two are related.$h\"/faceDirection Yri 2/speak Yri \" @, Maurice and I need to talk a bit about the project, it won't take long.#$b#After that, I'll show you around, okay?$h\"/emote farmer 32/pause 1000/globalFade/viewport -999 -999/message \"Yri and Maurice talked for a while and then showed me the construction site.\"/message \"Maurice invited us to dinner. He and his crew are all nice people. I had a lot of fun today.\"/pause 500/end"
+            },
+        },
+        
+        //Farm
+
+        {
+            "LogName": "Asking the Player for help",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                 "106270016/e 106270015/d Fri/t 600 800": "continue/-1000 -1000/farmer 64 16 2 Charles 65 18 0 Yri 64 18 0/addConversationTopic AskingforHelp 7/move Charles 0 1 0/viewport 64 15/skippable/pause 1500/speak Yri \"Good morning, @. Sorry to disturb you so early in the morning.\"/emote Yri 40/pause 1500/speak Yri \"I... was worried you'd already left.$s#$b#Um... @, I think you know about me and Lewis' little problem...$s#$b#I need your help. Please come with me when I confront Lewis.#$b#You don't need to say anything. I want to deal with it myself, but I just need you there for moral support.$s\"/emote Yri 28/pause 1500/speak Charles \"It's your choice, and we both understand if you don't feel comfortable coming with us.\"/question fork0 \"#Sure, of course I'll help you#Sorry, I don't want to be involved with that\"/fork FarmerSaidYes/pause 500/emote Yri 40/pause 1500/speak Yri \"Of course, I understand.$s#$b#I wouldn't want you to potentially risk your relationship with Lewis because you tried to help me fix my problems.$s#$b#Anyway, thanks for listening to me. See you later, @.\"/pause 1000/globalFade/viewport -999 -999/end",
+      
+
+      "FarmerSaidYes": "resetVariable/pause 500/jump Yri 8/emote Yri 56/pause 1500/speak Yri \"Thank you, @! I feel so much more confident knowing that you're coming with us.\"/faceDirection Charles 1/speak Charles \"Wait, does that mean you didn't feel confident enough with just me by your side?$1\"/jump Yri 4/faceDirection Yri 3/pause 200/speak Yri \"Hey! That's not fair!$4\"/faceDirection Yri 0/faceDirection Charles 0/pause 150/speak Yri \"Anyway, @, thank you.#$b#I want to go to Lewis when you're ready, so visit us when you are and we'll go together, okay?\"/pause 1000/globalFade/viewport -999 -999/end"
+            },
+        },
+
+    //Yri is nervous to confront Lewis.
+
+        {
+            "LogName": "Meet Yri to confront Lewis",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_Yri_House",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270020/n FarmerSaidYes/d Fri/t 1500 2000": "continue/-1000 -1000/Yri 7 15 1 Charles 10 18 0 farmer 9 18 0/addConversationTopic LewisApology 7/viewport 10 17/skippable/pause 1000/move Yri 5 0 3/emote Yri 40/pause 500/move Yri -5 0 1/pause 500/emote Yri 28/move Yri 5 0 3/textAboveHead Yri \"This is a bad idea, why are we doing this...\"/move Yri -5 0 1/emote Yri 40/pause 500/speak Charles \"You can ignore her, she's just nervous.\"/textAboveHead Yri \"This is the worst idea ever.... Why did I agree to this...\"/speak Charles \"I bet you didn't think she's such a nervous wreck. She always tries her best to hide her vulnerable side.#$b#I'm not sure why, but she's afraid of people seeing her showing weakness.#$b#Letting you see her like this means she trusts you a lot.$h\"/faceDirection farmer 1/emote farmer 56/pause 1500/speak Charles \"Yri, are you ready?\"/jump Yri 8/emote Yri 16/faceDirection Yri 2/speak Yri \"NO!$3#$b#I mean yes?!$3\"/emote Yri 12/pause 200/emote Charles 32/emote farmer 56/pause 1500/speak Yri \"Okay... Okay, I'm ready. Let's go.\"/pause 1000/globalFade/viewport -999 -999/end"
+            },
+        },
+
+    //Lewis House
+
+        {
+            "LogName": "Lewis apology",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_Yri_House",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270021/e 106270020/d Fri/t 1500 2200": "continue/-1000 -1000/Lewis 7 5 0 Yri 7 7 0 Charles 8 7 0 farmer 6 7 0/changeLocation ManorHouse/viewport 7 7 true/skippable/pause 1000/speak Yri \"Lewis, we need to talk.\"/emote Lewis 16/jump Lewis 10/pause 150/faceDirection Lewis 2/speak Lewis \"What?! You nearly gave me a heart attack!$3#$b#I told you, if you need something, you need to make an appointment.$2\"/speak Yri \"No, Lewis, we need to talk. You can't always turn me down!$5\"/speak Lewis \"Yri, we went over this already...\"/emote farmer 12/pause 1500/quickQuestion Lewis: I don't have the time for you, Yri...#What's the reason you can't pay Yri?#*Yri has to deal with it alone...*(break)speak Lewis \"How dare you! I pay her...!$4#$b#You should leave now.\"\\faceDirection Lewis 0\\emote Lewis 12\\pause 1500(break)speak Yri \"Lewis... You always turn me down... I've tried to reach an agreement with you for years now but you always send me away.$s#$b#Why? I don't understand, why won't you pay me?$s\"\\speak Lewis \"I told you, I'll pay you when it's time...$s#$b#You should leave now.\"\\faceDirection Lewis 0\\emote Lewis 12\\pause 1500/speak Yri \"No.$5#$b#I won't leave. Tell me why! I want a reason!$5\"/speak Lewis \"...\"/faceDirection Charles 3/emote Charles 28/pause 1400/speak Charles \"Yri, maybe we...$s\"/speak Yri \"No. Please, tell me why?$s\"/faceDirection Charles 0/emote Lewis 40/pause 1500/faceDirection Lewis 2/showFrame Lewis 18/pause 1500/emote Lewis 12/pause 1300/speak Lewis \"...We never had the money... to pay you.$2\"/emote Yri 16 true/emote farmer 16 true/emote Charles 16/pause 1500/speak Yri \"What....?$3\"/speak Lewis \"...Yes. I thought with the town overhaul we would attract more tourists and boost the economy.$2#$b#I also applied for funds for the renovation but then... the war in the Gotoro Empire fully broke out.$2#$b#All funds for public projects got denied and were used to aid the troops and the tourists never came...$2#$b#I intended to pay you, I really did...$2#$b#I was so embarrassed that I couldn't pay... that I just ran away...$2#$b#I couldn't bring myself to raise the taxes to get the money together so I just hoped I could ignore everything until I had the money together...$2\"/emote Lewis 28/pause 1500/speak Lewis \"....I built, uh, a solid gold statue... of myself... I tried to sell it and use the money to pay you.$2#$b#But the prices for gold aren't what they used to be...$2\"/emote Yri 8/emote farmer 60/emote Charles 28/pause 1500/speak Lewis \"Please don't look at me like that... I made it before we were in this situation...$2#$b#I never intended to not pay you... And I understand that I made everything worse by acting the way I did...$2#$b#I know it's probably too late but I apologize, Yri. I am truly sorry.$2\"/emote Yri 40/pause 1400/speak Yri \"...You should've talked to me earlier.$5#$b#...Charles, @. Could you please leave us for a while? I need to talk to Lewis alone.$s\"/faceDirection Charles 3/pause 250/speak Charles \"I understand. I'll wait outside. @, you can go home. Yri and I will visit you later, okay?\"/emote farmer 60/pause 1500/move Charles 0 3 3 true/move farmer 0 3 3 true/pause 500/globalFade/viewport -999 -999/end"
+            },
+        },
+        
+        //Yri House
+
+        {
+            "LogName": "Catching up on Lewis apology",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_Yri_House",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270032/e 106270021/d Fri/t 1500 2200": "continue/-1000 -1000/Yri -500 -500 0 Charles 11 16 3 farmer 9 16 1/viewport 10 18/skippable/pause 1000/speak Charles \"A solid gold statue, huh...\"/emote farmer 60/pause 1000/speak Charles \"Do you think she's going to be okay? It's been three hours already...$s\"/playSound doorOpen/pause 150/warp Yri 10 20 0/emote Charles 16/faceDirection Charles 2/faceDirection farmer 2/playSound doorClose/move Yri 0 -3 0/pause 150/speak Yri \"Hello, you two. I thought you wanted to go home, @?\"/emote farmer 32/speak Yri \"Thank you for coming with me. Lewis and I worked out a payment plan. He seems to be truly sorry.#$b#And he told me to apologize to you two as well.#$b#After all, we finally managed to achieve a positive outcome, right?$h\"/emote Charles 56/emote farmer 56/speak Charles \"I think that should be celebrated. Let's go to the Stardrop Saloon, my treat.$h\"/emote Yri 20 true/emote farmer 56 true/pause 500/globalFade/viewport -999 -999/end"
+            },
+        },
+    ]
+  }
+
+
+  

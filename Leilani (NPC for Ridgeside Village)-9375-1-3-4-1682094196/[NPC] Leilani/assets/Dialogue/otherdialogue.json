@@ -1,0 +1,113 @@
+{
+  "Changes": [
+    {
+      "LogName": "Leilani Luau Dialogue",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "Entries": {
+        "Leilani": "This is almost as good as a luau back on Ember Island! All we need is someone spinning fire poi... as long as it's not Pika!$1"
+      }
+    },
+    {
+      "LogName": "Leilani Jellies Dialogue",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "Entries": {
+        "Leilani": "I'll be leaving for my next adventure after the jellies have finished their dance...$2#$b#Watching them is bittersweet for me. It's easier to leave with a beautiful memory... but harder, too.$2"
+      }
+    },
+    {
+      "LogName": "Ginger Island Unlocked Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Leilani",
+      "When": {
+        "HasSeenEvent": "1039573"
+      },
+      "Entries": {
+        "Sun": "I hear you've been exploring Ginger Island. Is it really haunted?#$e#I know a lot of people who would love to explore those dwarven ruins..."
+      }
+    },
+    {
+      "LogName": "Leilani's Rainy Day Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries": {
+        "Leilani": "#$c .5#Pika has to close the restaurant when it rains, but at least it keeps the valley green.#Rainy days are perfect for visiting the library. What are you doing today?"
+      }
+    },
+    {
+      "LogName": "Pika's Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Pika",
+      "Entries": {
+        "spring_28_1": "My wahine Leilani is coming back from her travels tomorrow.#$e#Her work as a researcher keeps her busy the rest of the year, but she spends the summer with me and Keahi.$h",
+        "spring_28_2": "My wahine Leilani is coming back from her travels tomorrow.#$e#Summer with her is like falling in love all over again.$h",
+        "summer_22_1": "Just to let you know, the restaurant will have a limited menu tomorrow evening. We're celebrating Leilani's birthday.",
+        "summer_22_2": "Just to let you know, the restaurant will have a limited menu tomorrow evening. We're celebrating Leilani's birthday.",
+        "Tue4": "The restaurant has been flourishing lately.$h#$b#Lots of customers means more money to set aside for Keahi's future.",
+        "Thu6": "I hope Keahi has been behaving for Penny...$s#$b#%Pika sighs deeply.#$b#I'm grateful for what she's doing for Keahi.$h#$b#But I know that he can sometimes be difficult. I think he acts out when he misses his makuahine.$4",
+        "Mon10": "I only want what's best for Keahi.$s#$b#That's why I work so hard at the restaurant.#$b#My earnings will not only provide for his future, but will also ensure that he has me and his makuahine with him as he journeys in life, wherever we may be.",
+        "Tue10": "My parents have always supported my ambitions and dreams.#$b#It just so happens that my dreams were in line with theirs.$h#$b#If Keahi chooses a different path in life, I'll still support him, and so will Leilani.#$e#I'm just so proud of how much he's grown.$h"
+      }
+    },
+    {
+      "LogName": "Pika's Luau Dialogue",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "Entries": {
+        "Pika": "I used to spin poi when I was younger.$h#$b#The first time I added fire, I nearly burnt my eyebrows off!$u#$e#Leilani will never let me live that down, ha ha!$h"
+      }
+    },
+    {
+      "LogName": "Keahi's Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Keahi",
+      "Entries": {
+        "spring_28_1": "Mom's coming home tomorrow! I hope she brings me something really cool!$1#$b#If you want to come and see her, we'll be meeting her on the beach!",
+        "spring_28_2": "Mom's coming home tomorrow! I hope she brings me something really cool!$1#$b#If you want to come and see her, we'll be meeting her on the beach!",
+        "LeilaniArrives": "Look! Mom brought me a rock with a bug stuck in it! It's called amber.",
+        "summer_Tue8": "My dad is trying to teach me Samaowaii.#$b#It's what they speak on the Fern Islands.#$e#I was born in the village, but my mom and dad are from the islands!",
+        "Tue8": "My dad is trying to teach me Samaowaii.#$b#It's what they speak on the Fern Islands.#$e#I was born in the village but my dad is from the islands.#$e#My mom is too...$s",
+        "Town_97_92": "Don't worry, Mom! I'll be good today! I'll be the best!$4"
+      }
+    },
+    {
+      "LogName": "Corine's Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Corine",
+      "Entries": {
+        "LeilaniArrives": "It's such a relief to have Leilani around! Summer is the restaurant's busiest season.",
+        "summer_23_1": "Pika's taking tonight off to celebrate Leilani's birthday, so Faye and I have to look after the restaurant on our own.#$b#Don't worry, all the food will still be freshly prepared! I've been practicing!",
+        "summer_23_2": "Pika's taking tonight off to celebrate Leilani's birthday, so Faye and I have to look after the restaurant on our own.#$b#Don't worry, all the food will still be freshly prepared! I've been practicing!"
+      }
+    },
+    {
+      "LogName": "Willy's Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Willy",
+      "Entries": {
+        "spring_28_1": "If you're thinkin' of droppin' by the shop tomorrow mornin' I might be out. Got to row Pika's missus back from her boat!",
+        "spring_28_2": "If you're thinkin' of droppin' by the shop tomorrow mornin' I might be out. Got to row Pika's missus back from her boat!"
+      }
+    },
+    {
+      "LogName": "Olga's Dialouge",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Olga",
+      "Entries": {
+        "LeilaniArrives": "It's a good thing Leilani's back. Keahi behaves so much better when she's here..."
+      }
+    },
+    {
+      "LogName": "Jasper's Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jasper",
+      "When": {
+        "HasMod |contains=Lemurkat.NPCJasper": true
+      },
+      "Entries": {
+        "LeilaniArrives": "It will be good to see Leilani again.#$b#I have not had an opportunity to talk to her since I parted ways with... a certain person.$2"
+      }
+    }
+  ]
+}

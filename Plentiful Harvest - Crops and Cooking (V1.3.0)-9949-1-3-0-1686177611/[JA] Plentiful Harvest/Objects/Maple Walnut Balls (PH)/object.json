@@ -1,0 +1,83 @@
+{
+    "Name": "Maple Walnut Balls (PH)", 
+    "Description": "A ball of maple and walnut, packed with energy.", 
+    "Category": "Cooking",
+	"ContextTags": 
+        [
+		"color_brown",
+        "dye_medium"
+        ],
+    "Edibility": 62, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 25,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 1200,
+    },
+    "Price": 280, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": 724,
+            "Count": 1,
+        },
+        {
+            "Object": "Walnut (PH)", 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Alex"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Maple Walnut Balls",
+		"es": "Maple Walnut Balls", //Spansih
+        "ko": "Maple Walnut Balls", //Korean
+        "de": "Ahorn-Walnuss-Bällchen", //German
+        "fr": "Maple Walnut Balls", //French
+        "hu": "Maple Walnut Balls", //Hungarian
+        "it": "Maple Walnut Balls", //Italian
+        "ja": "Maple Walnut Balls", //Japanese
+        "pt": "Maple Walnut Balls", //Portuguese
+        "ru": "Кленово-ореховые шарики", //Russian
+        "tr": "Maple Walnut Balls", //Turkish
+        "zh": "合桃枫叶", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A ball of maple and walnut, packed with energy.", //Spansih
+        "ko": "A ball of maple and walnut, packed with energy.", //Korean
+        "de": "Ein Bällchen aus Ahorn und Walnüssen, gefüllt mit Energie.", //German
+        "fr": "A ball of maple and walnut, packed with energy.", //French
+        "hu": "A ball of maple and walnut, packed with energy.", //Hungarian
+        "it": "A ball of maple and walnut, packed with energy.", //Italian
+        "ja": "A ball of maple and walnut, packed with energy.", //Japanese
+        "pt": "A ball of maple and walnut, packed with energy.", //Portuguese
+        "ru": "Шарики из кленовых и грецких орехов, полные энергии.", //Russian
+        "tr": "A ball of maple and walnut, packed with energy.", //Turkish
+        "zh": "枫树和核桃球，充能！", //Chinese (Simplified)
+    },
+	
+}

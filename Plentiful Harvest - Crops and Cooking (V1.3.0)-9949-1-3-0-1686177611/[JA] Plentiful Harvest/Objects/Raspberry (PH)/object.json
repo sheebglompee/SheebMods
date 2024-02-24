@@ -1,0 +1,52 @@
+{
+    "Name": "Raspberry (PH)",
+    "Description": "A small, sweet berry that grows in spring. A delicious snack, and is very popular in jellies.",
+    "Category": "Fruit",
+	"ContextTags": 
+        [
+        "season_spring",
+		"color_red"
+        ],
+    "Edibility": 7,
+    "Price": 15, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Vincent", "Jas", "Linus"],
+        "Like": ["Alex"],
+        "Neutral": null, 
+        "Dislike": ["Sebastian"], 
+        "Hate": ["Shane"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Raspberry",
+		"es": "Raspberry", 
+        "ko": "Raspberry", 
+        "de": "Himbeere", 
+        "fr": "Raspberry", 
+        "hu": "Raspberry", 
+        "it": "Raspberry", 
+        "ja": "Raspberry",
+        "pt": "Raspberry", 
+        "ru": "Малина", 
+        "tr": "Raspberry",
+        "zh": "山莓", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A small, sweet berry that grows in spring. A delicious snack, and is very popular in jellies.", 
+        "ko": "A small, sweet berry that grows in spring. A delicious snack, and is very popular in jellies.", 
+        "de": "Eine kleine, süße Beere, die im Frühling wächst. Ein leckerer Snack und sie wird häufig in Marmeladen verwendet.",
+        "fr": "A small, sweet berry that grows in spring. A delicious snack, and is very popular in jellies.", 
+        "hu": "A small, sweet berry that grows in spring. A delicious snack, and is very popular in jellies.",
+        "it": "A small, sweet berry that grows in spring. A delicious snack, and is very popular in jellies.", 
+        "ja": "A small, sweet berry that grows in spring. A delicious snack, and is very popular in jellies.", 
+        "pt": "A small, sweet berry that grows in spring. A delicious snack, and is very popular in jellies.",
+        "ru": "Маленькая, сладкая ягодка, которая растет весной. Является вкусным перекусом и очень популярна в приготовлении джема.", 
+        "tr": "A small, sweet berry that grows in spring. A delicious snack, and is very popular in jellies.", 
+        "zh": "一种在春天生长的小而甜的浆果。一种美味的小吃，在果冻中很受欢迎。",
+    },
+}

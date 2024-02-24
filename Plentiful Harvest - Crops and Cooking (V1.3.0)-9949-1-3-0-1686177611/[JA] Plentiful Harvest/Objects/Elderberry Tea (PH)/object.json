@@ -1,0 +1,83 @@
+{
+    "Name": "Elderberry Tea (PH)", 
+    "Description": "It’s sweet and just the smell makes you feel healthier.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_purple",
+        "dye_medium"
+        ],
+    "Edibility": 20, 
+    "EdibleIsDrink": true, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 10,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 1,
+        "Attack": 0,
+        "Duration": 600,
+    }, 
+    "Price": 220, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": 614, 
+            "Count": 1,
+        },
+        {
+            "Object": "Elderberry (PH)", 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Linus", "Caroline"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Jas", "Vincent"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Elderberry Tea",
+		"es": "Elderberry Tea", //Spansih
+        "ko": "Elderberry Tea", //Korean
+        "de": "Holunderbeerentee", //German
+        "fr": "Elderberry Tea", //French
+        "hu": "Elderberry Tea", //Hungarian
+        "it": "Elderberry Tea", //Italian
+        "ja": "Elderberry Tea", //Japanese
+        "pt": "Elderberry Tea", //Portuguese
+        "ru": "Бузинный чай", //Russian
+        "tr": "Elderberry Tea", //Turkish
+        "zh": "接骨木莓茶", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "It’s sweet and just the smell makes you feel healthier.", //Spansih
+        "ko": "It’s sweet and just the smell makes you feel healthier.", //Korean
+        "de": "Er ist süß und allein der Geruch lässt dich gesünder fühlen.", //German
+        "fr": "It’s sweet and just the smell makes you feel healthier.", //French
+        "hu": "It’s sweet and just the smell makes you feel healthier.", //Hungarian
+        "it": "It’s sweet and just the smell makes you feel healthier.", //Italian
+        "ja": "It’s sweet and just the smell makes you feel healthier.", //Japanese
+        "pt": "It’s sweet and just the smell makes you feel healthier.", //Portuguese
+        "ru": "Сладкий и полезный чай. Один лишь его запах заставляет чувствовать вас здоровее.", //Russian
+        "tr": "It’s sweet and just the smell makes you feel healthier.", //Turkish
+        "zh": "它很甜，仅仅是它的味道就能让你感觉非常健康。  ", //Chinese (Simplified)
+    },
+	
+}

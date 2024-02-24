@@ -1,0 +1,15 @@
+{
+  // Charmer descriptions
+  "claire.charmer": "Claire es un imán de amigos, su humildad agrada a los aldeanos.#Ganas +5 puntos de amistad cuando hablas con los aldeanos con ella.",
+  "olivia.protector": "Existe la posibilidad de que Olivia encante a los monstruos con su belleza.#Esto te hace invencible por tiempo temporal.",
+
+  // Companion buff descriptions
+  "andy.buffs": "Puede que Andy no sea el mejor granjero, pero es ingenioso y puede encontrar consuelo en las enseñanzas de Yoba.#Ganas +2 de recolección y +1 de agricultura mientras exploran lo salvaje juntos.",
+  "claire.buffs": "Claire tiene grandes conocimientos sobre la agricultura y el suelo.#Ganas +75 de energía máxima y +1 de agricultura mientras exploran lo salvaje juntos.",
+  "marlonfay.buffs": "Los años de experiencia y liderazgo de Marlon te inspiran a luchar como un guerrero entrenado.#Ganas +2 de ataque y +2 de defensa mientras peleen juntos.",
+  "morristod.buffs": "Morris puede no ser el mejor luchador, pero su ambición y sentido de autoconservación son admirables.#Ganas +1 de suerte y +2 de defensa cuando trabajan juntos.",
+  "olivia.buffs": "El tiempo que pasó Olivia en el mundo corporativo le enseñó cómo mantenerse al día con la competencia.#Ganas +1 de suerte, +1 de velocidad, y +50 de energía máxima mientras caminen juntos.",
+  "sophia.buffs": "A Sophia le encanta LARPear y encontrar nuevos materiales para cosplay y le da miedo la oscuridad.#Ganas +1 de ataque, +1 de velocidad, y +30 de magnetismo en la épica búsqueda juntos.",
+  "susan.buffs": "Susan es una granjera experimentada con un gran corazón, pero es pacifista y no luchará contra monstruos.#Ganas +2 de agricultura y +2 de recolección mientras pasen tiempo juntos.",
+  "victor.buffs": "Victor siempre está interesado en estudiar el terreno y la infraestructura local.#Ganas +2 de suerte y +1 de minería mientras recorren el área juntos."
+}

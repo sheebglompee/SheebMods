@@ -1,0 +1,140 @@
+{
+  "furniture.BoutiqueSewingTable.name": "时尚缝纫桌",
+  "furniture.BoutiqueSewingTable.description":"一张经典的缝纫桌，用于改造礼服.",
+
+  "furniture.BoutiqueSimpleMirror.name": "简约时尚镜子",
+  "furniture.BoutiqueSimpleMirror.description":"镜子里看到的人是美丽的!",
+
+  "furniture.BoutiqueUmbrellaHolder.name": "时尚伞架",
+  "furniture.BoutiqueUmbrellaHolder.description":"在雨天时，它是放置伞的完美位置.",
+
+  "furniture.DecoBoutiqueFlowerpot.name": "时尚花盆",
+  "furniture.DecoBoutiqueFlowerpot.description":"小巧玲珑，散发着诱人的芳香.",
+
+  "furniture.DecoBoutiqueVase.name": "时尚花瓶",
+  "furniture.DecoBoutiqueVase.description":"一个只插着一朵花的花瓶，散发着迷人的香气.",
+
+  "furniture.DecoHat1.name": "帽子展示架 1",
+  "furniture.DecoHat1.description": "为每个人都准备了一顶绿帽子!",
+
+  "furniture.DecoHat2.name": "帽子展示架 2",
+  "furniture.DecoHat2.description": "为每个人都准备了一顶绿帽子!",
+
+  "furniture.DecoHat3.name": "帽子展示架 3",
+  "furniture.DecoHat3.description": "为每个人都准备了一顶绿帽子!",
+
+  "furniture.DecoHat4.name": "帽子展示架 4",
+  "furniture.DecoHat4.description": "为每个人都准备了一顶绿帽子!",
+
+  "furniture.DecoHat5.name": "帽子展示架 5",
+  "furniture.DecoHat5.description": "为每个人都准备了一顶绿帽子!",
+
+  "furniture.DecoHat6.name": "帽子展示架 6",
+  "furniture.DecoHat6.description": "为每个人都准备了一顶绿帽子!",
+
+  "furniture.DecoHat7.name": "帽子展示架 7",
+  "furniture.DecoHat7.description": "为每个人都准备了一顶绿帽子!",
+
+  "furniture.DecoHat8.name": "帽子展示架 8",
+  "furniture.DecoHat8.description": "为每个人都准备了一顶绿帽子!",
+
+  "furniture.DecoHatBoxes.name": "小帽盒",
+  "furniture.DecoHatBoxes.description":"一对盒子，用于包装顾客可爱的新帽子.",
+  
+  "furniture.DecoLargeHatBoxes.name": "大帽盒",
+  "furniture.DecoLargeHatBoxes.description":"用于包装您所提供最奢华的绿帽子盒子.",
+  
+  "furniture.DecoMannequin.name": "半身模特",
+  "furniture.DecoMannequin.description":"用于近距离观察细节的半身模特.",
+  
+  "furniture.DecoNecklaceDisplays.name": "单项链展示架",
+  "furniture.DecoNecklaceDisplays.description":"为最尊贵顾客提供各种各样的颈饰.",
+  
+  "furniture.DecoParasols.name": "遮阳伞",
+  "furniture.DecoParasols.description":"防晒又防雨!",
+  
+  "furniture.DecoWisteria.name": "创始人画像",
+  "furniture.DecoWisteria.description":"我们尊敬的创始人坤坤.",
+  
+  "furniture.DisplayCaseCenter.name": "中央展示柜",
+  "furniture.DisplayCaseCenter.description":"一种装饰华丽的古典展示柜，用于展示出售的物品.",
+  
+  "furniture.DisplayCaseHats.name": "帽子展示柜",
+  "furniture.DisplayCaseHats.description":"一种装饰华丽的古典展示柜，用于展示出售的物品.",
+
+  "furniture.DisplayCaseMannequinn.name": "人体模特展示柜",
+  "furniture.DisplayCaseMannequinn.description":"一种装饰华丽的古典展示柜，用于展示出售的物品.",
+    
+  "furniture.DisplayNecklace.name": "项链展示架",
+  "furniture.DisplayNecklace.description":"一个展示出售项链的展示架.",
+    
+  "furniture.DisplayShoes.name": "鞋子展示架",
+  "furniture.DisplayShoes.description":"一个展示出售鞋子的展示架.",
+ 
+  "furniture.DisplayHats.name": "帽子展示架",
+  "furniture.DisplayHats.description":"一个展示出售帽子的展示架.",
+    
+  "furniture.DisplayTableLarge.name": "大型展示桌",
+  "furniture.DisplayTableLarge.description":"大型展示桌.",
+    
+  "furniture.DisplayTableMedium.name": "中型展示桌",
+  "furniture.DisplayTableMedium.description":"一张中等大小的空展示桌.",
+    
+  "furniture.DisplayTableSmall.name": "小型展示桌",
+  "furniture.DisplayTableSmall.description":"一张小型空展示桌.",
+  
+  "furniture.DisplayTableOrnate.name": "华丽展示桌",
+  "furniture.DisplayTableOrnate.description": "一张中等大小的华丽展示桌.",
+
+  "furniture.Mannequin.name": "人体模特",
+  "furniture.Mannequin.description":"用于展示漂亮礼服的人体模特.",
+    
+  "furniture.MannequinContrastParallel.name": "对比平行人体模特",
+  "furniture.MannequinContrastParallel.description":"靛蓝色光泽丝绸材质，带有珍珠色条纹装饰和不对称拉链领，以及杏色七分裤，是艾米丽的'对比平行'系列中的一部分.",
+
+  "furniture.MannequinMedianTincture.name": "中性草饲人体模特",
+  "furniture.MannequinMedianTincture.description":"天然未染色羊毛外套，橘黄色羊毛领口、袖口和褶边，镶有孔雀石和海蓝宝石，搭配土耳其蓝色缎质裤子，是艾米丽的'中性草饲'系列中的一部分.",
+  
+  "furniture.MannequinSaturatedRatio.name": "饱和比例人体模特",
+  "furniture.MannequinSaturatedRatio.description":"紫罗兰色的再生抓绒连帽衫，带有不对称拉链和下摆，彩虹面料拼接袖子，和蓝宝石牛仔裤，带有台阶式下摆，是艾米丽的'饱和比例'系列中的一部分.",
+  
+  "furniture.MannequinSunflowerVision.name": "向日葵视觉人体模特",
+  "furniture.MannequinSunflowerVision.description":"棕色闪亮钩针露肩连衣裙，搭配大理石染色的金黄色丝绸开衫，配有钟形袖，是艾米丽的'青葱梦游者'系列中的一部分.",
+  
+  "furniture.MannequinMeadowReverie.name": "草地幻想人体模特",
+  "furniture.MannequinMeadowReverie.description":"桃红色鹅卵石蘑菇皮质短外套，薄荷色雪纺高低腰长袍，上面绣有花卉图案，是艾米丽的'青葱梦游者'系列中的一部分.",
+    
+  "furniture.MannequinPlumFantasy.name": "梅子幻想人体模特",
+  "furniture.MannequinPlumFantasy.description":"紫罗兰和洋红色的波斯图夫人体连衣裙，带有金色镶嵌的菊花肩部装饰和半飘逸领，是艾米丽的'青葱梦游者'系列中的一部分.",
+    
+  "furniture.MannequinLissomeBlaze.name": "轻盈火焰人体模特",
+  "furniture.MannequinLissomeBlaze.description":"朱红色深V连衣裙，配有领口和金色星星图案刺绣，以及托斯卡纳黄色的胸罩，是艾米丽的'元素舞者'系列中的一部分.",
+    
+  "furniture.MannequinGracefulZephyr.name": "优美之风人体模特",
+  "furniture.MannequinGracefulZephyr.description":"珍珠色纱制连身裤，配有附加的双层围巾，以及带有肩章和三分之二袖的薰衣草色亚麻夹克，是艾米丽的'元素舞者'系列中的一部分.",
+    
+  "furniture.MannequinAquaticElegance.name": "水韵雅致人体模特",
+  "furniture.MannequinAquaticElegance.description":"海蓝色缎面人字形拖地美人鱼裙，带有蓝宝石色亮片装饰的上身，附带有银色泡沫刺绣和种子珍珠的长披风，是艾米丽的'元素舞者'系列中的一部分.",
+    
+  "furniture.MannequinProfessionalByways.name": "专业通道人体模特",
+  "furniture.MannequinProfessionalByways.description":"混合棉质灰褐色外套和背心内衬，配有高腰金褐色七分裤，是艾米丽的'城市猫步'系列中的一部分.",
+    
+  "furniture.MannequinNaturalBustle.name": "自然鞭挞人体模特",
+  "furniture.MannequinNaturalBustle.description":"橄榄色斜纹呢织物长外套，镶有抽象动物图标，和炭灰色牛仔衬衫，搭配宽松的榛褐色棉质长裤，是艾米丽的'城市猫步'系列中的一部分.",
+    
+  "furniture.MannequinCapriciousSkylines.name": "变幻天际线人体模特",
+  "furniture.MannequinCapriciousSkylines.description":"奶油色绒毛外套，手工刺绣的火与冰图案，米色高领短上衣和霜色斜纹牛仔裤，是艾米丽的'城市猫步'系列中的一部分",
+  
+  "furniture.PedestalCourtains.name": "柱式帷幕",
+  "furniture.PedestalCourtains.description":"采用昂贵的丝绸制成的华丽帷幕.",
+  
+  "furniture.PedestalPedestal.name": "柱式展台",
+  "furniture.PedestalPedestal.description":"一个小型的展台，让试穿服装的人感受到特别和独特.",
+  
+  "furniture.SewingTable.name": "裁缝桌",
+  "furniture.SewingTable.description":"一张配备了缝纫师和裁缝所需用品的桌子.",
+  
+  
+
+}
+  

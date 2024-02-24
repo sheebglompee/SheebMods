@@ -1,0 +1,325 @@
+{
+     "Changes": [
+        
+    //Nala Sunny days
+    {
+        "LogName": "Nala Spawn Inside",
+        "Action": "EditMap",
+        "Target": "Maps/Custom_Yri_House",
+        "MapTiles": [
+                {
+                "Position": {
+                  "X": "9",
+                  "Y": "16"
+                            },
+                "Layer": "Back",
+                "SetProperties": {
+                    "CustomCompanions": "Spawn 1 Yri.YriCC.NalaIdleAiryn"
+                                 }
+                }
+                    ],
+        "When": {
+            "DayOfWeek": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "Season": "Spring, Summer, Fall",
+            "Weather": "Sun, Wind",
+            "Time": "{{Range: 0610, 1200}}"
+                },
+        "Update": "OnTimeChange" 
+    },
+
+    //Nala Sleep when Yri works
+    {
+        "LogName": "Nala Sleep Inside",
+        "Action": "EditMap",
+        "Target": "Maps/Custom_Yri_House",
+        "MapTiles": [
+            {
+            "Position": {
+                "X": "22",
+                "Y": "10"
+                        },
+            "Layer": "Back",
+            "SetProperties": {
+                    "CustomCompanions": "Spawn 1 Yri.YriCC.NalaSleepInsideAiryn"
+                             }
+            }
+                    ],
+        "When": {
+            "DayOfWeek": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "Season": "Spring, Summer, Fall",
+            "Weather": "Sun, Wind",
+            "Time": "{{Range: 1200, 1700}}"
+                },
+        "Update": "OnTimeChange" 
+    },
+    //Nala Walk 
+    {
+        "LogName": "Nala Spawn Outside",
+        "Action": "EditMap",
+        "Target": "Maps/Custom_EastScarpe",
+        "MapTiles": [
+            {
+                "Position": {
+                "X": "52",
+                "Y": "52"
+                            },
+                "Layer": "Back",
+                "SetProperties": {
+                    "CustomCompanions": "Spawn 1 Yri.YriCC.NalaWalksOutsideAiryn"
+                                 }
+            }
+        ],
+        "When": {
+            "DayOfWeek": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "Season": "Spring, Summer, Fall",
+            "Weather": "Sun, Wind",
+            "Time": "{{Range: 1700, 2000}}"
+                },
+        "Update": "OnTimeChange" 
+    },
+    //Nala Idle after Walk
+        {
+        "LogName": "Nala Spawn Inside",
+        "Action": "EditMap",
+        "Target": "Maps/Custom_Yri_House",
+        "MapTiles": [
+            {
+                "Position": {
+                "X": "9",
+                "Y": "16"
+                            },
+                "Layer": "Back",
+                "SetProperties": {
+                    "CustomCompanions": "Spawn 1 Yri.YriCC.NalaIdleAiryn"
+                                 }
+            }
+                    ],
+        "When": {
+            "DayOfWeek": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "Season": "Spring, Summer, Fall",
+            "Weather": "Sun, Wind",
+            "Time": "{{Range: 2000, 2330}}"
+                },
+        "Update": "OnTimeChange" 
+    },
+    //Nala Sleep at night
+    {
+        "LogName": "Nala Sleep Inside",
+        "Action": "EditMap",
+        "Target": "Maps/Custom_Yri_House",
+        "MapTiles": [
+            {
+                "Position": {
+                "X": "9",
+                "Y": "7"
+                            },
+            "Layer": "Back",
+            "SetProperties": {
+                "CustomCompanions": "Spawn 1 Yri.YriCC.NalaSleepInsideAiryn"
+                             }
+            }
+                    ],
+        "When": {
+            "DayOfWeek": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "Season": "Spring, Summer, Fall",
+            "Weather": "Sun, Wind",
+            "Time": "{{Range: 2330, 2600}}"
+                },
+        "Update": "OnTimeChange" 
+    },
+
+        //Winter:
+    {
+        "LogName": "Nala Spawn Inside Winter",
+        "Action": "EditMap",
+        "Target": "Maps/Custom_Yri_House",
+        "MapTiles": [
+                {
+                "Position": {
+                  "X": "9",
+                  "Y": "16"
+                },
+                "Layer": "Back",
+                "SetProperties": {
+                    "CustomCompanions": "Spawn 1 Yri.YriCC.NalaIdleAiryn"
+                }
+            }
+        ],
+        "When": {
+            "DayOfWeek": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "Season": "Winter",
+            "Time": "{{Range: 0610, 1200}}"
+                },
+        "Update": "OnTimeChange" 
+    },
+        //Nala Sleep when Yri works
+    {
+        "LogName": "Nala Sleep Inside",
+        "Action": "EditMap",
+        "Target": "Maps/Custom_Yri_House",
+        "MapTiles": [
+            {
+            "Position": {
+                "X": "22",
+                "Y": "10"
+            },
+            "Layer": "Back",
+            "SetProperties": {
+                    "CustomCompanions": "Spawn 1 Yri.YriCC.NalaSleepInsideAiryn"
+                }
+            }
+        ],
+        "When": {
+            "DayOfWeek": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "Season": "Winter",
+            "Time": "{{Range: 1200, 2000}}"
+            },
+        "Update": "OnTimeChange" 
+    },
+        //Nala Idle Evening
+        {
+        "LogName": "Nala Spawn Inside",
+        "Action": "EditMap",
+        "Target": "Maps/Custom_Yri_House",
+        "MapTiles": [
+            {
+                "Position": {
+                "X": "9",
+                "Y": "16"
+                },
+                "Layer": "Back",
+                "SetProperties": {
+                    "CustomCompanions": "Spawn 1 Yri.YriCC.NalaIdleAiryn"
+                    }
+                }
+            ],
+        "When": {
+            "DayOfWeek": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "Season": "Winter",
+            "Time": "{{Range: 2000, 2330}}"
+            },
+        "Update": "OnTimeChange" 
+    },
+    //Nala Sleep
+    {
+        "LogName": "Nala Sleep Inside",
+        "Action": "EditMap",
+        "Target": "Maps/Custom_Yri_House",
+        "MapTiles": [
+            {
+                "Position": {
+                "X": "9",
+                "Y": "7"
+            },
+            "Layer": "Back",
+            "SetProperties": {
+                "CustomCompanions": "Spawn 1 Yri.YriCC.NalaSleepInsideAiryn"
+                }
+            }
+        ],
+        "When": {
+            "DayOfWeek": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "Season": "Winter",
+            "Time": "{{Range: 2330, 2600}}"
+            },
+        "Update": "OnTimeChange" 
+        },
+
+    //Rain, Storm:
+    {
+        "LogName": "Nala Spawn Inside Rain, Storm",
+        "Action": "EditMap",
+        "Target": "Maps/Custom_Yri_House",
+        "MapTiles": [
+                {
+                "Position": {
+                  "X": "9",
+                  "Y": "16"
+                },
+                "Layer": "Back",
+                "SetProperties": {
+                    "CustomCompanions": "Spawn 1 Yri.YriCC.NalaIdleAiryn"
+                }
+            }
+        ],
+        "When": {
+            "DayOfWeek": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "Weather": "Rain, Storm",
+            "Time": "{{Range: 0610, 1200}}"
+                },
+        "Update": "OnTimeChange" 
+    },
+    //Nala Sleep when Yri works
+    {
+        "LogName": "Nala Sleep Inside Monday",
+        "Action": "EditMap",
+        "Target": "Maps/Custom_Yri_House",
+        "MapTiles": [
+            {
+            "Position": {
+                "X": "22",
+                "Y": "10"
+            },
+            "Layer": "Back",
+            "SetProperties": {
+                    "CustomCompanions": "Spawn 1 Yri.YriCC.NalaSleepInsideAiryn"
+                }
+            }
+        ],
+        "When": {
+            "DayOfWeek": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "Weather": "Rain, Storm",
+            "Time": "{{Range: 1200, 2000}}"
+            },
+        "Update": "OnTimeChange" 
+    },
+    //Nala Idle Evening
+        {
+        "LogName": "Nala Spawn Inside Monday",
+        "Action": "EditMap",
+        "Target": "Maps/Custom_Yri_House",
+        "MapTiles": [
+            {
+                "Position": {
+                "X": "9",
+                "Y": "16"
+                },
+                "Layer": "Back",
+                "SetProperties": {
+                    "CustomCompanions": "Spawn 1 Yri.YriCC.NalaIdleAiryn"
+                    }
+                }
+            ],
+        "When": {
+            "DayOfWeek": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "Weather": "Rain, Storm",
+            "Time": "{{Range: 2000, 2330}}"
+            },
+        "Update": "OnTimeChange" 
+    },
+    //Nala Sleep
+    {
+        "LogName": "Nala Sleep Inside Monday",
+        "Action": "EditMap",
+        "Target": "Maps/Custom_Yri_House",
+        "MapTiles": [
+            {
+                "Position": {
+                "X": "9",
+                "Y": "7"
+            },
+            "Layer": "Back",
+            "SetProperties": {
+                "CustomCompanions": "Spawn 1 Yri.YriCC.NalaSleepInsideAiryn"
+                }
+            }
+        ],
+        "When": {
+            "DayOfWeek": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "Weather": "Rain, Storm",
+            "Time": "{{Range: 2330, 2600}}"
+            },
+        "Update": "OnTimeChange" 
+        }
+    ]
+}

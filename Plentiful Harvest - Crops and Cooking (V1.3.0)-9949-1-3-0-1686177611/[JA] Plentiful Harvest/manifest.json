@@ -1,0 +1,12 @@
+{ //JSON ASSETS STUFF IN WORK FOLDER
+  "Name": "[JA] Plentiful Harvest: Crops and Cooking",
+  "Author": "DomTSVG",
+  "Version": "1.3.0",
+  "Description": "Adds many seasonal and balanced new crops as well as tons of new recipes for use with old and new ingredients.",
+  "MinimumApiVersion": "3.6.0",
+  "UniqueID": "DomTSVG.PlentifulHarvest",
+  "UpdateKeys": ["Nexus:9949"],
+  "ContentPackFor": {
+	"UniqueID": "spacechase0.JsonAssets",
+	},
+  }

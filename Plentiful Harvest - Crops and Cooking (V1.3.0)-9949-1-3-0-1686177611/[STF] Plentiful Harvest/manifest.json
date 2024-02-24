@@ -1,0 +1,12 @@
+{ //SHOP TILE FRAMEWORK STUFF IN WORK FOLDER
+  "Name": "[STF] Plentiful Harvest: Shops",
+  "Author": "DomTSVG",
+  "Version": "1.3.0",
+  "Description": "Shops for PH",
+  "MinimumApiVersion": "3.6.0",
+  "UniqueID": "DomTSVG.PlentifulHarvestShops",
+  "UpdateKeys": ["Nexus:9949"],
+  "ContentPackFor": {
+	"UniqueID": "Cherry.ShopTileFramework",
+	},
+  }

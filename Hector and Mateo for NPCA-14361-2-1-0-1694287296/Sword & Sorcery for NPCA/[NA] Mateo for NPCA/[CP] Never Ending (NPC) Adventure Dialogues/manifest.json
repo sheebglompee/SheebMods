@@ -1,0 +1,11 @@
+{
+  "Name": "Mateo for NPC Adventures Dialogue",
+  "Author": "DestyNova",
+  "Version": "2.1.0",
+  "Description": "Invite Mateo on an adventure! Dialogues for PurrplingCat's NPC Adventures.",
+  "UniqueID": "DestyNova.Mateo.NPCAD",
+  "UpdateKeys": [ "Nexus:14361" ],
+  "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}

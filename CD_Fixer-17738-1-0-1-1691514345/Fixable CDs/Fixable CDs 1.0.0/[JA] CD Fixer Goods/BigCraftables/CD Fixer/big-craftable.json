@@ -1,0 +1,27 @@
+{
+    "Name": "CD Fixer",
+    "Description": "Turns broken CDs into playable discs! (slight risk of radiation)",
+    "ProvidesLight": true,
+
+    "Recipe":
+  {
+     "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 463,
+            "Count": 1
+        },
+        {
+            "Object": 464,
+            "Count": 1
+        }, 
+        {
+            "Object": 335,
+            "Count": 5
+        }
+      ],
+	    "IsDefault":true,
+		"CanPurchase": false
+        
+  }
+}

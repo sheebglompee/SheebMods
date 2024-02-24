@@ -1,0 +1,83 @@
+{
+    "Name": "Steak (PH)", 
+    "Description": "Done to your liking and with a helping of homemade sauce.", 
+    "Category": "Cooking",
+"ContextTags": 
+        [
+		"color_brown",
+        "dye_medium"
+        ],	
+    "Edibility": 55, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 1,
+        "Attack": 1,
+        "Duration": 180,
+    },
+    "Price": 200, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Soy Meat (PH)", 
+            "Count": 1,
+        },
+		{
+            "Object": "Steak Sauce (PH)", 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Alex"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Emily", "Leah", "Wizard"],
+    },
+
+// Localization
+
+    "NameLocalization":
+    {
+        "default": "Steak",
+		"es": "Steak", //Spansih
+        "ko": "Steak", //Korean
+        "de": "Steak", //German
+        "fr": "Steak", //French
+        "hu": "Steak", //Hungarian
+        "it": "Steak", //Italian
+        "ja": "Steak", //Japanese
+        "pt": "Steak", //Portuguese
+        "ru": "Стейк", //Russian
+        "tr": "Steak", //Turkish
+        "zh": "牛排", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Done to your liking and with a helping of homemade sauce.", //Spansih
+        "ko": "Done to your liking and with a helping of homemade sauce.", //Korean
+        "de": "Nach Belieben zubereitet und mit einer Portion hausgemachter Soße.", //German
+        "fr": "Done to your liking and with a helping of homemade sauce.", //French
+        "hu": "Done to your liking and with a helping of homemade sauce.", //Hungarian
+        "it": "Done to your liking and with a helping of homemade sauce.", //Italian
+        "ja": "Done to your liking and with a helping of homemade sauce.", //Japanese
+        "pt": "Done to your liking and with a helping of homemade sauce.", //Portuguese
+        "ru": "Готовится на свой вкус и дополняется домашним соусом.", //Russian
+        "tr": "Done to your liking and with a helping of homemade sauce.", //Turkish
+        "zh": "按你的喜好做，再配上自制的酱汁。  ", //Chinese (Simplified)
+    },
+	
+}

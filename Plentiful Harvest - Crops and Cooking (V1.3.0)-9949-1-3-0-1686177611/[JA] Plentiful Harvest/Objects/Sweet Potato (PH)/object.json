@@ -1,0 +1,52 @@
+{
+    "Name": "Sweet Potato (PH)",
+    "Description": "This sweet tuber's leaves and young shoots are sometimes eaten as greens. It's a distant relative of the potato.",
+    "Category": "Vegetable",
+	"ContextTags": 
+        [
+        "season_fall",
+		"color_purple"
+        ],
+    "Edibility": 15,
+    "Price": 44, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Penny", "Emily", "Alex", "Harvey"],
+        "Like": ["Marnie", "Gus", "Lewis", "Leah"],
+        "Neutral": null, 
+        "Dislike": ["Abigail", "Vincent", "Kent", "Clint", "Krobus"], 
+        "Hate": ["Shane", "Sam", "Willy", "George"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Sweet Potato",
+		"es": "Sweet Potato", 
+        "ko": "Sweet Potato", 
+        "de": "Süßkartoffel", 
+        "fr": "Sweet Potato", 
+        "hu": "Sweet Potato", 
+        "it": "Sweet Potato", 
+        "ja": "Sweet Potato",
+        "pt": "Sweet Potato", 
+        "ru": "Сладкий картофель", 
+        "tr": "Sweet Potato",
+        "zh": "红薯", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "This sweet tuber's leaves and young shoots are sometimes eaten as greens. It's a distant relative of the potato.", 
+        "ko": "This sweet tuber's leaves and young shoots are sometimes eaten as greens. It's a distant relative of the potato.", 
+        "de": "Die Blätter und jungen Triebe dieser süßen Knolle werden manchmal als Blattgemüse gegessen. Sie ist ein entfernter Verwandter der Kartoffel.",
+        "fr": "This sweet tuber's leaves and young shoots are sometimes eaten as greens. It's a distant relative of the potato.", 
+        "hu": "This sweet tuber's leaves and young shoots are sometimes eaten as greens. It's a distant relative of the potato.",
+        "it": "This sweet tuber's leaves and young shoots are sometimes eaten as greens. It's a distant relative of the potato.", 
+        "ja": "This sweet tuber's leaves and young shoots are sometimes eaten as greens. It's a distant relative of the potato.", 
+        "pt": "This sweet tuber's leaves and young shoots are sometimes eaten as greens. It's a distant relative of the potato.",
+        "ru": "Иногда листочки и молодые побеги этого сладкого клубня едят как зелень. Это дальний родственник картофеля.", 
+        "tr": "This sweet tuber's leaves and young shoots are sometimes eaten as greens. It's a distant relative of the potato.", 
+        "zh": "红薯的叶子和嫩芽有时作为绿色蔬菜食用。它是马铃薯的远亲。",
+    },
+}

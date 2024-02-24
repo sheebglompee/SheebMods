@@ -1,0 +1,17 @@
+﻿{ // PRODUCTION MACHINE MANIFEST
+	"Name": "[PFM] Plentiful Harvest: Production Machines",
+	"Author": "DomTSVG",
+	"Version": "1.3.0",
+	"Description": "Adds the necessary production rules for Plentiful Harvest.",
+	"UniqueID": "DomTYSVG.PlentifulHarvestProd",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": ["Nexus:9949"],
+	"Dependencies": [
+		{
+			"UniqueID": "DomTSVG.PlentifulHarvest"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

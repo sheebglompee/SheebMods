@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[PFM] CD Fixer",
+	"Author": "W0LFY",
+	"Version": "1.0.0",
+	"Description": "A machine that will take a broken CD and a specified liked/loved gift to make a fixed CD that is a loved gift for that villager.",
+	"UniqueID": "pfm.cdfixer",
+	"MinimumApiVersion": "3.0.1",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "ja.cdfixergoods"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

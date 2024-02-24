@@ -1,0 +1,36 @@
+{
+    "Changes": 
+      [
+        {
+        "LogName": "Yri Schedule",
+        "Action": "EditData",
+        "Target": "Characters/schedules/Yri",
+        "Entries": 
+        {
+          //Spring
+          "spring": "610 Custom_Yri_House 12 4 3/730 Custom_Yri_House 21 8 0 YriWork/2330 Custom_Yri_House 12 4 3 YriSleep",
+          "rain": "610 Custom_Yri_House 12 4 3/730 Custom_Yri_House 21 8 0 YriWork/2330 Custom_Yri_House 12 4 3 YriSleep",
+          "Mon": "610 Custom_Yri_House 12 4 3/730 ScienceHouse 7 20 0/1200 Custom_Yri_House 21 8 0 YriWork/1700 Custom_EastScarpe 19 120 1/2000 Custom_Yri_House 18 19 3 YriSit/2330 Custom_Yri_House 12 4 3 YriSleep",
+          "Tue": "610 Custom_Yri_House 12 4 3/730 Custom_Yri_House 21 8 0 YriWork/1700 Custom_EastScarpe 70 10 1/2000 Custom_Yri_House 21 8 0 YriWork/2330 Custom_Yri_House 12 4 3 YriSleep",
+          "Wed": "610 Custom_Yri_House 12 4 3/730 Forest 97 34 2/1300 Custom_Yri_House 21 8 0 YriWork/1700 Custom_EastScarpe 9 94 1/2000 Custom_Yri_House 18 19 3 YriSit/2330 Custom_Yri_House 12 4 3 YriSleep",
+          "Thu": "610 Custom_Yri_House 12 4 3/730 ScienceHouse 7 20 0/1200 Custom_Yri_House 21 8 0 YriWork/1700 Custom_EastScarpe 24 62 2/1800 Custom_EastScarpe 54 84 2 YriBench2/2000 Custom_Yri_House 18 19 3 YriSit/2330 Custom_Yri_House 12 4 3 YriSleep",
+          "Fri": "610 Custom_Yri_House 12 4 3/700 Custom_HenryWarp 6 6 3",
+          "Sat":"610 Custom_Yri_House 12 4 3/730 Custom_Yri_House 18 19 3 YriSit/1700 Saloon 10 23 0/2300 Custom_Yri_House 12 4 3 YriSleep",
+          "Sun":"610 Custom_Yri_House 12 4 3/900 Custom_EastScarpe 54 54 1 YriGarden/1700 Custom_EastScarpe 72 120 0/2000 Custom_Yri_House 18 19 3 YriSit/2330 Custom_Yri_House 12 4 3 YriSleep",
+          
+          //Summer
+          "summer_Thu": "610 Custom_Yri_House 12 4 3/730 ScienceHouse 7 20 0/1200 Custom_Yri_House 21 8 0 YriWork/1700 Custom_EastScarpe 54 84 2 YriBench1/1800 Custom_EastScarpe 54 84 2 YriBench2/2000 Custom_Yri_House 18 19 3 YriSit/2330 Custom_Yri_House 12 4 3 YriSleep",
+          "summer_Sun":"610 Custom_Yri_House 12 4 3/900 Custom_EastScarpe 46 53 3 YriGardenSummer/1700 Custom_EastScarpe 72 120 0/2000 Custom_Yri_House 18 19 3 YriSit/2330 Custom_Yri_House 12 4 3 YriSleep",
+          
+          //Fall
+          "fall_Wed": "610 Custom_Yri_House 12 4 3/730 Forest 97 34 2/1300 Custom_Yri_House 21 8 0 YriWork/1700 Custom_EastScarpe 9 94 1 YriHoldingHands/2000 Custom_Yri_House 18 19 3 YriSit/2330 Custom_Yri_House 12 4 3 YriSleep",
+          "fall_Sun":"610 Custom_Yri_House 12 4 3/900 Custom_EastScarpe 56 52 2 YriGardenFall/1700 Custom_EastScarpe 72 120 0/2000 Custom_Yri_House 18 19 3 YriSit/2330 Custom_Yri_House 12 4 3 YriSleep",
+
+          //Winter
+          "winter_Mon": "610 Custom_Yri_House 12 4 3/730 ScienceHouse 7 20 0/1200 Custom_Yri_House 21 8 0 YriWork/1700 Custom_EastScarpe 19 120 1 YriWarmingHands/2000 Custom_Yri_House 18 19 3 YriSit/2330 Custom_Yri_House 12 4 3 YriSleep",
+          "winter_Sun":"610 Custom_Yri_House 12 4 3/730 Custom_Yri_House 21 8 0 YriWork/1700 Custom_EastScarpe 72 120 0/2000 Custom_Yri_House 18 19 3 YriSit/2330 Custom_Yri_House 12 4 3 YriSleep",
+
+        }
+        }
+    ]
+ }

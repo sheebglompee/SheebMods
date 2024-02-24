@@ -1,0 +1,94 @@
+{
+	"Name": "Smoluanu Cave Carrot Roast", 
+	"Description": "Roasted cave carrots and other vegetables.",
+	"Category": "Cooking",
+  
+	"Edibility": 100,
+	"EdibleIsDrink": false,
+  
+	"EdibleBuffs": {
+					"Farming": 0,
+					"Fishing": 0,
+					"Mining": 0,
+					"Luck": 0,
+					"Foraging": 0,
+					"MaxStamina": 0,
+					"MagnetRadius": 0,
+					"Speed": 0,
+					"Defense": 0,
+					"Attack": 0,
+					"Duration": 0,
+  },
+  
+	"Price": 270,
+  
+	"IsColored": false,
+  
+	"Recipe": {
+			  "ResultCount": 1,
+			  
+			  "Ingredients": [
+								{
+								   "Object": 78, 
+								   "Count": 1
+								},
+								{
+								   "Object": 24,
+								   "Count": 1
+								},
+								{
+								   "Object": 188,
+								   "Count": 1
+								},
+								{
+								   "Object": 190,
+								   "Count": 1
+								},
+								{
+								   "Object": 404,
+								   "Count": 1
+								}
+			      ],
+			   
+			   "IsDefault": "False",
+			   
+			   "CanPurchase": "True",
+			   "PurchaseFrom": "Dwarf",		   
+			   "PurchasePrice": 250,
+			   
+			   "PurchaseRequirements": ["f Dwarf 2000"]
+			},
+  
+	"GiftTastes": { 
+						     "Love": ["Dwarf","Emily","Leah","Maru","Penny"]
+	},
+	"NameLocalization":
+    {
+		//"es": "",
+		//"ko": "",
+		//"de": "",
+		"fr": "Le rôti aux carottes des cavernes",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		"ru": "Запеканка из пещерной моркови"
+		//"tr": "",
+		//"zh": ""
+       
+    },
+    "DescriptionLocalization":
+	{
+		//"es": "",
+		//"ko": "",
+		//"de": ",
+		"fr": "Les carottes des cavernes rôtis et les autres légumes.",
+		//"hu": "",
+		// "it": "",
+		//"ja": "",
+		//"pt": "",
+		"ru": "Пещерная морковь, запечённая с другими овощами."
+		//"tr": "",
+		//"zh": "",
+	}
+}

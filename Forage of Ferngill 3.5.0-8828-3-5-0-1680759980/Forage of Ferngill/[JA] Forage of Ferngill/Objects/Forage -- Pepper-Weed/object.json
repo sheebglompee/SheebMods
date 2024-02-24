@@ -1,0 +1,16 @@
+﻿{
+    "Name": "Pepper-Weed",
+    "Description": "This vibrant seaweed variant has a strong peppercorn taste.",
+    "Category": "Greens",
+    "Edibility":125,
+    "Price": 45,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Pepper-Weed",
+    "ContextTags": [
+    "fish_nonfish",
+    "color_red",
+    "forage_item",
+  ],
+}

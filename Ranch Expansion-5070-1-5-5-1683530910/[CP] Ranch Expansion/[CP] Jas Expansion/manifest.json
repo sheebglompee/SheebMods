@@ -1,0 +1,14 @@
+{
+   "Name": "Jasmine expansion for Marnie Immersive",
+   "Author": "Lemurkat",
+   "Version": "1.5.5",
+   "Description": "Additional cutscenes for Jasmine",
+   "UniqueID": "lemurkat.Jasmineno",
+   "ContentPackFor": {	"UniqueID": "Pathoschild.ContentPatcher"   },
+   "Dependencies": [
+	{ "UniqueID": "Tanpoponoko.SeasonalOutfits",        "IsRequired": false     },
+	{ "UniqueID": "DSVTeam.DiverseSeasonalOutfits",     "IsRequired": false	    },
+        {"UniqueID": "gizzymo.canonfriendlyexpansion",     "IsRequired": false	},
+        {"UniqueID": "farmerjack.dialogue_expansions",     "IsRequired": false	}
+	]
+}

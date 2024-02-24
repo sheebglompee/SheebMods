@@ -1,0 +1,90 @@
+{
+    "Name": "Ceasar Salad (PH)", 
+    "Description": "Iceberg lettuce chopped up and served with a classic dressing.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_green"
+        ],
+    "Edibility": 48, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 1,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 1,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 2,
+        "Duration": 220,
+    }, 
+    "Price": 224, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Lettuce (PH)", 
+            "Count": 1,
+        },
+		{
+            "Object": 129, 
+            "Count": 1,
+        },
+		{
+            "Object": 306, 
+            "Count": 1,
+        },
+        {
+            "Object": 426, 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Caroline", "Gus"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Robin"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Ceasar Salad",
+		"es": "Ceasar Salad", //Spansih
+        "ko": "Ceasar Salad", //Korean
+        "de": "Ceasar Salad", //German
+        "fr": "Ceasar Salad", //French
+        "hu": "Ceasar Salad", //Hungarian
+        "it": "Ceasar Salad", //Italian
+        "ja": "Ceasar Salad", //Japanese
+        "pt": "Ceasar Salad", //Portuguese
+        "ru": "Салат «Цезарь»", //Russian
+        "tr": "Ceasar Salad", //Turkish
+        "zh": "凯撒沙拉", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Iceberg lettuce chopped up and served with a classic dressing.", //Spansih
+        "ko": "Iceberg lettuce chopped up and served with a classic dressing.", //Korean
+        "de": "Geschnippelter Eisbergsalat mit einem klassischen Dressing serviert.", //German
+        "fr": "Iceberg lettuce chopped up and served with a classic dressing.", //French
+        "hu": "Iceberg lettuce chopped up and served with a classic dressing.", //Hungarian
+        "it": "Iceberg lettuce chopped up and served with a classic dressing.", //Italian
+        "ja": "Iceberg lettuce chopped up and served with a classic dressing.", //Japanese
+        "pt": "Iceberg lettuce chopped up and served with a classic dressing.", //Portuguese
+        "ru": "Популярный салат с классической заправкой!", //Russian
+        "tr": "Iceberg lettuce chopped up and served with a classic dressing.", //Turkish
+        "zh": "切碎的卷心生菜配上经典的调味汁。 ", //Chinese (Simplified)
+    },
+	
+}

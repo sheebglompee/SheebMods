@@ -1,0 +1,360 @@
+{
+    "Changes": [
+
+     //Egg Festival
+
+            //Yri
+        {
+            "LogName": "Yri EggFestival",
+            "Action": "EditImage",
+            "Target": "Portraits/Yri",
+            "FromFile": "assets/Portraits/Yri/Yri_EggFestival.png",
+            "Update": "OnLocationChange",
+            "When": 
+            {
+            "DayEvent": "egg festival",
+            "LocationName": "Temp"
+            }
+        },
+        {
+            "LogName": "Yri Sprites EggFestival",
+            "Action": "EditImage",
+            "Target": "Characters/Yri",
+            "FromFile": "assets/Characters/Yri/Yri_EggFestival.png",
+            "Update": "OnLocationChange",
+            "When": 
+            {
+            "DayEvent": "egg festival",
+            "LocationName": "Temp"
+            }
+        },
+          //Charles
+        {
+          "LogName": "Charles Portrait EggFestival",
+          "Action": "EditImage",
+          "Target": "Portraits/Charles",
+          "FromFile": "assets/Portraits/Charles/Charles_EggFestival.png",
+          "Update": "OnLocationChange",
+          "When": 
+          {
+          "DayEvent": "egg festival",
+          "LocationName": "Temp"
+          }
+      },
+      {
+          "LogName": "Charles Sprites EggFestival",
+          "Action": "EditImage",
+          "Target": "Characters/Charles",
+          "FromFile": "assets/Characters/Charles/Charles_EggFestival.png",
+          "Update": "OnLocationChange",
+          "When": 
+          {
+          "DayEvent": "egg festival",
+          "LocationName": "Temp"
+          }
+      },
+  
+
+    // Flower dance
+
+          //Yri
+          {
+            "LogName": "Yri Portrait Flower Dance",
+            "Action": "EditImage",
+            "Target": "Portraits/Yri",
+            "FromFile": "assets/Portraits/Yri/Yri_FlowerDance.png",
+            "Update": "OnLocationChange",
+            "When": 
+            {
+              "DayEvent": "flower dance",
+              "LocationName": "Temp",
+              "Year |contains= 2": true,
+            }
+          },
+          {
+            "LogName": "Yri Sprites Flower Dance",
+            "Action": "EditImage",
+            "Target": "Characters/Yri",
+            "FromFile": "assets/Characters/Yri/Yri_FlowerDance.png",
+            "Update": "OnLocationChange",
+            "When": 
+            {
+              "DayEvent": "flower dance",
+              "LocationName": "Temp",
+              "Year |contains= 2": true,
+            }
+          },
+          //Charles
+          {
+            "LogName": "Charles Portrait Flower Dance",
+            "Action": "EditImage",
+            "Target": "Portraits/Charles",
+            "FromFile": "assets/Portraits/Charles/Charles_FlowerDance.png",
+            "Update": "OnLocationChange",
+            "When": 
+            {
+              "DayEvent": "flower dance",
+              "LocationName": "Temp",
+              "Year |contains= 2": true,
+            }
+          },
+          {
+            "LogName": "Charles Sprites Flower Dance",
+            "Action": "EditImage",
+            "Target": "Characters/Charles",
+            "FromFile": "assets/Characters/Charles/Charles_FlowerDance.png",
+            "Update": "OnLocationChange",
+            "When": {
+              "DayEvent": "flower dance",
+              "LocationName": "Temp",
+              "Year |contains= 2": true,
+            }
+          },
+
+    //Luau
+
+            //Yri
+          {
+            "LogName": "Yri Portrait Luau",
+            "Action": "EditImage",
+            "Target": "Portraits/Yri",
+            "FromFile": "assets/Portraits/Yri/Yri_Luau.png",
+            "Update": "OnLocationChange",
+            "When": {
+              "DayEvent": "luau",
+              "LocationName": "Temp"
+            }
+          },
+          {
+            "LogName": "Yri Sprite Luau",
+            "Action": "EditImage",
+            "Target": "Characters/Yri",
+            "FromFile": "assets/Characters/Yri/Yri_Luau.png",
+            "Update": "OnLocationChange",
+            "When": {
+              "DayEvent": "luau",
+              "LocationName": "Temp"
+            }
+          },
+            //Charles
+           {
+            "LogName": "Charles Portrait Luau",
+            "Action": "EditImage",
+            "Target": "Portraits/Charles",
+            "FromFile": "assets/Portraits/Charles/Charles_Luau.png",
+            "Update": "OnLocationChange",
+            "When": {
+              "DayEvent": "luau",
+              "LocationName": "Temp"
+            }
+          },
+          {
+            "LogName": "Charles Sprite Luau",
+            "Action": "EditImage",
+            "Target": "Characters/Charles",
+            "FromFile": "assets/Characters/Charles/Charles_Luau.png",
+            "Update": "OnLocationChange",
+            "When": {
+              "DayEvent": "luau",
+              "LocationName": "Temp"
+            }
+          },
+          
+    //Moonlight Jellies
+
+            //Yri
+          {
+            "LogName": "Yri Portrait Moonlight Jellies",
+            "Action": "EditImage",
+            "Target": "Portraits/Yri",
+            "FromFile": "assets/Portraits/Yri/Yri_MoonlightJellies.png",
+            "Update": "OnLocationChange",
+            "When": {
+              "DayEvent": "dance of the moonlight jellies",
+              "LocationName": "Temp"
+            }
+          },
+          {
+            "LogName": "Yri Sprites Moonlight Jellies",
+            "Action": "EditImage",
+            "Target": "Characters/Yri",
+            "FromFile": "assets/Characters/Yri/Yri_MoonlightJellies.png",
+            "Update": "OnLocationChange",
+            "When": {
+              "DayEvent": "dance of the moonlight jellies",
+              "LocationName": "Temp"
+            }
+          },
+             //Charles
+           {
+            "LogName": "Charles Portrait Moonlight Jellies",
+            "Action": "EditImage",
+            "Target": "Portraits/Charles",
+            "FromFile": "assets/Portraits/Charles/Charles_MoonlightJellies.png",
+            "Update": "OnLocationChange",
+            "When": {
+              "DayEvent": "dance of the moonlight jellies",
+              "LocationName": "Temp"
+            }
+          },
+          {
+            "LogName": "Charles Sprites Moonlight Jellies",
+            "Action": "EditImage",
+            "Target": "Characters/Charles",
+            "FromFile": "assets/Characters/Charles/Charles_MoonlightJellies.png",
+            "Update": "OnLocationChange",
+            "When": {
+              "DayEvent": "dance of the moonlight jellies",
+              "LocationName": "Temp"
+            }
+          },  
+        
+    //Stardew Valley Fair
+
+            //Yri
+          {
+            "LogName": "Yri Portrait Fair",
+            "Action": "EditImage",
+            "Target": "Portraits/Yri",
+            "FromFile": "assets/Portraits/Yri/Yri_StardewFair.png",
+            "Update": "OnLocationChange",
+            "When": {
+              "DayEvent": "stardew valley fair",
+              "LocationName": "Temp"
+            }
+          },
+          {
+            "LogName": "Yri Sprites Fair",
+            "Action": "EditImage",
+            "Target": "Characters/Yri",
+            "FromFile": "assets/Characters/Yri/Yri_StardewFair.png",
+            "Update": "OnLocationChange",
+            "When": {
+              "DayEvent": "stardew valley fair",
+              "LocationName": "Temp"
+            }
+          },
+            //Charles
+           {
+            "LogName": "Charles Portrait Fair",
+            "Action": "EditImage",
+            "Target": "Portraits/Charles",
+            "FromFile": "assets/Portraits/Charles/Charles_StardewFair.png",
+            "Update": "OnLocationChange",
+            "When": {
+              "DayEvent": "stardew valley fair",
+              "LocationName": "Temp"
+            }
+          },
+          {
+            "LogName": "Charles Sprites Fair",
+            "Action": "EditImage",
+            "Target": "Characters/Charles",
+            "FromFile": "assets/Characters/Charles/Charles_StardewFair.png",
+            "Update": "OnLocationChange",
+            "When": {
+              "DayEvent": "stardew valley fair",
+              "LocationName": "Temp"
+            }
+          },
+        
+    //Ice Festival
+
+            //Yri
+          {
+            "LogName": "Yri Festival of Ice",
+            "Action": "EditImage",
+            "Target": "Portraits/Yri",
+            "FromFile": "assets/Portraits/Yri/Yri_FestivalOfIce.png",
+            "Update": "OnLocationChange",
+            "When": {
+              "DayEvent": "festival of ice",
+              "LocationName": "Temp"
+            }
+          },
+          {
+            "LogName": "Yri Festival of Ice",
+            "Action": "EditImage",
+            "Target": "Characters/Yri",
+            "FromFile": "assets/Characters/Yri/Yri_FestivalOfIce.png",
+            "Update": "OnLocationChange",
+            "When": {
+              "DayEvent": "festival of ice",
+              "LocationName": "Temp"
+            }
+          },
+            //Charles
+          {
+            "LogName": "Charles Festival of Ice",
+            "Action": "EditImage",
+            "Target": "Portraits/Charles",
+            "FromFile": "assets/Portraits/Charles/Charles_FestivalOfIce.png",
+            "Update": "OnLocationChange",
+            "When": {
+              "DayEvent": "festival of ice",
+              "LocationName": "Temp"
+            }
+          },
+          {
+            "LogName": "Charles Festival of Ice",
+            "Action": "EditImage",
+            "Target": "Characters/Charles",
+            "FromFile": "assets/Characters/Charles/Charles_FestivalOfIce.png",
+            "Update": "OnLocationChange",
+            "When": {
+              "DayEvent": "festival of ice",
+              "LocationName": "Temp"
+            }
+          },
+            
+    //Feast of the Winter Star
+
+              //Yri
+            {
+                "LogName": "Yri Feast of the Winter Star",
+                "Action": "EditImage",
+                "Target": "Portraits/Yri",
+                "FromFile": "assets/Portraits/Yri/Yri_FeastOfTheWinterStar.png",
+                "Update": "OnLocationChange",
+                "When": {
+                  "DayEvent": "feast of the winter star",
+                  "LocationName": "Temp"
+             }
+          },  
+          {
+                "LogName": "Yri Feast of the Winter Star",
+                "Action": "EditImage",
+                "Target": "Characters/Yri",
+                "FromFile": "assets/Characters/Yri/Yri_FeastOfTheWinterStar.png",
+                "Update": "OnLocationChange",
+                "When": {
+                  "DayEvent": "feast of the winter star",
+                  "LocationName": "Temp"
+             }
+          },      
+            //Charles 
+            {
+              "LogName": "Charles Feast of the Winter Star",
+              "Action": "EditImage",
+              "Target": "Portraits/Charles",
+              "FromFile": "assets/Portraits/Charles/Charles_FeastOfTheWinterStar.png",
+              "Update": "OnLocationChange",
+              "When": {
+                "DayEvent": "feast of the winter star",
+                "LocationName": "Temp"
+           }
+
+        }, 
+        {
+                "LogName": "Charles Fest of the Winter Star",
+                "Action": "EditImage",
+                "Target": "Characters/Charles",
+                "FromFile": "assets/Characters/Charles/Charles_FeastOfTheWinterStar.png",
+                "Update": "OnLocationChange",
+                "When": {
+                  "DayEvent": "feast of the winter star",
+                  "LocationName": "Temp"
+             }
+          },    
+    ]
+}

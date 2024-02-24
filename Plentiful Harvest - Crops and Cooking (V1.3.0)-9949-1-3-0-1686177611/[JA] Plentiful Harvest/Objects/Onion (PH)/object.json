@@ -1,0 +1,52 @@
+{
+    "Name": "Onion (PH)",
+    "Description": "A vegetable with layers of crisp insides. Its distinctive taste adds a bit of 'bite' to dishes.",
+    "Category": "Vegetable",
+	"ContextTags": 
+        [
+        "season_summer",
+		"color_white"
+        ],
+    "Edibility": 12,
+    "Price": 56, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["George", "Sam", "Shane"],
+        "Like": ["Caroline", "Penny", "Lewis", "Pam", "Pierre"],
+        "Neutral": null, 
+        "Dislike": ["Willy", "Emily"], 
+        "Hate": ["Vincent", "Jas", "Haley", "Abigail"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Onion",
+		"es": "Onion", 
+        "ko": "Onion", 
+        "de": "Zwiebel", 
+        "fr": "Onion", 
+        "hu": "Onion", 
+        "it": "Onion", 
+        "ja": "Onion",
+        "pt": "Onion", 
+        "ru": "Лук", 
+        "tr": "Onion",
+        "zh": "洋葱", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A vegetable with layers of crisp insides. Its distinctive taste adds a bit of 'bite' to dishes.", 
+        "ko": "A vegetable with layers of crisp insides. Its distinctive taste adds a bit of 'bite' to dishes.", 
+        "de": "Ein Gemüse mit knackigen Innenschichten. Sein charakteristischer Geschmack verleiht Gerichten das gewisse Extra.",
+        "fr": "A vegetable with layers of crisp insides. Its distinctive taste adds a bit of 'bite' to dishes.", 
+        "hu": "A vegetable with layers of crisp insides. Its distinctive taste adds a bit of 'bite' to dishes.",
+        "it": "A vegetable with layers of crisp insides. Its distinctive taste adds a bit of 'bite' to dishes.", 
+        "ja": "A vegetable with layers of crisp insides. Its distinctive taste adds a bit of 'bite' to dishes.", 
+        "pt": "A vegetable with layers of crisp insides. Its distinctive taste adds a bit of 'bite' to dishes.",
+        "ru": "Овощ с многослойной и хрустящей кожурой. Его характерный вкус придает блюдам некоторую изюминку.", 
+        "tr": "A vegetable with layers of crisp insides. Its distinctive taste adds a bit of 'bite' to dishes.", 
+        "zh": "一种蔬菜，内部有多层脆皮。如果你愿意一层一层一层地剥开我的心，你会发现，你泪流满面。它独特的味道给菜肴增添了一点“口感”。",
+    },
+}

@@ -1,0 +1,75 @@
+{
+    "Name": "Ketchup (PH)", 
+    "Description": "Arguably the most popular condiment, though it doesn't belong on everything.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_red",
+        "dye_strong"
+        ],
+    "Edibility": 5, 
+    "EdibleIsDrink": true, 
+    "EdibleBuffs": null,  
+    "Price": 110, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": 256,
+            "Count": 1,
+        },
+		{
+            "Object": 419, 
+            "Count": 1,
+        },
+        {
+            "Object": 245, 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Leo"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Penny"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Ketchup",
+		"es": "Ketchup", //Spansih
+        "ko": "Ketchup", //Korean
+        "de": "Ketchup", //German
+        "fr": "Ketchup", //French
+        "hu": "Ketchup", //Hungarian
+        "it": "Ketchup", //Italian
+        "ja": "Ketchup", //Japanese
+        "pt": "Ketchup", //Portuguese
+        "ru": "Домашний кетчуп", //Russian
+        "tr": "Ketchup", //Turkish
+        "zh": "番茄酱", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Arguably the most popular condiment, though it doesn't belong on everything.", //Spansih
+        "ko": "Arguably the most popular condiment, though it doesn't belong on everything.", //Korean
+        "de": "Die wohl beliebteste Würzsoße, obwohl es auch nicht zu allem passt.", //German
+        "fr": "Arguably the most popular condiment, though it doesn't belong on everything.", //French
+        "hu": "Arguably the most popular condiment, though it doesn't belong on everything.", //Hungarian
+        "it": "Arguably the most popular condiment, though it doesn't belong on everything.", //Italian
+        "ja": "Arguably the most popular condiment, though it doesn't belong on everything.", //Japanese
+        "pt": "Arguably the most popular condiment, though it doesn't belong on everything.", //Portuguese
+        "ru": "Пожалуй, самый популярный соус, хоть он и не ко всему подходит.", //Russian
+        "tr": "Arguably the most popular condiment, though it doesn't belong on everything.", //Turkish
+        "zh": "可以说是最受欢迎的调味品，尽管它并不适合所有的食物。  ", //Chinese (Simplified)
+    },
+	
+}

@@ -1,0 +1,38 @@
+{
+   "Format": "1.19.0",
+   "ConfigSchema": {
+	"color": {
+			"AllowValues": "agouti,  black, blue, brown, sable, white, yellow,", 
+			"Default": "white"
+		 },
+
+	"saddle": {
+			"AllowValues": "true, false",
+			"Default": "false"
+		}
+   },
+   "Changes": [
+		{
+			"Action": "Load",
+			"Target": "Animals/horse",
+			"FromFile": "assets/{{color}}.png"
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Animals/horse",
+			"FromFile": "assets/saddle/saddle.png",
+			"PatchMode": "Overlay",
+			"When": {"saddle": "true"}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/cursors/{{color}}.png",
+			"PatchMode": "Replace",
+			"ToArea": { "X": 192, "Y": 192, "Width": 16, "Height": 16 }
+		}
+
+   ]
+}

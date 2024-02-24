@@ -1,0 +1,82 @@
+[
+	{
+		"Name": "Hat",
+		"DrawingPath": "hat.png",
+	},
+	{
+		"Name": "LifeBuoy",
+		"DrawingPath": "LifeBuoy.png",
+	},
+	{
+		"Name": "LongPlant",
+		"DrawingPath": "LongPlant.png",
+	},
+	{
+		"Name": "MoonAndStar",
+		"DrawingPath": "MoonAndStar.png",
+	},
+	{
+		"Name": "Vase",
+		"DrawingPath": "Vase.png",
+	},
+	{
+		"Name": "Mushroom",
+		"DrawingPath": "Mushroom.png",
+	},
+	{
+		"Name": "MusicNote",
+		"DrawingPath": "MusicNote.png",
+	},
+	{
+		"Name": "Scroll",
+		"DrawingPath": "Scroll.png",
+	},
+	{
+		"Name": "Target",
+		"DrawingPath": "Target.png",
+	},
+	{
+		"Name": "WeirdFlower",
+		"DrawingPath": "WeirdFlower.png",
+	},
+	{
+		"Name": "Wall",
+		"DrawingPath": "Wall.png",
+	},
+	{
+		"Name": "Umbrella",
+		"DrawingPath": "Umbrella.png",
+	},
+	{
+		"Name": "Butterfly",
+		"DrawingPath": "Butterfly.png",
+	},
+	{
+		"Name": "Art",
+		"DrawingPath": "Art.png",
+	},	
+	{
+		"Name": "Acorn",
+		"DrawingPath": "Acorn.png",
+	},
+	{
+		"Name": "Infinity",
+		"DrawingPath": "Infinity.png",
+	},
+	{
+		"Name": "JojaDrink",
+		"DrawingPath": "JojaDrink.png",
+	},
+	{
+		"Name": "BowlOfFood",
+		"DrawingPath": "BowlOfFood.png",
+	},
+	{
+		"Name": "Bow",
+		"DrawingPath": "Bow.png",
+	},
+	{
+		"Name": "BowandArrow",
+		"DrawingPath": "BowandArrow.png",
+	},
+]

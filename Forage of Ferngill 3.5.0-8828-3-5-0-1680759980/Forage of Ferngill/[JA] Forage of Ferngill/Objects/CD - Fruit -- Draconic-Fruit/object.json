@@ -1,0 +1,15 @@
+﻿{
+    "Name": "Draconic-Fruit",
+    "Description": "Has a white, vannila flavoured interior. Grows on broad leaved Cacti",
+    "Category": "Fruit",
+    "Edibility": 25,
+    "Price": 100,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+   	"TranslationKey": "object.Fuego-Lilly",
+    "ContextTags": [
+    "color_pink",
+    "fruit_item",
+  ],
+}

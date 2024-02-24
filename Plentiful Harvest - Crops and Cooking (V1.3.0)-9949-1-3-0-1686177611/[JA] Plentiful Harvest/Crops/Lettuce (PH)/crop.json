@@ -1,0 +1,46 @@
+{
+    "Name": "Lettuce (PH)", 
+    "Product": "Lettuce (PH)",
+    "SeedName": "Lettuce Seeds (PH)", 
+    "SeedDescription": "Plant these in the winter. Takes 10 days to produce a head of lettuce.", 
+    "Type": "Vegetable", 
+    "CropType": "Normal", 
+    "Seasons": ["winter"], 
+    "Phases": [2, 2, 3, 2, 1], 
+    "RegrowthPhase": -1, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": false, 
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "STF.PlentifulHarvest", 
+    "SeedPurchasePrice": 80, 
+
+    "SeedNameLocalization":
+    {
+        "default": "Lettuce Seeds",
+		"es": "Lettuce Seeds", 
+        "ko": "Lettuce Seeds", 
+        "de": "Kopfsalat-Saat", 
+        "fr": "Lettuce Seeds", 
+        "hu": "Lettuce Seeds", 
+        "it": "Lettuce Seeds", 
+        "ja": "Lettuce Seeds", 
+        "pt": "Lettuce Seeds", 
+        "ru": "Семена латука", 
+        "tr": "Lettuce Seeds", 
+        "zh": "生菜种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plant these in the winter. Takes 10 days to produce a head of lettuce.", 
+        "ko": "Plant these in the winter. Takes 10 days to produce a head of lettuce.", 
+        "de": "Pflanze sie im Winter. Wächst in 10 Tagen heran.", 
+        "fr": "Plant these in the winter. Takes 10 days to produce a head of lettuce.", 
+        "hu": "Plant these in the winter. Takes 10 days to produce a head of lettuce.", 
+        "it": "Plant these in the winter. Takes 10 days to produce a head of lettuce.", 
+        "ja": "Plant these in the winter. Takes 10 days to produce a head of lettuce.", 
+        "pt": "Plant these in the winter. Takes 10 days to produce a head of lettuce.", 
+        "ru": "Сажайте зимой. Вырастает через 10 дней.", 
+        "tr": "Plant these in the winter. Takes 10 days to produce a head of lettuce.", 
+        "zh": "冬天种植。需要10天长成一棵生菜。", 
+    }
+}

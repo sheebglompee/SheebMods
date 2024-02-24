@@ -1,0 +1,342 @@
+[
+{ //Abigail's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Quartz",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Abigail's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Alex's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Egg",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Alex's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Caroline's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Tea Leaves",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Caroline's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Clint's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Iron Bar",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Clint's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Demitrius' CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Purple Mushroom",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Demitrius' CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Dwarf's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Cave Carrot",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Dwarf's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Elliot's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Squid",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Elliot's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Emily's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Ruby",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Emily's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Evelyn's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Tulip",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Evelyn's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //George's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Leek",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "George's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Gus' CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Orange",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Gus' CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Haley's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Coconut",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Haley's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Harvey's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Common Mushroom",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Harvey's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Jas' CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Dafodil",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Jas' CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Jodi's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Banana",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Jodi's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Kent's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Yam",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Kent's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Krobus' CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Gold Bar",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Krobus' CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Leah's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Driftwood",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Leah's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Leo's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Dragon tooth",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Leo's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Lewis' CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Blueberry",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Lewis' CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Linus' CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Holly",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Linus' CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Marnie's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Large Milk",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Marnie's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Maru's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Copper Bar",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Maru's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Pam's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Cactus Fruit",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Pam's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Penny's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Dandelion",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Penny's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Pierre's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Summer Spangle",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Pierre's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Robin's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Hardwood",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Robin's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Sam's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Joja Cola",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Sam's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Sandy's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Large Goat Milk",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Sandy's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Sebatian's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Flounder",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Sebatian's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Shane's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Hot Pepper",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Shane's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Vincent's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Grape",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Vincent's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Willy's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Lingcod",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Willy's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+{ //Wizard's CD
+	"ProducerName": "CD Fixer",
+	"InputIdentifier": "Void Essence",
+	"FuelIdentifier": "Broken CD",
+	"MinutesUntilReady": 120,
+	"OutputIdentifier": "Wizard's CD",
+	"Sounds": [ "furnace" ],
+	"PlacingAnimation": "Fire",
+	"PlacingAnimationColorName": "White"
+	},
+]

@@ -1,0 +1,18 @@
+﻿{
+    "Name": "Stalk-Cluster Mushroom",
+    "Description": "A tighly packed cluster of mushrooms that goes great in stir-fry.",
+    "Category": "Greens",
+    "CategoryTextOverride": "Mushroom",
+    "Edibility": 30,
+    "Price": 75,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Stalk-Cluster-Mushroom",
+    "ContextTags": [
+    "color_red",
+    "forage_item",
+    "mushroom_item",
+    "forage_item_mines",
+  ],
+}

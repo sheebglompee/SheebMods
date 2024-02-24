@@ -1,0 +1,12 @@
+{
+  "Changes": [
+    {
+      "LogName": "Hector NPC Adventures Mail Data",
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "purrplingcat.npcadventure.bagItemsSentLetter_Mateo": "Hey @,^^I don't want your shit! Take it back.^^ -Hector",
+      },      
+    },
+  ]
+}

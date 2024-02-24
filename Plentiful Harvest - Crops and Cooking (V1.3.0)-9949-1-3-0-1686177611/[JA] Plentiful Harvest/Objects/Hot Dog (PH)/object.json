@@ -1,0 +1,86 @@
+{
+    "Name": "Hot Dog (PH)", 
+    "Description": "A ballpark style frank with ketchup. It's easy to hold in that soft bun!", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_pink"
+        ],
+    "Edibility": 58, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 10,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 100,
+    }, 
+    "Price": 150, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": 216, 
+            "Count": 1,
+        },
+		{
+            "Object": "Ketchup (PH)", 
+            "Count": 1,
+        },
+        {
+            "Object": "Soy Meat (PH)",
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Vincent", "Sam", "Shane"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus", "Leah", "Marnie"], 
+        "Hate": ["Eliott"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Hot Dog",
+		"es": "Hot Dog", //Spansih
+        "ko": "Hot Dog", //Korean
+        "de": "Hot Dog", //German
+        "fr": "Hot Dog", //French
+        "hu": "Hot Dog", //Hungarian
+        "it": "Hot Dog", //Italian
+        "ja": "Hot Dog", //Japanese
+        "pt": "Hot Dog", //Portuguese
+        "ru": "Хот-дог", //Russian
+        "tr": "Hot Dog", //Turkish
+        "zh": "热狗", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A ballpark style frank with ketchup. It's easy to hold in that soft bun!", //Spansih
+        "ko": "A ballpark style frank with ketchup. It's easy to hold in that soft bun!", //Korean
+        "de": "Ein Frankfurter Würstchen mit Ketchup, einfach und unkompliziert. Es ist in dem weichen Brötchen leicht zu halten.", //German
+        "fr": "A ballpark style frank with ketchup. It's easy to hold in that soft bun!", //French
+        "hu": "A ballpark style frank with ketchup. It's easy to hold in that soft bun!", //Hungarian
+        "it": "A ballpark style frank with ketchup. It's easy to hold in that soft bun!", //Italian
+        "ja": "A ballpark style frank with ketchup. It's easy to hold in that soft bun!", //Japanese
+        "pt": "A ballpark style frank with ketchup. It's easy to hold in that soft bun!", //Portuguese
+        "ru": "Сосиска с кетчупом внутри мягкой булочки!", //Russian
+        "tr": "A ballpark style frank with ketchup. It's easy to hold in that soft bun!", //Turkish
+        "zh": "香肠和番茄酱在软面包里! ", //Chinese (Simplified)
+    },
+	
+}

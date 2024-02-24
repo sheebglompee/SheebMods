@@ -1,0 +1,8 @@
+﻿{
+  "Lunna_animate": "animate/lunna_eat lunna_lie",
+  "Lunna_lookaround": "lookaround/8 12",
+  "Bianka_animate": "animate/bianka_dance bianka_meditate",
+  "Bianka_lookaround": "lookaround/8 12",
+  "Raphael_animate": "animate/raphael_meditate raphael_forge",
+  "Raphael_lookaround": "lookaround/8 12",
+}

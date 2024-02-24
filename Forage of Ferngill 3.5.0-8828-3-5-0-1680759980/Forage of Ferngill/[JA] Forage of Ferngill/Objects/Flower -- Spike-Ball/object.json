@@ -1,0 +1,16 @@
+﻿{
+    "Name": "Spike-Ball",
+    "Description": "These flowers have sharp thorns to deter costal birds.",
+    "Category": "Flower",
+    "Edibility": -50,
+    "Price": 75,
+    "IsColored": true,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Spike-Ball",
+    "ContextTags": [
+    "season_fall",
+    "color_pink",
+    "flower_item",
+  ],
+}

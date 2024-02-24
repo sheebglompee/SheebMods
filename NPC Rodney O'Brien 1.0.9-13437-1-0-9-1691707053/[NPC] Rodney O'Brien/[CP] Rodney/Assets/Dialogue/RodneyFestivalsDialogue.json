@@ -1,0 +1,91 @@
+﻿{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.EggFestival}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.FlowerDance}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.Luau}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.Jellies}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.Fair}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall20",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.RSVgathering}}",
+      },
+      "When": {
+        "HasMod": "Rafseazz.RSVCP"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.SpiritsEve}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.IceFestival}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.WinterStar}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter28",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.RSVember}}",
+      },
+      "When": {
+        "HasMod": "Rafseazz.RSVCP"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer20",
+      "Entries": {
+        "RodneyOBrien": "{{i18n:Rodney.Fireworks}}",
+      },
+      "When": {
+        "HasMod": "violetlizabet.FireworksFestival"
+      }
+    },
+  ]
+}

@@ -1,0 +1,44 @@
+{
+	
+    "Changes":[
+        
+        { 
+            "LogName": "Penny14Heart Pt 1 - Trailer",
+            "Action": "EditData",
+            "Target": "Data/Events/Trailer",
+            "Entries": {  
+                "928202241/f Penny {{FriendshipRequiredHeartToken}}/{{FriendshipRequiredEventTokenPenny}}/o Penny/t 1500 1900": "sweet/12 7/farmer -30 -30 0 Penny 12 7 0/animate Penny false true 250 24 25/skippable/pause 700/warp farmer 12 9/playSound doorClose/pause 500/move farmer 0 -1 0/move farmer 1 0 0/move farmer 0 -1 3/pause 200/emote farmer 32/pause 1000/stopAnimation Penny/pause 20/playSound thudStep/pause 250/faceDirection Penny 1/pause 50/animate Penny true true 100 20/pause 1000/stopAnimation Penny/faceDirection Penny 1/pause 200/speak Penny \"Welcome in, @, make yourself at home! How was your day?\"/quickQuestion #It was fine#Not good...#It was fantastic!(break)speak Penny \"Just business as usual, huh?#$b#Well, if you'd like to stay for dinner, I've got a zesty new recipe in the oven!$h#$b#That might make things a little more exciting.\"(break)emote Penny 28\\speak Penny \"Oh, I'm sorry!$s#$b#Well, please let me know if there's anything I can do to make you feel better.\"(break)speak Penny \"That's great! I'm glad you enjoy your work so much.$h\"/pause 800/speak Penny \"You know... I really appreciate the hard work you do on your farm.#$b#And it made me think... wouldn't it be nice if when you come back home, your house is nice and cozy?\"/emote farmer 32/speak Penny \"I've always liked home decor and if it's alright with you, I'd like to re-decorate your bedroom with some of my own hand-made decor!#$b#If it goes well, I'll ask other people if they'd like decorations too.#$b#But first, I have to ask you...\"/quickQuestion What style do you prefer?#Forest And Moon: Peaceful Blue#Strawberry Home#Pirate Theme#I don't want any changes!(break)addConversationTopic pennyRedecorating 2\\addMailReceived pennyQuilt0\\speak Penny \"Ah... something soothing. Okay!#$b#Just give me a few days, then.#$b#I won't touch any of your chests, but it would be nice if you could move them out of the bedroom.\"(break)addConversationTopic pennyRedecorating 2\\addMailReceived pennyQuilt1\\speak Penny \"Something warm and inviting, huh? That works for me!#$b#Just give me a few days, then.#$b#I won't touch any of your chests, but it would be nice if you could move them out of the bedroom.\"(break)addConversationTopic pennyRedecorating 2\\addMailReceived pennyQuilt2\\speak Penny \"Heh... Okay. Whatever you like, @.$h#$b#Just give me a few days, then.#$b#I won't touch any of your chests, but it would be nice if you could move them out of the bedroom.\"(break)addMailReceived noQuilt\\speak Penny \"Oh! Okay... I won't worry about it, then.$s\"/pause 500/showFrame Penny 4/playSound crystal/jump Penny/pause 500/speak Penny \"Oh! The pop-overs are ready. Would you like some?\"/faceDirection Penny 3/move Penny -3 0 0/faceDirection Penny 0/pause 100/showFrame Penny 29/pause 150/showFrame Penny 30/playSound openChest/pause 1300/showFrame Penny 28/playSound coin/emote farmer 20/move farmer -3 0 3/farmerEat 203/showFrame Penny 4/pause 2000/playSound gulp/emote Penny 32/pause 1000/faceDirection farmer 3/end"
+                    },
+    
+            "When": {
+                    "EnablePenny": true
+                    }          
+        },
+
+        { 
+            "LogName": "Penny14Heart Pt 1 - House",
+            "Action": "EditData",
+            "Target": "Data/Events/Trailer_big",
+            "Entries": {  
+                "928202241/f Penny {{FriendshipRequiredHeartToken}}/{{FriendshipRequiredEventTokenPenny}}/o Penny/t 1500 1900": "sweet/12 7/farmer 13 10 0 Penny 12 7 2/animate Penny false true 250 24 25/skippable/pause 700/move farmer 0 -3 3/pause 500/emote farmer 32/pause 1000/stopAnimation Penny/pause 20/playSound thudStep/pause 250/faceDirection Penny 1/pause 50/animate Penny true true 100 20/pause 1000/stopAnimation Penny/faceDirection Penny 1/pause 200/speak Penny \"Welcome in, @, make yourself at home! How was your day?\"/quickQuestion #It was fine#Not good...#It was fantastic!(break)speak Penny \"Just business as usual, huh?#$b#Well, if you'd like to stay for dinner, I've got a zesty new recipe in the oven!$h#$b#That might make things a little more exciting.\"(break)emote Penny 28\\speak Penny \"Oh, I'm sorry!$s#$b#Well, please let me know if there's anything I can do to make you feel better.\"(break)speak Penny \"That's great! I'm glad you enjoy your work so much.$h\"/pause 800/speak Penny \"You know... I really appreciate the hard work you do on your farm.#$b#And it made me think... wouldn't it be nice if when you come back home, your house is nice and cozy?\"/emote farmer 32/speak Penny \"I've always liked home decor and if it's alright with you, I'd like to re-decorate your bedroom with some of my own hand-made decor!#$b#If it goes well, I'll ask other people if they'd like decorations too.#$b#But first, I have to ask you...\"/quickQuestion What style do you prefer?#Forest And Moon: Peaceful Blue#Strawberry Home#Pirate Theme#I don't want any changes!(break)addConversationTopic pennyRedecorating 2\\addMailReceived pennyQuilt0\\speak Penny \"Ah... something soothing. Okay!#$b#Just give me a few days, then.#$b#I won't touch any of your chests, but it would be nice if you could move them out of the bedroom.\"(break)addConversationTopic pennyRedecorating 2\\addMailReceived pennyQuilt1\\speak Penny \"Something warm and inviting, huh? That works for me!#$b#Just give me a few days, then.#$b#I won't touch any of your chests, but it would be nice if you could move them out of the bedroom.\"(break)addConversationTopic pennyRedecorating 2\\addMailReceived pennyQuilt2\\speak Penny \"Heh... Okay. Whatever you like, @.$h#$b#Just give me a few days, then.#$b#I won't touch any of your chests, but it would be nice if you could move them out of the bedroom.\"(break)addMailReceived noQuilt\\speak Penny \"Oh! Okay... I won't worry about it, then.$s\"/pause 500/showFrame Penny 4/playSound crystal/jump Penny/pause 500/speak Penny \"Oh! The pop-overs are ready. Would you like some?\"/faceDirection Penny 3/move Penny -3 0 0/faceDirection Penny 0/pause 100/showFrame Penny 29/pause 150/showFrame Penny 30/playSound openChest/pause 1300/showFrame Penny 28/playSound coin/emote farmer 20/move farmer -3 0 3/farmerEat 203/showFrame Penny 4/pause 2000/playSound gulp/emote Penny 32/pause 1000/faceDirection farmer 3/end"
+                    },
+    
+            "When": {
+                    "EnablePenny": true
+                    }          
+        },
+
+        { 
+            "LogName": "Penny14Heart Pt 2",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {  
+                "928202242/e 928202241/o Penny/t 600 900/A pennyRedecorating/l noQuilt": "/64 15/farmer 64 16 2 Penny 64 18 0/pause 300/addConversationTopic PennyNewBedroom 7/skippable/pause 900/speak Penny \"@... Good morning...$h\"/pause 500/emote farmer 32/pause 500/speak Penny \"As I'm sure you saw, I made the changes to your room. I even quilted the custom bedspread by hand!$h\"/pause 300/emote farmer 16/pause 300/speak Penny \"So, what do you think?\"/quickQuestion #Looks great!#I don't like it.(break)emote Penny 32\\speak Penny \"I'm glad you like it. Your house looks really cozy now, doesn't it?$h#$b#I think I'll ask Emily next if she'd like some decor. Maybe I can turn this into a business some day!\"(break)emote Penny 28\\speak Penny \"Oh.. okay.$s#$b#I put the old furniture in a chest... feel free to change it back...$s#$b#I should've known this wouldn't work out.\"\\faceDirection Penny 2/pause 1000/fade/viewport -1000 -1000/pause 500/message \"Penny's been working very hard around the house...\"/pause 500/message \"It feels so welcoming when coming home!\"/pause 2000/end"
+                    },
+    
+            "When": {
+                    "EnablePenny": true
+                    }          
+        }
+	]	
+}

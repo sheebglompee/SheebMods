@@ -1,0 +1,12 @@
+{
+  "Changes": [
+    {
+      "LogName": "Dialogue for spring24",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "Entries": {
+        "Marlowe": "I wonder if Penny's got a dance partner.#$b#Or Alex."
+      }
+    }
+  ]
+}

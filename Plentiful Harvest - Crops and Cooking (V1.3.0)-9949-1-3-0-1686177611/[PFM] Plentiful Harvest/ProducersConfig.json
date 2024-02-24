@@ -1,0 +1,40 @@
+﻿[
+	{ 
+		"ProducerName": "Processor (PH)",
+		"ProducingAnimation": { 
+            "RelativeFrameIndex": [0, 1], 
+			"FrameInterval": 10, 
+		},
+		"WarningsLogLevel": "Warn" 
+	},
+	
+	{ 
+		"ProducerName": "Blender (PH)",
+		"DisableBouncingAnimationWhileWorking": true,
+		"ProducingAnimation": { 
+            "RelativeFrameIndex": [1, 2], 
+			"FrameInterval": 10, 
+		},
+		"ReadyAnimation": 
+        {
+          "RelativeFrameIndex": [2],
+		},
+		"WarningsLogLevel": "Warn" 
+	},
+	{ 
+		"ProducerName": "Nut Cheese Press (PH)",
+		"ProducingAnimation": { 
+            "RelativeFrameIndex": [0,1,2,1], 
+			"FrameInterval": 10, 
+		},
+		"WarningsLogLevel": "Warn" 
+	},
+	{ 
+		"ProducerName": "Oil Maker (PH)",
+		"ProducingAnimation": { 
+            "RelativeFrameIndex": [1, 2], 
+			"FrameInterval": 10, 
+		},
+		"WarningsLogLevel": "Warn" 
+	},
+]

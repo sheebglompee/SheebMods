@@ -1,0 +1,23 @@
+{
+  "Changes": [
+    {
+      "LogName": "Companion dialogues for MarlonFay",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarlonFay",
+      "Entries": {
+        "companionAccepted": "¡Ahora de esto se trata el Gremio de Aventureros! ¡Jaja!$2",
+        "companionRejected": "Perdón, pero no estoy a la altura.$0#$b#Tal vez realmente me estoy haciendo viejo para esto...$0",
+        "companionRejectedNight": "¿No sabes lo peligroso que es ir a cazar monstruos por la noche?$0#$b#Esperemos hasta mañana, ¿vale?$2",
+        "companionDismiss": "Fue un placer luchar a tu lado, @.$2#$b#Si alguna vez necesitas ayuda de nuevo, el gremio siempre estará acá.$1",
+        "companionDismissAuto": "Deberíamos terminar por hoy y regresar. Los monstruos se fortalecen una vez que se pone el sol.$0#$b#Te veré de vuelta en el gremio, amigo.$2",
+        "companionRecruited": "¡Tienes mi espada! Lidera el camino y te seguiré.$1",
+        "companion_Railroad": "El gremio ha perdido a mucha gente buena a lo largo de los años...$0#$b#Eventualmente, me reuniré con mis viejos amigos acá.$0",
+        "companion_Forest": "No pretendo entender todo lo que Rasmodius hace allá en su torre mágica, pero siempre estaré agradecido por su trabajo.$1#$b#Nunca olvides que el mago o la bruja de un gremio es un aliado invaluable para tener a tu lado.$0",
+        "companionOnce_Mine": "No olvides abastecerte de algunas pociones antes de descender. Nunca puedes estar demasiado preparado.$1",
+        "companion_Bugland": "Golpea rápido y con fuerza, @.$0#$b#Los insectos corruptos pueden parecer débiles, pero tienden a atacar en enjambres.$0",
+        "companion_Saloon": "Hazme un favor y mantén tu ingenio sobre ti.$0",
+        "companion_Sewers": "Te aconsejaría que no traigas a nadie más acá, pero si debes hacerlo, trata de evitar a toda costa que vean a Krobus.$1#$b#Ya ha pasado por tantas cosas... no podemos dejar que su ubicación salga a la luz.$0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+    "Name": "Cannabis",
+    "Description": "Use in moderation or for medicinal purposes.",
+    "Category": "Flower",
+    "Edibility": 3,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": 
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 2,
+        "Duration": 100,
+        "Speed": -1,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Defense": -5,
+        "Attack": 0
+    },
+    "Price": 135,
+    "IsColored": false,
+
+    "GiftTastes": {
+        "Love": [ "Sebastian", "Sam" ],
+        "Like": [ "Abigail", "Krobus" ],
+        "Neutral": [ "Pam", "Shane", "Linus", "Clint", "Harvey", "Pierre", "Emily" ],
+        "Dislike": [ "Alex", "Caroline", "Leah", "Dwarf", "Elliott", "Evelyn", "George", "Gus", "Marnie", "Robin", "Willy", "Wizard", "Demetrius", "Jodi", "Kent", "Maru", "Sandy" ],
+        "Hate": [ "Haley", "Jas", "Vincent", "Lewis", "Penny" ]
+    },
+    "Recipe": null
+
+}

@@ -1,0 +1,40 @@
+{
+    "Name": "Chestnut (PH)", 
+    "Product": "Chestnut (PH)",
+    "SaplingName": "Chestnut Sapling (PH)", 
+    "SaplingDescription": "Takes 28 days to produce a mature Chestnut tree. Bears nuts in fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+    "Season": "fall",
+    "SaplingPurchasePrice": 3700, 
+    "SaplingPurchaseFrom": "STF.PlentifulHarvest",
+    "SaplingPurchaseRequirements": null, 
+
+    "SaplingNameLocalization":
+    {
+        "default": "Chestnut Sapling",
+		"es": "Chestnut Sapling", 
+        "ko": "Chestnut Sapling", 
+        "de": "Kastanien-Setzling", 
+        "fr": "Chestnut Sapling", 
+        "hu": "Chestnut Sapling", 
+        "it": "Chestnut Sapling", 
+        "ja": "Chestnut Sapling", 
+        "pt": "Chestnut Sapling", 
+        "ru": "Саженец каштана", 
+        "tr": "Chestnut Sapling", 
+        "zh": "栗子树苗", 
+    },
+    "SaplingDescriptionLocalization":
+    {
+        "es": "Takes 28 days to produce a mature Chestnut tree. Bears nuts in fall. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "ko": "Takes 28 days to produce a mature Chestnut tree. Bears nuts in fall. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "de": "Wächst in 28 Tagen zu einem reifen Kastanienbaum heran. Trägt im Herbst Nüsse. Wächst nur, wenn die 8 umliegenden \"Felder\" leer sind.", 
+        "fr": "Takes 28 days to produce a mature Chestnut tree. Bears nuts in fall. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "hu": "Takes 28 days to produce a mature Chestnut tree. Bears nuts in fall. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "it": "Takes 28 days to produce a mature Chestnut tree. Bears nuts in fall. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "ja": "Takes 28 days to produce a mature Chestnut tree. Bears nuts in fall. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "pt": "Takes 28 days to produce a mature Chestnut tree. Bears nuts in fall. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "ru": "Становится взрослым каштановым деревом через 28 дней. Плодоносит осенью. Растет только если 8 «клеток» вокруг него не заняты.", 
+        "tr": "Takes 28 days to produce a mature Chestnut tree. Bears nuts in fall. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "zh": "28天成熟为成年栗子树。秋天结出栗子。只有在附近8块“地块”都空置的情况下才会成长。", 
+    }
+}

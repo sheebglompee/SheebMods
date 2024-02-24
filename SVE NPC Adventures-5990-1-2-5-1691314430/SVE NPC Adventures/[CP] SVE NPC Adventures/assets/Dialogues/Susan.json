@@ -1,0 +1,20 @@
+{
+  "Changes": [
+    {
+      "LogName": "Companion dialogues for Susan",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Susan",
+      "Entries": {
+        "companionAccepted": "I'd love to tag along!$1",
+        "companionRejected": "Sorry, honey, but I can't. My back is killing me today.$2",
+        "companionRejectedNight": "It's getting late and I'm not as spry as I used to be.$2#$b#Maybe tomorrow?$4",
+        "companionDismiss": "Thanks for spending some time with an old lady like me, haha.$4#$b#Let me know if you ever need any help.$1",
+        "companionDismissAuto": "Whew...! I think that's enough cardio for me today.$0#$b#Do me a favor and be careful out here, ok? It's dangerous to go alone.$2",
+        "companionRecruited": "Do you need any help on the farm today, @?$4",
+        "heal": "Are you feeling faint, @?$2#$b#Here, have some snacks. It's important to keep your blood sugar up!$4",
+        "nomedkits": "Oh no, I'm all out of trail mix!$2",
+        "companion_Beach": "Y-yes?$2#$e#%Susan looks uneasy."
+      }
+    }
+  ]
+}

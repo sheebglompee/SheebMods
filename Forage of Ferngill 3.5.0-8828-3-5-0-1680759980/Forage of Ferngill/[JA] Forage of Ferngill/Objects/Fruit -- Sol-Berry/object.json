@@ -1,0 +1,16 @@
+﻿{
+    "Name": "Sol-Berry",
+    "Description": "They pop in your mouth and leave a sweet fizzing sensation.",
+    "Category": "Fruit",
+    "Edibility": 20,
+    "Price": 20,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+   	"TranslationKey": "object.Sol-Berry",
+    "ContextTags": [
+    "season_spring",
+    "color_pink",
+    "fruit_item",
+  ],
+}

@@ -1,0 +1,33 @@
+{
+	"Name": "Colour-Stripper Jar",
+	"Description": "A jar big enough to fit multiple dolls. Its purpose is to strip dolls of paint, leaving a base doll.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveNextIndex": true,
+	"ReserveIndexCount": 2,
+	"Recipe": {
+		"ResultCount": 1,
+		"Ingredients": [
+			{
+				"Object": 338, //Refined Quartz
+				"Count": 5,
+			},
+			{
+				"Object": 335, //Iron Bar
+				"Count": 2,
+			},
+		],
+        "CanPurchase": true,
+		"PurchaseFrom": "Robin",
+		"PurchasePrice": 1500,
+    },
+    "CanPurchase": true,
+    "PurchaseFrom": "Dwarf",
+    "PurchasePrice": 1000,
+    "NameLocalization": { 
+        "ko": "탈색용 항아리",
+	},
+ 	"DescriptionLocalization": { 
+        "ko": "여러 개의 인형을 넣을 수 있을 만큼 큰 항아리입니다. 인형의 페인팅을 지우고 베이스용 인형을 만들기 위한 기계입니다.",
+	},
+}

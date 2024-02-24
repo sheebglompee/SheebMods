@@ -1,0 +1,91 @@
+{
+    "Name": "Kumquat Upside-Down Cake (PH)", 
+    "Description": "Super sweet and, well, upside-down.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_orange",
+        "dye_medium"
+        ],
+    "Edibility": 42, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 1,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 1,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 240,
+    }, 
+    "Price": 265, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Kumquat (PH)",
+            "Count": 1,
+        },
+		{
+            "Object": 246,
+            "Count": 1,
+        },
+		{
+            "Object": 245,
+            "Count": 1,
+        },
+        {
+            "Object": -6,
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Haley"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Alex"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Kumquat Upside-Down Cake",
+		"es": "Kumquat Upside-Down Cake", //Spansih
+        "ko": "Kumquat Upside-Down Cake", //Korean
+        "de": "Umgedrehter Kumquatkuchen", //German
+        "fr": "Kumquat Upside-Down Cake", //French
+        "hu": "Kumquat Upside-Down Cake", //Hungarian
+        "it": "Kumquat Upside-Down Cake", //Italian
+        "ja": "Kumquat Upside-Down Cake", //Japanese
+        "pt": "Kumquat Upside-Down Cake", //Portuguese
+        "ru": "Перевернутый пирог с кумкватом", //Russian
+        "tr": "Kumquat Upside-Down Cake", //Turkish
+        "zh": "金橘蛋糕", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Super sweet and, well, upside-down.", //Spansih
+        "ko": "Super sweet and, well, upside-down.", //Korean
+        "de": "Super süß und, nun ja, umgedreht.", //German
+        "fr": "Super sweet and, well, upside-down.", //French
+        "hu": "Super sweet and, well, upside-down.", //Hungarian
+        "it": "Super sweet and, well, upside-down.", //Italian
+        "ja": "Super sweet and, well, upside-down.", //Japanese
+        "pt": "Super sweet and, well, upside-down.", //Portuguese
+        "ru": "Супер сладкий и... перевернутый.", //Russian
+        "tr": "Super sweet and, well, upside-down.", //Turkish
+        "zh": "超级甜... 完全相反。", //Chinese (Simplified)
+    },
+	
+}

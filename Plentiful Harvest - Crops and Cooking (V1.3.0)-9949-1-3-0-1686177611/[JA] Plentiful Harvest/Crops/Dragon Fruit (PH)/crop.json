@@ -1,0 +1,53 @@
+{
+    "Name": "Dragon Fruit (PH)", 
+    "Product": "Dragon Fruit (PH)",
+    "SeedName": "Dragon Fruit Seeds (PH)", 
+    "SeedDescription": "Plant these in the summer. Takes 17 days to grow into a small tree, and continues to produce multiple fruits after the first harvest.", 
+    "Type": "Fruit", 
+    "CropType": "Normal", 
+    "Seasons": ["summer"], 
+    "Phases": [4, 4, 3, 3, 3], 
+    "RegrowthPhase": 6, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": true, 
+	"Bonus": 
+    {
+        "MinimumPerHarvest": 3, 
+        "MaximumPerHarvest": 6, 
+        "MaxIncreasePerFarmLevel": 5, 
+        "ExtraChance": 0.05, 
+    },
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "STF.PlentifulHarvest", 
+    "SeedPurchasePrice": 200, 
+
+    "SeedNameLocalization":
+    {
+        "default": "Dragon Fruit Seeds",
+		"es": "Dragon Fruit Seeds", 
+        "ko": "Dragon Fruit Seeds", 
+        "de": "Drachenfrucht-Saat", 
+        "fr": "Dragon Fruit Seeds", 
+        "hu": "Dragon Fruit Seeds", 
+        "it": "Dragon Fruit Seeds", 
+        "ja": "Dragon Fruit Seeds", 
+        "pt": "Dragon Fruit Seeds", 
+        "ru": "Семена питахайи", 
+        "tr": "Dragon Fruit Seeds", 
+        "zh": "火龙果种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plant these in the summer. Takes 17 days to grow into a small tree, and continues to produce multiple fruits after the first harvest.", 
+        "ko": "Plant these in the summer. Takes 17 days to grow into a small tree, and continues to produce multiple fruits after the first harvest.", 
+        "de": "Pflanze sie im Sommer. Wächst in 17 Tagen zu einem kleinen Baum heran, kann aber danach mehrmals geerntet werden.", 
+        "fr": "Plant these in the summer. Takes 17 days to grow into a small tree, and continues to produce multiple fruits after the first harvest.", 
+        "hu": "Plant these in the summer. Takes 17 days to grow into a small tree, and continues to produce multiple fruits after the first harvest.", 
+        "it": "Plant these in the summer. Takes 17 days to grow into a small tree, and continues to produce multiple fruits after the first harvest.", 
+        "ja": "Plant these in the summer. Takes 17 days to grow into a small tree, and continues to produce multiple fruits after the first harvest.", 
+        "pt": "Plant these in the summer. Takes 17 days to grow into a small tree, and continues to produce multiple fruits after the first harvest.", 
+        "ru": "Сажайте летом. Через 17 дней вырастает невысокое деревце, которое и после первого сбора будет продолжать плодоносить.", 
+        "tr": "Plant these in the summer. Takes 17 days to grow into a small tree, and continues to produce multiple fruits after the first harvest.", 
+        "zh": "夏天种植。 长成一棵小树需要17天，第一次收获后继续果实。", 
+    }
+}

@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[PFM] Doll Maker",
+	"Author": "acearohippo",
+	"Version": "1.0.0",
+	"Description": "",
+	"UniqueID": "acearohippo.PFMDollMaker",
+	"MinimumApiVersion": "3.8.0",
+	"Dependencies": [
+		{
+			"UniqueID": "acearohippo.DollMaker",
+			"IsRequired": false
+		},
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	},    
+}

@@ -1,0 +1,57 @@
+﻿{
+    "Name": "Processor (PH)",
+    "Description": "This machine takes nuts and other grindable objects and turns them into various goods.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 1,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 335,
+            "Count": 3,
+        },
+        {
+            "Object": 388,
+            "Count": 10,
+        },
+        {
+            "Object": 787,
+            "Count": 1,
+        }, ],
+        "CanPurchase": false,
+    },
+// Localization
+
+    "NameLocalization":
+    {
+        "default": "Processor",
+		"es": "Processor", //Spansih
+        "ko": "Processor", //Korean
+        "de": "Zerkleinerer", //German
+        "fr": "Processor", //French
+        "hu": "Processor", //Hungarian
+        "it": "Processor", //Italian
+        "ja": "Processor", //Japanese
+        "pt": "Processor", //Portuguese
+        "ru": "Процессор", //Russian
+        "tr": "Processor", //Turkish
+        "zh": "处理器", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "This machine takes nuts and other grindable objects and turns them into various goods.", //Spansih
+        "ko": "This machine takes nuts and other grindable objects and turns them into various goods.", //Korean
+        "de": "Diese Maschine stellt aus Nüssen und anderen Objekten, die zerkleinert werden können, mehrere Güter her.", //German
+        "fr": "This machine takes nuts and other grindable objects and turns them into various goods.", //French
+        "hu": "This machine takes nuts and other grindable objects and turns them into various goods.", //Hungarian
+        "it": "This machine takes nuts and other grindable objects and turns them into various goods.", //Italian
+        "ja": "This machine takes nuts and other grindable objects and turns them into various goods.", //Japanese
+        "pt": "This machine takes nuts and other grindable objects and turns them into various goods.", //Portuguese
+        "ru": "Эта машина берет орехи и другие измельчаемые предметы и превращает их в различные товары.", //Russian
+        "tr": "This machine takes nuts and other grindable objects and turns them into various goods.", //Turkish
+        "zh": "这台机器将坚果和其他可研磨的物体变成各种商品。", //Chinese (Simplified)
+    },
+	
+}

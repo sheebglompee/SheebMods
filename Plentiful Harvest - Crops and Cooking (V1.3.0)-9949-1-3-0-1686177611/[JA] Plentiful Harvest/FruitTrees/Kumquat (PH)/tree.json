@@ -1,0 +1,40 @@
+{
+    "Name": "Kumquat (PH)", 
+    "Product": "Kumquat (PH)",
+    "SaplingName": "Kumquat Sapling (PH)", 
+    "SaplingDescription": "Takes 28 days to produce a mature Kumquat tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.",
+    "Season": "spring",
+    "SaplingPurchasePrice": 1850, 
+    "SaplingPurchaseFrom": "STF.PlentifulHarvest",
+    "SaplingPurchaseRequirements": null, 
+
+    "SaplingNameLocalization":
+    {
+        "default": "Kumquat Sapling",
+		"es": "Kumquat Sapling", 
+        "ko": "Kumquat Sapling", 
+        "de": "Kumquat-Setzling", 
+        "fr": "Kumquat Sapling", 
+        "hu": "Kumquat Sapling", 
+        "it": "Kumquat Sapling", 
+        "ja": "Kumquat Sapling", 
+        "pt": "Kumquat Sapling", 
+        "ru": "Саженец фортунеллы", 
+        "tr": "Kumquat Sapling", 
+        "zh": "金橘树苗", 
+    },
+    "SaplingDescriptionLocalization":
+    {
+        "es": "Takes 28 days to produce a mature Kumquat tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "ko": "Takes 28 days to produce a mature Kumquat tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "de": "Wächst in 28 Tagen zu einem reifen Kumquatbaum heran. Trägt im Frühling Früchte. Wächst nur, wenn die 8 umliegenden \"Felder\" leer sind.", 
+        "fr": "Takes 28 days to produce a mature Kumquat tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "hu": "Takes 28 days to produce a mature Kumquat tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "it": "Takes 28 days to produce a mature Kumquat tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "ja": "Takes 28 days to produce a mature Kumquat tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "pt": "Takes 28 days to produce a mature Kumquat tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "ru": "Становится взрослым деревом через 28 дней. Плодоносит весной. Растет только если 8 «клеток» вокруг него не заняты.", 
+        "tr": "Takes 28 days to produce a mature Kumquat tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "zh": "28天成熟为成年金橘树。春天结果。只有在附近8块“地块”都空置的情况下才会成长。", 
+    }
+}

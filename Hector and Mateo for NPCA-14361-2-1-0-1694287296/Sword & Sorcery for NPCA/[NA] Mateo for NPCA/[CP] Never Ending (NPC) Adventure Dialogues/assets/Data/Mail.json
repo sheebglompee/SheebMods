@@ -1,0 +1,12 @@
+{
+  "Changes": [
+    {
+      "LogName": "Mateo NPC Adventures Mail Data",
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "purrplingcat.npcadventure.bagItemsSentLetter_Mateo": "Morning @,^^Here's your belongings from yesterday! I didn't take anything. But I did visit the barn to pet the animals, so that's the cost of me coming out here to drop everything off.^^ -Mateo",
+      },      
+    },
+  ]
+}

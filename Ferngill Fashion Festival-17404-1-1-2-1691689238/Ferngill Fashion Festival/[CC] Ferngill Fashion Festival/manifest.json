@@ -1,0 +1,14 @@
+{
+   
+    "Name": "Ferngill Fashion Festival - CC",      
+    "Author": "UNA",      
+    "Version": "1.1.2",         
+    "Description": "Custom Companions for FFF.",      
+    "UniqueID": "UNA.FF.CC",     
+    "UpdateKeys": [ "Nexus:-1" ], 
+    "ContentPackFor":
+    {
+        "UniqueID": "PeacefulEnd.CustomCompanions",
+        "MinimumVersion": "1.5.0"
+    },
+}

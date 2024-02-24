@@ -1,0 +1,15 @@
+﻿{
+    "Name": "Rock-Blush",
+    "Description": "Often found blooming in meadows along rocky cliffs.",
+    "Category": "Flower",
+    "Edibility": 0,
+    "Price": 125,
+    "IsColored": true,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Rock-Blush",
+    "ContextTags": [
+	"color_light_cyan",
+    "flower_item",
+  ],
+}

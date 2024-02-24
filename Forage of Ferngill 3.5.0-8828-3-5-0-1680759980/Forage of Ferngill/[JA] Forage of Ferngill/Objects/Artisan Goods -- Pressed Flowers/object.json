@@ -1,0 +1,15 @@
+{
+    "Name": "Pressed Flowers",
+    "Description": "Flowers that have been pressed and dried to preserve them.",
+    "Category": "ArtisanGoods",
+    "Edibility": 0,
+    "Price": 100,
+    "IsColored": true,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Pierre",
+    "PurchasePrice": 150,
+    "GiftTastes":
+    {},
+	"TranslationKey": "object.Pressed-Flowers",
+}

@@ -1,0 +1,21 @@
+{
+  "Changes": [
+    {
+      "LogName": "Companion dialogues for Victor",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Victor",
+      "Entries": {
+        "companionAccepted": "¡Hagámoslo!$1",
+        "companionRejected": "Creo que me voy a quedar con mis libros y videojuegos, perdón.$2",
+        "companionRejectedNight": "Tuve un día largo. Ahora mismo realmente no estoy para una aventura.$0",
+        "companionDismiss": "Seguro.$0#$b#Nos vemos mas tarde, ¿bueno?$3",
+        "companionDismissAuto": "Creo que voy a ir a casa y registrar algunos de los datos que recopilé hoy.$0#$b#¡Que tengas un buen día, @!$3",
+        "companionRecruited": "¿Dónde deberíamos ir?$6#$b#Si hubiese sabido que íbamos a salir, podría haber escrito un itinerario de antemano.$2",
+		"companionSuggest": "Podemos ir a revizar los puentes juntos.#$q -1 -1#¿Quieres venir conmigo, @?#$r -1 0 Yes#Vamos a verlos, Victor.#$r -1 0 No#No tengo tiempo, quizás otro día.",
+		"companionSuggest_Yes": "Excelente, allá vamos!$1",
+		"companionSuggest_No": "Está bien, @. Los podemos ir a revizar otro día.",
+        "companion_ShearwaterBridge": "Es una vista increíble, ¿no es así?$3#b#Gracias a este puente, las personas de Grampleton y Stardew Valley pueden trabajar y crecer juntas.$1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+    "Name": "Linch-Berry",
+    "Description": "This red berry has a bobbly textured skin with a smooth white inside.",
+    "Category": "Fruit",
+    "Edibility": 10,
+    "Price": 15,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+   	"TranslationKey": "object.Linch-Berry",
+    "ContextTags": [
+    "color_red",
+    "fruit_item",
+  ],
+}

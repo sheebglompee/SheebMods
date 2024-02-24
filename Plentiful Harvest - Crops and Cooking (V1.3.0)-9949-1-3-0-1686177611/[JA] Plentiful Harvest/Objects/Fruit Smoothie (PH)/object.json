@@ -1,0 +1,52 @@
+{
+    "Name": "Fruit Smoothie (PH)",
+    "Description": "A sweet drink that's made from blending fruit, ice, and milk.",
+    "Category": "ArtisanGoods",
+	"ContextTags": 
+        [
+		"color_pink"
+        ],
+    "Edibility": 45,
+	"EdibleIsDrink": true,
+    "Price": 400, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Vincent", "Sam", "Alex", "Shane", "Jas", "Maru", "Caroline", "Sandy"],
+        "Like": ["Sebastian", "Lewis", "Leo", "Evelyn", "Pierre", "Demetrius", "Abigail", "Robin"],
+        "Neutral": null, 
+        "Dislike": ["Haley", "Penny", "Eliott", "Linus"], 
+        "Hate": ["George", "Demetrius"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Fruit Smoothie",
+		"es": "Fruit Smoothie", 
+        "ko": "Fruit Smoothie", 
+        "de": "Frucht-Smoothie", 
+        "fr": "Fruit Smoothie", 
+        "hu": "Fruit Smoothie", 
+        "it": "Fruit Smoothie", 
+        "ja": "Fruit Smoothie",
+        "pt": "Fruit Smoothie", 
+        "ru": "Фруктовое смузи", 
+        "tr": "Fruit Smoothie",
+        "zh": "水果冰沙", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A sweet drink that's made from blending fruit, ice, and milk.", 
+        "ko": "A sweet drink that's made from blending fruit, ice, and milk.", 
+        "de": "Ein süßes Getränk, das aus gemixter Frucht, Eis und Milch hergestellt wird.",
+        "fr": "A sweet drink that's made from blending fruit, ice, and milk.", 
+        "hu": "A sweet drink that's made from blending fruit, ice, and milk.",
+        "it": "A sweet drink that's made from blending fruit, ice, and milk.", 
+        "ja": "A sweet drink that's made from blending fruit, ice, and milk.", 
+        "pt": "A sweet drink that's made from blending fruit, ice, and milk.",
+        "ru": "Баночка чрезвычайно сладкой пасты.", 
+        "tr": "A sweet drink that's made from blending fruit, ice, and milk.", 
+        "zh": "一种由水果、冰块和牛奶混合而成的甜饮料。",
+    },
+}

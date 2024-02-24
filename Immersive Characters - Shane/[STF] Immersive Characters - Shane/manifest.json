@@ -1,0 +1,19 @@
+
+{
+	"Name": "Immersive Characters - Shane (STF)",
+	"Author": "tenthousandcats",
+	"Version": "2.5.1",
+	"Description": "Allows Shane to man the counter when Marnie isn't there",
+	"UniqueID": "tenthousandcats.ICShaneAnimalShop",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [ "ModDrop:487802" ],
+	"ContentPackFor": {
+		"UniqueID": "Cherry.ShopTileFramework",
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "tenthousandcats.ImmersiveCShane",
+			"IsRequired": true
+		},
+	],
+}

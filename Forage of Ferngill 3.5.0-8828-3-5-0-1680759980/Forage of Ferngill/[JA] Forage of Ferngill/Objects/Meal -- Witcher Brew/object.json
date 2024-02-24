@@ -1,0 +1,49 @@
+{
+    "Name": "Witchers Brew",
+    "Description": "A foul concotion. Toxic but masively increases your strength and toughness.",
+    "Category": "Cooking",
+    "Edibility": -200,
+    "EdibleIsDrink": true,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 6,
+        "Attack": 6,
+        "Duration": 150,
+    },
+    "Price": 2000,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Drooping-Hood Mushroom",
+            "Count": 1,
+        },
+        {
+            "Object": "Frost-Spot Mushroom",
+            "Count": 1,
+        },
+        {
+            "Object": "Ink-Dipped Mushroom",
+            "Count": 1,
+        },
+        {
+            "Object": 420,
+            "Count": 1,
+        }],
+    "CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 2500,
+},
+    "GiftTastes":  {},
+	"TranslationKey": "object.Witchers-Brew",
+}

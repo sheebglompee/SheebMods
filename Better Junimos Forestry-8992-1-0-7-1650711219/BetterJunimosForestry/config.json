@@ -1,0 +1,9 @@
+{
+  "WildTreePattern": "loose",
+  "FruitTreePattern": "rows",
+  "PlantWildTreesSize": 0,
+  "PlantFruitTreesSize": 0,
+  "SustainableWildTreeHarvesting": true,
+  "InfiniteJunimoInventory": false,
+  "HarvestGrassEnabled": true
+}

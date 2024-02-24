@@ -1,0 +1,16 @@
+{
+    "Name": "Pam's CD",
+    "Description": "Pam's personal playlist!",
+    "Category": "Crafting",
+    "Edibility": 0,
+    "EdibleIsDrink": false,
+    "Price": 0,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {
+        "Love": ["Pam"],
+        "Like": ["Linus","Sam"],
+        "Hate": ["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Leo","Lewis","Linus","Marnie","Maru","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]
+    }
+}
+

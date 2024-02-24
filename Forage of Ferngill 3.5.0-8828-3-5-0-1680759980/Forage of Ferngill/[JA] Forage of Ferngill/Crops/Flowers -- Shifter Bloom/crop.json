@@ -1,0 +1,22 @@
+{
+    "Name": "Shifter-Bloom",
+    "Product": "Shifter-Bloom",
+    "SeedName": "Shifter-Bloom Seeds",
+    "SeedDescription": "Plant in Spring, Summer or Fall. Takes 7 days to grow.",
+    "Type": "Flower",
+    "Seasons": ["spring", "summer", "fall" ],
+    "Phases": [1, 1, 2, 2, 1],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+	"Colors": null,
+    "Colors": [
+        "234, 112, 53, 255",
+        "251, 129, 55, 255",
+        "253, 173, 53, 255"
+    ],
+    "SeedNameLocalization":
+    {},
+    "SeedDescriptionLocalization":
+    {},
+}

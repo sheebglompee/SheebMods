@@ -1,0 +1,31 @@
+{
+	
+    "Changes":[
+
+   { 
+        "LogName": "Maru14Heart Pt 1",
+		"Action": "EditData",
+		"Target": "Data/Events/Farm",
+		"Entries": {  
+            "928202205/f Maru {{FriendshipRequiredHeartToken}}/{{FriendshipRequiredEventTokenMaru}}/e 8/o Maru/w sunny/d Sun/z winter/t 600 900": "continue/64 15/farmer 64 16 2 Maru 64 18 0/addConversationTopic MaruCometInvite 0/pause 700/speak Maru \"Hi, @.#$b#Tomorrow night, there's a rare astronomical event happening... A comet is passing very close to our planet!#$b#I was thinking... would you like to observe it with me?$1\"/pause 100/emote farmer 32/speak Maru \"Great!$h#$b#Meet me in the mountains at midnight tomorrow night.#$b#If it rains, we'll do it on the next night... the comet is here for a few days.\"/pause 500/pause 500/end"
+                },
+
+        "When": {
+                "EnableMaru": true
+                 }          
+	},
+    { 
+        "LogName": "Maru14Heart Pt 2",
+		"Action": "EditData",
+		"Target": "Data/Events/Mountain",
+		"Entries": {  
+            "928202206/e 928202205/A MaruCometInvite/o Maru/w sunny/t 2200 2500": "nightTime/-1000 -1000/farmer 23 29 3 Maru 14 29 3/addConversationTopic MaruCometSighting 7/skippable/changeToTemporaryMap NightSceneMaruMap2 false/bgColor 0 0 0/ambientLight 0 0 0/viewport 14 25 true clamp/pause 1000/move farmer -8 0 3/faceDirection Maru 1/pause 800/showFrame Maru 32/pause 700/showFrame Maru 4/speak Maru \"Hey, @. You made it just in time... The comet's about to appear.\"/pause 500/faceDirection Maru 2/pause 1000/faceDirection farmer 2/pause 1000/speak Maru \"Beautiful night, isn't it?\"/pause 2000/faceDirection Maru 1/faceDirection farmer 3/pause 1000/speak Maru \"Remember the first time we did this? It was a while ago...\"/faceDirection Maru 2/speak Maru \"I was nervous about saying it then, but I'm glad that we're friends.\"/faceDirection Maru 1/speak Maru \"People often get bored or intimidated by me, but you've always been there for me.\"/pause 500/emote farmer 32/pause 500/jump Maru/pause 400/speak Maru \"Oh! It's time...\"/faceDirection Maru 3/faceDirection farmer 3 true/showFrame Maru 28/emote Maru 40/pause 1000/textAboveHead Maru \"Wow!\"/pause 3000/showFrame Maru 12/move Maru 0 1 0/speak Maru \"Take a look!\"/pause 500/move farmer -1 0 3/pause 1000/animate farmer true true 100 35/pause 1000/fade/viewport -1000 -1000/pause 1000/playMusic spaceMusic/warp Maru 15 29/faceDirection Maru 3/cutscene marucomet/pause 1000/viewport 14 25 true clamp/pause 3000/stopAnimation farmer/pause 1000/faceDirection farmer 1/pause 500/speak Maru \"After seeing a comet, it's customary to make a wish...\"/pause 500/quickQuestion What will you wish for?#Good health for our families#For our friendship to never fade#More money(break)emote Maru 16\\pause 500\\speak Maru \"That's a lovely wish, @.$h#$b#Thanks for thinking of them.\"\\emote Maru 32(break)emote Maru 32\\speak Maru \"That's... really sweet!$l#$b#I have the same wish.$l\"(break)speak Maru \"Money? Oh...$s#$b$Well I guess that would be practical...$8\"\\emote Maru 28\\speak Maru \"My wish is that our light will be seen and remembered long past the moment of our passing, just like these stars.\"/pause 2000/animate Maru false true 100 28/animate farmer false true 100 101/positionOffset farmer 16 0/pause 2000/specificTemporarySprite maruTelescope/viewport move 0 -1 13000/pause 16000/fade/viewport -1000 -1000/pause 3000/end newDay"
+                },
+
+        "When": {
+                "EnableMaru": true
+                 }          
+	}
+
+	]	
+}

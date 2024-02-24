@@ -1,0 +1,10 @@
+{
+   "Name": "[PFM] Forage of Ferngill",
+   "Author": "Stunky McDoo",
+   "Description": "Expands on the the Foraging experience of Stardew Valley! Adds several new forageable goods.",
+   "Version": "3.5.0",
+   "UniqueID": "StunkyMcDoo.ForageofFerngill.PFM",
+   "ContentPackFor": {"UniqueID": "DIGUS.ProducerFrameworkMod"},
+   "Dependencies": [{"UniqueID": "StunkyMcDoo.ForageofFerngill.JA", "IsRequired": true,}],
+   "UpdateKeys": [ "Nexus:8828" ],
+}

@@ -1,0 +1,21 @@
+{
+  "Changes": [
+    {
+      "LogName": "Companion dialogues for Victor",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Victor",
+      "Entries": {
+        "companionAccepted": "Let's do it!$1",
+        "companionRejected": "I think I'll just stick with my books and video games, sorry.$2",
+        "companionRejectedNight": "I've had a long day. I'm not really up for an adventure right now.$0",
+        "companionDismiss": "Sure thing.$0#$b#I'll see you later, ok?$3",
+        "companionDismissAuto": "I think I'm going to head home and log some of this data I collected today.$0#$b#Have a good one, @!$3",
+        "companionRecruited": "Where should we go?$6#$b#If I knew we were going out I could've written up an itinerary beforehand.$2",
+		"companionSuggest": "We can go check out the bridges together.#$q -1 -1#Would you like to come with me, @?#$r -1 0 Yes#Let's go check them out, Victor.#$r -1 0 No#I don't have time, maybe another day.",
+		"companionSuggest_Yes": "Excellent, here we go!$1",
+		"companionSuggest_No": "Okay, @. We can go check them out another day.",
+        "companion_ShearwaterBridge": "It's an incredible sight, isn't it?.$3#b#Thanks to this bridge, people from Grampleton and Stardew Valley are able to work and grow together.$1"
+      }
+    }
+  ]
+}

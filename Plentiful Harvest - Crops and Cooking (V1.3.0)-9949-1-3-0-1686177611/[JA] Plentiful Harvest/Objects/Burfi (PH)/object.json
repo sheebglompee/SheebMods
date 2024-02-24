@@ -1,0 +1,87 @@
+{
+    "Name": "Burfi (PH)", 
+    "Description": "A cube of gourd paste powdered with sugar.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_gray",
+		"dye_medium"
+        ],
+    "Edibility": 45, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 10,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 600,
+    }, 
+    "Price": 300, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Silver Gourd (PH)", 
+            "Count": 1,
+        },
+		{
+            "Object": 245, 
+            "Count": 1,
+        },
+        {
+            "Object": -6, 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Krobus", "Wizard"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": null, 
+        "Hate": ["Vincent", "Sam", "Eliott", "Leo"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Burfi",
+		"es": "Burfi", //Spansih
+        "ko": "Burfi", //Korean
+        "de": "Barfi", //German
+        "fr": "Burfi", //French
+        "hu": "Burfi", //Hungarian
+        "it": "Burfi", //Italian
+        "ja": "Burfi", //Japanese
+        "pt": "Burfi", //Portuguese
+        "ru": "Бурфи", //Russian
+        "tr": "Burfi", //Turkish
+        "zh": "布尔菲奶糕", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A cube of gourd paste powdered with sugar.", //Spansih
+        "ko": "A cube of gourd paste powdered with sugar.", //Korean
+        "de": "Ein Würfel aus mit Zucker bestäubter Kürbispaste.", //German
+        "fr": "A cube of gourd paste powdered with sugar.", //French
+        "hu": "A cube of gourd paste powdered with sugar.", //Hungarian
+        "it": "A cube of gourd paste powdered with sugar.", //Italian
+        "ja": "A cube of gourd paste powdered with sugar.", //Japanese
+        "pt": "A cube of gourd paste powdered with sugar.", //Portuguese
+        "ru": "Кубик тыквенной пасты, посыпанный сахарной пудрой.", //Russian
+        "tr": "A cube of gourd paste powdered with sugar.", //Turkish
+        "zh": "一块用糖粉制成的奶糕。", //Chinese (Simplified)
+    },
+	
+}

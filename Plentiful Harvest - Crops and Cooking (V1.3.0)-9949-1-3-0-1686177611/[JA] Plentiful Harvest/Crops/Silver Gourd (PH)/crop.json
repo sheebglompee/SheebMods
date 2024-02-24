@@ -1,0 +1,46 @@
+{
+    "Name": "Silver Gourd (PH)", 
+    "Product": "Silver Gourd (PH)",
+    "SeedName": "Silver Gourd Seeds (PH)", 
+    "SeedDescription": "Plant these in the winter. Takes 13 days to mature and produces a large gourd.", 
+    "Type": "Vegetable", 
+    "CropType": "Normal", 
+    "Seasons": ["winter"], 
+    "Phases": [1, 2, 4, 3, 3], 
+    "RegrowthPhase": -1, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": false, 
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "STF.PlentifulHarvest", 
+    "SeedPurchasePrice": 92, 
+
+    "SeedNameLocalization":
+    {
+        "default": "Silver Gourd Seeds",
+		"es": "Silver Gourd Seeds", 
+        "ko": "Silver Gourd Seeds", 
+        "de": "Silberkürbis-Saat", 
+        "fr": "Silver Gourd Seeds", 
+        "hu": "Silver Gourd Seeds", 
+        "it": "Silver Gourd Seeds", 
+        "ja": "Silver Gourd Seeds", 
+        "pt": "Silver Gourd Seeds", 
+        "ru": "Семена тыквы «Серебрянка»", 
+        "tr": "Silver Gourd Seeds", 
+        "zh": "银葫芦种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plant these in the winter. Takes 13 days to mature and produces a large gourd.", 
+        "ko": "Plant these in the winter. Takes 13 days to mature and produces a large gourd.", 
+        "de": "Pflanze sie im Winter. Wächst in 13 Tagen heran.", 
+        "fr": "Plant these in the winter. Takes 13 days to mature and produces a large gourd.", 
+        "hu": "Plant these in the winter. Takes 13 days to mature and produces a large gourd.", 
+        "it": "Plant these in the winter. Takes 13 days to mature and produces a large gourd.", 
+        "ja": "Plant these in the winter. Takes 13 days to mature and produces a large gourd.", 
+        "pt": "Plant these in the winter. Takes 13 days to mature and produces a large gourd.", 
+        "ru": "Сажайте зимой. Вырастает через 13 дней.", 
+        "tr": "Plant these in the winter. Takes 13 days to mature and produces a large gourd.", 
+        "zh": "冬天种植。 需要13天成熟，并长出大银葫芦。", 
+    }
+}

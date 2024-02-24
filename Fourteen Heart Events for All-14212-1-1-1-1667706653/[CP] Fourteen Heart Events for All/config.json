@@ -1,0 +1,16 @@
+{
+  "EnableAbigail": "true",
+  "EnableAlex": "true",
+  "EnableElliott": "true",
+  "EnableEmily": "true",
+  "EnableHaley": "true",
+  "EnableHarvey": "true",
+  "EnableLeah": "true",
+  "EnableMaru": "true",
+  "EnablePenny": "true",
+  "EnableSam": "true",
+  "EnableSebastian": "true",
+  "EnableShane": "true",
+  "EnableShaneAlexAltOrVanilla": "Vanilla",
+  "FriendshipRequired": "8HeartEvent"
+}

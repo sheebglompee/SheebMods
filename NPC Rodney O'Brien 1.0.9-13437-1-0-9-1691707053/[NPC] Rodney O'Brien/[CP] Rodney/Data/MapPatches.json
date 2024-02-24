@@ -1,0 +1,27 @@
+{
+    "Changes": [
+        {
+            "LogName": "Rodney House", //edit the interior of the silo
+            "Action": "EditMap",
+            "Target": "Maps/Custom_RodneysHouse",
+            "FromFile": "Assets/Maps/RodneyHouse_patch.tmx",
+            "PatchMode": "Replace",
+            "AddWarps": [
+                "10 35 Custom_RodneysBasement 20 1",
+                "7 35 Custom_EastScarpe 88 32",
+            ],
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_EastScarpe",
+            "FromFile": "Assets/Maps/Silo_Outdoor.tmx",
+            //"PatchMode": "Overlay",
+            "ToArea": {
+                "X": 86,
+                "Y": 23,
+                "Width": 7,
+                "Height": 11,
+            },
+        },
+    ]
+}

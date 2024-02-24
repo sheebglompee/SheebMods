@@ -1,0 +1,15 @@
+﻿{
+    "Name": "Fizzling-Berry",
+    "Description": "When dropped in water, these berries produce a fizzing effect.",
+    "Category": "Fruit",
+    "Edibility": 20,
+    "Price": 180,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+    "TranslationKey": "object.Fizzling-Berry",
+    "ContextTags": [
+    "color_orange",
+    "fruit_item",
+  ],
+}

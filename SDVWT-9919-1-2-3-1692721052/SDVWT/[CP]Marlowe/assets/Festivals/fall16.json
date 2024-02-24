@@ -1,0 +1,34 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "Marlowe 51 79 2"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "Marlowe 51 79 2"
+        }
+      ],
+      {
+        "LogName": "Dialogue for fall16",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "Entries": {
+          "Marlowe": "I bet Pierre's gonna win this year.#$b#Unless the giant cheesewheel takes over.#$b#I hope it does."
+        }
+      }
+    }
+  ]
+},

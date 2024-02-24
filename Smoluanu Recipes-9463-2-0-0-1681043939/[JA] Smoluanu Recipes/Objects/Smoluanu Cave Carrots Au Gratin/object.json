@@ -1,0 +1,91 @@
+{
+	"Name": "Smoluanu Cave Carrots Au Gratin", 
+	"Description": "Cave carrots with a creamy cheese sauce.",
+	"Category": "Cooking",
+  
+	"Edibility": 33,
+	"EdibleIsDrink": false,
+  
+	"EdibleBuffs": {
+					"Farming": 0,
+					"Fishing": 0,
+					"Mining": 0,
+					"Luck": 0,
+					"Foraging": 0,
+					"MaxStamina": 0,
+					"MagnetRadius": 0,
+					"Speed": 0,
+					"Defense": 0,
+					"Attack": 0,
+					"Duration": 0
+  },
+  
+	"Price": 120,
+  
+	"IsColored": false,
+  
+	"Recipe": {
+			  "ResultCount": 1,
+			  
+			  "Ingredients": [
+								{
+								   "Object": 78, 
+								   "Count": 1
+								},
+								{
+								   "Object": 424,
+								   "Count": 1
+								},
+								{
+								   "Object": 426,
+								   "Count": 1
+								},
+								{
+								   "Object": -6,
+								   "Count": 1
+								}
+			      ],
+			   
+			   "IsDefault": "False",
+			   
+			   "CanPurchase": "True",
+			   "PurchaseFrom": "Dwarf",		   
+			   "PurchasePrice": 50,
+			   
+			   "PurchaseRequirements": ["f Dwarf 250"]
+			},
+  
+	"GiftTastes": { 
+						     "Love": ["Dwarf","Emily","Leah","Maru","Penny"]
+	},
+
+	"NameLocalization":
+    {
+		//"es": "",
+		//"ko": "",
+		//"de": "",
+		"fr": "Le gratin de carottes des cavernes",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		"ru": "Гратен из пещерной моркови"
+		//"tr": "",
+		//"zh": ""
+       
+    },
+    "DescriptionLocalization":
+	{
+		//"es": "",
+		//"ko": "",
+		//"de": "",
+		"fr": "Les carrottes de cavernes avec une sauce de fromage crémeuse.",
+		//"hu": "",
+		// "it": "",
+		//"ja": "",
+		//"pt": "",
+		"ru": "Тонко нарезанная пещерная морковка, запечённая в нежном сырном соусе."
+		//"tr": "",
+		//"zh": "",
+	}
+}

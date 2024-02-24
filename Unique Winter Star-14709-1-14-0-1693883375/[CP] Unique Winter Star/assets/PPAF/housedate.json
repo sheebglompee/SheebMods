@@ -1,0 +1,110 @@
+{
+    //Guide for keys:
+	//1501 and 1504: Rude keys. Use for Abigail, Sebastian, Alex, Haley, and Shane.
+	//1499 and 1500: Keys that don't apply to the above cases.	
+	"Changes":[
+		{
+			"LogName": "Sebastian - Winter Star, Maru is Housemate",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries":{
+				"Event.cs.1504": "{{i18n:UWS.Sebastian.WinterStar.Maru.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Maru": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Maru": "FullyPlatonic, SexWithoutRomance",
+				"Sebastian": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Sebastian - Winter Star, Maru is Housemate, friends with farmer",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries":{
+				"Event.cs.1504": "{{i18n:UWS.Sebastian.WinterStar.Maru.Housemate.High.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"Hearts:Sebastian": "5,6,7,8",
+				"relationship:Maru": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Maru": "FullyPlatonic, SexWithoutRomance",
+				"Sebastian": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Haley - Winter Star (Default), Emily is Housemate",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries":{
+				"Event.cs.1504": "{{i18n:UWS.Haley.WinterStar.Emily.Housemate.After}}",
+			},
+			"When": {
+				"relationship:Emily": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Emily": "FullyPlatonic, SexWithoutRomance",
+				"Haley": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Haley - Winter Star, High Hearts, Emily is Housemate",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries":{
+				"Event.cs.1504": "{{i18n:UWS.Haley.WinterStar.High.Emily.Housemate.After}}",
+			},
+			"When": {
+				"Hearts:Haley": "6,7,8",
+				"relationship:Emily": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Emily": "FullyPlatonic, SexWithoutRomance",
+				"Haley": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Haley - Winter Star v2 (alt condition), Emily is Housemate", // Condition which allows leeway on hearts if 6-heart is seen. If heart level drops to 3, assume she's angry.
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries":{
+				"Event.cs.1504": "{{i18n:UWS.Haley.WinterStar.High.Emily.Housemate.After}}",
+			},
+			"When": {
+				"Hearts:Haley": "4, 5",
+				"HasSeenEvent |contains=13": "true",
+				"relationship:Emily": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Emily": "FullyPlatonic, SexWithoutRomance",
+				"Haley": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Emily - Winter Star, Haley is Housemate",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries":{
+				"Event.cs.1499": "{{i18n:UWS.Emily.WinterStar.Haley.Housemate.Before}}",
+			},
+			"When": {
+				"relationship:Haley": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Haley": "FullyPlatonic, SexWithoutRomance",
+				"Emily": "normal",
+			},
+		},
+		{
+			"LogName": "Maru - Winter Star, Sebastian is Housemate",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries":{
+				"Event.cs.1499": "{{i18n:UWS.Maru.WinterStar.Sebastian.Housemate.Before}}",
+				"Event.cs.1500": "{{i18n:UWS.Maru.WinterStar.Sebastian.Housemate.After}}",
+			},
+			"When": {
+				"relationship:Sebastian": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Sebastian": "FullyPlatonic, SexWithoutRomance",
+				"Maru": "normal, spicy",
+			},
+		},
+	],
+}

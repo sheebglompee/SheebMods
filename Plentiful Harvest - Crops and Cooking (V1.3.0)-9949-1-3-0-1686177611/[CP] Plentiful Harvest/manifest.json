@@ -1,0 +1,16 @@
+{ //CP STUFF IN WORK FOLDER
+  "Name": "[CP] Plentiful Harvest: Crops and Cooking",
+  "Author": "DomTSVG",
+  "Version": "1.3.0",
+  "Description": "Adds many seasonal and balanced new crops as well as tons of new recipes for use with old and new ingredients.",
+  "UniqueID": "DomTSVG.PlentifulHarvestCP",
+  "UpdateKeys": ["Nexus:9949"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+   {
+      "UniqueID": "spacechase0.JsonAssets",
+   }
+	]
+  }

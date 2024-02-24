@@ -1,0 +1,57 @@
+{
+	"Name": "Penny Doll",
+	"Description": "Handcrafted doll made from repurposed materials and forage. Looks like Penny.",
+	"Category": "Crafting",
+	"CategoryTextOverride": "Doll",
+	"Edibility": -300,
+	"Price": 300,
+	"IsColored": false,
+	"Recipe": {
+		"ResultCount": 1,
+		"Ingredients": [
+			{
+				"Object": 410, //Blackberry
+				"Count": 1
+			},
+			{
+				"Object": 168, //Trash
+				"Count": 1
+			},
+			{
+				"Object": "Base Doll",
+				"Count": 1
+			}
+		],
+		"IsDefault": true
+	},
+	"GiftTastes": {
+		"Love": ["Maru", "Pam", "Penny", "Sam", "Flor"],
+		"Like": [
+			"Emily",
+			"Leah",
+			"Jas",
+			"Vincent",
+			"Trinnie",
+			"Keahi",
+			"Yuuma"
+		],
+		"Neutral": [
+			"Abigail",
+			"Alex",
+			"Elliott",
+			"Haley",
+			"Harvey",
+			"Sebastian",
+			"Shane",
+			"Jeric",
+			"Maddie"
+		]
+	},
+	"NameLocalization": {
+		"ko": "페니 인형"
+	},
+	"DescriptionLocalization": {
+		"ko": "재활용품과 채집물로 만든 수공예 인형. 페니를 닮았습니다."
+	},
+	"CanPurchase": false
+}

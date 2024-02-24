@@ -1,0 +1,53 @@
+{
+    "Name": "Carrot (PH)",
+    "Description": "A popular spring tuber with an identifiable orange color and sweet taste. Supposedly helps eyesight.",
+    "Category": "Vegetable",
+	"ContextTags": 
+        [
+        "season_spring",
+		"color_orange",
+        "dye_strong"
+        ],
+    "Edibility": 10,
+    "Price": 40, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Caroline", "Maru"],
+        "Like": ["Marnie", "Jodi"],
+        "Neutral": null, 
+        "Dislike": ["Vincent", "Alex"], 
+        "Hate": ["Eliott"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Carrot",
+		"es": "Carrot", 
+        "ko": "Carrot", 
+        "de": "Karotte", 
+        "fr": "Carrot", 
+        "hu": "Carrot", 
+        "it": "Carrot", 
+        "ja": "Carrot",
+        "pt": "Carrot", 
+        "ru": "Морковь", 
+        "tr": "Carrot",
+        "zh": "胡萝卜", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A popular spring tuber with an identifiable orange color and sweet taste. Supposedly helps eyesight.", 
+        "ko": "A popular spring tuber with an identifiable orange color and sweet taste. Supposedly helps eyesight.", 
+        "de": "Eine beliebte Frühjahrsknolle mit erkennbar oranger Farbe und süßem Geschmack. Hilft angeblich dem Sehvermögen.",
+        "fr": "A popular spring tuber with an identifiable orange color and sweet taste. Supposedly helps eyesight.", 
+        "hu": "A popular spring tuber with an identifiable orange color and sweet taste. Supposedly helps eyesight.",
+        "it": "A popular spring tuber with an identifiable orange color and sweet taste. Supposedly helps eyesight.", 
+        "ja": "A popular spring tuber with an identifiable orange color and sweet taste. Supposedly helps eyesight.", 
+        "pt": "A popular spring tuber with an identifiable orange color and sweet taste. Supposedly helps eyesight.",
+        "ru": "Популярный весенний овощь с узнаваемым оранжевым цветом и сладким вкусом. Ходят слухи, улучшает зрение.", 
+        "tr": "A popular spring tuber with an identifiable orange color and sweet taste. Supposedly helps eyesight.", 
+        "zh": "一种受欢迎的萝卜，具有可识别的橙色和甜味。据说有助于保护视力。",
+    },
+}

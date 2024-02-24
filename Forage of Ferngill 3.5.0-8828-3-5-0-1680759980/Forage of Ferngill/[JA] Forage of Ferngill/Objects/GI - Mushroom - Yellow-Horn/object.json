@@ -1,0 +1,18 @@
+﻿{
+    "Name": "Yellow-Horn Mushroom",
+    "Description": "Smells like delicious scrambled eggs. Tastes like rotten eggs.",
+    "Category": "Greens",
+    "CategoryTextOverride": "Mushroom",
+    "Edibility": -150,
+    "Price": 75,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+   	"TranslationKey": "object.Yellow-Horn-Mushroom",
+    "ContextTags": [
+    "color_yellow",
+    "forage_item",
+    "mushroom_item",
+    "forage_item_mines",
+  ],
+}

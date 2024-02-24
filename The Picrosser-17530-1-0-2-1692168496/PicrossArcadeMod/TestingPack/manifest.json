@@ -1,0 +1,12 @@
+{
+  "Name": "Test Picrosser",
+  "Author": "KediDili",
+  "Version": "1.0.2",
+  "Description": "<One or two sentences about the mod>",
+  "UniqueID": "KediDili.Test",
+  "ContentPackFor":{
+        "UniqueID": "KediDili.ThePicrosser"
+ },
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ "Nexus:???" ]
+}

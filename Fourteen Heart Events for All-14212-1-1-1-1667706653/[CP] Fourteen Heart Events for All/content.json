@@ -1,0 +1,261 @@
+{
+	"Format": "1.19.0",
+	
+    "DynamicTokens": [
+        
+            {
+            "Name": "FriendshipRequiredHeartToken", 
+            "Value": "2000",
+            "When": {"FriendshipRequired": "8HeartEvent"}
+            },
+            {
+            "Name": "FriendshipRequiredHeartToken", 
+            "Value": "2500",
+            "When": {"FriendshipRequired": "10HeartEvent"}
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenAbigail", 
+            "Value": "e 3",
+            "When": {"FriendshipRequired": "8HeartEvent"}
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenAbigail", 
+            "Value": "e 901756",
+            "When": {"FriendshipRequired": "10HeartEvent"}
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenAlex", 
+            "Value": "e 288847",
+            "When": {"FriendshipRequired": "8HeartEvent"}
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenAlex", 
+            "Value": "e 911526",
+            "When": {"FriendshipRequired": "10HeartEvent"}
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenElliott", 
+            "Value": "e 1848481",
+            "When": {"FriendshipRequired": "8HeartEvent"}
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenElliott", 
+            "Value": "e 43",
+            "When": {"FriendshipRequired": "10HeartEvent"}
+            },                
+            {
+            "Name": "FriendshipRequiredEventTokenEmily", 
+            "Value": "e 2123243",
+            "When": {"FriendshipRequired": "8HeartEvent"}
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenEmily", 
+            "Value": "e 2123343",
+            "When": {"FriendshipRequired": "10HeartEvent"}
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenHaley", 
+            "Value": "e 14",
+            "When": {"FriendshipRequired": "8HeartEvent"}
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenHaley", 
+            "Value": "e 15",
+            "When": {"FriendshipRequired": "10HeartEvent"}
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenHarvey", 
+            "Value": "e 571102",
+            "When": {"FriendshipRequired": "8HeartEvent"}
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenHarvey", 
+            "Value": "e 528052",
+            "When": {"FriendshipRequired": "10HeartEvent"}
+            },    
+            {
+            "Name": "FriendshipRequiredEventTokenLeah", 
+            "Value": "e 90000000",
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenLeah", 
+            "Value": "e 53",
+            "When": {
+                    "FriendshipRequired": "8HeartEvent",
+                    "HasFlag |contains= LeahArtShowSuggestion": true
+                    }
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenLeah", 
+            "Value": "e 584059",
+            "When": {
+                    "FriendshipRequired": "8HeartEvent",
+                    "HasFlag |contains= LeahInternet": true
+                    }
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenLeah", 
+            "Value": "e 54",
+            "When": {"FriendshipRequired": "10HeartEvent"}
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenMaru", 
+            "Value": "e 9",
+            "When": {"FriendshipRequired": "8HeartEvent"}
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenMaru", 
+            "Value": "e 10",
+            "When": {"FriendshipRequired": "10HeartEvent"}
+            },                                
+            {
+            "Name": "FriendshipRequiredEventTokenPenny", 
+            "Value": "e 181928",
+            "When": {"FriendshipRequired": "8HeartEvent"}
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenPenny", 
+            "Value": "e 38",
+            "When": {"FriendshipRequired": "10HeartEvent"}
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenSam", 
+            "Value": "e 4081148",
+            "When": {"FriendshipRequired": "8HeartEvent"}
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenSam", 
+            "Value": "e 233104",
+            "When": {"FriendshipRequired": "10HeartEvent"}
+            },    
+            {
+            "Name": "FriendshipRequiredEventTokenSebastian", 
+            "Value": "e 29",
+            "When": {"FriendshipRequired": "8HeartEvent"}
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenSebastian", 
+            "Value": "e 384882",
+            "When": {"FriendshipRequired": "10HeartEvent"}
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenShane", 
+            "Value": "e 3900074",
+            "When": {"FriendshipRequired": "8HeartEvent"}
+            },
+            {
+            "Name": "FriendshipRequiredEventTokenShane", 
+            "Value": "e 9581348",
+            "When": {"FriendshipRequired": "10HeartEvent"}
+            },
+            {
+            "Name": "SebTerrariumStyle",
+            "Value": "Vanilla"
+            },
+            {
+            "Name": "SebTerrariumStyle",
+            "Value": "SecretGarden",
+            "When": {"HasMod |contains= Amaryn.SecretGardenTerrarium": true}
+            },
+            {
+            "Name": "SebTerrariumStyle",
+            "Value": "LivelySanctuary",
+            "When": {"HasMod |contains= Zilch.LivelyFrogSanctuary": true}
+            },
+    ],
+
+    "ConfigSchema": {
+        "EnableAbigail":
+            {
+                "AllowValues": "true, false",
+                "Default": "true",
+            },
+        "EnableAlex":
+            {
+                "AllowValues": "true, false",
+                "Default": "true",
+            },
+        "EnableElliott":
+            {
+                "AllowValues": "true, false",
+                "Default": "true",
+            },
+        "EnableEmily":
+            {
+                "AllowValues": "true, false",
+                "Default": "true",
+            },
+        "EnableHaley":
+            {
+                "AllowValues": "true, false",
+                "Default": "true",
+            },
+        "EnableHarvey":
+            {
+                "AllowValues": "true, false",
+                "Default": "true",
+            },
+        "EnableLeah":
+            {
+                "AllowValues": "true, false",
+                "Default": "true",
+            },
+        "EnableMaru":
+            {
+                "AllowValues": "true, false",
+                "Default": "true",
+            },
+        "EnablePenny":
+            {
+                "AllowValues": "true, false",
+                "Default": "true",
+            },
+        "EnableSam":
+            {
+                "AllowValues": "true, false",
+                "Default": "true",
+            },
+        "EnableSebastian":
+            {
+                "AllowValues": "true, false",
+                "Default": "true",
+            },
+        "EnableShane":
+            {
+                "AllowValues": "true, false",
+                "Default": "true",
+            },
+        "EnableShaneAlexAltOrVanilla":
+            {
+                "AllowValues": "Vanilla, Alt, NoSportsRoom",
+                "Default": "Vanilla",
+                "Description": "Toggles whether Shane and Alex will use their vanilla 14 heart events or an alternate set. NoSportsRoom will enable Alex's alt event and Shane's vanilla event for compatibility with Sports Room Event Overhaul."
+            },
+        "FriendshipRequired":
+            {
+                "AllowValues": "8HeartEvent, 10HeartEvent",
+                "Default": "8HeartEvent",
+            },                                 
+    },
+
+    "Changes":[
+
+            {
+                "LogName": "14HeartEvents",
+                "Action": "Include",
+                "FromFile": "Data/Abigail.json, Data/Alex.json, Data/Elliott.json, Data/Emily.json, Data/Haley.json, Data/Harvey.json, Data/Leah.json, Data/Maru.json, Data/Penny.json, Data/Sam.json, Data/Sebastian.json, Data/Shane.json, Data/ConversationTopics.json"
+            },
+
+            {
+                "Action": "Load",
+                "Target": "Characters/SamTV",
+                "FromFile": "assets/SamTV.png",
+            },
+            {
+                "Action": "Load",
+                "Target": "Characters/SebTerrarium",
+                "FromFile": "assets/SebTerrarium_{{SebTerrariumStyle}}.png",
+            },
+
+	]	
+}

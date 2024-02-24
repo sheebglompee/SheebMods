@@ -1,0 +1,111 @@
+{
+  "Name": "Collar (Bell 1)",
+
+	// FRONT
+  "FrontAccessory": {
+    "ColorMasks": [
+      [ 254, 254, 254 ],
+      [ 217, 217, 217 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 1
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      },
+    ]
+  },
+
+	// RIGHT
+  "RightAccessory": {
+    "ColorMasks": [
+      [ 254, 254, 254 ],
+      [ 217, 217, 217 ]
+    ],
+    "DrawAfterPlayer": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "HeadPosition": {
+      "X": -0,
+      "Y": 1
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      },
+    ]
+  },
+
+	// LEFT
+  "LeftAccessory": {
+    "ColorMasks": [
+      [ 254, 254, 254 ],
+      [ 217, 217, 217 ]
+    ],
+    "DrawAfterPlayer": true,
+    "Flipped": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 1
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      },
+    ]
+  },
+
+	// BACK
+  "BackAccessory": {
+    "ColorMasks": [
+      [ 254, 254, 254 ],
+      [ 217, 217, 217 ]
+    ],
+    "DrawAfterPlayer": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": -0,
+      "Y": 1
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      },
+    ]
+  }
+}

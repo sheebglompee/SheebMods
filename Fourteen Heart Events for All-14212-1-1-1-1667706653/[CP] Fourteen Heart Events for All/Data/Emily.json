@@ -1,0 +1,58 @@
+{
+	
+    "Changes":[
+
+
+   { 
+        "LogName": "Emily14Heart Pt 1",
+		"Action": "EditData",
+		"Target": "Data/Events/Farm",
+		"Entries": {  
+            "928202201/f Emily {{FriendshipRequiredHeartToken}}/{{FriendshipRequiredEventTokenEmily}}/o Emily/t 600 900": "continue/64 15/farmer 64 16 2 Emily 64 18 0/pause 900/speak Emily \"Hey, @! Before you get to work today, do you have a moment?#$b#I've been working on something special... but I need a little help finishing it.\"/pause 200/emote farmer 8/pause 200/speak Emily \"It's a secret, so I can't tell you what it is... but could you bring me 200 pieces of fiber?\"/addQuest 928202202/pause 500/speak Emily \"That's all I need! Just bring the 200 fiber by when you have a chance... no rush!\"/pause 2000/end dialogue Emily \"No peeking! You'll see the end result soon.\""
+                },
+
+        "When": {
+                "EnableEmily": true
+                }          
+	},
+    
+    {
+        "Action": "EditData",
+        "Target": "Data/Quests",
+        "Entries": {
+            "928202202": "ItemDelivery/Errand for Emily/Emily asked you to bring her 200 pieces of fiber for a secret project./Bring Emily 200 fiber./Emily 771 200/-1/0/-1/false/$1 EmilyFiberQuestDone#Oh, this looks perfect... and it's sustainably sourced, too! Thanks so much, @.$h#$b#Now, I've got my work cut out for me. It'll be a few more days before it's ready..."
+                }
+
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "Entries": {
+            "928202203/n EmilyFiberQuestDone/x EmilyFiberDoneLetter": "null"
+                }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Mail",	
+        "Entries": {
+            "EmilyFiberDoneLetter":  "Hi @,^^Thanks again for all the fiber. I've already started working on my project. It should be done in a couple of days, so please stop by soon!^^-Emily %item conversationTopic EmilyFiberDonePause 2 %%"								
+                }
+    },
+
+    { 
+        "LogName": "Emily14Heart Pt 2",
+		"Action": "EditData",
+		"Target": "Data/Events/HaleyHouse",
+		"Entries": {  
+            "928202204/n EmilyFiberDoneLetter/A EmilyFiberDonePause/p Emily": "EmilyTheme/-1000 -1000/farmer 16 10 0 Emily 16 5 2/addConversationTopic EmilyMagicClothes 7/skippable/viewport 14 6 true/move farmer 0 -2 3/move farmer -2 0 0/move farmer 0 -3 1/move farmer 1 0 1/pause 200/faceDirection Emily 3/pause 700/speak Emily \"Welcome, @! I finished that secret project I was working on.\"/pause 500/emote farmer 32/pause 2000/speak Emily \"It's a brand new hand-made outfit for you!$h\"/pause 200/emote farmer 16/pause 500/awardFestivalPrize emilyClothes/pause 500/playSound coin/message \"Received Emily's Magic Hat, Emily's Magic Boots, Emily's Magic Shirt, and a matching set of pants!\"/pause 500/speak Emily \"I've always loved sewing and making crafts... So I thought it'd be nice to make something by hand for my dearest friends. I had a lot of fun!#$b#I hope it fits right... and that the fiber isn't too itchy.#$b#There's boots, a hat, a shirt, and pants! It's a complete outfit.\"/pause 800/speak Emily \"Now, when you wear those clothes, I hope you'll think of me. Even if we're apart, I'll always hold you in my heart, my friend.\"/pause 500/emote farmer 32/pause 1000/fade/viewport -100 -100/pause 500/end"
+                },
+
+        "When": {
+                "EnableEmily": true
+                }          
+	}
+
+	]	
+}

@@ -1,0 +1,12 @@
+{
+  "Changes": [
+    {
+      "LogName": "Dialogue for fall27",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "Entries": {
+        "Marlowe": "I've been banned from the maze because I won too many times."
+      }
+    }
+  ]
+}

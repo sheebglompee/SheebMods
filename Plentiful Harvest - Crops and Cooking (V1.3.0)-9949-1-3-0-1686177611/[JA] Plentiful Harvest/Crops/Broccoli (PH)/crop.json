@@ -1,0 +1,46 @@
+{
+    "Name": "Broccoli (PH)", 
+    "Product": "Broccoli (PH)",
+    "SeedName": "Broccoli Seeds (PH)", 
+    "SeedDescription": "Plant these in the winter. Takes 12 days to mature and produces a green floret.", 
+    "Type": "Vegetable", 
+    "CropType": "Normal", 
+    "Seasons": ["winter"], 
+    "Phases": [1, 1, 4, 3, 3], 
+    "RegrowthPhase": -1, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": false, 
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "STF.PlentifulHarvest", 
+    "SeedPurchasePrice": 70, 
+
+    "SeedNameLocalization":
+    {
+        "default": "Broccoli Seeds",
+		"es": "Broccoli Seeds", 
+        "ko": "Broccoli Seeds", 
+        "de": "Brokkoli-Saat", 
+        "fr": "Broccoli Seeds", 
+        "hu": "Broccoli Seeds", 
+        "it": "Broccoli Seeds", 
+        "ja": "Broccoli Seeds", 
+        "pt": "Broccoli Seeds", 
+        "ru": "Семена брокколи", 
+        "tr": "Broccoli Seeds", 
+        "zh": "西兰花种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plant these in the winter. Takes 12 days to mature and produces a green floret.", 
+        "ko": "Plant these in the winter. Takes 12 days to mature and produces a green floret.", 
+        "de": "Pflanze sie im Winter. Wächst in 12 Tagen zu einem grünen Röschen heran.", 
+        "fr": "Plant these in the winter. Takes 12 days to mature and produces a green floret.", 
+        "hu": "Plant these in the winter. Takes 12 days to mature and produces a green floret.", 
+        "it": "Plant these in the winter. Takes 12 days to mature and produces a green floret.", 
+        "ja": "Plant these in the winter. Takes 12 days to mature and produces a green floret.", 
+        "pt": "Plant these in the winter. Takes 12 days to mature and produces a green floret.", 
+        "ru": "Сажайте зимой. Вырастает через 12 дней.", 
+        "tr": "Plant these in the winter. Takes 12 days to mature and produces a green floret.", 
+        "zh": "冬天种植。 12天成熟，长成西兰花。  ", 
+    }
+}

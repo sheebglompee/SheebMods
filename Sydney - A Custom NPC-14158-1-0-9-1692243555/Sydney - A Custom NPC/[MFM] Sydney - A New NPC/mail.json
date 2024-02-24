@@ -1,0 +1,67 @@
+[
+	//Post 2 Heart Letter
+	{
+		"Id": "Sydney.Sydney_Lex_2_Vanilla",
+		"Title": "sydney.2heart.title",
+		"Text": "sydney.2heart.letter",
+		"EventsSeen": [141580, 141581],
+		
+	},
+
+	//Recipe Letter
+	{
+		"Id": "Sydney.Sydney_Lex_recipe",
+		"Title": "sydney.recipe.title",
+		"Text": "sydney.recipe.letter",
+		"Recipe": "Squid Ink Ravioli",
+		"Repeatable": false,
+		"FriendshipConditions": [
+			{
+				"NpcName": "SydneyLex",
+				"FriendshipLevel": 5
+					},
+			],
+	},
+
+	//4 Heart Event Flag Letter
+	{
+		"Id": "Sydney.Sydney_Lex_4",
+		"Title": "sydney.4heart.title",
+		"Text": "sydney.4heart.letter",
+		"FriendshipConditions": [
+			{
+				"NpcName": "SydneyLex",
+				"FriendshipLevel": 4
+					},
+			],
+	},
+
+	//8 Heart Letter
+	{
+		"Id": "Sydney.Sydney_Lex_8",
+		"Title": "sydney.8heart.title",
+		"Text": "sydney.8heart.letter",
+		"FriendshipConditions": [
+			{
+				"NpcName": "SydneyLex",
+				"FriendshipLevel": 8
+					},
+			],
+		"Seasons": ["spring", "summer", "fall"], 
+	},
+
+	//10 Heart Letter
+	{
+		"Id": "Sydney.Sydney_Lex_10",
+		"Title": "sydney.10heart.title",
+		"Text": "sydney.10heart.letter",
+		"FriendshipConditions": [
+			{
+				"NpcName": "SydneyLex",
+				"FriendshipLevel": 10
+					},
+			],
+		"Seasons": ["spring", "summer", "fall"], 
+	},
+
+]

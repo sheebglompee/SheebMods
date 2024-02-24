@@ -1,0 +1,11 @@
+{
+    "Name": "[JA] CD Fixer Goods",
+    "Author": "W0LFY",
+    "Version": "1.0.0",
+    "Description": "CDs that act as loved gifts for the specified villager. Other villagers will have varying reactions to a different CD.",
+    "UniqueID": "ja.cdfixergoods",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+}

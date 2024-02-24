@@ -1,0 +1,8 @@
+[
+	{
+		"ProducerName": "Colour-Stripper Jar",
+		"AlternateFrameProducing": true, 
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false,
+	},
+]

@@ -1,0 +1,11 @@
+{
+	"Name": "Doll Maker",
+	"Author": "acearohippo",
+	"Version": "1.0.2",
+	"Description": "Craft a bunch of dolls using flowers",
+	"UniqueID": "acearohippo.DollMaker",
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets"
+	},
+	"UpdateKey": ["Nexus:8852@DollMaker"]
+}

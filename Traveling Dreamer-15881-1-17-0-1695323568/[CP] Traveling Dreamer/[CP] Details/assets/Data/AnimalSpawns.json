@@ -1,0 +1,23 @@
+{
+    "Changes": [
+  
+              {
+         "Action": "EditMap",
+         "Target": "Maps/Custom_Fellowclown_JohnsTempRoom",
+         "Update": "OnLocationChange,OnTimeChange",
+          "When": {
+                 "Time": "{{Range: 600,2400}}",
+                 "Relationship:Barron": "Unmet,Friendly"
+            },
+         "MapTiles": [
+            {
+               "Position": { "X": 7, "Y": 7 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions":  "Spawn 1 Fellowclown.JohnsAnimals.Copper"
+               }
+            }
+         ]
+      }
+]
+}

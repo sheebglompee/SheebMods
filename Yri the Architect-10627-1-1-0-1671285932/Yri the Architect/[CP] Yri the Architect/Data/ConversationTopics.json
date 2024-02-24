@@ -1,0 +1,136 @@
+{
+    "Changes": 
+      [
+    
+
+
+
+    //CONVERSATION TOPICS
+
+    //Yri
+    {
+    "LogName": "Yri's Conversation Topics",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Yri",
+    "Entries": 
+        {
+        "YriIntroduction": "Hello, @. If you have any problems with your farm buildings, feel free to contact me or Robin.$h",
+        "YriProjectMeeting": "Sorry that I had to leave so early. I would've loved to talk a bit longer.",
+        "YriProjectMeeting2": "%Yri looks a bit mad today. Maybe it's for the best to let her alone.",
+        "YriLewisWhatTheHeck": "%Yri seems sad. She doesn't look like she wants to talk about it.",
+        "EcoDebacle": "Sorry that I talked so much about work. Next time I'll make sure to keep track of time so that it won't happen again.$h",
+        "QuestDoneRobin": "You have no idea how happy I am, @!$h#$b#The stones you brought were simply amazing.",
+        "YriFight": "I'm sorry, I didn't mean to involve you in the matter. Let's just not talk about it, okay?$s",
+        "ConstructionSite": "I had a lot of fun with you and Maurice seems to like you too. I just hope it wasn't too boring for you.$h",
+        "AskingforHelp": "Sorry we jumped you like that. But thank you for listening to us anyway.",
+        "LewisApology": "I'm glad everything worked out, and it's all thanks to you. Thank you for being such a good friend.$h",
+        "AfterProposal": "@, I can't believe this! This is so amazing!$1#$b#Am I dreaming? Please pinch me!$h#$b#Ouch! Okay, I didn't thought you would actually do it, but thanks.$h"
+        }
+    },
+
+    //Charles
+    {
+    "LogName": "Charles's Conversation Topics",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Charles",
+    "Entries": 
+        {
+        "CharlesIntroduction": "I hope you visit us often. You seem nice.$h",
+        "Bug": "Thanks for your help. We still couldn't find the bug, but I appreciate the effort.$h",
+        "DinnerForTwo": "I just reserved a table at the Stardrop Saloon. I can't wait to take Yri there.$h",
+        "Bugfix": "Remember the bug we had some time back? We found the solution!$h#$b#It was only a small mistake, but that's often the cause of problems.$h",
+        "CharlesEncouragement": "Yri is having a hard time right now, but I'm sure we'll find a solution soon.",
+        "CharlesIsHidingSomething": "Please don't talk to Yri about any of this.",
+        "CharlesThanks": "@... I don't even know how to thank you for this... The ring looks so stunning. Thank you!$h",
+        "YriFight": "Yri told me what happened. Thank you for listening to her.",
+        "ConstructionSite": "How was your day out with Yri? She was really exited to show you her workplace.$h",
+        "AskingforHelp": "We didn't really have a plan when we visited you. I'm glad you listened to us regardless.",
+        "LewisApology": "Thank you for coming with us. It meant a lot to both of us.$h",
+        "AfterProposal": "I can't thank everyone enough. Thanks to all of you the proposal was perfect. Thanks, @.$h"
+
+        }
+    },
+
+    //VANILLA NPC's
+    
+    //Robin
+    {
+    "LogName": "Robin's Conversation Topics",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Robin",
+    "Entries": 
+        {
+        "YriIntroduction": "And @, what do you think of Yri? She's nice, isn't she?$h",
+        "YriProjectMeeting": "Yri is always on the run, I wish we had more time to talk.",
+        "YriProjectMeeting2": "%Robin looks disappointed. Did something happen?",
+        "QuestDoneRobin": "I'll make sure to commission you more often. The materials you delivered were immaculate.$h",
+        "AfterProposal": "I'm so happy for Yri and Charles. Their faces are beaming with joy.$h"
+        }
+    },
+
+   //Lewis
+   {
+    "LogName": "Lewis Conversation Topics",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Lewis",
+    "Entries": 
+        {
+    "YriLewisWhatTheHeck": "%Lewis avoids you.",
+    "YriFight": "You should forget what you just saw. It's none of your concern.$s",
+    "LewisApology": "I am truly sorry that you had to get involved in all of this.$s#$b#I learned my lesson. Oh, and can we keep the... thing... a secret? I'm embarrassed about it.$s",
+    "AfterProposal": "I already heard the news. Yri and Charles are getting married!#$b#The two showed up as soon as I opened my doors to discuss the details.$h"
+       }
+    },
+ 
+    //Sebastian
+    {
+    "LogName": "Sebastian's Conversation Topics",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Sebastian",
+    "Entries": 
+        {
+        "Bug": "On days like these, I wonder why I even wanted to become a developer.",
+        "Bugfix": "I can't believe this... How could I make such a rookie mistake...",
+        "AfterProposal": "I'm happy everything worked out, but I won't ever haul an entire keyboard up a mountain ever again.$h"
+
+        }
+    },
+    {
+    "LogName": "Abigail's Conversation Topics",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Abigail",
+    "Entries": 
+        {
+        "AfterProposal": "The proposal was so fun! I wish we could have stayed a bit longer to explore the mountain.$h"
+        }
+    },
+    {
+    "LogName": "Sam's Conversation Topics",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Sam",
+    "Entries": 
+        {
+        "AfterProposal": "A proposal under the moonlight? Pretty cliche, but Charles actually pulled it off, don't you think?$h"
+        }
+    },
+    {
+    "LogName": "Gus' Conversation Topics",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Gus",
+    "Entries": 
+        {
+        "AfterProposal": "All those sleepless nights practicing that proposal song finally paid off.$h"
+        }
+    },
+    {
+    "LogName": "Elliott's Conversation Topics",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Elliott",
+    "Entries": 
+        {
+        "AfterProposal": "Your farmwork has surely paid off! You were barely out of breath even after hoisting the keyboard all the way up the mountainside.$h"
+        }
+    },
+
+  ]
+}

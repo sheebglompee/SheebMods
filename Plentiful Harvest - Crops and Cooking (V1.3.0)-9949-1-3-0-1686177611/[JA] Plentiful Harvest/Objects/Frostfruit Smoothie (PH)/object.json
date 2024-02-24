@@ -1,0 +1,87 @@
+{
+    "Name": "Frostfruit Smoothie (PH)", 
+    "Description": "The ice shell creates the perfect smoothness.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_white",
+        "dye_medium"
+        ],
+    "Edibility": 22, 
+    "EdibleIsDrink": true, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 5,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 5,
+        "Attack": 0,
+        "Duration": 120,
+    },
+    "Price": 500, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Frostfruit (PH)",
+            "Count": 1,
+        },
+		{
+            "Object": 245,
+            "Count": 1,
+        },
+        {
+            "Object": -6, 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Krobus"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Willy"], 
+        "Hate": ["Dwarf"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Frostfruit Smoothie",
+		"es": "Frostfruit Smoothie", //Spansih
+        "ko": "Frostfruit Smoothie", //Korean
+        "de": "Frostfrucht-Smoothie", //German
+        "fr": "Frostfruit Smoothie", //French
+        "hu": "Frostfruit Smoothie", //Hungarian
+        "it": "Frostfruit Smoothie", //Italian
+        "ja": "Frostfruit Smoothie", //Japanese
+        "pt": "Frostfruit Smoothie", //Portuguese
+        "ru": "Морозофруктовый коктейль", //Russian
+        "tr": "Frostfruit Smoothie", //Turkish
+        "zh": "霜果奶昔", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "The ice shell creates the perfect smoothness.", //Spansih
+        "ko": "The ice shell creates the perfect smoothness.", //Korean
+        "de": "Die Eishülle kreiert die perfekte Geschmeidigkeit.", //German
+        "fr": "The ice shell creates the perfect smoothness.", //French
+        "hu": "The ice shell creates the perfect smoothness.", //Hungarian
+        "it": "The ice shell creates the perfect smoothness.", //Italian
+        "ja": "The ice shell creates the perfect smoothness.", //Japanese
+        "pt": "The ice shell creates the perfect smoothness.", //Portuguese
+        "ru": "Ледяная оболочка создает идеальную гладкость.", //Russian
+        "tr": "The ice shell creates the perfect smoothness.", //Turkish
+        "zh": "冰壳创造了完美光滑的外观。", //Chinese (Simplified)
+    },
+	
+}

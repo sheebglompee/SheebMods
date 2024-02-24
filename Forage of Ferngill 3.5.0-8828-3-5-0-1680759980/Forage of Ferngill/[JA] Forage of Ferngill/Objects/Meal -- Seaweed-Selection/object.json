@@ -1,0 +1,45 @@
+{
+    "Name": "Seaweed Sealad",
+    "Description": "A selection of boiled seaweeds. A hearty fishermans meal.",
+    "Category": "Cooking",
+    "Edibility": 300,
+    "EdibleIsDrink": false,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 2,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 1,
+        "MaxStamina": 1,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 2,
+        "Duration": 300,
+    },
+    "Price": 500,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 152,
+            "Count": 1,
+        },
+        {
+            "Object": "Pepper-Weed",
+            "Count": 1,
+        },
+        {
+            "Object": "Anisea-Weed",
+            "Count": 1,
+        }],
+        "CanPurchase": true,
+        "PurchaseFrom": "Willy",
+        "PurchasePrice": 2000,
+    },
+    "GiftTastes":  {},
+	"TranslationKey": "object.Seaweed-Selection",
+}

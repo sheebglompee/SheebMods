@@ -1,0 +1,53 @@
+{
+    "Name": "Raspberry (PH)", 
+    "Product": "Raspberry (PH)",
+    "SeedName": "Raspberry Seeds (PH)", 
+    "SeedDescription": "Plant these in the spring. Takes 7 days to mature and starts with supports. Continues to produce after first harvest with a chance to yield multiple berries.", 
+    "Type": "Fruit", 
+    "CropType": "Normal", 
+    "Seasons": ["spring"], 
+    "Phases": [1, 1, 1, 2, 2], 
+    "RegrowthPhase": 3, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": true, 
+    "Bonus": 
+    {
+        "MinimumPerHarvest": 1, 
+        "MaximumPerHarvest": 5, 
+        "MaxIncreasePerFarmLevel": 5, 
+        "ExtraChance": 0.5, 
+    },
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "STF.PlentifulHarvest", 
+    "SeedPurchasePrice": 40, 
+
+    "SeedNameLocalization":
+    {
+        "default": "Raspberry Seeds",
+		"es": "Raspberry Seeds", 
+        "ko": "Raspberry Seeds", 
+        "de": "Himbeeren-Saat", 
+        "fr": "Raspberry Seeds", 
+        "hu": "Raspberry Seeds", 
+        "it": "Raspberry Seeds", 
+        "ja": "Raspberry Seeds", 
+        "pt": "Raspberry Seeds", 
+        "ru": "Рассада малины", 
+        "tr": "Raspberry Seeds", 
+        "zh": "山莓种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plant these in the spring. Takes 7 days to mature and starts with supports. Continues to produce after first harvest with a chance to yield multiple berries.", 
+        "ko": "Plant these in the spring. Takes 7 days to mature and starts with supports. Continues to produce after first harvest with a chance to yield multiple berries.", 
+        "de": "Pflanze sie im Frühling. Wächst in 7 Tagen heran, kann aber danach mehrmals geerntet werden. Bringt manchmal mehrere Himbeeren pro Ernte ein.", 
+        "fr": "Plant these in the spring. Takes 7 days to mature and starts with supports. Continues to produce after first harvest with a chance to yield multiple berries.", 
+        "hu": "Plant these in the spring. Takes 7 days to mature and starts with supports. Continues to produce after first harvest with a chance to yield multiple berries.", 
+        "it": "Plant these in the spring. Takes 7 days to mature and starts with supports. Continues to produce after first harvest with a chance to yield multiple berries.", 
+        "ja": "Plant these in the spring. Takes 7 days to mature and starts with supports. Continues to produce after first harvest with a chance to yield multiple berries.", 
+        "pt": "Plant these in the spring. Takes 7 days to mature and starts with supports. Continues to produce after first harvest with a chance to yield multiple berries.", 
+        "ru": "Сажайте весной. Вырастает через 7 дней и продолжает давать урожай после первого сбора.", 
+        "tr": "Plant these in the spring. Takes 7 days to mature and starts with supports. Continues to produce after first harvest with a chance to yield multiple berries.", 
+        "zh": "春季种植。需要 7 天才能成熟。第一次收获后继续结果，有机会结出多个浆果。", 
+    }
+}

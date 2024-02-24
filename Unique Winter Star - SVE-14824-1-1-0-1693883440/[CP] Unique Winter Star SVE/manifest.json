@@ -1,0 +1,25 @@
+{
+   "Name": "Unique Winter Star SVE",
+   "Author": "Agent Lyoko",
+   "Description": "Unique dialogue at the Winter Star for eligible SVE NPCs! Requires Custom Fixed Dialogue.",
+   "Version": "1.1.0",
+   "UniqueID": "agentlyoko.uniquewinterstarsve",
+   "UpdateKeys": [ "Nexus:14824" ],
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+		{
+			"UniqueID": "aedenthorn.CustomFixedDialogue",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "Esca.CustomNPCExclusions",
+			"IsRequired": false
+		},
+    ]
+}

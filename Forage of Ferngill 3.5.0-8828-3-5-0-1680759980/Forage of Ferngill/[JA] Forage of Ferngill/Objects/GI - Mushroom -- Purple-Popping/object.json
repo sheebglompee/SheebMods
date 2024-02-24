@@ -1,0 +1,18 @@
+﻿{
+    "Name": "Purple-Popping Mushroom",
+    "Description": "These alluring purple mushrooms pop when poked, releasing a toxic smell.",
+    "Category": "Greens",
+    "CategoryTextOverride": "Mushroom",
+    "Edibility": -100,
+    "Price": 175,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+    "TranslationKey": "object.Purple-Popping-Mushroom",
+    "ContextTags": [
+    "color_purple",
+    "forage_item",
+    "mushroom_item",
+    "forage_item_mines",
+  ],
+}

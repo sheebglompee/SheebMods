@@ -1,0 +1,52 @@
+{
+    "Name": "Nut Butter (PH)",
+    "Description": "A creamy spread that's nutrient rich.",
+    "Category": "ArtisanGoods",
+	"ContextTags": 
+        [
+		"color_brown",
+        "dye_strong"
+        ],
+    "Edibility": -300,
+    "Price": 140, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": null,
+        "Like": ["Vincent", "Sam", "Alex", "Shane", "Sebastian", "Lewis", "Harvey", "Leo", "Linus", "George", "Evelyn", "Pierre", "Caroline", "Maru", "Demetrius", "Abigail"],
+        "Neutral": null, 
+        "Dislike": ["Haley", "Penny", "Eliott", "Sandy"], 
+        "Hate": ["Caroline", "Jodi"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Nut Butter",
+		"es": "Nut Butter", 
+        "ko": "Nut Butter", 
+        "de": "Nussbutter", 
+        "fr": "Nut Butter", 
+        "hu": "Nut Butter", 
+        "it": "Nut Butter", 
+        "ja": "Nut Butter",
+        "pt": "Nut Butter", 
+        "ru": "Ореховое масло", 
+        "tr": "Nut Butter",
+        "zh": "果仁奶油", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A creamy spread that's nutrient rich.", 
+        "ko": "A creamy spread that's nutrient rich.", 
+        "de": "Ein cremiger Aufstrich, der reich an Nährstoffen ist.",
+        "fr": "A creamy spread that's nutrient rich.", 
+        "hu": "A creamy spread that's nutrient rich.",
+        "it": "A creamy spread that's nutrient rich.", 
+        "ja": "A creamy spread that's nutrient rich.", 
+        "pt": "A creamy spread that's nutrient rich.",
+        "ru": "Масло, богатое питательными веществами.", 
+        "tr": "A creamy spread that's nutrient rich.", 
+        "zh": "一种营养丰富的奶油酱。",
+    },
+}

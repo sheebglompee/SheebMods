@@ -1,0 +1,16 @@
+﻿{
+    "Name": "Crackle-Apple",
+    "Description": "Found all over the sidewalk in Fall; They have a crunchy, frozen texture.",
+    "Category": "Fruit",
+    "Edibility": 25,
+    "Price": 25,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+   	"TranslationKey": "object.Crackle-Apple",
+    "ContextTags": [
+    "season_fall",
+    "color_red",
+    "fruit_item",
+  ],
+}

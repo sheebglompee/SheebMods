@@ -1,0 +1,84 @@
+{
+    "Format": "1.29.0",
+    "Changes": [
+        //EventFiles
+        {
+            "LogName": "Recolor Cable Car",
+            "Action": "EditImage",
+            "Target": "Characters/RSVCableCar",
+            "FromFile": "assets/EventFiles/RSVCableCar.png"
+        },
+        {
+            "LogName": "Recolor Protest",
+            "Action": "EditImage",
+            "Target": "Characters/RSVProtest",
+            "FromFile": "assets/EventFiles/RSVProtest.png"
+        },
+        {
+            "LogName": "Recolor Tent",
+            "Action": "EditImage",
+            "Target": "Characters/RSVTent",
+            "FromFile": "assets/EventFiles/RSVTent.png"
+        },
+        //LooseSprites
+        {
+            "LogName": "Recolor Map Templates",
+            "Action": "EditImage",
+            "Target": "LooseSprites/RSVIcon, LooseSprites/RSVWorldMap",
+            "FromFile": "assets/{{Target}}_{{season}}.png"
+        },
+        {
+            "LogName": "Recolor Seasonal Maps",
+            "Action": "EditImage",
+            "Target": "LooseSprites/RSVIcon_{{season}}, LooseSprites/RSVMap, LooseSprites/RSVWorldMap_{{season}}",
+            "FromFile": "assets/{{Target}}.png"
+        },
+        //Maps
+        {
+            "LogName": "Recolor Maps",
+            "Action": "EditImage",
+            "Target": "Maps/{{season}}_zridgeside, Maps/{{season}}_zridgesidebuildings, Maps/{{season}}_zridgetiles, Maps/{{season}}_zrsvbettersquare, Maps/{{season}}_zrsvcablecar, Maps/{{season}}_zrsvcliffhouse, Maps/{{season}}_zrsvscene1, Maps/sproomsts, Maps/z_rsvgarden, Maps/z_rsvinterior, Maps/zKiarraPickDesign, Maps/zridgesidecraftables, Maps/zridgesidefurniture, Maps/zrsv3brosInterior, Maps/zrsvfestivals, Maps/zrsvgatheringtiles, Maps/zrsvspouses",
+            "FromFile": "assets/{{Target}}.png"
+        },
+        {
+            "LogName": "Recolor Cleansed Spirit Realm",
+            "Action": "EditImage",
+            "Target": "Maps/zrsvspiritrealm",
+            "FromFile": "assets/{{Target}}.png"
+        },
+        {
+            "LogName": "Recolor Corrupted Spirit Realm",
+            "Action": "EditImage",
+            "Target": "Maps/zrsvspiritrealm",
+            "FromFile": "assets/{{Target}}_corrupt.png",
+            "When": {
+                "HasSeenEvent: hostPlayer |contains=75160263": false,
+                "LocationName": "Custom_Ridgeside_RSVSpiritRealm"
+                },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Recolor Corrupt Falls",
+            "Action": "EditImage",
+            "Target": "Maps/{{Season}}_zridgeside",
+            "FromFile": "Assets/Maps/zrsvspiritrealm_corruptfalls.png",
+            "FromArea": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 288,
+                    "Height": 144
+                },
+                "ToArea": {
+                    "X": 0,
+                    "Y": 272,
+                    "Width": 288,
+                    "Height": 144
+                },
+            "When": {
+                "HasSeenEvent: hostPlayer |contains=75160263": false,
+                "LocationName": "Custom_Ridgeside_RSVSpiritRealm"
+            },
+            "Update": "OnLocationChange"
+        }
+    ]
+}

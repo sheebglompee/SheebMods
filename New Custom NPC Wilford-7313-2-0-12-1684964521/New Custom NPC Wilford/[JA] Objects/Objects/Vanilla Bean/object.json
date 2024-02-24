@@ -1,0 +1,28 @@
+{
+    "Name": "Vanilla Bean WL",
+    "Description": "The spice with a mild sweet flavor that adds an special touch to any dish.",
+    "Category": "Fruit",
+    "Edibility": 2,
+    "Price": 40,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": [],
+        "Like": [],
+        "Neutral": [],
+        "Dislike": [],
+        "Hate": [],
+    },
+	"NameLocalization":  {
+		"default": "Vanilla Bean",
+        "pt": "Vara de baunilha",
+        "ru": "Палочка ванили",
+        "zh": "香草棒",
+	},
+	"DescriptionLocalization" : {
+        "pt": "Uma especiaria com sabor levemente doce que acrescenta um toque especial a qualquer prato.",
+        "ru": "Cпеция с мягким сладковатым ароматом, придающая особый оттенок любому блюду.",
+        "zh": "一种具有温和甜味的香料，可为任何菜肴增添特别的风味。",
+	}
+}

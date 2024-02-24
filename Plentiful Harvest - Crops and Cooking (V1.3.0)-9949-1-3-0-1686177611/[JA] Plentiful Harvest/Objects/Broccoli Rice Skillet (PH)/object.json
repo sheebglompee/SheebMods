@@ -1,0 +1,91 @@
+{
+    "Name": "Broccoli Rice Skillet (PH)", 
+    "Description": "It's light and healthy!", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_green",
+        "dye_medium"
+        ],
+    "Edibility": 50, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 3,
+        "Attack": 0,
+        "Duration": 300,
+    }, 
+    "Price": 325, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Broccoli (PH)", 
+            "Count": 1,
+        },
+		{
+            "Object": 248, 
+            "Count": 1,
+        },
+        {
+            "Object": 423, 
+            "Count": 1,
+        },
+		{
+            "Object": 426, 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Emily"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Vincent", "Sam"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Broccoli Rice Skillet",
+		"es": "Broccoli Rice Skillet", //Spansih
+        "ko": "Broccoli Rice Skillet", //Korean
+        "de": "Brokkoli-Reis-Pfanne", //German
+        "fr": "Broccoli Rice Skillet", //French
+        "hu": "Broccoli Rice Skillet", //Hungarian
+        "it": "Broccoli Rice Skillet", //Italian
+        "ja": "Broccoli Rice Skillet", //Japanese
+        "pt": "Broccoli Rice Skillet", //Portuguese
+        "ru": "Рис с брокколи", //Russian
+        "tr": "Broccoli Rice Skillet", //Turkish
+        "zh": "西兰花煎锅饭", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "It's light and healthy!", //Spansih
+        "ko": "It's light and healthy!", //Korean
+        "de": "Es ist leicht und gesund!", //German
+        "fr": "It's light and healthy!", //French
+        "hu": "It's light and healthy!", //Hungarian
+        "it": "It's light and healthy!", //Italian
+        "ja": "It's light and healthy!", //Japanese
+        "pt": "It's light and healthy!", //Portuguese
+        "ru": "Легкое и очень полезное блюдо!", //Russian
+        "tr": "It's light and healthy!", //Turkish
+        "zh": "它既健康又美味!", //Chinese (Simplified)
+    },
+	
+}

@@ -1,0 +1,19 @@
+﻿{
+    "Name": "Drooping-Hood Mushroom",
+    "Description": "These deep velvet, spindly mushrooms cause horrible visions if eaten.",
+    "Category": "Greens",
+    "CategoryTextOverride": "Mushroom",
+    "Edibility": -25,
+    "Price": 75,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Drooping-Hood-Mushroom",
+    "ContextTags": [
+    "season_summer",
+    "color_red",
+    "forage_item",
+    "mushroom_item",
+    "forage_item_mines",
+  ],
+}

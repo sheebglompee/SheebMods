@@ -1,0 +1,82 @@
+{
+    "Format": "1.23",
+	"CustomLocations": [
+	    {
+            "Name": "Custom_WilfordHouse",
+            "FromMapFile": "assets/maps/WilfordHouse.tmx",
+            "MigrateLegacyNames": [
+                "WilfordHouse" ]
+        },
+		{
+            "Name": "Custom_EastWoods",
+            "FromMapFile": "assets/maps/EastWoods.tmx",
+            "MigrateLegacyNames": [
+                "EastWoods" ]
+        },
+		{
+            "Name": "Custom_EastWoodsDate",
+            "FromMapFile": "assets/maps/EastWoodsDate.tmx",
+            "MigrateLegacyNames": [
+                "EastWoodsDate" ]
+        }
+	],
+    "Changes": [
+	    {
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "FromFile": "assets/maps/Entrance.tmx",
+            "ToArea": { "X": 102, "Y": 36, "Width": 18, "Height": 9 },
+            "When": {
+			
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "FromFile": "assets/maps/EntranceSVE.tmx",
+            "ToArea": { "X": 107, "Y": 37, "Width": 13, "Height": 12 },
+            "When": {
+			
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "AddWarps": ["120 42 Custom_EastWoods 1 38"]
+		},
+		{
+            "Action": "Load",
+            "Target": "Data/Events/Custom_EastWoods, Data/Events/Custom_EastWoodsDate, Data/Events/Custom_WilfordHouse",
+            "FromFile": "assets/data/events.json"
+        },
+		{
+			"Action" : "EditMap",
+			"Target": "Maps/Custom_WilfordHouse",
+			"FromFile": "assets/shop/shop.tmx",
+			"ToArea": { "X": 15, "Y": 10, "Width": 2, "Height": 2 }
+		},
+		{
+            "Action": "Load",
+	        "Target": "Maps/Custom_WilfordsRoom",
+	        "FromFile": "assets/spouseroom/WilfordsRoom.tmx",
+        },
+		{
+           "Action": "EditData",
+           "Target": "Data/SpouseRooms",
+           "Entries": {
+	       "Wilford": "Custom_WilfordsRoom/0"
+ 	        }
+        },
+		{
+            "Action": "Load",
+            "Target": "Maps/Wilford_Spouse_Area",
+            "FromFile": "assets/patio/Wilford_Spouse_Area.tmx"
+        },
+		{   "Action": "EditData",
+            "Target": "Data/SpousePatios",
+            "Entries": {
+		       "Wilford": "Wilford_Spouse_Area/0/0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 4 4 4 4 25 25 25 25 25 25 25 25 25 25 26 26 26 26 26 26 26 26 26 26 25 25 25 25 25 25 25 25 25 25 26 26 26 26 26 26 26 26 26 26 25 25 25 25 25 25 25 25 25 25 26 26 26 26 26 26 26 26 26 26 25 25 25 25 25 25 25 25 25 25 26 26 26 26 26 26 26 26 26 26 25 25 25 25 25 25 25 25 25 25 26 26 26 26 26 26 26 26 26 26 25 25 25 25 25 25 25 25 25 25 26 26 26 26 26 26 26 26 26 26 25 25 25 25 25 25 25 25 25 25 26 26 26 26 26 26 26 26 26 26 25 25 25 25 25 25 25 25 25 25 26 26 26 26 26 26 26 26 26 26 25 25 25 25 25 25 25 25 25 25 26 26 26 26 26 26 26 26 26 26 25 25 25 25 25 25 25 25 25 25 26 26 26 26 26 26 26 26 26 26 25 25 25 25 25 25 25 25 25 25 26 26 26 26 26 26 26 26 26 26 25 25 25 25 25 25 25 25 25 25 26 26 26 26 26 26 26 26 26 26 25 25 25 25 25 25 25 25 25 25 26 26 26 26 26 26 26 26 26 26 4 4 4 4 4/0 0",}
+		}
+]}

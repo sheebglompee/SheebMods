@@ -1,0 +1,38 @@
+[
+	{
+	"ProducerName": "Mushroom Box",
+	"NoInputStartMode": "Placement",
+	"AlternateFrameProducing": false, 
+	"AlternateFrameWhenReady": true,
+	},
+	{
+	"ProducerName": "Grow Bag",
+	"NoInputStartMode": "Placement",
+	"AlternateFrameProducing": false, 
+	"AlternateFrameWhenReady": true,
+	"WorkingOutdoors": true,
+	},
+	{
+	"ProducerName": "Mushroom Bag",
+	"NoInputStartMode": "Placement",
+	"AlternateFrameProducing": false, 
+	"AlternateFrameWhenReady": true,
+	"WorkingOutdoors": false,
+	},
+	{
+	"ProducerName": "Kombucha Jar",
+	"AlternateFrameProducing": false, 
+	"AlternateFrameWhenReady": false,
+	},
+	{
+	"ProducerName": "Scoby Starter",
+	"NoInputStartMode": "Placement",
+	"AlternateFrameProducing": false, 
+	"AlternateFrameWhenReady": false,
+	},
+	{
+	"ProducerName": "Flower Press",
+	"AlternateFrameProducing": false, 
+	"AlternateFrameWhenReady": false,
+	},
+]

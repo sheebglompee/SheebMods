@@ -1,0 +1,26 @@
+{
+
+//Post 2 Heart Letter
+"sydney.2heart.title": "Thanks for the help!",
+
+"sydney.2heart.letter": "Dear, @.^I hope this reaches you, Lewis told me this was your address, but I'm still not sure. I've checked a few times now, but it's just difficult to be certain.^Anyways... I just wanted to say thank you again for helping out the other day, I wasn't expecting any. It was nice meeting somebody who cares about making sure this place we call home stays clean and safe.^So... yeah... Guess I'll be seeing you around then? Next time with less trash hopefully.^-Sydney",
+
+//Recipe Letter
+"sydney.recipe.title": "Thought you might like this!",
+"sydney.recipe.letter": "Dear, @.^I was having some dinner last night, and thought you might like this recipe! It's one of my favorites; I learned how to make it at an old hotel I used to work at while I was trying to pay for school. They called it the 'Zeppeli Special.' Hopefully you'll like it too!^-Sydney",
+
+//4 heart Event Flag Letter
+"sydney.4heart.title": "The Wrong Address",
+
+"sydney.4heart.letter": "To Daniel,^The court may have ruled in your favor, but don’t think that for a moment it absolves you of what you did--or that we forgive you. We all know that you’re a lying monster, adopting a new identity by calling yourself, *Sydney* just proves that fact. Whether it was premeditated or sheer idiotic negligence matters little to me, your father, and most of all your brother. This is the last you’ll ever hear from us. Pelican Town is a nice place, I remember passing through it on our way north to give you and Devon a better life; it's too bad you ruined that plan. Try not to ruin any more lives while you’re there.^-Eliza Renault",
+
+//8 Heart Letter
+"sydney.8heart.title": "Meet me in the Mountains",
+
+"sydney.8heart.letter": "Hey, @!^If you're free sometime, come meet me up in the Mountains. There's something I really want to show you!^-Sydney",
+
+//10 Heart Letter
+"sydney.10heart.title": "You, Me, the Beach?",
+
+"sydney.10heart.letter": "Come meet me at the Beach after dark. Oh, and... bring a bathing suit. I know that I'll be wearing mine...^-Sydney"
+}

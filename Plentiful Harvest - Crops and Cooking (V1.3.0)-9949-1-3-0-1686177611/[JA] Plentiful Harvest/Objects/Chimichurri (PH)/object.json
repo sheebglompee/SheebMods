@@ -1,0 +1,91 @@
+{
+    "Name": "Chimichurri (PH)", 
+    "Description": "It’s aromatic and tastes fresh.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_green",
+        "dye_strong"
+        ],
+    "Edibility": 57, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 1,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 1,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 220,
+    }, 
+    "Price": 240, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Parsley (PH)", 
+            "Count": 1,
+        },
+		{
+            "Object": 248, 
+            "Count": 1,
+        },
+		{
+            "Object": 247, 
+            "Count": 1,
+        },
+		{
+            "Object": 419,
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Demetrius", "Gus"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Willy"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Chimichurri",
+		"es": "Chimichurri", //Spansih
+        "ko": "Chimichurri", //Korean
+        "de": "Chimichurri", //German
+        "fr": "Chimichurri", //French
+        "hu": "Chimichurri", //Hungarian
+        "it": "Chimichurri", //Italian
+        "ja": "Chimichurri", //Japanese
+        "pt": "Chimichurri", //Portuguese
+        "ru": "Чимичурри", //Russian
+        "tr": "Chimichurri", //Turkish
+        "zh": "阿根廷香辣酱", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "It’s aromatic and tastes fresh.", //Spansih
+        "ko": "It’s aromatic and tastes fresh.", //Korean
+        "de": "Es ist aromatisch und schmeckt frisch.", //German
+        "fr": "It’s aromatic and tastes fresh.", //French
+        "hu": "It’s aromatic and tastes fresh.", //Hungarian
+        "it": "It’s aromatic and tastes fresh.", //Italian
+        "ja": "It’s aromatic and tastes fresh.", //Japanese
+        "pt": "It’s aromatic and tastes fresh.", //Portuguese
+        "ru": "Ароматный и свежий на вкус.", //Russian
+        "tr": "It’s aromatic and tastes fresh.", //Turkish
+        "zh": "它很香，尝起来很新鲜。", //Chinese (Simplified)
+    },
+	
+}

@@ -1,0 +1,52 @@
+[
+    {
+        "Id": "fall3",
+        "Filepath": "fall3.wav",
+        "Category": "music"
+    },
+    {
+        "Id": "grandpas_theme",
+        "Filepath": "grandpas_theme.wav",
+        "Category": "music"
+    },
+    {
+        "Id": "libraryTheme",
+        "Filepath": "libraryTheme.wav",
+        "Category": "music"
+    },
+    {
+        "Id": "MainTheme",
+        "Filepath": "Maintheme.wav",
+        "Category": "music"
+    },
+    {
+        "Id": "spring2",
+        "Filepath": "spring2.wav",
+        "Category": "music"
+    },
+    {
+        "Id": "spring3",
+        "Filepath": "spring3.wav",
+        "Category": "music"
+    },
+    {
+        "Id": "springtown",
+        "Filepath": "springtown.wav",
+        "Category": "music"
+    },
+    {
+        "Id": "summer2",
+        "Filepath": "summer2.wav",
+        "Category": "music"
+    },
+    {
+        "Id": "winter1",
+        "Filepath": "winter1.wav",
+        "Category": "music"
+    },
+    {
+        "Id": "winter3",
+        "Filepath": "winter3.wav",
+        "Category": "music"
+    }
+]

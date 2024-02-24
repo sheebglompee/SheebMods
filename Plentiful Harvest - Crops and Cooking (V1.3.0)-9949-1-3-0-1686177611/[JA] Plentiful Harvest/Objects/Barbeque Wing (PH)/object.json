@@ -1,0 +1,90 @@
+{
+    "Name": "Barbeque Wing (PH)", 
+    "Description": "The sauce is sticky, bring a towelette!", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_brown"
+        ],
+    "Edibility": 60, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 1,
+        "Defense": 2,
+        "Attack": 0,
+        "Duration": 150,
+    },
+    "Price": 450, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Chicken Wing (PH)", 
+            "Count": 1,
+        },
+		{
+            "Object": "Ketchup (PH)", 
+            "Count": 1,
+        },
+        {
+            "Object": 245, 
+            "Count": 1,
+        },
+		{
+            "Object": 340, 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Sam", "Shane"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Leah", "Caroline", "Krobus"], 
+        "Hate": ["Evelyn", "Leo"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Barbeque Wing",
+		"es": "Barbeque Wing", //Spansih
+        "ko": "Barbeque Wing", //Korean
+        "de": "Barbeque Wing", //German
+        "fr": "Barbeque Wing", //French
+        "hu": "Barbeque Wing", //Hungarian
+        "it": "Barbeque Wing", //Italian
+        "ja": "Barbeque Wing", //Japanese
+        "pt": "Barbeque Wing", //Portuguese
+        "ru": "Крылышки Барбекю", //Russian
+        "tr": "Barbeque Wing", //Turkish
+        "zh": "酱汁鸡翅", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "The sauce is sticky, bring a towelette!", //Spansih
+        "ko": "The sauce is sticky, bring a towelette!", //Korean
+        "de": "Die Soße ist klebrig, nehme eine Serviette mit!", //German
+        "fr": "The sauce is sticky, bring a towelette!", //French
+        "hu": "The sauce is sticky, bring a towelette!", //Hungarian
+        "it": "The sauce is sticky, bring a towelette!", //Italian
+        "ja": "The sauce is sticky, bring a towelette!", //Japanese
+        "pt": "The sauce is sticky, bring a towelette!", //Portuguese
+        "ru": "Соус такой липкий, принесите кто-нибудь салфетку!", //Russian
+        "tr": "The sauce is sticky, bring a towelette!", //Turkish
+        "zh": "酱汁黏糊糊的，拿条毛巾来!", //Chinese (Simplified)
+    },
+	
+}

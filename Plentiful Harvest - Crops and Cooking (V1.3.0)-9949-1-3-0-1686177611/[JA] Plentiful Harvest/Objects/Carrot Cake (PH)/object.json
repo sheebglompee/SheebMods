@@ -1,0 +1,91 @@
+{
+    "Name": "Carrot Cake (PH)", 
+    "Description": "This nice and moist cake was popular as a ration during old conflicts.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_orange",
+        "dye_medium"
+        ],
+    "Edibility": 58, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 1,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 1,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 180,
+    },
+    "Price": 210, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Carrot (PH)", 
+            "Count": 1,
+        },
+		{
+            "Object": 246, 
+            "Count": 1,
+        },
+		{
+            "Object": 245, 
+            "Count": 1,
+        },
+        {
+            "Object": -5, 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Jodi", "Marnie", "Willy"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Abigail"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Carrot Cake",
+		"es": "Carrot Cake", //Spansih
+        "ko": "Carrot Cake", //Korean
+        "de": "Karottenkuchen", //German
+        "fr": "Carrot Cake", //French
+        "hu": "Carrot Cake", //Hungarian
+        "it": "Carrot Cake", //Italian
+        "ja": "Carrot Cake", //Japanese
+        "pt": "Carrot Cake", //Portuguese
+        "ru": "Морковный пирог", //Russian
+        "tr": "Carrot Cake", //Turkish
+        "zh": "胡萝卜蛋糕", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "This nice and moist cake was popular as a ration during old conflicts.", //Spansih
+        "ko": "This nice and moist cake was popular as a ration during old conflicts.", //Korean
+        "de": "Dieser schöne und saftige Kuchen war als Ration während alter Konflikte beliebt.", //German
+        "fr": "This nice and moist cake was popular as a ration during old conflicts.", //French
+        "hu": "This nice and moist cake was popular as a ration during old conflicts.", //Hungarian
+        "it": "This nice and moist cake was popular as a ration during old conflicts.", //Italian
+        "ja": "This nice and moist cake was popular as a ration during old conflicts.", //Japanese
+        "pt": "This nice and moist cake was popular as a ration during old conflicts.", //Portuguese
+        "ru": "Этот вкусный и сочный пирог был популярен в качестве угощения во время старых конфликтов.", //Russian
+        "tr": "This nice and moist cake was popular as a ration during old conflicts.", //Turkish
+        "zh": "在战争时期，这种美味湿润的蛋糕是很受欢迎的口粮。", //Chinese (Simplified)
+    },
+	
+}

@@ -1,0 +1,28 @@
+{
+    "Name": "Kombucha Jar",
+    "Description": "A collection of glass jars used to ferment Tea into Kombucha.",
+    "Price": 250,
+    "ProvidesLight": false,
+    "ReserveNextIndex": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 35,
+        },
+        {
+            "Object": 335,
+            "Count": 3,
+        },
+        {
+            "Object": "Scoby",
+            "Count": 3,
+        }, ],
+        "CanPurchase": false,
+        "SkillUnlockName": "Foraging",
+        "SkillUnlockLevel": 2,
+    },
+	"TranslationKey": "BigCraftables.Kombucha-Jar",
+}

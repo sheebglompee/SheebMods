@@ -1,0 +1,23 @@
+Intro event:
+Museum when Rodney is there between 9 am and 6 pm. Only triggers if you haven't seen the 2 hearts event.
+
+2 hearts event:
+Farm on a sunny day between 6 and 10 am. 2 hearts with Rodney. Rodney will ask you a question. Depending on your answer, the 6 hearts event will be different.
+
+4 hearts event:
+Saloon between 11 am and 4 pm. 4 hearts with Rodney.
+
+6 hearts event:
+Rodney's house between 5 and 11 pm. 6 hearts with Rodney. Must have seen the 4 hearts event (6 days must have passed)
+
+8 hearts event:
+Saloon between 6 and 11 pm on a Friday. 8 hearts with Rodney. Must have received a letter inviting you to the saloon. Must have seen the 6 hearts event (8 days must have passed).
+
+10 hearts event part 1:
+Rodney's house between 8 am and 11 pm. 10 hearts with Rodney. Must have seen 8 hearts event (7 days must have passed).
+
+10 hearts event part 2:
+Museum. 10 hearts with Rodney. Must have received a letter inviting you there. Must have seen 10 hearts event part 1 (7 days must have passed).
+
+10 hearts event part 3:
+Bus stop before 10:30 am. 10 hearts with Rodney. Must have received a letter inviting you there. Must have seen 10 hearts part 2 (3 days must have passed).

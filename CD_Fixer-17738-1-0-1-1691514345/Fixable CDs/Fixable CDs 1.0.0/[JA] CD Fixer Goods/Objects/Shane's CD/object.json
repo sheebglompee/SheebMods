@@ -1,0 +1,16 @@
+{
+    "Name": "Shane's CD",
+    "Description": "Shane's personal playlist!",
+    "Category": "Crafting",
+    "Edibility": 0,
+    "EdibleIsDrink": false,
+    "Price": 0,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {
+        "Love": ["Shane"],
+        "Like": ["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Lewis","Linus","Pam","Robin","Sandy"],
+        "Hate": ["Abigail","Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Haley","Jas","Krobus","Leo","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Vincent","Willy","Wizard"]
+    }
+}
+

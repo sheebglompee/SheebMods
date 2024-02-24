@@ -1,0 +1,34 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "Marlowe 27 41 2"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "Marlowe 19 20 2"
+        }
+      ],
+      {
+        "LogName": "Dialogue for spring24",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "Entries": {
+          "Marlowe": "I wonder if Penny's got a dance partner.#$b#Or Alex."
+        }
+      }
+    }
+  ]
+},

@@ -1,0 +1,34 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "Marlowe 22 66 1"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "Marlowe 22 66 1"
+        }
+      ],
+      {
+        "LogName": "Dialogue for spring13",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "Entries": {
+          "Marlowe": "The Egg Festival is kind of boring when you've already won more than ten times."
+        }
+      }
+    }
+  ]
+},

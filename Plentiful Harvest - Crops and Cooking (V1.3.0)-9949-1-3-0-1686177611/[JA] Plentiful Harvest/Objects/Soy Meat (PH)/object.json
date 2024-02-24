@@ -1,0 +1,75 @@
+{
+    "Name": "Soy Meat (PH)", 
+    "Description": "It's trendy to call this 'impossible meat'. It's very versatile!", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_sand",
+        "dye_medium"
+        ],
+    "Edibility": 15, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs": null, 
+    "Price": 225, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": 247,
+            "Count": 1,
+        },
+		{
+            "Object": 192,
+            "Count": 1,
+        },
+        {
+            "Object": "Soy (PH)", 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": null,
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Willy", "Clint"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Soy Meat",
+		"es": "Soy Meat", //Spansih
+        "ko": "Soy Meat", //Korean
+        "de": "Sojafleisch", //German
+        "fr": "Soy Meat", //French
+        "hu": "Soy Meat", //Hungarian
+        "it": "Soy Meat", //Italian
+        "ja": "Soy Meat", //Japanese
+        "pt": "Soy Meat", //Portuguese
+        "ru": "Соевое мясо", //Russian
+        "tr": "Soy Meat", //Turkish
+        "zh": "植物肉", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "It's trendy to call this 'impossible meat'. It's very versatile!", //Spansih
+        "ko": "It's trendy to call this 'impossible meat'. It's very versatile!", //Korean
+        "de": "Es ist modern, es 'unerreichbares Fleisch' zu nennen. Es ist sehr vielseitig!", //German
+        "fr": "It's trendy to call this 'impossible meat'. It's very versatile!", //French
+        "hu": "It's trendy to call this 'impossible meat'. It's very versatile!", //Hungarian
+        "it": "It's trendy to call this 'impossible meat'. It's very versatile!", //Italian
+        "ja": "It's trendy to call this 'impossible meat'. It's very versatile!", //Japanese
+        "pt": "It's trendy to call this 'impossible meat'. It's very versatile!", //Portuguese
+        "ru": "Настоящий мясозаменитель. Очень универсальный продукт!", //Russian
+        "tr": "It's trendy to call this 'impossible meat'. It's very versatile!", //Turkish
+        "zh": "现在流行称其为“素肉”。它的用途非常广泛！", //Chinese (Simplified)
+    },
+	
+}

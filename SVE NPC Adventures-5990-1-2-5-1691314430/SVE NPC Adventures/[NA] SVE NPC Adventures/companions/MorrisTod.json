@@ -1,0 +1,60 @@
+{
+  "Format": "2.0",
+  "Name": "MorrisTod",
+  "Skills": [
+    { "Name": "doctor" },
+    {
+      "Name": "fighter",
+      "Strength": 0.6,
+      "Speed": 0.7,
+      "MissChance": 0.1
+    }
+  ],
+  "Rules": {
+    "!f MorrisTod 1000": "reject",
+    "t 600 2200": "accept"
+  },
+  "Price": 4000,
+  "Sales": {
+    "f MorrisTod 2500": 0.5,
+    "f MorrisTod 1500": 0.8
+  },
+  "Buffs": {
+    "Luck": 1,
+    "Defense": 2
+  },
+  "BuffsDescription": "[morristod.buffs]",
+  "Weapons": {
+    "0": "Morris's Bayonet", // 1-3
+    "1": "Rusty Sword", // 2-5
+    "2": "Pirate's Sword", // 8-14
+    "3": "Cutlass", // 9-17
+    "4": "Forest Sword", // 8-18
+    "5": "Iron Edge", // 12-25
+    "6": "Holy Blade", // 18-24
+    "7": "Bone Sword", // 20-30
+    "8": "Tempered Broadsword", // 29-44
+    "9": "Obsidian Edge", // 30-45
+    "10": "Lava Katana" // 55-64
+  },
+  "IdleBehaviors": [
+    {
+      "Behavior": "Animate",
+      "Animations": [
+        "morris_glasses",
+        "morris_sigh" 
+      ],
+      "Tendency": 5,
+      "MinDuration": 10,
+      "MaxDuration": 30
+    },
+    {
+      "Behavior": "Lookaround",
+      "FaceMinSeconds": 2,
+      "FaceMaxSeconds": 7,
+      "Tendency": 2,
+      "MinDuration": 10,
+      "MaxDuration": 30
+    }
+  ]
+}

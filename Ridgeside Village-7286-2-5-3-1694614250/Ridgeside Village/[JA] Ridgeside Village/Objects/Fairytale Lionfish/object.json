@@ -1,0 +1,14 @@
+{
+	"Name": "Fairytale Lionfish",
+	"TranslationKey": "objects.fairytale-lionfish",
+	"Category": "Fish",
+	"Edibility": 10,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 145,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Maddie"],
+	},
+}

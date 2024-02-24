@@ -1,0 +1,16 @@
+{
+	"Name": "[CCS] Doll Maker",
+	"Author": "acearohippo",
+	"Version": "1.0.0",
+	"Description": "A wooden table fit for revitalising dolls",
+	"UniqueID": "acearohippo.cssdollmaker",
+	"Dependencies": [
+		{
+			"UniqueID": "acearohippo.DollMaker",
+			"IsRequired": false
+		},
+	],
+	"ContentPackFor": {
+		"UniqueID": "Cherry.CustomCraftingStations"
+	}
+}

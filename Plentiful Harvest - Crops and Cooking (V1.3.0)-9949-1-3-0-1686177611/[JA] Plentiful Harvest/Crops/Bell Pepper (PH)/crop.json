@@ -1,0 +1,51 @@
+{
+    "Name": "Bell Pepper (PH)", 
+    "Product": "Bell Pepper (PH)",
+    "SeedName": "Bell Pepper Seeds (PH)", 
+    "SeedDescription": "Plant these in the summer. Takes 9 days to produce a colored pepper.", 
+    "Type": "Vegetable", 
+    "CropType": "Normal", 
+    "Seasons": ["summer"], 
+    "Phases": [2, 2, 2, 3], 
+    "RegrowthPhase": -1, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": false, 
+	"Colors": [
+        "248, 103, 0, 255", //Colors use RGBA for color picking, set to null if your plant does not have colors.
+        "73, 183, 61, 255", 
+        "239, 235, 0, 255"
+    ],
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "STF.PlentifulHarvest", 
+    "SeedPurchasePrice": 45, 
+
+    "SeedNameLocalization":
+    {
+        "default": "Bell Pepper Seeds",
+		"es": "Bell Pepper Seeds", 
+        "ko": "Bell Pepper Seeds", 
+        "de": "Paprika-Saat", 
+        "fr": "Bell Pepper Seeds", 
+        "hu": "Bell Pepper Seeds", 
+        "it": "Bell Pepper Seeds", 
+        "ja": "Bell Pepper Seeds", 
+        "pt": "Bell Pepper Seeds", 
+        "ru": "Семена болгарского перца", 
+        "tr": "Bell Pepper Seeds", 
+        "zh": "灯笼椒种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plant these in the summer. Takes 9 days to produce a colored pepper.", 
+        "ko": "Plant these in the summer. Takes 9 days to produce a colored pepper.", 
+        "de": "Pflanze sie im Sommer. Wächst in 9 Tagen heran.", 
+        "fr": "Plant these in the summer. Takes 9 days to produce a colored pepper.", 
+        "hu": "Plant these in the summer. Takes 9 days to produce a colored pepper.", 
+        "it": "Plant these in the summer. Takes 9 days to produce a colored pepper.", 
+        "ja": "Plant these in the summer. Takes 9 days to produce a colored pepper.", 
+        "pt": "Plant these in the summer. Takes 9 days to produce a colored pepper.", 
+        "ru": "Сажайте летом. Вырастает через 9 дней.", 
+        "tr": "Plant these in the summer. Takes 9 days to produce a colored pepper.", 
+        "zh": "夏天种植。需要9天才能长出彩色的灯笼椒。", 
+    }
+}

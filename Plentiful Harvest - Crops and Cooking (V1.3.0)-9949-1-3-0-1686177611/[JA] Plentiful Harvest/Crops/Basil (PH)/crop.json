@@ -1,0 +1,46 @@
+{
+    "Name": "Basil (PH)", 
+    "Product": "Basil (PH)",
+    "SeedName": "Basil Seeds (PH)", 
+    "SeedDescription": "Plant these in the summer. Takes 4 days to produce usable basil.", 
+    "Type": "Vegetable", 
+    "CropType": "Normal", 
+    "Seasons": ["summer"], 
+    "Phases": [1, 1, 1, 1], 
+    "RegrowthPhase": -1, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": false, 
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "STF.PlentifulHarvest", 
+    "SeedPurchasePrice": 5, 
+
+    "SeedNameLocalization":
+    {
+        "default": "Basil Seeds",
+		"es": "Basil Seeds", 
+        "ko": "Basil Seeds", 
+        "de": "Basilikum-Saat", 
+        "fr": "Basil Seeds", 
+        "hu": "Basil Seeds", 
+        "it": "Basil Seeds", 
+        "ja": "Basil Seeds", 
+        "pt": "Basil Seeds", 
+        "ru": "Семена базилика", 
+        "tr": "Basil Seeds", 
+        "zh": "罗勒种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plant these in the summer. Takes 4 days to produce usable basil.", 
+        "ko": "Plant these in the summer. Takes 4 days to produce usable basil.", 
+        "de": "Pflanze sie im Sommer. Wächst in 4 Tagen heran.", 
+        "fr": "Plant these in the summer. Takes 4 days to produce usable basil.", 
+        "hu": "Plant these in the summer. Takes 4 days to produce usable basil.", 
+        "it": "Plant these in the summer. Takes 4 days to produce usable basil.", 
+        "ja": "Plant these in the summer. Takes 4 days to produce usable basil.", 
+        "pt": "Plant these in the summer. Takes 4 days to produce usable basil.", 
+        "ru": "Сажайте летом. Вырастает через 4 дня.", 
+        "tr": "Plant these in the summer. Takes 4 days to produce usable basil.", 
+        "zh": "夏天种植。 需要4天长成成熟的罗勒。", 
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "Name": "Carrot WL",
+    "Description": "The orange root has a sweet flavor and a tender crisp texture.",
+    "Category": "Vegetable",
+    "Edibility": 10,
+    "Price": 60,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": [],
+        "Like": ["Marnie"],
+        "Neutral": [],
+        "Dislike": [],
+        "Hate": [],
+    },
+	"NameLocalization":  {
+		"default": "Carrot",
+        "pt": "Cenouras",
+        "ru": "Морковь",
+        "zh": "胡萝卜",
+	},
+	"DescriptionLocalization" : {
+        "pt": "A raiz de laranja tem um sabor doce e uma textura tenra e crocante.",
+        "ru": "Оранжевый корнеплод обладает сладким вкусов и нежной хрустящей текстурой.",
+        "zh": "橙色的根茎有甜味，质地细嫩清脆。",
+	}
+}

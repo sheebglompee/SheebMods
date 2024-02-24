@@ -1,0 +1,52 @@
+{
+    "Name": "Quince (PH)",
+    "Description": "A fall fruit and a relative of the pear. Its plant is drought tolerant and low-maintenance, so it can grow almost anywhere.",
+    "Category": "Fruit",
+	"ContextTags": 
+        [
+        "season_fall",
+		"color_yellow"
+        ],
+    "Edibility": 12,
+    "Price": 52, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Linus", "Leah"],
+        "Like": ["Marnie", "Gus", "Lewis", "Emily", "Penny", "Abigail", "Harvey", "Evelyn", "Jas", "Vincent", "Demetrius"],
+        "Neutral": null, 
+        "Dislike": ["Dwarf", "Pierre", "Wizard"], 
+        "Hate": ["Sebastian"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Quince",
+		"es": "Quince", 
+        "ko": "Quince", 
+        "de": "Quitte", 
+        "fr": "Quince", 
+        "hu": "Quince", 
+        "it": "Quince", 
+        "ja": "Quince",
+        "pt": "Quince", 
+        "ru": "Айва", 
+        "tr": "Quince",
+        "zh": "木梨", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A fall fruit and a relative of the pear. Its plant is drought tolerant and low-maintenance, so it can grow almost anywhere.", 
+        "ko": "A fall fruit and a relative of the pear. Its plant is drought tolerant and low-maintenance, so it can grow almost anywhere.", 
+        "de": "Eine Herbstfrucht und eine Verwandte der Birne. Ihre Pflanze ist trockenheitstolerant und pflegeleicht, sodass sie fast überall wachsen kann.",
+        "fr": "A fall fruit and a relative of the pear. Its plant is drought tolerant and low-maintenance, so it can grow almost anywhere.", 
+        "hu": "A fall fruit and a relative of the pear. Its plant is drought tolerant and low-maintenance, so it can grow almost anywhere.",
+        "it": "A fall fruit and a relative of the pear. Its plant is drought tolerant and low-maintenance, so it can grow almost anywhere.", 
+        "ja": "A fall fruit and a relative of the pear. Its plant is drought tolerant and low-maintenance, so it can grow almost anywhere.", 
+        "pt": "A fall fruit and a relative of the pear. Its plant is drought tolerant and low-maintenance, so it can grow almost anywhere.",
+        "ru": "Этот осенний фрукт является родственником груши. Растение засухоустойчиво и не требует особого ухода, поэтому может расти практически везде.", 
+        "tr": "A fall fruit and a relative of the pear. Its plant is drought tolerant and low-maintenance, so it can grow almost anywhere.", 
+        "zh": "一种秋天的水果，是梨的近亲。它的植株耐旱，养护成本低，所以它几乎可以生长在任何地方。",
+    },
+}

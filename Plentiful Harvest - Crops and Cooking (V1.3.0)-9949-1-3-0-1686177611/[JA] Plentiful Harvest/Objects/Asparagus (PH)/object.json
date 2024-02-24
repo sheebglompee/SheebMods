@@ -1,0 +1,53 @@
+{
+    "Name": "Asparagus (PH)",
+    "Description": "These stalks are high in nutrients, and harvested young before they acquire a woody texture.",
+    "Category": "Vegetable",
+	"ContextTags": 
+        [
+        "season_spring",
+		"dye_medium",
+		"color_green",
+        ],
+    "Edibility": 12,
+    "Price": 60, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Eliott", "Demetrius"],
+        "Like": ["Robin", "Gus", "Lewis"],
+        "Neutral": null, 
+        "Dislike": ["Penny"], 
+        "Hate": ["Vincent", "Haley"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Asparagus",
+		"es": "Asparagus", 
+        "ko": "Asparagus", 
+        "de": "Spargel", 
+        "fr": "Asparagus", 
+        "hu": "Asparagus", 
+        "it": "Asparagus", 
+        "ja": "Asparagus",
+        "pt": "Asparagus", 
+        "ru": "Спаржа", 
+        "tr": "Asparagus",
+        "zh": "芦笋", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "These stalks are high in nutrients, and harvested young before they acquire a woody texture.", 
+        "ko": "These stalks are high in nutrients, and harvested young before they acquire a woody texture.", 
+        "de": "Diese Stängel sind reich an Nährstoffen und werden jung geerntet, bevor sie eine holzige Struktur annehmen.",
+        "fr": "These stalks are high in nutrients, and harvested young before they acquire a woody texture.", 
+        "hu": "These stalks are high in nutrients, and harvested young before they acquire a woody texture.",
+        "it": "These stalks are high in nutrients, and harvested young before they acquire a woody texture.", 
+        "ja": "These stalks are high in nutrients, and harvested young before they acquire a woody texture.", 
+        "pt": "These stalks are high in nutrients, and harvested young before they acquire a woody texture.",
+        "ru": "Стебли спаржи богаты питательными веществами. Собирать их следует молодыми, иначе они обретут древесную текстуру.", 
+        "tr": "These stalks are high in nutrients, and harvested young before they acquire a woody texture.", 
+        "zh": "这些茎杆富含营养，在形成木质结构之前收获。",
+    },
+}

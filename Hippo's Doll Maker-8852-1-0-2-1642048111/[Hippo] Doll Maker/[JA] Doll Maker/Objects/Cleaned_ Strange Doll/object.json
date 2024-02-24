@@ -1,0 +1,16 @@
+{
+	"Name": "Unpainted Doll",
+	"Description": "A clean, unclothed doll ready to be decorated to your heart's desire.",
+	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Doll",
+	"Edibility": -300,
+	"Price": 10,
+	"IsColored": false,
+	"CanPurchase": false,
+	"NameLocalization": { 
+        "ko": "채색용 인형",
+	},
+    "DescriptionLocalization": { 
+        "ko": "원하는 대로 꾸밀 수 있는 깨끗한 인형.",
+	},
+}

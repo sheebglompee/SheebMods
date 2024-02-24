@@ -1,0 +1,53 @@
+{
+    "Name": "Soy (PH)",
+    "Description": "A soy pod. The insides are used for many things, even faux meat!",
+    "Category": "Vegetable",
+	"ContextTags": 
+        [
+        "season_fall",
+        "ph_nut",
+		"color_green"
+        ],
+    "Edibility": 12,
+    "Price": 32, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Penny", "Emily"],
+        "Like": ["Marnie", "Gus", "Lewis", "Leah"],
+        "Neutral": null, 
+        "Dislike": ["Abigail", "Vincent", "Kent", "Clint"], 
+        "Hate": ["Shane", "Alex", "Sam", "Willy", "George"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Soy",
+		"es": "Soy", 
+        "ko": "Soy", 
+        "de": "Sojabohnen", 
+        "fr": "Soy", 
+        "hu": "Soy", 
+        "it": "Soy", 
+        "ja": "Soy",
+        "pt": "Soy", 
+        "ru": "Соя", 
+        "tr": "Soy",
+        "zh": "大豆", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A soy pod. The insides are used for many things, even faux meat!", 
+        "ko": "A soy pod. The insides are used for many things, even faux meat!", 
+        "de": "Eine Sojaschote. Das Innere wird für viele Dinge verwendet, sogar für Fleischersatz!",
+        "fr": "A soy pod. The insides are used for many things, even faux meat!", 
+        "hu": "A soy pod. The insides are used for many things, even faux meat!",
+        "it": "A soy pod. The insides are used for many things, even faux meat!", 
+        "ja": "A soy pod. The insides are used for many things, even faux meat!", 
+        "pt": "A soy pod. The insides are used for many things, even faux meat!",
+        "ru": "Соевый стручок. Бобы этого растения используются для многих вещей, даже для изготовления искусственного мяса!", 
+        "tr": "A soy pod. The insides are used for many things, even faux meat!", 
+        "zh": "大豆可以用来做很多东西，甚至是植物肉！",
+    },
+}

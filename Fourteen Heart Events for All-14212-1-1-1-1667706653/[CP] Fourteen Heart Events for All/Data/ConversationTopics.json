@@ -1,0 +1,414 @@
+{
+    "Changes": [
+		{
+			"LogName": "14 Heart No Marriage CTs - Abigail",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+		    "Entries": 
+            {
+                "AbigailKillsGolem": "...$s#$e#...I'll be okay, @. I just need some time to process things.",
+                "MaruCometSighting": "Did you see that comet, @?#$b#I was up late playing a game and when I looked outside, there it was shooting across the sky!$h",
+                "HaleysCakeWalk": "Even David Jr wasn't interested in eating that carrot loaf Mom won at the cakewalk.$s",
+                "ShaneSportsRoom": "Dad's not a sports guy, but I think he'd have fun with everyone on game night if he could just get over himself.",
+                "ShaneArcadeGame": "Ugh, Shane's been hogging the arcade machine every time I want to play.$a",
+                "SamJunimoSong": "Sam's been asking us for feedback on all his kids' music.#$b#It's pretty different from our usual stuff, but I'm happy for him.",
+                "ElliottTourOver": "I hadn't realised Elliott was gone until he wasn't there for his usual Thursday afternoon grocery run.#$b#Funny how you miss things like that sometimes, huh?",
+                "SebastianNewFrog": "I joked earlier that whether having frogs in his basement makes Sebastian a witch and he gave me the worst stink eye I've ever seen.$h#$b#I meant they could be his familiars! Not his potion ingredients!",
+                "AlexSportsRoom": "Dad's not a sports guy, but I think he'd have fun with everyone on game night if he could just get over himself."
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Alex",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+		    "Entries": 
+            {
+                "EmilyMagicClothes": "I don't know what Emily's been doing, but every time I go round to visit Haley, the whole house smells like grass.$7",
+                "HaleysCakeWalk": "You think I should organise a charity flexing competition? Raise some money so the kids can buy sports equipment?",
+                "PennyNewBedroom": "Penny's been asking my grandma for quilting tips recently. I don't get what they're talking about, but it makes Grams happy.$h",
+                "ShaneSportsRoom": "I gotta talk to Shane sometime and compare plays! You think he ever tried out for a professional team?$h",
+                "AlexSportsRoom": "I never realised there was so much involved in renovating a room.#$b#If Robin hadn't given me a discount, I wouldn't have had enough money.$7",
+                "AlexTryouts": "I gotta step up my game! You watch, next year they'll be selling Timberwolves jerseys with Mullner on the back!$h"
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Caroline",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Caroline",
+		    "Entries": 
+            {
+                "AbigailKillsGolem": "Abigail's been very quiet and withdrawn lately. She said she'll tell me about it later, but I'm still worried about her.$s",
+                "PaintingWithLeah": "Marnie's been telling us all about those paintings you and Leah made. She's very impressed with Leah's!$h#$b#Yours? Well, uh... she appreciated the thought!$s",
+                "HaleysCakeWalk": "Don't tell Lewis, but we ended up throwing out that carrot loaf of his. One bite and Pierre was in the bathroom for an hour!",
+                "ElliottTourOver": "Elliott gave us a complimentary copy of his novel as thanks for the sale display and I'm already halfway through.#$b#Some of the steamy parts though... Well! It certainly makes your heart race, and I'll say no more!$h"
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Clint",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Clint",
+		    "Entries": 
+            {
+                "EmilyMagicClothes": "Emily asked me if I wanted some new workshirts for the forge, since I get so many burn holes in my sleeves.#$b#I told her she didn't have to, but she said it would be an 'interesting challenge'.",
+                "HaleysCakeWalk": "My granddad baked that cobbler for my grandma when they were courting.#$b#It might not look very good on the outside, but it's sweeter than you think on the inside. It's a misunderstood sort of dessert.",
+                "ShaneSportsRoom": "Maybe I should go and join the guys for sports night sometime...$s",
+                "AlexSportsRoom": "Maybe I should go and join the guys for sports night sometime...$s"
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Demetrius",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Demetrius",
+		    "Entries": 
+            {
+                "MaruCometSighting": "Maru was telling me all about the comet you both saw. If I was a little younger, I would've been out there alongside you both!$h#$b#What an incredible sight it must have been.",
+                "HaleysCakeWalk": "Robin is an incredible baker when she has the energy for it!$h#$b#I do most of our day to day cooking, but Robin has always been the star of the kids' birthday celebrations.$h",
+                "SebastianNewFrog": "Those frogs of Sebastian's are L. palusi, or the Ferngill marsh frog! They're beautiful little amphibians.#$b#Hopefully Sebastian will let me examine them in closer detail!$h"
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Elliott",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+		    "Entries": 
+            {
+                "EmilyMagicClothes": "Emily and I might have very different tastes when it comes to fashion, but we both agree on the importance of expressing oneself via one's garments.$h#$b#It feels so very freeing to wear what you like and have no concern for the judgement of others.",
+                "MaruCometSighting": "I stepped outside when sleep eluded me and saw the most magnificent sight!$h#$b#A comet, dancing across the sky like a princess with a dazzling gown of ice, and its reflection in the waves below.$l#$b#It's jolted me out of my writer's block.",
+                "PaintingWithLeah": "Leah told me of your painting lesson the other day. What did you think?#$b#She's tried to teach me a number of times but alas, my talents lie solely within the literary world. We do enjoy sharing our art though.",
+                "HaleysCakeWalk": "I'm glad the cakewalk was a success! Reading is vitally important to the growing mind.$h#$b#Perhaps I should look into writing children's fiction sometime...",
+                "ElliottTourOver": "I learned many valuable things on my tour, but there's nothing sweeter than being back home in the valley.$h"
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Emily",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+		    "Entries": 
+            {
+                "EmilyMagicClothes": "How are the clothes, @? Are they holding up okay?#$b#Let me know if you ever need any mending!$h",
+                "MaruCometSighting": "Did you see the comet, @? Wasn't it beautiful?$l#$b#Comets are a symbol of great change. Whether that's good change or bad change is up to us!",
+                "PaintingWithLeah": "Hmm, I should experiment more with fabric paints. I wonder if Leah has ever tried them?",
+                "HaleysCakeWalk": "I'm so proud of Haley! I know she comes across as flighty sometimes, but she's really put so much hard work into organising the cakewalk.$l#$e#I need to ask Pam for her cupcake recipe next time I see her too! They were divine!$h",
+                "PennyNewBedroom": "Did Penny show you her finished quilt? She's been working hard on it.$h#$b#I helped her with the dyeing process since it's harder than you might think for something that size.",
+                "ShaneSportsRoom": "Shane's sports room really brings new life to the saloon, doesn't it?$h#$b#I'm happy for him. It's great to see him find something that brings him joy like this.",
+                "ShaneArcadeGame": "I don't think Shane would appreciate her meddling so don't tell him I said this, but Marnie asked me to look out for him.#$b#Gus and I were already doing that though. He has more people on his side than he realises.$h",
+                "AlexSportsRoom": "Alex's sports room really brings new life to the saloon, doesn't it?$h#$b#Although it's a lot rowdier on a Sunday night now!"
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Evelyn",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Evelyn",
+		    "Entries": 
+            {
+                "HaleysCakeWalk": "Dear Haley asked me if I could bake something for her cakewalk, so I made her a batch of my apple pie cupcakes.#$b#I believe she didn't expect so many people to donate cakes though! I insisted she take the cupcakes home as her reward instead.$h",
+                "PennyNewBedroom": "Penny is such a sweet young lady, isn't she? We've been quilting together lately and it's been lovely to share tips with her.$h",
+                "ShaneSportsRoom": "It's so quiet on a Sunday evening now. I enjoyed seeing George so animated and yelling at the TV...$s#$b#He's happy spending time with Alex and the other men though, so I should be happy for him too.",
+                "AlexSportsRoom": "It's so quiet on a Sunday evening now. I enjoyed seeing George so animated and yelling at the TV...$s#$b#He's happy spending time with Alex and the other men though, so I should be happy for him too.",
+                "AlexTryouts": "It's so wonderful to see Alex's hard work recognised! He's come so far and I couldn't be prouder of him.$h"
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - George",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/George",
+		    "Entries": 
+            {
+                "HaleysCakeWalk": "Haley's been a friend of Alex's since they were both little. She's grown into a fine young woman.",
+                "PennyNewBedroom": "Hmph, that young lady made me a lap blanket as quilting practice.#$b#I told her I didn't need her charity, but she insisted I take it as an apology for that time at the mailbox.",
+                "ShaneSportsRoom": "That Shane isn't as bad as I always thought he was.$h#$b#You tell him he's done a good thing with that game room.",
+                "AlexSportsRoom": "That's my Alex for you. He's got a soft heart under all that muscle of his.$h",
+                "AlexTryouts": "Always knew my boy could do anything he put his heart into!$h#$b#Just like his mother, he is. She's proud of him too, I know it."
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Gus",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+		    "Entries": 
+            {
+                "AbigailKillsGolem": "Abigail was in an odd mood when she came by earlier. Ordered a drink and gave a toast 'to life and death'.$s#$b#Any idea what that was about, @?",
+                "EmilyMagicClothes": "Every spare moment she's had, Emily's been cutting and trimming and hemming things.#$b#I can't promise that a few pieces of fiber haven't ended up in the spaghetti!$h",
+                "PaintingWithLeah": "@! Marnie was just telling me about your painting lesson the other day. Did you enjoy yourself?$h#$e#I consider myself something of an artist with food, you know. A different medium, but you'd be surprised how artistic you can be with a bottle of chocolate syrup.",
+                "HaleysCakeWalk": "I wonder where Pam got the stout and bourbon for those cupcakes from? She didn't buy them from me.",
+                "ShaneSportsRoom": "I admit I wasn't sure about it when Shane brought up the idea of converting the back room, but it really brings a good atmosphere to the saloon.$h",
+                "ShaneArcadeGame": "I've had to restock the vending machine four times this week with the amount of Joja Cola Shane's gone through!$s",
+                "ElliottTourOver": "Now that Elliott's back, the amount of romantic ballads played on the jukebox has also returned to its normal levels.$h",
+                "DinnerWithHarvey": "Harvey came by the other day asking what sauce went best with clams. It's nice to see him branching out from microwave meals!$h",
+                "AlexSportsRoom": "I admit I wasn't sure about it when Alex brought up the idea of converting the back room, but it really brings a good atmosphere to the saloon.$h"
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Haley",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+		    "Entries": 
+            {
+                "EmilyMagicClothes": "Ugh, every time I turn around, there's another piece of grass somewhere!$a#$e#Emily's been humming non-stop for the last three days though, and she's asked me to do measurements with her so she can make me a new sundress.#$b#...It's nice seeing her so happy.$l",
+                "PaintingWithLeah": "You and Leah looked like you were having fun the other day. Hasn't anyone ever taught you about the rule of thirds though?",
+                "HaleysCakeWalk": "...Don't tell anyone, but I was so nervous that no one would come to the cakewalk and that I'd done all that work for nothing.$s#4b#I know I'm not the most likeable person in town, but it really made me happy that I could make a difference for people.",
+                "AlexSportsRoom": "I don't know why anyone would want to cram themself into a small, stuffy room with like a dozen other people just to watch people throw around a ball on TV.$s#$b#But Alex enjoys it, so as his friend I'm obliged to listen to him.",
+                "AlexTryouts": "I got some great action shots of Alex scoring! I'll show them to you once they're finished developing.$h"
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Harvey",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+		    "Entries": 
+            {
+                "MaruCometSighting": "Maru has been talking about this comet's arrival for weeks. According to her studies, it won't be seen again for another 4,300 years.",
+                "HaleysCakeWalk": "Most cakes have a very high sugar content, so...$s#$b#No, I should take off my doctor hat for today. It's for a good cause, after all.$h",
+                "ShaneArcadeGame": "I'm very happy with the progress Shane has been making this year. I'm sure you've noticed as well how much more cheerful he's been too.$h",
+                "SamJunimoSong": "That song from the Happy Junimo Show is surprisingly catchy, isn't it?#$b#What? Oh no, I don't watch it! But the song was on the radio earlier.",
+                "DinnerWithHarvey": "Any time you're feeling down and don't have the energy to cook, @, you can always ask me and I'll come by to make something for you.$l#$b#I can't promise that what I make would be up to Gus's standards, but I'll do my best!$h",
+                "AlexTryouts": "Alex has been asking me about muscle relief remedies. I hope he's not overdoing it again...$s"
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Jas",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jas",
+		    "Entries": 
+            {
+                "PaintingWithLeah": "Aunt Marnie hung up that portrait that Ms Leah made! It looks really pretty.$h",
+                "HaleysCakeWalk": "I didn't like Mr Clint's cake very much...$s#$b#But Vincent shared his strawberry cake with me. It was so sweet!$h#$b#And we're going to get new books too!$h",
+                "PennyNewBedroom": "Miss Penny had a lot of little cuts on her fingers in class today.$s#$b#She said it was because she was making something though, so it's okay.",
+                "ShaneSportsRoom": "Uncle Shane worked really hard to fix up the room in the saloon! We went to see it when it was done and had lunch at the saloon together.",
+                "ShaneArcadeGame": "I wish Uncle Shane would come home more often... He was teaching me how to play Junimo Party 8.",
+                "SamJunimoSong": "Happy little junimos, we're round as round can be~!$h#$b#I love Sam's new song in the Happy Junimo Show!$h"
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Jodi",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi",
+		    "Entries": 
+            {
+                "PaintingWithLeah": "Marnie was saying that us aerobics club ladies should get together sometime and take a painting class with Leah. It sounds like a lot of fun!$h",
+                "HaleysCakeWalk": "Vincent was bouncing off the walls after a piece of that strawberry log! Of all the squares he could have landed on...$a",
+                "ShaneSportsRoom": "I'm glad that Kent is starting to socialise with people again.#$b#He was always the reserved type, but since coming back he's been looking so lost.$s#$b#It'll do him good to get back into a normal routine.",
+                "SamJunimoSong": "I'm so proud of my boy! His first real job!$h#$b#I was always worried that Sam would get into trouble chasing the rockstar life, but this is a nice safe career.",
+                "AlexSportsRoom": "I'm glad that Kent is starting to socialise with people again.#$b#He was always the reserved type, but since coming back he's been looking so lost.$s#$b#It'll do him good to get back into a normal routine."
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Kent",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Kent",
+		    "Entries": 
+            {
+                "HaleysCakeWalk": "Good to see people looking out for children. Not enough of that in the world, if you ask me.",
+                "ShaneSportsRoom": "I used to watch the game religiously before I left. Never missed a Sunday.#$b#It's good to see that gridball at least hasn't changed. Different people in the team, but the rules are the same.$h",
+                "SamJunimoSong": "Sam's always had a real knack for music. Used to bang on the table when he was little.$h",
+                "AlexSportsRoom": "I used to watch the game religiously before I left. Never missed a Sunday.#$b#It's good to see that gridball at least hasn't changed. Different people in the team, but the rules are the same.$h"
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Leah",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+		    "Entries": 
+            {
+                "MaruCometSighting": "I'll need to pick up some more black and purple paint to finish off my latest painting.#$b#I was inspired by that comet that passed overhead.",
+                "PaintingWithLeah": "Keep practising your painting, @! Don't let your first failure hold you back.#$b#There's a quote that goes 'every artist has ten thousand bad drawings in them that they have to draw before they can become good'.#$b#I'm probably up to number 7,000!$h",
+                "HaleysCakeWalk": "Haley likes to put up a prickly exterior, but underneath she's got a lot of sweetness in her.#$b#Hmm, I wonder if I could carve something out of blackthorn as a representation...$s",
+                "ElliottTourOver": "Did Elliott tell you yet he's returned to the valley, @?#$b#I missed that goof. I'll have to take a bottle of wine around later and celebrate the success of his book tour with him.$h"
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Lewis",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Lewis",
+		    "Entries": 
+            {
+                "PaintingWithLeah": "That painting Leah made of Marnie is a beautiful piece. Of course, it's easier to make a good painting when you have a good-looking mod--$h#$b#I mean! When you have a good amount of skill, like Leah does!$4",
+                "HaleysCakeWalk": "Robin had better not decide to be funny about the business tax...$3",
+                "ShaneSportsRoom": "Shane and the others had better not get too noisy back there when the gridball is on. I want to enjoy my conversation, not shout over the top of them.$5",
+                "ElliottTourOver": "Perhaps having our own local celebrity will draw more tourists into town.$h",
+                "AlexSportsRoom": "Alex and the others had better not get too noisy back there when the gridball is on. I want to enjoy my conversation, not shout over the top of them.$5"
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Linus",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Linus",
+		    "Entries": 
+            {
+                "AbigailKillsGolem": "I sometimes see wilderness golems in the valley, though they're rarer this close to the mountains.#$b#Stay clear of them if you can. They may not mean to harm you, but many things in nature are dangerous without intent.$s",
+                "EmilyMagicClothes": "Fiber is a wonderful material for making clothing. It's surprisingly resilient and softer than you might think.#$b#Although I'll admit it does sometimes itch in uncomfortable places...$s",
+                "MaruCometSighting": "The comet passing over was so bright that it woke me up!$3#$b#I'm glad though. It's not every day that nature blesses you with such a sight.$h",
+                "SebastianNewFrog": "There are a great many frogs that live by the lake. Their calls are like a soothing lullaby to me."
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Marnie",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Marnie",
+		    "Entries": 
+            {
+                "PaintingWithLeah": "I'm thinking of asking Leah if she'd like to host an art luncheon and painting lessons with the aerobics ladies!$h#$b#It's been too long since I've had the chance to let my hair down and get creative.",
+                "HaleysCakeWalk": "I admit I was a little disappointed not to win that chocolate cake you brought to the cakewalk, @. It looked delicious!#$b#On the other hand, there were certainly a few cakes I'm glad went to other people!#$b#Don't tell him, but I've had enough of Lewis's cave carrot loaf to last a lifetime. I feed most of it to the goats now.",
+                "ElliottTourOver": "When he's had a few glasses, Elliott will often start composing love poetry for whoever's in the saloon that night.#$b#It's all just in fun, of course, but I've missed him serenading my 'warm brown eyes like nutmeg pies'.$h",
+                "SebastianNewFrog": "Robin's boy of all people came around the other day asking for animal care tips! I hadn't thought he was the type to be interested."
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Maru",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+		    "Entries": 
+            {
+                "MaruCometSighting": "Thanks again for coming to see the comet with me, @. It's a sight I'll never forget.$l#$b#And who knows, maybe the secret to immortality will be discovered in our lifetime and we'll be able to see it again!$h",
+                "HaleysCakeWalk": "I'm glad for Penny that she'll be able to fund better books for her class.#$b#In an ideal world, all teachers and tutors would get enough money to cover supplies, but in a little town like this, there's not much available.$s",
+                "PennyNewBedroom": "Penny's been so excited about her decor project. She offered to make me some things as well.$h#$b#I chose 'space' as a theme, of course!$h",
+                "DinnerWithHarvey": "Did Doctor Harvey finally end up cooking for you?#$b#He's been trying to convince himself for a week now that you wouldn't think he was overstepping any boundaries.",
+                "SebastianNewFrog": "Dad's been super excited by Sebastian's frogs and they've been talking about them non-stop. It's nice that they've finally found something they have in common."
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Pam",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pam",
+		    "Entries": 
+            {
+                "EmilyMagicClothes": "I keep findin' bits of grass in my drink!$a#$b#Still, Emily seems real happy. And she deserves a smile with how hard she works around here.$4.",
+                "MaruCometSighting": "Saw that comet overhead when I was walkin' home late. Real pretty thing.#$b#Funny how nature still finds a way to surprise you.$h",
+                "HaleysCakeWalk": "Wonder how Emily liked them cupcakes? I made them from a recipe my old gran-gran taught me.#$b#And if Gus asks, you tell him that where I got the bourbon is none of his business! Ha!$h",
+                "PennyNewBedroom": "That little sewing machine of Penny's has been going lickety-split all day. Good that she's got herself a project to keep her busy.",
+                "ShaneSportsRoom": "Never minded having the gridball showing in a saloon, but I'd rather watch the horses if they're on.",
+                "AlexSportsRoom": "Never minded having the gridball showing in a saloon, but I'd rather watch the horses if they're on."
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Penny",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+		    "Entries": 
+            {
+                "EmilyMagicClothes": "I'm amazed at how much Emily knows about sewing and fiber arts. I'm still learning myself, but she's been kind enough to show me all sorts of little tips.$h",
+                "HaleysCakeWalk": "The thought of Haley organising all this for me and the children... It's making me tear up with happiness just remembering it.$l#$b#I'm so, so grateful for everyone's generosity.$l",
+                "PennyNewBedroom": "I have so many ideas for things I could do! Wall hangings, cushion covers, lampshades...$h#$b#I need to talk to Robin about putting them up for sale too.",
+                "ElliottTourOver": "Elliott has been telling me all about how his book tour went. I had no idea there was so much that happened behind the scenes for an author!"
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Pierre",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pierre",
+		    "Entries": 
+            {
+                "HaleysCakeWalk": "Penny buys a lot of school supplies for the children out of her own money. Colored pencils and stickers and so on.#$b#I give her a discount where I can, but there's a lot of things I just can't stock.$s",
+                "SamJunimoSong": "We don't sell much in the way of general merchandise, but the Happy Junimo Show has been a hot seller for print t-shirts.",
+                "ElliottTourOver": "Elliott was telling me earlier about how things went with his book signing tour.#$b#We're going to set up a little sale display for him here in the general store! Promoting local creators, you know?$h",
+                "ShaneSportsRoom": "I've never been much of a sports fan. Give me a good book any day.",
+                "AlexSportsRoom": "I've never been much of a sports fan. Give me a good book any day."
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Robin",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+		    "Entries": 
+            {
+                "MaruCometSighting": "Maru can be just as singleminded as her father when she wants to...$6#$bThese last two weeks, she's been talking about nothing but that comet.",
+                "HaleysCakeWalk": "It feels good to bake every now and then.$h#$b#You'd be surprised how much skill crossover there is too. Both baking and carpentry require a lot of precision.",
+                "PennyNewBedroom": "Penny and I have been discussing how we can arrange selling her decor in the shop.#$b#I've put her in touch with a friend of mine who works in furniture retail, Aster Iske, who'll be able to help us out.",
+                "ShaneSportsRoom": "How's the new game room look? Pretty nice, right?#$b#Shane and Gus asked me to help with the construction, so we put in new flooring and wood panelling over the walls so that it'd feel cozier.",
+                "SebastianNewFrog": "I don't know how I feel about frogs in the house...$s#$b#But they make Sebby happy, so I'll learn to live with them.",
+                "AlexSportsRoom": "How's the new game room look? Pretty nice, right?#$b#Alex and Gus asked me to help with the construction, so we put in new flooring and wood panelling over the walls so that it'd feel cozier."
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Sam",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+		    "Entries": 
+            {
+                "AbigailKillsGolem": "Abby told us about the plant thing she killed...$s#$b#Man, I don't know if I could do something like that. It's different when it's in real life instead of a game.",
+                "HaleysCakeWalk": "Man, Seb's mom is a great baker! He always had the sweetest parties when we were little.$h",
+                "PennyNewBedroom": "Vincent has been coming home recently with all these little crafted things he's made in class. He's a really creative kid.$h",
+                "ShaneArcadeGame": "I never knew Shane was that good at Junimo Kart! He knocked me completely off the leaderboard!$8",
+                "SamJunimoSong": "Vincent has been singing the song I wrote every day. It makes me feel real warm and fuzzy inside to see the little man so happy.$l",
+                "SebastianNewFrog": "Seb's little frog dudes are pretty sweet! He said they've inspired our next Solarion Chronicles campaign.$h#$b#We're going to be frog adventurers fighting the evil Heron King.$8"
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Sandy",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+		    "Entries": 
+            {
+                "EmilyMagicClothes": "How did Emily's fiber project go? She was so excited by the possibilities.$h#$b#Most of my dresses were designed and made by her, you know. She's a goddess with a sewing machine, there's nothing she can't create.$h",
+                "MaruCometSighting": "There's no lights out here to block the stars like you have back in the valley, so it feels like you're looking into the heart of the universe.$h",
+                "HaleysCakeWalk": "If only I didn't have to run my shop! I would've loved to have come along and seen Haley's cakewalk.$s#$b#But I'm sure Emily will tell me all about it next time we catch up.",
+                "ElliottTourOver": "I just received a little selection of books to sell to travelers and would you believe it, sweetie, one of them is by your friend Elliott!$h"
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Sebastian",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+		    "Entries": 
+            {
+                "AbigailKillsGolem": "Abigail said she took down a plant golem. That's hardcore.#$b#I tried fighting a rock crab once, but it didn't end well. Abigail's a lot stronger than me.",
+                "MaruCometSighting": "Now that the comet's gone, maybe Maru will talk about something else for a change.$s#$b#...sorry, that was harsher than I meant. I'm happy for her that she's excited about it.",
+                "HaleysCakeWalk": "Yeah, it's nice that people raised money for the kids. But where's the governor when you need him?$a#$b#He's the one who should be making sure that there's enough money for this stuff.$a",
+                "ShaneSportsRoom": "Who'd want to watch people with more muscle than brain throw around a ball?$a",
+                "ShaneArcadeGame": "I keep tripping over Shane's Joja Cola cans. Can't he take them somewhere else?$a",
+                "SamJunimoSong": "You might not think it when you look at him, but Sam's really good at music stuff.#$b#I gave him a keyboard sample for his junimo song and he immediately knew how to spin it out into a full backing track.$h",
+                "SebastianNewFrog": "I spoke to Marnie about the frog and she showed me what I'd need to do to keep him hydrated and his wounds clean.#$b#She said there's a good chance he'll pull through and it'll heal completely.$l",
+                "AlexSportsRoom": "Who'd want to watch people with more muscle than brain throw around a ball?$a"
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Shane",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+		    "Entries": 
+            {
+                "EmilyMagicClothes": "Maybe I'm just seeing things, but Emily's been glowing or something the last few days.$3#$b#Literally. When she was sewing behind the bar earlier, it was like... like the sun was shining on her for a second.$3#$b#Don't give me that look.$a",
+                "HaleysCakeWalk": "That thing Clint made for the cakewalk, I can't even call it 'cake'. It was half charcoal.$a#$b#And the rest of it was so damn spicy that Jas took one bite and nearly threw up. We tossed it in the trash.$a",
+                "ShaneSportsRoom": "...I'd nearly forgotten what it was like. Watching the game with friends at the saloon, cheering on the Tunnelers together.$l#$b#It's a good feeling. Thanks again for your help, @.$l",
+                "ShaneArcadeGame": "%Shane is lost in thought, mumbling game strategies under his breath.#$b#Gotta remember to... but what about the... and then at the end...$3#$e#Oh! Hey, @, didn't see you there.$10#$b#I'm so close to that second place. Just a little more practice and I'll have it.$h",
+                "SamJunimoSong": "%Shane is half-singing, half-mumbling 'happy little junimos' to himself.#$b#Dammit, Jas, why'd you have to get it stuck in my head...$3",
+                "AlexSportsRoom": "It feels good to watch the game at the saloon again. Haven't done it since... college probably."
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Vincent",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+		    "Entries": 
+            {
+                "HaleysCakeWalk": "That strawberry cake was soooooo good! I gave some to Sam and some to Jas and some to Miss Penny!$h#$b#I hope the new books Miss Penny gets us have cool facts about animals in them!",
+                "PennyNewBedroom": "We had a craft lesson with Miss Penny. She showed us how to make a scarf with just your fingers!$h#$b#It was kinda hard, but my scarf is really warm.",
+                "SamJunimoSong": "Happy little junimos, we're round as round can be!#$b#We're living in the forests so come dance along with me!$h#$b#We're hidden so make sure you look close every single day,#$b#because we're waving here at you, we want to be friends here with you, we are the haaaaaappy junimoooooooos!$h",
+                "SebastianNewFrog": "Sam said that Mister Sebastian has a new pet frog! And he said if I'm really good, he'll ask him to let me see it!$h"
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Willy",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Willy",
+		    "Entries": 
+            {
+                "HaleysCakeWalk": "That lass Haley asked around at the saloon about bringin' cakes for an event of hers, so I baked her a dozen of my best crabcakes.#$b#Got told they were the wrong sort o' cake though.$s",
+                "ShaneSportsRoom": "Never had much interest in sports m'self, since it's hard to follow a season when you're out at sea for months at a time.#$b#Maybe I'll ask one of the lads to explain it to me sometime though.",
+                "ElliottTourOver": "I hadn't known how much I'd got used to seein' Elliott across the way until he went away.#$b#It's good t'see the lad pottering around on the beach again.$h",
+                "AlexSportsRoom": "Never had much interest in sports m'self, since it's hard to follow a season when you're out at sea for months at a time.#$b#Maybe I'll ask one of the lads to explain it to me sometime though."
+            }
+		},
+        {
+			"LogName": "14 Heart No Marriage CTs - Wizard",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+		    "Entries": 
+            {
+                "AbigailKillsGolem": "Hm, something occurred to the north, did it not? I felt a stirring of potential.#$b#I must look into this.",
+                "EmilyMagicClothes": "Strange... The currents of magic around you have changed. You have in your possession a magical artifact of some sort, correct?#$b#The enchantment on it is weak and unrefined, perhaps even unintentional, but the willpower of its creator will protect it from wear far longer than any mundane item.",
+                "MaruCometSighting": "The recent comet has caused fluctuations in the ambient magic of this area.#$b#Many elementals are restless and may take action that they would not normally take. Be on your guard, @."
+            }
+		}
+    ]
+}

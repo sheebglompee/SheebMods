@@ -1,0 +1,53 @@
+{
+    "Name": "Dragon Fruit (PH)",
+    "Description": "The fruit is sweet and acidic, and it's seeds give its inner pulp a crunchy texture.",
+    "Category": "Fruit",
+	"ContextTags": 
+        [
+        "season_summer",
+		"color_red",
+        "dye_strong"
+        ],
+    "Edibility": 20,
+    "Price": 110, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Leo", "Abigail", "Linus"],
+        "Like": ["Willy", "Kent", "Sam", "Sebastian"],
+        "Neutral": null, 
+        "Dislike": ["Pierre", "Dwarf", "Evelyn"], 
+        "Hate": ["Marnie", "George"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Dragon Fruit",
+		"es": "Dragon Fruit", 
+        "ko": "Dragon Fruit", 
+        "de": "Drachenfrucht", 
+        "fr": "Dragon Fruit", 
+        "hu": "Dragon Fruit", 
+        "it": "Dragon Fruit", 
+        "ja": "Dragon Fruit",
+        "pt": "Dragon Fruit", 
+        "ru": "Драконий фрукт", 
+        "tr": "Dragon Fruit",
+        "zh": "火龙果", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "The fruit is sweet and acidic, and it's seeds give its inner pulp a crunchy texture.", 
+        "ko": "The fruit is sweet and acidic, and it's seeds give its inner pulp a crunchy texture.", 
+        "de": "Die Frucht ist süß und sauer, und ihre Samen verleihen ihrem Fruchtfleisch eine knusprige Textur.",
+        "fr": "The fruit is sweet and acidic, and it's seeds give its inner pulp a crunchy texture.", 
+        "hu": "The fruit is sweet and acidic, and it's seeds give its inner pulp a crunchy texture.",
+        "it": "The fruit is sweet and acidic, and it's seeds give its inner pulp a crunchy texture.", 
+        "ja": "The fruit is sweet and acidic, and it's seeds give its inner pulp a crunchy texture.", 
+        "pt": "The fruit is sweet and acidic, and it's seeds give its inner pulp a crunchy texture.",
+        "ru": "Сладкий плод с кислинкой. Семена внутри придают его мякоти хрустящую текстуру.", 
+        "tr": "The fruit is sweet and acidic, and it's seeds give its inner pulp a crunchy texture.", 
+        "zh": "这种水果又甜又酸，它的种子使其内部的果肉口感酥脆。",
+    },
+}

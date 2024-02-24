@@ -1,0 +1,691 @@
+{
+"Changes": [
+
+	//VANILLA NPC POST 8 HEART EVENT DIALOGUE
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "Entries": {
+		"nulHere": "Man, Nul doesn't play around with spirit channeling.$h#$b#They even channeled my grand-aunt's spirit for her chocolate lava cake recipe.#$b#Instant best friend right there.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "Entries": {
+		"nulHere": "That Nul guy has a pretty sturdy looking build.#$b#Hey @, could you ask your friend, Tall-Dark-And-Witchy, if they're down for a game any time soon?$h",
+            },
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "Entries": {
+		"nulHere": "Oh! @, you startled me. I was just sorting out some exotic tea leaves that Nul gave me.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Clint",
+            "Entries": {
+		"nulHere": "*sigh* Ever since Nul came to town it feels like Emily's been giving them more attention.$s#$b#Oh, uh... you didn't hear that.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+		"nulHere": "Hmm... that Nul kid is always wearing that strange costume. I wonder why? And why a sheep of all things$u",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott",
+            "Entries": {
+		"nulHere": "@, that friend of yours is something else.$h#$b#They're like a living bridge between the known and the unknown, weaving stories of spirits seeking connection, of unfinished business and lingering emotions.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "Entries": {
+		"nulHere": "I absolutely adore your friend, Nul, @. It's like we're on the same wavelength.$h#$b#Tell them they're always welcome for a meditation session.#$b#And tell them I said thanks again for the summer wool.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Evelyn",
+            "Entries": {
+		"nulHere": "Dearie, please let your friend know that they're free to visit me whenever they come to town.$h#$b#Here, why don't you and Nul go find a tree to sit under and share these. I remember when George and I did when we were your age.[223]",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/George",
+            "Entries": {
+		"nulHere": "Hmph... I don't get what's so special about that giant lambchop.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gus",
+            "Entries": {
+		"nulHere": "@, your friend is a riot!$h#$b#They ordered 21 pancakes and ate them like they have a blackhole for a stomach.$h#$b#...#$b#... @, please make sure Nul eats regularly. I love when people enjoy my food, but not the thought of it being their first and last meal for a while.$s",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "Entries": {
+		"nulHere": "OH MY YOBA!! Nul is literally THE cutest thing! I could just squeeze them to death.$h#$b#... Not... not literally though.$s",
+            },
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "Entries": {
+		"nulHere": "Now how would one go about sorting out Nul's medical documents? Do I do it myself or do I refer them to a verterinarian...?$s",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+		"nulHere": "Aunt Marnie is kind of scared of Nul but I don't know why. They're really nice.$s#$b#They pretended to be my royal horse and promised to be my fairy godmother the next time we played.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+		"nulHere": "My boys really semm to like that friend of yours, @.$h#$b#I wonder if they would join the girls and I at aerobics class.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+		"nulHere": "Does... does your friend always look like that? Hmm... strange.$s#$b#Well, if they're a friend of yours I guess they mean no harm.#$b#Plus, my boys really seem to like them.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Krobus",
+            "Entries": {
+		"nulHere": "Did you know that Nul and I are old friends? We go a while back.$h#$b#It's a shame that they disappeared without warning, but it's nice to be able to catch up.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "Entries": {
+		"nulHere": "Hold on a sec, @. I'm preparing for a Nul inspired piece.#$b#When are you both available for a modelling session? I could really use the both of you for a reference.$h#$b#I, um... hope you guys don't mind being in your 'natural' state for it.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leo",
+            "Entries": {
+		"nulHere": "Fluffy person also speaks animal language.$h#$b#They told stories, funny and sad, in sheep language.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "Entries": {
+		"nulHere": "I think having the town inclusive for people like Nul is good for community.$h#$b#I'm not sure how well it would work in regards to tourism, though.$s",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Linus",
+            "Entries": {
+		"nulHere": "It's nice to see Nul again.#$b#I remember when they were just a lamb, constantly slipping away from the wizard's lessons just to learn about the land from me.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "Entries": {
+		"nulHere": "I'll admit, having Nul around Jas made me weary to where I had to watch them closely.$s#$b#Good to know I had nothing to worry about. Who knew Nul was good with kids.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "Entries": {
+		"nulHere": "Don't get me wrong, @, Nul is nice and all, but they're a bit of an... anomaly.#$b#I-I don't mean it in a bad way! It's just that they seem like a work of fiction. It's interesting$s#$b#Say, how about you bring them over to my place so I can run some examinations. It won't be anything they can't handle.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Penny",
+            "Entries": {
+		"nulHere": "@, when you see Nul again, could you tell them that they're free to join the kids and I on Fridays for assistant teaching.#$b#A-also, could you kindly ask them to wear a bell... they have light footsteps, so it's a surprise when they make their appearance known.$s",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pam",
+            "Entries": {
+		"nulHere": "Hey farmer. Man you got some weird friends your care, don't ya think?$h#$b#Was kinda suspicious of 'em but my little girl seems to like 'em alot and I love that for her.$b",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pierre",
+            "Entries": {
+		"nulHere": "Hey @, does Nul need a job? I've been seeing them in my store alot and it made me think about getting a mascot.$h#$b#H-hey! Where are you going? It was just a thought.$3",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+		"nulHere": "I don't understand how someone so squishy could be hiding that much strength in them.$s#$b#You should share Nul's secret with me, @.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+		"nulHere": "Aw man... that was embarassing...$s#$b#Hey, @. Hm? Oh, it's nothing... it's just that I just thought Nul was a girl from behind and tried hitting on them.#$b#It's all good though! We both had a laugh about it! Dude's pretty chill.$h",
+            },
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "Entries": {
+		"nulHere": "Hey, um... @? Your friend's name is Nul, right?#$b#They'd make a great addition to a Solarian Chronicles session.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+		"nulHere": "Buh, that sheep guy's pretty ominous and freaky looking. They don't say much either.#$b#But... Jas likes them... says they're a pretty princess or whatever.",
+            }
+        },	
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {
+		"nulHere": "Aww, my ball got stuck in a tree again.$s#$b#Ah well, I'll just ask Pibling Nul to get it down for me again.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+            "Entries": {
+		"nulHere": "Oh, Nul... my sweet child. I'm so glad you have started to visit me.$h#$b#... Whatever could that look be for, @? A parent can't long for their child?",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Willy",
+            "Entries": {
+		"nulHere": "Aye laddy, yer wool-covered matey be well-dressed for a dance with the sea.$h",
+            }
+        },
+
+	//SVE NPC POST 8 HEART EVENT DIALOGUE
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Andy",
+            "Entries": {
+		"nulHere": "@, it ain't a good idea bringin' demons into town, y'know...$a#$b#'Not a demon' you say... Well if they start snatchin' souls you can't say I didn't warn ya.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Apples",
+            "Entries": {
+		"nulHere": "Apples friend know Fluff Friend?#$b#Fluff Friend now Apples friend too!$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Claire",
+            "Entries": {
+		"nulHere": "I've seen a strange face walking through town the other day. I wonder who they are...",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gunther",
+            "Entries": {
+		"nulHere": "Race of sheepfolk, huh? Guess it's time to track down their history and make it available for the library.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lance",
+            "Entries": {
+		"nulHere": "Heheh I never knew Magnus had a child so sweet.$h#$b#... though it's a shame they got locked away alongside his ex-wife.#$b#You say they're a good soul? Oh, @, I already knew this. In fact, I feel as if with adequate training they'll be an amazing guild member.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marlon",
+            "Entries": {
+		"nulHere": "Nul's visiting the guild again. That means the Magnus' seal is broken.#$b#Nul grew alot since the last time they visited.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Martin",
+            "Entries": {
+		"nulHere": "UWAH!!... O-oh, it's just you, @.$s#$b#I'm sorry for being jumpy today. I just got spooked a bit by a large person with horns.$s#$b#That's just a friend of yours? Thank Yoba, I thought were gonna hurt us all. No offense, @.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Morgan",
+            "Entries": {
+		"nulHere": "Don't tell Proffessor Raz, but Nul has been giving me tips and shortcuts for spellcasting.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Morris",
+            "Entries": {
+		"nulHere": "Well hello there, @! Say, do you think Nul would like to join the Joja family?#$b#I know you're an ex family member of ours but wit- Hey! Why are you walking away!$s",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Olivia",
+            "Entries": {
+		"nulHere": "The funniest thing happened last night, dearie.$3#$b#That new friend of yours came into the saloon last night and accidentally ordered the strongest drink they had.$6#$b#If I wasn't weary of them, I honestly would have warned them$s#$b#But I'm glad that I had no need to fear when they started complimenting as many people as possible before Gus made them rest a bit on the side room couch.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Scarlett",
+            "Entries": {
+		"nulHere": "OH EM SQUEE!! @! Nul's sailor suit is sooo adorable!$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sophia",
+            "Entries": {
+		"nulHere": "Hey, you! Have you noticed that Nul almost looks like they belong in the Sailor Mew manga series.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Susan",
+            "Entries": {
+		"nulHere": "@, sweetie. Remember that conversation we had about a cave in the mountain? I'm starting to think that you weren't just tired all along.$s#$b#A sheep... person came from that direction and-... your friend... who lives there? Well, tell that sweetheart thanks again for patching the hole in one of my kegs.$h#$b#I might have been too stunned to thank them properly.$s",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Victor",
+            "Entries": {
+		"nulHere": "Y'know @, I never expected Nul to be so well-read.$h#$b#I... I didn't mean that in a bad way.$s",
+            }
+        },
+
+	//RSV NPC POST 8 HEART EVENT DIALOGUE
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Aguar",
+            "Entries": {
+		"nulHere": "Adopted a child? That Magnus, always something new about him.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alissa",
+            "Entries": {
+		"nulHere": "I wonder where the new person is from.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Anton",
+            "Entries": {
+		"nulHere": "That fluffy guy that dropped by the store.... You know them?",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Ariah",
+            "Entries": {
+		"nulHere": "I wonder what brought that person to our town. They seem... strange.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Bert",
+            "Entries": {
+		"nulHere": "It's always nice to have new faces in the neighborhood. I glad your friend is nice to my princess.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Blair",
+            "Entries": {
+		"nulHere": "Heya, @! Not gonna lie Nul's a pretty cool guy....$h#$b#... or is Nul a girl?$s#$b#Whatever. The point is I really wanna hang out with them more.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Bryle",
+            "Entries": {
+		"nulHere": "Animal hybrid? Hmm...",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Carmen",
+            "Entries": {
+		"nulHere": "Dios mios, @. I've never seen someone, like your friend, get so offended over a fish. It's almost humorous!$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Corine",
+            "Entries": {
+		"nulHere": "HYA- oop! Sorry, @. Just practicing my swordsmanship for a rematch with Nul.#$b#I still don't understand how they dodged every attack. It's like they were possessed.$s",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Daia",
+            "Entries": {
+		"nulHere": "Ooh cutie~ You and your friend better watch out before I steal you both for myself.$1#$b#Joking! I'm just messing with you... mostly$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Ezekiel",
+            "Entries": {
+		"nulHere": "That Nul kid... I doubt they'll ever fit in here.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Faye",
+            "Entries": {
+		"nulHere": "PAUSE! I've been given inspiration. What happens you combine a sheep and the dark art? Sleepwear of course!$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Flor",
+            "Entries": {
+		"nulHere": "I heard the kids love Nul. That'll be good for teaching if they ever feel like volunteering.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Freddie",
+            "Entries": {
+		"nulHere": "The new arrival's so lucky to visit in such a beautiful area. The scenery here is amazing.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Ian",
+            "Entries": {
+		"nulHere": "Nul's pretty strong, @. Maybe Sean and I can borrow them for delivery.$h#$b#... Or tutoring for me?$s#$b#Hm? I didn't say anything.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Irene",
+            "Entries": {
+		"nulHere": "*sigh* Good thing Nul was able to reach that all-purpose seasoning for me.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jeric",
+            "Entries": {
+		"nulHere": "Heyyy, hot stuff. Hope your not gonna forget me in favor of the fluff-meister.$h#$b#All jokes, of course, buut...#$b#I don't mind sharing with a cutie like them. Heck, I don't think I'll mind playing both your strings right. Only if you're cool with it$7",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jio",
+            "Entries": {
+		"nulHere": "That wooly friend of yours seems... familiar. Have I met them before?",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/June",
+            "Entries": {
+		"nulHere": "I guess I'm not the only talented visitor here, hehe.$h#$b#But I really do wonder how they make their spiritual light shows so realistic.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Keahi",
+            "Entries": {
+		"nulHere": "New face, new target. LET'S GOOO!!$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kenneth",
+            "Entries": {
+		"nulHere": "I saw Nul talking to squirrels near Pierre's shop yesterday. Maybe they're our local animal whisperer.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kiarra",
+            "Entries": {
+		"nulHere": "Che meraviglia! I hope Nul finds the community here as warm and friendly as we do.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kimpoi",
+            "Entries": {
+		"nulHere": "Visiting can be a big change for some. I hope Nul finds what they're looking for here.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kiwi",
+            "Entries": {
+		"nulHere": "Shoo! Kiwi friend have fluffy friend with tail and mystery eyes. Where eyes? Why tail?",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lenny",
+            "Entries": {
+		"nulHere": "It's nice to see that our town is still attracting new residents. Especially this time of the year.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lola",
+            "Entries": {
+		"nulHere": "It's nice to see some fresh energy around here, regardless of species background.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lorenzo",
+            "Entries": {
+		"nulHere": "@ when you see that friend of yours tell them I said 'Benvenuto nella nostra comunità'.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Louie",
+            "Entries": {
+		"nulHere": "I hope the new guy is really wealthy, but not more than me!$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maddie",
+            "Entries": {
+		"nulHere": "That visitor's absolutely ador-$h#$b#*ahem* I doubt they'll understand our local traditions and customs, so why even bother to visit.$a",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maive",
+            "Entries": {
+		"nulHere": "I hope that Nul character won't ruin the town with their black magic ideologies.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Malaya",
+            "Entries": {
+		"nulHere": "Let's make sure Nul knows about the best places to eat in town!$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Naomi",
+            "Entries": {
+		"nulHere": "@, how comes you never told me that Nul spoke a conversational level of my language?$a#$b#You didn't know? Well then it's a surprise for the both of us.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Olga",
+            "Entries": {
+		"nulHere": "I heard Nul's into gardening. Maybe I'll see them helping out the local farmers.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Paula",
+            "Entries": {
+		"nulHere": "Hm... I wonder if Harvey has veterinary files or... oh, hello @!",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Philip",
+            "Entries": {
+		"nulHere": "Hey @, Nul might need to hear this from a close friend so could tell them to take it easy for a few day? They seemed sluggish and close to passing out.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pika",
+            "Entries": {
+		"nulHere": "Anu Oluwa... @, please take this to Nul, they seem exhausted and I'd hate to see anyone in that state. Just this once it's on the house.$a[237]",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Richard",
+            "Entries": {
+		"nulHere": "A new resident means new stories and experiences to share. I hope they drop by to tell a few. Maybe book a room if they want t spend the night.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sean",
+            "Entries": {
+		"nulHere": "It's crazy how Nul can pass for a guy and a girl. Pretty cool superpower to come by naturally.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shanice",
+            "Entries": {
+		"nulHere": "People come here from all over. And I guess some come from caves too.$h#$b#I hope they find our town welcoming.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shiro",
+            "Entries": {
+		"nulHere": "It's nice that your so will to help around. I get a bit walking exercises done and Yuuma doesn't have to worry about me and enjoy being a kid.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sonny",
+            "Entries": {
+		"nulHere": "May the River Goddess bless Master Nul and all their future endevours.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Torts",
+            "Entries": {
+		"nulHere": "%Torts is nestling on a piece off black wool... I hope he asked for that.",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Trinnie",
+            "Entries": {
+		"nulHere": "Heehee! I love it when Nul plays princess with me and Jas.$h#$b#Psst... @, between you and me, they make a prettier princess than my dad. Shh! Don't tell him, I said that!",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Undreya",
+            "Entries": {
+		"nulHere": "Aww man... that new guy could see through my master shapeshifting.$s",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Ysabelle",
+            "Entries": {
+		"nulHere": "Oh boy... that Nul really has two left feet.$h#$b#... or hooves... Wait, what DOES Nul have?$s",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Yuuma",
+            "Entries": {
+		"nulHere": "Nul is nice... they helped me carry some stuff back home.$h",
+            }
+        },
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Zayne",
+            "Entries": {
+		"nulHere": "Nul? I haven't had a chance to meet them yet, but I'm looking forward to it.",
+            }
+        },
+
+	//AGE NPC POST 8 HEART EVENT DIALOGUE
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gabriel",
+            "Entries": {
+		"nulHere": "You don't think Nul is dangerous, right @?$s",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Silly",
+            "Entries": {
+		"nulHere": "Nul want slime friend? Silly make best slime friend!$h",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Zinnia",
+            "Entries": {
+		"nulHere": "Haha! Hey @, has Nul ever picked you up and spun you around? You should ask them to. It's fun!$h",
+            }
+        },
+
+],
+}

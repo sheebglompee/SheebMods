@@ -1,0 +1,11 @@
+{
+    "Name": "Yri the Architect - Nala",
+    "Author": "Yri",
+    "Description": "Adds Nala",
+    "Version": "1.0.0",
+    "UniqueID": "Yri.YriCC",
+    "ContentPackFor": {
+        "UniqueID": "PeacefulEnd.CustomCompanions",
+        "MinimumVersion": "1.6.3"
+    }
+}   

@@ -1,0 +1,16 @@
+{
+  "Changes": [
+    {
+      "LogName": "Haley scared sprite frame",
+      "Action": "EditImage",
+      "Target": "Characters/Haley",
+      "FromFile": "assets/haley_scared.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 256,
+        "Width": 16,
+        "Height": 32
+      }
+    }
+  ]
+}

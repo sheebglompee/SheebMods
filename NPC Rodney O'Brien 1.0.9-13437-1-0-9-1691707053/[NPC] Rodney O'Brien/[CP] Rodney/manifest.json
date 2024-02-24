@@ -1,0 +1,32 @@
+{
+   "Name": "[NPC] Rodney O'Brien",
+   "Author": "TheFrenchDodo",
+   "Description": "Adds a friendly writer that also happens to be Elliott's uncle.",
+   "Version": "1.0.9",
+   "UniqueID": "TheFrenchDodo.RodneyOBrien",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+   "Dependencies": [
+      {
+         "UniqueID": "LemurKat.EastScarpe.CP",
+      },
+      {
+         "UniqueID": "Lumisteria.TtilesheetsOutdoor",
+      },
+      {
+         "UniqueID": "PurrplingCat.CustomGiftDialogue",
+      },
+      {
+         "UniqueID": "spacechase0.JsonAssets",
+      },
+	  {
+         "UniqueID": "DecidedlyHuman.MappingExtensionsAndExtraProperties",
+         "IsRequired": false,
+	  },
+
+   ],
+   "UpdateKeys": [
+      "Nexus:13437"
+   ],
+}

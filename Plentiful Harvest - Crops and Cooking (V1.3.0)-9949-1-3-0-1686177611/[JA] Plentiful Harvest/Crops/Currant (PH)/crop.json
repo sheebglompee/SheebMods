@@ -1,0 +1,46 @@
+{
+    "Name": "Currant (PH)", 
+    "Product": "Currant (PH)",
+    "SeedName": "Currant Seeds (PH)", 
+    "SeedDescription": "Plant these in the summer. Takes 8 days to mature into a currant bush. Continues to produce after their first harvest.", 
+    "Type": "Fruit", 
+    "CropType": "Normal", 
+    "Seasons": ["summer"], 
+    "Phases": [1, 1, 2, 2, 2], 
+    "RegrowthPhase": 2, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": false,
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "STF.PlentifulHarvest", 
+    "SeedPurchasePrice": 45, 
+
+    "SeedNameLocalization":
+    {
+        "default": "Currant Seeds",
+		"es": "Currant Seeds", 
+        "ko": "Currant Seeds", 
+        "de": "Johannisbeeren-Saat", 
+        "fr": "Currant Seeds", 
+        "hu": "Currant Seeds", 
+        "it": "Currant Seeds", 
+        "ja": "Currant Seeds", 
+        "pt": "Currant Seeds", 
+        "ru": "Семена смородины", 
+        "tr": "Currant Seeds", 
+        "zh": "红加仑种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plant these in the summer. Takes 8 days to mature into a currant bush. Continues to produce after their first harvest.", 
+        "ko": "Plant these in the summer. Takes 8 days to mature into a currant bush. Continues to produce after their first harvest.", 
+        "de": "Pflanze sie im Sommer. Wächst in 8 Tagen zu einem Johannisbeerenstrauch heran. Kann mehrmals geerntet werden.", 
+        "fr": "Plant these in the summer. Takes 8 days to mature into a currant bush. Continues to produce after their first harvest.", 
+        "hu": "Plant these in the summer. Takes 8 days to mature into a currant bush. Continues to produce after their first harvest.", 
+        "it": "Plant these in the summer. Takes 8 days to mature into a currant bush. Continues to produce after their first harvest.", 
+        "ja": "Plant these in the summer. Takes 8 days to mature into a currant bush. Continues to produce after their first harvest.", 
+        "pt": "Plant these in the summer. Takes 8 days to mature into a currant bush. Continues to produce after their first harvest.", 
+        "ru": "Сажайте летом. Через 8 дней вырастает куст смородины, который и после первого сбора будет продолжать плодоносить.", 
+        "tr": "Plant these in the summer. Takes 8 days to mature into a currant bush. Continues to produce after their first harvest.", 
+        "zh": "夏天种植。 需要8天才能成熟成红加仑丛。 在第一次收获后继续结果。", 
+    }
+}

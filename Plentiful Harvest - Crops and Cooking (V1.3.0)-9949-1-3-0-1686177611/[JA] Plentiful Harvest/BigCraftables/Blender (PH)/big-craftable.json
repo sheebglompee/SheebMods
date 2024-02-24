@@ -1,0 +1,57 @@
+﻿{
+    "Name": "Blender (PH)",
+    "Description": "This handy blender can turn nuts into nut milk or fruits and vegetables into smoothies if milk is added.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 2,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 335,
+            "Count": 1,
+        },
+        {
+            "Object": 388,
+            "Count": 10,
+        },
+        {
+            "Object": 80,
+            "Count": 5,
+        }, ],
+        "CanPurchase": false,
+    },
+// Localization
+
+    "NameLocalization":
+    {
+        "default": "Blender",
+		"es": "Blender", //Spansih
+        "ko": "Blender", //Korean
+        "de": "Mixer", //German
+        "fr": "Blender", //French
+        "hu": "Blender", //Hungarian
+        "it": "Blender", //Italian
+        "ja": "Blender", //Japanese
+        "pt": "Blender", //Portuguese
+        "ru": "Блендер", //Russian
+        "tr": "Blender", //Turkish
+        "zh": "搅拌机", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "This handy blender can turn nuts into nut milk or fruits and vegetables into smoothies if milk is added.", //Spansih
+        "ko": "This handy blender can turn nuts into nut milk or fruits and vegetables into smoothies if milk is added.", //Korean
+        "de": "Dieser handliche Mixer kann aus Nüssen Nussmilch herstellen und aus Obst und Gemüse Smoothies, wenn Milch hinzugefügt wird.", //German
+        "fr": "This handy blender can turn nuts into nut milk or fruits and vegetables into smoothies if milk is added.", //French
+        "hu": "This handy blender can turn nuts into nut milk or fruits and vegetables into smoothies if milk is added.", //Hungarian
+        "it": "This handy blender can turn nuts into nut milk or fruits and vegetables into smoothies if milk is added.", //Italian
+        "ja": "This handy blender can turn nuts into nut milk or fruits and vegetables into smoothies if milk is added.", //Japanese
+        "pt": "This handy blender can turn nuts into nut milk or fruits and vegetables into smoothies if milk is added.", //Portuguese
+        "ru": "Этот удобный блендер может превратить орехи в ореховое молоко или фрукты и овощи в смузи, если добавить молоко.", //Russian
+        "tr": "This handy blender can turn nuts into nut milk or fruits and vegetables into smoothies if milk is added.", //Turkish
+        "zh": "如果加入牛奶，这款方便的搅拌机可以将坚果变成坚果奶或将水果和蔬菜变成冰沙。", //Chinese (Simplified)
+    },
+	
+}

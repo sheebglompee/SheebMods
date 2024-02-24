@@ -1,0 +1,19 @@
+{
+  "Singular": "true",
+  "SingularBool": true,
+  "SubjectivePronoun": "He",
+  "ObjectivePronoun": "Him",
+  "PosessivePronoun": "His",
+  "Title": "Mr.",
+  "Adjective": "Gorgeous",
+  "SpouseNoun": "Husband",
+  "GenericNoun": "Guy",
+  "AdultAntiquatedNoun": "Young Man",
+  "AdultFamilialNoun": "Son",
+  "ElderAntiquatedNoun": "Lad",
+  "ElderInformalNoun": "Young Man",
+  "ElderFamilialNoun": "Son",
+  "ChildFamilialNoun": "Uncle",
+  "ServiceFormalNoun": "Sir",
+  "TraderNoun": "Sir"
+}

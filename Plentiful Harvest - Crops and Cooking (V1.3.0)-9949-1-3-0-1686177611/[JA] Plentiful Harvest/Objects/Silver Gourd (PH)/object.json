@@ -1,0 +1,52 @@
+{
+    "Name": "Silver Gourd (PH)",
+    "Description": "The blue stripes distinguish this gourd from others of its kind.",
+    "Category": "Vegetable",
+	"ContextTags": 
+        [
+        "season_winter",
+		"color_blue"
+        ],
+    "Edibility": 30,
+    "Price": 193, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Evelyn", "Marnie", "George", "Lewis", "Krobus"],
+        "Like": ["Caroline", "Gus", "Pierre"],
+        "Neutral": null, 
+        "Dislike": ["Shane", "Haley", "Sebastian", "Emily"], 
+        "Hate": ["Jas", "Vincent", "Eliott"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Silver Gourd",
+		"es": "Silver Gourd", 
+        "ko": "Silver Gourd", 
+        "de": "Silberkürbis", 
+        "fr": "Silver Gourd", 
+        "hu": "Silver Gourd", 
+        "it": "Silver Gourd", 
+        "ja": "Silver Gourd",
+        "pt": "Silver Gourd", 
+        "ru": "Тыква «Серебрянка»", 
+        "tr": "Silver Gourd",
+        "zh": "银葫芦", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "The blue stripes distinguish this gourd from others of its kind.", 
+        "ko": "The blue stripes distinguish this gourd from others of its kind.", 
+        "de": "Die blauen Streifen unterscheiden diesen Kürbis von anderen seiner Art.",
+        "fr": "The blue stripes distinguish this gourd from others of its kind.", 
+        "hu": "The blue stripes distinguish this gourd from others of its kind.",
+        "it": "The blue stripes distinguish this gourd from others of its kind.", 
+        "ja": "The blue stripes distinguish this gourd from others of its kind.", 
+        "pt": "The blue stripes distinguish this gourd from others of its kind.",
+        "ru": "Синие полосы отличают эту тыкву от других в своем роде.", 
+        "tr": "The blue stripes distinguish this gourd from others of its kind.", 
+        "zh": "这个葫芦有蓝色的条纹，有别于其他同类葫芦。",
+    },
+}

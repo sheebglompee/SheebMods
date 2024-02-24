@@ -1,0 +1,91 @@
+{
+    "Name": "Cheeseburger (PH)", 
+    "Description": "The mouthwatering american classic.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_brown",
+        "dye_medium"
+        ],
+    "Edibility": 62, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 2,
+        "Attack": 0,
+        "Duration": 120,
+    }, 
+    "Price": 150, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": 216, 
+            "Count": 1,
+        },
+		{
+            "Object": 424, 
+            "Count": 1,
+        },
+		{
+            "Object": "Ketchup (PH)", 
+            "Count": 1,
+        },
+        {
+            "Object": "Soy Meat (PH)", 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Kent", "Sam", "Vincent", "Pam", "Abigail"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Emily", "Penny"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Cheeseburger",
+		"es": "Cheeseburger", //Spansih
+        "ko": "Cheeseburger", //Korean
+        "de": "Cheeseburger", //German
+        "fr": "Cheeseburger", //French
+        "hu": "Cheeseburger", //Hungarian
+        "it": "Cheeseburger", //Italian
+        "ja": "Cheeseburger", //Japanese
+        "pt": "Cheeseburger", //Portuguese
+        "ru": "Чизбургер", //Russian
+        "tr": "Cheeseburger", //Turkish
+        "zh": "芝士汉堡", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "The mouthwatering american classic.", //Spansih
+        "ko": "The mouthwatering american classic.", //Korean
+        "de": "Der köstliche amerikanische Klassiker.", //German
+        "fr": "The mouthwatering american classic.", //French
+        "hu": "The mouthwatering american classic.", //Hungarian
+        "it": "The mouthwatering american classic.", //Italian
+        "ja": "The mouthwatering american classic.", //Japanese
+        "pt": "The mouthwatering american classic.", //Portuguese
+        "ru": "Американская классика с восхитительным вкусом.", //Russian
+        "tr": "The mouthwatering american classic.", //Turkish
+        "zh": "令人垂涎的美国经典汉堡。", //Chinese (Simplified)
+    },
+	
+}

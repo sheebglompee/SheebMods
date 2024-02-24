@@ -1,0 +1,15 @@
+{
+    "Name": "Linus CD",
+    "Description": "Linus personal playlist!",
+    "Category": "Crafting",
+    "Edibility": 0,
+    "EdibleIsDrink": false,
+    "Price": 0,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {
+        "Love": ["Linus"],
+        "Like": ["Harvey","Leah"],
+        "Hate": ["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Kent","Krobus","Leo","Lewis","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]
+    }
+}

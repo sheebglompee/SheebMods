@@ -1,0 +1,51 @@
+{
+    "Name": "Dairy-Free Cheese (PH)",
+    "Description": "Non dairy cheese made from nut or other non-dairy milk.",
+    "Category": "ArtisanGoods",
+	"ContextTags": 
+        [
+		"color_yellow"
+        ],
+    "Edibility": 13,
+    "Price": 310, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": null,
+        "Like": ["Evelyn", "Jodi", "Leah", "Linus", "Marnie", "Pam", "Penny", "Pierre", "Robin", "Leo", "Krobus", "Dwarf", "Demetrius", "Abigail", "Caroline", "Wizard", "Shane", "Willy", "Kent", "Clint", "George", "Maru", "Sandy", "Gus", "Haley", "Alex"],
+        "Neutral": null, 
+        "Dislike": ["Harvey"], 
+        "Hate": ["Sebastian", "Jas", "Vincent"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Dairy-Free Cheese",
+		"es": "Dairy-Free Cheese", 
+        "ko": "Dairy-Free Cheese", 
+        "de": "Milchfreier Käse", 
+        "fr": "Dairy-Free Cheese", 
+        "hu": "Dairy-Free Cheese", 
+        "it": "Dairy-Free Cheese", 
+        "ja": "Dairy-Free Cheese",
+        "pt": "Dairy-Free Cheese", 
+        "ru": "Безмолочный сыр", 
+        "tr": "Dairy-Free Cheese",
+        "zh": "无乳奶酪", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Non dairy cheese made from nut or other non-dairy milk.", 
+        "ko": "Non dairy cheese made from nut or other non-dairy milk.", 
+        "de": "Milchfreier Käse, der aus einer Nuss oder anderer milchfreien Milch hergestellt wird.",
+        "fr": "Non dairy cheese made from nut or other non-dairy milk.", 
+        "hu": "Non dairy cheese made from nut or other non-dairy milk.",
+        "it": "Non dairy cheese made from nut or other non-dairy milk.", 
+        "ja": "Non dairy cheese made from nut or other non-dairy milk.", 
+        "pt": "Non dairy cheese made from nut or other non-dairy milk.",
+        "ru": "Сыр из орехов или других немолочных ингридиентов.", 
+        "tr": "Non dairy cheese made from nut or other non-dairy milk.", 
+        "zh": "由坚果或其他非乳制品制成的非乳制品奶酪。  ",
+    },
+}

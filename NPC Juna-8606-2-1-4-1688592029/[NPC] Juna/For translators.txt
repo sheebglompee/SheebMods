@@ -1,0 +1,47 @@
+FOR TRANSLATORS
+
+2.1.4
+Added new dialogue when inviting roommate Juna to the movies, marked with NEW in the default.json
+
+GENERAL TRANSLATION INSTRUCTIONS
+
+There are four things that need to be translated in Juna:
+
+- The default.json in the i18n folder
+	Contains the majority of Juna's content. When you're done, simple rename your file using the appropriate language code (example: es.json for Spanish).
+
+- The DialogueForTranslation.json in the Translation folder
+	Contains Juna's daily dialogue. When you've translated this, I recommend sending it to me so I can help you put it back in its proper place. As you can see in the Dialogue folder, Juna's daily dialogue is split between 3 different files, and it can be confusing putting it back yourself. Simply translating this document and leaving it as is won't work.
+
+- Juna's ring, i.e. the object.json in the [CC] Juna Companion Ring/Objects/JunaRing folder.
+	- Add your translation of the name and description next to your language code under "NameLocalization" and "DescriptionLocalization" and remove the two // in front of the code.
+	- Replace the English text after "CategoryTextOverride" with your translation.
+
+- Juna's painting, i.e. the object.json in the [JA] Juna Roommate Item/Objects/Painting of Juna folder
+	- Add your translation of the name and description next to your language code under "NameLocalization" and "DescriptionLocalization" and remove the two // in front of the code.
+	- Replace the English text after "CategoryTextOverride" with your translation.
+
+When you're ready to upload your translation mod, the folder structure should look like this in order for your translation to overwrite the English text properly:
+
+[NPC] Juna
+|
+|-[CC] Juna Companion Ring
+|	|-Objects
+|		|-JunaRing
+|			|-object.json
+|
+|-[CP] Juna
+|	|-assets
+|		|-Dialogue
+|			|-Dialogue.json
+|			|-Dialogue2.json
+|			|-Dialogue3.json
+|	|-i18n
+|		|-yourlanguagecode.json
+|
+|-[JA] Juna Roommate Item
+|	|-Objects
+|		|-Painting of Juna
+|			|-object.json
+
+If you need any help (with anything!), feel free to DM me on Discord, Nexus or ModDrop.

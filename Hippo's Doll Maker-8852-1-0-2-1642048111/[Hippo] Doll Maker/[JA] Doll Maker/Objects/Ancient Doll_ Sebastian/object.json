@@ -1,0 +1,59 @@
+{
+	"Name": "Sebastian Doll",
+	"Description": "Handcrafted doll made from repurposed materials and forage. Looks like Sebastian.",
+	"Category": "Crafting",
+	"CategoryTextOverride": "Doll",
+	"Edibility": -300,
+	"Price": 300,
+	"IsColored": false,
+	"Recipe": {
+		"ResultCount": 1,
+		"Ingredients": [
+			{
+				"Object": 416, //Snow Yam
+				"Count": 1
+			},
+			{
+				"Object": 168, //Trash
+				"Count": 1
+			},
+			{
+				"Object": "Base Doll",
+				"Count": 1
+			}
+		],
+		"IsDefault": true
+	},
+	"GiftTastes": {
+		"Love": ["Abigail", "Demetrius", "Robin", "Sam", "Jeric"],
+		"Like": [
+			"Emily",
+			"Leah",
+			"Jas",
+			"Maru",
+			"Penny",
+			"Sebastian",
+			"Trinnie",
+			"Keahi",
+			"Philip"
+		],
+		"Neutral": [
+			"Alex",
+			"Elliott",
+			"Haley",
+			"Harvey",
+			"Shane",
+			"Vincent",
+			"Yuuma",
+			"Flor",
+			"Maddie"
+		]
+	},
+	"NameLocalization": {
+		"ko": "세바스찬 인형"
+	},
+	"DescriptionLocalization": {
+		"ko": "재활용품과 채집물로 만든 수공예 인형. 세바스찬을 닮았습니다."
+	},
+	"CanPurchase": false
+}

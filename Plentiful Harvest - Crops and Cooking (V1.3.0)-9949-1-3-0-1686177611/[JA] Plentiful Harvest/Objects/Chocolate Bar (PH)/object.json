@@ -1,0 +1,87 @@
+{
+    "Name": "Chocolate Bar (PH)", 
+    "Description": "Now this is the good stuff. It's popular for a reason.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_brown",
+        "dye_strong"
+        ],
+    "Edibility": 50, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 1,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 100,
+    }, 
+    "Price": 200, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": -6, 
+            "Count": 1,
+        },
+		{
+            "Object": 245, 
+            "Count": 1,
+        },
+        {
+            "Object": "Cocoa Powder (PH)", 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Vincent", "Sam", "Shane", "Abigail", "Haley", "Kent"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Caroline"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Chocolate Bar",
+		"es": "Chocolate Bar", //Spansih
+        "ko": "Chocolate Bar", //Korean
+        "de": "Schokoladenriegel", //German
+        "fr": "Chocolate Bar", //French
+        "hu": "Chocolate Bar", //Hungarian
+        "it": "Chocolate Bar", //Italian
+        "ja": "Chocolate Bar", //Japanese
+        "pt": "Chocolate Bar", //Portuguese
+        "ru": "Плитка шоколада", //Russian
+        "tr": "Chocolate Bar", //Turkish
+        "zh": "巧克力棒", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Now this is the good stuff. It's popular for a reason.", //Spansih
+        "ko": "Now this is the good stuff. It's popular for a reason.", //Korean
+        "de": "Das ist das wirklich gute Zeug. Es ist aus gutem Grund so beliebt.", //German
+        "fr": "Now this is the good stuff. It's popular for a reason.", //French
+        "hu": "Now this is the good stuff. It's popular for a reason.", //Hungarian
+        "it": "Now this is the good stuff. It's popular for a reason.", //Italian
+        "ja": "Now this is the good stuff. It's popular for a reason.", //Japanese
+        "pt": "Now this is the good stuff. It's popular for a reason.", //Portuguese
+        "ru": "Вкуснотища! Шоколад популярен не просто так.", //Russian
+        "tr": "Now this is the good stuff. It's popular for a reason.", //Turkish
+        "zh": "这才是好东西。它受欢迎是有原因的。", //Chinese (Simplified)
+    },
+	
+}

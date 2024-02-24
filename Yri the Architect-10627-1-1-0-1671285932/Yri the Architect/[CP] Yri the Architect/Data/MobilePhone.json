@@ -1,0 +1,31 @@
+{
+    "Changes": [
+
+
+//Yri
+{
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Yri",
+    "Entries":
+          {
+    "MobilePhoneGreeting": "Hey, it's nice to hear your voice! How are you today, @?",
+    "MobilePhoneReminisce": "Hey do you remember when we...",
+    "MobilePhoneGoodBye": "Bye-bye, it was nice talking to you."
+    }
+  },
+
+//Charles
+{
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Charles",
+    "Entries":
+          {
+    "MobilePhoneGreeting": "Hey, what's up?",
+    "MobilePhoneReminisce": "You want to take a stroll down memory lane?",
+    "MobilePhoneGoodBye": "Goodbye, @."
+    }
+  },
+  
+
+               ]
+}

@@ -1,0 +1,90 @@
+{
+    "Name": "Cucumber Salad (PH)", 
+    "Description": "Crisp cucumber slices tossed in an exotic honey-garlic yogurt dressing.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_green"
+        ],
+    "Edibility": 80, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 3,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 240,
+    }, 
+    "Price": 440, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Cucumber (PH)", 
+            "Count": 1,
+        },
+		{
+            "Object": 248,
+            "Count": 1,
+        },
+		{
+            "Object": 340, 
+            "Count": 1,
+        },
+        {
+            "Object": -6, 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Gus", "Caroline"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Willy", "Pam"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Cucumber Salad",
+		"es": "Cucumber Salad", //Spansih
+        "ko": "Cucumber Salad", //Korean
+        "de": "Gurkensalat", //German
+        "fr": "Cucumber Salad", //French
+        "hu": "Cucumber Salad", //Hungarian
+        "it": "Cucumber Salad", //Italian
+        "ja": "Cucumber Salad", //Japanese
+        "pt": "Cucumber Salad", //Portuguese
+        "ru": "Огуречный салат", //Russian
+        "tr": "Cucumber Salad", //Turkish
+        "zh": "黄瓜沙拉", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Crisp cucumber slices tossed in an exotic honey-garlic yogurt dressing.", //Spansih
+        "ko": "Crisp cucumber slices tossed in an exotic honey-garlic yogurt dressing.", //Korean
+        "de": "Knusprige Gurkenstücke geschwenkt in einem exotischen Honig-Knoblauch-Joghurt-Dressing.", //German
+        "fr": "Crisp cucumber slices tossed in an exotic honey-garlic yogurt dressing.", //French
+        "hu": "Crisp cucumber slices tossed in an exotic honey-garlic yogurt dressing.", //Hungarian
+        "it": "Crisp cucumber slices tossed in an exotic honey-garlic yogurt dressing.", //Italian
+        "ja": "Crisp cucumber slices tossed in an exotic honey-garlic yogurt dressing.", //Japanese
+        "pt": "Crisp cucumber slices tossed in an exotic honey-garlic yogurt dressing.", //Portuguese
+        "ru": "Хрустящие ломтики огурца, брошенные в экзотический йогуртовый соус из меда и чеснока.", //Russian
+        "tr": "Crisp cucumber slices tossed in an exotic honey-garlic yogurt dressing.", //Turkish
+        "zh": "酥脆的黄瓜片加入异国风调的蜂蜜大蒜酸奶酱。", //Chinese (Simplified)
+    },
+	
+}

@@ -1,0 +1,87 @@
+{
+    "Name": "Steak Sauce (PH)", 
+    "Description": "A bottle of homemade steak sauce.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_brown",
+        "dye_medium"
+        ],
+    "Edibility": 10, 
+    "EdibleIsDrink": true, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 1,
+        "Duration": 100,
+    },
+    "Price": 220, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": 248,
+            "Count": 1,
+        },
+		{
+            "Object": 419,
+            "Count": 1,
+        },
+        {
+            "Object": "Ketchup (PH)", 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": null,
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Abigail", "Sebastian"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Steak Sauce",
+		"es": "Steak Sauce", //Spansih
+        "ko": "Steak Sauce", //Korean
+        "de": "Steaksoße", //German
+        "fr": "Steak Sauce", //French
+        "hu": "Steak Sauce", //Hungarian
+        "it": "Steak Sauce", //Italian
+        "ja": "Steak Sauce", //Japanese
+        "pt": "Steak Sauce", //Portuguese
+        "ru": "Соус для стейков", //Russian
+        "tr": "Steak Sauce", //Turkish
+        "zh": "辣肉酱", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A bottle of homemade steak sauce.", //Spansih
+        "ko": "A bottle of homemade steak sauce.", //Korean
+        "de": "Eine Flasche hausgemachter Steaksoße.", //German
+        "fr": "A bottle of homemade steak sauce.", //French
+        "hu": "A bottle of homemade steak sauce.", //Hungarian
+        "it": "A bottle of homemade steak sauce.", //Italian
+        "ja": "A bottle of homemade steak sauce.", //Japanese
+        "pt": "A bottle of homemade steak sauce.", //Portuguese
+        "ru": "Баночка домашнего соуса для стейков.", //Russian
+        "tr": "A bottle of homemade steak sauce.", //Turkish
+        "zh": "一瓶自制的辣肉酱", //Chinese (Simplified)
+    },
+	
+}

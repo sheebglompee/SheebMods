@@ -1,0 +1,49 @@
+{
+    "Name": "Panna Cotta WL",
+    "Description": "Sweet milk dessert with fresh strawberry topping.",
+    "Category": "Cooking",
+    "Edibility": 55,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+	"CanSell": false,
+    "IsColored": false,
+	"IsDefault": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": -6,
+            "Count": 1,
+        },
+        {
+            "Object": 400,
+            "Count": 1,
+        },
+		{
+            "Object": "Vanilla Bean WL",
+            "Count": 1,
+        }]
+    },
+    "GiftTastes":
+    {
+        "Love": ["Jodi"],
+        "Like": ["Elliott", "Harvey", "Sam", "Sebastian", "Shane", "Abigail", "Emily", "Haley", "Leah", "Maru", "Penny", "Dwarf", "Evelyn", "Gus", "Jas", "Lewis", "Marnie", "Pam", "Pierre", "Robin", "Sandy", "Vincent", "Wizard", "Caroline", "Clint", "Demetrius", "Sable"],
+        "Neutral": ["Alex", "Wilford", "George", "Kent", "Leo", "Linus"],
+        "Dislike": ["Krobus", "Willy"],
+    },
+
+    "NameLocalization":
+    {
+		"default": "Panna Cotta",
+		"ru": "Панна-котта",
+        "pt": "Panna Cotta",
+        "zh": "帕纳克塔"
+    },
+    "DescriptionLocalization":
+    {
+		"ru": "Сладкий молочный десерт с топпингом из свежей клубники.",
+        "pt": "Sobremesa cremosa doce coberta com morangos frescos.",
+        "zh": "甜美的牛奶甜点配上新鲜的草莓配料"
+    }
+}

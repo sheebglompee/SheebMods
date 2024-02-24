@@ -1,0 +1,11 @@
+{
+   "Name": "Smoluanu Recipes",
+   "Author": "PurpleChickadee",
+   "Version": "2.0.0",
+   "Description": "Now you can cook recipes the smoluanu (dwarf) tells you about.",
+   "UniqueID": "PurpleChickadee.SmoluanuRecipes",
+   "UpdateKeys": [],
+   "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets",
+  }
+}

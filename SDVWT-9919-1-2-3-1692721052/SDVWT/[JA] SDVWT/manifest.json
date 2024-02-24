@@ -1,0 +1,11 @@
+{
+    "Name": "[JA] SDVWT",
+    "Author": "Mortis",
+    "Version": "1.2.3",
+    "Description": "Grow your own Mary Jane and sell it. Start your Stardew Hemp-pire!",
+    "UniqueID": "Mortis.Cannabis",
+    "UpdateKeys": [ "Nexus:9919@SDVWT" ],
+    "ContentPackFor": {
+        "UniqueID": "spacechase0.JsonAssets"
+    }
+}

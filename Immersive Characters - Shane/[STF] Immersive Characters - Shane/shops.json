@@ -1,0 +1,55 @@
+{
+	"Shops": [
+		{
+			"ShopName": "ShaneSupplyShop",
+			"CategoriesToSellHere": [ -5, -6, -14, -18 ],
+			"Quote": "Need anything?",
+			"ItemStocks": [
+				{
+					"ItemType": "Object",
+					"ItemNames": [ "Hay", ],
+					"StockPrice": 50,
+				},
+				{
+					"ItemType": "BigCraftable",
+					"ItemNames": [ "Heater" ],
+					"StockPrice": 2000,
+				},
+				{
+					"ItemType": "BigCraftable",
+					"ItemNames": [ "Incubator" ],
+					"StockPrice": 5000,
+				},
+				{
+					"ItemType": "BigCraftable",
+					"ItemNames": [ "Auto-Grabber" ],
+					"When": [ "SkillLevel farming 10" ],
+					"StockPrice": 25000
+				},
+				{
+					"ItemType": "BigCraftable",
+					"ItemNames": [ "Ornamental Hay Bale" ],
+					"StockPrice": 250,
+				},
+				/* I'll add this in when STF has a perfection score condition
+				{
+					"ItemType": "Object",
+					"ItemNames": [ "Golden Egg" ],
+					"When": [],
+					"StockPrice": 100000
+				},
+				*/
+			],
+			"When": [ "NPCAt Shane 12 14 13 14", ],
+			"ClosedMessage": "We're closed. ^ - Shane",
+		},
+	],
+	"AnimalShops": [
+		{
+			"ShopName": "ShaneAnimalShop",
+			"AnimalStock": [ "Chicken", "Dairy Cow", "Duck", "Goat", "Sheep", "Rabbit", "Pig" ],
+			"When": [ "NPCAt Shane 12 14 13 14", ],
+			"ClosedMessage": "We're closed. ^ - Shane",
+		},
+	]
+}

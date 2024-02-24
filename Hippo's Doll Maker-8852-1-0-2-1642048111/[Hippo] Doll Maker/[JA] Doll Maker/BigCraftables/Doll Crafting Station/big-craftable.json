@@ -1,0 +1,36 @@
+{
+	"Name": "Doll Crafting Station",
+	"Description": "A workbench perfectly fitted to make lovely dolls.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveNextIndex": false,
+	"Recipe": {
+		"ResultCount": 1,
+		"Ingredients": [
+			{
+				"Object": 388, //Wood
+				"Count": 50,
+			},
+			{
+				"Object": 428, //Cloth
+				"Count": 5,
+			},
+			{
+				"Object": 335, //Iron Bar
+				"Count": 1,
+			},
+		],
+        "CanPurchase": true,
+		"PurchaseFrom": "Robin",
+		"PurchasePrice": 3500,
+    },
+    "CanPurchase": true,
+    "PurchaseFrom": "Clint",
+    "PurchasePrice": 2000,
+    "NameLocalization": { 
+        "ko": "인형 작업대",
+	},
+ 	"DescriptionLocalization": { 
+        "ko": "사랑스러운 인형들을 만들기 딱 좋은 작업대.",
+	},
+}

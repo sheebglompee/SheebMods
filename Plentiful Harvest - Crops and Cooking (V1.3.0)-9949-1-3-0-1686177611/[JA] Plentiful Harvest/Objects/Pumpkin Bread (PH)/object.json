@@ -1,0 +1,91 @@
+{
+    "Name": "Pumpkin Bread (PH)", 
+    "Description": "It smells deliciously like fall.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_brown",
+        "dye_medium"
+        ],
+    "Edibility": 64, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 2,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 180,
+    },
+    "Price": 250, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": 246, 
+            "Count": 1,
+        },
+		{
+            "Object": 276,
+            "Count": 1,
+        },
+		{
+            "Object": -5,
+            "Count": 1,
+        },
+        {
+            "Object": -6,
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Abigail"],
+        "Like": null,
+        "Neutral": ["Krobus"], 
+        "Dislike": ["Willy"], 
+        "Hate": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Pumpkin Bread",
+		"es": "Pumpkin Bread", //Spansih
+        "ko": "Pumpkin Bread", //Korean
+        "de": "Kürbisbrot", //German
+        "fr": "Pumpkin Bread", //French
+        "hu": "Pumpkin Bread", //Hungarian
+        "it": "Pumpkin Bread", //Italian
+        "ja": "Pumpkin Bread", //Japanese
+        "pt": "Pumpkin Bread", //Portuguese
+        "ru": "Тыквенный хлеб", //Russian
+        "tr": "Pumpkin Bread", //Turkish
+        "zh": "南瓜面饼", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "It smells deliciously like fall.", //Spansih
+        "ko": "It smells deliciously like fall.", //Korean
+        "de": "Es riecht köstlich wie der Herbst.", //German
+        "fr": "It smells deliciously like fall.", //French
+        "hu": "It smells deliciously like fall.", //Hungarian
+        "it": "It smells deliciously like fall.", //Italian
+        "ja": "It smells deliciously like fall.", //Japanese
+        "pt": "It smells deliciously like fall.", //Portuguese
+        "ru": "Восхитительно пахнет осенью.", //Russian
+        "tr": "It smells deliciously like fall.", //Turkish
+        "zh": "秋天的味道~", //Chinese (Simplified)
+    },
+	
+}

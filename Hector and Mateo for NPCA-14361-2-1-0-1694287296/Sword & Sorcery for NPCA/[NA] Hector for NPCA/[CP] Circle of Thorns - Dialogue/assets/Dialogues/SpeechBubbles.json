@@ -1,0 +1,40 @@
+{
+  "Changes": [
+    {
+      "LogName": "Hector NPC Adventure Speech Bubbles",
+      "Action": "EditData",
+      "Target": "Strings/SpeechBubbles",
+      "Entries": {
+		  "ambient_Forest_Hector": "There's no place like home.",
+		  "ambient_WizardHouse_Hector": "I don't get along well with organized magic.",
+		  "ambient_Mine_Hector": "There's not enough grass down here.",
+		  "ambient_Mine_Hector~1": "This is nothing like when we play tabletop-",
+		  "ambient_Mine_Hector~2": "Why do you do this to yourself-?",
+		  "ambient_Mine_Hector~3": "It's stinky down here. Or is that you?",
+		  "ambient_Town_Hector": "I don't really come here often...",
+		  "ambient_Town_Hector~1": "There's so many people around.",
+		  "ambient_Town_Hector~2": "People like Mateo must keep your doctor in business.",
+		  "ambient_Mountain_Hector": "Its very pretty up here.",
+		  "ambient_Beach_Hector": "Is this where you and Mateo come to brood?",
+		  "ambient_Beach_Hector~1": "The ocean is rife with unknowns.",
+		  "ambient_Desert_Hector": "I don't like sand!",
+		  "ambient_Desert_Hector~1": "Sand's coarse and rough and irritating!",
+		  "ambient_Desert_Hector~3": "Sand gets everywhere!",
+		  "ambient_SeedShop_Hector": "Oooh, small-business capitalism.",
+		  "ambient_SeedShop_Hector~2": "Just steal seeds, it's ethical.",
+		  "ambient_Saloon_Hector": "No shoes, no service? Really?",
+		  "ambient_Saloon_Hector~1": "I don't drink much, actually.",
+		  "ambient_Saloon_Hector~2": "More of a smoker than a drinker.",
+		  "ambient_ArchaeologyHouse_Hector": "Oh, are we supposed to be quiet here?",
+		  "ambient_ArchaeologyHouse_Hector~1": "Didn't Mateo rob this place?",
+		  "ambient_Railroad_Hector": "Uh... is that warp still open in the dumpster?",
+		  "ambient_Railroad_Hector~1": "The view from the summit is beautiful.",
+		  "fight_Hector": "EHEHEHEHEHEHEHE!",
+		  "fight_Hector~1": "I love violence!",
+		  "fight_Hector~2": "Fight me, scrublord, I'm ripped!",
+		  "fight_Hector~3": "Eat my shorts!",
+		  "fight_Hector~4": "Get dunked on!"
+	  },
+    },
+  ]
+}

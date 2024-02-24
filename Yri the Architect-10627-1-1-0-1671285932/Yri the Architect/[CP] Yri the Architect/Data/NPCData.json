@@ -1,0 +1,35 @@
+{
+"Changes": [
+	
+//-------------------------
+// D I S P O S I T I O N S 
+//-------------------------
+
+	{
+		"LogName": "NPC Dispositions",
+		"Action": "EditData",
+		"Target": "Data/NPCDispositions",
+		"Entries": {
+		
+	        "Yri": "adult/polite/outgoing/positive/female/non-datable/null/Town/spring 28//Custom_Yri_House 12 4 2/Yri",
+    	    "Charles": "adult/neutral/neutral/neutral/male/non-datable/null/Town/spring 3//Custom_Yri_House 14 4 2/Charles",	
+					}
+	},
+	
+//------------------------
+// G I F T S              	
+//------------------------
+//Gifts müssen ergenzt werden.
+	{
+        "LogName": "Gift tastes",
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+        "Entries": {
+
+            "Yri": "Oh! This is amazing. Thank you so much./169 388 709 595 18/Thank you, I like this a lot./402 418 421 427 597 376/Oh... Thanks... That's nice./348 346 303/Did I somehow offend you? Why are you giving this to me?!/220/Thank you.//",
+            "Charles":"For... me?! How did you know that I love this?/192 210 213 342 636/Thanks a lot! This is great./233 194/...thanks?/728/For me? Wow... thanks.../219/Thank you.//",
+        },
+	}
+
+]
+}

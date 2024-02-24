@@ -1,0 +1,88 @@
+{
+    "Name": "Buffalo Wing (PH)", 
+    "Description": "This is pretty spicy!", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_orange",
+        "dye_medium"
+        ],
+    "Edibility": 60, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 1,
+        "Defense": 0,
+        "Attack": 2,
+        "Duration": 150,
+    }, 
+    "Price": 450, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Chicken Wing (PH)", 
+            "Count": 1,
+        },
+		{
+            "Object": 260, 
+            "Count": 1,
+        },
+        {
+            "Object": 419, 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Shane", "Lewis", "Pam"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Leah", "Krobus"], 
+        "Hate": ["Vincent", "Jas", "Evelyn", "Leo"],
+    },
+
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Buffalo Wing",
+		"es": "Buffalo Wing", //Spansih
+        "ko": "Buffalo Wing", //Korean
+        "de": "Buffalo Wing", //German
+        "fr": "Buffalo Wing", //French
+        "hu": "Buffalo Wing", //Hungarian
+        "it": "Buffalo Wing", //Italian
+        "ja": "Buffalo Wing", //Japanese
+        "pt": "Buffalo Wing", //Portuguese
+        "ru": "Крылышки Баффало", //Russian
+        "tr": "Buffalo Wing", //Turkish
+        "zh": "布法罗辣鸡翅", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "This is pretty spicy!", //Spansih
+        "ko": "This is pretty spicy!", //Korean
+        "de": "Das ist ziemlich spicy!", //German
+        "fr": "This is pretty spicy!", //French
+        "hu": "This is pretty spicy!", //Hungarian
+        "it": "This is pretty spicy!", //Italian
+        "ja": "This is pretty spicy!", //Japanese
+        "pt": "This is pretty spicy!", //Portuguese
+        "ru": "Имеют очень пикантный вкус!", //Russian
+        "tr": "This is pretty spicy!", //Turkish
+        "zh": "这太辣了！！！", //Chinese (Simplified)
+    },
+	
+}

@@ -1,0 +1,83 @@
+{
+    "Name": "Almond Brittle (PH)", 
+    "Description": "It's a reasonable request, right?", 
+    "Category": "Cooking",
+	"ContextTags": 
+        [
+        "dye_medium",
+		"color_brown"
+        ],
+    "Edibility": 58, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 1,
+        "Defense": 1,
+        "Attack": 0,
+        "Duration": 120,
+    }, 
+    "Price": 190, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Caramel (PH)", 
+            "Count": 1,
+        },
+        {
+            "Object": "Almond (PH)", 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Lewis"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Demetrius"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Almond Brittle",
+		"es": "Almond Brittle", //Spansih
+        "ko": "Almond Brittle", //Korean
+        "de": "Mandelkrokant", //German
+        "fr": "Almond Brittle", //French
+        "hu": "Almond Brittle", //Hungarian
+        "it": "Almond Brittle", //Italian
+        "ja": "Almond Brittle", //Japanese
+        "pt": "Almond Brittle", //Portuguese
+        "ru": "Миндальная крошка", //Russian
+        "tr": "Almond Brittle", //Turkish
+        "zh": "杏仁脆片", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "It's a reasonable request, right?", //Spansih
+        "ko": "It's a reasonable request, right?", //Korean
+        "de": "Es ist eine nachvollziehbare Bitte, oder?", //German
+        "fr": "It's a reasonable request, right?", //French
+        "hu": "It's a reasonable request, right?", //Hungarian
+        "it": "It's a reasonable request, right?", //Italian
+        "ja": "It's a reasonable request, right?", //Japanese
+        "pt": "It's a reasonable request, right?", //Portuguese
+        "ru": "Хм, в этом определенно что-то есть...", //Russian
+        "tr": "It's a reasonable request, right?", //Turkish
+        "zh": "这是个合理的要求，对吧?", //Chinese (Simplified)
+    },
+	
+}

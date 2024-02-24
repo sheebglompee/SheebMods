@@ -1,0 +1,34 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "Marlowe 19 20 3"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "Marlowe 32 10 2"
+        }
+      ],
+      {
+        "LogName": "Dialogue for summer11",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "Entries": {
+          "Marlowe": "Mmm. I love meat."
+        }
+      }
+    }
+  ]
+},

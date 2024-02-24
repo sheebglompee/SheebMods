@@ -1,0 +1,15 @@
+﻿{
+    "Name": "Wild Tea Leaf",
+    "Description": "A wild leaf that can be cooked like Tea, it is often used to create Kombucha.",
+    "Category": "Greens",
+    "Edibility": 15,
+    "Price": 25,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Wild-Tea-Leaf",
+    "ContextTags": [
+    "color_green",
+    "forage_item",
+  ],
+}

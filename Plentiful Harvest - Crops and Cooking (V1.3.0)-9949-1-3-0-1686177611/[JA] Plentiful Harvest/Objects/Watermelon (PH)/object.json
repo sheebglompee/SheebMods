@@ -1,0 +1,53 @@
+{
+    "Name": "Watermelon (PH)",
+    "Description": "Round, juicy, and full of seeds! It's a popular picnic treat.",
+    "Category": "Fruit",
+	"ContextTags": 
+        [
+        "season_spring",
+		"color_red",
+        "dye_strong"
+        ],
+    "Edibility": 20,
+    "Price": 135, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Sam", "Kent", "Vincent"],
+        "Like": ["Pam", "Jodi", "Leo", "Linus", "Jas"],
+        "Neutral": null, 
+        "Dislike": ["Harvey"], 
+        "Hate": ["Willy", "Alex"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Watermelon",
+		"es": "Watermelon", 
+        "ko": "Watermelon", 
+        "de": "Wassermelone", 
+        "fr": "Watermelon", 
+        "hu": "Watermelon", 
+        "it": "Watermelon", 
+        "ja": "Watermelon",
+        "pt": "Watermelon", 
+        "ru": "Арбуз", 
+        "tr": "Watermelon",
+        "zh": "西瓜", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Round, juicy, and full of seeds! It's a popular picnic treat.", 
+        "ko": "Round, juicy, and full of seeds! It's a popular picnic treat.", 
+        "de": "Rund, fruchtig und voller Kerne! Sie ist ein beliebter Picknick-Snack.",
+        "fr": "Round, juicy, and full of seeds! It's a popular picnic treat.", 
+        "hu": "Round, juicy, and full of seeds! It's a popular picnic treat.",
+        "it": "Round, juicy, and full of seeds! It's a popular picnic treat.", 
+        "ja": "Round, juicy, and full of seeds! It's a popular picnic treat.", 
+        "pt": "Round, juicy, and full of seeds! It's a popular picnic treat.",
+        "ru": "Круглый, сочный и полный косточек! Популярное лакомство для пикников.", 
+        "tr": "Round, juicy, and full of seeds! It's a popular picnic treat.", 
+        "zh": "圆圆的，汁水多，满是种子！这是一种很受欢迎的解渴水果。",
+    },
+}

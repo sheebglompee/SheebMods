@@ -1,0 +1,91 @@
+{
+    "Name": "Spicy Squash Taco (PH)", 
+    "Description": "The squash just melts in your mouth. It’s got a kick!", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_brown",
+        "dye_medium"
+        ],
+    "Edibility": 62, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 2,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 1,
+        "Duration": 110,
+    }, 
+    "Price": 280, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": 229, 
+            "Count": 1,
+        },
+		{
+            "Object": 260, 
+            "Count": 1,
+        },
+		{
+            "Object": "Butternut Squash (PH)", 
+            "Count": 1,
+        },
+        {
+            "Object": 266,
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Pierre"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Vincent"],
+    },
+    
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Spicy Squash Taco",
+		"es": "Spicy Squash Taco", //Spansih
+        "ko": "Spicy Squash Taco", //Korean
+        "de": "Scharfer Kürbis-Taco", //German
+        "fr": "Spicy Squash Taco", //French
+        "hu": "Spicy Squash Taco", //Hungarian
+        "it": "Spicy Squash Taco", //Italian
+        "ja": "Spicy Squash Taco", //Japanese
+        "pt": "Spicy Squash Taco", //Portuguese
+        "ru": "Острые тако из мускатной тыквы", //Russian
+        "tr": "Spicy Squash Taco", //Turkish
+        "zh": "香辣南瓜玉米卷", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "The squash just melts in your mouth. It’s got a kick!", //Spansih
+        "ko": "The squash just melts in your mouth. It’s got a kick!", //Korean
+        "de": "Der Kürbis schmilzt sofort in deinem Mund. Es hat das gewisse Extra!", //German
+        "fr": "The squash just melts in your mouth. It’s got a kick!", //French
+        "hu": "The squash just melts in your mouth. It’s got a kick!", //Hungarian
+        "it": "The squash just melts in your mouth. It’s got a kick!", //Italian
+        "ja": "The squash just melts in your mouth. It’s got a kick!", //Japanese
+        "pt": "The squash just melts in your mouth. It’s got a kick!", //Portuguese
+        "ru": "Тыква просто тает во рту. В этом есть что-то особенное!", //Russian
+        "tr": "The squash just melts in your mouth. It’s got a kick!", //Turkish
+        "zh": "南瓜入口即化。我保证！", //Chinese (Simplified)
+    },
+	
+}

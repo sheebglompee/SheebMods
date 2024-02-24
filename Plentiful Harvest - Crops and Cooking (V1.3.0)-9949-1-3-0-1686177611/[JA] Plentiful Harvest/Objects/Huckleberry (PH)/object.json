@@ -1,0 +1,53 @@
+{
+    "Name": "Huckleberry (PH)",
+    "Description": "This berry is a delicious alpine treat. They only grow in certain regions in the right soil, so they're near impossible to cultivate, highly prized, and expensive.",
+    "Category": "Fruit",
+	"ContextTags": 
+        [
+        "season_fall",
+		"color_purple",
+		"dye_medium"
+        ],
+    "Edibility": 9,
+    "Price": 70, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Linus", "Leah", "Krobus"],
+        "Like": ["Marnie", "Gus", "Lewis", "Emily", "Penny", "Abigail", "Harvey", "Evelyn", "Jas", "Vincent", "Demetrius", "Maru", "Haley", "Caroline", "Pierre", "Sebastian", "Alex", "Sam"],
+        "Neutral": null, 
+        "Dislike": ["Dwarf"], 
+        "Hate": ["Eliott"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Huckleberry",
+		"es": "Huckleberry", 
+        "ko": "Huckleberry", 
+        "de": "Heidelbeere", 
+        "fr": "Huckleberry", 
+        "hu": "Huckleberry", 
+        "it": "Huckleberry", 
+        "ja": "Huckleberry",
+        "pt": "Huckleberry", 
+        "ru": "Осенняя черника", 
+        "tr": "Huckleberry",
+        "zh": "蔓越橘", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "This berry is a delicious alpine treat. They only grow in certain regions in the right soil, so they're near impossible to cultivate, highly prized, and expensive.", 
+        "ko": "This berry is a delicious alpine treat. They only grow in certain regions in the right soil, so they're near impossible to cultivate, highly prized, and expensive.", 
+        "de": "Diese Beere ist ein köstlicher Alpengenuss. Sie wachsen nur in bestimmten Regionen auf dem richtigen Boden, daher sind sie nahezu unmöglich zu kultivieren, hoch geschätzt und teuer.",
+        "fr": "This berry is a delicious alpine treat. They only grow in certain regions in the right soil, so they're near impossible to cultivate, highly prized, and expensive.", 
+        "hu": "This berry is a delicious alpine treat. They only grow in certain regions in the right soil, so they're near impossible to cultivate, highly prized, and expensive.",
+        "it": "This berry is a delicious alpine treat. They only grow in certain regions in the right soil, so they're near impossible to cultivate, highly prized, and expensive.", 
+        "ja": "This berry is a delicious alpine treat. They only grow in certain regions in the right soil, so they're near impossible to cultivate, highly prized, and expensive.", 
+        "pt": "This berry is a delicious alpine treat. They only grow in certain regions in the right soil, so they're near impossible to cultivate, highly prized, and expensive.",
+        "ru": "Данный сорт черники растет только в определенных регионах и в подходящей почве, поэтому вырастить ее в домашних условиях практически невозможно. В связи с этим высоко ценится. А ещё она очень вкусная!", 
+        "tr": "This berry is a delicious alpine treat. They only grow in certain regions in the right soil, so they're near impossible to cultivate, highly prized, and expensive.", 
+        "zh": "这种浆果是一种美味的高山美食。 它们只生长在某些地区的合适土壤中，因此它们几乎不可能种植、非常珍贵且价格昂贵。",
+    },
+}

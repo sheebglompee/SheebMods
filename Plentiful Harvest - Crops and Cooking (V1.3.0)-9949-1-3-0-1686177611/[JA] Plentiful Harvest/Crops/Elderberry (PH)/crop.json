@@ -1,0 +1,46 @@
+{
+    "Name": "Elderberry (PH)", 
+    "Product": "Elderberry (PH)",
+    "SeedName": "Elderberry Starter (PH)", 
+    "SeedDescription": "Plant these in the winter. Grows on a support and takes 9 days to mature. Continues to produce after their first harvest.", 
+    "Type": "Fruit", 
+    "CropType": "Normal", 
+    "Seasons": ["winter"], 
+    "Phases": [1, 2, 2, 2, 2], 
+    "RegrowthPhase": 3, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": true,
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "STF.PlentifulHarvest", 
+    "SeedPurchasePrice": 35, 
+
+    "SeedNameLocalization":
+    {
+        "default": "Elderberry Starter",
+		"es": "Elderberry Starter", 
+        "ko": "Elderberry Starter", 
+        "de": "Holunderbeeren-Setzling", 
+        "fr": "Elderberry Starter", 
+        "hu": "Elderberry Starter", 
+        "it": "Elderberry Starter", 
+        "ja": "Elderberry Starter", 
+        "pt": "Elderberry Starter", 
+        "ru": "Рассада бузины", 
+        "tr": "Elderberry Starter", 
+        "zh": "接骨木莓种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plant these in the winter. Grows on a support and takes 9 days to mature. Continues to produce after their first harvest.", 
+        "ko": "Plant these in the winter. Grows on a support and takes 9 days to mature. Continues to produce after their first harvest.", 
+        "de": "Pflanze sie im Winter. Wächst in 9 Tagen heran, kann aber danach mehrmals geerntet werden. Wächst an einem Rankgerüst.", 
+        "fr": "Plant these in the winter. Grows on a support and takes 9 days to mature. Continues to produce after their first harvest.", 
+        "hu": "Plant these in the winter. Grows on a support and takes 9 days to mature. Continues to produce after their first harvest.", 
+        "it": "Plant these in the winter. Grows on a support and takes 9 days to mature. Continues to produce after their first harvest.", 
+        "ja": "Plant these in the winter. Grows on a support and takes 9 days to mature. Continues to produce after their first harvest.", 
+        "pt": "Plant these in the winter. Grows on a support and takes 9 days to mature. Continues to produce after their first harvest.", 
+        "ru": "Сажать зимой. Вырастают через 9 дней, но затем продолжают плодоносить. Растут на шпалере.", 
+        "tr": "Plant these in the winter. Grows on a support and takes 9 days to mature. Continues to produce after their first harvest.", 
+        "zh": "冬天种植。 在木架上生长，需要9天成熟。 在第一次收获后继续结果。", 
+    }
+}

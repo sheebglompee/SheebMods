@@ -1,0 +1,28 @@
+{
+    "Name": "Plain Kombucha",
+    "Description": "Kombucha is a fermented tea. Its known as the 'Foragers Brew'. This type has no distinct aftertaste.",
+    "Category": "ArtisanGoods",
+    "Edibility": 40,
+	"Price": 100,
+    "EdibleIsDrink": true,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 1,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 180,
+    },
+    "IsColored": true,
+    "Recipe": null,
+    "CanPurchase": false,
+    "GiftTastes":
+    {},
+	"TranslationKey": "object.Plain-Kombucha",
+}

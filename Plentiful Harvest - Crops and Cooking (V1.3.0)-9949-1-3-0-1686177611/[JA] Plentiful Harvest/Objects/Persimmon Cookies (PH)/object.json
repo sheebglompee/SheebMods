@@ -1,0 +1,91 @@
+{
+    "Name": "Persimmon Cookies (PH)", 
+    "Description": "These have a nice warmness to their flavor.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_red",
+        "dye_medium"
+        ],
+    "Edibility": 38, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 2,
+        "Defense": 2,
+        "Attack": 2,
+        "Duration": 120,
+    },
+    "Price": 345, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Persimmon (PH)", 
+            "Count": 1,
+        },
+		{
+            "Object": 246,
+            "Count": 1,
+        },
+		{
+            "Object": 245,
+            "Count": 1,
+        },
+        {
+            "Object": -5,
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Evelyn", "Alex"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus", "Harvey", "Leo"], 
+        "Hate": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Persimmon Cookies",
+		"es": "Persimmon Cookies", //Spansih
+        "ko": "Persimmon Cookies", //Korean
+        "de": "Kakifrucht-Cookies", //German
+        "fr": "Persimmon Cookies", //French
+        "hu": "Persimmon Cookies", //Hungarian
+        "it": "Persimmon Cookies", //Italian
+        "ja": "Persimmon Cookies", //Japanese
+        "pt": "Persimmon Cookies", //Portuguese
+        "ru": "Печенье с хурмой", //Russian
+        "tr": "Persimmon Cookies", //Turkish
+        "zh": "柿子饼", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "These have a nice warmness to their flavor.", //Spansih
+        "ko": "These have a nice warmness to their flavor.", //Korean
+        "de": "Diese haben eine schöne Wärme in ihrem Geschmack.", //German
+        "fr": "These have a nice warmness to their flavor.", //French
+        "hu": "These have a nice warmness to their flavor.", //Hungarian
+        "it": "These have a nice warmness to their flavor.", //Italian
+        "ja": "These have a nice warmness to their flavor.", //Japanese
+        "pt": "These have a nice warmness to their flavor.", //Portuguese
+        "ru": "Обладает приятным теплым вкусом.", //Russian
+        "tr": "These have a nice warmness to their flavor.", //Turkish
+        "zh": "口感软糯微甜，上好的蜜饯。", //Chinese (Simplified)
+    },
+	
+}

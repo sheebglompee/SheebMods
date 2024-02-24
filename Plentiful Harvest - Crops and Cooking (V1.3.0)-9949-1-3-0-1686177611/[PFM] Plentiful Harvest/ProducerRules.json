@@ -1,0 +1,266 @@
+﻿[
+	{ 
+		"ProducerName": "Processor (PH)", 
+		"InputIdentifier": "ph_nut",
+		"InputStack": 1, 
+		"MinutesUntilReady": 360,
+		"SubtractTimeOfDay": false, 
+		"OutputIdentifier": "Nut Butter (PH)",
+		"OutputName": "{inputName} Butter",
+		"OutputGenericParentName": "Nut", 
+		"InputPriceBased": true, 
+		"OutputPriceIncrement": 75, 
+		"OutputPriceMultiplier": 2, 
+		"KeepInputQuality": false,
+		"OutputQuality": 0, 
+		"OutputStack": 1, 
+		"OutputMaxStack": 1, 
+		"SilverQualityInput": { 
+			"Probability": 0.3, 
+			"OutputStack": 2, 
+			"OutputMaxStack": 2 
+		},
+		"GoldQualityInput": { 
+			"Probability": 0.6, 
+			"OutputStack": 3, 
+			"OutputMaxStack": 3 
+		},
+		"IridiumQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 4, 
+			"OutputMaxStack": 4 
+		},
+		"Sounds": [ "dirtyHit" ],
+        "DelayedSounds": [ { "clank": 15000 }, { "dirtyHit": 30000 }, { "clank": 45000 }, { "dirtyHit": 60000 }, { "clank": 75000 }, { "dirtyHit": 90000 }, { "clank": 105000 } ], 
+		"WarningsLogLevel": "Warn" 
+	},
+	
+	{ 
+		"ProducerName": "Processor (PH)",
+		"InputIdentifier": "ph_chocegg",
+		"InputStack": 1, 
+		"MinutesUntilReady": 600,
+		"SubtractTimeOfDay": false, 
+		"OutputIdentifier": "Chocolate Spread (PH)",
+		"OutputName": "Chocolate Spread", 
+		"InputPriceBased": false, 
+		"KeepInputQuality": false,
+		"OutputQuality": 0, 
+		"OutputStack": 1, 
+		"OutputMaxStack": 1, 
+		"Sounds": [ "slimeHit" ],
+        "DelayedSounds": [ { "clank": 15000 }, { "slimeHit": 30000 }, { "clank": 45000 }, { "slimeHit": 60000 }, { "clank": 75000 }, { "slimeHit": 90000 }, { "clank": 105000 } ], 
+		"WarningsLogLevel": "Warn"  
+	},
+	
+	{ 
+		"ProducerName": "Processor (PH)",
+		"InputIdentifier": "ph_cacao",
+		"InputStack": 1, 
+		"MinutesUntilReady": 360,
+		"SubtractTimeOfDay": true, 
+		"OutputIdentifier": "Cocoa Powder (PH)",
+		"OutputName": "Cocoa Powder", 
+		"InputPriceBased": false, 
+		"KeepInputQuality": false,
+		"OutputQuality": 0, 
+		"OutputStack": 1, 
+		"OutputMaxStack": 1, 
+		"SilverQualityInput": { 
+			"Probability": 0.3, 
+			"OutputStack": 2, 
+			"OutputMaxStack": 2 
+		},
+		"GoldQualityInput": { 
+			"Probability": 0.6, 
+			"OutputStack": 3, 
+			"OutputMaxStack": 3 
+		},
+		"IridiumQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 4, 
+			"OutputMaxStack": 4,
+		},
+		"Sounds": [ "dirtyHit" ],
+        "DelayedSounds": [ { "clank": 15000 }, { "dirtyHit": 30000 }, { "clank": 45000 }, { "dirtyHit": 60000 }, { "clank": 75000 }, { "dirtyHit": 90000 }, { "clank": 105000 } ], 
+		"WarningsLogLevel": "Warn"  
+	},
+	
+	{ 
+		"ProducerName": "Blender (PH)",
+		"InputIdentifier": -79,
+		"FuelIdentifier": -6,
+		"InputStack": 1, 
+		"MinutesUntilReady": 60,
+		"SubtractTimeOfDay": false, 
+		"OutputIdentifier": "Fruit Smoothie (PH)",
+		"OutputName": "{inputName} Smoothie",
+		"OutputGenericParentName": "Fruit", 
+		"InputPriceBased": false, 
+		"OutputPriceIncrement": 0, 
+		"OutputPriceMultiplier": 1.5, 
+		"KeepInputQuality": true,
+		"OutputQuality": 0, 
+		"OutputStack": 1, 
+		"OutputMaxStack": 1, 
+		"Sounds": [ "moneyDial" ],
+        "DelayedSounds": [ { "moneyDial": 16000 }, { "moneyDial": 18000 }, { "moneyDial": 20000 }, { "moneyDial": 22000 } ],
+		"WarningsLogLevel": "Warn" 
+	},
+	{ 
+		"ProducerName": "Blender (PH)",
+		"InputIdentifier": -75,
+		"FuelIdentifier": -6,
+		"InputStack": 1, 
+		"MinutesUntilReady": 60,
+		"SubtractTimeOfDay": false, 
+		"OutputIdentifier": "Vegetable Smoothie (PH)",
+		"OutputName": "{inputName} Smoothie",
+		"OutputGenericParentName": "Vegetable", 
+		"InputPriceBased": true, 
+		"OutputPriceIncrement": 0, 
+		"OutputPriceMultiplier": 1.5, 
+		"KeepInputQuality": true,
+		"OutputQuality": 0, 
+		"OutputStack": 1, 
+		"OutputMaxStack": 1, 
+		"Sounds": [ "moneyDial" ],
+        "DelayedSounds": [ { "moneyDial": 16000 }, { "moneyDial": 18000 }, { "moneyDial": 20000 }, { "moneyDial": 22000 } ],
+		"WarningsLogLevel": "Warn" 
+	},
+
+	{ 
+		"ProducerName": "Blender (PH)",
+		"InputIdentifier": "ph_nut",
+		"InputStack": 1, 
+		"MinutesUntilReady": 3000,
+		"SubtractTimeOfDay": true, 
+		"OutputIdentifier": "Nut Milk (PH)",
+		"OutputName": "{inputName} Milk",
+		"OutputGenericParentName": "Nut", 
+		"InputPriceBased": true, 
+		"OutputPriceIncrement": 0, 
+		"OutputPriceMultiplier": 2.1, 
+		"KeepInputQuality": true,
+		"OutputQuality": 0, 
+		"OutputStack": 1, 
+		"OutputMaxStack": 1, 
+		"Sounds": [ "moneyDial" ],
+        "DelayedSounds": [ { "moneyDial": 16000 }, { "moneyDial": 36000 }, { "moneyDial": 66000 }, { "moneyDial": 90000 } ],
+		"WarningsLogLevel": "Warn" 
+	},
+	
+	{ 
+		"ProducerName": "Nut Cheese Press (PH)",
+		"InputIdentifier": "Nut Milk (PH)",
+		"InputStack": 1, 
+		"MinutesUntilReady": 300,
+		"SubtractTimeOfDay": false, 
+		"OutputIdentifier": "Dairy-Free Cheese (PH)",
+		"OutputName": "Dairy-Free Cheese", 
+		"InputPriceBased": false, 
+		"KeepInputQuality": false,
+		"OutputQuality": 0, 
+		"OutputStack": 1, 
+		"OutputMaxStack": 1, 
+		"Sounds": [ "axe" ],
+        "DelayedSounds": [ { "slimeHit": 17000 } ],
+		"WarningsLogLevel": "Warn" 
+	},
+	{ 
+		"ProducerName": "Oil Maker (PH)",
+		"InputIdentifier": "ph_oilable",
+		"InputStack": 1, 
+		"MinutesUntilReady": 800,
+		"SubtractTimeOfDay": false, 
+		"OutputIdentifier": "Oil",
+		"OutputName": "Oil", 
+		"InputPriceBased": false, 
+		"KeepInputQuality": false,
+		"OutputQuality": 0, 
+		"OutputStack": 1, 
+		"OutputMaxStack": 1, 
+		"SilverQualityInput": { 
+			"Probability": 0.3, 
+			"OutputStack": 2, 
+			"OutputMaxStack": 2 
+		},
+		"GoldQualityInput": { 
+			"Probability": 0.6, 
+			"OutputStack": 3, 
+			"OutputMaxStack": 3 
+		},
+		"IridiumQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 4, 
+			"OutputMaxStack": 4,
+		},
+		"Sounds": [ "sipTea" ],
+        "DelayedSounds": [ { "sipTea": 14000 }, { "bubble": 24000 }, { "sipTea": 48000 } ],
+		"WarningsLogLevel": "Warn" 
+	},
+	{ 
+		"ProducerName": "Oil Maker (PH)",
+		"InputIdentifier": 430,
+		"InputStack": 1, 
+		"MinutesUntilReady": 800,
+		"SubtractTimeOfDay": false, 
+		"OutputIdentifier": "Oil",
+		"OutputName": "Oil", 
+		"InputPriceBased": false, 
+		"KeepInputQuality": false,
+		"OutputQuality": 0, 
+		"OutputStack": 1, 
+		"OutputMaxStack": 1, 
+		"SilverQualityInput": { 
+			"Probability": 0.3, 
+			"OutputStack": 2, 
+			"OutputMaxStack": 2 
+		},
+		"GoldQualityInput": { 
+			"Probability": 0.6, 
+			"OutputStack": 3, 
+			"OutputMaxStack": 3 
+		},
+		"IridiumQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 4, 
+			"OutputMaxStack": 4,
+		},
+		"Sounds": [ "sipTea" ],
+        "DelayedSounds": [ { "sipTea": 14000 }, { "bubble": 24000 }, { "sipTea": 48000 } ],
+		"WarningsLogLevel": "Warn" 
+	},
+	{ 
+		"ProducerName": "Oil Maker (PH)",
+		"InputIdentifier": 431,
+		"InputStack": 1, 
+		"MinutesUntilReady": 800,
+		"SubtractTimeOfDay": false, 
+		"OutputIdentifier": "Oil",
+		"OutputName": "Oil", 
+		"InputPriceBased": false, 
+		"KeepInputQuality": false,
+		"OutputQuality": 0, 
+		"OutputStack": 1, 
+		"OutputMaxStack": 1, 
+		"SilverQualityInput": { 
+			"Probability": 0.3, 
+			"OutputStack": 2, 
+			"OutputMaxStack": 2 
+		},
+		"GoldQualityInput": { 
+			"Probability": 0.6, 
+			"OutputStack": 3, 
+			"OutputMaxStack": 3 
+		},
+		"IridiumQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 4, 
+			"OutputMaxStack": 4,
+		},
+		"Sounds": [ "sipTea" ],
+        "DelayedSounds": [ { "sipTea": 14000 }, { "bubble": 24000 }, { "sipTea": 48000 } ],
+		"WarningsLogLevel": "Warn" 
+	},
+]

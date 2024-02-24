@@ -1,0 +1,39 @@
+{
+    "Changes": 
+      [
+        {
+        "LogName": "Charles Schedule",
+        "Action": "EditData",
+        "Target": "Characters/schedules/Charles",
+        "Entries": 
+            {
+          //Spring
+          "spring": "610 Custom_Yri_House 14 4 2/900 48 54 3 CharlesGarden/1700 Custom_EastScarpe 71 120 0/2000 Custom_Yri_House 2 8 3 CharlesWork/2330 Custom_Yri_House 14 4 2 CharlesSleep",
+          "summer": "GOTO spring",
+          "fall": "GOTO spring",
+          "winter": "GOTO rain",
+          "rain": "610 Custom_Yri_House 14 4 2/800 Custom_Yri_House 2 8 3 CharlesWork/2330 Custom_Yri_House 14 4 2 CharlesSleep",
+
+          "Mon": "610 Custom_Yri_House 14 4 2/800 Custom_Yri_House 2 8 3 CharlesWork/1700 Custom_EastScarpe 20 120 3/2000 Custom_Yri_House 17 20 0 CharlesSit/2330 Custom_Yri_House 14 4 2 CharlesSleep",
+          "Tue": "610 Custom_Yri_House 14 4 2/1140 Custom_ES_VetAwayWarp 5 5 0/1820 Custom_Yri_House 17 20 0 CharlesSit/2330 Custom_Yri_House 14 4 2 CharlesSleep",
+          "Wed": "610 Custom_Yri_House 14 4 2/800 Custom_Yri_House 2 8 3 CharlesWork/1700 Custom_EastScarpe 10 94 3/2000 Custom_Yri_House 17 20 0 CharlesSit/2330 Custom_Yri_House 14 4 2 CharlesSleep",
+          "Thu": "610 Custom_Yri_House 14 4 2/800 Custom_Yri_House 2 8 3 CharlesWork/1700 Custom_EastScarpe 23 62 2/1800 Custom_EastScarpe 55 84 2 CharlesBench2/2000 Custom_Yri_House 17 20 0 CharlesSit/2330 Custom_Yri_House 14 4 2 CharlesSleep",
+          "Fri": "610 Custom_Yri_House 14 4 2/800 Custom_Yri_House 2 8 3 CharlesWork/1700 Custom_EastScarpe 70 10 1/2000 Custom_Yri_House 2 8 3 CharlesWork/2330 Custom_Yri_House 14 4 2 CharlesSleep",
+          "Sat": "610 Custom_Yri_House 14 4 2/730 Custom_Yri_House 2 8 3 CharlesWork/1700 Saloon 10 21 2/2300 Custom_Yri_House 14 4 2 CharlesSleep",
+          "Sun": "610 Custom_Yri_House 14 4 2/900 Custom_EastScarpe 46 53 3 CharlesGarden/1700 Custom_EastScarpe 71 120 0/2000 Custom_Yri_House 2 8 3 CharlesWork/2330 Custom_Yri_House 14 4 2 CharlesSleep",
+            
+          //Summer
+          "summer_Thu": "610 Custom_Yri_House 14 4 2/800 Custom_Yri_House 2 8 3 CharlesWork/1700 Custom_EastScarpe 55 84 2 CharlesBench1/1800 Custom_EastScarpe 55 84 2 CharlesBench2/2000 Custom_Yri_House 17 20 0/2330 Custom_Yri_House 14 4 2 CharlesSleep",
+          "summer_Sun": "610 Custom_Yri_House 14 4 2/900 Custom_EastScarpe 48 54 3 CharlesGardenSummer/1700 Custom_EastScarpe 71 120 0/2000 Custom_Yri_House 2 8 3 CharlesWork/2330 Custom_Yri_House 14 4 2 CharlesSleep",
+
+          //Fall
+          "fall_Wed": "610 Custom_Yri_House 14 4 2/800 Custom_Yri_House 2 8 3 CharlesWork/1700 Custom_EastScarpe 10 94 3 CharlesHoldingHands/2000 Custom_Yri_House 17 20 0/2330 Custom_Yri_House 14 4 2 CharlesSleep",
+          "fall_Sun": "610 Custom_Yri_House 14 4 2/900 Custom_EastScarpe 46 51 0 CharlesGardenFall/1700 Custom_EastScarpe 71 120 0/2000 Custom_Yri_House 2 8 3 CharlesWork/2330 Custom_Yri_House 14 4 2 CharlesSleep",
+          
+          //Winter
+          "winter_Mon": "610 Custom_Yri_House 14 4 2/800 Custom_Yri_House 2 8 3 CharlesWork/1700 Custom_EastScarpe 20 120 3 CharlesWarmingHands/2000 Custom_Yri_House 17 20 0/2330 Custom_Yri_House 14 4 2 CharlesSleep",
+          "winter_Sun": "610 Custom_Yri_House 14 4 2/730 Custom_Yri_House 2 8 3 CharlesWork/1700 Custom_EastScarpe 71 120 0/2000 Custom_Yri_House 2 8 3 CharlesWork/2330 Custom_Yri_House 14 4 2 CharlesSleep",
+          }
+        }
+    ]
+ }

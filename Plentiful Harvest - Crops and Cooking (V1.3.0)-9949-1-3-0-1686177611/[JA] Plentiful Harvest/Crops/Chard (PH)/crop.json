@@ -1,0 +1,46 @@
+{
+    "Name": "Chard (PH)", 
+    "Product": "Chard (PH)",
+    "SeedName": "Chard Seeds (PH)", 
+    "SeedDescription": "Plant these in the winter. Takes 9 days to produce leafy chard.", 
+    "Type": "Vegetable", 
+    "CropType": "Normal", 
+    "Seasons": ["winter"], 
+    "Phases": [2, 2, 3, 2], 
+    "RegrowthPhase": -1, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": false, 
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "STF.PlentifulHarvest", 
+    "SeedPurchasePrice": 70, 
+
+    "SeedNameLocalization":
+    {
+        "default": "Chard Seeds",
+		"es": "Chard Seeds", 
+        "ko": "Chard Seeds", 
+        "de": "Mangold-Saat", 
+        "fr": "Chard Seeds", 
+        "hu": "Chard Seeds", 
+        "it": "Chard Seeds", 
+        "ja": "Chard Seeds", 
+        "pt": "Chard Seeds", 
+        "ru": "Семена мангольда", 
+        "tr": "Chard Seeds", 
+        "zh": "甜菜种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plant these in the winter. Takes 9 days to produce leafy chard.", 
+        "ko": "Plant these in the winter. Takes 9 days to produce leafy chard.", 
+        "de": "Pflanze sie im Winter. Wächst in 9 Tagen heran.", 
+        "fr": "Plant these in the winter. Takes 9 days to produce leafy chard.", 
+        "hu": "Plant these in the winter. Takes 9 days to produce leafy chard.", 
+        "it": "Plant these in the winter. Takes 9 days to produce leafy chard.", 
+        "ja": "Plant these in the winter. Takes 9 days to produce leafy chard.", 
+        "pt": "Plant these in the winter. Takes 9 days to produce leafy chard.", 
+        "ru": "Сажайте зимой. Вырастает через 9 дней.", 
+        "tr": "Plant these in the winter. Takes 9 days to produce leafy chard.", 
+        "zh": "冬天种植。 花费9天的时间长成甜菜。", 
+    }
+}

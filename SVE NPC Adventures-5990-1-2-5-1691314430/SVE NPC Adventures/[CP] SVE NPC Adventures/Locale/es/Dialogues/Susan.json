@@ -1,0 +1,20 @@
+{
+  "Changes": [
+    {
+      "LogName": "Companion dialogues for Susan",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Susan",
+      "Entries": {
+        "companionAccepted": "¡Me encantaría acompañarte!$1",
+        "companionRejected": "Lo siento, cariño, pero no puedo. Mi espalda me está matando hoy.$2",
+        "companionRejectedNight": "Se está haciendo tarde y no soy tan ágil como solía ser.$2#$b#¿Quizás mañana?$4",
+        "companionDismiss": "Gracias por pasar un tiempo con una anciana como yo, jaja.$4#$b#Avísame si alguna vez necesitas ayuda.$1",
+        "companionDismissAuto": "¡Uf...! Creo que para mí es suficiente ejercicio por hoy.$0#$b#Hazme un favor y ten cuidado acá afuera, ¿de acuerdo? Es peligroso ir solo.$2",
+        "companionRecruited": "¿Hoy necesitas ayuda en la granja, @?$4",
+        "heal": "¿Te sientes débil, @?$2#$b#Acá, toma unas barritas. ¡Es importante mantener el nivel de azúcar en la sangre!$4",
+        "nomedkits": "¡Oh no, me he quedado sin barritas de frutos secos!$2",
+        "companion_Beach": "¿S-si?$2#$e#%Susan se ve incómoda."
+      }
+    }
+  ]
+}

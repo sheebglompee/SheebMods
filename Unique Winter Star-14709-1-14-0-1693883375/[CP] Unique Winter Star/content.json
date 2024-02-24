@@ -1,0 +1,565 @@
+{
+    "Format": "1.28.0",
+    "ConfigSchema": {
+		"Immersive Shane Override": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "Allows this mod's Winter Star dialogue keys to override Immersive Shane's dating/married Winter Star keys. Does nothing without a corresponding selection in the next option.",
+			"Section": "Main Mod Changes",
+        },
+        "IC-Shane Conditional Overrides": {
+            "AllowValues": "none, dating only, married only, dating and married",
+            "Default": "none",
+			"Description": "Chooses which of Immersive Shane's dialogues to override (in case of only wanting a conditional override). Defaults to none to prevent overriding. (Immersive Shane does not have default keys to override, and engaged/divorced keys will override this mod.)",
+			"Section": "Main Mod Changes",
+        },
+		"Enable Spicy Dialogue": {
+            "AllowValues": "true, false",
+            "Default": "false",
+			"Description": "Enables somewhat spicier dialogue from relevant spouses. Will not do anything without corresponding enabled options below, and will not override platonic/asexual PPAF dialogue patches.",
+			"Section": "Main Mod Changes",
+        },
+		"In-Law Dialogue": {
+			"AllowValues": "enabled, disabled",
+            "Default": "enabled",
+			"Description": "Adds extra dialogue for relatives of your spouses! Set to disabled if you'd prefer that the dialogues do not mention your spouse and just focus on the character in question.",
+			"Section": "Main Mod Changes",
+        },
+		"Bonus Penny": {
+			"AllowValues": "enabled, disabled",
+            "Default": "disabled",
+			"Description": "Edits the first community upgrade event to add a flag to allow for a different Penny dialogue during the Winter Star after it. This will do nothing if dating or married to Penny, as her dating or marriage version will override this, but it will affect her default dialogue and if you are 9 or 10 hearts without dating her (e.g. with Platonic Relationships or PPAF).",
+			"Section": "Main Mod Changes",
+        },
+		"Debug Mode": {
+			"AllowValues": "enabled, disabled",
+            "Default": "disabled",
+			"Description": "Activates a debug JSON that can be edited to exclude all but two specific vanilla NPCs. Used for testing configs and dialogues.",
+			"Section": "Main Mod Changes",
+        },
+		"Abigail": {
+			"AllowValues": "disabled, normal, spicy",
+            "Default": "normal",
+			"Description": "Determines if Abigail's dialogue changes are enabled. If Spicy Dialogue is enabled and set to spicy, allow Abigail to say a slightly spicier end dialogue when married or as a housemate with Sex Without Romance in PPAF. Will not override Fully Platonic or Romance Without Sex configurations in PPAF, if installed.",
+			"Section": "Bachelor and Bachelorette Dialogue Changes",
+        },
+		"Sebastian": {
+			"AllowValues": "disabled, normal, spicy",
+            "Default": "normal",
+			"Description": "Determines if Sebastian's dialogue changes are enabled. If Spicy Dialogue is enabled and set to spicy, allow Sebastian to say a slightly spicier end dialogue when married or as a housemate with Sex Without Romance in PPAF. Will not override Fully Platonic or Romance Without Sex configurations in PPAF, if installed.",
+			"Section": "Bachelor and Bachelorette Dialogue Changes",
+        },
+		"Alex": {
+			"AllowValues": "disabled, normal, spicy",
+            "Default": "normal",
+			"Description": "Determines if Alex's dialogue changes are enabled. If Spicy Dialogue is enabled and set to spicy, allow Alex to say a slightly spicier end dialogue when married or as a housemate with Sex Without Romance in PPAF. Will not override Fully Platonic or Romance Without Sex configurations in PPAF, if installed.",
+			"Section": "Bachelor and Bachelorette Dialogue Changes",
+        },
+		"Haley": {
+			"AllowValues": "disabled, normal, spicy",
+            "Default": "normal",
+			"Description": "Determines if Haley's dialogue changes are enabled. If Spicy Dialogue is enabled and set to spicy, allow Haley to say a slightly spicier end dialogue when married or as a housemate with Sex Without Romance in PPAF. Will not override Fully Platonic or Romance Without Sex configurations in PPAF, if installed.",
+			"Section": "Bachelor and Bachelorette Dialogue Changes",
+        },
+		"Leah": {
+			"AllowValues": "disabled, normal, spicy",
+            "Default": "normal",
+			"Description": "Determines if Leah's dialogue changes are enabled. If Spicy Dialogue is enabled and set to spicy, allow Leah to say a slightly spicier end dialogue when married or as a housemate with Sex Without Romance in PPAF. Will not override Fully Platonic or Romance Without Sex configurations in PPAF, if installed.",
+			"Section": "Bachelor and Bachelorette Dialogue Changes",
+        },
+		"Elliott": {
+			"AllowValues": "disabled, normal, spicy",
+            "Default": "normal",
+			"Description": "Determines if Elliott's dialogue changes are enabled. If Spicy Dialogue is enabled and set to spicy, allow Elliott to say a slightly spicier end dialogue when married or as a housemate with Sex Without Romance in PPAF. Will not override Fully Platonic or Romance Without Sex configurations in PPAF, if installed.",
+			"Section": "Bachelor and Bachelorette Dialogue Changes",
+        },
+		"Harvey": {
+			"AllowValues": "disabled, normal, spicy",
+            "Default": "normal",
+			"Description": "Determines if Harvey's dialogue changes are enabled. If Spicy Dialogue is enabled and set to spicy, allow Harvey to say a slightly spicier end dialogue when married or as a housemate with Sex Without Romance in PPAF. Will not override Fully Platonic or Romance Without Sex configurations in PPAF, if installed.",
+			"Section": "Bachelor and Bachelorette Dialogue Changes",
+        },
+		"Maru": {
+			"AllowValues": "disabled, normal, spicy",
+            "Default": "normal",
+			"Description": "Determines if Maru's dialogue changes are enabled. If Spicy Dialogue is enabled and set to spicy, allow Maru to say a slightly spicier end dialogue when married or as a housemate with Sex Without Romance in PPAF. Will not override Fully Platonic or Romance Without Sex configurations in PPAF, if installed.",
+			"Section": "Bachelor and Bachelorette Dialogue Changes",
+        },
+		"Sam": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Sam's dialogue changes at the Winter Star. Sam does not have a spicy variant for the Winter Star.",
+			"Section": "Bachelor and Bachelorette Dialogue Changes",
+        },
+		"Penny": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Penny's dialogue changes at the Winter Star. Penny does not have a spicy variant for the Winter Star.",
+			"Section": "Bachelor and Bachelorette Dialogue Changes",
+        },
+		"Shane": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Shane's dialogue changes at the Winter Star. Shane does not have a spicy variant for the Winter Star.",
+			"Section": "Bachelor and Bachelorette Dialogue Changes",
+        },
+		"Emily": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Emily's dialogue changes at the Winter Star. Emily does not have a spicy variant for the Winter Star.",
+			"Section": "Bachelor and Bachelorette Dialogue Changes",
+        },
+		"Kent": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Kent's dialogue changes at the Winter Star.",
+			"Section": "Townspeople Dialogue Changes",
+        },
+		"Jodi": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Jodi's dialogue changes at the Winter Star.",
+			"Section": "Townspeople Dialogue Changes",
+        },
+		"Vincent": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Vincent's dialogue changes at the Winter Star.",
+			"Section": "Townspeople Dialogue Changes",
+        },
+		"Pierre": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Pierre's dialogue changes at the Winter Star.",
+			"Section": "Townspeople Dialogue Changes",
+        },
+		"Caroline": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Caroline's dialogue changes at the Winter Star.",
+			"Section": "Townspeople Dialogue Changes",
+        },
+		"Demetrius": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Demetrius's dialogue changes at the Winter Star.",
+			"Section": "Townspeople Dialogue Changes",
+        },
+		"Robin": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Robin's dialogue changes at the Winter Star.",
+			"Section": "Townspeople Dialogue Changes",
+        },
+		"Evelyn": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Evelyn's dialogue changes at the Winter Star.",
+			"Section": "Townspeople Dialogue Changes",
+        },
+		"George": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables George's dialogue changes at the Winter Star.",
+			"Section": "Townspeople Dialogue Changes",
+        },
+		"Marnie": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Marnie's dialogue changes at the Winter Star.",
+			"Section": "Townspeople Dialogue Changes",
+        },
+		"Jas": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Jas's dialogue changes at the Winter Star.",
+			"Section": "Townspeople Dialogue Changes",
+        },
+		"Linus": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Linus's dialogue changes at the Winter Star.",
+			"Section": "Townspeople Dialogue Changes",
+        },
+		"Pam": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Pam's dialogue changes at the Winter Star.",
+			"Section": "Townspeople Dialogue Changes",
+        },
+		"Willy": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Willy's dialogue changes at the Winter Star.",
+			"Section": "Townspeople Dialogue Changes",
+        },
+		"Lewis": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Lewis's dialogue changes at the Winter Star.",
+			"Section": "Townspeople Dialogue Changes",
+        },
+		"Clint": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Clint's dialogue changes at the Winter Star.",
+			"Section": "Townspeople Dialogue Changes",
+        },
+		"Gus": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Gus's dialogue changes at the Winter Star.",
+			"Section": "Townspeople Dialogue Changes",
+        },
+		"Leo": {
+			"AllowValues": "disabled, normal",
+            "Default": "normal",
+			"Description": "Enables or disables Leo's dialogue changes at the Winter Star.",
+			"Section": "Townspeople Dialogue Changes",
+        },
+    },
+	"Changes":[
+		//Gifting a Villager Lines
+		
+		//Winter Star
+		{
+			"LogName": "Regular Villagers - Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/EarlyLines/Vanilla/regular.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": false,
+			},
+		},
+		{
+			"LogName": "Marriage Candidates - Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/EarlyLines/Vanilla/datables.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": false,
+			},
+		},
+		{
+			"LogName": "Marriage Candidates - Dating, Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/EarlyLines/Vanilla/dating.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": false,
+			},
+		},
+		{
+			"LogName": "Marriage Candidates - Married, Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/EarlyLines/Vanilla/marriage.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": false,
+			},
+		},
+		
+		//Solstice
+		{
+			"LogName": "Regular Villagers - Solstice",
+			"Action": "Include",
+			"FromFile": "assets/EarlyLines/Solstice/regular.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": true,
+			},
+		},
+		{
+			"LogName": "Marriage Candidates - Solstice",
+			"Action": "Include",
+			"FromFile": "assets/EarlyLines/Solstice/datables.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": true,
+			},
+		},
+		{
+			"LogName": "Marriage Candidates - Dating, Solstice",
+			"Action": "Include",
+			"FromFile": "assets/EarlyLines/Solstice/dating.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": true,
+			},
+		},
+		{
+			"LogName": "Marriage Candidates - Married, Solstice",
+			"Action": "Include",
+			"FromFile": "assets/EarlyLines/Solstice/marriage.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": true,
+			},
+		},
+		{
+			"LogName": "Marriage Candidates - Best Friends, PPAF, Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/EarlyLines/PPAF/bestfriend.json",
+			"When": {
+                "HasMod": "Amaranthacyan.PPAFSMAPI",
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": false,
+			},
+		},
+		{
+			"LogName": "Marriage Candidates - Cohabitation, PPAF, Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/EarlyLines/PPAF/housemate.json",
+			"When": {
+                "HasMod": "Amaranthacyan.PPAFSMAPI",
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": false,
+			},
+		},
+		{
+			"LogName": "Marriage Candidates - Best Friends, PPAF, Solstice",
+			"Action": "Include",
+			"FromFile": "assets/EarlyLines/PPAFSolstice/bestfriend.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": true,
+                "HasMod": "Amaranthacyan.PPAFSMAPI",
+			},
+		},
+		{
+			"LogName": "Marriage Candidates - Cohabitation, PPAF, Solstice",
+			"Action": "Include",
+			"FromFile": "assets/EarlyLines/PPAFSolstice/housemate.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": true,
+                "HasMod": "Amaranthacyan.PPAFSMAPI",
+			},
+		},
+		
+		//Villagers Gifting Farmer
+		{
+			"LogName": "Penny Event Edit",
+			"Action": "Include",
+			"FromFile": "assets/Extras/pennyHouse.json",
+			"When": {
+				"Bonus Penny": "enabled",
+			},
+		},
+		{
+			"LogName": "Regular Villagers - Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/Vanilla/regular.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": false,
+			},
+		},
+		{
+			"LogName": "Regular Villagers, In-Law Edits - Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/Vanilla/inlaw.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": false,
+				"In-Law Dialogue": "enabled",
+			},
+		},
+		{
+			"LogName": "Regular Villagers, PPAF Housemate Edits - Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/PPAF/houselaw.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": false,
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"In-Law Dialogue": "enabled",
+			},
+		},
+		{
+			"LogName": "Marriage Candidates - Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/Vanilla/datables.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": false,
+			},
+		},
+		{
+			"LogName": "Marriage Candidates, In-Law Edits - Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/Vanilla/datelaw.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": false,
+				"In-Law Dialogue": "enabled",
+			},
+		},
+		{
+			"LogName": "Marriage Candidates, 'In-Law' PPAF Housemate Edits - Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/PPAF/housedate.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": false,
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"In-Law Dialogue": "enabled",
+			},
+		},
+		{
+			"LogName": "Marriage Candidates - Dating, Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/Vanilla/dating.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": false,
+			},
+		},
+		{
+			"LogName": "Marriage Candidates - Married, Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/Vanilla/marriage.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": false,
+			},
+		},
+		
+		//Solstice
+		{
+			"LogName": "Regular Villagers - Solstice",
+			"Action": "Include",
+			"FromFile": "assets/Solstice/regular.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": true,
+			},
+		},
+		{
+			"LogName": "Regular Villagers, In-Law Edits - Solstice",
+			"Action": "Include",
+			"FromFile": "assets/Solstice/inlaw.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": true,
+				"In-Law Dialogue": "enabled",
+			},
+		},
+		{
+			"LogName": "Regular Villagers, PPAF Housemate Edits - Solstice",
+			"Action": "Include",
+			"FromFile": "assets/PPAFSolstice/houselaw.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": true,
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"In-Law Dialogue": "enabled",
+			},
+		},
+		{
+			"LogName": "Marriage Candidates - Solstice",
+			"Action": "Include",
+			"FromFile": "assets/Solstice/datables.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": true,
+			},
+		},
+		{
+			"LogName": "Marriage Candidates, In-Law Edits - Solstice",
+			"Action": "Include",
+			"FromFile": "assets/Solstice/datelaw.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": true,
+				"In-Law Dialogue": "enabled",
+			},
+		},
+		{
+			"LogName": "Marriage Candidates, 'In-Law' PPAF Housemate Edits - Solstice",
+			"Action": "Include",
+			"FromFile": "assets/PPAFSolstice/housedate.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": true,
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"In-Law Dialogue": "enabled",
+			},
+		},
+		{
+			"LogName": "Marriage Candidates - Dating, Solstice",
+			"Action": "Include",
+			"FromFile": "assets/Solstice/dating.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": true,
+			},
+		},
+		{
+			"LogName": "Marriage Candidates - Married, Solstice",
+			"Action": "Include",
+			"FromFile": "assets/Solstice/marriage.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": true,
+			},
+		},
+		{
+			"LogName": "Marriage Candidates - Best Friends, PPAF, Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/PPAF/bestfriend.json",
+			"When": {
+                "HasMod": "Amaranthacyan.PPAFSMAPI",
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": false,
+			},
+		},
+		{
+			"LogName": "Fallback, Marriage Candidates - Best Friends, Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/PlatonicRelationships/bestfriend.json",
+			"When": {
+				"HasMod |contains=Cherry.PlatonicRelationships": true,
+				"HasMod |contains=Amaranthacyan.PPAFSMAPI": false,
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": false,
+			},			
+		},
+		{
+			"LogName": "Fallback 2, Marriage Candidates - Best Friends, Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/PlatonicRelationships/PPAFbestfriend.json",
+			"When": {
+				"HasMod |contains=Cherry.PlatonicRelationships": true,
+				"HasMod |contains=Amaranthacyan.PPAFSMAPI": true,
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": false,
+			},			
+		},
+		{
+			"LogName": "Marriage Candidates - Cohabitation, PPAF, Winter Star",
+			"Action": "Include",
+			"FromFile": "assets/PPAF/housemate.json",
+			"When": {
+                "HasMod": "Amaranthacyan.PPAFSMAPI",
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": false,
+			},
+		},
+		{
+			"LogName": "Marriage Candidates - Best Friends, PPAF, Solstice",
+			"Action": "Include",
+			"FromFile": "assets/PPAFSolstice/bestfriend.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": true,
+                "HasMod": "Amaranthacyan.PPAFSMAPI",
+			},
+		},
+		{
+			"LogName": "Fallback, Marriage Candidates - Best Friends, Solstice",
+			"Action": "Include",
+			"FromFile": "assets/PlatonicRelationships/bestSolsticefriend.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": true,
+				"HasMod |contains=Cherry.PlatonicRelationships": true,
+				"HasMod |contains=Amaranthacyan.PPAFSMAPI": false,
+			},
+		},
+		{
+			"LogName": "Fallback 2, Marriage Candidates - Best Friends, Solstice",
+			"Action": "Include",
+			"FromFile": "assets/PlatonicRelationships/PPAFSolsticefriend.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": true,
+				"HasMod |contains=Cherry.PlatonicRelationships": true,
+				"HasMod |contains=Amaranthacyan.PPAFSMAPI": true,
+			},
+		},
+		{
+			"LogName": "Marriage Candidates - Cohabitation, PPAF, Solstice",
+			"Action": "Include",
+			"FromFile": "assets/PPAFSolstice/housemate.json",
+			"When": {
+				"HasMod |contains=Airyn.CPSolsticeWinterStar": true,
+                "HasMod": "Amaranthacyan.PPAFSMAPI",
+			},
+		},
+		{
+			"LogName": "Debugging",
+			"Action": "Include",
+			"FromFile": "assets/Extras/debugger.json",
+			"When": {
+				"Debug Mode": "enabled",
+				"HasMod": "Esca.CustomNPCExclusions",
+			},
+		},
+    ]
+}

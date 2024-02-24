@@ -1,0 +1,52 @@
+{
+    "Name": "Cucumber (PH)",
+    "Description": "Technically a fruit, but widely used as a vegetable. Pickling these is common.",
+    "Category": "Vegetable",
+	"ContextTags": 
+        [
+        "season_summer",
+		"color_green"
+        ],
+    "Edibility": 12,
+    "Price": 32, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Harvey", "Jodi"],
+        "Like": ["Linus", "Gus", "Lewis"],
+        "Neutral": null, 
+        "Dislike": ["Sebastian", "Leo"], 
+        "Hate": ["Krobus", "Haley"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Cucumber",
+		"es": "Cucumber", 
+        "ko": "Cucumber", 
+        "de": "Gurke", 
+        "fr": "Cucumber", 
+        "hu": "Cucumber", 
+        "it": "Cucumber", 
+        "ja": "Cucumber",
+        "pt": "Cucumber", 
+        "ru": "Огурец", 
+        "tr": "Cucumber",
+        "zh": "黄瓜", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Technically a fruit, but widely used as a vegetable. Pickling these is common.", 
+        "ko": "Technically a fruit, but widely used as a vegetable. Pickling these is common.", 
+        "de": "Technisch gesehen eine Frucht, aber weit verbreitet als Gemüse. Wird häufig eingelegt.",
+        "fr": "Technically a fruit, but widely used as a vegetable. Pickling these is common.", 
+        "hu": "Technically a fruit, but widely used as a vegetable. Pickling these is common.",
+        "it": "Technically a fruit, but widely used as a vegetable. Pickling these is common.", 
+        "ja": "Technically a fruit, but widely used as a vegetable. Pickling these is common.", 
+        "pt": "Technically a fruit, but widely used as a vegetable. Pickling these is common.",
+        "ru": "Формально является фруктом, но широко распространен как овощ. Обычно используется в мариновании.", 
+        "tr": "Technically a fruit, but widely used as a vegetable. Pickling these is common.", 
+        "zh": "严格来说，它是一种水果，但被广泛用作蔬菜。",
+    },
+}

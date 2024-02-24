@@ -1,0 +1,116 @@
+{
+  "Name": "Collar (Large Spikes)",
+
+	// FRONT
+  "FrontAccessory": {
+    "ColorMasks": [
+      [ 57, 57, 57 ],
+      [ 144, 144, 144 ],
+      [ 121, 121, 121 ]
+    ],
+    "DrawAfterPlayer": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 1
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      },
+    ]
+  },
+
+	// RIGHT
+  "RightAccessory": {
+    "ColorMasks": [
+      [ 57, 57, 57 ],
+      [ 144, 144, 144 ],
+      [ 121, 121, 121 ]
+    ],
+    "DrawAfterPlayer": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "HeadPosition": {
+      "X": -0,
+      "Y": 1
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      },
+    ]
+  },
+
+	// LEFT
+  "LeftAccessory": {
+    "ColorMasks": [
+      [ 57, 57, 57 ],
+      [ 144, 144, 144 ],
+      [ 121, 121, 121 ]
+    ],
+    "DrawAfterPlayer": true,
+    "Flipped": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 1
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      },
+    ]
+  },
+
+	// BACK
+  "BackAccessory": {
+    "ColorMasks": [
+      [ 57, 57, 57 ],
+      [ 144, 144, 144 ],
+      [ 121, 121, 121 ]
+    ],
+    "DrawAfterPlayer": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": -0,
+      "Y": 1
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 5000
+      },
+    ]
+  }
+}

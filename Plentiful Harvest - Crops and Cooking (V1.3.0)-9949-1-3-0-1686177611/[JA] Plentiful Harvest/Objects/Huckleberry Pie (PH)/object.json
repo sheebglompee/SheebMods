@@ -1,0 +1,91 @@
+{
+    "Name": "Huckleberry Pie (PH)", 
+    "Description": "The warm berry filling has an indescribably delicious taste like no other.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_purple",
+        "dye_strong"
+        ],
+    "Edibility": 54, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 2,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 40,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 240,
+    }, 
+    "Price": 400, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Huckleberry (PH)", 
+            "Count": 1,
+        },
+		{
+            "Object": 246,
+            "Count": 1,
+        },
+		{
+            "Object": 245,
+            "Count": 1,
+        },
+        {
+            "Object": -5,
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Krobus", "Leah", "Lewis"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": null, 
+        "Hate": ["Dwarf"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Huckleberry Pie",
+		"es": "Huckleberry Pie", //Spansih
+        "ko": "Huckleberry Pie", //Korean
+        "de": "Heidelbeerkuchen", //German
+        "fr": "Huckleberry Pie", //French
+        "hu": "Huckleberry Pie", //Hungarian
+        "it": "Huckleberry Pie", //Italian
+        "ja": "Huckleberry Pie", //Japanese
+        "pt": "Huckleberry Pie", //Portuguese
+        "ru": "Пирог из осенней черники", //Russian
+        "tr": "Huckleberry Pie", //Turkish
+        "zh": "蔓越橘馅饼", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "The warm berry filling has an indescribably delicious taste like no other.", //Spansih
+        "ko": "The warm berry filling has an indescribably delicious taste like no other.", //Korean
+        "de": "Diese warme Beerenfüllung hat einen unglaublichen Geschmack wie keine andere.", //German
+        "fr": "The warm berry filling has an indescribably delicious taste like no other.", //French
+        "hu": "The warm berry filling has an indescribably delicious taste like no other.", //Hungarian
+        "it": "The warm berry filling has an indescribably delicious taste like no other.", //Italian
+        "ja": "The warm berry filling has an indescribably delicious taste like no other.", //Japanese
+        "pt": "The warm berry filling has an indescribably delicious taste like no other.", //Portuguese
+        "ru": "Теплая ягодная начинка придает непередаваемо восхитительный вкус, не похожий ни на какой другой.", //Russian
+        "tr": "The warm berry filling has an indescribably delicious taste like no other.", //Turkish
+        "zh": "热乎的浆果馅具有无与伦比的美味。", //Chinese (Simplified)
+    },
+	
+}

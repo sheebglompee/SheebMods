@@ -1,0 +1,87 @@
+{
+    "Name": "Pear Crisp (PH)", 
+    "Description": "Pear slices in sugar and cinnamon. It’s warm and sweet.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_orange",
+        "dye_medium"
+        ],
+    "Edibility": 30, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 5,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 1,
+        "Attack": 0,
+        "Duration": 240,
+    }, 
+    "Price": 250, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Pear (PH)", 
+            "Count": 1,
+        },
+		{
+            "Object": 245,
+            "Count": 1,
+        },
+        {
+            "Object": -6,
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Evelyn", "George"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Pear Crisp",
+		"es": "Pear Crisp", //Spansih
+        "ko": "Pear Crisp", //Korean
+        "de": "Birnenchips", //German
+        "fr": "Pear Crisp", //French
+        "hu": "Pear Crisp", //Hungarian
+        "it": "Pear Crisp", //Italian
+        "ja": "Pear Crisp", //Japanese
+        "pt": "Pear Crisp", //Portuguese
+        "ru": "Запеченная груша", //Russian
+        "tr": "Pear Crisp", //Turkish
+        "zh": "梨酥", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Pear slices in sugar and cinnamon. It’s warm and sweet.", //Spansih
+        "ko": "Pear slices in sugar and cinnamon. It’s warm and sweet.", //Korean
+        "de": "Birnenstücke mit Zucker und Zimt. Sie sind warm und süß.", //German
+        "fr": "Pear slices in sugar and cinnamon. It’s warm and sweet.", //French
+        "hu": "Pear slices in sugar and cinnamon. It’s warm and sweet.", //Hungarian
+        "it": "Pear slices in sugar and cinnamon. It’s warm and sweet.", //Italian
+        "ja": "Pear slices in sugar and cinnamon. It’s warm and sweet.", //Japanese
+        "pt": "Pear slices in sugar and cinnamon. It’s warm and sweet.", //Portuguese
+        "ru": "Дольки груши в сахаре и корице. Теплое и сладкое блюдо.", //Russian
+        "tr": "Pear slices in sugar and cinnamon. It’s warm and sweet.", //Turkish
+        "zh": "加糖和肉桂的梨片。 口感热乎甜蜜。  ", //Chinese (Simplified)
+    },
+	
+}

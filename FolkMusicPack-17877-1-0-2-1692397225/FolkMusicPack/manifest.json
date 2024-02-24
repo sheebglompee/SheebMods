@@ -1,0 +1,12 @@
+{
+  "Name": "Folk Music Pack",
+  "Author": "JustAva",
+  "Version": "1.0.2",
+  "Description": "Replaces some tracks with folk/acoustic covers",
+  "UniqueID": "JustAvaIsFine.FolkMusicPack",
+  "UpdateKeys": [ "Nexus:17877" ],
+  "ContentPackFor": {
+    "UniqueID": "ZeroMeters.SAAT.Mod",
+    "MinimumVersion": "1.0.0"
+  }
+}

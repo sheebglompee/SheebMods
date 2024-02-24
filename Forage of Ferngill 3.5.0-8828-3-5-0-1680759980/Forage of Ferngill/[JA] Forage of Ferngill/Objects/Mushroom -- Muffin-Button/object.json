@@ -1,0 +1,19 @@
+﻿{
+    "Name": "Muffin-Button Mushroom",
+    "Description": "Looks and smells like a freshly baked muffin. Does not taste like one though.",
+    "Category": "Greens",
+    "CategoryTextOverride": "Mushroom",
+    "Edibility": 15,
+    "Price": 50,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Muffin-Button-Mushroom",
+    "ContextTags": [
+    "season_fall",
+    "color_brown",
+    "forage_item",
+    "mushroom_item",
+    "forage_item_mines",
+  ],
+}

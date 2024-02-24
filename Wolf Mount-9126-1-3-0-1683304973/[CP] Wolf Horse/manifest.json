@@ -1,0 +1,11 @@
+{
+  "Name": "Wolf Horse",
+  "Author": "fuubi2",
+  "Version": "1.3.0",
+  "Description": "Retextures the horse as a wolf.",
+  "UniqueID": "fuubi2.wolfhorse",
+  "UpdateKeys": [ "Nexus:9126" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

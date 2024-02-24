@@ -1,0 +1,16 @@
+﻿{
+    "Name": "Buttered-Star",
+    "Description": "These hardy flowers are often found along roadsides across Ferngill",
+    "Category": "Flower",
+    "Edibility": 0,
+    "Price": 35,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Buttered-Star",
+    "ContextTags": [
+    "season_spring",
+    "color_yellow",
+    "flower_item",
+  ],
+}

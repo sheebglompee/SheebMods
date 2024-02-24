@@ -1,0 +1,58 @@
+{
+//This is meant to exclude everyone but two people for specific debugging, meaning they'll become your Winter Star gifter and giftee.
+//Commenting all but one or all out will cause the game to hang, so do not do that. Always have two commented out at any time.
+
+//Final reminder: Claire can only gift at 6+ hearts! Only comment her out if she's that friended, otherwise comment someone else out.
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries":
+			{
+				//SVE Villagers
+				
+				"Andy": "WinterStar",
+				"MarlonFay": "WinterStar",
+				"Susan": "WinterStar",
+				//"Sophia": "WinterStar",
+				//"Claire": "WinterStar",
+				"Victor": "WinterStar",
+				"Olivia": "WinterStar",
+				
+				//Vanilla Villagers
+				
+				"Abigail": "WinterStar",
+				"Leah": "WinterStar",
+				"Penny": "WinterStar",
+				"Maru": "WinterStar",
+				"Haley": "WinterStar",
+				"Emily": "WinterStar",
+				"Sebastian": "WinterStar",
+				"Shane": "WinterStar",
+				"Elliott": "WinterStar",
+				"Alex": "WinterStar",
+				"Harvey": "WinterStar",
+				"Sam": "WinterStar",
+				"Caroline": "WinterStar",
+				"Clint": "WinterStar",
+				"Demetrius": "WinterStar",
+				"Evelyn": "WinterStar",
+				"George": "WinterStar",
+				"Gus": "WinterStar",
+				"Jas": "WinterStar",
+				"Jodi": "WinterStar",
+				"Kent": "WinterStar",
+				"Leo": "WinterStar",
+				"Lewis": "WinterStar",
+				"Linus": "WinterStar",
+				"Marnie": "WinterStar",
+				"Pam": "WinterStar",
+				"Pierre": "WinterStar",
+				"Robin": "WinterStar",
+				"Vincent": "WinterStar",
+				"Willy": "WinterStar",
+			}
+		},
+	],
+}

@@ -1,0 +1,87 @@
+{
+    "Name": "Bloomin' Onion (PH)", 
+    "Description": "An onion prepared and fried to look like a flower.", 
+    "Category": "Cooking",
+	"ContextTags": 
+        [
+		"color_brown",
+        "dye_medium"
+        ],
+    "Edibility": 68, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 1,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 1,
+        "Duration": 180,
+    },  
+    "Price": 230, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Onion (PH)", 
+            "Count": 1,
+        },
+		{
+            "Object": 246, 
+            "Count": 1,
+        },
+		{
+            "Object": 247, 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Pam"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Emily"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Bloomin' Onion",
+		"es": "Bloomin' Onion", //Spansih
+        "ko": "Bloomin' Onion", //Korean
+        "de": "Zwiebelblume", //German
+        "fr": "Bloomin' Onion", //French
+        "hu": "Bloomin' Onion", //Hungarian
+        "it": "Bloomin' Onion", //Italian
+        "ja": "Bloomin' Onion", //Japanese
+        "pt": "Bloomin' Onion", //Portuguese
+        "ru": "Луковый цветок", //Russian
+        "tr": "Bloomin' Onion", //Turkish
+        "zh": "洋葱开花", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "An onion prepared and fried to look like a flower.", //Spansih
+        "ko": "An onion prepared and fried to look like a flower.", //Korean
+        "de": "Eine Zwiebel, die so zubereitet und gebraten wird, dass sie wie eine Blume aussieht.", //German
+        "fr": "An onion prepared and fried to look like a flower.", //French
+        "hu": "An onion prepared and fried to look like a flower.", //Hungarian
+        "it": "An onion prepared and fried to look like a flower.", //Italian
+        "ja": "An onion prepared and fried to look like a flower.", //Japanese
+        "pt": "An onion prepared and fried to look like a flower.", //Portuguese
+        "ru": "Лук, приготовленный и обжаренный. Форма напоминает цветок.", //Russian
+        "tr": "An onion prepared and fried to look like a flower.", //Turkish
+        "zh": "油炸洋葱。形状像一朵花。", //Chinese (Simplified)
+    },
+	
+}

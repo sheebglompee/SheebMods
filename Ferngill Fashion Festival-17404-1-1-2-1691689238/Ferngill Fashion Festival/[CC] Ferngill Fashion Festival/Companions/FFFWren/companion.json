@@ -1,0 +1,83 @@
+{
+  "Name": "FFFWren",
+  "Type": "Walking",
+  "FrameSizeWidth": 16,
+  "FrameSizeHeight": 32,
+
+  "IdleBehavior": "Nothing",
+  "MaxIdleDistance": "-1",
+  "MaxDistanceBeforeTeleport": "-1",
+
+  "EnableEventAppearance": true,
+  "EnableSpawnAtDayStart": true,
+  "EnableFarmerCollision": true,
+  "EnableCharacterCollision": true,
+  "EnableBreathing": true,
+  "EnableShadow": true,
+  "Shadow": 
+		{
+			"OffsetX": 0,
+			"OffsetY": 8,
+			"Scale": 1,
+			"Alpha": 255
+		},
+    "InspectionDialogue": "I'm too old to keep up with the young folk's trends, but those outfits look really cute.",
+  "Portrait": {
+    "PortraitDisplayName": "Wren",
+    "FrameSizeWidth": 64,
+    "FrameSizeHeight": 64,
+  },
+  "TravelSpeed": 1,
+  "SpawnOffsetX": 0,
+  "SpawnOffsetY": 0,
+  "IsPrismatic": false,
+  "AppearUnderwater": false,
+
+  "UpAnimation": {
+    "StartingFrame": 8,
+    "NumberOfFrames": 4,
+    "Duration": 150,
+
+    "IdleAnimation": {
+      "StartingFrame": 8,
+      "NumberOfFrames": 1,
+      "Duration": 500
+    }
+  },
+
+  "DownAnimation": {
+    "StartingFrame": 0,
+    "NumberOfFrames": 4,
+    "Duration": 150,
+
+    "IdleAnimation": {
+      "StartingFrame": 0,
+      "NumberOfFrames": 1,
+      "Duration": 500
+    }
+  },
+
+  "LeftAnimation": {
+    "StartingFrame": 12,
+    "NumberOfFrames": 4,
+    "Duration": 150,
+
+    "IdleAnimation": {
+      "StartingFrame": 12,
+      "NumberOfFrames": 1,
+      "Duration": 500
+    }
+  },
+
+  "RightAnimation": {
+    "StartingFrame": 4,
+    "NumberOfFrames": 4,
+    "Duration": 150,
+
+    "IdleAnimation": {
+      "StartingFrame": 4,
+      "NumberOfFrames": 1,
+      "Duration": 500
+    }
+  }
+}

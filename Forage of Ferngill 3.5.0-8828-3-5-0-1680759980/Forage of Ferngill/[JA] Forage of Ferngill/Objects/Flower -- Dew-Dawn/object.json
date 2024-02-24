@@ -1,0 +1,16 @@
+﻿{
+    "Name": "Dew-Dawn",
+    "Description": "These brilliant blue flowers only bloom high on ridgesides.",
+    "Category": "Flower",
+    "Edibility": 0,
+    "Price": 150,
+    "IsColored": true,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Dew-Dawn",
+    "ContextTags": [
+    "season_spring",
+    "color_blue",
+    "flower_item",
+  ],
+}

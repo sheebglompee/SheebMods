@@ -1,0 +1,52 @@
+{
+    "Name": "Weed Brownie",
+    "Description": "Most won't know what's in it until they take a bite. Even then, some still won't know.",
+    "Category": "Cooking",
+    "Edibility": 8,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": 
+    {
+        "Attack": 0,
+        "Defense": -3,
+        "Duration": 150,
+        "Farming": 0,
+        "Fishing": 0,
+        "Luck": 3,
+        "MagnetRadius": 0,
+        "MaxStamina": 0,
+        "Mining": 0,
+        "Speed": 0,
+    },
+    "Price": 250,
+    "IsColored": false,
+
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": "Large Egg",
+                "Count": 3
+            },
+            {
+                "Object": "Wheat Flour",
+                "Count": 1
+            },
+            {
+                "Object": "Cannabis",
+                "Count": 2
+            }
+        ]
+    },
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 150,
+    "PurchaseRequirements": null,
+
+    "GiftTastes": {
+        "Love": [ "Sebastian", "Sam", "Emily", "Leah" ],
+        "Like": [ "Abigail", "Krobus", "Shane", "Pam", "Gus", "Alex", "Elliott", "Lewis" ],
+        "Neutral": [ "Linus", "Clint", "Harvey", "Pierre", "Penny", "Haley" ],
+        "Dislike": [ "Caroline", "Dwarf", "Evelyn", "George", "Marnie", "Robin", "Willy", "Wizard", "Demetrius", "Sandy" ],
+        "Hate": [ "Jas", "Vincent", "Maru", "Jodi", "Kent" ]
+    }
+}

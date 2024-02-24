@@ -1,0 +1,21 @@
+{
+    "Name": "Rock-Blush",
+    "Product": "Rock-Blush",
+    "SeedName": "Rock-Blush Seeds",
+    "SeedDescription": "Plant in Spring, Summer or Fall. Takes 7 days to grow.",
+    "Type": "Flower",
+    "Seasons": ["spring", "summer", "fall" ],
+    "Phases": [1, 1, 2, 2, 1],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": [
+        "65, 237, 216, 204",
+        "38, 141, 208, 204",
+        "25, 216, 234, 255"
+    ],
+    "SeedNameLocalization":
+    {},
+    "SeedDescriptionLocalization":
+    {},
+}

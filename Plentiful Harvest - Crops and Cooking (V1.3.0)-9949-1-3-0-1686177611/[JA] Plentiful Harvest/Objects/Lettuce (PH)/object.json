@@ -1,0 +1,53 @@
+{
+    "Name": "Lettuce (PH)",
+    "Description": "The leaves are incredibly crisp. It's perfect for salads and for sandwiches.",
+    "Category": "Vegetable",
+	"ContextTags": 
+        [
+        "season_winter",
+		"color_green",
+		"dye_medium"
+        ],
+    "Edibility": 30,
+    "Price": 180, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Leah", "Harvey"],
+        "Like": ["Caroline", "Gus", "Pierre", "Pam", "Linus", "Lewis"],
+        "Neutral": null, 
+        "Dislike": ["Haley", "Sebastian", "Emily", "Leo"], 
+        "Hate": ["Jas", "Vincent", "Shane"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Lettuce",
+		"es": "Lettuce", 
+        "ko": "Lettuce", 
+        "de": "Kopfsalat", 
+        "fr": "Lettuce", 
+        "hu": "Lettuce", 
+        "it": "Lettuce", 
+        "ja": "Lettuce",
+        "pt": "Lettuce", 
+        "ru": "Латук", 
+        "tr": "Lettuce",
+        "zh": "生菜", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "The leaves are incredibly crisp. It's perfect for salads and for sandwiches.", 
+        "ko": "The leaves are incredibly crisp. It's perfect for salads and for sandwiches.", 
+        "de": "Die Blätter sind unglaublich knackig. Er ist perfekt für Salate und für Sandwiches.",
+        "fr": "The leaves are incredibly crisp. It's perfect for salads and for sandwiches.", 
+        "hu": "The leaves are incredibly crisp. It's perfect for salads and for sandwiches.",
+        "it": "The leaves are incredibly crisp. It's perfect for salads and for sandwiches.", 
+        "ja": "The leaves are incredibly crisp. It's perfect for salads and for sandwiches.", 
+        "pt": "The leaves are incredibly crisp. It's perfect for salads and for sandwiches.",
+        "ru": "Его листья невероятно хрустящие. Идеально подходит для салатов и бутербродов.", 
+        "tr": "The leaves are incredibly crisp. It's perfect for salads and for sandwiches.", 
+        "zh": "生菜叶子非常脆。它非常适合用来做沙拉和三明治。",
+    },
+}

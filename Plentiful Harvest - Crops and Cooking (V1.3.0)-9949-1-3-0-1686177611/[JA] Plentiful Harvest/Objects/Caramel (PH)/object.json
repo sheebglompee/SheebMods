@@ -1,0 +1,70 @@
+{
+    "Name": "Caramel (PH)", 
+    "Description": "A soft and chewy treat. It's great in and on tons of things.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_brown",
+        ],
+    "Edibility": 5, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs": null,  
+    "Price": 130, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": 245, 
+            "Count": 1,
+        },
+		{
+            "Object": -6, 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Vincent", "Sam", "Harvey", "Haley", "Maru", "Jas"],
+        "Like": null,
+        "Neutral": ["Kent"], 
+        "Dislike": ["Leah", "Krobus"], 
+        "Hate": ["George", "Pierre"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Caramel",
+		"es": "Caramel", //Spansih
+        "ko": "Caramel", //Korean
+        "de": "Karamel", //German
+        "fr": "Caramel", //French
+        "hu": "Caramel", //Hungarian
+        "it": "Caramel", //Italian
+        "ja": "Caramel", //Japanese
+        "pt": "Caramel", //Portuguese
+        "ru": "Карамель", //Russian
+        "tr": "Caramel", //Turkish
+        "zh": "黄油奶糖", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A soft and chewy treat. It's great in and on tons of things.", //Spansih
+        "ko": "A soft and chewy treat. It's great in and on tons of things.", //Korean
+        "de": "Eine weiche und klebrige Süßigkeit. Es macht sich großartig in und auf tonnenweiser Dinge.", //German
+        "fr": "A soft and chewy treat. It's great in and on tons of things.", //French
+        "hu": "A soft and chewy treat. It's great in and on tons of things.", //Hungarian
+        "it": "A soft and chewy treat. It's great in and on tons of things.", //Italian
+        "ja": "A soft and chewy treat. It's great in and on tons of things.", //Japanese
+        "pt": "A soft and chewy treat. It's great in and on tons of things.", //Portuguese
+        "ru": "Мягкое жевательное лакомство. Прекрасно подходит для употребления в пищу и в сочетании с другими продуктами.", //Russian
+        "tr": "A soft and chewy treat. It's great in and on tons of things.", //Turkish
+        "zh": "柔软而耐嚼的食物。和很多食物都很搭。", //Chinese (Simplified)
+    },
+	
+}

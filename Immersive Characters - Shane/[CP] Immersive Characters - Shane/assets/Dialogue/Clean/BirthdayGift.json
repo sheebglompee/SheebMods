@@ -1,0 +1,78 @@
+{
+	"Changes": [
+		{
+			"LogName": "Birthday Gift Dialogue 0-3",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"NPC.cs.4274": "How'd you know that today's my birthday? ...Well, thanks. I really like this.",
+				"NPC.cs.4276": "Oh, for my birthday? Thanks, that's... decent of you./Oh, for my birthday? Thanks, that's... decent of you.",
+				"NPC.cs.4278": "Yoba, get that junk away from me! You choose to give me that today, of all days...$s/Yoba, get that junk away from me. You choose to give me that today, of all days...",
+				"NPC.cs.4280": "Oh, you know that today's my..? Thanks."
+			},
+			"When": {
+				"Hearts:Shane": "{{Range: 0, 3}}",
+				"Relationship:Shane |contains=Married": false,
+			},
+		},
+		{
+			"LogName": "Birthday Gift Dialogue 4-6",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"NPC.cs.4274": "Oh, a birthday gift? I didn't think anyone would remember. Thanks, @. This is great.",
+				"NPC.cs.4276": "Oh, you remembered my birthday? I didn't think anyone would. Thanks, @.",
+				"NPC.cs.4278": "You're giving me this? What, my day wasn't already bad enough as it was?/You're giving me this? What, my day wasn't already bad enough as it was?",
+				"NPC.cs.4280": "For my birthday? Thanks, @."
+			},
+			"When": {
+				"Hearts:Shane": "{{Range: 4, 6}}",
+				"Relationship:Shane |contains=Married": false,
+			},
+		},
+		{
+			"LogName": "Birthday Gift Dialogue 7-8",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"NPC.cs.4274": "Hey, you got me something for my birthday? Thanks, @. This is great!",
+				"NPC.cs.4276": "Hey, this is a pretty good birthday present! Thanks, @.",
+				"NPC.cs.4278": "...You hate me, don't you?/...You hate me, don't you?",
+				"NPC.cs.4280": "A birthday present? Thanks, @.$6"
+			},
+			"When": {
+				"Hearts:Shane": "{{Range: 7, 8}}",
+				"Relationship:Shane |contains=Married": false,
+			},
+		},
+		{
+			"LogName": "Birthday Gift Dialogue 9-10",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"NPC.cs.4274": "Hey, this is my favorite! It's for my birthday? Thanks, @!",
+				"NPC.cs.4276": "Hey, this is a pretty good birthday present! Thanks, bud.",
+				"NPC.cs.4278": "...Really, this? On my birthday?/...Really, this? On my birthday?",
+				"NPC.cs.4280": "A birthday present? Thanks, bud."
+			},
+			"When": {
+				"Hearts:Shane": "{{Range: 9, 14}}",
+				"Relationship:Shane |contains=Married": false,
+			},
+		},
+		{
+			"LogName": "Birthday Gift Dialogue Spouse",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"NPC.cs.4274": "For my birthday? Heh, you know exactly what I like best, @.",
+				"NPC.cs.4276": "Hey, this is a pretty good birthday present! Thanks, chickadee.",
+				"NPC.cs.4278": "...Really, this? On my birthday?/...Really, this? On my birthday?",
+				"NPC.cs.4280": "For my birthday? Aw, thanks, bud."
+			},
+			"When": {
+				"Relationship:Shane": "Married",
+			},
+		},
+	],
+}

@@ -1,0 +1,10 @@
+{
+    "Name": "[CP] SDVWT NPC LINES",
+    "Author": "Mortis",
+    "Version": "1.2.3",
+    "Description": "Optional NPC lines for EXTRA IMMERSION.",
+    "UniqueID": "Mortis.CannabisLines",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}    

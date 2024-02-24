@@ -1,0 +1,16 @@
+{
+	"Name": "Base Doll",
+	"Description": "A clean, unclothed doll ready to be remade in someone's likeness.",
+	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Doll",
+	"Edibility": -300,
+	"Price": 1,
+	"IsColored": false,
+	"CanPurchase": false,
+	"NameLocalization": { 
+        "ko": "베이스 인형",
+	},
+    "DescriptionLocalization": { 
+        "ko": "누군가와 닮게 만들어질 준비가 된 깨끗한 베이스 인형.",
+	},
+}

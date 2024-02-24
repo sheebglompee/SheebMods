@@ -1,0 +1,178 @@
+{
+    "Changes":
+    [
+
+//Yri Optional Events 
+        
+        
+    //2 Hearts
+        
+        //Forest 
+
+        {
+            "LogName": "Stroll through the woods",
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270002/f Yri 500/d Fri/w sunny/z winter/t 1200 1600": "continue/-1000 -1000/Yri 34 25 2 farmer 34 10 2/addConversationTopic YriWalk 7/viewport 34 25/skippable/pause 1000/move farmer 0 13 2 true/emote Yri 56/pause 3200/emote Yri 16/faceDirection Yri 0/pause 100/speak Yri \"Oh! Hello @, fancy seeing you out here.$h\"/emote farmer 8/pause 1500/speak Yri \"What brings me here?#$b# I guess I needed some fresh air. Walking through the woods helps me clear my head.$h\"/pause 250/faceDirection Yri 2/pause 200/emote Yri 56/pause 1500/speak Yri \"Don't you think these woods are special?#$b#Did you know that the trees here grow faster and their wood is more durable? It makes them the perfect building material.$h#$b#That's why all buildings in the valley are made of locally-sourced wood.#$b#Back then, Robin and I brought samples to Demetrius while we were working out the details for the town overhaul.#$b#As it turns out, the hardwood is extremely similar to the Empress Splendor.$4\"/pause 250/faceDirection Yri 0/emote farmer 8/pause 1500/speak Yri \"It's one of the fastest-growing trees and has the highest strength to weight ratio of any commercial wood.$4#$b#....yet... It's weird...$s#$b#It seems like the trees are seemingly growing back overnight.$3#$b#No tree known to us can do such a thing.#$b#It's almost like magic.$4\"/pause 100/emote Yri 16/pause 1500/speak Yri \"Oh, I'm so sorry, @! I just started blabbering.$3#$b#Sorry you had to listen to my rambling.#$b#Anyway, it was nice seeing you! I need to go back to work, see you!$h\"/move Yri 0 -1 1/move Yri 1 0 0/move Yri 0 -10 0 true/pause 800/globalFade/viewport -999 -999/end"
+            },
+        },
+
+
+        //Beach 
+
+        {
+            "LogName": "A shack?",
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270004/f Yri 500/d Fri/w sunny/z winter/t 1200 1600": "continue/-1000 -1000/Yri 48 13 0 farmer 38 6 2/addConversationTopic YriShack 7/viewport 48 12/skippable/pause 1000/move farmer 0 6 1/move farmer 9 0 1 true/emote Yri 12/pause 1500/faceDirection Yri 3/pause 100/speak Yri \"Hello @, What are you doing here?$h\"/emote farmer 8/pause 1500/speak Yri \"Oh... I was on my way to Willy's when I noticed Elliott's house.$h\"/pause 250/faceDirection Yri 0/pause 200/speak Yri \"It's so... I don't know... It has holes everywhere and it isn't insulated...\"/pause 250/faceDirection Yri 3/emote farmer 8/pause 1500/speak Yri \"I know it's none of my business but I can't believe Mayor Lewis sold someone a storage unit.$s#$b#Can you believe this? This isn't up to code at all. How irresponsible...$a#$b#...$3#$b#Oh... I'm sorry @, I should't have been like that. Sorry for that. I think it's time for me to go.\"/move Yri 0 8 2 true/textAboveHead Yri\"Bye-bye, @! See you later.\"/pause 800/globalFade/viewport -999 -999/end"
+            },
+        },
+        
+
+    //4 Hearts
+
+        //Town
+      
+        {
+            "LogName": "Yri and Charles Datenight",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270010/f Yri 1000 Charles 1000/d Fri/w sunny/z winter/t 2000 2400": "playful/-1000 -1000/Yri 82 94 3 Charles 82 95 3 farmer 58 94 1/addConversationTopic YriDatenight 7/viewport 73 94/skippable/pause 1000/move Yri -10 0 3 true/move Charles -10 0 3 true/move farmer 12 0 1 true/textAboveHead Yri \"Charles~ you're a Charles~\"/emote Charles 28/pause 2200/speak Yri \"Charles is my Charles because he is a Charles the most charlesest Charles~$7\"/pause 100/speak Charles \"....Yri, please. No more... That's not even a real sentence...$6\"/pause 100/speak Charles \"Oh... Good evening.\"/speak Yri \"Good evening, @!$h#$b#We're on our way to the saloon. Charles reserved a table for us!$8\"/speak Charles \"It's our date night.\"/speak Yri \"Yes! I'm so happy!$7#$b#Hehe... Date night...Date night with my Charles...$7\"/pause 150/textAboveHead Yri \"Hehehehe~\"/pause 100/emote Charles 28/pause 1500/speak Charles \"Don't worry, she's alright. She's always like this when we go out.$h#$b#You can ignore her.\"/pause 100/jump Yri 8/pause 100/speak Yri \"Hey! We haven't had any dates for like... a month or so, let me be excited$7\"/speak Charles \"I know, I know, but please stop making up words with my name. It's embarrassing in front of @.\"/speak Yri \"Yeah, yeah.$h#$b#Anyway, sorry @! We need to go~$7\"/speak Charles \"Goodbye.\"/textAboveHead Yri \"~Date night, it's our date night~\"/pause 1000/textAboveHead Charles \"Please stop singing.... people are trying to sleep\"/pause 1000/move farmer 0 -1 2/move Yri -15 0 3 true/move Charles -15 0 3 true/pause 1500/textAboveHead Yri \"You only said no made-up words~\"/pause 1000/textAboveHead Charles \"*sigh* ...I love you\"/pause 1000/globalFade/viewport -999 -999/end"
+            },
+        },
+        
+        //Yri's House
+
+        //{
+            //"LogName": "Yri Sick",
+            //"Action": "EditData",
+            //"Target": "Data/Events/Custom_Yri_House",
+            //"Entries":
+            //{
+                //(0 = up, 1 = right, 2 = down, 3 = left) 
+                // 
+
+                //"106270004/f Yri 1000/r 0.2/d Fri/t 0800 2200": "playful/-1000 -1000/Yri 21 8 0 Charles 11 7 3 farmer 13 16 0/viewport 21 9/skippable/addConversationTopic SickYri 7/showFrame Yri 18/pause 1000/move farmer 0 -5 1/textAboveHead Yri \"*cough* *cough*\"/move farmer 6 0 0/move farmer 0 -1 0/pause 2000/emote Yri 16/pause 1500/speak Yri \"Sorry, @. I don't feel well today.$12#$b# I haven't slept much in the last few days. Work is piling up and I can't catch a break...$12\"/textAboveHead Yri \"*cough* *cough*\"/pause 2000/speak Yri \"Don't say it, I know I should stop working and rest. You're the third one today who's come in to tell me this.$12\"/quickQuestion *cough* *cough* *cough*#Stop working for a few hours and take a nap, you need it.#YRI I'M GONNA DROP KICK YOU. GO TO BED OR SO HELP ME.#Yeah... I don't really care.... Sorry. Yeah...(break)move Charles 2 0 2\\move Charles 0 4 1\\move Charles 7 0 0\\textAboveHead Yri \"*cough* *cough*\"\\pause 1500\\speak Yri \"But still...$12\"(break)move Charles 2 0 2\\move Charles 0 4 1\\move Charles 7 0 0\\jump Yri 4\\emote Yri 16\\pause 1500\\speak Yri \"...I'm sorry, @...$13\"(break)move Charles 2 0 2\\move Charles 0 4 1\\move Charles 7 0 0\\speak Yri \"I shouldn't.... have assumed...\"/emote Charles 12/speak Charles \"Yri... What are you doing here? You told me you would rest on the couch?$2#$b#...That's enough.$5#$b# I'm sorry, @, please help me bring her to bed...\"/speak Yri \"No... I need to finish this blueprint...$13#b$b#I'll go to bed after that!$12\"/pause 1000/globalFade/viewport -999 -999/end"
+            //},
+        //},
+
+    //8 Hearts 
+       //Robin House
+        {
+            "LogName": "Dinner at Robins House",
+            "Action": "EditData",
+            "Target": "Data/Events/ScienceHouse",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270022/f Yri 2000/d Fri/t 1800 2200": "continue/-1000 -1000/Yri 28 9 0 Robin 29 9 3 Maru 30 11 3 Sebastian 26 10 2 Charles 26 11 0 Demetrius 29 11 1 farmer -500 -500 0/addConversationTopic YriDinnerwithRobin 7/viewport 28 10/skippable/pause 1000/textAboveHead Yri \"Do you think we need more salt?\"/pause 2000/textAboveHead Robin \"Of course!\"/pause 1000/textAboveHead Sebastian \"Last week the group nearly wiped\"/pause 2000/textAboveHead Maru \"Should we collect samples?\"/pause 3000/textAboveHead Charles \"Again?\"/pause 2500/textAboveHead Demetrius \"We should wait a few more days\"/pause 3000/faceDirection Yri 1/jump Yri 8/speak Yri \"Robin!$3#$b# That's too much!$3\"/pause 100/speak Robin \"Whaaat? I thought it said a spoonful of chili.$h\"/pause 200/emote Yri 12/pause 250/faceDirection Robin 2/animate Robin 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33/pause 1500/textAboveHead Charles \"Here we go again\"/faceDirection Maru 0/pause 1500/textAboveHead Maru \"Mom, please!\"/pause 1500/faceDirection Demetrius 0/pause 150/speak Demetrius \"Robin... Please, remember last month's chilli. The one no one could eat except you?$s#$b#Please, not again!$s\"/pause 100/faceDirection Sebastian 1/pause 150/speak Sebastian \"Maybe we should think about ordering takeout again?\"/pause 100/speak Charles \"Maybe milk will help? Honey, what do you think?\"/pause 100/speak Yri \"Bring me the milk!$6\"pause 2000/speak Charles \"Oh boy...$s\"/faceDirection Charles 1/pause 100/move Charles 1 0 0/move Charles 0 -2 0/pause 200/emote Charles 40/pause 1500/faceDirection Charles 1/pause 300/faceDirection Yri 3 true/pause 200/speak Yri \"Thanks, dear.$s\"/pause 100/emote Yri 12/pause 100/emote Charles 28/pause 150/emote Sebastian 28/emote Maru 28/emote Demetrius 28/emote Robin 60/pause 1500/animate Robin 34 34 34 34 34 34 34 34 34 34 34 34 34 35 35 35 35 35 35 35 35 35 35 35 35 35 35 34 34 34 34 34 34 34 34 34 34 34 34 34 35 35 35 35 35 35 35 35 35 35 35 35 35 35 34 34 34 34 34 34 34 34 34 34 34 34 34 35 35 35 35 35 35 35 35 35 35 35 35 35 35/speak Robin \"...$2#$b# ...I'm sorry$2\"/faceDirection Robin 3/pause 150/speak Robin \"That was selfish of me.$s#$b#I shouldn't have done that. And I'm sorry.$s\"/pause 300/faceDirection Yri 3/pause 100/emote Yri 40/pause 2000/faceDirection Yri 1/pause 100/speak Yri \"...Apology accepted.$6#$b#But I'm still mad, so you're going to help me cook PROPERLY this time, Robin.$6\"/pause 100/emote Robin 28/pause 1500/speak Robin \"Yes. I promise I won't tamper with the food again.\"/pause 100/faceDirection Yri 0/pause 150/faceDirection Robin 0/faceDirection Charles 2/pause 300/move Charles 0 2 3/pause 100/move Charles -1 0 0/faceDirection Sebastian 2/faceDirection Demetrius 1/pause 100/faceDirection Maru 3/pause 200/speak Sebastian \"Do we even have enough chairs?\"/pause 100/emote Charles 28/textAboveHead Maru \"So, about the samples...\"/pause 2000/globalFade/viewport -999 -999/end"
+            }
+        },
+        
+       //Forest
+
+        {
+            "LogName": "Yri wants children",
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270033/f Yri 2000/d Fri/w sunny/z winter/t 1500 1800": "50s/-1000 -1000/farmer -500 -500 0 Yri 75 40 2 Penny 71 45 2 Jas 71 49 3 Vincent 70 49 1/skippable/specificTemporarySprite pennyFieldTrip/positionOffset Penny 0 -16/animate Jas false true 90 16 17 18 19/viewport 71 45 true/move Yri 0 5 3/pause 600/faceDirection Penny 1/pause 600/speak Penny \"Hello, Yri! I'm glad you made it.\"/emote Yri 20/speak Yri \"I see you brought the children on a little field trip. They seem to be enjoying it.$h\"/faceDirection Penny 2/speak Penny \"Yes, I love letting them have a bit of fun before we go back to study.$h#$b#I hope you're not in a rush? I'd like to let them play a little more.\"/emote Yri 56/move Yri -3 0 0/move Yri 0 -1 3/move Yri -2 0 2/move Yri 0 1 2/speak Yri \"Vincent and Jas are so cute.$h#$b# They must be a joy to teach.\"/speak Penny \"That's true. They're good kids.$h\"/emote Penny 32/pause 150/emote Yri 32/pause 1500/speak Penny \"So... What about you and Charles?\"/speak Yri \"We both want children. We're just waiting for the right time.$h\"/speak Penny \"I'm sure you two will make great parents.$h#$b#What do you think, should we start now?\"/speak Yri \"I'm ready!$h\"/pause 300/showFrame Penny 26/pause 500/shake Penny 500/speak Penny \"Jas! Vincent! Yri is here!\"/pause 80/stopAnimation Jas/faceDirection Jas 0 true/faceDirection Vincent 0/jump Vincent/jump Jas/pause 800/move Vincent 0 -3 0 true/move Jas 0 -3 0 true/textAboveHead Penny \"Today Yri wants to explain how to...\"/pause 800/globalFade/viewport -999 -999/end"
+            },
+        },
+
+
+
+    //10 Hearts
+        //Saloon
+
+        {
+            "LogName": "Elliott's Shack",
+            "Action": "EditData",
+            "Target": "Data/Events/Saloon",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270017/f Yri 2500/d Fri/t 1500 2200": "Saloon1/-1000 -1000/Yri 3 22 3 Charles 1 22 1 farmer 14 20 0 Elliott 4 19 2 Leah 2 19 1 Clint 18 22 2 Marnie 9 22 1 Pam 7 18 1 Pierre 9 20 3 Demetrius 8 20 1 Gus 14 18 2 Emily 16 18 3/viewport 6 21/skippable/pause 1000/speak Yri \"What do you want to eat, honey?\"/pause 100/speak Charles \"Probably the Stardrop Sandwich.\"/emote Yri 20/pause 250/textAboveHead Leah \"Why won't you move out of that shack, Elliott?\"/pause 1500/textAboveHead Elliott \"Oh you see...\"/pause 2000/speak Elliott \"... I don't intend to live there forever as a lonely hermit on the beach.#$b#I've faced so many hardships... All that sand...$2#$b#But I bought that cabin because I believe facing all these hardships and enduring all these adversities will help me become a marvelous author!$1#$b#That's why I specifically asked for that place, even when Lewis offered me a nice house in East Scarp.$1\"/speak Yri \"...!!!$3\"/textAboveHead Leah \"Oh, it helps with your creative flow?\"/pause 100/emote Yri 16/pause 1500/speak Charles \"Oh no... Here we go...\"/speak Yri \"....! Oh no! Oh no! Oh no no no...$3\"/pause 100/speed Yri 5/move Yri 2 0 0/speed Yri 5/move Yri 0 -3 3/faceDirection Elliott 1/pause 250/speak Yri \"Elliott... Did you really buy that cabin of your own accord??$3\"/pause 200/speak Elliott \"That's right, isn't it scenic? The sound of the waves elevates my creative thoughts to new heights!$1\"/speak Yri \"Oh. No.$s\"/emote Charles 28/pause 1500/move Charles 0 -2 1/move Charles 1 0 1/speak Leah \"Are... are you alright, Yri?$6\"/speak Charles \"She'll be fine.#$b#So... Do you want to go apologize now, or...?\"/jump Yri 8/pause 150/speak Yri \"Now, of course! He must be at home! Let's go!$3\"/speed Yri 6/move Yri 1 0 2/speed Yri 5/move Yri 0 4 1 true/faceDirection farmer 2 true/emote farmer 8/speed Yri 6/move Yri 8 0 2/speed Yri 6/move Yri 0 1 2/pause 150/playSound doorOpen/pause 150/warp Yri -500 -500 0/playSound doorClose/pause 150/speak Charles \"I should be going too.#$b# Sorry for the inconvenience, you two.\"/textAboveHead Leah \"Okay, that was something that happened?\"/move Charles 0 1 1/move Charles 1 0 2/move Charles 0 1 1/move Charles 6 0 1 true/pause 1000/globalFade/viewport -999 -999/end"
+            },
+             "When": {"HasSeenEvent |contains=106270004": true}
+        },
+        
+
+
+        //Town
+
+        {
+            "LogName": "Yri apologizes to Lewis 2",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270018/e 106270017/d Fri/t 1500 2200": "continue/-1000 -1000/Charles 45 73 2 farmer -500 -500 3/viewport 45 74/skippable/pause 1000/playSound doorOpen/pause 150/warp farmer 45 71 2/playSound doorClose/pause 100/move farmer 0 1 2/emote Charles 16/pause 1000/faceDirection Charles 0/pause 500/speak Charles \"I guess you saw Yri running out?\"/emote farmer 60/pause 1500/speak Charles \"Don't worry, she's fine. She made a mistake and now she's off to apologize.#$b#It happens a lot. You get used to it after a while.$h\"/pause 200/emote farmer 8/pause 1500/speak Charles \"Of course you can tag along. Yri went to Lewis's house, so we'll meet her there.\"/emote farmer 32/move Charles 9 0 2 true/move farmer 0 1 1 true/move farmer 7 0 2 true/pause 1000/globalFade/viewport -999 -999/end"
+            },
+        },
+
+        
+        //Lewis House
+
+        {
+            "LogName": "Yri apologizes to Lewis 3",
+            "Action": "EditData",
+            "Target": "Data/Events/ManorHouse",
+            "Entries":
+           {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270019/e 106270018/d Fri/t 1500 2200": "continue/-1000 -1000/Yri 7 7 3 Lewis 6 7 1 Charles -499 -499 0 farmer -500 -500 0/addConversationTopic YriSorry 7/viewport 7 7/skippable/pause 1000/emote Yri 56/pause 1500/emote Lewis 32/pause 1500/playSound doorOpen/pause 150/warp farmer 4 11 0/playSound doorClose/playSound doorOpen/pause 150/warp Charles 5 11 0/playSound doorClose/pause 200/faceDirection Lewis 2/faceDirection Yri 2/emote Yri 56/move farmer 0 -3 1/move Charles 0 -2 1/move farmer 2 0 0/move Charles 2 0 0/move Charles 0 -1 0/speak Lewis \"Hello, you two.\"/speak Yri \"Sorry I didn't wait for you, Charles. And hello, @!\"/speak Charles \"You could've waited ten seconds so that me and @ could come with you.\"/speak Lewis \"Don't worry, you didn't miss much.$1\"/speak Yri \"I just apologized to Lewis. I jumped to conclusions, and the wrong one at that...#$b# That was unfair of me. And I'm also sorry, @. I told you something untrue and probably influenced you negatively with it...$s\"/emote farmer 32/pause 1500/speak Lewis \"It's already forgiven and forgotten.$1\"/emote Yri 56/pause 1500/speak Lewis \"...Say, you three...#$b#Have you already eaten?#$b#I made too much for myself. So if you want, you could stay a bit longer and...$2#$b#Maybe we could eat together?\"/pause 300/speak Charles \"We went to the saloon to eat, but someone ran away before we could order.\"/pause 100/jump Yri 4/pause 150/speak Yri \"Oh!$3#$b#Of course we would love to stay for dinner. What about you, @?$h\"/pause 150/emote farmer 32/pause 1500/speak Lewis \"If you could help me set up the table then, dinner will be ready soon.$1\"/pause 200/move Yri 0 -2 0/move Lewis 0 -2 0/move Charles 1 0 0/move farmer 0 1 1/move farmer 4 0 0/pause 1000/globalFade/viewport -999 -999/end"
+            },
+        },
+
+        //Forest
+
+        {
+            "LogName": "Yri and Robin Walk through the Woods",
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270034/r 0.2/d Fri/w sunny/t 1200 1800": "playful/-1000 -1000/Yri 46 76 3 Robin 45 77 3 farmer -500 -500 0/viewport 41 81/skippable/pause 1000/move Yri -6 0 2 true/move Robin -4 0 2 false/move Yri 0 1 2/speak Robin \"We should go on walks more often, don't you think? $h\"/speak Yri \"Yeah, it's nice to get some fresh air and relax for a few hours.$h\"/move Yri 0 6 2 true/move Robin 0 7 2 false/pause 1000/emote Yri 8/speak Yri \"Oh, we're here again.\"/speak Robin \"Yeah. Somehow we always end up here.\"/move Yri -3 0 2 true/move Robin -3 0 2 false/viewport move -7 10 1000/move Yri 0 1 2 true/move Robin 0 5 2 false/move Yri 0 5 2/speak Yri \"I always wonder why the house on the cliff hasn't sold yet? It has such a beautiful view.\"/speak Robin \"I wish Lewis would let us fix the house up. Secluded and with a view like that? It'd fetch quite the price.\"/faceDirection Yri 1/faceDirection Robin 3/pause 500/speak Robin \"I heard the owner left the village years ago, and since then, it's been considered abandoned.\"/speak Yri \"I wonder what made the owner leave?\"/speak Robin \"Good question. We'll probably never know, but it's sad nobody's taken over and now the wood's just rotting away.$s#$b#The wood needs to be treated at least every five years. Every two would be even better...\"/speak Yri \"You're right, but I guess there's nothing we can do about it.\"/emote Robin 28/speak Yri \"It has so much potential...$s#$b#...Hey Robin, what would you do with it if we could get our hands on the title?$h\"/emote Robin 56/speak Robin \"I'd add a second story and build a balcony.$h\"/speak Yri \"Great idea! How about some big panoramic windows?$h\"/speak Robin \"Perfect! Let's build a nice patio too.$h\"/move Robin 0 1 3/move Robin -1 0 3/textAboveHead Yri \"Oh! How about we paint it blue and white?\"/move Yri -10 0 3 true/move Robin -10 0 3 true/pause 2000/globalFade/viewport -999 -999/end"
+            },
+        },
+        //Mountain
+
+        {
+            "LogName": "Yri and Robin Talk about the Bridge",
+            "Action": "EditData",
+            "Target": "Data/Events/Mountain",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270035/r 0.2/d Fri/w sunny/t 1200 1800": "continue/-1000 -1000/Yri 87 26 1 Robin 87 27 1 farmer -500 -500 0/viewport 93 26/skippable/pause 1000/emote Robin 28/speak Robin \"I tried my best but Lewis wouldn't budge.$s#$b#He said the quarry hasn't been used in years anyway so he doesn't want me fixing it.$s\"/emote Yri 60/speak Yri \"You tried. I'm surprised you offered him help in the first place, since he still hasn't paid us...$s\"/speak Robin \"I didn't make the offer for him, I did it for the community. It makes me sad to see everything fall apart when we could be preventing it...$s\"/speak Yri \"Don't worry, Robin, I'm sure everything will get better. Lately a lot of new people have moved to Pelican Town.#$b#Leah, Elliott, and @, for example! When the town grows, maybe it will change Lewis's outlook on the state of the buildings.$h\"/emote Robin 56/speak Robin \"You're right.$h#$b#We should head back to the shop for now. Hopefully the town will get its glow back some day.$h\"/emote Yri 20 true/globalFade/viewport -999 -999/end"
+            },
+        },       
+    ]
+  }
+
+
+  

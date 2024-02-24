@@ -1,0 +1,140 @@
+{
+  "furniture.BoutiqueSewingTable.name": "Boutique Sewing Table",
+  "furniture.BoutiqueSewingTable.description":"A classical sewing table to make alterations to gowns.",
+
+  "furniture.BoutiqueSimpleMirror.name": "Simple Boutique Mirror",
+  "furniture.BoutiqueSimpleMirror.description":"The person looking back at you is beautiful!",
+
+  "furniture.BoutiqueUmbrellaHolder.name": "Boutique Umbrella Holder",
+  "furniture.BoutiqueUmbrellaHolder.description":"The perfect place to hold your umbrella in case of a rainy day.",
+
+  "furniture.DecoBoutiqueFlowerpot.name": "Boutique Flowerpot",
+  "furniture.DecoBoutiqueFlowerpot.description":"Small, compact, and with an inviting scent.",
+
+  "furniture.DecoBoutiqueVase.name": "Boutique Vase",
+  "furniture.DecoBoutiqueVase.description":"A vase with a single flower. It emits an inviting scent.",
+
+  "furniture.DecoHat1.name": "Hat Standee 1",
+  "furniture.DecoHat1.description": "There's a hat for every one!",
+
+  "furniture.DecoHat2.name": "Hat Standee 2",
+  "furniture.DecoHat2.description": "There's a hat for every one!",
+
+  "furniture.DecoHat3.name": "Hat Standee 3",
+  "furniture.DecoHat3.description": "There's a hat for every one!",
+
+  "furniture.DecoHat4.name": "Hat Standee 4",
+  "furniture.DecoHat4.description": "There's a hat for every one!",
+
+  "furniture.DecoHat5.name": "Hat Standee 5",
+  "furniture.DecoHat5.description": "There's a hat for every one!",
+
+  "furniture.DecoHat6.name": "Hat Standee 6",
+  "furniture.DecoHat6.description": "There's a hat for every one!",
+
+  "furniture.DecoHat7.name": "Hat Standee 7",
+  "furniture.DecoHat7.description": "There's a hat for every one!",
+
+  "furniture.DecoHat8.name": "Hat Standee 8",
+  "furniture.DecoHat8.description": "There's a hat for every one!",
+
+  "furniture.DecoHatBoxes.name": "Small Hat Boxes",
+  "furniture.DecoHatBoxes.description":"A pair of boxes to pack customers' lovely new hats.",
+  
+  "furniture.DecoLargeHatBoxes.name": "Large Hat Boxes",
+  "furniture.DecoLargeHatBoxes.description":"Boxes to pack the most extravagant hats you have to offer.",
+  
+  "furniture.DecoMannequin.name": "Half Mannequin",
+  "furniture.DecoMannequin.description":"A torso mannequin to work details up close.",
+  
+  "furniture.DecoNecklaceDisplays.name": "Single Necklace Displays",
+  "furniture.DecoNecklaceDisplays.description":"A wide arrange of neck jewelry for the most distinguished of customers.",
+  
+  "furniture.DecoParasols.name": "Parasol",
+  "furniture.DecoParasols.description":"Sun- and rainproof!",
+  
+  "furniture.DecoWisteria.name": "Founder Portrait",
+  "furniture.DecoWisteria.description":"Our esteemed founder Wisteria.",
+  
+  "furniture.DisplayCaseCenter.name": "Center Display Case",
+  "furniture.DisplayCaseCenter.description":"An ornate classical case with items for sale.",
+  
+  "furniture.DisplayCaseHats.name": "Hat Display Case",
+  "furniture.DisplayCaseHats.description":"An ornate classical case with items for sale.",
+
+  "furniture.DisplayCaseMannequinn.name": "Mannequin Display Case",
+  "furniture.DisplayCaseMannequinn.description":"An ornate classical case with items for sale.",
+    
+  "furniture.DisplayNecklace.name": "Necklace Display",
+  "furniture.DisplayNecklace.description":"A display to showcase necklaces for sale.",
+    
+  "furniture.DisplayShoes.name": "Shoe Display",
+  "furniture.DisplayShoes.description":"A display to showcase the shoes for sale.",
+ 
+  "furniture.DisplayHats.name": "Hat Display",
+  "furniture.DisplayHats.description":"A display to showcase the hat for sale.",
+    
+  "furniture.DisplayTableLarge.name": "Large Display Table",
+  "furniture.DisplayTableLarge.description":"An large empty display table.",
+    
+  "furniture.DisplayTableMedium.name": "Medium Display Table",
+  "furniture.DisplayTableMedium.description":"A medium-sized empty display table.",
+    
+  "furniture.DisplayTableSmall.name": "Small Display Table",
+  "furniture.DisplayTableSmall.description":"A small empty display table.",
+  
+  "furniture.DisplayTableOrnate.name": "Ornate Display Table",
+  "furniture.DisplayTableOrnate.description": "A medium-sized ornate display table.",
+
+  "furniture.Mannequin.name": "Mannequin",
+  "furniture.Mannequin.description":"A mannequin used to put together beautiful gowns.",
+    
+  "furniture.MannequinContrastParallel.name": "Contrast Parallel Mannequin",
+  "furniture.MannequinContrastParallel.description":"Indigo iridescent silk jersey with pearlescent stripe detailing and asymmetrical zip collar, and apricot capris. Part of Emily's Chromatic Measure Collection.",
+
+  "furniture.MannequinMedianTincture.name": "Median Tincture Mannequin",
+  "furniture.MannequinMedianTincture.description":"Natural undyed wool tunic with tangerine wool collar, cuffs, and hems beaded in malachite and sea-glass, with turquoise satin slacks. Part of Emily's Chromatic Measure Collection.",
+  
+  "furniture.MannequinSaturatedRatio.name": "Saturated Ratio Mannequin",
+  "furniture.MannequinSaturatedRatio.description":"Violet recycled fleece hoodie with asymmetrical zip and hem and rainbow fabric collage sleeves, and cobalt jeans with step hems. Part of Emily's Chromatic Measure Collection.",
+  
+  "furniture.MannequinSunflowerVision.name": "Sunflower Vision Mannequin",
+  "furniture.MannequinSunflowerVision.description":"Umber sequined crochet strapless slip and marble-dyed marigold silk open robe with bell sleeves. Part of Emily's Verdant Dreamer Collection.",
+  
+  "furniture.MannequinMeadowReverie.name": "Meadow Reverie Mannequin",
+  "furniture.MannequinMeadowReverie.description":"Peach pebbled mushroom-leather bolero and mint chiffon high-low empire waist gown with floral embroidery. Part of Emily's Verdant Dreamer Collection.",
+    
+  "furniture.MannequinPlumFantasy.name": "Plum Fantasy Mannequin",
+  "furniture.MannequinPlumFantasy.description":"Violet and magenta paisley taffeta peplum dress with gold applique chrysanthemum shoulder detailing and half-float collar. Part of Emily's Verdant Dreamer Collection.",
+    
+  "furniture.MannequinLissomeBlaze.name": "Lissome Blaze Mannequin",
+  "furniture.MannequinLissomeBlaze.description":"Vermillion plunge bodycon dress with lapels and gold starburst embroidery, and tuscan yellow bandeau. Part of Emily's Elemental Danseuse Collection.",
+    
+  "furniture.MannequinGracefulZephyr.name": "Graceful Zephyr Mannequin",
+  "furniture.MannequinGracefulZephyr.description":"Pearl chiffon jumpsuit with attached double scarf and lavender linen jacket with epaulettes and three-quarter sleeves. Part of Emily's Elemental Danseuse Collection.",
+    
+  "furniture.MannequinAquaticElegance.name": "Aquatic Elegance Mannequin",
+  "furniture.MannequinAquaticElegance.description":"Off-the-shoulder turquoise satin mermaid dress with azure sequin bodice detailing and attached floor-length cape with silver foam embroidery & seed pearls. Part of Emily's Elemental Danseuse Collection.",
+    
+  "furniture.MannequinProfessionalByways.name": "Professional Byways Mannequin",
+  "furniture.MannequinProfessionalByways.description":"Cotton-blend tan jacket and tank top undershirt, with high-waisted golden-brown capris. Part of Emily's Urban Catwalk Collection.",
+    
+  "furniture.MannequinNaturalBustle.name": "Natural Bustle Mannequin",
+  "furniture.MannequinNaturalBustle.description":"Olive twill weave overcoat with jet abstract animal iconography, and charcoal denim shirt with loose hazelnut-brown cotton trousers. Part of Emily's Urban Catwalk Collection.",
+    
+  "furniture.MannequinCapriciousSkylines.name": "Capricious Skylines Mannequin",
+  "furniture.MannequinCapriciousSkylines.description":"Cream flocked wool jacket with hand-embroidered fire-and-ice motif, beige turtleneck collar crop-top, and chambray jeans. Part of Emily's Urban Catwalk Collection.",
+  
+  "furniture.PedestalCourtains.name": "Pedestal Curtains",
+  "furniture.PedestalCourtains.description":"Luscious curtains made out of expensive-feeling silk.",
+  
+  "furniture.PedestalPedestal.name": "Pedestal",
+  "furniture.PedestalPedestal.description":"A small pedestal for people trying on clothes to feel special on.",
+  
+  "furniture.SewingTable.name": "Sewing Table",
+  "furniture.SewingTable.description":"A table with everything a seamstress or tailor could use for their work.",
+  
+  
+
+}
+  

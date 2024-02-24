@@ -1,0 +1,91 @@
+{
+    "Name": "Watermelon Caprese (PH)", 
+    "Description": "Slices of watermelon and cheese tossed in oil and skewered. Includes dandelion leaves instead of basil.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_red",
+        "dye_medium"
+        ],
+    "Edibility": 68, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 2,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 1,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 180,
+    }, 
+    "Price": 520, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Watermelon (PH)", 
+            "Count": 1,
+        },
+		{
+            "Object": 22,
+            "Count": 1,
+        },
+		{
+            "Object": 247,
+            "Count": 1,
+        },
+		{
+            "Object": 426,
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Eliott"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": null,
+    },
+
+// Localization
+
+    "NameLocalization":
+    {
+        "default": "Watermelon Caprese",
+		"es": "Watermelon Caprese", //Spansih
+        "ko": "Watermelon Caprese", //Korean
+        "de": "Wassermelonen-Caprese", //German
+        "fr": "Watermelon Caprese", //French
+        "hu": "Watermelon Caprese", //Hungarian
+        "it": "Watermelon Caprese", //Italian
+        "ja": "Watermelon Caprese", //Japanese
+        "pt": "Watermelon Caprese", //Portuguese
+        "ru": "Капрезе с арбузом", //Russian
+        "tr": "Watermelon Caprese", //Turkish
+        "zh": "西瓜奶酪串", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Slices of watermelon and cheese tossed in oil and skewered. Includes dandelion leaves instead of basil.", //Spansih
+        "ko": "Slices of watermelon and cheese tossed in oil and skewered. Includes dandelion leaves instead of basil.", //Korean
+        "de": "Wassermelonenscheiben und Käse in Öl gewendet und aufgespießt. Statt mit Basilikum wird das Gericht mit Löwenzahnblättern garniert.", //German
+        "fr": "Slices of watermelon and cheese tossed in oil and skewered. Includes dandelion leaves instead of basil.", //French
+        "hu": "Slices of watermelon and cheese tossed in oil and skewered. Includes dandelion leaves instead of basil.", //Hungarian
+        "it": "Slices of watermelon and cheese tossed in oil and skewered. Includes dandelion leaves instead of basil.", //Italian
+        "ja": "Slices of watermelon and cheese tossed in oil and skewered. Includes dandelion leaves instead of basil.", //Japanese
+        "pt": "Slices of watermelon and cheese tossed in oil and skewered. Includes dandelion leaves instead of basil.", //Portuguese
+        "ru": "Ломтики арбуза и сыра, политые маслом и насаженные на шпажку. Вместо базилика используют листья одуванчика.", //Russian
+        "tr": "Slices of watermelon and cheese tossed in oil and skewered. Includes dandelion leaves instead of basil.", //Turkish
+        "zh": "西瓜片和奶酪拌在油里，串起来。包括蒲公英叶而不是罗勒。", //Chinese (Simplified)
+    },
+	
+}

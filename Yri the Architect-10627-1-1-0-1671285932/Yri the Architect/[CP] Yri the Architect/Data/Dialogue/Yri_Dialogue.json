@@ -1,0 +1,340 @@
+{
+    "Changes":
+    [
+{
+            "LogName": "Yri Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Yri",
+            "Entries":  
+{
+//Introduction
+
+  "Introduction": "Hi, nice to meet you. I'm Yri and you... oh, you're @, right? Robin told me all about you.#$b#Oh, how do you like the house? I heard it belonged to your grandparents.#$b#We tried our best to restore it with the funds we had. I hope you like it!$h",
+
+//Weekdays  
+
+  "Mon": "Hello, @, how are you doing? You seem quite lively today.#$b#I wish my {{SO}} was as active as you, but he's not really a Monday person.$l",
+  "Mon2": "Ah! Hi, it's nice to see you today! How was your weekend?$h#$b#Mine? Oh, well, I made a lot of sketches for some future projects!",
+  "Mon4": "Another Monday in the valley... Don't you think the time here flows differently? It feels like time flies here.#$b#Haha, maybe I'm just looking too much into it.$h",
+  "Mon6": "Lewis and I aren't on good terms.$a#$b#He still hasn't paid me for the town overhaul he commissioned...$s",
+  "Mon8": "What a nice day to work on some more designs. What do you think about this one?#$b#Isn't it cute? Some might think it looks childish, but I think it's romantic and playful.$h",
+   "Mon10": "It's so wonderful to see you here! How are you doing today, @?$h#$b#We're always happy when you stop by, so stay as long as you like.$h",
+  
+  "Tue": "My {{SO}} is out of town to take care of some things back home. I can't wait to see him again.#$b#Yes, it's only for a day. I still miss him.$h",
+    "Tue2": "Did you know that Robin loves peaches? I wish Pierre had them in stock but he only sells seeds... A bit weird, don't you think?",
+  "Tue4": "Maru, Seb and I are almost the same age, but I still find it easier to talk to Robin.",
+  "Tue6": "The wood here in the valley is strong and durable. It also grows back faster than normal.#$b#I asked Demetrius about it, but he said it might have something to do with the soil.#$b#",
+  "Tue8": "Hello again, @! Leah called yesterday. We talked for hours!#$b#She's so fun to talk to, I love her.$h",
+  "Tue10": "Sometimes I think of my mentor Yewon... I hope she's alright.$s#$b#Hey, you know what? When the war is over, we should go on vacation there.$h",
+  
+  "Wed": "Sorry, did you say something?#$b#I'm really tired. I had a long night yesterday...",
+  "Wed2": "Haley and Emily live in their parents' house. It was quite the hassle to get permission from their parents for the town overhaul project.#$b#But we worked something out in the end.$l",
+  "Wed4": "I went to the Royal Academy of Architecture and Design in the Gotoro Empire.#$b#It was a lot of hard work, but I think it paid off.$l",
+    "Wed6": "I was born on a small island across the Gem Sea. I later moved to the Gotoro Empire and then I ended up here.#$b#Haha! Don't worry, I intend to stay here. The valley is a endless source of inspiration for me.$l",
+    "Wed8": "Hey, @! Perfect timing -- can you check this sketch and tell me how you like it?#$b#It's for a client who's thinking about moving to the valley. I'm so excited.", 
+    "Wed10": "Without the help of many people from all over the world, I wouldn't be here today.#$b#I'm grateful that everyone supported me so much during my journey.$h",
+
+    "Thu": "Hello, have you already talked with everyone in town?#$b#I know it can be overwhelming at first, but just keep at it.#$b#Just between us, my {{SO}} still hasn't introduced himself to everyone. So don't stress yourself too much.$l", 
+    "Thu2": "A lot of people believe in Yoba... I don't, but I admire the architectural achievements of how their shrines and churches were built though.", 
+    "Thu4": "Robin is incredibly talented. She works according to the old school of carpentry. She does everything by hand.#$b#That's pretty impressive, don't you think?$h", 
+    "Thu6": "When I take on jobs, my clients mostly give me a free hand for the designs.#$b#No one has complained so far. I hope they aren't afraid to tell me if they didn't like them.$s",
+    "Thu8": "Pierre is so stingy. When Robin and I took on the greenhouse for Caroline, he tried to haggle the price down.#$b#You know how much he offered?#$b#15,000 gold! That doesn't even cover the materials, let alone our hourly rate.$a#$b#I'm so glad Caroline talked some sense into him.",
+    "Thu10": "After the war broke out, we had to flee from the Gotoro Empire.$s#$b#We made it out unscratched and ended up stranded here in the valley. I'm glad my {{SO}} was with me.#$b#It wasn't the best time in our life but everyone in the valley helped us set up here.#$b#I'm so grateful for that.$h",
+
+    "Fri": "You shouldn't be here...",
+
+    "Sat": "You're a farmer, right @? So weekends are just a suggestion for you as well?$l",
+    "Sat2": "Jody was so happy with the rework of her house. I just hope Kent feels the same.", 
+    "Sat4": "Another week, another late fee for our super mayor...#$b#Why don't I confront him?$u#$b#Well... Good question... Maybe I'm just too soft.$s", 
+    "Sat6": "I often see Shane walking out of the saloon drunk when I'm out for a midnight stroll.#$b#He always looks sad. I wish there was something we could to to help him.",
+    "Sat8": "I have a lot of clients here and I'm very fortunate to work a job I love. Getting stranded here was the best thing that could have happened to me.$h",
+    "Sat10": "I took great care to make sure Evelyn and George have a barrier-free house.#$b#George only scoffed at me and nodded....I think that means he liked it.$h",
+
+    "Sun": "Sundays are like every other day to me. I don't take time off while I work on projects.",
+    "Sun2": "Robin told me you sell wood from time to time. She said it's always high quality.#$b#Who knows? Maybe we've already done some buildings with your wood.",
+    "Sun4": "Sometimes my {{SO}} and I go down to the beach and gather driftwood. Leah likes to use it for her art pieces.",
+    "Sun6": "Marlon was very hesitant when I started the town overhaul project.#$b#He was worried the guild hall would be too cute and nobody would take them seriously.$u#$b#So I tried my best to keep the original style which he appreciated.",
+    "Sun8": "Elliot lives at the beach. He's a bit whimsical, but he seems like a nice person.#$b#I'm still astonished that Lewis could sell him this rundown shack... It was used as storage before. Unbelievable, this mayor.$u",
+    "Sun10": "My parents never really understood my choice to become an architect, but they still supported me and helped me finance my move to the Gotoro Empire.#$b#I send them money every month as a token of my gratitude.$h",
+
+    //Seasons
+
+    "spring_Mon": "I love spring, it's not too hot and not too cold. It's just right.$l",
+    "spring_Tue": "The valley has extraordinary soil. Everything grows so fast here.#$b#It must be a blessing for a farmer like you, right?",
+    "spring_Wed": "I'm sure you noticed the cherry blossom trees all over town. They're not native to this region, but I'm happy to see them here.#$b#They're the most beautiful in spring.", 
+    "spring_Thu": "Do you plant strawberries? I heard they fetch quite the price.", 
+    "spring_Sat": "I wish Lewis would take better care of the town. The river is full of trash...$a",
+    "spring_Sun": "Sometimes I walk down to Marnie's Ranch and collect some wood from the forest as samples to show my clients.",
+
+    "summer_Mon": "Alex sells icecream during the summer. I need to be careful not to eat too much, but it's just so good$l",
+    "summer_Tue": "I was walking by Marnie's farm yesterday. I hope her animals aren't too hot.#$b#Maybe we could build a sunshade for her.", 
+    "summer_Wed": "I love swimming! I'm glad we have a beach so close to the village. Too bad my {{SO}} doesn't like it.#$b#It's rather funny considering we grew up on the Fern Isles surrounded by water.$h",
+    "summer_Thu": "Aren't you hot? You run around all day and work on your farm.#$b#Please don't overwork yourself.",
+    "summer_Sat": "Summer can be dangerous for Penny and Pam. The metal walls of their trailer gets hot enough to boil an egg...$s",
+    "summer_Sun": "Walking through the woods is so relaxing. The sun shining through the treetops is almost magical.",
+
+    "fall_Mon": "Fall is great. I love taking a stroll just to watch the leaves falling.",
+    "fall_Tue": "Maybe I should go see Harvey for a check up... I feel a bit tired lately.",
+    "fall_Wed": "I would love to try pumpkin pie once. Maybe I could ask Leah if she wants to bake one together.",
+    "fall_Thu": "It's getting colder. I hope everyone stocks up on wood for the winter.",
+    "fall_Sat": "Linus was roasting nuts yesterday and it smelled so good. Maybe I should gather some too.",
+    "fall_Sun": "I tried carving a pumpkin once. It was scary for all the wrong reasons...$s",
+
+    "winter_Mon": "It's cold, so so cold. I don't want to leave my house.$s",
+    "winter_Tue": "I paid Robin a visit and saw that Maru had built a snowman. It's nice to see she still has that youthful streak.",
+    "winter_Wed": "Maybe I should start hibernating for the rest of the year...",
+    "winter_Thu": "Robin works all year round, not matter how hot or cold it is. I admire her for that.",
+    "winter_Sat": "I'm not a festive person but I still try to decorate a bit for the Feast of the Winter Star.",
+    "winter_Sun": "Robin and I went to great lengths to make sure all the houses are well insulated.",
+
+
+//Seasons Heartlevel
+//Spring
+
+  "spring_Mon2": "Nala has been with me since she was a little puppy... I can't think about a life without her.",
+  "spring_Mon4": "Do you know why Joja uses blue tones for their color scheme?#$b#Blue is supposed to have a calming effect on people.#$b#Although I think it feels less calming and more cold.",
+  "spring_Mon6": "I feel bad for not visiting my parents more often...$s#$b#But I try to call them at least once a week.",
+  "spring_Mon8": "During my time in the Royal Academy, I met some amazing people from all over the world.$h#$b#They taught me a lot and supported me throughout my journey. Without them, I wouldn't be here today.$h#$b#They all have a special place in my heart.$h",
+  "spring_Mon10": "Robin and I are pretty similar - both of our parents had different ideas of what paths we should go in life.#$b#But we're both stubborn and still went and built our own ways.$h", 
+  
+  "spring_Tue2": "I stop by the saloon every saturday. Sometimes it's just nice to get out of the house.",
+  "spring_Tue4": "Today is Tuesday. I think the other women are working out today.#$b#Maybe I should join them too.",
+  "spring_Tue6": "I once made an offer to Linus to build him a house pro-bono but he said he's happy with his tent...$u#$b#I shouldn't judge but... it's a tent...?!$u#$b#Can't you be one with nature without being exposed to the elements?",
+  "spring_Tue8": "I was working late yesterday. I still have a deadline to meet for a huge project I took on.",
+  "spring_Tue10": "It's hard to really relax. Since I work freelance, every day I don't work is a day I don't get paid...$s",
+  
+  "spring_Wed2":  "I'm still trying to learn more about this country, so feel free to stop by whenever you like. So we can talk about it!$l",
+  "spring_Wed4":  "Demetrius told me that a meteorite hit the valley a long time ago...#$b#I often wonder if that's the reason for the lack of distinctive landmarks?",
+  "spring_Wed6":  "Hello, @, are you enjoying the fresh spring breeze? Maybe my {{SO}}, Nala, and I will go for a walk later on",   
+  "spring_Wed8":  "Maybe I should go for a stroll by the river. I feel a bit tired and need some fresh air.",
+  "spring_Wed10": "Did I ever tell you how much I love talking to you?#$b#I thought that apart from my {{SO}}, Robin and Leah, no one else would put up with my endless talk about design and architecture.#$b#So... Thank you.$l", 
+  
+  "spring_Thu2": "I like to check the bulletin board so I can get presents for my neighbors in time.$h#$b#Why do I do that?#$b#The question is more why not?$h#$b#Everyone loves getting presents, it means people think of you.$h",
+  "spring_Thu4": "Our neighbors Mia and Henry are really nice people and we get along really well.#$b#Sterling can be a handful, but that doesn't make him less likable.$h",
+  "spring_Thu6": "Did you know that I'm a Fern Isles noble?#$b#Just kidding.$h#$b#Or am I?",
+  "spring_Thu8": "You know when I first started with my architecture studies, I had no idea what I was doing.#$b#I just did stuff and somehow it worked.$h",
+  "spring_Thu10": "Hey @, if I set fire to the Joja HQ, would you bail me out?#$b#Purely hypothetically, of course.$h",
+  
+  
+  "spring_Sat2": "The JojaMart is an eyesore. It's so cold and uninviting. I will never understand why someone designed something so sterile.$s",
+  "spring_Sat4": "Hmm, maybe I should talk with Clint about a quote for some metalwork.",
+  "spring_Sat6": "People often forget that houses shouldn't just be built for looks.#$b#They need to be functional, sturdy, and built so you can still live there when you're old.#$b#You wouldn't want to move out of the house you lived in for decades just because you can't walk up the stairs any more, right?#$b#That's why I make sure to plan with all ages in mind.$l",
+  "spring_Sat8": "Hey, @! You're just in time, I was on my way to you.#$b#What do you think about joining me and Charles for dinner?#$b#Only if you have time, of course.$h",
+  "spring_Sat10": "%Yri looks tired. I'd better leave her alone.",
+  
+  "spring_Sun2": "I promised Charles that I won't work today so we can spend some time together.$h",
+  "spring_Sun4": "Do you think me and Charles are... you know, embarrassing?$s#$b#I think sometimes I'm too offensive when showing my love for him.#$b#But I can't help it.$s",
+  "spring_Sun6": "I saw Linus rummaging through the trash yesterday... I'm worried about him. Maybe I should bring him some food?$s",
+  "spring_Sun8": "Do you believe in magic? I read a book about it in the library.#$b#I think it would be cool to have some sort of transformation magic.$h",
+  "spring_Sun10": "I love capybaras.$h#$b#They have this unbothered thoughtless expression, it just makes me happy.#$b#Maybe I should go to the Zuzu Zoo someday to see them again.$h",
+  
+//Summer
+
+  "summer_Mon2": "I hope Jas is okay. I heard she lost her parents... She's such a strong girl$s",
+  "summer_Mon4": "%Yri doesn't notices you. She's deep in thought.",
+  "summer_Mon6": "Hi @, nice to see you.#$b#How are you holding up during this heat?#$b#I hope you drink enough.$h",
+  "summer_Mon8": "Every day is a great day when I can see you, @$h",
+  "summer_Mon10": "I think I'll try talking to Linus again. Maybe he wants something different.#$b#Like a treehouse?#$b#Or a burrow?#$b#Hmm... ",
+  
+  "summer_Tue2": "I'm out of the town every Friday to visit construction sites, meet with clients, submit reports...#$b#It's probably the most stressful day of my week.$s", 
+  "summer_Tue4": "Where I'm from, it's always summer. So I'm in my element right now.$h", 
+  "summer_Tue6": "Maybe I should stop by the Stardrop Saloon and get an ice-cold drink to combat the heat.",
+  "summer_Tue8": "Oh my, @! Your face is completely red. Are you okay?$u",
+   "summer_Tue10": "I want a baby...$s#$b#Oh! Sorry, @ I didn't mean to say that out loud.$u",
+  
+  "summer_Wed2": "Sometimes I like to stop by Dusty when walking Nala, so they can play a bit.$h",
+  "summer_Wed4": "I have fourteen open projects and I can't really get any work done...$s#$b#Sorry, I shouldn't complain. I brought it upon myself because I couldn't say no.",
+  "summer_Wed6": "I need to recharge my batteries.#$b#Maybe I can sneak up on Charles to cuddle...$h", 
+  "summer_Wed8": "%Yri is humming... It sounds like she's making up words with Charles' name again.",
+  "summer_Wed10": "@! It's so nice to see you, what can I do for you?$h",
+  
+  "summer_Thu2": "I saw Penny yesterday as she walked Jas and Vincent home. She's so diligent and responsible.$h",
+  "summer_Thu4": "The weather is so nice. Maybe I should take my work outside...",
+  "summer_Thu6": "Every evening I take a long walk with Nala so we can stretch our legs a bit.",
+  "summer_Thu8": "I think I try to socialize with everyone to distract me from work.",
+  "summer_Thu10": "Jas is so cute, and so mature for her age.#$b#She has a bright future ahead of her, I'm sure of that.$h",
+  
+  "summer_Sat2": "Sorry, I had a long day yesterday, so I might be a bit grumpy today.$s",
+  "summer_Sat4": "Charles had to carry Pam home last week...$s#$b#I mean, it isn't my business what she does, but it really is worrisome. Maybe I should talk to her?$s",
+  "summer_Sat6": "Yesterday I visited a client who wants to restore a historical building.#$b#I can't wait to tackle the project! Historical works are my favorites.$h",
+  "summer_Sat8": "I talked with my mother yesterday and she said I should say hello to you from her.#$b#So 'hi' from my mom!$h",
+  "summer_Sat10": "Charles and I going to visit his family soon. I'm so excited$h",
+
+  "summer_Sun2": "How are you doing today?#$b#I hope you don't have too much work watering your plants?", 
+  "summer_Sun4": "Charles was sleeping on the floor last night.#$b#Ah! Don't get the wrong idea!$u#$b#He was just sweating so much, so he slept on the floor because that was the coldest place he could think of.$h",
+  "summer_Sun6": "Um, @...? Do you need a break? You look a bit red in the face.$u",
+  "summer_Sun8": "Hey, @! Have you been to the beach this summer?#$b#If you go, be careful to not burn your feet on the sand.$h",
+  "summer_Sun10": "Hey, @... Say, do you think I try too hard to please everyone?$s#$b#Sorry, that was a weird question to just ask out of the blue.",
+
+//Fall
+  
+  "fall_Mon2": "Robin and I want to gather some mushrooms and cook them.#$b#I just hope we can remember which ones are edible.$u",
+  "fall_Mon4": "We have a lot of farmers here in the valley and I'm happy you're one of them.#$b#You seem happy with your choice.$h",
+  "fall_Mon6": "Oh, hello @! I was just thinking about a new design idea. I'm worried about the structural integrity though, so I think I need to talk with Robin.",
+  "fall_Mon8": "My {{SO}} also worked for Joja once.#$b#He was just so unhappy there...$s#$b#I was worried he might end up depressed and miserable, so we talked about it and he quit.#$b#While freelancing can be hard, he's much more happy now. And that makes me happy.$h", 
+  "fall_Mon10": "I wonder what it's like being a farmer?#$b#But while I would love to try it out once, I wouldn't want to leave my job.$h",
+
+  "fall_Tue2": "Every Tuesday I wake up and Charles is already gone... I miss him$s",
+  "fall_Tue4": "It's getting colder at night. Be careful when staying out late.",
+  "fall_Tue6": "%Yri hums a happy melody.",
+  "fall_Tue8": "Hey @, how are you today?#$b#Do you need a handkerchief? Your face is a bit dusty.$h",
+  "fall_Tue10": "Yesterday Charles and I were play-fighting.#$b#Poor Nala got so confused who to help#$b#We were just fooling around but I still feel a bit bad.$s ",
+  
+  "fall_Wed2": "Hi, @. I'm sorry, please stay away#$b#Yesterday I walked in one of Maru's experiments and since then I've been giving everyone near me electric shocks.$s",
+  "fall_Wed4": "Did you help your grandpa on the farm when you were younger?",
+  "fall_Wed6": "Did you plant sunflowers at your farm?#$b#My {{SO}} loves them.",
+  "fall_Wed8": "I sent my parents some of your produce. They were impressed and said it was delicious!$h",
+  "fall_Wed10": "Hmm, I'm a bit sad today. Maybe I can annoy Charles enough that we can spend some time together.#$b#Haha, I guess it wouldn't take long for him to agree.$l",
+  
+  "fall_Thu2": "You've been here for quite a while now, right?#$b#Do you feel at home yet?",
+  "fall_Thu4": "Fall is such a relaxing season. I really enjoy watching the leaves fall.#$b#It's kind of therapeutic, don't you think?$h",
+  "fall_Thu6": "I saw Vincent and Jas playing with leaves earlier...#$b#I wish I had a child too...",
+  "fall_Thu8": "Hey, @! Good to see you, I was just thinking about you.$h#$b#I just had a genius idea! Let's make paperboats and send them down the river!$l#$b#Does that sounds good?$h",
+  "fall_Thu10": "Charles and I have been really busy lately so our walks are shorter than usual.#$b#I feel so bad for Nala. She looks so sad.$s",
+  
+  "fall_Sat2": "I force Charles every Saturday to come to the saloon with me.#$b#I love to spend time with him there.$h#$b#Also as an added bonus, I don't have to worry about doing the dishes that day.$l",  
+  "fall_Sat4": "Hey, have you seen Nala? Doesn't she look cuter than usual?#$b#I got her new shampoo! Doesn't her fur look so silky smooth now?$l",
+  "fall_Sat6": "I can't remember the last time Charles and I were separated for more than a weekend.#$b#It might sounds insane, but I think my heart would burst if we were apart for too long.$s",
+  "fall_Sat8": "Huh? Why do I never drink alcohol at the saloon?#$b#Oh, I think I just don't like the taste.$s",
+  "fall_Sat10": "Yesterday while I was out of town, I got my {{SO}} some candies from Zuzu.#$b#They didn't even last an hour.$h",
+  
+  "fall_Sun2": "I never liked Morris. He's such a shady guy...$s",
+  "fall_Sun4": "I went out with Robin on a stroll through the woods.#$b#When I'm with her, time seems to fly by.$h",
+  "fall_Sun6": "My {{SO}}'s mother called me yesterday.#$b#Charles forgot to call them... again$s#$b#I know he isn't the most talkative person but...#$b#He could at least try to call his parents every once in a while.",
+  "fall_Sun8": "You're quite talented! I love seeing your farm whenever I walk by on my way to the bus station.$h",
+  "fall_Sun10": "How can one person be so cute while doing absolutely nothing...#$b#Look at him, he's just sitting here... How can he be so attractive?!$a#$b#Argh... I need to resit the urge to cuddle him again!$a",
+
+//Winter
+
+  "winter_Mon2": "Winter in Pelican Town is always a beautiful display of ice and snow.#$b#Which means the temperature is freezing cold every day.$s ",
+  "winter_Mon4": "My {{SO}} loves winter. I think it's because where we're from, there is no such concept as 'winter'.$l",
+  "winter_Mon6": "I was arguing with a client yesterday.#$b#Even though I don't like confrontation, I have to be firm when it comes to certain points.#$b#It's my job to keep everyone safe, after all, and I want to keep my job... and my freedom.$l",
+  "winter_Mon8": "I miss my dad. We talk a lot over the phone, but...#$b#You know, I just want to see him again.$s",
+  "winter_Mon10": "It's so cold. I don't want to go outside today.$s",
+  
+  "winter_Tue2": "%Yri looks tired. She's spaced out and doesn't notices you.",
+  "winter_Tue4": "Robin could actually be my mother but we still get along great.#$b#I love her to bits. She has a great sense of humor.$h",
+  "winter_Tue6": "I love playful themes for my work.#$b#I want people to feel happy when they see my buildings.$l",
+  "winter_Tue8": "Sometimes I wonder what my life would have been like had I never met Charles.#$b#The thought of it actually makes me sadder than it should.$s#$b#I know it's dumb because he's here with me, but I can't help it.$s",
+  "winter_Tue10": "Back in the Gotoro Empire, while I was still studying, there was something rather odd.#$b#Hear me out, I'm totally serious#$b#There was a talking lemur working as a professor!$h#$b#I swear it's true!",
+  
+  "winter_Wed2": "Be careful, the streets were frozen solid earlier this morning.",
+  "winter_Wed4": "You look like you could use a hot drink.#$b#Here, this should warm you up![234]$h",
+  "winter_Wed6": "Did you know that I actually know a princess?$h#$b#Yes, I'm serious! She was a Gotoran noble.#$b#She was one of the professors at the Royal Academy teaching art.$h",
+  "winter_Wed8": "One good thing about winter is sitting in front of the fireplace with a good book and a hot tea. It's just heavenly.",
+  "winter_Wed10": "Joja has no regard for nature...$a#$b#They're ruthless and everything they do is barely legal!#$b#@, you need to promise me that one day we'll destroy them!#$b#How...? Uh... well, we'll think about that when we get there.$h",
+  
+  "winter_Thu2": "Hello @, what do you do during the winter season? You can't farm right?",
+  "winter_Thu4": "Hi, are you alright?#$b#I hope you take the cold better than I do.$s", 
+  "winter_Thu6": "I miss the Fern Isles. I'm not built for weather like this.$s",
+  "winter_Thu8": "Whenever I'm sad or upset, I cuddle with Nala. She's a great listener, maybe even better than Charles.#$b#Don't tell my {{SO}} I said that.$h",
+  "winter_Thu10": "%Yri is humming the Charles song again. She looks happy doing so.", 
+  
+  "winter_Sat2": "If you need a place to warm up, you're always welcome at our house.$l",
+  "winter_Sat4": "I feel a bit bad for Clint. He looks so lonely, so I make a point of talking to him every time I see him.",
+  "winter_Sat6": "Charles loves winter, which makes this season more bearable.",
+  "winter_Sat8": "Sometimes I wonder if it was a good idea to leave my home. I miss my parents$s#$b#But at least my {{SO}} is here with me to reassure me everything is fine.$h",
+  "winter_Sat10": "Have you ever loved someone so much you thought your heart would stop if they ever left you?#$b#That's how I feel when it comes to Charles. I can't imagine my live without him.$s",
+  
+  "winter_Sun2": "I love the sounds of our footsteps in the snow. And the way the snow gently falls down...#$b#You know, winter isn't that bad after all.$l",
+  "winter_Sun4": "Do you want some tea? It's just the right thing to keep you warm on a cold winter day.[234]",
+  "winter_Sun6": "Did you hear the legend of 'Arknirous the Weaver of Fate'?#$b#It's a popular Fern Isle legend.#$b#The legends say he sits high above the sky and weaves a tapestry made of comet tails.#$b#It's said he documents the past, present and future of the world.#$b#Sometimes there are people he finds interesting and he weaves them a special piece with a story on their own.#$b#Fascinating, isn't it?",
+  "winter_Sun8": "Willy sells amazing fish. They're so fresh and delicious!$h#$b#Oh, you fish yourself, right?#$b#It must be nice to provide yourself with food that way. Or do you sell them?",
+  "winter_Sun10":"You know, my {{SO}} is my best friend. I'm glad to have him as my partner.#$b#Ah! Sorry, don't worry, @, you're very important to me as well.$h",
+  
+  //Special Days (Birthdays, Festivals etc.)
+  
+  //Spring 
+  "spring_2": "It's my {{SO}}'s birthday tomorrow. I'm so excited.$h",
+  "spring_2_2":"Tomorrow is Charles' birthday and with each year, my {{SO}} gets more attractive. How is that even possible?$h",
+  "spring_3": "Today is the day~#$b#Charles' birthday, hehe~$h#$b#He's going to love this present. It's a new game he's wanted for a long time.$h",
+  "spring_3_2": "Charles opened his present earlier this morning. The look on his face was priceless.#$b#He's so cute when he's excited.$h",
+  "spring_4": "Today would be Kent's birthday. I hope he's alright...#$b#Jodi doesn't show it, but I'm sure she needs a bit of support today.$s",
+  "spring_4_2": "I wished Kent a happy birthday today. He's been so distant since he came back...$s",
+  "spring_7": "It's the big day for Major Lewis!#$b#Of course I got him a present! We might have a feud but it's still his birthday.$u",
+  "spring_7_2": "I got Lewis some new shorts for his birthday.#$b#Apparently his old ones got 'lost' at the cleaner.",
+  "spring_10": "Vincent's birthday is today.#$b#Jodi made him chocolate cake, but I'm sure he wouldn't mind even more cake on his special day.$h",
+  "spring_10_2":"I was walking by Jodi's house while walking Nala.#$b#The smell of fresh cake was in the air, so it must be Vincent's birthday.#$b#I should stop by to congratulate him after work.$h",
+  "spring_12": "Tomorrow is the Egg Festival! Charles and I will be there. I hope we'll see you there too.$h", // Day before the Egg Festival
+  "spring_14": "Emily told me yesterday that today is Haley's birthday.#$b#I couldn't get her anything in time, so I brought over some daffodils I picked up and she really liked them.$h",
+  "spring_14_2":"I got Haley some flowers for her birthday.#$b#I thought since she liked the daffodils last year, I can't go wrong with another bouquet.$h",
+  "spring_18": "I saw on the bulletin board that today is Pam's birthday.#$b#I totally forgot about it.$s#$b#I know she loves beer but I can't do that to Penny...$s#$b#I need to think about this.",
+  "spring_18_2": "I haven't forgotten Pam's birthday this year!$h#$b#I made her some glazed yams. Penny told me that her mother loves them.$h",
+  "spring_20": "What's that in my hands, you ask?#$b#It's pizza for Shane's birthday.$h ",
+  "spring_20_2": "Did you remember Shane's birthday today? What did you get him?$h",
+  "spring_23": "Tomorrow is the Flower Dance! I can't wait to go.#$b#Charles and I took a day off so we can visit the festival.$h", // Day before the Flower Dance
+  "spring_23_2": "Do you think Lewis finally managed to put up a more stable bridge?#$b#I hope so. Then I won't have to worry about anyone, especially George, falling off.$s",
+  "spring_26": "I'm never really sure what I should get Pierre for his birthday.#$b#Whenever I'm not sure, I take the safe route and buy flowers.$h",
+  "spring_26_2": "I got Pierre a money charm. I thought he would appreciate it.$h",
+  "spring_27": "Did you get something for Emily?#$b#Me? I got her some nice cloth. She likes sewing so I thought she would like it.$h",
+  "spring_27_2": "Emily loves all kinds of stones. If you want to make her happy, you could look for some while you're out mining.",
+  
+  //Summer
+  "summer_4": "",
+  "summer_4_2": "",
+  "summer_8": "",
+  "summer_8_2": "",
+  "summer_10": "", // Day before the Luau
+  "summer_10_": "", // Day before the Luau
+  "summer_13": "",
+  "summer_13_": "",
+  "summer_17": "",
+  "summer_17_2": "",
+  "summer_19": "",
+  "summer_19_2": "",
+  "summer_24": "",
+  "summer_24_2": "",
+  "summer_27": "", // Day before the Midnight Jellies
+  "summer_27_2": "", // Day before the Midnight Jellies
+
+  //Fall
+  "fall_2": "",
+  "fall_5": "",
+  "fall_11": "",
+  "fall_13": "",
+  "fall_15": "", // Day before the Stardew Fair
+  "fall_18": "",
+  "fall_21": "",
+  "fall_24": "",
+  "fall_26": "", // Day before Spirit's Eve
+  
+  //Winter
+  "winter_3": "",
+  "winter_7": "", // Day before the Ice Festival
+  "winter_10": "",
+  "winter_14": "",
+  "winter_17": "",
+  "winter_20": "",
+  "winter_23": "",
+  "winter_24": "", // Day before Winter Star
+  "winter_26": "",
+
+
+//Conversation Topics 
+  "joja_Begin": "Lewis... How could he sell the Community Center...?$s#$b#I'm sorry, I can't look at this... To just tear down a historical building like it was nothing... It's horrible.$s",
+  "cc_Begin":"@? You're working on the Community Center?#$b#That's wonderful news! If you need help with the design, call me. I'd love to help!$h",
+  "cc_Bridge":"Robin told me the bridge next to her house was repaired. It happened literally overnight! She was really impressed by it.#$b#No matter who did it, I'm just glad someone finally took care of it.$h",
+  "cc_Bus":"I got good news! Robin told me the bus is running again.#$b#Huh, you already knew?#$b#Oh, I guess that makes sense, since you live right next to the bus station. I'm sorry, silly me!$h",
+  "cc_Minecart":"The minecarts are operational again?#$b#You want to use them for... transporting yourself?#$b#Promise me you'll be careful, okay @?",
+  "cc_Complete": "@! @!! Look at this... It's ....#$b#It's beautiful, just like I envisioned it. How did you do this?#$b#Robin said you didn't ask her for help, so this means you did it yourself?#$b#Why didn't you tell us you're such a talented carpenter?#$b#",
+  "movieTheater": "Since you came to town, a lot has changed. I mean, just look at the new theater! It's amazing.#$b#Without you, there would still be that ugly Joja building, so thank you! I can't wait to visit with my {{SO}}!$h",
+  "pamHouseUpgrade": "I'm so glad you decided to be Pam and Penny's benefactor! I'm sure they're way more comfortable now.$h",
+  "pamHouseUpgradeAnonymous": "I'm so glad you decided to be Pam and Penny's benefactor! I'm sure they're way more comfortable now... Oh, don't worry, I won't tell them it was you.$h",
+    
+//LOCATIONAL DIALOGUE   
+
+  "Saloon": "Oh @, you're here too? The saloon is truly a hub for the town at night.$h",
+  "Saloon2": "%Yri seems lost in thought. Better leave her alone for now.",
+  "Saloon4": "%Yri looks over at her {{SO}} and smiles. I'd better leave those two lovebirds alone.",
+  "Saloon6": "Working so much has made me come to the saloon more often. You know, to get some social interactions in.$h",
+  "Saloon8": "Good evening! You visit the saloon quite often, right?#$b#Haha, don't worry, I'm always happy to see you here. Wanna have a drink with me and Charles?$h",
+  "Saloon10": "Hello @, do you want to sit with us for a while? We would love to have your company and just talk a bit.$h",
+  "Saloon_Sat2": "How's the farm doing? I hope you're satisfied with the buildings.",
+  "Saloon_Sat4": "Robin looks happy with Demetrius. Although he's a bit... demanding in my eyes, she's a headstrong women and can keep him in check.",
+  "Saloon_Sat6": "Nala is waiting for us, so we won't stay too long today.",
+  "Saloon_Sat8": "I used to think that glass and concrete were the future of architecture, but Yewon showed me the beauty and elegance of woodwork. Since then, I've strived to keep the tradition alive.",
+  "Saloon_Sat10": "%Yri doesn't say a word but you can tell that she's happy."
+}
+}
+]
+}

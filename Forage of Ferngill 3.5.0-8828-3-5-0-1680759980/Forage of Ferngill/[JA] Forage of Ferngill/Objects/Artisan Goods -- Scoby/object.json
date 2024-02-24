@@ -1,0 +1,21 @@
+{
+    "Name": "Scoby",
+    "Description": "A simple culture used in the production of Kombucha.",
+    "Category": "ArtisanGoods",
+    "Edibility": 0,
+    "EdibleIsDrink": false,
+    "Price": 10,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Pierre",
+    "PurchasePrice": 15,
+    "AdditionalPurchaseData": [{"PurchasePrice": 12, "PurchaseFrom": "JojaShop", "PurchaseRequreiments": [] },{"PurchasePrice": 12, "PurchaseFrom": "ClaireShop", "PurchaseRequreiments": [] },{"PurchasePrice": 12, "PurchaseFrom": "MartinShop", "PurchaseRequreiments": [] },{"PurchasePrice": 12, "PurchaseFrom": "BlackMarket", "PurchaseRequreiments": [] }],
+    "GiftTastes":
+    {
+        "Like": ["Linus", "MarlonFey", "Gregory", "Jio", "Kiwi"],
+        "Dislike": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliot", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Willy", "Wizard", "Joel", "Sheila", "Andy", "Apples", "Claire", "Gunther", "Martin", "Morgan", "MorrisTod", "Olivia", "Sophia", "Susan", "Victor", "Aguar", "Alissa", "Bert", "Corine", "Ezekiel", "Flor", "Freddie", "Helen", "Ian", "Jeric", "Keahi", "Kenneth", "Lenny", "Lola", "Maddie", "Olga", "Phillip", "Pika", "Richard", "Shiro", "Trinnie", "Undreya", "Ysabelle", "Yumma", "Jacob", "Eloise", "Aideen", "Beatrice", "Juna", "Aspen", "Lyell", "John", "Nikolai"],
+	"Hate": ["Boxy", "Mr Ginger"]
+    },
+	"TranslationKey": "object.Scoby",
+}

@@ -1,0 +1,21 @@
+{
+  "Name": "NPC Adventures - Quests",
+  "Author": "PurrplingCat",
+  "Version": "1.0.3",
+  "Description": "Adventure quests for NPC Adventures",
+  "UniqueID": "PurrplingCat.NpcAdventure.Quests",
+  "MinimumApiVersion": "3.13.0",
+  "UpdateKeys": [ "Nexus:4582" ],
+  "ContentPackFor": {
+    "UniqueID": "PurrplingCat.QuestFramework",
+    "MinimumVersion": "1.4.0"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "purrplingcat.npcadventure"
+    },
+    {
+      "UniqueID": "PurrplingCat.NpcAdventure.Content"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+    "Name": "Pesto Pasta (PH)", 
+    "Description": "The fresh pesto is what makes this dish special.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_green"
+        ],
+    "Edibility": 68, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 1,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 180,
+    },
+    "Price": 520, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Basil (PH)",
+            "Count": 1,
+        },
+		{
+            "Object": 246,
+            "Count": 1,
+        },
+		{
+            "Object": 424,
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Robin"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Pesto Pasta",
+		"es": "Pesto Pasta", //Spansih
+        "ko": "Pesto Pasta", //Korean
+        "de": "Pesto Pasta", //German
+        "fr": "Pesto Pasta", //French
+        "hu": "Pesto Pasta", //Hungarian
+        "it": "Pesto Pasta", //Italian
+        "ja": "Pesto Pasta", //Japanese
+        "pt": "Pesto Pasta", //Portuguese
+        "ru": "Паста с соусом «Песто»", //Russian
+        "tr": "Pesto Pasta", //Turkish
+        "zh": "青酱意面", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "The fresh pesto is what makes this dish special.", //Spansih
+        "ko": "The fresh pesto is what makes this dish special.", //Korean
+        "de": "Dieses frische Pesto macht das Gericht zu etwas Besonderem.", //German
+        "fr": "The fresh pesto is what makes this dish special.", //French
+        "hu": "The fresh pesto is what makes this dish special.", //Hungarian
+        "it": "The fresh pesto is what makes this dish special.", //Italian
+        "ja": "The fresh pesto is what makes this dish special.", //Japanese
+        "pt": "The fresh pesto is what makes this dish special.", //Portuguese
+        "ru": "Свежий соус «Песто» - вот что делает это блюдо особенным.", //Russian
+        "tr": "The fresh pesto is what makes this dish special.", //Turkish
+        "zh": "新鲜的香蒜酱是这道菜的特别之处。", //Chinese (Simplified)
+    },
+	
+}

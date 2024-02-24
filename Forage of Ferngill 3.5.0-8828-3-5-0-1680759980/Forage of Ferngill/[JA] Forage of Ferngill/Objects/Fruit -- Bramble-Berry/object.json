@@ -1,0 +1,16 @@
+﻿{
+    "Name": "Bramble-Berry",
+    "Description": "These little sweet berries are said to have excellent healing properties.",
+    "Category": "Fruit",
+    "Edibility": 35,
+    "Price": 20,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+    "TranslationKey": "object.Bramble-berry",
+    "ContextTags": [
+    "season_summer",
+    "color_purple",
+    "fruit_item",
+  ],
+}

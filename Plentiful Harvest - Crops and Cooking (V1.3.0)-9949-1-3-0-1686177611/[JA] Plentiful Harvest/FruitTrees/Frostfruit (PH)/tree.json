@@ -1,0 +1,40 @@
+{
+    "Name": "Frostfruit (PH)", 
+    "Product": "Frostfruit (PH)",
+    "SaplingName": "Frostfruit Sapling (PH)", 
+    "SaplingDescription": "Takes 28 days to produce a mature, strange tree. Bears fruit in the winter. Only grows if the 8 surrounding \"tiles\" are empty.",
+    "Season": "winter",
+    "SaplingPurchasePrice": 6000, 
+    "SaplingPurchaseFrom": null,
+    "SaplingPurchaseRequirements": null, 
+
+    "SaplingNameLocalization":
+    {
+        "default": "Frostfruit Sapling",
+		"es": "Frostfruit Sapling", 
+        "ko": "Frostfruit Sapling", 
+        "de": "Frostfrucht-Setzling", 
+        "fr": "Frostfruit Sapling", 
+        "hu": "Frostfruit Sapling", 
+        "it": "Frostfruit Sapling", 
+        "ja": "Frostfruit Sapling", 
+        "pt": "Frostfruit Sapling", 
+        "ru": "Саженец морозного дерева", 
+        "tr": "Frostfruit Sapling", 
+        "zh": "霜果树苗", 
+    },
+    "SaplingDescriptionLocalization":
+    {
+        "es": "Takes 28 days to produce a mature, strange tree. Bears fruit in the winter. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "ko": "Takes 28 days to produce a mature, strange tree. Bears fruit in the winter. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "de": "Wächst in 28 Tagen zu einem reifen Frostfruchtbaum heran. Trägt im Winter Früchte. Wächst nur, wenn die 8 umliegenden \"Felder\" leer sind.", 
+        "fr": "Takes 28 days to produce a mature, strange tree. Bears fruit in the winter. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "hu": "Takes 28 days to produce a mature, strange tree. Bears fruit in the winter. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "it": "Takes 28 days to produce a mature, strange tree. Bears fruit in the winter. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "ja": "Takes 28 days to produce a mature, strange tree. Bears fruit in the winter. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "pt": "Takes 28 days to produce a mature, strange tree. Bears fruit in the winter. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "ru": "Становится взрослым морозным деревом через 28 дней. Плодоносит зимой. Растет только если 8 «клеток» вокруг него не заняты.", 
+        "tr": "Takes 28 days to produce a mature, strange tree. Bears fruit in the winter. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "zh": "28天成熟为成年霜果树。冬天结果。只有在附近8块“地块”都空置的情况下才会成长。", 
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "Name": "Cheese Bite WL",
+    "Description": "A piece of cheese in crispy breading with cranberry sauce.",
+    "Category": "Cooking",
+    "Edibility": 40,
+    "EdibleIsDrink": false,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 1,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 500,
+    },
+	"CanSell": false,
+    "IsColored": false,
+	"IsDefault": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 424,
+            "Count": 1,
+        },
+        {
+            "Object": 282,
+            "Count": 1,
+        },
+		{
+            "Object": 246,
+            "Count": 1,
+        }],
+        "CanPurchase": true,
+        "PurchaseRequirements": null
+    },
+    "GiftTastes":
+    {
+        "Love": [],
+        "Like": ["Sam", "Gus", "Kent", "Leah"],
+        "Neutral": [],
+        "Dislike": [],
+    },
+
+    "NameLocalization":
+    {
+		"default": "Cheese Bite",
+		"ru": "Сырный кусочек",
+        "pt": "Picada de Queijo",
+        "zh": "咬一口奶酪"
+    },
+    "DescriptionLocalization":
+    {
+		"ru": "Кусочек сыра в хрустящей панировке с клюквенным соусом.",
+        "pt": "Um pedaço de queijo em pão crocante com molho de arando.",
+        "zh": "一块酥脆面包屑中的奶酪与蔓越莓酱"
+    }
+}

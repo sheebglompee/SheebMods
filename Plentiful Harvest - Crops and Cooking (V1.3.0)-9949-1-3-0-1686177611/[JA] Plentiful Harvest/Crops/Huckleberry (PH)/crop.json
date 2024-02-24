@@ -1,0 +1,53 @@
+{
+    "Name": "Huckleberry (PH)", 
+    "Product": "Huckleberry (PH)",
+    "SeedName": "Huckleberry Seeds (PH)", 
+    "SeedDescription": "Plant these in the fall. Takes 7 days to mature into a huckleberry bush. Continues to produce after the first harvest, yielding multiple berries per harvest.", 
+    "Type": "Fruit", 
+    "CropType": "Normal", 
+    "Seasons": ["fall"], 
+    "Phases": [1, 1, 1, 2, 2], 
+    "RegrowthPhase": 3, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": false, 
+	"Bonus": 
+    {
+        "MinimumPerHarvest": 2, 
+        "MaximumPerHarvest": 6, 
+        "MaxIncreasePerFarmLevel": 5, 
+        "ExtraChance": 0.1, 
+    },
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "STF.PlentifulHarvest", 
+    "SeedPurchasePrice": 150, 
+
+    "SeedNameLocalization":
+    {
+        "default": "Huckleberry Seeds",
+		"es": "Huckleberry Seeds", 
+        "ko": "Huckleberry Seeds", 
+        "de": "Heidelbeeren-Saat", 
+        "fr": "Huckleberry Seeds", 
+        "hu": "Huckleberry Seeds", 
+        "it": "Huckleberry Seeds", 
+        "ja": "Huckleberry Seeds", 
+        "pt": "Huckleberry Seeds", 
+        "ru": "Семена осенней черники", 
+        "tr": "Huckleberry Seeds", 
+        "zh": "蔓越橘种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plant these in the fall. Takes 7 days to mature into a huckleberry bush. Continues to produce after the first harvest, yielding multiple berries per harvest.", 
+        "ko": "Plant these in the fall. Takes 7 days to mature into a huckleberry bush. Continues to produce after the first harvest, yielding multiple berries per harvest.", 
+        "de": "Pflanze sie im Herbst. Wächst in 7 Tagen zu einem Heidelbeerenbusch heran, kann aber danach mehrmals geerntet werden. Bringt mehrere Heidelbeeren pro Ernte ein.", 
+        "fr": "Plant these in the fall. Takes 7 days to mature into a huckleberry bush. Continues to produce after the first harvest, yielding multiple berries per harvest.", 
+        "hu": "Plant these in the fall. Takes 7 days to mature into a huckleberry bush. Continues to produce after the first harvest, yielding multiple berries per harvest.", 
+        "it": "Plant these in the fall. Takes 7 days to mature into a huckleberry bush. Continues to produce after the first harvest, yielding multiple berries per harvest.", 
+        "ja": "Plant these in the fall. Takes 7 days to mature into a huckleberry bush. Continues to produce after the first harvest, yielding multiple berries per harvest.", 
+        "pt": "Plant these in the fall. Takes 7 days to mature into a huckleberry bush. Continues to produce after the first harvest, yielding multiple berries per harvest.", 
+        "ru": "Сажайте осенью. Вырастает через 7 дней и продолжает давать урожай после первого сбора.", 
+        "tr": "Plant these in the fall. Takes 7 days to mature into a huckleberry bush. Continues to produce after the first harvest, yielding multiple berries per harvest.", 
+        "zh": "秋天种植。需要7天才能长成蔓越橘丛。在第一次收获后继续结果。一次收获多个浆果。  ", 
+    }
+}

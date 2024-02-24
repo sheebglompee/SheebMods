@@ -1,0 +1,100 @@
+{
+  "Changes": 
+    [
+      //Dialogues about Yri
+      {  
+       "LogName": "Robin",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Robin",
+       "Entries": {
+        "Mon": "Have you met Yri yet? We worked together on your house.#$b#She and I get along well since we both share a love for working with wood.$h",
+        "Mon2": "How do you like the town? Design-wise, I mean. Yri and I worked on it for months.#$b#The original designs for the buildings were made by a designer from Zuzu City called Gwen Iaczek.#$b#We're grateful that she gave us the blueprints since it helped us a lot.",
+        "Tue2": "Yri is always working on new ideas to improve her buildings...#$b#Sometimes we have to stop her so that she doesn't go overboard with it.",
+        "Tue4": "Yri overworked herself again. Maru and I forced her to go see Dr. Harvey.$a#$b#I wish she would listen to us and rest for the day.$s",
+        "Sun2": "I just had tea with Yri the other day. We talked about new designs for future projects.$h",
+        "Sun4": "Hello, @. Sorry, but I'm quite busy. Yri is coming over so we can go over some projects.$h" },
+        "When": {
+        "Relationship:Yri": "Unmet, Friendly"
+        }
+      },
+
+      {
+       "LogName": "Leah",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Leah",
+       "Entries": {
+       "Wed2": "It's always nice to talk with Yri. She stops by often, especially when she needs inspiration for her work.$h",
+       "Wed4": "Yri loves juice. I always make sure to have enough at home in case she visits.#$b#Would you like some too?$h",
+       "Thu": "I moved to Stardew Valley not too long ago and Yri was one of the first people I met.#$b#We love similar things, so we instantly clicked.$h",
+       "Thu2": "Do you want to see my newest work? Yri and I worked together on it.$h" 
+        },
+       "When": {
+       "Relationship:Yri": "Unmet, Friendly"
+       }
+      },
+
+      {
+       "LogName": "Lewis",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Lewis",
+       "Entries": {
+       "Mon": "Yri? Oh, you mean the architect from East Scarp.#$b#We had business in the past, but I don't know her well.$s",
+       "Mon2": "About Yri again? I told you, I don't know her well.",
+       "Mon8": "Greetings, @. Yri and I worked out a deal and our relationship has improved since then.#$b#I should've talked with her about the truth earlier.#$b#I'm sorry you had to step in.",
+       "Mon10": "Hello, @. Yri and I were talking about some new projects to improve the town's image.#$b#Don't worry, I've already transferred her payment. I don't want that story to repeat.#$b#I know it will take some time, but I hope she can trust me again.$h" 
+        },
+       "When": {
+       "Relationship:Yri": "Unmet, Friendly"
+       }
+      },
+
+      {
+       "LogName": "Sebastian",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Sebastian",
+       "Entries": {
+       "Tue2": "It was a bit weird when Yri and Charles crashed at our house, but we made it work.#$b#The two are pretty chill.$h",
+       "Tue4": "I think Yri and my mother get along so well because both are obsessed with wood.#$b#Don't worry, I mean that in a good way.$h",
+        },
+       "When": {
+       "Relationship:Yri": "Unmet, Friendly"
+       }
+      },
+      {
+       "LogName": "Demetrius",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Demetrius",
+       "Entries": {
+       "Fri": "My wife is rather fond of Yri. I still remember the day when Yri and Charles stepped off of Willy's boat.#$b#The day after, she and Robin were already best friends.$h",
+       "Fri2": "Robin and Yri brought me some samples from the woods earlier today.#$b#I'm glad they support my studies like that.$h",
+       "Fri6": "Charles and I don't get along. He's such a bright young man but his passiveness and lack of effort will get him nowhere.#$b#I wish he could see that too.", 
+        },
+       "When": {
+       "Relationship:Yri": "Unmet, Friendly"
+       }
+      },
+      {
+       "LogName": "Maru",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/",
+       "Entries": {
+       "Wed2": "Hello @, you just missed Yri. She stopped by earlier to discuss some business with my mom.",
+        },
+       "When": {
+       "Relationship:Yri": "Unmet, Friendly"
+       }
+      },
+      {
+       "LogName": "Willy",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Willy",
+       "Entries": {
+       "Sat4": "Shortly before the Gotoro war started, I volunteered to pick up exiled foreigners and take them to safety.#$b#Charles and Yri were among that group.",
+        },
+       "When": {
+       "Relationship:Yri": "Unmet, Friendly"
+       }
+      },
+    ]
+}
+    

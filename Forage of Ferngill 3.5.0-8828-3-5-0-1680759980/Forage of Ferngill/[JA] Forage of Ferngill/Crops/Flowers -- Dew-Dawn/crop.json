@@ -1,0 +1,21 @@
+{
+    "Name": "Dew-Dawn",
+    "Product": "Dew-Dawn",
+    "SeedName": "Dew-Dawn Seeds",
+    "SeedDescription": "Plant in Spring. Takes 7 days to grow.",
+    "Type": "Flower",
+    "Seasons": ["spring"],
+    "Phases": [1, 1, 2, 2, 1],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": [
+        "109, 166, 214, 255",
+        "59, 84, 189, 255",
+        "24, 168, 197, 255"
+    ],
+    "SeedNameLocalization":
+    {},
+    "SeedDescriptionLocalization":
+    {},
+}

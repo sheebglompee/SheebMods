@@ -1,0 +1,69 @@
+{
+    "Name": "Grilled Cheese (PH)", 
+    "Description": "A buttery classic, and as easy as can be.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_yellow"
+        ],
+    "Edibility": 40, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":null,  
+    "Price": 240, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": 424, 
+            "Count": 1,
+        },
+		{
+            "Object": 216, 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Vincent"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": null,
+    },
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Grilled Cheese",
+		"es": "Grilled Cheese", //Spansih
+        "ko": "Grilled Cheese", //Korean
+        "de": "Gegrillter Käse", //German
+        "fr": "Grilled Cheese", //French
+        "hu": "Grilled Cheese", //Hungarian
+        "it": "Grilled Cheese", //Italian
+        "ja": "Grilled Cheese", //Japanese
+        "pt": "Grilled Cheese", //Portuguese
+        "ru": "Жареный сыр", //Russian
+        "tr": "Grilled Cheese", //Turkish
+        "zh": "煎芝士", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A buttery classic, and as easy as can be.", //Spansih
+        "ko": "A buttery classic, and as easy as can be.", //Korean
+        "de": "Ein buttriger Klassiger und so einfach, wie er nur sein könnte.", //German
+        "fr": "A buttery classic, and as easy as can be.", //French
+        "hu": "A buttery classic, and as easy as can be.", //Hungarian
+        "it": "A buttery classic, and as easy as can be.", //Italian
+        "ja": "A buttery classic, and as easy as can be.", //Japanese
+        "pt": "A buttery classic, and as easy as can be.", //Portuguese
+        "ru": "Маслянистая классика, причем настолько простая в готовке, насколько это возможно.", //Russian
+        "tr": "A buttery classic, and as easy as can be.", //Turkish
+        "zh": "黄油经典，非常简单。", //Chinese (Simplified)
+    },
+	
+}

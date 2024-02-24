@@ -1,0 +1,475 @@
+
+{
+	"Shops": 
+	[ 
+		{ 
+			"ShopName": "ShopFashionHatmouse",
+			"PortraitPath": "assets/Shop_Hatmouse.png",	
+			"Quote": "Buy hats, poke?",
+			"MaxNumItemsSoldInStore": 6,
+			"ItemStocks": 
+			[ 
+				{
+					"ItemType": "Hat",
+					"ItemNames": [ "Panda Hat", "Blue Cowboy Hat", "Red Cowboy Hat", "Dinosaur Hat", "Totem Mask", "Logo Cap", "Wearable Dwarf Helm", "Fashion Hat", "Pumpkin Mask", "Hair Bone", "Squire's Helmet", "Spotted Headscarf", "Beanie", "Floppy Beanie", "Fishing Hat", "Blobfish Mask", "Party Hat", "Pirate Hat", "Flat Topped Hat", "White Turban", "Golden Mask", "Propeller Hat", "Bridal Veil", "Witch Hat", "Radioactive Goggles", "Swashbuckler Hat", "Star Helmet", "Sunglasses", "Goggles", "Forager's Hat", "Tiger Hat", "Warrior Helmet"],
+					"StockPrice": 1000,
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 6
+				}
+			]
+	 	},
+		{ 
+			"ShopName": "ShopFashionHatmouseDisguise",
+			"PortraitPath": "assets/Shop_Hatmouse_Disguise.png",	
+			"Quote": "Buy hats, poke?",
+			"MaxNumItemsSoldInStore": 6,
+			"ItemStocks": 
+			[ 
+				{ 
+					"ItemType": "Hat",
+					"ItemNames": [ "Panda Hat", "Blue Cowboy Hat", "Red Cowboy Hat", "Dinosaur Hat", "Totem Mask", "Logo Cap", "Wearable Dwarf Helm", "Fashion Hat", "Pumpkin Mask", "Hair Bone", "Squire's Helmet", "Spotted Headscarf", "Beanie", "Floppy Beanie", "Fishing Hat", "Blobfish Mask", "Party Hat", "Pirate Hat", "Flat Topped Hat", "White Turban", "Golden Mask", "Propeller Hat", "Bridal Veil", "Witch Hat", "Radioactive Goggles", "Swashbuckler Hat", "Star Helmet", "Sunglasses", "Goggles", "Forager's Hat", "Tiger Hat", "Warrior Helmet"],
+					"StockPrice": 1000,
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 6
+				}
+			]
+	 	},
+		{ 
+			"ShopName": "ShopFashionRose",
+			"PortraitPath": "assets/Shop_Rose.png",	
+			"Quote": "Freshly baked this morning!",
+			"MaxNumItemsSoldInStore": 8,
+			"ItemStocks": 
+			[ 
+				{ 
+					"ItemType": "Object",
+					"ItemNames": [ "Chocolate Cake"],
+					"StockPrice": 350,
+					"Stock": 3,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{ 
+					"ItemType": "Object",
+					"ItemNames": [ "Pink Cake"],
+					"StockPrice": 850,
+					"Stock": 3,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{ 
+					"ItemType": "Object",
+					"ItemNames": [ "Bread"],
+					"StockPrice": 120,
+					"Stock": 3,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{ 
+					"ItemType": "Object",
+					"ItemNames": [ "Rhubarb Pie"],
+					"StockPrice": 680,
+					"Stock": 3,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{ 
+					"ItemType": "Object",
+					"ItemNames": [ "Cookie"],
+					"StockPrice": 260,
+					"Stock": 3,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{ 
+					"ItemType": "Object",
+					"ItemNames": [ "Blueberry Tart"],
+					"StockPrice": 280,
+					"Stock": 3,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{ 
+					 "ItemType": "Object",
+					 "ItemNames": [ "Plum Pudding"],
+					 "StockPrice": 450,
+					 "Stock": 3,
+					 "MaxNumItemsSoldInItemStock": 1
+				},
+				{ 
+					"ItemType": "Object",
+					"ItemNames": [ "Miner's Treat"],
+					"StockPrice": 380,
+				 	"Stock": 3,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{ 
+					"ItemType": "Object",
+					"ItemNames": [ "Blackberry Cobbler"],
+					"StockPrice": 450,
+					"Stock": 3,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{ 
+					"ItemType": "Object",
+					"ItemNames": [ "Poppyseed Muffin"],
+					"StockPrice": 430,
+					"Stock": 3,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{ 
+					"ItemType": "Object",
+					"ItemNames": [ "Maple Bar"],
+					"StockPrice": 520,
+					"Stock": 3,
+					"MaxNumItemsSoldInItemStock": 1
+				}
+			 ]
+		},
+		{ 
+			"ShopName": "ShopFashionRoseDisguise",
+			"PortraitPath": "assets/Shop_Rose_Disguise.png",	
+			"Quote": "Freshly baked this morning!",
+			"MaxNumItemsSoldInStore": 8,
+			"ItemStocks": 
+			[ 
+				{ 
+					"ItemType": "Object",
+					"ItemNames": [ "Chocolate Cake"],
+					"StockPrice": 350,
+					"Stock": 3,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{ 
+					"ItemType": "Object",
+					"ItemNames": [ "Pink Cake"],
+					"StockPrice": 850,
+					"Stock": 3,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{ 
+					"ItemType": "Object",
+					"ItemNames": [ "Bread"],
+					"StockPrice": 120,
+					"Stock": 3,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{ 
+					"ItemType": "Object",
+					"ItemNames": [ "Rhubarb Pie"],
+					"StockPrice": 680,
+					"Stock": 3,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{ 
+					"ItemType": "Object",
+					"ItemNames": [ "Cookie"],
+					"StockPrice": 260,
+					"Stock": 3,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{ 
+					"ItemType": "Object",
+					"ItemNames": [ "Blueberry Tart"],
+					"StockPrice": 280,
+					"Stock": 3,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{ 
+					 "ItemType": "Object",
+					 "ItemNames": [ "Plum Pudding"],
+					 "StockPrice": 450,
+					 "Stock": 3,
+					 "MaxNumItemsSoldInItemStock": 1
+				},
+				{ 
+					"ItemType": "Object",
+					"ItemNames": [ "Miner's Treat"],
+					"StockPrice": 380,
+				 	"Stock": 3,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{ 
+					"ItemType": "Object",
+					"ItemNames": [ "Blackberry Cobbler"],
+					"StockPrice": 450,
+					"Stock": 3,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{ 
+					"ItemType": "Object",
+					"ItemNames": [ "Poppyseed Muffin"],
+					"StockPrice": 430,
+					"Stock": 3,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{ 
+					"ItemType": "Object",
+					"ItemNames": [ "Maple Bar"],
+					"StockPrice": 520,
+					"Stock": 3,
+					"MaxNumItemsSoldInItemStock": 1
+				}
+			 ]
+		},
+		{ 
+			"ShopName": "ShopFashionEmily",
+			"PortraitPath": "assets/Shop_Emily.png",	
+			"Quote": "Let me know if you want to try something on.",
+			"MaxNumItemsSoldInStore": 12,
+			"ItemStocks": 
+			[
+				{ //Pants
+					"ItemType": "Clothing",
+					"ItemNames": [ "Farmer Pants", "Shorts", "Long Dress", "Skirt", "Pleated Skirt", "Dinosaur Pants", "Grass Skirt", "Genie Pants", "Baggy Pants", "Simple Dress", "Relaxed Fit Pants", "Relaxed Fit Shorts", "Prismatic Pants", "Prismatic Genie Pants"],
+					"StockPrice": 1000,
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 3
+				},
+				{ //Regular Clothes
+					"ItemType": "Clothing",
+					"ItemNames": [ "Classic Overalls", "Shirt", "Mint Blouse", "Dark Shirt", "Skull Shirt", "Light Blue Shirt", "Tan Striped Shirt", "Green Overalls", "Aquamarine Shirt", "Suit Top", "Green Belted Shirt", "Lime Green Striped Shirt", "Red Striped Shirt", "Orange Shirt", "Night Sky Shirt", "Brown Jacket", "Sailor Shirt", "Green Vest", "Yellow and Green Shirt", "Light Blue Striped Shirt", "Pink Striped Shirt", "Heart Shirt", "Work Shirt", "Green Tunic", "Fancy Red Blouse", "Retro Rainbow Shirt", "Lime Green Tunic", "White Overalls Shirt", "Neat Bow Shirt", "Shirt and Tie", "Striped Shirt", "Cowboy Poncho", "Wumbus Shirt", "Letterman Jacket", "Black Leather Jacket", "Tye Die Shirt", "Bomber Jacket", "Fishing Vest", "Fish Shirt", "Shirt And Belt", "Gray Hoodie", "Red Hoodie", "Blue Hoodie", "Denim Jacket", "Track Jacket", "Gray Vest", "Neat Bow Shirt", "High-Waisted Shirt", "Iridium Energy Shirt", "Gray Suit", "Red Tuxedo", "Navy Tuxedo", "Leafy Top", "Goodnight Shirt", "Green Belted Shirt", "Happy Shirt", "Ocean Shirt", "Dark Striped Shirt", "Bandana Shirt", "Backpack Shirt", "Purple Blouse", "Vintage Polo", "Star Shirt", "Classy Top", "Vacation Shirt", "Green Thumb Shirt", "Bandana Shirt", "Excavator Shirt", "Sports Shirt", "Dark Jacket", "Sunset Shirt", "Plain Overalls", "Sleeveless Overalls", "Yoba Shirt", "Neckace Shirt", "Belted Coat", "Gold Trimmed Shirt", "Prismatic Shirt", "Pendant Shirt", "High Heat Shirt", "Flames Shirt", "Antiquity Shirt", "Soft Arrow Shirt", "Doll Shirt", "Jewelry Shirt", "Canvas Jacket", "Rusty Shirt", "Circuitboard Shirt", "Fluffy Shirt", "Brown Suit", "Golden Shirt", "Regal Mantle", "Relic Shirt", "Bobo Shirt", "Fried Egg Shirt", "Burger Shirt", "Collared Shirt", "Toasted Shirt", "Carp Shirt", "Red Flannel Shirt", "Tortilla Shirt", "Warm Flannel Shirt", "Sugar Shirt", "Green Flannel Shirt", "Oil Stained Shirt", "Morel Shirt", "Spring Shirt", "Rain Coat", "Dark Bandana Shirt", "Dark Highlight Shirt", "Omni Shirt", "Bridal Shirt", "Brown Overalls", "Orange Bow Shirt", "Pour-Over Shirt", "Green Jacket Shirt", "Short Jacket", "Polka Dot Shirt", "White Dot Shirt", "Camo Shirt", "Dirt Shirt", "Crab Cake Shirt", "Silky Shirt", "Blue Buttoned Vest", "Faded Denim Vest", "Red Buttoned Vest", "Green Buttoned Vest", "Tomato Shirt", "Fringed Vest", "Globby Shirt", "Midnight Dog Jacket", "Shrimp Enthusiast Shirt", "Tea Shirt", "Trinket Shirt", "Darkness Suit", "Mineral Dog Jacket", "Magic Sprinkle Shirt", "Magenta Shirt", "Ginger Overalls", "Banana Shirt", "Yellow Suit", "Hot Pink Shirt", "Tropical Sunrise Shirt" ],
+					"StockPrice": 1000,
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 5
+				},
+				{ //Villager Clothes
+					"ItemType": "Clothing",
+					"ItemNames": [ "Store Owner's Jacket", "Mayoral Suspenders", "Studded Vest", "Gaudy Shirt", "Oasis Gown", "Blacksmith Apron", "Tunnelers Jersey", "Shirt O' The Sea", "Arcane Shirt", "Blue Long Vest" ],
+					"StockPrice": 1000,
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{ //Costumes
+					"ItemType": "Clothing",
+					"ItemNames": [ "Skeleton Shirt", "Caveman Shirt", "White Gi", "Orange Gi", "Kelp Shirt", "Holiday Shirt", "Jester Shirt", "Toga Shirt", "Slime Shirt", "Chef Coat", "Trash Can Shirt", "Captain's Uniform", "Officer Uniform", "Ranger Uniform" ],
+					"StockPrice": 1000,
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{ //Undyed clothes
+					"ItemType": "Clothing",
+					"ItemNames": [ "Plain Shirt", "Tank Top", "Crop Tank Top", "80's Shirt", "Strapped Top", "Button Down Shirt", "Crop Top Shirt", "Tube Top", "Flannel Shirt", "Basic Pullover", "Turtleneck Sweater", "Shirt with Bow", "Cardigan", "Prismatic Shirt" ],
+					"StockPrice": 1000,
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 2
+				}
+			 ]
+		},
+		{
+			"ShopName": "ShopFashionPaisley",
+			"PortraitPath": "assets/Shop_Paisley.png",
+			"Quote": "Welcome to Paisley's Bridal Boutique! <",
+			"MaxNumItemsSoldInStore": 15,
+			"ItemStocks": 
+			[
+				//Shirts and Pants
+				{
+					"ItemType": "Clothing",//Shirts Always Available
+					"StockPrice": 2500,
+					"ItemNames": ["English Wedding Corset PBB", "White Corset with Silver Necklace PBB", "White Corset with Gold Necklace PBB"],
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{
+					"ItemType": "Clothing",//Pants Always Available
+					"StockPrice": 5000,
+					"ItemNames": ["White Peplum Dress PBB", "White Tulle Dress PBB", "Black Dress Pants PBB"],
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 1
+				},
+				{
+					"ItemType": "Clothing",//Shirts Spring
+					"StockPrice": 2500,
+					"ItemNames": ["Blue Celtic Corset PBB", "Black Hungarian Corset PBB", "Lucky Blue Tuxedo PBB", "Lockhart Sash Corset PBB", "Lockhart Sash Tuxedo PBB", "Gold Tallit Tuxedo PBB", "Blue Tallit Tuxedo PBB", "Red Embroidered Tunic PBB"],
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 3
+				},
+				{
+					"ItemType": "Clothing",//Pants Spring
+					"StockPrice": 5000,
+					"ItemNames": ["Blue Celtic Dress PBB", "Black Hungarian Wedding Dress PBB", "Lucky Blue Tuxedo Pants PBB", "Lockhart Sash Dress PBB", "Lockhart Sash Pants PBB", "Gold Tallit Pants PBB", "Blue Tallit Pants PBB", "Red Embroidered Pants PBB", "Red Embroidered Dress PBB"],
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 3
+				},
+				//Hats
+				{
+					"ItemType": "Hat", //Always Available
+					"StockPrice": 1000,
+					"ItemNames": ["Blue Kippah PBB", "Gold Kippah PBB", "Flower Crown PBB", "Wedding Bow PBB", "Wedding Hijab PBB", "White Lace Veil PBB", "Short Hair Sparkles PBB", "Medium Hair Sparkles PBB", "Long Hair Sparkles PBB"],
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 3
+				},
+				{
+					"ItemType": "Hat", //Always Available Expensive
+					"StockPrice": 5000,
+					"ItemNames": ["Gold Crown PBB", "Gold Crown with Veil PBB", "Hijab with Gold Crown PBB", "Hijab with Silver Crown PBB"],
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 3
+				},
+								{
+					"ItemType": "Hat", //Always Available Extra Expensive
+					"StockPrice": 10000,
+					"ItemNames": ["Silver Crown PBB", "Silver Crown with Veil PBB"],
+					"Stock": 1
+				},
+				{
+					"ItemType": "Hat", //Spring 
+					"StockPrice": 1000,
+					"ItemNames": ["Dandelion Crown PBB", "Dandelion Crown with Ribbons PBB", "Gold Circlet PBB", "Silver Circlet PBB", "Ukrainain Flower Crown PBB", "Black Hungarian Crown PBB", "Black Hungarian Crown with Veil PBB"],
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 3
+				},
+				{
+					"ItemType": "Hat", //Spring Fancy
+					"StockPrice": 2500,
+					"ItemNames": ["Gold Flower Crown PBB", "Silver Flower Crown PBB", "Hair Lavender PBB", "Hair Marigolds PBB", "Hijab with Dandelion Crown PBB", "Hijab with Flower Crown PBB"],
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 3
+				}
+			]
+		},
+		{ 
+			"ShopName": "ShopFashionMoira",
+			"PortraitPath": "assets/Shop_Moira.png",	
+			"Quote": "My main shop is in Mount Vapius. What designs are you looking for?",
+			"MaxNumItemsSoldInStore": 12,
+			"ItemStocks": 
+			[
+				{ //Hats
+					"ItemType": "Hat",
+					"ItemNames": [ "Autumn Leaves Crown", "Dandelion Crown", "Enchanter Hat", "Fancy Spellcaster Hat", "Gem Hat", "Marigold Pin", "Pansies Crown", "Simple White Headband", "Spring Leaves Crown", "Starry Wizard Hat", "Sweet Roses Crown", "Traveling Witch Hat"],
+					"StockPrice": 1000,
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 4
+				},
+				{ //Pants
+					"ItemType": "Clothing",
+					"ItemNames": [ "LumisteriaClothes-Pants01", "LumisteriaClothes-Pants02", "LumisteriaClothes-Pants03", "LumisteriaClothes-Pants04", "LumisteriaClothes-Pants05" ],
+					"StockPrice": 1000,
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 2
+				},
+				{ //Shirts
+					"ItemType": "Clothing",
+					"ItemNames": [ "LumisteriaClothes-Shirt01", "LumisteriaClothes-Shirt02", "LumisteriaClothes-Shirt03", "LumisteriaClothes-Shirt04", "LumisteriaClothes-Shirt05", "LumisteriaClothes-Shirt06", "LumisteriaClothes-Shirt07", "LumisteriaClothes-Shirt08", "LumisteriaClothes-Shirt08", "LumisteriaClothes-Shirt09", "LumisteriaClothes-Shirt10", "LumisteriaClothes-Shirt11", "LumisteriaClothes-Shirt12", "LumisteriaClothes-Shirt13", "LumisteriaClothes-Shirt14", "LumisteriaClothes-Shirt15", "LumisteriaClothes-Shirt16", "LumisteriaClothes-Shirt17", "LumisteriaClothes-Shirt18", "LumisteriaClothes-Shirt19" ],
+					"StockPrice": 1000,
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 6
+				}
+			 ]
+		},
+		{ 
+			"ShopName": "ShopFashionFaye",
+			"PortraitPath": "assets/Shop_Faye.png",	
+			"Quote": "I'm so excited to be here at the festival!",
+			"MaxNumItemsSoldInStore": 12,
+			"ItemStocks": 
+			[
+				//Regular stock
+				{
+					"ItemType": "Clothing",
+					"ItemNames": [ "Flora Golda Shirt", "Juninja Shirt", "Pika Impersonation Shirt", "Village Color Shirt" ],
+					"StockPrice": 2500,
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 4
+				},
+				//Conditional stock
+				{
+					"ItemType": "Clothing",
+					"ItemNames": [ "Cof-Faye Jacket" ],
+					"StockPrice": 4500,
+				  	"When": [ "n RSV.FayeJacket" ]
+				},
+				{
+					"ItemType": "Clothing",
+					"ItemNames": [ "Cray-Faye Abstract Shirt" ],
+					"StockPrice": 4500,
+				  	"When": [ "n RSV.FayeMisc" ]
+				},
+				{
+					"ItemType": "Clothing",
+					"ItemNames": [ "Faye-rytale Pastel" ],
+					"StockPrice": 4500,
+				  	"When": [ "n RSV.FayePastel" ]
+				},
+				{
+					"ItemType": "Clothing",
+					"ItemNames": [
+							"Dragon Sweetie Top",
+							"Fab Dusk Suit",
+							"Fairy Cutie Top",
+							"Golden Mane Top",
+							"Phoenix Confidence Jacket",
+							"Winter Royalty Top"
+							 ],
+					"StockPrice": 2500,
+				  	"When": [ "e 75160449" ]
+				}
+			 ]
+		},
+		{ 
+			"ShopName": "ShopFashionRagnarok",	
+			"Quote": "Welcome! Looking for something a little different?",
+			"MaxNumItemsSoldInStore": 10,
+			"ItemStocks": 
+			[
+				{ //Hats
+					"ItemType": "Hat",
+					"ItemNames": [ "Amistr Hat", "Angry Solo Hat", "Bao Bao", "Beanie", "Beret", "Black Cat Ears", "Blue Charming Ribbon", "Blue Fish", "Boy's Cap", "Bunny Band", "Cake Hat", "Chef Hat", "Crown", "Decorative Golden Bell", "Deviruchi Hat", "Drooping Cat", "Festival Pumpkin Hat", "Flower Hairpin", "Galapago Cap", "Hat of Girl", "Incubus Horn", "Kafra Band", "Kitsune Mask", "Lush Rose", "Mage Hat", "Magician Hat", "Orchid Headband", "Party Hat", "Red Charming Ribbon", "Refined Panda Hat", "Refined Santa Hat", "Refined Sombrero", "Renown Detective's Cap", "Sakkat", "Shark Hat", "Succubus Horn", "Sweet Gent", "Tam", "Teddybear Hat", "Whisper Mask"],
+					"StockPrice": 1000,
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 10
+				}
+			 ]
+		},
+		{ 
+			"ShopName": "ShopFashionPride",	
+			"Quote": "Hey there, this is Queer Gear! What can I get you?",
+			"MaxNumItemsSoldInStore": 18,
+			"ItemStocks": 
+			[
+				{
+					"ItemType": "Clothing",
+					"ItemNames": [ "Abro Pride Shirt", "Aceflux Pride Shirt", "Agender Pride Shirt", "Akoi Pride Shirt", "Androgyne Pride Shirt", "Apothi Pride Shirt", "Aroflux Pride Shirt", "Aromantic Pride Shirt", "Asexual Pride Shirt", "Bear Pride Shirt", "Bi Pride Shirt", "Bigender Pride Shirt", "Butch Pride Shirt", "Cupio Pride Shirt", "Demiboy Pride Shirt", "Demigirl Pride Shirt", "DemiNon-binary Pride Shirt", "Demiromantic Pride Shirt", "Demisexual Pride Shirt", "Diamoric Pride Shirt", "Fray Pride Shirt", "Gay Pride Shirt", "Genderfluid Pride Shirt", "Genderflux Pride Shirt", "GenderQ Pride Shirt", "Grey-Ace Pride Shirt", "Grey-Aro Pride Shirt", "Greygender Pride Shirt", "Intersex Pride Shirt", "Lesbian Shirt", "Lesbian Shirt 2", "Lesbian Shirt 1", "Non-binary Lesbian Pride Shirt", "Neutrois Pride Shirt", "Non-Binary Pride Shirt", "Omni Pride Shirt", "Pan Pride Shirt", "Pangender Pride Shirt", "Philadelphia Pride Shirt", "Poly Pride Shirt", "Polyam Pride Shirt", "Q Chevron Pride Shirt", "Quoi Pride Shirt", "Recipro Pride Shirt", "Sapphic Pride Shirt", "Trans Pride Shirt", "Transfem Pride Shirt", "Transmasc Pride Shirt", "Trigender Pride Shirt", "Twink Pride Shirt", "Vincian Pride Shirt" ],
+					"StockPrice": 1000,
+					"Stock": 1
+				}
+			 ]
+		},
+		{ 
+			"ShopName": "ShopFashionKisekae",	
+			"Quote": "Be welcome to my shop... I trade in skirts of all varieties.",
+			"MaxNumItemsSoldInStore": 12,
+			"ItemStocks": 
+			[
+				{
+					"ItemType": "Clothing",
+					"ItemNames": [ "KisekaeSkirt1", "KisekaeSkirt2", "KisekaeSkirt3", "KisekaeSkirt4", "KisekaeSkirt5", "KisekaeSkirt6", "KisekaeSkirt7", "KisekaeSkirt8", "KisekaeSkirt9", "KisekaeSkirt10", "KisekaeSkirt11", "KisekaeSkirt12" ],
+					"StockPrice": 1000,
+					"Stock": 1,
+				}
+			 ]
+		},
+		{ 
+			"ShopName": "ShopFashionSydPlaid",	
+			"Quote": "If you're looking for plaid, then this is the place to be! Syd's Plaids!",
+			"MaxNumItemsSoldInStore": 8,
+			"ItemStocks": 
+			[
+				{
+					"ItemType": "Clothing",
+					"ItemNames": [ "SydsPlaids-Red", "SydsPlaids-Orange", "SydsPlaids-Bubblegum", "SydsPlaids-Watermelon", "SydsPlaids-Fuscia", "SydsPlaids-NeonBlue", "SydsPlaids-White", "SydsPlaids-Black", "SydsPlaids-HotPink", "SydsPlaids-PurplePink", "SydsPlaids-Indigo", "SydsPlaids-Sapphire", "SydsPlaids-Sky", "SydsPlaids-Jade", "SydsPlaids-Lime", "SydsPlaids-Yellow" ],
+					"StockPrice": 1000,
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 8
+				}
+			 ]
+		},
+		{
+			"ShopName": "DecoWisteria",
+			"PortraitPath": "assets/Shop_Wisteria.png",
+			"Quote": "You look like you have good taste, nyes?",
+			"ItemStocks": [
+				{
+					"ItemType": "Furniture",
+					"ItemNames": ["furniture.BoutiqueSewingTable","furniture.BoutiqueSimpleMirror","furniture.BoutiqueUmbrellaHolder","furniture.DecoBoutiqueFlowerpot","furniture.DecoBoutiqueVase","furniture.DecoHat1","furniture.DecoHat2","furniture.DecoHat3","furniture.DecoHat4","furniture.DecoHat5","furniture.DecoHat6","furniture.DecoHat7","furniture.DecoHat8","furniture.DecoHatBoxes","furniture.DecoLargeHatBoxes","furniture.DecoMannequin","furniture.DecoNecklaceDisplays","furniture.DecoParasols","furniture.DecoWisteria","furniture.DisplayCaseCenter","furniture.DisplayCaseHats","furniture.DisplayCaseMannequinn","furniture.DisplayNecklace","furniture.DisplayShoes","furniture.DisplayTableLarge","furniture.DisplayTableMedium","furniture.DisplayTableSmall","furniture.Mannequin","furniture.MannequinContrastParallel","furniture.MannequinPlumFantasy","furniture.MannequinSaturatedRatio","furniture.MannequinMeadowReverie","furniture.MannequinMedianTincture","furniture.MannequinSunflowerVision","furniture.PedestalCourtains","furniture.PedestalPedestal","furniture.SewingTable","furniture.DisplayTableZOrnate","furniture.DisplayHats"],
+				}
+			]
+		  }
+	]
+}

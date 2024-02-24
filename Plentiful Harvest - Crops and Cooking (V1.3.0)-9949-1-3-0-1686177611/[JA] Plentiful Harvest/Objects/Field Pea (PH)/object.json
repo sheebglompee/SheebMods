@@ -1,0 +1,52 @@
+{
+    "Name": "Field Pea (PH)",
+    "Description": "These crisp pods are often grown in rustic countrysides.",
+    "Category": "Vegetable",
+	"ContextTags": 
+        [
+        "season_spring",
+		"color_green"
+        ],
+    "Edibility": 12,
+    "Price": 20, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Pam", "Emily"],
+        "Like": ["Linus", "Gus", "Lewis"],
+        "Neutral": null, 
+        "Dislike": ["Maru", "Leo"], 
+        "Hate": ["Dwarf"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Field Pea",
+		"es": "Field Pea", 
+        "ko": "Field Pea", 
+        "de": "Felderbse", 
+        "fr": "Field Pea", 
+        "hu": "Field Pea", 
+        "it": "Field Pea", 
+        "ja": "Field Pea",
+        "pt": "Field Pea", 
+        "ru": "Полевой горох", 
+        "tr": "Field Pea",
+        "zh": "紫花豌豆", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "These crisp pods are often grown in rustic countrysides.", 
+        "ko": "These crisp pods are often grown in rustic countrysides.", 
+        "de": "Diese knusprigen Hülsen wachsen oft in ländlichen Landschaften.",
+        "fr": "These crisp pods are often grown in rustic countrysides.", 
+        "hu": "These crisp pods are often grown in rustic countrysides.",
+        "it": "These crisp pods are often grown in rustic countrysides.", 
+        "ja": "These crisp pods are often grown in rustic countrysides.", 
+        "pt": "These crisp pods are often grown in rustic countrysides.",
+        "ru": "В деревнях часто его выращивают.", 
+        "tr": "These crisp pods are often grown in rustic countrysides.", 
+        "zh": "紫花豌豆通常生长在乡村地区。",
+    },
+}

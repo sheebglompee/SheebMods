@@ -1,0 +1,15 @@
+{
+  // Charmer descriptions
+  "claire.charmer": "Claire is a friend magnet, his modesty pleases the villagers.#You gain +5 Friendship points when when you speak to villagers with her.",
+  "olivia.protector": "There is a possibility that Olivia will charm the monsters with her beauty.#This makes you invincible for temporary time.",
+
+  // Companion buff descriptions
+  "andy.buffs": "Andy may not be the best farmer, but he's resourceful and can find comfort in the teachings of Yoba.#You gain +2 Foraging and +1 Farming while exploring the wilds together.",
+  "claire.buffs": "Claire have great knowledge of farming and the soil.#You gain +75 maximum Stamina and +3 Farming while exploring the wilds together.",
+  "marlonfay.buffs": "Marlon's years of experience and leadership inspire you to fight like a trained warrior.#You gain +2 Attack and +2 Defense while fighting together.",
+  "morristod.buffs": "Morris may not be the best fighter, but his ambition and sense of self preservation are admirable.#You gain +1 Luck and +2 Defense when working together.",
+  "olivia.buffs": "Olivia's time in the corporate world taught her how to keep up with the competition.#You gain +1 Luck, +1 Speed, and +50 maximum Stamina while you walk together.",
+  "sophia.buffs": "Sophia loves LARPing and finding new cosplay materials.#You gain +1 Attack, +1 Speed, and +30 Magnetism on your epic quest together.",
+  "susan.buffs": "Susan is an experienced farmer with a big heart, but she's a pacifist and will not fight monsters.#You gain +2 Farming and +2 Foraging while spending time together.",
+  "victor.buffs": "Victor is always interested in studying the local terrain and infrastructure.#You gain +2 Luck and +1 Mining as you tour the area together."
+}

@@ -1,0 +1,11 @@
+{
+	"Name": "Yri's Mails",
+	"Author": "YriKururu",
+	"Version": "1.0.0",
+	"Description": "Adds custom mail for Yri the architect.",
+	"UniqueID": "yri.yri.MFM",
+	"MinimumApiVersion": "2.11.3",
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

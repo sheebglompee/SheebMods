@@ -1,0 +1,60 @@
+{
+	"Name": "Leah Doll",
+	"Description": "Handcrafted doll made from repurposed materials and forage. Looks like Leah.",
+	"Category": "Crafting",
+	"CategoryTextOverride": "Doll",
+	"Edibility": -300,
+	"Price": 300,
+	"IsColored": false,
+	"Recipe": {
+		"ResultCount": 1,
+		"Ingredients": [
+			{
+				"Object": 414, //Crystal Fruit
+				"Count": 1
+			},
+			{
+				"Object": 168, //Trash
+				"Count": 1
+			},
+			{
+				"Object": "Base Doll",
+				"Count": 1
+			}
+		],
+		"IsDefault": true
+	},
+	"GiftTastes": {
+		"Love": ["Leah", "Elliott"],
+		"Like": [
+			"Emily",
+			"Jas",
+			"Penny",
+			"Sam",
+			"Flor",
+			"Philip",
+			"Daia",
+			"Keahi"
+		],
+		"Neutral": [
+			"Abigail",
+			"Alex",
+			"Haley",
+			"Harvey",
+			"Maru",
+			"Shane",
+			"Sebastian",
+			"Vincent",
+			"Trinnie",
+			"Yuuma",
+			"Jeric"
+		]
+	},
+	"NameLocalization": {
+		"ko": "레아 인형"
+	},
+	"DescriptionLocalization": {
+		"ko": "재활용품과 채집물로 만든 수공예 인형. 레아를 닮았습니다."
+	},
+	"CanPurchase": false
+}

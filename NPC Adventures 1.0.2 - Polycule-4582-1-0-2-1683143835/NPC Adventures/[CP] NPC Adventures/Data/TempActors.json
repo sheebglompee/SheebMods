@@ -1,0 +1,34 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/PTarget1",
+      "FromFile": "assets/p_target1.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/PTarget2",
+      "FromFile": "assets/p_target2.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/PTarget3",
+      "FromFile": "assets/p_target3.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/PTarget4",
+      "FromFile": "assets/p_target4.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/PTarget5",
+      "FromFile": "assets/p_target5.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/PTarget6",
+      "FromFile": "assets/p_target6.png"
+    }
+  ]
+}

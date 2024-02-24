@@ -1,0 +1,12 @@
+{
+  "Name": "Tasty Tofu",
+  "Author": "PurpleChickadee",
+  "Version": "1.0.2",
+  "Description": "Make tasty tofu with Plentiful Harvest's soy.",
+  "MinimumApiVersion": "3.6.0",
+  "UniqueID": "PurpleChickadee.TastyTofu",
+  "UpdateKeys": ["Nexus:15721"],
+  "ContentPackFor": {
+	"UniqueID": "spacechase0.JsonAssets",
+	}
+  }

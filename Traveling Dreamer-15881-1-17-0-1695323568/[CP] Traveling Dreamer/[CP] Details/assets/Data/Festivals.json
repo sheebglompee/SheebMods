@@ -1,0 +1,166 @@
+{
+    "Changes": [
+       
+          {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Barron 33 39 left",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Barron 33 39 down",
+                    "Delimiter": "/"
+                }
+            ],
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall3",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Barron 12 10 right",
+                    "Delimiter": "/"
+                 },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Barron 52 15 down",
+                    "Delimiter": "/"
+                }
+            ],
+                "When":
+            {
+             "HasMod: |contains=Fellowclown.Nikolai": true, 
+            }
+        },
+           {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Barron 15 51 down",
+                    "Delimiter": "/"
+                 },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Barron 15 51 down",
+                    "Delimiter": "/"
+                }
+            ],
+            
+        },
+                 {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Phoebe 33 40 left",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Phoebe 33 40 left",
+                    "Delimiter": "/"
+                }
+            ],
+                         "When": {
+        "HasSeenEvent |contains=80003": "true"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall3",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Phoebe 12 11 right",
+                    "Delimiter": "/"
+                 },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Phoebe 54 14 down",
+                    "Delimiter": "/"
+                }
+            ],
+                "When":
+            {
+             "HasMod: |contains=Fellowclown.Nikolai": true, 
+              "HasSeenEvent |contains=80003": "true"
+            }
+        },
+           {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Phoebe 12 52 down",
+                    "Delimiter": "/"
+                 },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Phoebe 12 52 down",
+                    "Delimiter": "/"
+                },
+            ],
+                    "When": {
+        "HasSeenEvent |contains=80003": "true"
+            }
+            
+        },
+    ]
+}

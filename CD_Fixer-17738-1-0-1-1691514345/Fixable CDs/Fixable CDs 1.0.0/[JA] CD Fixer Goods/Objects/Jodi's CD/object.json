@@ -1,0 +1,15 @@
+{
+    "Name": "Jodi's CD",
+    "Description": "Jodi's personal playlist!",
+    "Category": "Crafting",
+    "Edibility": 0,
+    "EdibleIsDrink": false,
+    "Price": 0,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {
+        "Love": ["Jodi"],
+        "Like": ["Demetrius","Elliott","Harvey","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],
+        "Hate": ["Abigail","Alex","Caroline","CLint","Dwarf","Emily","Evelyn","George","Gus","Haley","Jas","Krobus","Leo","Lewis","Marnie","Maru","Penny","Pierre","Sam","Shane","Vincent","Willy","Wizard"]
+    }
+}

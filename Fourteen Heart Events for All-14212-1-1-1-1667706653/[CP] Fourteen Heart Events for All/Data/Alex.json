@@ -1,0 +1,89 @@
+{
+	
+    "Changes":[
+        { 
+            "LogName": "AlexVanilla14Heart Pt 1",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {  
+                "928202235/f Alex {{FriendshipRequiredHeartToken}}/{{FriendshipRequiredEventTokenAlex}}/o Alex/w sunny/t 600 900": "continue/64 15/farmer 64 16 2 Alex 64 18 0/pause 700/speak Alex \"Hey, @. Before you head out...#$b#I hate to ask this... but can I have 5,000g as a favor?#$b#It's for a secret project I'm working on in town. I promise it's something important.\"/pause 1000/question fork0 \"Give Alex 5,000g for his secret project?#Yes#No\"/fork giveAlexMoney/playMusic none/pause 1000/emote Alex 12/speak Alex \"Really? Don't you trust me with the money?$a#$b#I thought we were better friends than that...$s\"/pause 500/faceDirection Alex 1 true/pause 100/faceDirection Alex 2/pause 500/emote Alex 28/pause 400/speak Alex \"I just wanted to do something nice...$s\"/pause 800/end dialogue Alex \"I don't want to talk to you right now...$s\"",
+                "giveAlexMoney": "pause 200/addMailReceived gaveAlexMoney/money -5000/emote Alex 32/pause 500/speak Alex \"Great! Swing by the Saloon on Sunday and I'll show you the end result!$h\"/pause 500/end"
+                    },
+    
+            "When": {
+                    "EnableAlex": true,
+                    "EnableShaneAlexAltOrVanilla": "Vanilla"
+                    }          
+        },
+    
+        { 
+            "LogName": "AlexVanilla14Heart Pt 2",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {  
+                "928202236/n gaveAlexMoney/o Alex/d Mon/d Tue/d Wed/d Thu/d Fri/d Sat": "continue/-1000 -1000/farmer 100 100 2/addWorldState saloonSportsRoom/addMailReceived saloonSportsRoom/message \"It's Sunday... I should swing by the saloon later and see what Alex has been up to!\"/end"
+                    },
+    
+            "When": {
+                    "EnableAlex": true,
+                    "EnableShaneAlexAltOrVanilla": "Vanilla"
+                    }          
+        },
+    
+        { 
+            "LogName": "AlexVanilla14Heart Pt 3",
+            "Action": "EditData",
+            "Target": "Data/Events/Saloon",
+            "Entries": {  
+                "928202237/e 928202236/n saloonSportsRoom/o Alex": "distantBanjo/-100 -100/farmer 31 20 0 Alex 32 7 0 Shane 33 8 0 Gus 34 8 0 Kent 35 8 0 George 36 7 0/addConversationTopic AlexSportsRoom 7/skippable/specificTemporarySprite gridballGameTV/viewport 34 7 true/move farmer 0 -13 1 true/pause 1000/textAboveHead Alex \"Big play!\"/pause 600/jump Gus/pause 2000/textAboveHead George \"Score!\"/pause 400/textAboveHead Alex \"There we go!\"/faceDirection Kent 3 true/faceDirection Gus 1 true/animate Gus false true 100 22/animate Kent false true 100 17/shake Gus 500/shake Kent 500/pause 500/textAboveHead George \"Atta boy!\"/pause 1000/stopAnimation Gus/stopAnimation Kent/faceDirection Kent 0 true/faceDirection Gus 0/pause 1000/faceDirection Alex 3/pause 400/speak Alex \"Hey, @! You made it!$h\"/faceDirection Alex 1/speak Alex \"So... what do you think?\"/pause 500/emote farmer 8/faceDirection Alex 3/speak Alex \"I've been thinking... You know how my dream is to become a professional athlete someday?#$b#Well, it's looking like that dream is a bit further away than I expected...$9#$b#I'm still working towards it, don't get me wrong!$h#$b#...But I thought it would be cool to have a place where us guys could hang out and watch the Sunday game. Gus liked the idea so much he offered me part of his back room!#$b#This way, I can remind myself of that dream, when it feels like it's far away.\"/pause 500/emote farmer 32/pause 600/faceDirection George 3/speak George \"You did good, son. I could watch this at home, but coming here makes me feel young again!$h\"/faceDirection Alex 1/speak Alex \"Thanks, Grandpa.\"/pause 500/speak Kent \"I'm happy to get out of the house and socialize with people again.$h\"/faceDirection Alex 2/pause 100/textAboveHead Shane \"Same\"/pause 1200/speak Gus \"I'm having a lot of fun. And it's good for business!$h#$b#Though maybe not so good for George's heart...$s\"/pause 100/faceDirection George 2 true/emote George 16/pause 500/textAboveHead George \"Now see here!\"/pause 500/emote Alex 32/pause 2000/fade/viewport -1000 -1000/pause 400/message \"It seems the guys have a new Sunday tradition.\"/pause 1000/message \"5,000g well spent!\"/pause 1000/end dialogue Alex \"Thanks again for the money, @. It was a fun project for me, and all the guys seem happy with it!\""
+                    },
+    
+            "When": {
+                    "EnableAlex": true,
+                    "EnableShaneAlexAltOrVanilla": "Vanilla"
+                    }          
+        },
+
+        { 
+            "LogName": "AlexAlt14Heart Pt 1",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {  
+                "928202238/f Alex {{FriendshipRequiredHeartToken}}/{{FriendshipRequiredEventTokenAlex}}/o Alex/w sunny/z winter/t 600 900": "continue/64 15/farmer 64 16 2 Alex 64 18 0/pause 700/speak Alex \"Hey, @!$h\"/pause 500/speak Alex \"I've got some big news... An agent from the Grampleton Timberwolves contacted me about tryouts!#$b#I'll be taking the bus over to Grampleton Stadium.#$b#Gramps and Granny are gonna come cheer me on and... if you're free, it'd mean a lot to me if you could come as well.$l\"/pause 200/emote farmer 32/speak Alex \"We'll be leaving around 12pm, so meet us at the bus stop if you want to. See you!\"/pause 500/end"
+                    },
+    
+            "When": {
+                    "EnableAlex": true,
+                    "EnableShaneAlexAltOrVanilla |contains= Alt, NoSportsRoom": true
+                    }          
+        },
+
+        { 
+            "LogName": "AlexAlt14Heart Pt 2",
+            "Action": "EditData",
+            "Target": "Data/Events/BusStop",
+            "Entries": {  
+                "928202239/e 928202238/o Alex/w sunny/t 1200 1500": "playful/-1000 -1000/farmer 13 22 0 Alex 14 10 2 George 15 11 3 Evelyn 13 11 1 Haley 18 10 3/viewport 12 11 clamp true/addConversationTopic AlexTryouts 20/skippable/move farmer 0 -10 0 true/proceedPosition farmer/move farmer 1 0 0 false/speak Alex \"@! There you are!\"/faceDirection Alex 3/faceDirection Alex 1/faceDirection Alex 2/speak Alex \"Ready to go? Once we get there, I'll go straight to the locker rooms, so you guys can head up to the seats.$h#$b#I'll make sure to wave if I see you!\"/pause 300/speak George \"Alex! We're going to be late if you don't stop jabbering!\"/pause 300/speak Evelyn \"Don't forget your snacks, dear! You'll need your energy.\"/pause 200/speak Alex \"Right, let's go!\"/pause 200/move Evelyn -1 0 0/move Evelyn 0 -1 0/warp Evelyn -30 -30/move George -3 0 0 true/move Haley -3 0 0 true/globalFade/viewport -1000 -1000/pause 400/playSound busDriveOff/pause 4000/changeToTemporaryMap Stadium false/pause 1000/playMusic EmilyDance/warp farmer 19 19/faceDirection farmer 2/warp Alex -30 -30/warp Haley 17 19/faceDirection Haley 2/animate Haley false true 200 30 30 30 30 30 31 24 24 24 24 24 24/warp George 22 19/faceDirection George 3/warp Evelyn 20 19/faceDirection Evelyn 2/viewport 22 18 clamp true/pause 1000/move George -1 0 2/emote George 12 true/speak George \"Gah, no respect for wheelchairs in this place. Can barely squeeze through...\"/pause 300/speak Evelyn \"George dear, let's not spoil Alex's big moment. Look, there he is!\"/pause 300/speak George \"That boy sure can throw.\"/pause 300/speak Evelyn \"He's waving to us! Do your best, dear!$h#$b#We're cheering for you!$h\"/pause 300/speak George \"You show them how it's done!$h\"/pause 300/textAboveHead Haley \"Go Alex!\"/pause 500/speak Alex \"I'm open, throw it here!$7#$b#Got it!$3#$b#And... Gooooooal!$h\"/pause 200/jump farmer 4/showFrame 3/pause 400/emote farmer 16/showFrame 0/pause 300/textAboveHead George \"That's my boy!\"/pause 1200/textAboveHead Evelyn \"He did it, George!\"/pause 2000/globalFade/viewport -1000 -1000/changeLocation BusStop/stopAnimation Haley 24/showFrame Haley 0/warp farmer 13 12/faceDirection farmer 1/warp Alex 14 12/faceDirection Alex 3/warp George 13 18/faceDirection George 1/warp Evelyn 15 18/faceDirection Evelyn 3/warp Haley 14 17/faceDirection Haley 2/pause 1000/playMusic jaunty/fade/viewport 12 11/pause 1000/speak Alex \"Whew, what a rush that was!$h#$b#Did you see my plays, @? What did you think?\"/pause 500/quickQuestion #They'd be crazy to turn you down!#You were good out there.#I don't know much about gridball, sorry.#I've seen better plays from a potato(break)speak Alex \"Wow, thanks! I hope the coaches think the same.$h\"(break)speak Alex \"I've been practicing non-stop since I got the call. Glad it paid off!$h\"(break)speak Alex \"That's okay. I appreciate that you came to support me even if it's not your thing.\"(break)speak Alex \"Ha, you're such a joker, @...$s#$b#I hope the coach thought it was good, at least.\"/pause 1000/speak Alex \"The coach said I should expect to hear from them in a few weeks... I'll let you know as soon as I know if I got a spot on the team or not!$h\"/pause 300/speak Alex \"Thanks again for coming with me today, @.#$b#I felt like I could really give it my all, knowing that you were all up there cheering me on.$l\"/pause 300/emote farmer 32/pause 600/end"
+                    },
+    
+            "When": {
+                    "EnableAlex": true,
+                    "EnableShaneAlexAltOrVanilla |contains= Alt, NoSportsRoom": true
+                    }          
+        },
+
+        { 
+            "LogName": "AlexAlt14Heart Pt 3",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {  
+                "928202240/e 928202239/o Alex/w sunny/A AlexTryouts/t 600 900": "continue/64 15/farmer 64 16 2 Alex 64 18 0/pause 700/speak Alex \"Hey, @! I got a call from the Timberwolves' coach this morning.#$b#He said they decided to pass on me this year...$s#$b#...but they were really impressed with how I played!#$b#If I come back for the next tryout, there's a good chance they'll take me on.\"/pause 200/emote farmer 28/pause 500/speak Alex \"So I'm going to keep training and practicing every chance I get, so that when tryouts come around again, I'll be ready.$h\"/pause 200/emote farmer 32/pause 700/globalFade/viewport -1000 -1000/message \"Despite the bad news, Alex looks proud of himself, looking forward to the future.\"/end"
+                    },
+    
+            "When": {
+                    "EnableAlex": true,
+                    "EnableShaneAlexAltOrVanilla |contains= Alt, NoSportsRoom": true
+                    }          
+        }
+	]	
+}

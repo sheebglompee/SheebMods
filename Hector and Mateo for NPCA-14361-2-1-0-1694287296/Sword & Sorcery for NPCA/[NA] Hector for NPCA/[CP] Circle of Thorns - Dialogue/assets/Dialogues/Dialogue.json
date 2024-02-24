@@ -1,0 +1,94 @@
+{
+  "Changes": [
+    {
+      "LogName": "Companion dialogues for Hector",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Hector",
+      "Entries": {
+		  //Normal Hector Lines
+		  "companionAccepted": "Sure, let's cause problems on purpose!$9",
+		  "companionRejected": "Sorry, @. My goldfish died, I need to hold a funeral for it.$6",
+		  "companionRejectedNight": "Isn't it past your bedtime, @?$24",
+		  "companionDismiss": "That was fun, but I'm going to complain about it for two weeks minimum.$0",
+		  "companionDismissAuto": "Ugh, my dogs are barking. Let's call it a night, alright?$18",
+		  "companionRecruited": "Let's go root through all the trash cans.$9",  
+		 
+		  "companionSuggest": "Hey, @.#$q -1 -1#Wanna go cause problems on purpose?#$r -1 0 Yes#Sure, let's go!#$r -1 0 No#Can't right now, maybe later?",
+		  "companionSuggest_Yes": "Thanks for trekking along with me.$1",
+		  "companionSuggest_No": "Awww, boo.$16",
+		  
+		//Dating Hector Lines
+		  "companionAccepted_Dating": "You know I can't say no to you.$10",
+		  "companionRejected_Dating": "Jacob needs my help today, @. I'm really sorry.$17",  
+		  "companionRejectedNight_Dating": "Wouldn't you rather do something a little more horizontal?$10",
+		  "companionDismiss_Dating": "Catch you later, @. Gimmie a kiss goodbye, first!$11",
+		  "companionDismissAuto_Dating": "I gotta go check on Book, so I'll see you later.$8",
+		  "companionRecruited_Dating": "Not to be cheesy or anything, but I love a bit of time spent.$1",
+		  
+		  
+		  "companionSuggest_Dating": "My deer~ly beloved!#$q -1 -1#Wanna get into some trouble?#$r -1 0 Yes#Sure, let's go!#$r -1 0 No#Can't right now, maybe later?",
+		  "companionSuggest_Yes_Dating": "Yaaaaaaaaaaaaaaaaaay!$1",
+		  "companionSuggest_No_Dating": "Booooooooooooooooooo! Bummer. Next time, then!$9",
+
+		//Spouse Hector Lines
+
+		  "companionAccepted_Spouse": "Yeah, let's do it. Where are we off to today?$13",
+		  "companionRejected_Spouse": "%Hector ignores you. You think to yourself that it might be better to rekindle your relationship first.",
+		  "companionRejectedNight_Spouse": "How about: you, me, and my bed instead?$11",
+		  "companionDismiss_Spouse": "Come sleep over soon, okay?$11",
+		  "companionDismissAuto_Spouse": "I'm tired, let's get some sleep already, huh?$13",
+		  "companionRecruited_Spouse": "What trouble are we gonna get into today?$8",
+
+		  "companionSuggest_Spouse": "Do you wanna... cause mischief?#$q -1 -1#Spend the day with me!#$r -1 0 Yes#Absolutely, let's go!#$r -1 0 No#I can't today, but next time!",
+		  "companionSuggest_Yes_Spouse": "Let's cause problems on purpose!$1",
+		  "companionSuggest_No_Spouse": "I hope 'next time' is soon!$17",
+
+
+		//Location specific (Vanilla)
+
+		  "companion_Farm": "If your animals weren't well taken care of, they'd tell me.$6",
+		  "companion_Farm_Spouse": "You've really done a beautiful job with all this, @.$13",
+		  "companion_Mine": "With what happened to Mateo, you'd think people would stay out of here.$16",
+		  "companion_Mine_Spouse": "Part of loving you is coming here with you even if I think it's a stupid idea.$6",
+		  "companion_Town_Night": "I'm more comfortable here at night than I am during the day when everyone's around.$4",
+		  "companion_Town_Fall": "Are we here for Fall snacks?$7",
+		  "companion_Town_Rainy": "Is it raining somewhere else, too?$23",
+		  "companion_SkullCave": "Uhhh, here. I 'borrowed' it from the doctor.[349]$4",
+		  "companion_SkullCave_Spouse": "Hey, take this. [349] I'd be pissed if you got hurt.$22",
+
+
+		//Location Specific (Other mod compat)
+
+		"companion_Custom_EastScarpeInn": "I like playing music here with Mateo. It's so cozy.$1",
+		"companion_Custom_EastScarpeInn_Spouse": "We should come by and play pool sometime. The saloon is so crowded.$16",
+		"companion_Custom_ESVetHouse": "My favorite place! Second to my bed, anyway.$8",
+		"companion_Custom_CrimsonBadlands": "This is the worst place imaginable. Uh, here. Just in case. [349]$18",
+		"companion_Custom_CrimsonBadlands_Spouse": "At risk of sounding like a wimp, I don't think we should be here. Take this, at least.[349]$19",
+		"companion_Custom_ESDeepMountains": "There's a lot more to this place than meets the eye, you know.$6",
+		"companion_Custom_Ridgeside_RidgesideVillage": "Ah, yes. A village. On the ridge. Brilliant!$9",
+		"companion_Custom_Ridgeside_RidgesideVillage_Spouse": "Update: I think I'm afraid of heights. Please hold my hand during the skycar ride.$18",
+		"companion_Custom_Ridgeside_RidgeForest": "I love it here, except for how rife with danger it obviously is.$9",
+		"companion_Custom_Ridgeside_RidgeForest_Spouse": "Just in case we get our asses kicked, take this.[349]$4",
+		"companion_Custom_Ridgeside_SummitFarm_Spouse": "Wait, for real? How much land do you own?$23",
+		"companion_Custom_ESDruidTower": "This place needs a 'Live, Laugh, Love' sign to complete the decor, don't you think?$8",
+		"companion_Custom_ESCoastalGuild": "This place is a really glorified tabletop club, not so much a functioning guild.$8",
+		"companion_Custom_ESCoastalGuild_Spouse": "Okay, okay. The only things cuter than the Pepper Rex are you and Book.$10 ",
+		"companion_Custom_ESDeepDark": "There's something wrong here. Something very wrong.$19",
+		"companion_Custom_ESSeaCave": "Sea monsters do not surprise me.$7",
+		"companion_Custom_ESEDHouse": "What's the deal with the fish tank?$24",
+		"companion_Custom_ARVHouse": "Maximum totally just said that Sterling snores really loud.$8",
+		"companion_Custom_ESHouse1": "Baron Munchington is a nightmare to groom, just letting you know.$16",
+		"companion_Custom_Yri_House": "Nala has nothing but nice things to say about Yri and Charles.",
+		"companion_Custom_ExteriorMuseum": "Ugh, I hate this. I get it's for science, but... ugh.$18",
+		"companion_Custom_FishMuseum": "FREE THE GOLDFISH!$17",
+		"companion_Custom_EnchantedGrove": "This Nexus is an offshoot of The Grove. As long as one is healthy, the other one will be too.$7",
+		"companion_Custom_Highlands": "This is where that other guild holes up, right?$23",
+		"companion_Custom_CastleVillageOutpost": "I haven't set foot in Castle Village. Last thing I want is to get wrapped up in their drama.$24",
+		"companion_Custom_DesertRailway": "No thank you. ...Oh, we're going?$24",
+		"companion_Custom_IridiumQuarry": "This is just sitting here and it hasn't been cleared yet? Color me impressed.$20",
+		"companion_Custom_TreasureCave": "This seems too good to be true, doesn't it?$23",
+
+      },
+    },
+  ]
+}

@@ -1,0 +1,87 @@
+{
+	
+    "Changes":[
+
+        { 
+            "LogName": "Sebastian14Heart Pt 1",
+            "Action": "EditData",
+            "Target": "Data/Events/Mountain",
+            "Entries": {  
+                "928202230/f Sebastian {{FriendshipRequiredHeartToken}}/{{FriendshipRequiredEventTokenSebastian}}/o Sebastian/w rainy/t 600 1900": "rain/48 36/farmer 49 31 2 Sebastian 50 36 3/makeInvisible 44 31 5 5/addConversationTopic sebastianFrog 0/skippable/move farmer 0 4 2/faceDirection Sebastian 0/speak Sebastian \"Hey @... Glad you showed up.\"/emote farmer 8/faceDirection Sebastian 3/speak Sebastian \"There's an injured frog in that bush... I gotta save him!\"/emote farmer 28/faceDirection Sebastian 0/speak Sebastian \"I need your help. Go over to the bush and try to get him to come towards me. I'll wait over here and catch him.\"/pause 500/faceDirection Sebastian 3/move farmer -5 0 2/pause 500/showFrame Sebastian 54/playSound grassyStep/pause 500/speak Sebastian \"Okay... you ready?\"/emote farmer 56/textAboveHead Sebastian \"Now!\"/pause 500/doAction 44 36/pause 1000/doAction 44 36/pause 1000/doAction 44 36/playSound croak/specificTemporarySprite sebastianFrog/pause 10000/playSound coin/showFrame Sebastian 55/jump Sebastian/textAboveHead Sebastian \"Got him!\"/move farmer 5 0 2/move farmer 0 1 1/speak Sebastian \"Poor little guy... his foot's all mangled. $s\"/emote farmer 28/quickQuestion #What should we do with him?#It's your new son...#I don't think he's going to make it#Let's nurse him back to health!(break)speak Sebastian \"I'm gonna take him home for now, and make him comfortable.#$b#I guess I'll do some research on how to take care of frogs. Maybe Marnie knows something.\"(break)speak Sebastian \"Ha... Yeah, I guess so.$h#$b#Though he'll definitely be able to tell he's adopted...$7\"\\faceDirection farmer 2 true\\jump farmer\\showFrame farmer 94\\startJittering(break)emote Sebastian 12\\speak Sebastian \"Well, sorry if I don't take your word for it... I'm gonna give the poor guy a chance.\"(break)speak Sebastian \"I'll do my best. But don't get too attached just yet...\"/pause 300/stopJittering/stopAnimation farmer/faceDirection farmer 1/pause 500/speak Sebastian \"I'm going to take him home.\"/pause 500/playSound croak/pause 2000/end"
+                    },
+    
+            "When": {
+                    "EnableSebastian": true
+                    }          
+        },
+
+        { 
+            "LogName": "Sebastian14Heart Pt 2",
+            "Action": "EditData",
+            "Target": "Data/Events/SebastianRoom",
+            "Entries": {  
+                "928202231/e 928202230/A sebastianFrog/o Sebastian/t 900 1900": "distantBanjo/-1000 -1000/farmer 1 5 1 Sebastian 9 9 2/addConversationTopic SebastianNewFrog 7/addTemporaryActor SebTerrarium 48 36 7 11 2 false character/skippable/viewport 6 6/move farmer 5 0 2/move farmer 0 4 2/pause 3000/faceDirection farmer 1/emote farmer 8/speak Sebastian \"Our little friend's doing much better, see?\"/pause 500/faceDirection farmer 2/pause 250/showFrame farmer 4/pause 800/showFrame Sebastian 51/playSound thudStep/pause 800/speak Sebastian \"...but I don't think he can go back into the wild... he's not fast enough to avoid predators anymore.#$b#...So I set up this terrarium.#$b#He looks happy, doesn't he?$h\"/pause 400/emote farmer 32/pause 500/showFrame farmer 0/pause 400/faceDirection farmer 1/speak Sebastian \"I wonder if he'll get lonely, though...\"/pause 500/faceDirection farmer 2/pause 600/quickQuestion #Why not start a 'frog sanctuary'?#He'll be fine.(break)speak Sebastian \"...a haven for frogs and toads who can't make it on their own? Not a bad idea.\"(break)speak Sebastian \"He does look pretty tough. But still, If I find another injured frog, I think he'd be better off with a friend.\"/faceDirection farmer 1/pause 1200/quickQuestion #Why do you like frogs so much, anyway?#Is your mom okay with having frogs in the house?#I'm glad you've found a new hobby(break)speak Sebastian \"Hmm... Well, I like going out in the rain. So I guess I encountered a lot of frogs that way.#$b#I ended up feeling a common bond with the little guys.\"\\faceDirection farmer 1 true\\emote farmer 32(break)emote Sebastian 12\\showFrame Sebastian 12\\pause 400\\speak Sebastian \"I'll talk to her, but this is my space and I can do what I want with it. It'll be fine.\"\\showFrame Sebastian 0(break)speak Sebastian \"Yeah, it'll be fun. I spend a lot of time on the computer, so it's nice to have some real, physical hobbies.#$b#I might even try my hand at some frog breeding!$h\"\\faceDirection farmer 1 true\\emote farmer 16\\pause 500/faceDirection farmer 2/showFrame farmer 0/pause 1000/playSound croak/animate SebTerrarium false false 300 1 1 2 2 3 3 4 4 4/pause 350/playSound slimeHit/pause 200/showFrame farmer 94/jump Sebastian/pause 200/playSound slimeHit/fade/viewport -1000 -1000/pause 400/message \"Sebastian has adopted the frog as part of his family. I wonder what his human family will think?\"/pause 400/end warpOut"
+                    },
+    
+            "When": {
+                    "EnableSebastian": true
+                    }          
+        },
+
+        {
+            "LogName": "Sebastian Terrarium Patch",
+            "Action": "EditMap",
+            "Target": "Maps/SebastianRoom",
+            "FromFile": "assets/SebastianTerrariumPatch_{{SebTerrariumStyle}}.tmx",
+            "FromArea": 
+            {
+                "X": 7,
+                "Y": 9,
+                "Width": 3,
+                "Height": 3
+            },
+            "ToArea": 
+            {
+                "X": 7,
+                "Y": 9,
+                "Width": 3,
+                "Height": 3
+            },
+            "When": 
+            {
+                "HasSeenEvent |contains= 928202231": true
+            }
+        },
+        {
+            "LogName": "Sebastian Terrarium Patch Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "SebTerrarium.Text": "The frog is hopping a little awkwardly with its injured leg."
+            },
+            "When": 
+            {
+                "HasConversationTopic |contains= SebastianNewFrog": true,
+                "HasSeenEvent |contains= 928202231": true
+            }
+        },
+        {
+            "LogName": "Sebastian Terrarium Patch Text",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": 
+            {
+                "SebTerrarium.Text": "The frog is hopping around and ribbiting happily. Looks like its leg has healed completely."
+            },
+            "When": 
+            {
+                "HasConversationTopic |contains= SebastianNewFrog": false,
+                "HasSeenEvent |contains= 928202231": true
+            }
+        }
+
+
+
+	]	
+}

@@ -1,0 +1,17 @@
+﻿{
+    "Name": "Ridge-Root",
+    "Description": "A crunchy root with a salty kick.",
+    "Category": "Vegetable",
+    "CategoryTextOverride": "Root",
+    "Edibility": 15,
+    "Price": 45,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Ridge-Root",
+    "ContextTags": [
+    "color_brown",
+    "forage_item",
+    "root_item",
+  ],
+}

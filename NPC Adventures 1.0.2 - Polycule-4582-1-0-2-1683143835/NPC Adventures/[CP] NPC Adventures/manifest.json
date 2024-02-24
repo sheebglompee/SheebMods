@@ -1,0 +1,17 @@
+﻿{
+  "Name": "NPC Adventures - Content",
+  "Author": "PurrplingCat",
+  "Version": "1.0.2",
+  "Description": "NPC Adventures content for Content Patcher",
+  "UniqueID": "PurrplingCat.NpcAdventure.Content",
+  "MinimumApiVersion": "3.13.0",
+  "UpdateKeys": [ "Nexus:4582" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "purrplingcat.npcadventure"
+    }
+  ]
+}

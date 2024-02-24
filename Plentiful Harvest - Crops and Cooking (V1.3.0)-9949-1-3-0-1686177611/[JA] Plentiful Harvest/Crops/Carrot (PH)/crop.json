@@ -1,0 +1,46 @@
+{
+    "Name": "Carrot (PH)", 
+    "Product": "Carrot (PH)",
+    "SeedName": "Carrot Seeds (PH)", 
+    "SeedDescription": "Plant these in the spring. Takes 4 days to mature and produces a bright orange tuber.", 
+    "Type": "Vegetable", 
+    "CropType": "Normal", 
+    "Seasons": ["spring"], 
+    "Phases": [1, 1, 1, 1], 
+    "RegrowthPhase": -1, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": false, 
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "STF.PlentifulHarvest", 
+    "SeedPurchasePrice": 25, 
+
+    "SeedNameLocalization":
+    {
+        "default": "Carrot Seeds",
+		"es": "Carrot Seeds", 
+        "ko": "Carrot Seeds", 
+        "de": "Karotten-Saat", 
+        "fr": "Carrot Seeds", 
+        "hu": "Carrot Seeds", 
+        "it": "Carrot Seeds", 
+        "ja": "Carrot Seeds", 
+        "pt": "Carrot Seeds", 
+        "ru": "Семена моркови", 
+        "tr": "Carrot Seeds", 
+        "zh": "胡萝卜种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plant these in the spring. Takes 4 days to mature and produces a bright orange tuber.", 
+        "ko": "Plant these in the spring. Takes 4 days to mature and produces a bright orange tuber.", 
+        "de": "Pflanze sie im Frühling. Wächst in 4 Tagen heran.", 
+        "fr": "Plant these in the spring. Takes 4 days to mature and produces a bright orange tuber.", 
+        "hu": "Plant these in the spring. Takes 4 days to mature and produces a bright orange tuber.", 
+        "it": "Plant these in the spring. Takes 4 days to mature and produces a bright orange tuber.", 
+        "ja": "Plant these in the spring. Takes 4 days to mature and produces a bright orange tuber.", 
+        "pt": "Plant these in the spring. Takes 4 days to mature and produces a bright orange tuber.", 
+        "ru": "Сажайте весной. Вырастает через 4 дня.", 
+        "tr": "Plant these in the spring. Takes 4 days to mature and produces a bright orange tuber.", 
+        "zh": "春天种植。 需要4天成熟，长成胡萝卜。  ", 
+    }
+}

@@ -1,0 +1,116 @@
+{
+	"Changes": [
+	//Regular Gift Tastes
+		{
+			"LogName": "Gift Tastes 0-1",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"Shane": "That's... really decent of you. Thanks./206 215 260 346/...Thanks./203 -5 -79 303 113/Yoba, get that away from me./-81 152 330/Don't give me your fucking garbage, asshole./80 342/Oh... thanks.// " 
+			},
+			"When": {
+				"Hearts:Shane": "0, 1",
+				"Relationship:Shane |contains=Married": false,
+			},
+		},
+		{
+			"LogName": "Gift Tastes 2-3",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"Shane": "I actually really like this. How'd you know?/206 215 260 346/This is neat. Thanks./203 -5 -79 303 113/Eugh, what is this?/-81 152 330/Why are you giving me your garbage?/80 342/Thanks.// " 
+			},
+			"When": {
+				"Hearts:Shane": "2, 3",
+				"Relationship:Shane |contains=Married": false,
+			},
+		},
+		{
+			"LogName": "Gift Tastes 4-5",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"Shane": "You're really giving this to me? Thanks, @./206 215 260 346/This is neat. Thanks, @./203 -5 -79 303 113/Uh... am I supposed to thank you for this?/-81 152 330/Why are you giving me your garbage?/80 342/Oh, you got me something? Thanks.// " 
+			},
+			"When": {
+				"Hearts:Shane": "4, 5",
+				"Relationship:Shane |contains=Married": false,
+			},
+		},
+		{
+			"LogName": "Gift Tastes 7-8",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"Shane": "Yoba, you're the best. Thanks, @!/206 215 260/Heh, this is neat. Thanks, @./203 -5 -79 113 167/I don't really like this./80 342 0 -20 -21 92 110 111 112 142 152 153 157 178 105 168 170 171 172 374 376 378 380 397 420 684 721 766 767 772 203 308 -81 152 330/Stop giving me booze, you fuck./346 459 303 348/Oh, you got me something? Thanks.// " 
+			},
+			"When": {
+				"Hearts:Shane": "7, 8",
+				"Relationship:Shane |contains=Married": false,
+			},
+		},
+		{
+			"LogName": "Gift Tastes 9-10 Platonic",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"Shane": "See, this is why we're friends... heh, just kidding. Thanks, @!/206 215 260/Hey, this is neat! Thanks, bud./203 -5 -79 113 167/Uh... I don't really like this./80 342 0 -20 -21 92 110 111 112 142 152 153 157 178 105 168 170 171 172 374 376 378 380 397 420 684 721 766 767 772 203 308 -81 152 330/Yoba, you of all people should know better than to give me this./346 459 303 348/Oh, you got me something? Thanks, bud.// " 
+			},
+			"When": {
+				"Hearts:Shane": "{{Range: 9, 14}}",
+				"Relationship:Shane |contains= Dating, Engaged, Married, Divorced": false,
+			},
+		},
+		{
+			"LogName": "Gift Tastes 9-10 Romantic",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"Shane": "See, this is why I'm dating you... heh, just kidding. Thanks, @!/206 215 260/Hey, this is neat! Thanks, sunshine./203 -5 -79 113 167/Uh... I don't really like this./80 342 0 -20 -21 92 110 111 112 142 152 153 157 178 105 168 170 171 172 374 376 378 380 397 420 684 721 766 767 772 203 308 -81 152 330/Yoba, you of all people should know better than to give me this./346 459 303 348/Oh, you got me something? Thanks, bud.// " 
+			},
+			"When": {
+				"Hearts:Shane": "{{Range: 9, 14}}",
+				"Relationship:Shane |contains= Dating, Engaged": true,
+			},
+		},
+//6-Heart Gift Tastes
+		{
+			"LogName": "Gift Tastes 6 Pre-recovery",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"Shane": "Hey, this is my favorite! Thanks, @./206 215 260 346/This is neat. Thanks, @./203 -5 -79 303 113/Uh... no thanks./-81 152 330/Ugh, really?/80 342/Oh, you got me something? Thanks.// "  
+			},
+			"When": {
+				"Hearts:Shane": "6",
+				"HasSeenEvent |contains=2118991": false,
+				"Relationship:Shane |contains=Married": false,
+			},
+		},
+		{
+			"LogName": "Gift Tastes 6 Recovery",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"Shane": "Hey, this is my favorite! Thanks, @./206 215 260/This is neat. Thanks, @./203 -5 -79 113 167/Uh... no thanks./80 342 0 -20 -21 92 110 111 112 142 152 153 157 178 105 168 170 171 172 374 376 378 380 397 420 684 721 766 767 772 203 308 -81 152 330/...You're seriously giving this to me, the guy you dragged to the hospital for alcohol poisoning. The fuck is wrong with you?/346 459 303 348/Oh, you got me something? Thanks.// " 
+			},
+			"When": {
+				"Hearts:Shane": "6",
+				"HasSeenEvent |contains=2118991": true,
+				"Relationship:Shane |contains=Married": false,
+			},
+		},
+//Marriage Gift Tastes
+		{
+			"LogName": "Gift Tastes Spouse",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"Shane": "{{Random: Have I told you that I love you? I love you, this is great. ++ Aw bugaboo, now you're just spoiling me. ++ Ugh, I just can't get enough of this stuff. Thanks, @! ++ You know me too well, @. ++ *smooch* You're the best, @. ++ Hell yes, this is the good shit. Thanks, @! |inputSeparator=++}}/206 215 260/{{Random: Aw, @, you shouldn't have. ++ Thanks, chickadee! I really like this. ++ Hey, I like this stuff. Thanks! ++ Hey, I was just thinking of this! Thanks, sunshine. ++ Oh, neat! Thanks, peach. ++ Aw, thanks, bud. I really like this. ++ I seriously like this! Thanks, @. |inputSeparator=++}}/203 -5 -79 113 167/{{Random: The trash can's over there, bud. Put your trash there instead. ++ Eugh, why? Did I do something to piss you off? ++ I'll just... throw this away for you, I guess. ++ Don't take this the wrong way, but this is fucking nasty. ++ Uh... are you asking me to put this in the trash for you? ++ Is this supposed to be a gift? No thanks. ++ *sigh* Why are you giving me this? |inputSeparator=++}}/80 342 0 -20 -21 92 110 111 112 142 152 153 157 178 105 168 170 171 172 374 376 378 380 397 420 684 721 766 767 772 203 308 -81 152 330/{{Random: You've gotta be fucking kidding me. ++ C'mon, @... why do you have to do this? ++ Yeah, this stuff is going down the drain. Quit it, @. ++ Seriously, @, you gotta stop giving me this stuff. ++ Is this some kinda prank? It's not funny. ++ Yeah, no. Not cool. ++ @, I really need you to stop giving me this crap. |inputSeparator=++}}/346 459 303 348/{{Random: Heh, thanks, @. ++ Oh, you got me something? Thanks, sunshine. ++ Hey, for me? Thanks, bud. ++ Thanks, @. ++ You're giving this to me? Heh, thanks. ++ Thanks, peach. |inputSeparator=++}}// " 
+			},
+			"When": {
+				"Relationship:Shane": "Married",
+			},
+		},
+	],
+}

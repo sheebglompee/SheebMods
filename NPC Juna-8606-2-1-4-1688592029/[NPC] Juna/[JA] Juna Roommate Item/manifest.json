@@ -1,0 +1,13 @@
+{
+    "Name": "Juna Roommate Proposal Item",
+    "Author": "elhrvy",
+    "Version": "1.0.0",
+    "MinimumApiVersion": "3.2.0",
+    "Description": "Adds Juna's roommate proposal item.",
+    "UniqueID": "elhrvy.JunaRoommateItem.JA",
+    "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+    "UpdateKeys": ["Nexus:???"]
+}

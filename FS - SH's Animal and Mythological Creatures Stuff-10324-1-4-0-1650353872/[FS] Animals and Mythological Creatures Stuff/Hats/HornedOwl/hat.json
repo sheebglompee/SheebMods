@@ -1,0 +1,120 @@
+{
+  "Name": "Horned Owl",
+
+	// FRONT
+  "FrontHat": {
+    "DisableGrayscale": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": -2,
+      "Y": 7
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 500
+      },
+      {
+        "Frame": 1,
+        "Duration": 500
+      },
+      {
+        "Frame": 2,
+        "Duration": 500
+      },
+      {
+        "Frame": 3,
+        "Duration": 500
+      },
+    ]
+  },
+
+	// RIGHT
+  "RightHat": {
+    "DisableGrayscale": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "HeadPosition": {
+      "X": -3,
+      "Y": 7
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 500
+      },
+      {
+        "Frame": 1,
+        "Duration": 500
+      },
+    ]
+  },
+
+	// LEFT
+  "LeftHat": {
+    "DisableGrayscale": true,
+    "Flipped": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "HeadPosition": {
+      "X": -1,
+      "Y": 7
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 500
+      },
+      {
+        "Frame": 1,
+        "Duration": 500
+      }
+    ]
+  },
+
+	// BACK
+  "BackHat": {
+    "DisableGrayscale": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": -3,
+      "Y": 4
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 500
+      },
+      {
+        "Frame": 1,
+        "Duration": 500
+      }
+    ]
+  }
+}

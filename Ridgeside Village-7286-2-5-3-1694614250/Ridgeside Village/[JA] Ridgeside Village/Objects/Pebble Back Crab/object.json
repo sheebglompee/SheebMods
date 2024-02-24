@@ -1,0 +1,15 @@
+{
+	"Name": "Pebble Back Crab",
+	"TranslationKey": "objects.pebble-back-crab",
+	"Category": "Fish",
+	"Edibility": 10,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 90,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Ian"],
+        "Dislike": ["Ariah"]
+	},
+}

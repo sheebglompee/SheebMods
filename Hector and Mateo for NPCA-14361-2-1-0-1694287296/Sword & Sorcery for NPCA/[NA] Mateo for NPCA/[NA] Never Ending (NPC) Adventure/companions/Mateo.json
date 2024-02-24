@@ -1,0 +1,80 @@
+{
+  "Format": "2.0",
+  "Name": "Mateo",
+  "Skills": [
+    { "Name": "doctor" },
+    { "Name": "fighter" }
+  ],
+  "Rules": {
+	
+	/* Marriage */
+
+    // Mateo will always go on an adventure, unless below 8 hearts while married
+    "O Mateo/!f Mateo 2000": "reject companionRejected_Spouse",
+    "O Mateo": "accept",
+
+    //CANNOT recruit Mateo if they are currently hospital-bound
+	
+	"!A MateoPain": "reject",
+	
+	/* Regular */
+	
+	//Must have seen Mateo's 4 heart event so taking them around town is not lore-breaking
+	
+	"k 12369003": "reject", //Could in theory put a reject companionRejected_Isolation key here instead to specify to the player why no adventuring. 
+
+    // Requires Mateo to be talked to once to recruit (should happen normally, but covering bases)
+    "!f Mateo 1": "reject",
+    
+    // They are recruitable anytime
+    "": "accept"
+  },
+  
+  "Bedtime": "2530",
+  "BedtimeSpouse": "2530",
+  
+  "Buffs": {
+	"Mining": 2,
+	"Speed": 2,
+	"Luck": 2,
+	"Attack": 2,
+	"Defense": 3,
+  },
+  "BuffsDescription": "[mateo.buffs]",
+  
+  
+  "Weapons": {
+      "0": "Obsidian Edge",
+	  "1": "Obsidian Edge",
+	  "2": "Obsidian Edge",
+	  "3": "Obsidian Edge",
+	  "4": "Dark Sword",
+	  "5": "Dark Sword",
+	  "6": "Lava Katana",
+	  "7": "Dwarf Sword",
+	  "8": "Galaxy Sword",
+	  "9": "Dragontooth Cutlass",
+	  "10": "Infinity Blade"
+  },
+  "IdleBehaviors": [
+	{
+      "Behavior": "Animate",
+      "Animations": [
+        "Mateo_drink",
+		"Mateo_sword",
+		"Mateo_book"
+      ],
+      "Tendency": 3,
+      "MinDuration": 10,
+      "MaxDuration": 30
+    },
+	{
+      "Behavior": "Lookaround",
+      "FaceMinSeconds": 6,
+      "FaceMaxSeconds": 10,
+      "Tendency": 2.5,
+      "MinDuration": 10,
+      "MaxDuration": 30
+    }
+	]
+}

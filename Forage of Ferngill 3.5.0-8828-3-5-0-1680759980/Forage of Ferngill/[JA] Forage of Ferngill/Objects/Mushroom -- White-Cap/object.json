@@ -1,0 +1,19 @@
+﻿{
+    "Name": "White-Cap Mushroom",
+    "Description": "A rare delicary, it is only found growing in costal areas.",
+    "Category": "Greens",
+    "CategoryTextOverride": "Mushroom",
+    "Edibility": 30,
+    "Price": 175,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.White-Cap-Mushroom",
+    "ContextTags": [
+    "season_summer",
+    "color_white",
+    "forage_item",
+    "mushroom_item",
+    "forage_item_mines",
+  ],
+}

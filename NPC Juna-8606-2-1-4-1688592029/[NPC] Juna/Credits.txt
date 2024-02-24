@@ -1,0 +1,37 @@
+Credits
+
+Portraits and sprites: Hime Tarts
+
+Mandarin Chinese Translation: LiuMu
+
+Portugese Translation: Kiyuga
+
+Russian Translation: 6squad
+
+
+SMAPI: Pathoschild
+
+Content Patcher: Pathoschild
+
+JsonAssets: spacechase0
+
+Custom Gift Dialogue: PurrplingCat
+
+Custom Companions: PeacefulEnd
+
+Custom Fixed Dialogue: aedenthorn
+
+Custom NPC Exclusions: EscaMMC
+
+Event Repeater: MissCoriel
+
+Non Destructive NPCs: SecondRikudo
+
+Mobile Phone: aedenthorn
+
+
+BexXT for her genius marriage events in her mod Mandalorian and Baby Yoda, which inspired me to make randomized roommate events for Juna
+
+and Arknir27 for his brilliant Clint and Lucikiel event which plays like a photo session and inspired me to make my own involving Juna, Robin and the farmer. 
+
+Mods used in screenshots: Diverse Stardew Valley, Vintage Interface v2, Simple Foliage, Rustic Country Town Interior, Vibrant Pastoral Recolor

@@ -1,0 +1,172 @@
+{
+	"Changes":[
+		{
+			"LogName": "Abigail - Solstice, Housemate",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries":{
+				"Event.cs.1801": "{{i18n: UWS.Abigail.Solstice.Housemate.Gifting |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Abigail": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Abigail": "FullyPlatonic, SexWithoutRomance",
+				"Abigail": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Sebastian - Solstice, Housemate",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries":{
+				"Event.cs.1801": "{{i18n: UWS.Sebastian.Solstice.Housemate.Gifting |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Sebastian": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Sebastian": "FullyPlatonic, SexWithoutRomance",
+				"Sebastian": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Alex - Solstice, Housemate",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries":{
+				"Event.cs.1801": "{{i18n: UWS.Alex.Solstice.Housemate.Gifting |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Alex": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Alex": "FullyPlatonic, SexWithoutRomance",
+				"Alex": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Haley - Solstice, Housemate",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries":{
+				"Event.cs.1801": "{{i18n: UWS.Haley.Solstice.Housemate.Gifting |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Haley": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Haley": "FullyPlatonic, SexWithoutRomance",
+				"Haley": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Shane - Solstice, Housemate",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries":{
+				"Event.cs.1801": "{{i18n: UWS.Shane.Solstice.Housemate.Gifting |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Shane": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Shane": "FullyPlatonic, SexWithoutRomance",
+				"Shane": "normal",
+			},
+		},
+		{
+			"LogName": "Emily - Solstice, Housemate",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries":{
+				"Event.cs.1801": "{{i18n: UWS.Emily.Solstice.Housemate.Gifting |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Emily": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Emily": "FullyPlatonic, SexWithoutRomance",
+				"Emily": "normal",
+			},
+		},
+		{
+			"LogName": "Leah - Solstice, Housemate",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries":{
+				"Event.cs.1801": "{{i18n: UWS.Leah.Solstice.Housemate.Gifting |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Leah": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Leah": "FullyPlatonic, SexWithoutRomance",
+				"Leah": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Elliott - Solstice, Housemate",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries":{
+				"Event.cs.1801": "{{i18n: UWS.Elliott.Solstice.Housemate.Gifting |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Elliott": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Elliott": "FullyPlatonic, SexWithoutRomance",
+				"Elliott": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Penny - Solstice, Housemate",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries":{
+				"Event.cs.1801": "{{i18n: UWS.Penny.Solstice.Housemate.Gifting |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Penny": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Penny": "FullyPlatonic, SexWithoutRomance",
+				"Penny": "normal",
+			},
+		},
+		{
+			"LogName": "Sam - Solstice, Housemate",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries":{
+				"Event.cs.1801": "{{i18n: UWS.Sam.Solstice.Housemate.Gifting |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Sam": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Sam": "FullyPlatonic, SexWithoutRomance",
+				"Sam": "normal",
+			},
+		},
+		{
+			"LogName": "Harvey - Solstice, Housemate",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries":{
+				"Event.cs.1801": "{{i18n: UWS.Harvey.Solstice.Housemate.Gifting |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Harvey": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Harvey": "FullyPlatonic, SexWithoutRomance",
+				"Harvey": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Maru - Solstice, Housemate",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries":{
+				"Event.cs.1801": "{{i18n: UWS.Maru.Solstice.Housemate.Gifting |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Maru": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Maru": "FullyPlatonic, SexWithoutRomance",
+				"Maru": "normal, spicy",
+			},
+		},
+	],
+}

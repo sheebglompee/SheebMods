@@ -1,0 +1,12 @@
+{
+  "Name": "Wilford NPC Adventures",
+  "Author": "FloranceBless",
+  "Version": "1.0.0",
+  "Description": "Adds Custom NPC Wilford to PurrplingCat's NPC Adventures",
+  "UniqueID": "Fernandtea.NPCA-Wilford",
+  "UpdateKeys": [ "" ],
+  "ContentPackFor": {
+    "UniqueID": "purrplingcat.npcadventure",
+	"MinimumVersion": "1.0.0-alpha"
+  }
+}

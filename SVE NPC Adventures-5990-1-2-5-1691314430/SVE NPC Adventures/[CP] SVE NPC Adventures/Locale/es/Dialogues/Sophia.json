@@ -1,0 +1,113 @@
+{
+  "Changes": [
+    {
+      "LogName": "Companion dialogues for Sophia",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sophia",
+      "Entries": {		  
+			//Normal Sophia Lines
+			"companionAccepted": "¿Una aventura? ¡Suena genial!$h",
+			"companionRejected": "Hoy no me encuentro bien. Lo siento.$s",
+			"companionRejectedNight": "No me gusta la oscuridad...$2",
+			"companionDismiss": "O-oh. Vale. Espero no haberte estorbado...$s#$b#Um, pero gracias por pasar tiempo conmigo hoy, @. Me alegro de haber salido un poco de mi casa.$h",
+			"companionDismissAuto": "Creo que mi medicación está empezando a hacer efecto... Lo siento, creo que tengo que volver a casa.$2#$b#¡Pero hoy me lo he pasado bien! Gracias por sacarme de casa, @.$9",
+			"companionRecruited": "¡Años de cosplay y de ver anime me han llevado a este momento!$8",
+
+			"companionSuggest": "Hoy quería salir a pasear.#$q -1 -1#¿Quieres venir conmigo? ¡Podríamos ir a ver a Scarlett!#$r -1 0 Yes#Sí, suena bien.#$r -1 0 No#Lo siento, pero hoy no tengo tiempo.",
+			"companionSuggest_Yes": "¡Sí! Eres lo mejor.$1",
+			"companionSuggest_No": "Oh, está bien...",
+			
+			//Dating Lines
+
+			"companionAccepted_Dating": "¿¿Quieres tener una cita hoy, @??$5#$b#¡Sí! ¡Vamos! ¿Qué quieres hacer?$8",
+			"companionRejectedNight_Dating": "@, es muy tarde... Realmente necesito dormir un poco.$s#$b#¡Piénsalo como un episodio de dos partes! Podemos continuar nuestra cita mañana, ¿vale?$h",
+			"companionDismiss_Dating": "Aw, ¿ya hemos terminado, @?$s#$b#Jeje, no te preocupes, tontito. Me parece bien volver a casa por hoy. ¿Nos vemos mañana?$h^Jeje, no te preocupes, tontita. Me parece bien volver a casa por hoy. ¿Nos vemos mañana?$h",
+			"companionDismissAuto_Dating": "%Sophia bosteza y parece que le cuesta mantener los ojos abiertos.#$b#Oye, @. Estoy muy cansada, así que ahora me vuelvo a casa, ¿vale?$h#$b#¡Nos vemos mañana, tontito! *muach*$9^¡Nos vemos mañana, tontita! *muach*$9",
+			"companionRecruited_Dating": "¿Podemos comer en el salón más tarde? Pasar tiempo contigo y comer pollo a la naranja Grampleton me parece el día perfecto.$9",
+
+			"companionSuggest_Dating": "¡Eh, tú! Hoy tengo un poco de energía extra, así que me apetece pasar tiempo con mi tontito.^¡Eh, tú! Hoy tengo un poco de energía extra, así que me apetece pasar tiempo con mi tontita.#$q -1 -1#¿Quieres tener una cita, @?#$r -1 0 Yes#¡Vamos, Sophia!#$r -1 0 No#Hoy no puedo, ¿quizá mañana?",
+			"companionSuggest_Yes_Dating": "¡¡Sí!! Hoy va a ser un gran día, ¡lo sé!$8",
+			"companionSuggest_No_Dating": "Awwwwwwww, ¿en serio?$s#$b#No te preocupes, tontito, hoy puedo pasar tiempo con Scarlett en su lugar. Haz lo que tengas que hacer, ¿vale?$h^No te preocupes, tontita, hoy puedo pasar tiempo con Scarlett en su lugar. Haz lo que tengas que hacer, ¿vale?$h",
+
+			//Spouse Lines
+
+			"companionAccepted_Spouse": "¡Por supuesto, tontito! ¿A dónde vamos hoy?$h^¡Por supuesto, tontita! ¿A dónde vamos hoy?$h",
+			"companionRejected_Spouse": "¿@? No quiero ir contigo.$3#$b#%Piensas para tus adentros que tal vez quieras mejorar primero tu relación con Sophia antes de aventurarte con ella.",
+			"companionRejectedNight_Spouse": "@, es muy tarde... ¿quizás podamos ir mañana?$s#$b#Tenemos un poco de tiempo, podemos ver algo de anime hasta que nos durmamos juntos...$l^Tenemos un poco de tiempo, podemos ver algo de anime hasta que nos durmamos juntas...$l",
+			"companionDismiss_Spouse": "Aw, ¿ya hemos terminado, @?$s#$b#Jeje, no te preocupes, tontito. Me parece bien volver a casa por hoy.$h^Jeje, no te preocupes, tontita. Me parece bien volver a casa por hoy.$h#$b#Te espero en casa con algo de picar, ¿vale?$l",
+			"companionDismissAuto_Spouse": "%Sophia bosteza y parece esforzarse por mantener los ojos abiertos.#$b#Hey, tontito. Estoy muy cansada, así que voy a volver ahora, ¿vale?$h^Hey, tontita. Estoy muy cansada, así que voy a volver ahora, ¿vale?$h#$b#Te veré en casa...$l",
+			"companionRecruited_Spouse": "¡Hora de otra aventura con la pareja poderosa del destino!$8",
+
+			"companionSuggest_Spouse": "¡Eh, tú! Tengo un poco de energía extra, ¡así que me apetece ir de aventura!$8#$q -1 -1#¿Quieres ir de aventura, @?#$r -1 0 Yes#¡Vamos, Sophia!#$r -1 0 No#Hoy no puedo, ¿quizá mañana?",
+			"companionSuggest_Yes_Spouse": "¡¡Sí!! ¡Vamos de aventuras, @!$9",
+			"companionSuggest_No_Spouse": "Awwwwwwww, ¿en serio?$s#$b#No te preocupes, tontito, puedo pedirle el día a Scarlett. Tú haz lo que tengas que hacer, ¿vale?$h^No te preocupes, tontita, puedo pedirle el día a Scarlett. Tú haz lo que tengas que hacer, ¿vale?$h",
+
+			//Locational Lines
+
+			//Locational Lines from Vanilla
+			"companion_Farm": "%Sophia mira a su alrededor con curiosidad, luego agacha la cabeza cuando se fija en ti.#$b#Oh, sólo estaba... mirando tu granja, @.#$b#¿Quieres intercambiar consejos de agricultura alguna vez? Se aprende mucho cuidando un viñedo.$h",
+			"companion_Farm_Spouse": "%Sophia apoya la cabeza en tu hombro mientras los dos contemplán el exterior de la Granja.^%Sophia apoya la cabeza en tu hombro mientras las dos contemplán el exterior de la Granja.#$b#...¿Podemos quedarnos así un rato, @? Es que hoy me apetece mucho pasar un rato contigo en nuestra granja.$l",
+			"companion_Mine": "%Sophia parece asustada.#$b#¿Uh, @? ¿Podemos ir a otro sitio? Puedo luchar, sólo que... tengo miedo. No quiero que tú ni nadie salga herido...$s",
+			"companion_Mine_Spouse": "Hola. He traído algo de comida y unos cuantos elixires de vida por si acaso.#$b#Sigo teniendo miedo a luchar, pero... estando aquí contigo, siento que estoy recibiendo un poder heroico.$l#$b#Ten cuidado, ¿vale, @?",
+			"companion_Town": "Oye, ¿podemos visitar el salón más tarde? ¡Si se lo pido amablemente, puede que Gus nos cocine pollo a la naranja de Grampleton!$9#$b#No te preocupes si no puedes pagarlo - es muy difícil conseguir algunos de los ingredientes, así que creo que Gus lo entenderá.$h",
+			"companion_Town_Night": "%Sophia olfatea el aire y una sonrisa florece en su cara.#$b#Mmmm, ¡puedo oler el pollo a la naranja que se está cocinando desde aquí!$h#$b#¿Podemos ir de visita, @? Me encantaría que Gus me diera algo de picar!$h",
+			"companion_Town_Spouse": "Oye, ¿podemos visitar el salón más tarde? ¡Si se lo pido amablemente, puede que Gus nos cocine algo de pollo a la naranja de Grampleton!$9#$b#Y no te preocupes, tontito. Si no puedes pagarlo, ¡puedo compartirlo contigo!$8^Y no te preocupes, tontito. Si no puedes pagarlo, ¡puedo compartirlo contigo!$8",
+			"companion_SkullCave": "Este lugar da miedo, @... ¿estás seguro de que quieres que estemos aquí?$s^Este lugar da miedo, @... ¿estás segura de que quieres que estemos aquí?$s",
+			"companion_SkullCave_Spouse": "%Sophia tiembla, pero pone cara de valiente.#$b#De acuerdo, tontito. Tengo algunas provisiones. Toma.^De acuerdo, tontita. Tengo algunas provisiones. Toma. [773]#$b#Ahora, prométeme que no saldrás herido, ¿vale?$s^Ahora, prométeme que no saldrás herida, ¿vale?$s#$b#%Le prometes a Sophia que no saldrás herido. Ella te abraza con fuerza, y tú le devuelves el abrazo.^%Le prometes a Sophia que no saldrás herida. Ella te abraza con fuerza, y tú le devuelves el abrazo.",
+
+			//OG Mod Lines, slightly modified
+			"companion_Saloon": "Me encanta pasar tiempo aquí. A veces el Viñedo es demasiado grande y... vacío.$2#$b#¡Aunque visitar a Gus siempre me hace sentir mejor!$9",
+			"companion_Saloon_Spouse": "Me encanta pasar tiempo aquí, ¡pero lo que más me gusta es que puedo pedir Pollo a la Naranja Grampleton!$9",
+
+			//SVE Area Lines
+
+			//Crimson Badlands
+			"companion_Custom_CrimsonBadlands": "%Sophia parece asustada.#$b#Yo... quiero volver a casa, @. ¿¿Podemos salir de aquí??$6",
+			"companion_Custom_CrimsonBadlands_Spouse": "%Sophia parece asustada.#$b#@, yo... Quiero irme a casa, ¿vale?$s#$b#No creo que pueda luchar contra estos monstruos, y no puedo...$6#$b#No puedo perderte, ¿vale? No sé qué haría si tú... y yo estuviera ahí...$7#$b#Sólo quiero ir a casa y ver anime contigo, @. Por favor, vamos a casa.$6",
+
+			//Sophia's Farm/House
+			"companion_Custom_BlueMoonVineyard": "Um... ¿quieres que te enseñe el viñedo, @?#$b#Sé que sólo son uvas, y probablemente sea muy poco interesante...$s#$b#Pero oye, ¡quizás pueda enseñarte a cultivar correctamente las uvas! Eso sí que sería interesante, ¿¿verdad??$h",
+			"companion_Custom_BlueMoonVineyard_Spouse": "¡Sabes, tontito, en realidad tenemos dos granjas - Viñedo Luna Azul y Granja %farm en casa!$h^¡Sabes, tontita, en realidad tenemos dos granjas - Viñedo Luna Azul y Granja %farm en casa!$h#$b#¡Quizá después de la próxima cosecha de Luna Azul, use el dinero del vino para una fiesta gigante de anime, con aperitivos y todo!$8#$b#O, si quieres, ¿quizá podríamos estar los dos solos?$l^O, si quieres, ¿quizá podríamos estar las dos solas?$l",
+
+			"companion_Custom_SophiaHouse": "Um, si quieres, puedo poner un anime o dos mientras estamos aquí...$h#$b#Pero no sé qué te gustaría...$s#$b#...¿Quizás 'Mi Academia de Villanos' o 'Sailor Sun'? ¡Ambas son bastante buenas!$h",
+			"companion_Custom_SophiaHouse_Spouse": "¡Oooooh, ooooh! Creo que puedo tomar algunos de mis viejos mangas que dejé aquí!$8#$b#Haz lo que tengas que hacer aquí, tontito. ¡Saldré en cuanto tenga los mangas!$h^Haz lo que tengas que hacer aquí, tontita. ¡Saldré en cuanto tenga los mangas!$h",
+
+			//Scarlett's areas
+			"companion_Custom_GrampletonSuburbs": "¿¿Vamos a visitar a Scarlett??$h#$b#¡Sí! ¡Vamos!$h",
+			"companion_Custom_GrampletonSuburbs_Spouse": "¡Oh, tú! ¡Éste va a ser un buen día!$8#$b#Contigo y Scarlett, siempre me siento mejor. Gracias, tontito.$l^Contigo y Scarlett, siempre me siento mejor. Gracias, tontita.$l",
+
+			"companion_Custom_ScarlettHouse": "¡Hola Hank y Treyvon! ¿Está Scarlett en casa?$h#$b#¡Oh, he traído a nuestro amigo! Saluda, @. No muerden.$h^¡Oh, he traído a nuestra amiga! Saluda, @. No muerden.$h",
+			"companion_Custom_ScarlettHouse_Spouse": "¡Hola Hank y Treyvon! ¿Está Scarlett en casa?$h#$b#¡Oh! ¡Éste es mi tontito esposo @! Son mis mejores amigos, aparte de Scarlett.$9^¡Oh! ¡Éste es mi tontita esposa @! Son mis mejores amigos, aparte de Scarlett.$9#$b#Saluda, @. No te preocupes, ¡son muy majos!$h",
+
+			"companion_Custom_HanksGarage": "%Sophia parece ligeramente nerviosa.#$b#¿Um, @? Sí que quiero ver en qué está trabajando Scarlett, ¿pero quizá deberíamos pedirle permiso para entrar aquí primero?$s",
+			"companion_Custom_HanksGarage_Spouse": "%Sophia parece muy curiosa.#$b#@, no me digas en qué está trabajando Scarlett, ¿vale? Quiero que sea una sorpresa.#$b#...Pero puedes darme pistas, si quieres, tontito. Pero no se lo digas a Scarlett, ¿de acuerdo?$l^...Pero puedes darme pistas, si quieres, tontita. Pero no se lo digas a Scarlett, ¿de acuerdo?$l",
+
+			//Other mod compat (added here when necessary)
+			"companion_Custom_Ridgeside_RidgesideVillage": "OoOoh, así que esto es Ridgeside, ¿eh?$h#$b#He oído hablar mucho de aquí arriba. ¡Es como un lugar sacado de uno de mis animes!$h",
+			"companion_Custom_Ridgeside_RidgesideVillage~1": "%El estómago de Sophia gruñe audiblemente.#$b#¡O-oh! Lo siento, @, se me olvidó coger algo de picar antes de subir aquí.$5#$b#¿Tal vez podríamos pasarnos por Pika? ¡Probablemente podríamos comprar algo de picar ahí!$h",
+			"companion_Custom_Ridgeside_RidgesideVillage_Spouse": "Siempre me encanta estar a tu lado en el trayecto hasta aquí, tontito.$l^Siempre me encanta estar a tu lado en el trayecto hasta aquí, tontita.$l#$b#Después llegamos aquí arriba y me ruge la barriga. ¡Lo que sea que cocine Pika siempre es un buen tentempié!$9",
+      }
+    },
+	{
+      "LogName": "Free Love Compat Dialogues, Sophia", //Some romantic dialogues are not used when the spouse is not the spouse variable - this just patches them into the normal keys if married.
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sophia",
+      "Entries": {		  
+			"companionAccepted": "¡Por supuesto, tontito! ¿A dónde vamos hoy?$h^¡Por supuesto, tontita! ¿A dónde vamos hoy?$h",
+			"companionRejected": "¿@? No quiero ir contigo.$3#$b#%Piensas para tus adentros que tal vez quieras mejorar primero tu relación con Sophia antes de aventurarte con ella.",
+			"companionRejectedNight": "@, es muy tarde... ¿quizás podamos ir mañana?$s#$b#Tenemos un poco de tiempo, podemos ver algo de anime hasta que nos durmamos juntos...$l^Tenemos un poco de tiempo, podemos ver algo de anime hasta que nos durmamos juntas...$l",
+			"companionDismiss": "Aw, ¿ya hemos terminado, @?$s#$b#Jeje, no te preocupes, tontito. Me parece bien volver a casa por hoy.$h^Jeje, no te preocupes, tontita. Me parece bien volver a casa por hoy.$h#$b#Te espero en casa con algo de picar, ¿vale?$l",
+			"companionDismissAuto": "%Sophia bosteza y parece que le cuesta mantener los ojos abiertos.#$b#Oye, tontito. Estoy muy cansada, así que voy a volver ahora, ¿vale?$h^Oye, tontita. Estoy muy cansada, así que voy a volver ahora, ¿vale?$h#$b#Te veré en casa...$l",
+			"companionRecruited": "¡Hora de otra aventura con la pareja poderosa del destino!$8",
+
+			"companionSuggest": "¡Eh, tú! Tengo un poco de energía extra, ¡así que me apetece ir de aventura!$8#$q -1 -1#¿Quieres ir de aventura, @?#$r -1 0 Yes#¡Vamos, Sophia!#$r -1 0 No#Hoy no puedo, ¿quizá mañana?",
+			"companionSuggest_Yes": "¡¡Sí!! ¡Vamos de aventuras, @!$9",
+			"companionSuggest_No": "Awwwwwwww, ¿en serio?$s#$b#No te preocupes, tontito, puedo pedirle el día a Scarlett. Tú haz lo que tengas que hacer, ¿vale?$h^No te preocupes, tontita, puedo pedirle el día a Scarlett. Tú haz lo que tengas que hacer, ¿vale?$h",
+      },
+	  "When": {
+		  "HasMod": "aedenthorn.FreeLove",
+		  "relationship:Sophia": "married",
+	  },
+    }
+  ]
+}

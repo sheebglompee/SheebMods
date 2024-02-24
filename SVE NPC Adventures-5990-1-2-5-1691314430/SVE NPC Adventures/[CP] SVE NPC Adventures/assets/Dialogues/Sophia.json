@@ -1,0 +1,113 @@
+{
+  "Changes": [
+    {
+      "LogName": "Companion dialogues for Sophia",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sophia",
+      "Entries": {		  
+			//Normal Sophia Lines
+			"companionAccepted": "An adventure? That sounds awesome!$h",
+			"companionRejected": "I-I'm just not up to it today. Sorry.$s",
+			"companionRejectedNight": "I don't like the dark...$2",
+			"companionDismiss": "O-oh. Okay! I hope I wasn't getting in your way...$s#$b#Um, but thank you for spending time with me today, @. I'm glad I got out of my house a little.$h",
+			"companionDismissAuto": "I think my medication is starting to wear off... Sorry, I think I need to get back home.$2#$b#I did have fun today though! Thank you for getting me out of the house, @.$9",
+			"companionRecruited": "Years of cosplay and watching anime have lead me to this moment!$8",
+
+			"companionSuggest": "I wanted to go wandering today.#$q -1 -1#Want to come with me? We could go see Scarlett!#$r -1 0 Yes#Yeah, that sounds good.#$r -1 0 No#Sorry, but I don't have time today.",
+			"companionSuggest_Yes": "Yay! You're the best.$1",
+			"companionSuggest_No": "Oh, that's ok...",
+			
+			//Dating Lines
+
+			"companionAccepted_Dating": "You want to go on a date today, @??$5#$b#Yay! Let's go! What do you want to do?$8",
+			"companionRejectedNight_Dating": "@, it's really late... I really need to get some sleep.$s#$b#Think of it like a two part episode! We can continue our date tomorrow, okay?$h",
+			"companionDismiss_Dating": "Aw, we're done already, @?$s#$b#Hehe, don't worry, silly. I'm just fine with heading home for the day. I'll see you tomorrow?$h",
+			"companionDismissAuto_Dating": "%Sophia yawns and looks to be struggling to keep her eyes open.#$b#Hey, @. I'm really tired, so I'm going to head back home now, okay?$h#$b#I'll see you tomorrow, silly! *smooch*$9",
+			"companionRecruited_Dating": "Can we eat at the Saloon later? Spending time with you and eating Grampleton Orange Chicken sounds like the perfect day to me.$9",
+
+			"companionSuggest_Dating": "Hey, you! I have some extra energy today, so I feel like spending time with my silly.#$q -1 -1#Want to go on a date, @?#$r -1 0 Yes#Let's go, Sophia!#$r -1 0 No#I can't today, maybe tomorrow?",
+			"companionSuggest_Yes_Dating": "Yay!! Today's going to be a great day, I just know it!$8",
+			"companionSuggest_No_Dating": "Awwwwwwww, really?$s#$b#Don't worry, silly, I can just spend time with Scarlett today instead. You do what you need to do, alright?$h",
+
+			//Spouse Lines
+
+			"companionAccepted_Spouse": "Of course, silly! Where are we going today?$h",
+			"companionRejected_Spouse": "@? I don't want to go with you.$3#$b#%You think to yourself that you may want to repair your relationship with Sophia first before adventuring with her.",
+			"companionRejectedNight_Spouse": "@, it's really late... maybe we can go tomorrow?$s#$b#We've got a little bit of time, we can watch some anime until we fall asleep together...$l",
+			"companionDismiss_Spouse": "Aw, we're done already, @?$s#$b#Hehe, don't worry, silly. I'm just fine with heading home for the day.$h#$b#I'll be waiting for you at home with some snacks, alright?$l",
+			"companionDismissAuto_Spouse": "%Sophia yawns and looks to be struggling to keep her eyes open.#$b#Hey, silly. I'm really tired, so I'm going to head back now, okay?$h#$b#I'll see you back at home...$l",
+			"companionRecruited_Spouse": "Time for another adventure with the power couple of destiny!$8",
+
+			"companionSuggest_Spouse": "Hey, you! I have some extra energy, so I feel like going on an adventure!$8#$q -1 -1#Want to go adventuring, silly?#$r -1 0 Yes#Let's go, Sophia!#$r -1 0 No#I can't today, maybe tomorrow?",
+			"companionSuggest_Yes_Spouse": "Yay!! Let's go adventuring, @!$9",
+			"companionSuggest_No_Spouse": "Awwwwwwww, really?$s#$b#Don't worry, silly, I can just ask Scarlett for the day. You do what you need to do, alright?$h",
+
+			//Locational Lines
+
+			//Locational Lines from Vanilla
+			"companion_Farm": "%Sophia looks around curiously, then ducks her head when she notices you.#$b#Oh, I was just... looking at your farm, @.#$b#Want to swap farming tips sometimes? You learn a lot taking care of a vineyard.$h",
+			"companion_Farm_Spouse": "%Sophia leans her head against your shoulder as the two of you take in the Farm outside.#$b#...Can we stay like this for a while, @? I just really want to spend some time with you on our farm today.$l",
+			"companion_Mine": "%Sophia looks afraid.#$b#Uh, @? Can we go somewhere else? I can fight, I just... I'm scared. I don't want to see you or anyone else get hurt...$s",
+			"companion_Mine_Spouse": "Hey, you. I brought some food and a few life elixirs just in case.#$b#I'm still scared of fighting, but... being here with you, I feel like I'm getting a heroic power-up.$l#$b#Be careful, okay, @?",
+			"companion_Town": "Hey, can we visit the Saloon later? If I ask nicely, Gus might cook us some Grampleton Orange Chicken!$9#$b#Don't worry if you can't buy it - it's really difficult to get some of the ingredients, so I think Gus will understand.$h",
+			"companion_Town_Night": "%Sophia sniffs the air and a smile blooms on her face.#$b#Mmmm, I can smell the orange chicken being cooked from here!$h#$b#Can we go visit, @? I'd love to get some snacks from Gus!$h",
+			"companion_Town_Spouse": "Hey, can we visit the Saloon later? If I ask nicely, Gus might cook us some Grampleton Orange Chicken!$9#$b#And don't worry, silly. If you can't buy any, I can share!$8",
+			"companion_SkullCave": "This place is scary, @... are you sure you want us to be here?$s",
+			"companion_SkullCave_Spouse": "%Sophia trembles, but puts on a brave face.#$b#Alright, silly. I've got some supplies. Here. [773]#$b#Now, promise me you won't get hurt, okay?$s#$b#%You promise Sophia you won't get hurt. She hugs you tightly, and you hug her back.",
+
+			//OG Mod Lines, slightly modified
+			"companion_Saloon": "I love spending time here. Sometimes the Vineyard is just too big and... empty.$2#$b#Visiting Gus always makes me feel better though!$9",
+			"companion_Saloon_Spouse": "I love spending time here, but what I like most is that I can order Grampleton Orange Chicken!$9",
+
+			//SVE Area Lines
+
+			//Crimson Badlands
+			"companion_Custom_CrimsonBadlands": "%Sophia looks freaked out.#$b#I...I want to go back home, @. Can we get out of here??$6",
+			"companion_Custom_CrimsonBadlands_Spouse": "%Sophia looks scared.#$b#@, I... I want to go home, okay?$s#$b#I don't think I can fight these monsters, and I can't...$6#$b#I can't lose you, alright? I don't know what I'd do if you... and I was right there...$7#$b#I just want to go home and watch anime with you, @. Please let's go home.$6",
+
+			//Sophia's Farm/House
+			"companion_Custom_BlueMoonVineyard": "Um... want me to show you around the Vineyard, @?#$b#I know it's just grapes, and it's probably really uninteresting...$s#$b#But hey, maybe I can teach you how to properly care for grapes! That'd be something cool to learn about, right??$h",
+			"companion_Custom_BlueMoonVineyard_Spouse": "You know, silly, we really have two farms - Blue Moon Vineyard and back home at %farm Farm!$h#$b#Maybe after Blue Moon's next harvest, I'll use the money from the wine for a giant anime watch party, with snacks and all!$8#$b#Or, if you want, maybe it could be just the two of us?$l",
+
+			"companion_Custom_SophiaHouse": "Um, if you'd like, I can put on an anime or two while we're in here?$h#$b#I don't know what you'd like, though...$s#$b#...Maybe 'My Villain Academia' or 'Sailor Sun'? They're both pretty good!$h",
+			"companion_Custom_SophiaHouse_Spouse": "Oooooh, ooooh! I think I can grab a few of my old mangas I left here!$8#$b#You do whatever you need to do here, silly. I'll be out just as soon as I have the mangas!$h",
+
+			//Scarlett's areas
+			"companion_Custom_GrampletonSuburbs": "Oh! Are we going to visit Scarlett??$h#$b#Yay! Let's go!$h",
+			"companion_Custom_GrampletonSuburbs_Spouse": "Oh, you! This is going to be a good day!$8#$b#With you and Scarlett, I always feel better. Thank you, silly.$l",
+
+			"companion_Custom_ScarlettHouse": "Hi Hank and Treyvon! Is Scarlett home?$h#$b#Oh, I brought our friend! Say hi, @. They don't bite.$h",
+			"companion_Custom_ScarlettHouse_Spouse": "Hi Hank and Treyvon! Is Scarlett home?$h#$b#Oh! This is my silly spouse @! They're my best friend, other than Scarlett.$9#$b#Say hi, @. Don't worry, they're really nice!$h",
+
+			"companion_Custom_HanksGarage": "%Sophia looks slightly nervous.#$b#Um, @? I do want to see what Scarlett's working on, but maybe we should get her permission to come in here first?$s",
+			"companion_Custom_HanksGarage_Spouse": "%Sophia looks really curious.#$b#@, don't tell me what Scarlett's working on, okay? I want it to be a surprise.#$b#...But you can give me hints, if you want, silly. Just don't tell Scarlett, alright?$l",
+
+			//Other mod compat (added here when necessary)
+			"companion_Custom_Ridgeside_RidgesideVillage": "OoOoh, so this is Ridgeside, huh?$h#$b#I've heard all about up here. It's like a place out of one of my animes!$h",
+			"companion_Custom_Ridgeside_RidgesideVillage~1": "%Sophia's stomach grumbles audibly.#$b#O-oh! Sorry, @, I forgot to grab some snacks before heading up here.$5#$b#Maybe we could stop by Pika's? We could probably pick up some snacks there!$h",
+			"companion_Custom_Ridgeside_RidgesideVillage_Spouse": "I always love being next to you on the way ride up here, silly.$l#$b#Then we get up here and my tummy rumbles. Whatever Pika's cooking always makes for really good snacks!$9",
+      }
+    },
+	{
+      "LogName": "Free Love Compat Dialogues, Sophia", //Some romantic dialogues are not used when the spouse is not the spouse variable - this just patches them into the normal keys if married.
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sophia",
+      "Entries": {		  
+			"companionAccepted": "Of course, silly! Where are we going today?$h",
+			"companionRejected": "@? I don't want to go with you.$3#$b#%You think to yourself that you may want to repair your relationship with Sophia first before adventuring with her.",
+			"companionRejectedNight": "@, it's really late... maybe we can go tomorrow?$s#$b#We've got a little bit of time, we can watch some anime until we fall asleep together...$l",
+			"companionDismiss": "Aw, we're done already, @?$s#$b#Hehe, don't worry, silly. I'm just fine with heading home for the day.$h#$b#I'll be waiting for you at home with some snacks, alright?$l",
+			"companionDismissAuto": "%Sophia yawns and looks to be struggling to keep her eyes open.#$b#Hey, silly. I'm really tired, so I'm going to head back now, okay?$h#$b#I'll see you back at home...$l",
+			"companionRecruited": "Time for another adventure with the power couple of destiny!$8",
+
+			"companionSuggest": "Hey, you! I have some extra energy, so I feel like going on an adventure!$8#$q -1 -1#Want to go adventuring, silly?#$r -1 0 Yes#Let's go, Sophia!#$r -1 0 No#I can't today, maybe tomorrow?",
+			"companionSuggest_Yes": "Yay!! Let's go adventuring, @!$9",
+			"companionSuggest_No": "Awwwwwwww, really?$s#$b#Don't worry, silly, I can just ask Scarlett for the day. You do what you need to do, alright?$h",
+      },
+	  "When": {
+		  "HasMod": "aedenthorn.FreeLove",
+		  "relationship:Sophia": "married",
+	  },
+    }
+  ]
+}

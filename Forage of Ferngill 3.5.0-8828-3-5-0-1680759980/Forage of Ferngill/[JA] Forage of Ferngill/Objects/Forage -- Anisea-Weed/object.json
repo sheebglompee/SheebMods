@@ -1,0 +1,16 @@
+﻿{
+    "Name": "Anisea-Weed",
+    "Description": "This deep black Seaweed has a liquorice twang to it.",
+    "Category": "Greens",
+    "Edibility": 15,
+    "Price": 65,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Anisea-Weed",
+    "ContextTags": [
+    "fish_nonfish",
+    "color_red",
+    "forage_item",
+  ],
+}

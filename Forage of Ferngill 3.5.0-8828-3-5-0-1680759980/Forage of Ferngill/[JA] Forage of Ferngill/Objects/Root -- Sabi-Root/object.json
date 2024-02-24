@@ -1,0 +1,18 @@
+﻿{
+    "Name": "Sabi-Root",
+    "Description": "A pale white root with a spicy kick.",
+    "Category": "Vegetable",
+    "CategoryTextOverride": "Root",
+    "Edibility": 25,
+    "Price": 65,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Sabi-Root",
+    "ContextTags": [
+    "season_fall",
+    "color_white",
+    "forage_item",
+    "root_item",
+  ],
+}

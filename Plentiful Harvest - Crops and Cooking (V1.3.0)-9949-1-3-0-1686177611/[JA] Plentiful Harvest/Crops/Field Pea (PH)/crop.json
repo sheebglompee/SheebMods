@@ -1,0 +1,53 @@
+{
+    "Name": "Field Pea (PH)", 
+    "Product": "Field Pea (PH)",
+    "SeedName": "Field Pea Seeds (PH)", 
+    "SeedDescription": "Plant these in the spring. Takes 7 days to mature into a large bush. Continues to produce after their first harvest, with a chance to yield multiple pods.", 
+    "Type": "Vegetable", 
+    "CropType": "Normal", 
+    "Seasons": ["spring"], 
+    "Phases": [1, 1, 2, 2, 1], 
+    "RegrowthPhase": 4, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": false, 
+	"Bonus": 
+    {
+        "MinimumPerHarvest": 1, 
+        "MaximumPerHarvest": 3, 
+        "MaxIncreasePerFarmLevel": 5, 
+        "ExtraChance": 0.3, 
+    },
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "STF.PlentifulHarvest", 
+    "SeedPurchasePrice": 50, 
+
+    "SeedNameLocalization":
+    {
+        "default": "Field Pea Seeds",
+		"es": "Field Pea Seeds", 
+        "ko": "Field Pea Seeds", 
+        "de": "Felderbsen-Saat", 
+        "fr": "Field Pea Seeds", 
+        "hu": "Field Pea Seeds", 
+        "it": "Field Pea Seeds", 
+        "ja": "Field Pea Seeds", 
+        "pt": "Field Pea Seeds", 
+        "ru": "Семена полевого гороха", 
+        "tr": "Field Pea Seeds", 
+        "zh": "紫花豌豆种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plant these in the spring. Takes 7 days to mature into a large bush. Continues to produce after their first harvest, with a chance to yield multiple pods.", 
+        "ko": "Plant these in the spring. Takes 7 days to mature into a large bush. Continues to produce after their first harvest, with a chance to yield multiple pods.", 
+        "de": "Pflanze sie im Frühling. Wächst in 7 Tagen zu einem großen Busch heran, kann aber danach mehrmals geerntet werden. Bringt manchmal mehrere Erbsen pro Ernte ein.", 
+        "fr": "Plant these in the spring. Takes 7 days to mature into a large bush. Continues to produce after their first harvest, with a chance to yield multiple pods.", 
+        "hu": "Plant these in the spring. Takes 7 days to mature into a large bush. Continues to produce after their first harvest, with a chance to yield multiple pods.", 
+        "it": "Plant these in the spring. Takes 7 days to mature into a large bush. Continues to produce after their first harvest, with a chance to yield multiple pods.", 
+        "ja": "Plant these in the spring. Takes 7 days to mature into a large bush. Continues to produce after their first harvest, with a chance to yield multiple pods.", 
+        "pt": "Plant these in the spring. Takes 7 days to mature into a large bush. Continues to produce after their first harvest, with a chance to yield multiple pods.", 
+        "ru": "Сажайте весной. Через 7 дней вырастает куст гороха, который и после первого сбора будет продолжать плодоносить.", 
+        "tr": "Plant these in the spring. Takes 7 days to mature into a large bush. Continues to produce after their first harvest, with a chance to yield multiple pods.", 
+        "zh": "春天种植。7天长成紫花豌豆丛。 在第一次收获后继续结果，有机会产出多个紫花豌豆。  ", 
+    }
+}

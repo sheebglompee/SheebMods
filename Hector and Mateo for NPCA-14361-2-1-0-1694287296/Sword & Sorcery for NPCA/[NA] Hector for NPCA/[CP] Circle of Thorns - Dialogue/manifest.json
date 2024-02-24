@@ -1,0 +1,11 @@
+{
+  "Name": "Hector for NPC Adventures Dialogue",
+  "Author": "DestyNova",
+  "Version": "2.1.0",
+  "Description": "Invite Hector on an adventure! Dialogues for PurrplingCat's NPC Adventures.",
+  "UniqueID": "DestyNova.Hector.NPCAD",
+  "UpdateKeys": [ "Nexus:14361" ],
+  "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}

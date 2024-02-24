@@ -1,0 +1,18 @@
+﻿{
+    "Name": "Ghastly-Root",
+    "Description": "Old wives tales say this root grew around the skull of a dead goblin.",
+    "Category": "Vegetable",
+    "CategoryTextOverride": "Root",
+    "Edibility": 15,
+    "Price": 40,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Ghastly-Root",
+    "ContextTags": [
+    "season_fall",
+    "color_green",
+    "forage_item",
+    "root_item",
+  ],
+}

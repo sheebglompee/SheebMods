@@ -1,0 +1,482 @@
+{
+    //Guide for keys:
+	//1501 and 1504: Rude keys. Use for Abigail, Sebastian, Alex, Haley, and Shane.
+	//1499 and 1500: Keys that don't apply to the above cases.	
+	//Unless otherwise noted, the first lines are the same between spice and no spice cases. The *second* line is the spicy line.
+	"Changes":[
+		{
+			"LogName": "Abigail - Solstice, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries":{
+				"Event.cs.1501": "{{i18n: UWS.Abigail.Solstice.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1504": "{{i18n: UWS.Abigail.Solstice.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Abigail": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Abigail": "FullyPlatonic, SexWithoutRomance",
+				"Abigail": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Sebastian - Solstice, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries":{
+				"Event.cs.1501": "{{i18n: UWS.Sebastian.Solstice.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1504": "{{i18n: UWS.Sebastian.Solstice.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Sebastian": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Sebastian": "FullyPlatonic, SexWithoutRomance",
+				"Sebastian": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Alex - Solstice, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries":{
+				"Event.cs.1501": "{{i18n: UWS.Alex.Solstice.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1504": "{{i18n: UWS.Alex.Solstice.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Alex": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Alex": "FullyPlatonic, SexWithoutRomance",
+				"Alex": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Haley - Solstice, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries":{
+				"Event.cs.1501": "{{i18n: UWS.Haley.Solstice.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1504": "{{i18n: UWS.Haley.Solstice.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Haley": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Haley": "FullyPlatonic, SexWithoutRomance",
+				"Haley": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Shane - Solstice, Fully Platonic Version", //Reminder to config 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries":{
+				"Event.cs.1501": "{{i18n: UWS.Shane.Solstice.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1504": "{{i18n: UWS.Shane.Solstice.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Shane": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"HasMod |contains=tenthousandcats.ImmersiveCShane": false,
+				"Amaranthacyan.PPAFSMAPI/Shane": "FullyPlatonic, SexWithoutRomance",
+				"Shane": "normal",
+			},
+		},
+		{
+			"LogName": "Shane - Solstice, Fully Platonic Version", //Reminder to config 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries":{
+				"Event.cs.1501": "{{i18n: UWS.Shane.Solstice.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1504": "{{i18n: UWS.Shane.Solstice.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Shane": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Immersive Shane Override": "true",
+				"IC-Shane Conditional Overrides": "married only, dating and married",
+				"Amaranthacyan.PPAFSMAPI/Shane": "FullyPlatonic, SexWithoutRomance",
+				"Shane": "normal",
+			},
+		},
+		{
+			"LogName": "Emily - Solstice, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Emily.Solstice.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Emily.Solstice.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Emily": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Emily": "FullyPlatonic, SexWithoutRomance",
+				"Emily": "normal",
+			},
+		},
+		{
+			"LogName": "Leah - Solstice, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Leah.Solstice.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Leah.Solstice.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Leah": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Leah": "FullyPlatonic, SexWithoutRomance",
+				"Leah": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Elliott - Solstice, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Elliott.Solstice.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Elliott.Solstice.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Elliott": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Elliott": "FullyPlatonic, SexWithoutRomance",
+				"Elliott": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Penny - Solstice, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Penny.Solstice.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Penny.Solstice.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Penny": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Elliott": "FullyPlatonic, SexWithoutRomance",
+				"Penny": "normal",
+			},
+		},
+		{
+			"LogName": "Sam - Solstice, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Sam.Solstice.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Sam.Solstice.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Sam": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Sam": "FullyPlatonic, SexWithoutRomance",
+				"Sam": "normal",
+			},
+		},
+		{
+			"LogName": "Sam - Solstice, Fully Platonic Version, 14 Heart Variant", //This is a surprise to me, but it makes sense.
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Sam.Solstice.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Sam.Solstice.Housemate.Junimo.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Sam": "married",
+				"HasSeenEvent |contains=3918603": "true",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Sam": "FullyPlatonic, SexWithoutRomance",
+				"Sam": "normal",
+			},
+		},
+		{
+			"LogName": "Harvey - Solstice, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Harvey.Solstice.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Harvey.Solstice.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Harvey": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Harvey": "FullyPlatonic, SexWithoutRomance",
+				"Harvey": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Maru - Solstice, Fully Platonic Version",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Maru.Solstice.Housemate.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Maru.Solstice.Housemate.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Maru": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Maru": "FullyPlatonic, SexWithoutRomance",
+				"Maru": "normal, spicy",
+			},
+		},
+		
+		//The following is for those with the SexWithoutRomance flag enabled in PPAF - slightly altered versions of spice dialogue.
+		{
+			"LogName": "Abigail - Solstice, SexWithoutRomance, Optional Spice",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries":{
+				"Event.cs.1501": "{{i18n: UWS.Abigail.Solstice.SWR.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1504": "{{i18n: UWS.Abigail.Solstice.SWR.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Abigail": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Abigail": "SexWithoutRomance",
+				"Enable Spicy Dialogue": "true",
+				"Abigail": "spicy",
+			},
+		},
+		{
+			"LogName": "Sebastian - Solstice, SexWithoutRomance, Optional Spice",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries":{
+				"Event.cs.1501": "{{i18n: UWS.Sebastian.Solstice.SWR.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1504": "{{i18n: UWS.Sebastian.Solstice.SWR.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Sebastian": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Sebastian": "SexWithoutRomance",
+				"Enable Spicy Dialogue": "true",
+				"Sebastian": "spicy",
+			},
+		},
+		{
+			"LogName": "Alex - Solstice, SexWithoutRomance, Optional Spice",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries":{
+				"Event.cs.1501": "{{i18n: UWS.Alex.Solstice.SWR.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1504": "{{i18n: UWS.Alex.Solstice.SWR.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Alex": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Alex": "SexWithoutRomance",
+				"Enable Spicy Dialogue": "true",
+				"Alex": "spicy",
+			},
+		},
+		{
+			"LogName": "Haley - Solstice, SexWithoutRomance, Optional Spice",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries":{
+				"Event.cs.1501": "{{i18n: UWS.Haley.Solstice.SWR.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1504": "{{i18n: UWS.Haley.Solstice.SWR.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Haley": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Haley": "SexWithoutRomance",
+				"Enable Spicy Dialogue": "true",
+				"Haley": "spicy",
+			},
+		},
+		{
+			"LogName": "Leah - Solstice, SexWithoutRomance, Optional Spice",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Leah.Solstice.SWR.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Leah.Solstice.SWR.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Leah": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Leah": "SexWithoutRomance",
+				"Enable Spicy Dialogue": "true",
+				"Leah": "spicy",
+			},
+		},
+		{
+			"LogName": "Elliott - Solstice, SexWithoutRomance, Optional Spice",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Elliott.Solstice.SWR.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Elliott.Solstice.SWR.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Elliott": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Elliott": "SexWithoutRomance",
+				"Enable Spicy Dialogue": "true",
+				"Elliott": "spicy",
+			},
+		},
+		{
+			"LogName": "Harvey - Solstice, SexWithoutRomance, Optional Spice",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Harvey.Solstice.SWR.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Harvey.Solstice.SWR.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Harvey": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Harvey": "SexWithoutRomance",
+				"Enable Spicy Dialogue": "true",
+				"Harvey": "spicy",
+			},
+		},
+		{
+			"LogName": "Maru - Solstice, SexWithoutRomance, Optional Spice", //This dialogue references a particular festival day bug with Maru.
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries":{
+				"Event.cs.1499": "{{i18n: UWS.Maru.Solstice.SWR.Before |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+				"Event.cs.1500": "{{i18n: UWS.Maru.Solstice.SWR.After |termOfEndearment={{Amaranthacyan.PPAFSMAPI/TermOfEndearment}} }}",
+			},
+			"When": {
+				"relationship:Maru": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Maru": "SexWithoutRomance",
+				"Enable Spicy Dialogue": "true",
+				"Maru": "spicy",
+			},
+		},
+		
+		//RomanceWithoutSex Fallbacks - in case a user with a RomanceWithoutSex flag on a character accidentally activates the spicy dialogue, this forces it back to non-spicy dialogue.
+		{
+			"LogName": "Abigail - Solstice, Romance Fallback",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries":{
+				"Event.cs.1501": "{{i18n:UWS.Abigail.Solstice.Married.Before}}",
+				"Event.cs.1504": "{{i18n:UWS.Abigail.Solstice.Married.After}}",
+			},
+			"When": {
+				"relationship:Abigail": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Abigail": "RomanceWithoutSex",
+				"Enable Spicy Dialogue": "true",
+				"Abigail": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Sebastian - Solstice, Romance Fallback",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries":{
+				"Event.cs.1501": "{{i18n:UWS.Sebastian.Solstice.Married.Before}}",
+				"Event.cs.1504": "{{i18n:UWS.Sebastian.Solstice.Married.After}}",
+			},
+			"When": {
+				"relationship:Sebastian": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Sebastian": "RomanceWithoutSex",
+				"Enable Spicy Dialogue": "true",
+				"Sebastian": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Alex - Solstice, Romance Fallback",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries":{
+				"Event.cs.1501": "{{i18n:UWS.Alex.Solstice.Married.Before}}",
+				"Event.cs.1504": "{{i18n:UWS.Alex.Solstice.Married.After}}",
+			},
+			"When": {
+				"relationship:Alex": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Alex": "RomanceWithoutSex",
+				"Enable Spicy Dialogue": "true",
+				"Alex": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Haley - Solstice, Romance Fallback",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries":{
+				"Event.cs.1501": "{{i18n:UWS.Haley.Solstice.Married.Before}}",
+				"Event.cs.1504": "{{i18n:UWS.Haley.Solstice.Married.After}}",
+			},
+			"When": {
+				"relationship:Haley": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Haley": "RomanceWithoutSex",
+				"Enable Spicy Dialogue": "true",
+				"Haley": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Leah - Solstice, Romance Fallback",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries":{
+				"Event.cs.1499": "{{i18n:UWS.Leah.Solstice.Married.Before}}",
+				"Event.cs.1500": "{{i18n:UWS.Leah.Solstice.Married.After}}",
+			},
+			"When": {
+				"relationship:Leah": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Leah": "RomanceWithoutSex",
+				"Enable Spicy Dialogue": "true",
+				"Leah": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Elliott - Solstice, Romance Fallback",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries":{
+				"Event.cs.1499": "{{i18n:UWS.Elliott.Solstice.Married.Before}}",
+				"Event.cs.1500": "{{i18n:UWS.Elliott.Solstice.Married.After}}",
+			},
+			"When": {
+				"relationship:Elliott": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Elliott": "RomanceWithoutSex",
+				"Enable Spicy Dialogue": "true",
+				"Elliott": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Harvey - Solstice, Romance Fallback",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries":{
+				"Event.cs.1499": "{{i18n:UWS.Harvey.Solstice.Married.Before}}",
+				"Event.cs.1500": "{{i18n:UWS.Harvey.Solstice.Married.After}}",
+			},
+			"When": {
+				"relationship:Harvey": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Harvey": "RomanceWithoutSex",
+				"Enable Spicy Dialogue": "true",
+				"Harvey": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Maru - Solstice, Romance Fallback",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries":{
+				"Event.cs.1499": "{{i18n:UWS.Maru.Solstice.Married.Before}}",
+				"Event.cs.1500": "{{i18n:UWS.Maru.Solstice.Married.After}}",
+			},
+			"When": {
+				"relationship:Maru": "married",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Maru": "RomanceWithoutSex",
+				"Enable Spicy Dialogue": "true",
+				"Maru": "normal, spicy",
+			},
+		},
+	],
+}

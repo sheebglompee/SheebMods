@@ -1,0 +1,54 @@
+{
+    "Name": "Almond (PH)",
+    "Description": "Domesticated almonds appear as early as or earlier than the Bronze Age. Like the Walnut, it isn't a true nut.",
+    "Category": "ArtisanGoods",
+	"ContextTags": 
+        [
+        "season_summer",
+		"ph_oilable",
+		"color_sand",
+        "ph_nut"
+        ],
+    "Edibility": 20,
+    "Price": 125, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Leah", "Lewis"],
+        "Like": ["Alex", "Evelyn", "George"],
+        "Neutral": null, 
+        "Dislike": ["Haley", "Penny", "Eliott", "Sandy"], 
+        "Hate": ["Demetrius", "Maru"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Almond",
+		"es": "Almond", 
+        "ko": "Almond", 
+        "de": "Mandel", 
+        "fr": "Almond", 
+        "hu": "Almond", 
+        "it": "Almond", 
+        "ja": "Almond",
+        "pt": "Almond", 
+        "ru": "Миндаль", 
+        "tr": "Almond",
+        "zh": "杏仁", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Domesticated almonds appear as early as or earlier than the Bronze Age. Like the Walnut, it isn't a true nut.", 
+        "ko": "Domesticated almonds appear as early as or earlier than the Bronze Age. Like the Walnut, it isn't a true nut.", 
+        "de": "Heimische Mandeln erschienen bereits in der Bronzezeit oder noch früher. Wie die Walnuss, ist sie keine echte Nuss.",
+        "fr": "Domesticated almonds appear as early as or earlier than the Bronze Age. Like the Walnut, it isn't a true nut.", 
+        "hu": "Domesticated almonds appear as early as or earlier than the Bronze Age. Like the Walnut, it isn't a true nut.",
+        "it": "Domesticated almonds appear as early as or earlier than the Bronze Age. Like the Walnut, it isn't a true nut.", 
+        "ja": "Domesticated almonds appear as early as or earlier than the Bronze Age. Like the Walnut, it isn't a true nut.", 
+        "pt": "Domesticated almonds appear as early as or earlier than the Bronze Age. Like the Walnut, it isn't a true nut.",
+        "ru": "Одомашненный миндаль появился в бронзовом веке, а может даже раньше. Как и грецкий орех, не является настоящим орехом.", 
+        "tr": "Domesticated almonds appear as early as or earlier than the Bronze Age. Like the Walnut, it isn't a true nut.", 
+        "zh": "已知的杏仁最早出现或早于青铜器时代。跟核桃一样，这不是一种真正的坚果。",
+    },
+}

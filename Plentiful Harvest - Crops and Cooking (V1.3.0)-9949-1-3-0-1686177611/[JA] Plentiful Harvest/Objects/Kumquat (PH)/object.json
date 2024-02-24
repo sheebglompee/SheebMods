@@ -1,0 +1,52 @@
+{
+    "Name": "Kumquat (PH)",
+    "Description": "A cold-hardy citrus that closely resembles an orange. These olive-sized fruits are eaten with the peel and are sometimes used in fruit salads.",
+    "Category": "Fruit",
+	"ContextTags": 
+        [
+        "season_spring",
+		"color_orange"
+        ],
+    "Edibility": 15,
+    "Price": 45, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Penny"],
+        "Like": ["Alex", "Linus", "Lewis", "Leo"],
+        "Neutral": null, 
+        "Dislike": ["Sebastian"], 
+        "Hate": ["Willy"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Kumquat",
+		"es": "Kumquat", 
+        "ko": "Kumquat", 
+        "de": "Kumquat", 
+        "fr": "Kumquat", 
+        "hu": "Kumquat", 
+        "it": "Kumquat", 
+        "ja": "Kumquat",
+        "pt": "Kumquat", 
+        "ru": "Кумкват", 
+        "tr": "Kumquat",
+        "zh": "金橘", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A cold-hardy citrus that closely resembles an orange. These olive-sized fruits are eaten with the peel and are sometimes used in fruit salads.", 
+        "ko": "A cold-hardy citrus that closely resembles an orange. These olive-sized fruits are eaten with the peel and are sometimes used in fruit salads.", 
+        "de": "Eine kältebeständige Zitrusfrucht, die einer Orange sehr ähnelt. Diese olivengroßen Früchte werden mit der Schale gegessen und manchmal in Obstsalaten verwendet.",
+        "fr": "A cold-hardy citrus that closely resembles an orange. These olive-sized fruits are eaten with the peel and are sometimes used in fruit salads.", 
+        "hu": "A cold-hardy citrus that closely resembles an orange. These olive-sized fruits are eaten with the peel and are sometimes used in fruit salads.",
+        "it": "A cold-hardy citrus that closely resembles an orange. These olive-sized fruits are eaten with the peel and are sometimes used in fruit salads.", 
+        "ja": "A cold-hardy citrus that closely resembles an orange. These olive-sized fruits are eaten with the peel and are sometimes used in fruit salads.", 
+        "pt": "A cold-hardy citrus that closely resembles an orange. These olive-sized fruits are eaten with the peel and are sometimes used in fruit salads.",
+        "ru": "Холодостойкий фрукт, очень похожий на апельсин. Плоды размером со сливу едят вместе с кожурой и иногда используют во фруктовых салатах.", 
+        "tr": "A cold-hardy citrus that closely resembles an orange. These olive-sized fruits are eaten with the peel and are sometimes used in fruit salads.", 
+        "zh": "一种耐寒的柑橘，与橘子非常相似。这些橄榄大小的水果连皮一起吃，有时也用在水果沙拉中。",
+    },
+}

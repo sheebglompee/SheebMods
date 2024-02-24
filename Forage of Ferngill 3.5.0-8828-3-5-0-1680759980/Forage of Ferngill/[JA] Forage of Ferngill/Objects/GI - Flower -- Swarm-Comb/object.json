@@ -1,0 +1,15 @@
+﻿{
+    "Name": "Swarm-Comb",
+    "Description": "These small clustered flowers smell strongly of honey.",
+    "Category": "Flower",
+    "Edibility": 0,
+    "Price": 155,
+    "IsColored": true,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Swarm-Comb",
+    "ContextTags": [
+    "color_orange",
+    "flower_item",
+  ],
+}

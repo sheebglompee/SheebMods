@@ -1,0 +1,310 @@
+{
+  "Format": "1.21.0",
+  "Changes": [
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "Include",
+      "FromFile": "assets/disposition/Disposition.json"
+    },
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Marlowe": "Whoa! I love this. Thank you!/192 74 72/I appreciate this. I don't get these kind of things often./591 547 336 337 226 221 220 203 167 70 80 82 84 86 64 66 68 62 60/No thanks...//.../446 168 -20/Thank you./18"
+      }
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Marlowe",
+      "FromFile": "assets/img/spritesheet.png"
+    },
+    {
+      "LogName": "NPC Animations",
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+        "marlowe_smoking": "17/17 18 18 19 19 20 20 21 21 22 22 23 23 17 17 17 17 17/17"
+      }
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Marlowe",
+      "FromFile": "assets/img/portrait.png"
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Marlowe",
+      "FromFile": "assets/schedules/schedule.json"
+    },
+    //EVENTS
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Marlowe",
+      "FromFile": "assets/dialogue/Dialogue.json"
+    },
+    {
+      "LogName": "NPC Events",
+      "Action": "EditData",
+      "Target": "data/events/Town",
+      "Entries": {
+        "119919/f Marlowe 500/t 900 2300/w sunny": "none/71 13/farmer 71 18 0 Marlowe 72 12 2/skippable/speak Marlowe \"Hey, @. Come over here for a second.\"/move farmer 0 -5 0/move farmer -1 0 3/move farmer 0 -1 0/move farmer 0 0 2/speak Marlowe \"I don't get why you keep talking to me.#$b#It's not like I'm a particular treat to talk to. More like a chore.#$e#Yet you keep talking to me. Why?\"/pause 1000/speak Marlowe \"Sorry. Sorry for being distant.#$b#I just don't want to lose anyone again.\"/pause 2000/speak Marlowe \"Do you take any medication, or have you? Actually, nevermind.\"/move Marlowe 8 0 0/move Marlowe 0 -11 0/pause 500/emote farmer 8/end",
+        "159919/f Marlowe 2000/t 600 2300/e 149919": "none/79 95/farmer 79 95 2 Marlowe 78 95 2/skippable/pause 1500/speak Marlowe \"Hope you're having a good day, @.#$b#Hope you don't get too lonely out on that big farm.#$b#I live in that little cottage with Uncle Marlon and his friend Gil, and although it's cozy, I do get lonely.#$b#I mean, I do spend all my days by myself or in the mines.#$b#Didn't always used to be just me and my uncle, though.#$b#My sister used to live with us.\"/pause 1000/speak Marlowe \"Me and her were adopted by uncle Marlon when our parents were thrown in jail years ago.#$b#They were a real Bonnie and Clyde duo, ha...#$b#I think they committed tax fraud or something to do with cooked books and the company they founded.#$b#Nothing too extreme or dangerous, I guess.#$b#Still, my sister and I were underage and needed somewhere to go.#$b#I think I was like, three or something and my sister was eight or nine.#$b#We moved to Pelican Town and here we are today.\"/pause 1000/speak Marlowe \"Actually, my sister, once she got her drivers license, took off into the big city to become a cop.#$b#Me and her were always sort of polar opposites, but I just find the irony of our situations funny.#$b#I mean, come on. She's a cop, and I'm a dealer.$h#$b#It's the height of comedy.#$b#I, um, I don't get to see my sister often.$s#$b#She only comes around on holidays, like Christmas, or my birthday sometimes.#$b#It's okay with me, though.#$b#I appreciate her making her way out here anyway, since she's so busy and all.#$b#We're in regular contact so I don't mind if I don't get to see her often.#$b#Hey, if you're ever in Zuzu, keep an eye out for Officer Andersson.#$b#You'll know who she is when you see her.#$b#We look very similiar.\"/pause 1000/speak Marlowe \"@. I know this is a dramatic topic change, but I just wanna be honest.#$b#I will admit it, I have thought about you as more than a friend a few times.$4#$b#I'm not ready for a relationship yet, or nothing serious anyway.#$b#Just thought I should tell you, since we're pretty good friends and all.#$b#And, I really do care about you.$1\"/emote farmer 20/emote Marlowe 60/end"
+      }
+    },
+    {
+      "LogName": "NPC Events",
+      "Action": "EditData",
+      "Target": "data/events/Forest",
+      "Entries": {
+        "129919/f Marlowe 1000/t 1100 2300/e 119919": "none/54 28/farmer 58 26 3 Marlowe 48 28 3/skippable/pause 2000/speak Marlowe \"If only you were still here, Zayn. I know you would have loved Pelican Town.#$b#I still really wish you were with me now. As unlikely as that would have been.\"/pause 2000/speak Marlowe \"#$b#Is someone there?\"/move farmer 0 4 2/move farmer -10 0 3/pause 2000/emote farmer 28/speak Marlowe \"How much did you- Nevermind.$5#$b#I'm gonna assume you heard it all.$0#$b#I guess I'll explain what I was talking about.#$b#Zayn was my friend throughout high school.#$b#He wasn't my best friend, but he was still a good friend to me.#$b#Sometime during senior year, or so, Zayn overdosed at a party and passed away.#$b#I know drugs are scary, but I didn't think something like that would happen to someone I know.#$b#It didn't hit me at first, but when it did, it hit hard.#$b#Yoba, I didn't take it well at all.#$b#I started drin-#$b#Nevermind. I thought Zayn would be there with us at grad, since doctors said he was looking better, but as you can probably guess, he didn't make it.#$b#At least with pot, the chance of death is quite low compared to heroin.#$b#That's what Zayn started getting involved with.#$b#I swore to never touch that stuff myself.\"/pause 8000/speak Marlowe \"Want a Joja?\"/end"
+      }
+    },
+    {
+      "LogName": "NPC Events",
+      "Action": "EditData",
+      "Target": "data/events/Mine",
+      "Entries": {
+        "139919/f Marlowe 1500/t 1400 2300/e 129919": "none/18 7/farmer 18 7 0 Marlowe 18 4 2/skippable/pause 2000/speak Marlowe \"Oh, hello @. I was just finishing up my day in the mines.#$b#You know, all this time left alone really lets me think about things.#$b#Like how I actually used to be good friends with Penny, then I dropped her.#$b#One day we were best buds, the next, we hardly knew each other.#$b#Most of the Pelican town residents don't actually like me.#$b#I used to be close to a few of them, but I guess once I started going to a high school in the big city, I thought I was better than them all.#$b#I got involved with pretty bad things over there in Zuzu. Drugs, drinking, sex. All that good stuff.#$b#Then, Zayn passed and all of that just got worse.#$b#I started abusing all of it instead of just experimenting.#$b#I'd have sex with whoever whenever, and was always surrounded by drugs.#$b#One day, one of my big city friends tells me I should grow my own weed, since Pelican Town doesn't have a proper police force.#$b#Managed to get my hands on some seeds, outside of the town so it couldn't be traced back to me, and began my little garden.#$b#It was a great success and my business grew more every day.#$b#Unfortunatly, so did my ego.#$b#I stopped hanging out with people in town all together once my business was good enough, and it was strictly the city kids who I spent my time with.#$b#And when I was in town, I was in the mines.#$b#Away from everyone else.#$b#It was a combination of my big ego and not wanting to get hurt again that stopped me from getting close to anyone and to cut off all my old friends.#$b#Although, I really miss Penny.\"/pause 500/speak Marlowe \"$q 1399 null#What do you think, @? Should I try and be friends with Penny again?#$r 1399 -250 marlowe_mine_event1#Penny deserves a better friend than someone like you. Maybe next time you'll think twice and cherish your friendships.#$r 1400 0 marlowe_mine_event2#Forgive and forget, isn't that the saying?#$r 1401 50 marlowe_mine_event3#Look, we all make mistakes. I've made some, too. And you were just a dumb kid when you did it. I'm sure Penny will find it in her heart to forgive you.\"/pause 2000/speak Marlowe \"I think I'm going to reach out and try to patch things up with her.#$b#I'm going to make a list of things to apologise for, and then I'm going to bake Poppyseed muffins.#$b#I hope she still likes those...#$b#Thanks for listening, @.#$b#You're a good friend to me.\"/end"
+      }
+    },
+    {
+      "LogName": "NPC Events",
+      "Action": "EditData",
+      "Target": "data/events/Mountain",
+      "Entries": {
+        "149919/f Marlowe 2000/t 600 2300/e 139919": "none/42 10/farmer 42 8 2 Marlowe 41 8 2/skippable/pause 1500/speak Marlowe \"Hey there, @.#$b#How are things with you?#$b#I was just reflecting on how much of a loser I am.#$b#I mean, what have I really done with my life, other than finish high school?#$b#I haven't got a job or any worthwhile certifications.#$b#Not that there's much of a future in a small town like this.#$b#It's so suffocating and claustraphobic in Pelican Town, but I can't afford to live in Zuzu.#$b#I'm never going to fall in love, or earn any other milestone that normal people do.#$q 1340 null#Do you ever feel like that, @?#$r 1341 +100 marlowe_mountain_event1#I get it. I really do. Sometimes I feel the same way. And I don't know if I'll ever stop, but I know that my friends will help me through it all. I'm always here for you, Marlowe.#$r 1330 0 marlowe_mountain_event2#Nope.\"/pause 500/speak Marlowe \"Oh, yeah, Penny loved the muffins.#$b#I think she's forgiven me, and is willing to slowly build our friendship back up.\"/pause 1000/speak Marlowe \"Suppose you wanna know how I earn a living.#$b#It's not legal in the slightest, but I sell weed.#$b#Been doing it for a few years now.#$b#It's my main source of income at this point.#$b#I'm trusting you about this because I think it's something you could really get into.#$b#I think you should grow some stuff on your farm.#$b#If you do, I'll be taking a cut of the profit, since I give the seeds to Pierre, and he gives them to you.#$b#Pelican Town is my turf, so anyone buying here is buying my product.#$b#Joining my business will make your bank account explode, trust me.#$b#It's a worthy investment.#$b#But don't even think about trying the product.#$b#You so much as become the tiniest bit addicted, you're getting cut off.#$b#Can never trust a junkie.#$b#Everyone in town knows people use weed, but they don't know who's selling it.#$b#And nobody is concerned enough to get the cops involved.#$q 1331 null#What do you think?#$r 1331 0 marlowe_mountain_event3#Does Penny know about this?#$r 1332 0 marlowe_mountain_event4#Does Lewis know about this?#$r 1335 0 marlowe_mountain_event5#Does Pierre also get a cut?#$r 1336 0 marlowe_mountain_event6#Is this where Sam and Sebastian get their stash from?#$r 1337 0 marlowe_mountain_event7#Tell me more.\"/pause 500/speak Marlowe \"If you're willing to work with me, you'll get fifteen percent of the profits.#$q 1340 null#So, how about it?#$r 1340 +200 marlowe_mountain_event8#I'm in.#$r 1341 0 marlowe_mountain_event9#Sorry. I can't.#$r 1342 -100 marlowe_mountain_event10#Fuck no. I'm going to call the cops, dude.\"/pause 500/speak Marlowe \"Okay, well, um... I...#$b#I...$4#$b#I'm sure you have places to be. See ya.\"/end"
+      }
+    },
+    //EGG FESTIVAL
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "TextOperations": [
+        {
+          "Action": "EditData",
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Marlowe 22 66 right",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    //FLOWER DANCE
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "TextOperations": [
+        {
+          "Action": "EditData",
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Marlowe 27 41 down",
+          "Delimiter": "/"
+        },
+        {
+          "Action": "EditData",
+          "Operation": "Append",
+          "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+          "Value": "Marlowe 19 20 down",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    //LUAU
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "TextOperations": [
+        {
+          "Action": "EditData",
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Marlowe 31 16 down",
+          "Delimiter": "/"
+        },
+        {
+          "Action": "EditData",
+          "Operation": "Append",
+          "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+          "Value": "Marlowe 37 7 down",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    //MOONLIT JELLIES
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "TextOperations": [
+        {
+          "Action": "EditData",
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Marlowe 11 18 left",
+          "Delimiter": "/"
+        },
+        {
+          "Action": "EditData",
+          "Operation": "Append",
+          "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+          "Value": "Marlowe 11 18 left",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    //FAIR
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "TextOperations": [
+        {
+          "Action": "EditData",
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Marlowe 51 79 left",
+          "Delimiter": "/"
+        },
+        {
+          "Action": "EditData",
+          "Operation": "Append",
+          "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+          "Value": "Marlowe 51 79 left",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    //SPIRITS EVE
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "TextOperations": [
+        {
+          "Action": "EditData",
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Marlowe 35 73 up",
+          "Delimiter": "/"
+        },
+        {
+          "Action": "EditData",
+          "Operation": "Append",
+          "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+          "Value": "Marlowe 35 73 up",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    //ICE
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "TextOperations": [
+        {
+          "Action": "EditData",
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Marlowe 88 33 left",
+          "Delimiter": "/"
+        },
+        {
+          "Action": "EditData",
+          "Operation": "Append",
+          "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+          "Value": "Marlowe 64 30 right",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    //WINTERFEST
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "TextOperations": [
+        {
+          "Action": "EditData",
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Marlowe 22 71 right",
+          "Delimiter": "/"
+        },
+        {
+          "Action": "EditData",
+          "Operation": "Append",
+          "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+          "Value": "Marlowe 22 71 right",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    //EGG FESTIVAL DIALOGUE
+    {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "Entries": {
+          "Marlowe": "The Egg Festival is kind of boring when you've already won more than ten times."
+        }
+    },
+    //FLOWER DANCE DIALOGUE
+    {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "Entries": {
+          "Marlowe": "I wonder if Penny's got a dance partner.#$b#Or Alex."
+        }
+    },
+    //LUAU DIALOGUE
+    {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "Entries": {
+          "Marlowe": "Mmm. I love meat."
+        }
+    },
+    //MOONLIT DIALOGUE
+    {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "Entries": {
+          "Marlowe": "I love fish and the ocean so much.#$b#This festival is probably my favourite."
+        }
+    },
+    //FAIR DIALOGUE
+    {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "Entries": {
+          "Marlowe": "I bet Pierre's gonna win this year.#$b#Unless the giant cheesewheel takes over.#$b#I hope it does."
+        }
+    },
+    //SPIRIT DIALOGUE
+    {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "Entries": {
+          "Marlowe": "I've been banned from the maze because I've won too many times."
+        }
+    },
+    //ICE FESTIVAL DIALOGUE
+    {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "Entries": {
+          "Marlowe": "Building snowmen is fun!$h#$b#Fishing is even more fun.#$b#I hope you're competing."
+        }
+    },
+    //WINTERFEST DIALOGUE
+    {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+        "Entries": {
+          "Marlowe": "I'm sitting at the table for people who don't have relatives in town.#$b#You can join us if you want."
+        }
+      }
+  ]
+}
+

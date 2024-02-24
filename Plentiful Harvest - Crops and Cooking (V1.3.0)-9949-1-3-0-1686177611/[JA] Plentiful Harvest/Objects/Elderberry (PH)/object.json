@@ -1,0 +1,52 @@
+{
+    "Name": "Elderberry (PH)",
+    "Description": "A branch of elderberries. These grow wild in even cold climates, and have medicinal properties.",
+    "Category": "Fruit",
+	"ContextTags": 
+        [
+        "season_winter",
+		"color_black"
+        ],
+    "Edibility": 12,
+    "Price": 25, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Linus", "Harvey"],
+        "Like": ["Penny", "Marnie", "Demetrius", "Emily"],
+        "Neutral": null, 
+        "Dislike": ["Maru", "Shane", "Alex", "Elliot", "Pierre", "Kent", "Krobus"], 
+        "Hate": ["Haley", "Willy", "Leo"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Elderberry",
+		"es": "Elderberry", 
+        "ko": "Elderberry", 
+        "de": "Holunderbeeren", 
+        "fr": "Elderberry", 
+        "hu": "Elderberry", 
+        "it": "Elderberry", 
+        "ja": "Elderberry",
+        "pt": "Elderberry", 
+        "ru": "Бузина", 
+        "tr": "Elderberry",
+        "zh": "接骨木莓", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A branch of elderberries. These grow wild in even cold climates, and have medicinal properties.", 
+        "ko": "A branch of elderberries. These grow wild in even cold climates, and have medicinal properties.", 
+        "de": "Ein Holunderbeerenzweig. Sie wildern in kalten Klimata und haben heilende Wirkungen.",
+        "fr": "A branch of elderberries. These grow wild in even cold climates, and have medicinal properties.", 
+        "hu": "A branch of elderberries. These grow wild in even cold climates, and have medicinal properties.",
+        "it": "A branch of elderberries. These grow wild in even cold climates, and have medicinal properties.", 
+        "ja": "A branch of elderberries. These grow wild in even cold climates, and have medicinal properties.", 
+        "pt": "A branch of elderberries. These grow wild in even cold climates, and have medicinal properties.",
+        "ru": "Бузина растет в диком виде даже в холодном климате и обладает лекарственными свойствами.", 
+        "tr": "A branch of elderberries. These grow wild in even cold climates, and have medicinal properties.", 
+        "zh": "接骨木莓的树枝，甚至在严寒气候中也能野外生长，更具有药用价值。",
+    },
+}

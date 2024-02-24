@@ -1,0 +1,52 @@
+{
+    "Name": "Lentils (PH)",
+    "Description": "These are high in protein and even the same plant will produce multiple colors.",
+    "Category": "Vegetable",
+	"ContextTags": 
+        [
+        "season_spring",
+		"color_green"
+        ],
+    "Edibility": 12,
+    "Price": 48, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Emily", "Marnie"],
+        "Like": ["Caroline", "Maru", "Penny"],
+        "Neutral": null, 
+        "Dislike": ["Jas"], 
+        "Hate": ["Vincent", "Haley"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Lentils",
+		"es": "Lentils", 
+        "ko": "Lentils", 
+        "de": "Linsenbohnen", 
+        "fr": "Lentils", 
+        "hu": "Lentils", 
+        "it": "Lentils", 
+        "ja": "Lentils",
+        "pt": "Lentils", 
+        "ru": "Чечевица", 
+        "tr": "Lentils",
+        "zh": "小扁豆", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "These are high in protein and even the same plant will produce multiple colors.", 
+        "ko": "These are high in protein and even the same plant will produce multiple colors.", 
+        "de": "Sie haben einen hohen Proteingehalt und sogar dieselbe Pflanze kann mehrfarbige Linsen tragen.",
+        "fr": "These are high in protein and even the same plant will produce multiple colors.", 
+        "hu": "These are high in protein and even the same plant will produce multiple colors.",
+        "it": "These are high in protein and even the same plant will produce multiple colors.", 
+        "ja": "These are high in protein and even the same plant will produce multiple colors.", 
+        "pt": "These are high in protein and even the same plant will produce multiple colors.",
+        "ru": "Бобы чечевицы полны белка. Интересный факт: одно и то же растение может давать несколько окрасок бобов.", 
+        "tr": "These are high in protein and even the same plant will produce multiple colors.", 
+        "zh": "它们富含蛋白质，即使是同一株植物也会产生多种颜色的果实。",
+    },
+}

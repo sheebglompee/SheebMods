@@ -1,0 +1,15 @@
+{
+    "Name": "Emily's CD",
+    "Description": "Emily's personal playlist!",
+    "Category": "Crafting",
+    "Edibility": 0,
+    "EdibleIsDrink": false,
+    "Price": 0,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {
+        "Love": ["Emily"],
+        "Like": ["Clint","Dwarf"],
+        "Hate": ["Abigail","Alex","Caroline","Demetrius","Elliott","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Leo","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastain","Shane","Vincent","Willy","Wizard"]
+    }
+}

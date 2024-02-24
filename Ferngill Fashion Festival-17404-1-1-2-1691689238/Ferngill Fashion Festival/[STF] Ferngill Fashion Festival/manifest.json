@@ -1,0 +1,13 @@
+{
+    "Name": "Ferngill Fashion Festival STF",
+    "Author": "UNA",
+    "Version": "1.1.2",
+    "Description": "Adds stalls for the fashion festival [STF]",
+    "UniqueID": "UNA.FF.STF",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": [ "Nexus:???" ],
+    "ContentPackFor": 
+    {
+	    "UniqueID": "Cherry.ShopTileFramework",
+    }
+}

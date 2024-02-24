@@ -1,0 +1,17 @@
+{
+    "Name": "Daye-Breaks",
+    "Product": "Daye-Breaks",
+    "SeedName": "Daye-Break Seeds",
+    "SeedDescription": "Plant in Spring. Takes 7 days to grow.",
+    "Type": "Flower",
+    "Seasons": ["spring"],
+    "Phases": [1, 1, 2, 2, 1],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+	"Colors": null,
+    "SeedNameLocalization":
+    {},
+    "SeedDescriptionLocalization":
+    {},
+}

@@ -1,0 +1,17 @@
+{
+  "Changes": [
+    {
+      "LogName": "Companion dialogues for Kent",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Kent",
+      "Entries": {
+        "companionAccepted": "Yes, sir! Any orders?^Yes, miss! Any orders?",
+        "companionRejected": "An adventure? With you?#$b#Sorry, I don't want to endanger child like you.",
+        "companionRejectedMoney": "Sorry, but this mission is too dangerous and it's not worth the money.",
+        "companionRejectedNight": "This night mission looks so dangerous. I'll wait for daylight.",
+        "companionDismiss": "Order!",
+        "companionDismissAuto": "This night mission looks so dangerous. I'll wait for daylight."
+      }
+    }
+  ]
+}

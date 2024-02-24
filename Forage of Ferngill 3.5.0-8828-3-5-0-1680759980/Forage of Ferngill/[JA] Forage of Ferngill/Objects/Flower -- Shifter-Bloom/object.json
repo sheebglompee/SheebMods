@@ -1,0 +1,15 @@
+﻿{
+    "Name": "Shifter-Bloom",
+    "Description": "Hikers often catch flashes of these rare flowers in the forest.",
+    "Category": "Flower",
+    "Edibility": 0,
+    "Price": 135,
+    "IsColored": true,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Shifter-Bloom",
+    "ContextTags": [
+    "color_orange",
+    "flower_item",
+  ],
+}

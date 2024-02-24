@@ -1,0 +1,84 @@
+{
+    "Name": "Chocolate Egg (PH)", 
+    "Description": "It’s very large, warm, and filled with nougat!", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+        "ph_chocegg",
+		"color_brown",
+		"dye_strong"
+        ],
+    "Edibility": 70, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 1,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 1,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 110,
+    }, 
+    "Price": 300, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": 182, 
+            "Count": 1,
+        },
+        {
+            "Object": "Chocolate Bar (PH)", 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Marnie", "Jas"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Linus"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Chocolate Egg",
+		"es": "Chocolate Egg", //Spansih
+        "ko": "Chocolate Egg", //Korean
+        "de": "Chocolate Egg", //German
+        "fr": "Schokoladenei", //French
+        "hu": "Chocolate Egg", //Hungarian
+        "it": "Chocolate Egg", //Italian
+        "ja": "Chocolate Egg", //Japanese
+        "pt": "Chocolate Egg", //Portuguese
+        "ru": "Шоколадное яйцо", //Russian
+        "tr": "Chocolate Egg", //Turkish
+        "zh": "巧克力蛋", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "It’s very large, warm, and filled with nougat!", //Spansih
+        "ko": "It’s very large, warm, and filled with nougat!", //Korean
+        "de": "Es ist sehr groß und warm und mit Nougat gefüllt!", //German
+        "fr": "It’s very large, warm, and filled with nougat!", //French
+        "hu": "It’s very large, warm, and filled with nougat!", //Hungarian
+        "it": "It’s very large, warm, and filled with nougat!", //Italian
+        "ja": "It’s very large, warm, and filled with nougat!", //Japanese
+        "pt": "It’s very large, warm, and filled with nougat!", //Portuguese
+        "ru": "Оно очень большое, теплое и наполнено нугой!", //Russian
+        "tr": "It’s very large, warm, and filled with nougat!", //Turkish
+        "zh": "它非常大，热乎乎的，充满了牛轧糖！", //Chinese (Simplified)
+    },
+	
+}

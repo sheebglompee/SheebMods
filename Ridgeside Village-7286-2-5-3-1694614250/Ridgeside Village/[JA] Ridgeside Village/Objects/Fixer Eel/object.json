@@ -1,0 +1,15 @@
+{
+	"Name": "Fixer Eel",
+	"TranslationKey": "objects.fixer-eel",
+	"Category": "Fish",
+	"Edibility": 10,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 120,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Kenneth"],
+        "Dislike": ["Ariah"]
+	},
+}

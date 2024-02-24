@@ -1,0 +1,53 @@
+{
+    "Name": "Pistachio (PH)",
+    "Description": "The green nut inside the thin shell is tasty and popular.",
+    "Category": "ArtisanGoods",
+	"ContextTags": 
+        [
+        "season_winter",
+        "ph_nut",
+		"color_green"
+        ],
+    "Edibility": 20,
+    "Price": 110, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Penny", "Linus", "Lewis"],
+        "Like": ["Alex", "Evelyn", "George", "Robin"],
+        "Neutral": null, 
+        "Dislike": ["Haley", "Eliott", "Sandy"], 
+        "Hate": ["Demetrius", "Maru"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Pistachio",
+		"es": "Pistachio", 
+        "ko": "Pistachio", 
+        "de": "Pistazie", 
+        "fr": "Pistachio", 
+        "hu": "Pistachio", 
+        "it": "Pistachio", 
+        "ja": "Pistachio",
+        "pt": "Pistachio", 
+        "ru": "Фисташка", 
+        "tr": "Pistachio",
+        "zh": "开心果", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "The green nut inside the thin shell is tasty and popular.", 
+        "ko": "The green nut inside the thin shell is tasty and popular.", 
+        "de": "Die grüne Nuss in der dünnen Schale ist lecker und sehr beliebt.",
+        "fr": "The green nut inside the thin shell is tasty and popular.", 
+        "hu": "The green nut inside the thin shell is tasty and popular.",
+        "it": "The green nut inside the thin shell is tasty and popular.", 
+        "ja": "The green nut inside the thin shell is tasty and popular.", 
+        "pt": "The green nut inside the thin shell is tasty and popular.",
+        "ru": "Зеленый орех под тонкой скорлупой вкусный и востребованный.", 
+        "tr": "The green nut inside the thin shell is tasty and popular.", 
+        "zh": "薄壳里面的绿色坚果很好吃，很受欢迎。",
+    },
+}

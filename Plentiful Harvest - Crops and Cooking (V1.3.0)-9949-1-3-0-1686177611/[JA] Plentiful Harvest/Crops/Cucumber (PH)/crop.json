@@ -1,0 +1,46 @@
+{
+    "Name": "Cucumber (PH)", 
+    "Product": "Cucumber (PH)",
+    "SeedName": "Cucumber Starter (PH)", 
+    "SeedDescription": "Plant these in the summer. Takes 8 days to mature and continues to produce after first harvest. Grows on a leaning wooden support.", 
+    "Type": "Vegetable", 
+    "CropType": "Normal", 
+    "Seasons": ["summer"], 
+    "Phases": [1, 1, 2, 2, 2], 
+    "RegrowthPhase": 3, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": true, 
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "STF.PlentifulHarvest", 
+    "SeedPurchasePrice": 90, 
+
+    "SeedNameLocalization":
+    {
+        "default": "Cucumber Starter",
+		"es": "Cucumber Starter", 
+        "ko": "Cucumber Starter", 
+        "de": "Gurken-Setzling", 
+        "fr": "Cucumber Starter", 
+        "hu": "Cucumber Starter", 
+        "it": "Cucumber Starter", 
+        "ja": "Cucumber Starter", 
+        "pt": "Cucumber Starter", 
+        "ru": "Огуречные черенки", 
+        "tr": "Cucumber Starter", 
+        "zh": "黄瓜种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plant these in the summer. Takes 8 days to mature and continues to produce after first harvest. Grows on a leaning wooden support.", 
+        "ko": "Plant these in the summer. Takes 8 days to mature and continues to produce after first harvest. Grows on a leaning wooden support.", 
+        "de": "Pflanze sie im Sommer. Wächst in 8 Tagen heran, kann aber danach mehrmals geerntet werden. Wächst an einem Rankgerüst.", 
+        "fr": "Plant these in the summer. Takes 8 days to mature and continues to produce after first harvest. Grows on a leaning wooden support.", 
+        "hu": "Plant these in the summer. Takes 8 days to mature and continues to produce after first harvest. Grows on a leaning wooden support.", 
+        "it": "Plant these in the summer. Takes 8 days to mature and continues to produce after first harvest. Grows on a leaning wooden support.", 
+        "ja": "Plant these in the summer. Takes 8 days to mature and continues to produce after first harvest. Grows on a leaning wooden support.", 
+        "pt": "Plant these in the summer. Takes 8 days to mature and continues to produce after first harvest. Grows on a leaning wooden support.", 
+        "ru": "Сажать летом. Вырастают через 8 дней, но затем продолжают плодоносить. Растут на покосившейся деревянной опоре.", 
+        "tr": "Plant these in the summer. Takes 8 days to mature and continues to produce after first harvest. Grows on a leaning wooden support.", 
+        "zh": "夏天种植。 需要8天成熟。第一次收获后继续结果。 生长在一个倾斜的木架上。", 
+    }
+}

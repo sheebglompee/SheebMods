@@ -1,0 +1,18 @@
+﻿{
+    "Name": "Tooting-Funnel Mushroom",
+    "Description": "These are delicious when fried up in butter. Known to give you gas though.",
+    "Category": "Greens",
+    "CategoryTextOverride": "Mushroom",
+    "Edibility": 15,
+    "Price": 50,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Tooting-Funnel-Mushroom",
+    "ContextTags": [
+    "color_white",
+    "forage_item",
+    "mushroom_item",
+    "forage_item_mines",
+  ],
+}

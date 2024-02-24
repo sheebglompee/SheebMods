@@ -1,0 +1,19 @@
+{
+  "Singular": "true",
+  "SingularBool": true,
+  "SubjectivePronoun": "She",
+  "ObjectivePronoun": "Her",
+  "PosessivePronoun": "Hers",
+  "Title": "Ms.",
+  "Adjective": "Gorgeous",
+  "SpouseNoun": "Wife",
+  "GenericNoun": "Girl",
+  "AdultAntiquatedNoun": "Lady",
+  "AdultFamilialNoun": "Daughter",
+  "ElderAntiquatedNoun": "Lass",
+  "ElderInformalNoun": "Hun",
+  "ElderFamilialNoun": "Daughter",
+  "ChildFamilialNoun": "Aunty",
+  "ServiceFormalNoun": "Miss",
+  "TraderNoun": "Miss"
+}

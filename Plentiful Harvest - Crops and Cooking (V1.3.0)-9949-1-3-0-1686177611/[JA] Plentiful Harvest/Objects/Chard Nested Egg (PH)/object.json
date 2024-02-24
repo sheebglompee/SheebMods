@@ -1,0 +1,87 @@
+{
+    "Name": "Chard Nested Egg (PH)", 
+    "Description": "Fried egg in a small nest of chard.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_red"
+        ],
+    "Edibility": 40, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 3,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 120,
+    }, 
+    "Price": 230, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Chard (PH)", 
+            "Count": 1,
+        },
+		{
+            "Object": 194, 
+            "Count": 1,
+        },
+		{
+            "Object": 247, 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Marnie", "Jodi"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Sebastian"],
+    },
+    
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Chard Nested Egg",
+		"es": "Chard Nested Egg", //Spansih
+        "ko": "Chard Nested Egg", //Korean
+        "de": "Eier in Mangold", //German
+        "fr": "Chard Nested Egg", //French
+        "hu": "Chard Nested Egg", //Hungarian
+        "it": "Chard Nested Egg", //Italian
+        "ja": "Chard Nested Egg", //Japanese
+        "pt": "Chard Nested Egg", //Portuguese
+        "ru": "Яйцо с мангольдом", //Russian
+        "tr": "Chard Nested Egg", //Turkish
+        "zh": "甜菜炒鸡蛋", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Fried egg in a small nest of chard.", //Spansih
+        "ko": "Fried egg in a small nest of chard.", //Korean
+        "de": "Gekochte Eier in einem kleinen Mangoldnest.", //German
+        "fr": "Fried egg in a small nest of chard.", //French
+        "hu": "Fried egg in a small nest of chard.", //Hungarian
+        "it": "Fried egg in a small nest of chard.", //Italian
+        "ja": "Fried egg in a small nest of chard.", //Japanese
+        "pt": "Fried egg in a small nest of chard.", //Portuguese
+        "ru": "Жареное яйцо в маленьком гнездышке из мангольда.", //Russian
+        "tr": "Fried egg in a small nest of chard.", //Turkish
+        "zh": "在甜菜窝里煎鸡蛋。", //Chinese (Simplified)
+    },
+	
+}

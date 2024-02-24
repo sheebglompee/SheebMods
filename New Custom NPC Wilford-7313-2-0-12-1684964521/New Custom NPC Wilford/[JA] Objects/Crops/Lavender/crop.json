@@ -1,0 +1,31 @@
+{
+    "Name": "Lavender WL",
+    "Product": "Lavender Twigs WL",
+    "SeedName": "Lavender Seeds WL",
+    "SeedDescription": "Grows in spring in 8 days. One bush gives several lavender flowers.",
+    "Type": "Flower",
+    "Seasons": ["spring"],
+    "Phases": [1, 2, 3, 2],
+	"SeedPurchaseFrom": "WilfordShop",
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": true,
+	"TrellisCrop": false,
+    "Colors": null,
+	"Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 3,
+		"MaxIncreasePerFarmLevel": 5,
+	    "ExtraChance": 0.2
+    },
+	"SeedNameLocalization" : {
+		"default": "Lavender",
+        "pt": "Sementes de alfazema",
+        "ru": "Семена Лаванды",
+        "zh": "薰衣草种子"
+	},
+	"SeedDescriptionLocalization" : {
+        "pt": "Cresce na Primavera em 8 dias. Um arbusto dá várias flores de lavanda.", 
+        "ru": "Растет весной за 8 дней. Один кустик дает несколько лавандовых цветков.",
+        "zh": "在春季8天内生长。一丛就能开出几朵淡紫色的花。"
+	}
+}

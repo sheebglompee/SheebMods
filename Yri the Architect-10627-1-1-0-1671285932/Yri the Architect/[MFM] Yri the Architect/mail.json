@@ -1,0 +1,125 @@
+[
+
+	{
+		//Mail after Yri Introduction
+
+		"Id": "YriIntroduction",
+		"Title": "Hello!", 
+		"Text": "^^Dear @,^^ I'm sorry we had to cut the conversation short yesterday.^ If you need something built, visit Robin. She has some blueprints for farm buildings I made. I can't wait to see the progress on your farm. So keep me updated!^^ - Yri",
+		"LetterBG": "YriLetterBG.png",
+        "Repeatable": false, 
+		"EventsSeen": 
+		[
+			"106270001",
+		],
+	},
+
+	{
+		//Mail invite to the construction site.
+
+		"Id": "YriConstructionsiteInvite",
+		"Title": "Wanna tag along?", 
+		"Text": "^^Dear @,^^ I'm going out of town to visit one of my projects on friday.^ I thought it would be fun if you and I go together, I can show you a bit of my work and then we'll go eat something together?^ If you're interested, meet me at the bus station on friday at 10 AM.^ - Yri",
+		"LetterBG": "YriLetterBG.png",
+        "Repeatable": false, 
+		"FriendshipConditions": [
+        {
+          "NpcName": "Yri",
+          "FriendshipLevel": 8
+        }
+      ]
+	},
+	{
+		//Tea invite
+
+		"Id": "YriTeaInvite",
+		"Title": "Join me for some tea?", 
+		"Text": "^^Dear @,^^ I thought it would be nice to spend some time together.^ How about you visit me when you have time and we'll drink some tea and talk a bit?^ - Yri",
+		"LetterBG": "YriLetterBG.png",
+        "Repeatable": false, 
+		"FriendshipConditions": [
+        {
+          "NpcName": "Yri",
+          "FriendshipLevel": 4
+        }
+      ]
+	},
+
+	{
+		//Coop Built
+
+    	"Id": "YriCoopBuilt",
+    	"Title": "Good Job!",
+    	"Text": "^^Hi @,^ Robin told me you commissioned a coop! I hope everything is to your liking. If the coop gets too small for your needs, feel free to talk to Robin for an upgrade!^ - Yri",
+		"LetterBG": "YriLetterBG.png",
+    	"Repeatable": false,
+		"Buildings": ["Coop"],
+	},
+
+	{
+		//Deluxe Coop Built
+
+    	"Id": "YriCoopBuilt",
+    	"Title": "How's the upgrade?",
+    	"Text": "^^Hello @,^ I just got my portion of the commission fee for the coop upgrade. So I wanted to check in if everything is to your liking? Let me know if something isn't up to code.^ - Yri",
+		"LetterBG": "YriLetterBG.png",
+    	"Repeatable": false,
+		"Buildings": ["Deluxe Coop"],
+	},
+	
+	//{
+		//Full House.
+
+    	//"Id": "YriEverythingBuilt",
+    	//"Title": "Congratulations!",
+    	//"Text": "^^Hello @,^ Robin and I noticed that you built all buildings we can offer!^ As thanks for being our Number 1. customer we prepared a surprise for you. If you have the time visit Robin's house. See you there.^ - Yri",
+			//"LetterBG": "YriLetterBG.png",
+    	//"Repeatable": false,
+    	//"Buildings": ["Coop, Big Coop, Deluxe Coop, Barn, Big Barn, Deluxe Barn, Silo, Slime Hutch, Shed, Big Shed, Mill, Fish Pond"],
+			//"RequireAllBuildings": true,
+	//},
+
+	{
+		//Mail after Quest Completion Yri
+
+		"Id": "YriQuestDone",
+		"Title": "A beautiful foundation!", 
+		"Text": "^^Hello, dear @,^^ Thank you again for completing our request.^ I was very happy to work with the stone you brought us.^ Robin complimented the high quality and I too have to praise you. The foundation looks amazing. And it's all thanks to you! Thank you!^ - Yri",
+		"LetterBG": "YriLetterBG.png",
+        "Repeatable": false, 
+		"EventsSeen": [
+			"106270009"
+		],
+	},
+	{
+		//Mail after player accepted to go with Yri
+
+		"Id": "FarmerSaidYes",
+		"Title": "I'm so nervous", 
+		"Text": "^^Hello @,^^ I'm glad you decided to come with us.^ Please visit me at my house between 3 PM and 8 PM whenever you're ready to go see Lewis.^ - Yri",
+		"LetterBG": "YriLetterBG.png",
+        "Repeatable": false, 
+        "EventsSeen": [
+			"106270016"
+		],
+	},
+
+	{
+		//Mail for the Proposal
+
+		"Id": "CharlesIsReady",
+		"Title": "Operation NightSky", 
+		"Text": "Hey @,^ I prepared everything for Operation Nightsky!^ Cool name, don't you think? I hope you join us at the busstop at around 6 PM on a sunny Saturday.^ Seb will inform you about everything while I distract Yri until everything is ready.^ - Charles",
+		"LetterBG": "CharlesLetterBG.png",
+        "Repeatable": false, 
+		"EventsSeen": [
+			"106270029"
+		],
+		"FriendshipConditions": [
+        {
+          "NpcName": "Charles",
+          "FriendshipLevel": 10
+        }
+      ]
+	},
+]

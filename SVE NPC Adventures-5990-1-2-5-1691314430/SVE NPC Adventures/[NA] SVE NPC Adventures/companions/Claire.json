@@ -1,0 +1,46 @@
+{
+  "Format": "2.0",
+  "Name": "Claire",
+  "Skills": [
+    { 
+	  "Name": "scared",
+	  "Duration": "500",
+	},
+    {
+      "Name": "charmer",
+      "GrantFriendshipFactor": "0.8",
+      "ExtraFriendshipPoints": 5,
+      "Description": "[claire.charmer]"
+    },
+	{ "Name": "forager" }
+  ],
+  "Rules": {
+    "!f Claire 1250": "reject",
+    "t 700 2200": "accept"
+  },
+  "Buffs": {
+    "Crafting": 1,
+    "MaxStamina": 75
+  },
+  "BuffsDescription": "[claire.buffs]",
+  "IdleBehaviors": [
+    {
+      "Behavior": "Animate",
+      "Animations": [
+        "claire_dance",
+        "claire_book" 
+      ],
+      "Tendency": 5,
+      "MinDuration": 10,
+      "MaxDuration": 30
+    },
+    {
+      "Behavior": "Lookaround",
+      "FaceMinSeconds": 2,
+      "FaceMaxSeconds": 7,
+      "Tendency": 2,
+      "MinDuration": 10,
+      "MaxDuration": 30
+    }
+  ]
+}

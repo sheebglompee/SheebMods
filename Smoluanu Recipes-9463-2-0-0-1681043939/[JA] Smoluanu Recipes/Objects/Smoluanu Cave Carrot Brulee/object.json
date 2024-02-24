@@ -1,0 +1,90 @@
+{
+	"Name": "Smoluanu Cave Carrot Brulee", 
+	"Description": "A sweet cave carrot treat.",
+	"Category": "Cooking",
+  
+	"Edibility": 44,
+	"EdibleIsDrink": false,
+  
+	"EdibleBuffs": {
+					"Farming": 0,
+					"Fishing": 0,
+					"Mining": 0,
+					"Luck": 0,
+					"Foraging": 0,
+					"MaxStamina": 0,
+					"MagnetRadius": 0,
+					"Speed": 0,
+					"Defense": 0,
+					"Attack": 0,
+					"Duration": 0
+  },
+  
+	"Price": 260,
+  
+	"IsColored": false,
+  
+	"Recipe": {
+			  "ResultCount": 1,
+			  
+			  "Ingredients": [
+								{
+								   "Object": 78, 
+								   "Count": 1
+								},
+								{
+								   "Object": 245,
+								   "Count": 1
+								},
+								{
+								   "Object": -6,
+								   "Count": 1
+								},
+								{
+								   "Object": -5,
+								   "Count": 1
+								}
+			      ],
+			   
+			   "IsDefault": "False",
+			   
+			   "CanPurchase": "True",
+			   "PurchaseFrom": "Dwarf",		   
+			   "PurchasePrice": 200,
+			   
+			   "PurchaseRequirements": ["f Dwarf 1000"],
+			},
+  
+	"GiftTastes": { 
+						     "Love": ["Dwarf","Emily","Leah","Maru","Penny"]
+	},
+	"NameLocalization":
+    {
+		//"es": "",
+		//"ko": "",
+		//"de": "",
+		"fr": "La crème brûlée aux carottes des cavernes",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		"ru": "Крем-брюле из пещерной моркови"
+		//"tr": "",
+		//"zh": ""
+       
+    },
+    "DescriptionLocalization":
+	{
+		//"es": "",
+		//"ko": "",
+		//"de": "",
+		"fr": "Un dessert sucré de carottes des cavernes.",
+		//"hu": "",
+		// "it": "",
+		//"ja": "",
+		//"pt": "",
+		"ru": "Сладкое лакомство из пещерной моркови."
+		//"tr": "",
+		//"zh": "",
+	}
+}

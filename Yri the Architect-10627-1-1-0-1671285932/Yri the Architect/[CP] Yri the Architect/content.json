@@ -1,0 +1,281 @@
+{
+  "Format": "1.24.0",
+
+
+//Config
+
+    "ConfigSchema":
+    {
+        "OptionalEvents":
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds lorefriendly optional events"
+        },
+        "OptionalEventsPersonal":
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds 2 more personal optional events"
+        },
+        "SeasonalOutfits":
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Enables seasonal outfits"
+        },
+        "NalaPortrait":
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Enables alternative Portrait for Nala"
+        },
+    },
+
+
+
+
+//Custom Locations
+ 
+    "CustomLocations":
+    [
+        // Adds Yri's house
+
+        { 
+            "Name": "Custom_Yri_House",
+            "FromMapFile": "assets/Maps/Yri_House.tmx"
+        },
+    ],
+
+ "DynamicTokens": [
+        { 
+            "Name": "SO",
+            "Value": "boyfriend"
+        },
+        {
+            "Name": "SO",
+            "Value": "fiance",
+            "When": {
+                "HasSeenEvent": "1062700030"
+            }
+        },
+   {
+            "Name": "SO",
+            "Value": "husband",
+            "When": {
+                "HasSeenEvent": "1062700040"
+            }
+        }
+],
+
+  "Changes": [
+
+//Warp from ES into Yri's house
+
+        {
+        "Action": "EditMap",
+        "Target": "Maps/Custom_EastScarpe",
+        "MapTiles":
+            [
+                {
+                    "Position":
+                    {
+                        "X":50 ,
+                        "Y":50
+                    },
+
+                    "Layer": "Buildings",
+                    "SetProperties":
+                    {
+                        "Action": "Warp 10 20 Custom_Yri_House"
+                    }
+                }
+            ],
+                "When": { "HasMod: |contains=LemurKat.EastScarpe.CP": true },
+        },
+
+//Warp from Yri's house to ES
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Yri_House",
+            "AddWarps":
+            [
+                "10 22 Custom_EastScarpe 50 51"
+            ]
+        },
+
+//Temp Maps
+        {
+            "Action": "Load",
+            "Target": "Maps/YriConstructionsite",
+            "FromFile": "assets/Maps/Constructionsite.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/YriNightScene",
+            "FromFile": "assets/Maps/YriNightScene.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/YriNightSceneCG",
+            "FromFile": "assets/Maps/YriNightSceneCG.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/CharlesComfort",
+            "FromFile": "assets/Maps/CharlesComfort.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/MountainScene",
+            "FromFile": "assets/Maps/MountainScene.tmx"
+        },
+
+
+//Temp Actors
+        {
+            "Action": "Load",
+            "Target": "Characters/Maurice",
+            "FromFile": "assets/tempActors/sprites/Maurice.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Maurice",
+            "FromFile": "assets/tempActors/portraits/Maurice.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Nala",
+            "FromFile": "assets/tempActors/portraits/Nala.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Nala",
+            "FromFile": "assets/tempActors/sprites/Nala.png"
+        },
+        
+
+//Sprites + Portrait
+
+        {
+            "LogName": "Loading Yri and Charles Sprites",
+            "Action": "Load",
+            "Target": "Characters/Yri, Characters/Charles",
+            "FromFile": "assets/Characters/{{TargetWithoutPath}}.png",
+            "When": {
+                        "SeasonalOutfits": false,
+                    },
+        },
+
+        {
+            "LogName": "Loading Yri and Charles Portraits",
+            "Action": "Load",
+            "Target": "Portraits/Yri, Portraits/Charles",
+            "FromFile": "assets/Portraits/{{TargetWithoutPath}}.png",
+            "When": {
+                        "SeasonalOutfits": false,
+                    }, 
+        },
+        
+//Yri Event
+        {
+            "LogName": "Yri MountainScene",
+            "Action": "Load",
+            "Target": "Characters/Yri_Event",
+            "FromFile": "assets/Characters/Yri_Event.png"
+        },
+        {
+            "LogName": "Yri MountainScene",
+            "Action": "Load",
+            "Target": "Portraits/Yri_Event",
+            "FromFile": "assets/Portraits/Yri_Event.png"
+        },
+        
+//Dialogue
+        {
+            "LogName": "Loading Yri and Charles Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Yri, Characters/Dialogue/Charles",
+            "FromFile": "Data/Dialogue/Blank.json",
+        },
+
+//Schedule 
+        {
+            "LogName": "NPC Schedule blanks",
+            "Action": "Load",
+            "Target": "Characters/schedules/Yri, Characters/schedules/Charles",
+            "FromFile": "Data/Dialogue/blank.json",
+        },
+
+//Includes
+        {
+            "Action": "Include",
+            "FromFile": "Data/VillagerDialogue.json, Data/Festivals/Festivals.json, Data/Festivals/FestivalDialogue.json, Data/ConversationTopics.json, Data/NPCData.json, Data/Dialogue/Yri_Dialogue.json, Data/Dialogue/Charles_Dialogue.json, Data/schedules/Yri_schedule.json, Data/schedules/Charles_schedule.json, Data/Strings.json, Data/DialogueForOtherMods.json, Data/Animations.json, Data/Events/EventData.json, Data/Events/EventDataCharles.json"
+        },
+
+        {
+            "Action": "Include",
+            "FromFile": "Data/Events/OptionalEventData.json",
+            "When": {
+                        "OptionalEvents": true,
+                    },
+        },
+        {
+            "Action": "Include",
+            "FromFile": "Data/Events/OptionalEventDataPersonalTopics.json",
+            "When": {
+                        "OptionalEventsPersonal": true,
+                    },
+        },
+        {
+            "Action": "Include",
+            "FromFile": "Data/Festivals/FestivalOutfits.json",
+            "When": {
+                        "SeasonalOutfits": true,
+                    },
+        },
+        {
+            "Action": "Include",
+            "FromFile": "Data/SeasonalOutfits.json",
+            "When": {
+                        "SeasonalOutfits": true,
+                    },
+        },
+        {
+            "Action": "Include",
+            "FromFile": "Data/Nala/NalaOriginalPath.json",
+            "When": {
+                        "NalaPortrait": true,
+                    },
+        },
+        {
+            "Action": "Include",
+            "FromFile": "Data/Nala/NalaAirynPath.json",
+            "When": {
+                        "NalaPortrait": false,
+                    },
+        },
+
+
+//Event Map Yri's House
+        {
+            "Action": "Load",
+            "Target": "Data/Events/Custom_Yri_House",
+            "FromFile": "Data/Dialogue/blank.json",
+        },
+
+//MOD COMPATIBILITY
+
+    //Mobile Phone
+   
+        {
+            "LogName": "Mobile Phone",
+            "Action": "Include",
+            "FromFile": "Data/MobilePhone.json",
+            "When": 
+            {
+            "HasMod": "aedenthorn.MobilePhone"
+            },
+        },
+    ]
+ }

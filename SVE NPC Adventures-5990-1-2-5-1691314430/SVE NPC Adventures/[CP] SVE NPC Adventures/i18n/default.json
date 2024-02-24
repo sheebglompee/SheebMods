@@ -1,0 +1,10 @@
+{
+  "Config.NewStyle.name": "NewStyle",
+  "Config.NewStyle.description": "Use new style sprites",
+  "Config.Noses.name": "Noses",
+  "Config.Noses.description": "Use sprites with noses",
+  "Config.MarlonOriginalStyleFlowerDance.name": "MarlonOriginalStyleFlowerDance",
+  "Config.MarlonOriginalStyleFlowerDance.description": "Use new style Suite for Marlon in the Flower Dance",
+  "Config.OliviaShortWeddingDress.name": "OliviaShortWeddingDress",
+  "Config.OliviaShortWeddingDress.description": "Use a short dress for Olivia in the wedding"
+}

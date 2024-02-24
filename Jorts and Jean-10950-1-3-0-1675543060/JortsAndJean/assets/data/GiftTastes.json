@@ -1,0 +1,231 @@
+{
+	"Changes": 
+    [
+		{
+            "LogName": "Jorts and Jean Gift Taste Data",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries":
+            {
+                "JortsCat": "Oh, thank you, thank you, thank you, @! This is my favorite!/280 416 -4 -6 424 426 168 227/This smells good, @! I really like it!/372 874 242 214 198 209 212 730 728 729 732 142 -80/This is kind of scrungy... and not in a good way./876 194 -12 -2 -8 -5/@...why are you being mean?/167 171 399 248 215 260 226 907/I'm not really sure what this is, but thank you!$h/-25 -26 -75 -79/",
+				
+				"JeanCat": "Oh, this is lovely! Thank you for sharing it with me, purrr./426 832 829 -4 -6 424 227/Thank you. This is quite a suitable offering./874 812 242 214 198 209 212 730 728 729 732 -5/@... You do know I'm a cat, right? How can I use this?/876 -12 -8 -2/HSSSS!/167 171 399 248 215 260 226 907/Thank you for thinking of me, @./-25 -26 -75 -79 -80/"
+			}
+		},
+		//Modded item gift tastes
+		//with Host Trees
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"When": { "HasMod: |contains=tiakall.hosttrees": true},
+			"TextOperations": [
+				
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "JortsCat", 1], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Spanish Moss Thread}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "JeanCat", 1], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Spanish Moss Thread}}",
+					"Delimiter": " "
+				},
+			],
+		},
+		//with Strange Machines
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"When": { "HasMod: |contains=Taiyo.JAStrangeMachines": true},
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "JortsCat", 1], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Big Cheese}} {{spacechase0.JsonAssets/ObjectId:Big Goat Cheese}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "JeanCat", 1], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Big Cheese}} {{spacechase0.JsonAssets/ObjectId:Big Goat Cheese}}",
+					"Delimiter": " "
+				},
+			],
+		},
+		//with RSV
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"When": { "HasMod: |contains=Rafseazz.RSVJA": true},
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "JortsCat", 1], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Kedi Delight}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "JeanCat", 1], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Kedi Delight}}",
+					"Delimiter": " "
+				},
+			],
+		},
+		//with Joja Crops
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"When": { "HasMod: |contains=CopperSun.JojaSeedsJA": true},
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "JortsCat", 7], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Winterstar Fruit (Joja)}} {{spacechase0.JsonAssets/ObjectId:Sweet Joja Berry}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "JeanCat", 7], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Winterstar Fruit (Joja)}} {{spacechase0.JsonAssets/ObjectId:Sweet Joja Berry}}",
+					"Delimiter": " "
+				},
+			],
+		},		
+		//with Marshmallows in Stardew
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"When": { "HasMod: |contains=callysquared.marshmallows": true},
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "JortsCat", 1], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Marshmallow}} {{spacechase0.JsonAssets/ObjectId:Blue Marshmallow}} {{spacechase0.JsonAssets/ObjectId:Rainbow Marshmallow}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "JeanCat", 3], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Marshmallow}} {{spacechase0.JsonAssets/ObjectId:Blue Marshmallow}} {{spacechase0.JsonAssets/ObjectId:Rainbow Marshmallow}}",
+					"Delimiter": " "
+				},
+			],
+		},	
+		
+		//with Wildflour mods
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"When": { "HasMod: |contains=wildflour.atelierteas": true},
+			"TextOperations": [
+				
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "JortsCat", 1], 
+					"Value": "tea_sachet_item",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "JeanCat", 1], 
+					"Value": "tea_sachet_item",
+					"Delimiter": " "
+				},
+			],
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"When": { "HasMod: |contains=wildflour.ateliercandy": true},
+			"TextOperations": [
+				
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "JortsCat", 1], 
+					"Value": "marshmallow_item",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "JeanCat", 3], 
+					"Value": "tea_sachet_item",
+					"Delimiter": " "
+				},
+			],
+		},
+		
+		//with Hey Kitties
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"When": { "HasMod: |contains=Sebbit.Kitty.A": true},
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "JortsCat", 1], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Catnip}} {{spacechase0.JsonAssets/ObjectId:Dried Candlefish}}  {{spacechase0.JsonAssets/ObjectId:Matatabi}} {{spacechase0.JsonAssets/ObjectId:Mouse Toy}}  {{spacechase0.JsonAssets/ObjectId:Tuna Can For Cats}}",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "JeanCat", 1], 
+					"Value": "{{spacechase0.JsonAssets/ObjectId:Catnip}} {{spacechase0.JsonAssets/ObjectId:Dried Candlefish}}  {{spacechase0.JsonAssets/ObjectId:Matatabi}} {{spacechase0.JsonAssets/ObjectId:Mouse Toy}}  {{spacechase0.JsonAssets/ObjectId:Tuna Can For Cats}}",
+					"Delimiter": " "
+				},
+			],
+		},
+		
+		{   
+			"Action": "EditData",
+			"Target": "Data/ConcessionTastes",
+			"Entries": { 
+				"JortsCat": {
+					"Name": "JortsCat",
+					"LovedTags": [
+						"Nachos",
+						"Salmon Burger",
+					],
+					"LikedTags": [
+						"Truffle Popcorn",
+						"Salted Peanuts",
+					],
+					"DislikedTags": [
+						"Sweet",
+						"Drink",
+						"Fatty",
+						"Joja",
+						"Panzanella Salad",
+					]
+				} 
+			}
+		},
+		
+		{   
+			"Action": "EditData",
+			"Target": "Data/ConcessionTastes",
+			"Entries": { 
+				"JeanCat": {
+					"Name": "JeanCat",
+					"LovedTags": [
+						"Black Licorice",
+						"Salmon Burger",
+					],
+					"LikedTags": [
+						"Truffle Popcorn",
+						"Salted Peanuts",
+					],
+					"DislikedTags": [
+						"Sweet",
+						"Drink",
+						"Fatty",
+						"Joja",
+						"Panzanella Salad",
+					]
+				} 
+			}
+		}
+	],
+}

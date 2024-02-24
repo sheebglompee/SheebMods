@@ -1,0 +1,141 @@
+{
+    "Changes":
+    [
+      {
+            "LogName": "Charles Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Charles",
+            "Entries":  
+            
+      {
+//Introduction
+
+  "Introduction": "Hello. I'm Charles. Nice to meet you.",
+
+//Weekdays  
+
+  "Mon": "Hi.#$e#Hmm... Oh, sorry. I'm working.#$e#Are you here to see Yri?",
+  "Mon2": "Hello.#$e#Can I help you?#$e#Sorry, I'm not too talkative.#$e#Yri talks enough for the both of us.$h",
+  "Mon4": "Hello.#$e#Sorry if it seems like I'm ignoring you. I just don't have much to say.",
+  "Mon6": "Yri talks a lot about you.#$b#She really likes you.",
+  "Mon8": "I know I'm not the most talkative person. I appreciate that you still talk to me every time you come over.$h",
+  "Mon10": "Yri and I have been together for years.#$e#She's still as beautiful as the day I met her.",
+  
+  "Tue": "How did you find me here?",
+   
+  "Wed": "Hi.#$e#What do I do for a living?#$b#I work as a web developer.",
+  "Wed2": "%Charles is fully focused on his work and doesn't seem to notice you.",
+  "Wed4": "Oh. Sorry. You were saying something?#$e#I'm fine, thanks for asking.#$e#And you?",
+  "Wed6": "Sometimes I talk to Sebastian if I get stuck on a bug.#$e#He knows a lot.",
+  "Wed8": "Yri loves flowers. She takes a lot of inspiration from nature.#$e#It's cute.$h",
+  "Wed10": "We were lucky to crash at Robin's after we arrived in Pelican Town.#$e#We're in the same age range as her children.#$e#I think Sebastian and I get along well.",
+  
+  "Thu": "Sorry, I don't have much to say.",
+  "Thu2": "Yri walks Nala every morning and we walk together every evening.#$e#It's our form of taking a break.$h",
+  "Thu4": "Hello, @. I hope everything is going well with the farm?",
+  "Thu6": "I wouldn't say I'm shy. I just don't have much to say.#$e#I simply like to listen to people.",
+  "Thu8": "Hi. @, I know this is random but I just want to say I'm glad you're such a good friend to us.#$e#I'm glad you're here.",
+  "Thu10": "I have many acquaintances, but only a few friends.#$e#I'm happy to count you as a friend.",
+  
+  "Fri": "Hi.#$e#Yri isn't home today.#$e#She's on a construction site.",
+  "Fri2": "What do I do for fun?#$b#I like to play video games.",
+  "Fri4": "Nala is a great dog. She's such a cuddlebug.#$e#Huh? Why I call her that? Oh, Yri likes to call her that. I just adapted it.",
+  "Fri6": "I was working with Joja before I went freelance.#$e#I like this arrangement better though. I wasn't build for corporate work.",
+  "Fri8": "Sometimes I'm worried that I don't do enough.#$e#I only work, eat, sleep, repeat.#$e#I have to force myself to go out once a week...$s#$b#I'm glad Yri is the one who forces me to go out every once in a while.$h",
+  "Fri10": "My family was quite surprised when I told them Yri and I are a couple.#$b#Why? I never told them about her until she introduced herself.#$b#They're still mad about that.#$b#I know, don't look at me like that. I feel bad too.",
+  
+  "Sat": "Yes. I work on Saturdays",
+  "Sat2": "Be careful if you befriend Yri.#$e#Haha, don't look at me like that, I was just joking.$h#$b#Yri is super nice, don't worry.",
+  "Sat4": "Nala was originally Yri's dog.#$e#She loves her to bits.#$e#I of course love her too. She's part of our family.$l",
+  "Sat6": "If you ever need a website promoting your farm, you can come to me.#$e#I would be happy to work on it.",
+  "Sat8": "You and Yri are very similar.#$e#The both of you are very persistant.#$e#Don't worry, that's a good thing.",
+  "Sat10": "I don't really feel the need to talk. I'm glad you understand this.#$e#A lot of people think I'm rude, but I'm just the listener type.",
+  
+  "Sun": "I promised Yri I'd take care of the garden every Sunday.#$e#I didn't like it at first, but it's not that bad actually.",
+  "Sun2": "Hi.#$e#Sundays are my days off.",
+  "Sun4": "Hello, @.#$e#Hmm, what will I do today? Probably garden work and then play some games.#$e#Nothing too fancy.",
+  "Sun6": "I'm glad to see you and Yri getting along well.#$e#She's been working a lot and hasn't had much time to socialize.#$e#Thank you.",
+  "Sun8": "Sometimes I wonder why Yri is so fascinated with me.#$e#I'm just sitting here merely existing.#$e#But I'm happy it's the way it is because I feel the same way about her.$l",
+  "Sun10": "Yri's wanted to marry me since the day we met.#$e#Yes, she's hopeless.#$e#But I still love her for that.",
+  
+//Seasons
+
+  "spring_Mon": "Hello.#$e#I feel quite energetic today, so I think I can get some work done.",
+  "spring_Wed": "Spring is nice.#$e#Maybe I should go outside some more.#$e#Hmm...",
+  "spring_Thu": "Hi.#$e#Feel free to stay.",
+  "spring_Fri": "I talk a lot about Yri, I know. I think it's because she and I spend so much time together.#$e#Does she talk about me too?",
+  "spring_Sat": "Sometimes I wonder if people think that I'm a broken record.#$b#You know, I don't have much to say and when I talk I always repeat the same old line.$s",
+  "spring_Sun": "Working in the garden is actually quite therapeutic, don't you think?",
+  
+  "summer_Mon": "I'm glad we have air-conditioning#$e#My computer can heat up the room quite quickly.",
+  "summer_Wed": "Summer isn't my season.#$e#I already woke up sweating.$s",
+  "summer_Thu": "I wish I could sleep in on Saturdays, but the sun is already up at an ungodly hour.#$e#Maybe I can talk to Yri about getting some blinds.",
+  "summer_Fri": "Yri loves horror.#$b#I know she doesn't look the type, but it's true.$h",
+  "summer_Sat": "Hello.#$b#%There's huge rings under Charles' eyes. He looks like he hasn't slept in quite some time.",
+  "summer_Sun": "Have you been to the Fern Isles before?#$b#We live in a state of endless summer there.#$b#It might be a dream for many, but I was never someone who could handle heat very well...$s",
+  
+  "fall_Mon": "Do you cook for yourself?#$b#We're mostly too busy to cook, so we order a lot of food from Gus.",
+  "fall_Wed": "It's harvest season, right?#$e#I hope you have a plentiful harvest.",
+  "fall_Thu": "Do you grow sunflowers on your farm?#$b#I would love to buy some from you if you do. I like eating the seeds$h",
+  "fall_Fri": "Yri works too much. Sometimes I feel like she forgets I'm even there...$s",
+  "fall_Sat": "I moved with Yri when she went to the Gotoro Empire.#$b#I left all my friends behind on the Fern Isles.#$b#But it isn't too bad. We still chat over Harmony.",
+  "fall_Sun": "I feel like the leaves never stop falling in fall. I have to clean the walkway ever day.$s",
+  
+  "winter_Mon": "Winter is my favorite season.#$e#Why? I just like the cold.",
+  "winter_Wed": "Are you cold?#$e#No? Okay.",
+  "winter_Thu": "Yri hates the cold.#$e#She often borrows my hoodies, but she looks cute in them.$l",
+  "winter_Fri": "Be careful, the roads are quite icy.",
+  "winter_Sat": "I think the best part of winter is looking outside and watching the snow fall.",
+  "winter_Sun": "Do you have a fireplace in your house?#$b#On cold winter days, nothing feels better than to sit next to a hot fire.$h",
+
+  //Special Days (Birthdays etc.)
+
+  "spring_27": "Tomorrow is Yri's birthday.#$b#Oh, curious about what I got her?#$b#You aren't a spy sent by her, are you?#$b#Okay, keep it a secret but I got us tickets to ZuzuLand.$h",
+  "spring_28": "Yri loved her gift. She's been smiling all day$h",
+  "spring_7": "Yri got Lewis a present. I don't know why, but it makes her happy so I'm happy too.$h",
+  "spring_10": "Vincent is such a cute child...#$b#I wish we had one too.",
+  "spring_12": "Tomorrow is the Egg Festival?#$b#Oh yeah, I remember, Yri told me about it.#$b#Yeah, we'll be there.", // Day before the Egg Festival
+  "spring_23": "I can't wait to dance with Yri tomorrow.#$b#She's a terrible dancer.$h", // Day before the Flower Dance
+  "summer_9": "It's Maru's birthday tomorrow. Sebastian and I went shopping in Zuzu City to get her something nice.",
+  "summer_10": "Do you know what you want to put into the soup tomorrow?#$b#Yri got a lot of coconuts from her parents, so we'll add them.", // Day before the Luau
+  "summer_19": "Demetrius and I don't really get along well, but I'll gift him something anyway.#$b#But only because Yri convinced me.$s",
+  "summer_24": "I got Willy a new fishing rod. I hope he likes it.",
+  "summer_27": "The Dance of the Moonlight Jellies is one of my favorite events.#$b#I have something special planned for it.$h#$b#Sorry, it's a secret so I can't tell.", // Day before the Midnight Jellies
+  "fall_15": "Are you prepared for the fair? I'm sure you'll score high.$h", // Day before the Stardew Fair
+  "fall_21": "It's Robin's birthday today. We're going over later to celebrate with her.$h",
+  "fall_26": "Are you attending the Spirit's Eve festival tomorrow? Yri and I helped a bit with the decoration. I hope you like it.$h", // Day before Spirit's Eve
+  "winter_7": "I want to build a snowman with Yri. Sometimes it's nice to be a child again.$h", // Day before the Ice Festival
+  "winter_10": "I sent Seb a digital birthday cake over Harmony at 3 AM.#$b#And he replied instantly.#$b#. I'm glad I'm not the only one with a messed-up sleep schedule.$h",
+  "winter_14": "The Night Market is a great place for us to stock up on Fern Isles products.",
+  "winter_23": "Leah stopped by this morning to chat a bit with Yri.#$b#The two made plans to celebrate Leah's birthday at the Stardrop Saloon.",
+  "winter_24": "Who's your secret friend?#$b#Mine? I got Clint. I don't know him well, but Yri told me he likes blues so I got him a CD.$h", // Day before Winter Star
+  "winter_28": "Only a few hours until New Year. Looking back at it, I hope you had a good year, @.",
+
+//Conversation Topics 
+  "joja_Begin": "...Joja. Of course they would turn it into a warehouse.$s",
+  "cc_Begin":"You want to repair the shed?#$b#Oh, it's a community center?#$b#Hmm... Yeah, I think I remember. Good luck",
+  "cc_Bridge":"We saw that you repaired the bridge.#$b#Good job.",
+  "cc_Bus":"The bus is running again? That's great news.#$b#I mean it.",
+  "cc_Minecart":"The town used to have a rather large mining industry.#$b#Evelyn told me about it. Maybe this will help out Clint.",
+  "cc_Complete": "Yri is so happy. She's been talking nonstop about the community center.#$b#Thank you, @.",
+  "movieTheater": "I can't wait to take Yri to the new theater.#$b#Did you know that she loves horror movies?",
+  "pamHouseUpgrade": "Yri told me about Pam and Penny's new place. You truly have a heart of gold.#$b#I'm sure Pam and Penny are grateful beyond means",
+  "pamHouseUpgradeAnonymous": "Yri told me about Pam and Penny's new place. Don't worry about me, I takes secrets to the grave.#$b#You truly have a heart of gold.#$b#I'm sure Pam and Penny are grateful beyond means.",
+    
+//LOCATIONAL DIALOGUE   
+
+  "Saloon": "Hello. Yri and I try to spend some time together each day.",
+  "Saloon2": "%Charles is listening to Yri. He seems to be enjoying it.",
+  "Saloon4": "%Charles looks over to Yri. He doesn't say anything but his smile says everything. I'd better leave those two lovebirds alone.",
+  "Saloon6": "Yri forces me to come here.#$e#I don't mind though. It's the highlight of our week.$h",
+  "Saloon8": "Good evening.#$e#I suppose going out from time to time isn't that bad.$h",
+  "Saloon10": "Why don't you stay a bit with us?$h",
+  "Saloon_Sat2": "%Charles listens to Yri while she talks enthusiastically about her day.#$e#You can see that Charles is fully focused on her.",
+  "Saloon_Sat4": "Hello.#$e#Yri was just talking about you.",
+  "Saloon_Sat6": "Before we came here, we were on a walk with our dog.#$e#It's a simple life, but I enjoy days like these.$h",
+  "Saloon_Sat8": "I'm tired, but I'm still happy to be here.#$e#%Charles glances over to Yri and the two exchange smiles.",
+  "Saloon_Sat10": "%Charles doesn't speak a word but you can see that he's happy.",
+}
+}
+]
+}

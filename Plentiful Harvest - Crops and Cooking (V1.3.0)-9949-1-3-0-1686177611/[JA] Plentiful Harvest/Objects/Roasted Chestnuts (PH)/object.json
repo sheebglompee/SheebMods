@@ -1,0 +1,67 @@
+{
+    "Name": "Roasted Chestnuts (PH)", 
+    "Description": "Roasted in the oven, not an open fire. Still tasty, though!", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_brown",
+        "dye_medium"
+        ],
+    "Edibility": 65, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs": null, 
+    "Price": 320, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Chestnut (PH)", 
+            "Count": 3,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Pam", "Shane", "Kent"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Haley"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Roasted Chestnuts",
+		"es": "Roasted Chestnuts", //Spansih
+        "ko": "Roasted Chestnuts", //Korean
+        "de": "Geröstete Kastanien", //German
+        "fr": "Roasted Chestnuts", //French
+        "hu": "Roasted Chestnuts", //Hungarian
+        "it": "Roasted Chestnuts", //Italian
+        "ja": "Roasted Chestnuts", //Japanese
+        "pt": "Roasted Chestnuts", //Portuguese
+        "ru": "Жареные каштаны", //Russian
+        "tr": "Roasted Chestnuts", //Turkish
+        "zh": "烤栗子", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Roasted in the oven, not an open fire. Still tasty, though!", //Spansih
+        "ko": "Roasted in the oven, not an open fire. Still tasty, though!", //Korean
+        "de": "Im Ofen geröstet, nicht am offenen Feuer. Aber dennoch lecker!", //German
+        "fr": "Roasted in the oven, not an open fire. Still tasty, though!", //French
+        "hu": "Roasted in the oven, not an open fire. Still tasty, though!", //Hungarian
+        "it": "Roasted in the oven, not an open fire. Still tasty, though!", //Italian
+        "ja": "Roasted in the oven, not an open fire. Still tasty, though!", //Japanese
+        "pt": "Roasted in the oven, not an open fire. Still tasty, though!", //Portuguese
+        "ru": "Жаренные в духовке, а не на открытом огне. Но все равно вкусные!", //Russian
+        "tr": "Roasted in the oven, not an open fire. Still tasty, though!", //Turkish
+        "zh": "在烤箱里烤，而不是明火。不过还是很好吃！", //Chinese (Simplified)
+    },
+	
+}

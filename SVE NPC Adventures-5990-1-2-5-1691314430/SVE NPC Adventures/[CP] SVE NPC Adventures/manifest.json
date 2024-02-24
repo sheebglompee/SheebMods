@@ -1,0 +1,28 @@
+{
+  "Name": "SVE NPC Adventures Dialogues",
+  "Author": "Somohexual, mardrest",
+  "Version": "1.2.5",
+  "Description": "Adds some sprites for SVE NPC's to use as companion animations.",
+  "UniqueID": "Somohexual.SVE.NPCASprites",
+  "UpdateKeys": [ "Nexus:5990" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP"
+    },
+    {
+      "UniqueID": "Somohexual.SlightlyCuterSVE",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Poltergeister.CuteSpritesSVE",
+      "IsRequired": false
+    }, 
+    {
+      "UniqueID": "Poltergeister.CuteSprites",
+      "IsRequired": false
+    }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+   "Name": "Fourteen Heart Events for All",
+   "Author": "Airyn & Nicole",
+   "Version": "1.1.1",
+   "Description": "Allows you to view vanilla 14-heart events without marriage",
+   "UniqueID": "AirynNicole.FourteenHearts",
+   "UpdateKeys": [ "Nexus:14212" ],
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+	"Dependencies": [
+	{
+		"UniqueID": "spacechase0.GenericModConfigMenu",
+		"IsRequired": false,
+	},
+	{
+		"UniqueID": "tiakall.writerelliott",
+		"IsRequired": false,
+	},
+	{
+		"UniqueID": "Amaranthacyan.PlatonicPartnersandFriendships",
+		"IsRequired": false,
+	},
+	{
+		"UniqueID": "Zilch.LivelyFrogSanctuary",
+		"IsRequired": false,
+	},
+	{
+		"UniqueID": "Amaryn.SecretGardenTerrarium",
+		"IsRequired": false,
+	},
+	{
+		"UniqueID": "tenthousandcats.ImmersiveCShane",
+		"IsRequired": false,
+	},
+	]
+
+}

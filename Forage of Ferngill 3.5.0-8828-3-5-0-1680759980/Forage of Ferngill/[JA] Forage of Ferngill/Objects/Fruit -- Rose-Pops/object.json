@@ -1,0 +1,16 @@
+﻿{
+    "Name": "Rose-Pops",
+    "Description": "Often stuffed down your friends back as a joke, the seeds cause intense itching.",
+    "Category": "Fruit",
+    "Edibility": 15,
+    "Price": 30,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+    "TranslationKey": "object.Rose-Pops",
+    "ContextTags": [
+    "season_winter",
+    "color_red",
+    "fruit_item",
+  ],
+}

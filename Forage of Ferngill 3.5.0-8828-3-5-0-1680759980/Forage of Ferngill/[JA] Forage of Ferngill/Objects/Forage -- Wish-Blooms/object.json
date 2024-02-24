@@ -1,0 +1,17 @@
+﻿{
+    "Name": "Wish-Blooms",
+    "Description": "Hung above doorways around the winter star festival, said to inspire love.",
+    "Category": "Greens",
+    "Edibility": 0,
+    "Price": 150,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":  {},
+	"TranslationKey": "object.Wish-Blooms",
+    "ContextTags": [
+    "season_winter",
+    "color_green",
+    "color_white",
+    "flower_item",
+  ],
+}

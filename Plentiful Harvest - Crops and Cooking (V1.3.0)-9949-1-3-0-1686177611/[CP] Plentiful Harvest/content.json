@@ -1,0 +1,23 @@
+{ //CONTENT PATCHER CONTENT
+  "Format": "1.23.0",
+  
+  "Changes": [
+      {
+         "Action": "EditMap",
+         "Target": "Maps/SeedShop",
+         "FromFile": "assets/SeedShopX.tmx",
+         "ToArea": { "X": 17, "Y": 27, "Width": 1, "Height": 2 },
+      },
+	  {
+		"Action": "EditData",
+		"Target": "Data/Monsters",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Frost Jelly", "6" ],
+				"Value": "{{spacechase0.JsonAssets/ObjectId:Frostfruit Sapling}} 0.01",
+				"Delimiter": " "
+			} ]
+	  },
+   ]
+}

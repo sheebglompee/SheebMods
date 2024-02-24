@@ -1,0 +1,12 @@
+{
+    "Name": "[JA] Wilford Recepies",
+    "Author": "FloranceBless",
+    "Description": "Some recepies from Wilford",
+    "Version": "1.0.0",
+    "UniqueID": "Fernandtea.WilfRecepie",
+	"UpdateKeys": [],
+    "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    }
+}

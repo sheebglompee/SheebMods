@@ -1,0 +1,13 @@
+{
+    "Name": "Sabi Root Paste",
+    "Description": "An extremely spicy paste made from crush Sabi Root. Goes well with Fish.",
+    "Category": "ArtisanGoods",
+    "Edibility": 200,
+    "EdibleIsDrink": false,
+    "Price": 250,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": false,
+    "GiftTastes": {},
+	"TranslationKey": "object.Sabi-Root-Paste",
+}

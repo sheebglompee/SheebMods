@@ -1,0 +1,14 @@
+{
+    "Name": "Dwarf's CD",
+    "Description": "Dwarf's personal playlist! Only Yoba knows how he figured how how to use a CD maker.",
+    "Category": "Crafting",
+    "Edibility": 0,
+    "EdibleIsDrink": false,
+    "Price": 0,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {
+        "Love": ["Dwarf"],
+        "Hate": ["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Leo","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastain","Shane","Vincent","Willy","Wizard"]
+    }
+}

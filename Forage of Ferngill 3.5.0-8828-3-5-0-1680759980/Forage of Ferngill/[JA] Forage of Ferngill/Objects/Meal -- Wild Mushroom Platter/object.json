@@ -1,0 +1,47 @@
+{
+    "Name": "Wild Mushroom Platter",
+    "Description": "A delicious platter of wild mushrooms. A scrumcious foragers meal.",
+    "Category": "Cooking",
+    "Edibility": 75,
+    "EdibleIsDrink": false,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 3,
+        "MaxStamina": 1,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 200,
+    },
+    "Price": 565,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Dew-Cup Mushroom",
+            "Count": 1,
+        },
+        {
+            "Object": "Muffin-Button Mushroom",
+            "Count": 1,
+        },
+        {
+            "Object": "Plump-Belly Mushroom",
+            "Count": 1,
+        },
+        {
+            "Object": "Tooting-Funnel Mushroom",
+            "Count": 1,
+        }],
+    "CanPurchase": false,
+	},
+    "GiftTastes":  {},
+	"TranslationKey": "object.Wild-Mushoom-Platter",
+}

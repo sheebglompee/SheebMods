@@ -1,0 +1,154 @@
+{
+  "Format": "1.19.0",
+  
+  "ConfigSchema": {
+	"Farmhouse Pride Flag": {"AllowValues": "Agender, Ally, Aroace, Aromantic, Asexual, Bisexual, Demiromantic, Demisexual, Gay, Genderfluid, Genderqueer, Greyace, Inclusive, Inclusive2, Intersex, Lesbian, Nonbinary, Omnisexual, Pansexual, Polyamory, Polysexual, Queer, Rainbow, Transgender, Polyamory2, Bigender, Bigender2, Autism, Autism2, Sapphic, Achillean, Neptunic, Uranic, Xenogender, Demigirl, Demiboy, False",
+		"Default": "Rainbow"},
+	"Farmhouse Pride Banner": {"AllowValues": "Agender, Ally, Aroace, Aromantic, Asexual, Bisexual, Demiromantic, Demisexual, Gay, Genderfluid, Genderqueer, Greyace, Inclusive, Inclusive2, Intersex, Lesbian, Nonbinary, Omnisexual, Pansexual, Polyamory, Polysexual, Queer, Rainbow, Transgender, Polyamory2, Bigender, Bigender2, Autism, Autism2, Sapphic, Achillean, Neptunic, Uranic, Xenogender, Demigirl, Demiboy, False",
+		"Default": "Rainbow"},
+	"Farmhouse Pride Bunting": {"AllowValues": "Agender, Ally, Aroace, Aromantic, Asexual, Bisexual, Demiromantic, Demisexual, Gay, Genderfluid, Genderqueer, Greyace, Inclusive, Inclusive2, Intersex, Lesbian, Nonbinary, Omnisexual, Pansexual, Polyamory, Polysexual, Queer, Rainbow, Transgender, Polyamory2, Bigender, Bigender2, Autism, Autism2, Sapphic, Achillean, Neptunic, Uranic, Xenogender, Demigirl, Demiboy, False",
+		"Default": "Rainbow"},
+	"Log Cabin Banner": {"AllowValues": "Agender, Ally, Aroace, Aromantic, Asexual, Bisexual, Demiromantic, Demisexual, Gay, Genderfluid, Genderqueer, Greyace, Inclusive, Inclusive2, Intersex, Lesbian, Nonbinary, Omnisexual, Pansexual, Polyamory, Polysexual, Queer, Rainbow, Transgender, Polyamory2, Bigender, Bigender2, Autism, Autism2, Sapphic, Achillean, Neptunic, Uranic, Xenogender, Demigirl, Demiboy, False",
+		"Default": "Rainbow"},
+	"Plank Cabin Banner": {"AllowValues": "Agender, Ally, Aroace, Aromantic, Asexual, Bisexual, Demiromantic, Demisexual, Gay, Genderfluid, Genderqueer, Greyace, Inclusive, Inclusive2, Intersex, Lesbian, Nonbinary, Omnisexual, Pansexual, Polyamory, Polysexual, Queer, Rainbow, Transgender, Polyamory2, Bigender, Bigender2, Autism, Autism2, Sapphic, Achillean, Neptunic, Uranic, Xenogender, Demigirl, Demiboy, False",
+		"Default": "Rainbow"},
+	"Stone Cabin Banner": {"AllowValues": "Agender, Ally, Aroace, Aromantic, Asexual, Bisexual, Demiromantic, Demisexual, Gay, Genderfluid, Genderqueer, Greyace, Inclusive, Inclusive2, Intersex, Lesbian, Nonbinary, Omnisexual, Pansexual, Polyamory, Polysexual, Queer, Rainbow, Transgender, Polyamory2, Bigender, Bigender2, Autism, Autism2, Sapphic, Achillean, Neptunic, Uranic, Xenogender, Demigirl, Demiboy, False",
+		"Default": "Rainbow"},
+	},
+	
+  "Changes": [
+  
+	   // Pride Flag
+	   {
+          "LogName": "Farmhouse Pride Flag",
+          "Action": "EditImage",
+          "Target": "Buildings/houses",
+          "FromFile": "assets/Flags/{{Farmhouse Pride Flag}}.png",
+          "PatchMode": "Overlay",
+			"When": {
+			"Farmhouse Pride Flag": "Agender, Ally, Aroace, Aromantic, Asexual, Bisexual, Demiromantic, Demisexual, Gay, Genderfluid, Genderqueer, Greyace, Inclusive, Inclusive2, Intersex, Lesbian, Nonbinary, Omnisexual, Pansexual, Polyamory, Polysexual, Queer, Rainbow, Transgender, Polyamory2, Bigender, Bigender2, Autism, Autism2, Sapphic, Achillean, Neptunic, Uranic, Xenogender, Demigirl, Demiboy",
+			}
+       },
+	   {
+          "LogName": "Farmhouse Pride Flag Mask",
+          "Action": "EditImage",
+          "Target": "Buildings/houses_PaintMask",
+          "FromFile": "assets/Flags/PaintMask.png",
+          "PatchMode": "Overlay",
+			"When": {
+			"Farmhouse Pride Flag": "Agender, Ally, Aroace, Aromantic, Asexual, Bisexual, Demiromantic, Demisexual, Gay, Genderfluid, Genderqueer, Greyace, Inclusive, Inclusive2, Intersex, Lesbian, Nonbinary, Omnisexual, Pansexual, Polyamory, Polysexual, Queer, Rainbow, Transgender, Polyamory2, Bigender, Bigender2, Autism, Autism2, Sapphic, Achillean, Neptunic, Uranic, Xenogender, Demigirl, Demiboy",
+			}
+       },
+  
+	   // Pride Banner
+	   {
+          "LogName": "Farmhouse Pride Banner",
+          "Action": "EditImage",
+          "Target": "Buildings/houses",
+          "FromFile": "assets/Banners/{{Farmhouse Pride Banner}}.png",
+          "PatchMode": "Overlay",
+			"When": {
+			"Farmhouse Pride Banner": "Agender, Ally, Aroace, Aromantic, Asexual, Bisexual, Demiromantic, Demisexual, Gay, Genderfluid, Genderqueer, Greyace, Inclusive, Inclusive2, Intersex, Lesbian, Nonbinary, Omnisexual, Pansexual, Polyamory, Polysexual, Queer, Rainbow, Transgender, Polyamory2, Bigender, Bigender2, Autism, Autism2, Sapphic, Achillean, Neptunic, Uranic, Xenogender, Demigirl, Demiboy",
+			}
+       },
+	   {
+          "LogName": "Pride Banner Mask",
+          "Action": "EditImage",
+          "Target": "Buildings/houses_PaintMask",
+          "FromFile": "assets/Banners/PaintMask.png",
+          "PatchMode": "Overlay",
+			"When": {
+			"Farmhouse Pride Banner": "Agender, Ally, Aroace, Aromantic, Asexual, Bisexual, Demiromantic, Demisexual, Gay, Genderfluid, Genderqueer, Greyace, Inclusive, Inclusive2, Intersex, Lesbian, Nonbinary, Omnisexual, Pansexual, Polyamory, Polysexual, Queer, Rainbow, Transgender, Polyamory2, Bigender, Bigender2, Autism, Autism2, Sapphic, Achillean, Neptunic, Uranic, Xenogender, Demigirl, Demiboy",
+			}
+       },
+  
+	   // Pride Bunting
+	   {
+          "LogName": "Pride Bunting",
+          "Action": "EditImage",
+          "Target": "Buildings/houses",
+          "FromFile": "assets/Buntings/{{Farmhouse Pride Bunting}}.png",
+          "PatchMode": "Overlay",
+			"When": {
+			"Farmhouse Pride Bunting": "Agender, Ally, Aroace, Aromantic, Asexual, Bisexual, Demiromantic, Demisexual, Gay, Genderfluid, Genderqueer, Greyace, Inclusive, Inclusive2, Intersex, Lesbian, Nonbinary, Omnisexual, Pansexual, Polyamory, Polysexual, Queer, Rainbow, Transgender, Polyamory2, Bigender, Bigender2, Autism, Autism2, Sapphic, Achillean, Neptunic, Uranic, Xenogender, Demigirl, Demiboy",
+			}
+       },
+	   {
+          "LogName": "Pride Bunting Mask",
+          "Action": "EditImage",
+          "Target": "Buildings/houses_PaintMask",
+          "FromFile": "assets/Buntings/PaintMask.png",
+          "PatchMode": "Overlay",
+			"When": {
+			"Farmhouse Pride Bunting": "Agender, Ally, Aroace, Aromantic, Asexual, Bisexual, Demiromantic, Demisexual, Gay, Genderfluid, Genderqueer, Greyace, Inclusive, Inclusive2, Intersex, Lesbian, Nonbinary, Omnisexual, Pansexual, Polyamory, Polysexual, Queer, Rainbow, Transgender, Polyamory2, Bigender, Bigender2, Autism, Autism2, Sapphic, Achillean, Neptunic, Uranic, Xenogender, Demigirl, Demiboy",
+			}
+       },
+  
+	   // Log Cabin Banner
+	   {
+          "LogName": "Log Cabin Banner",
+          "Action": "EditImage",
+          "Target": "Buildings/Log Cabin",
+          "FromFile": "assets/Cabin/Log_{{Log Cabin Banner}}.png",
+          "PatchMode": "Overlay",
+			"When": {
+			"Log Cabin Banner": "Agender, Ally, Aroace, Aromantic, Asexual, Bisexual, Demiromantic, Demisexual, Gay, Genderfluid, Genderqueer, Greyace, Inclusive, Inclusive2, Intersex, Lesbian, Nonbinary, Omnisexual, Pansexual, Polyamory, Polysexual, Queer, Rainbow, Transgender, Polyamory2, Bigender, Bigender2, Autism, Autism2, Sapphic, Achillean, Neptunic, Uranic, Xenogender, Demigirl, Demiboy",
+			}
+       },
+	   {
+          "LogName": "Log Cabin Banner Mask",
+          "Action": "EditImage",
+          "Target": "Buildings/Log Cabin_PaintMask",
+          "FromFile": "assets/Cabin/Log_PaintMask.png",
+          "PatchMode": "Overlay",
+			"When": {
+			"Log Cabin Banner": "Agender, Ally, Aroace, Aromantic, Asexual, Bisexual, Demiromantic, Demisexual, Gay, Genderfluid, Genderqueer, Greyace, Inclusive, Inclusive2, Intersex, Lesbian, Nonbinary, Omnisexual, Pansexual, Polyamory, Polysexual, Queer, Rainbow, Transgender, Polyamory2, Bigender, Bigender2, Autism, Autism2, Sapphic, Achillean, Neptunic, Uranic, Xenogender, Demigirl, Demiboy",
+			}
+       },
+  
+	   // Plank Cabin Banner
+	   {
+          "LogName": "Plank Cabin Banner",
+          "Action": "EditImage",
+          "Target": "Buildings/Plank Cabin",
+          "FromFile": "assets/Cabin/Plank_{{Plank Cabin Banner}}.png",
+          "PatchMode": "Overlay",
+			"When": {
+			"Plank Cabin Banner": "Agender, Ally, Aroace, Aromantic, Asexual, Bisexual, Demiromantic, Demisexual, Gay, Genderfluid, Genderqueer, Greyace, Inclusive, Inclusive2, Intersex, Lesbian, Nonbinary, Omnisexual, Pansexual, Polyamory, Polysexual, Queer, Rainbow, Transgender, Polyamory2, Bigender, Bigender2, Autism, Autism2, Sapphic, Achillean, Neptunic, Uranic, Xenogender, Demigirl, Demiboy",
+			}
+       },
+	   {
+          "LogName": "Plank Cabin Banner Mask",
+          "Action": "EditImage",
+          "Target": "Buildings/Plank Cabin_PaintMask",
+          "FromFile": "assets/Cabin/Plank_PaintMask.png",
+          "PatchMode": "Overlay",
+			"When": {
+			"Plank Cabin Banner": "Agender, Ally, Aroace, Aromantic, Asexual, Bisexual, Demiromantic, Demisexual, Gay, Genderfluid, Genderqueer, Greyace, Inclusive, Inclusive2, Intersex, Lesbian, Nonbinary, Omnisexual, Pansexual, Polyamory, Polysexual, Queer, Rainbow, Transgender, Polyamory2, Bigender, Bigender2, Autism, Autism2, Sapphic, Achillean, Neptunic, Uranic, Xenogender, Demigirl, Demiboy",
+			}
+       },
+  
+	   // Stone Cabin Banner
+	   {
+          "LogName": "Stone Cabin Banner",
+          "Action": "EditImage",
+          "Target": "Buildings/Stone Cabin",
+          "FromFile": "assets/Cabin/Stone_{{Stone Cabin Banner}}.png",
+          "PatchMode": "Overlay",
+			"When": {
+			"Stone Cabin Banner": "Agender, Ally, Aroace, Aromantic, Asexual, Bisexual, Demiromantic, Demisexual, Gay, Genderfluid, Genderqueer, Greyace, Inclusive, Inclusive2, Intersex, Lesbian, Nonbinary, Omnisexual, Pansexual, Polyamory, Polysexual, Queer, Rainbow, Transgender, Polyamory2, Bigender, Bigender2, Autism, Autism2, Sapphic, Achillean, Neptunic, Uranic, Xenogender, Demigirl, Demiboy",
+			}
+       },
+	   {
+          "LogName": "Stone Cabin Banner Mask",
+          "Action": "EditImage",
+          "Target": "Buildings/Stone Cabin_PaintMask",
+          "FromFile": "assets/Cabin/Stone_PaintMask.png",
+          "PatchMode": "Overlay",
+			"When": {
+			"Stone Cabin Banner": "Agender, Ally, Aroace, Aromantic, Asexual, Bisexual, Demiromantic, Demisexual, Gay, Genderfluid, Genderqueer, Greyace, Inclusive, Inclusive2, Intersex, Lesbian, Nonbinary, Omnisexual, Pansexual, Polyamory, Polysexual, Queer, Rainbow, Transgender, Polyamory2, Bigender, Bigender2, Autism, Autism2, Sapphic, Achillean, Neptunic, Uranic, Xenogender, Demigirl, Demiboy",
+			}
+       },
+	   
+    ]
+}

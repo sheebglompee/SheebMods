@@ -1,0 +1,16 @@
+﻿{
+    "Name": "Flowering Cacti",
+    "Description": "A small plump cacti with a brilliant yellow flower.",
+    "Category": "Greens",
+    "Edibility": 0,
+    "Price": 30,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Flowering-Cacti",
+    "ContextTags": [
+    "color_yellow",
+    "color_green",
+    "forage_item",
+  ],
+}

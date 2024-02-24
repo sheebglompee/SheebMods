@@ -1,0 +1,52 @@
+{
+    "Name": "Chocolate Spread (PH)",
+    "Description": "A jar of exceedingly sweet spread.",
+    "Category": "ArtisanGoods",
+	"ContextTags": 
+        [
+		"color_brown",
+        "dye_strong"
+        ],
+    "Edibility": -300,
+    "Price": 625, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Vincent", "Sam", "Alex", "Shane", "Jas"],
+        "Like": ["Sebastian", "Lewis", "Harvey", "Leo", "Linus", "George", "Evelyn", "Pierre", "Caroline", "Maru", "Demetrius", "Abigail"],
+        "Neutral": null, 
+        "Dislike": ["Haley", "Penny", "Eliott"], 
+        "Hate": ["Caroline", "Jodi"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Chocolate Spread",
+		"es": "Chocolate Spread", 
+        "ko": "Chocolate Spread", 
+        "de": "Schokoladenaufstrich", 
+        "fr": "Chocolate Spread", 
+        "hu": "Chocolate Spread", 
+        "it": "Chocolate Spread", 
+        "ja": "Chocolate Spread",
+        "pt": "Chocolate Spread", 
+        "ru": "Шоколадная паста", 
+        "tr": "Chocolate Spread",
+        "zh": "巧克力酱", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A jar of exceedingly sweet spread.", 
+        "ko": "A jar of exceedingly sweet spread.", 
+        "de": "Ein Glas mit äußerst süßem Brotaufstrich.",
+        "fr": "A jar of exceedingly sweet spread.", 
+        "hu": "A jar of exceedingly sweet spread.",
+        "it": "A jar of exceedingly sweet spread.", 
+        "ja": "A jar of exceedingly sweet spread.", 
+        "pt": "A jar of exceedingly sweet spread.",
+        "ru": "Баночка чрезвычайно сладкой пасты.", 
+        "tr": "A jar of exceedingly sweet spread.", 
+        "zh": "一罐极甜的酱。",
+    },
+}

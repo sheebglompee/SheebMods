@@ -1,0 +1,52 @@
+{
+    "Name": "Parsley (PH)",
+    "Description": "A cold-hardy herb that's popular as a garnish.",
+    "Category": "Vegetable",
+	"ContextTags": 
+        [
+        "season_winter",
+		"color_green"
+        ],
+    "Edibility": 5,
+    "Price": 16, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Emily", "Gus"],
+        "Like": ["Caroline", "Eliott", "Lewis"],
+        "Neutral": null, 
+        "Dislike": ["Willy"], 
+        "Hate": ["Vincent", "Jas"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Parsley",
+		"es": "Parsley", 
+        "ko": "Parsley", 
+        "de": "Petersilie", 
+        "fr": "Parsley", 
+        "hu": "Parsley", 
+        "it": "Parsley", 
+        "ja": "Parsley",
+        "pt": "Parsley", 
+        "ru": "Петрушка", 
+        "tr": "Parsley",
+        "zh": "欧芹", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A cold-hardy herb that's popular as a garnish.", 
+        "ko": "A cold-hardy herb that's popular as a garnish.", 
+        "de": "Ein winterfestes Kraut, das häufig zum Garnieren verwendet wird.",
+        "fr": "A cold-hardy herb that's popular as a garnish.", 
+        "hu": "A cold-hardy herb that's popular as a garnish.",
+        "it": "A cold-hardy herb that's popular as a garnish.", 
+        "ja": "A cold-hardy herb that's popular as a garnish.", 
+        "pt": "A cold-hardy herb that's popular as a garnish.",
+        "ru": "Холодостойкая зелень, популярная в качестве приправы.", 
+        "tr": "A cold-hardy herb that's popular as a garnish.", 
+        "zh": "一种耐寒草本植物，常用作于配菜。",
+    },
+}

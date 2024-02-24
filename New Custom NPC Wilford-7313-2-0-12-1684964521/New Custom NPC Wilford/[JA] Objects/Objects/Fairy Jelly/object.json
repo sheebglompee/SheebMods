@@ -1,0 +1,64 @@
+{
+    "Name": "Fairy Jelly WL",
+    "Description": "A mysterious delicacy with some special properties.",
+    "Category": "Cooking",
+    "Edibility": 50,
+    "EdibleIsDrink": false,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 2,
+        "Luck": 2,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 1,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 600,
+    },
+	"CanSell": false,
+    "IsColored": false,
+	"IsDefault": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Lavender Twigs WL",
+            "Count": 1,
+        },
+        {
+            "Object": 258,
+            "Count": 2,
+        },
+		{
+            "Object": 245,
+            "Count": 1,
+        }],
+        "CanPurchase": true,
+        "PurchaseRequirements": null
+    },
+    "GiftTastes":
+    {
+        "Love": ["Sable"],
+        "Like": ["Wizard", "Gus", "Abigail", "Emily", "Jas"],
+        "Neutral": [],
+        "Dislike": [],
+    },
+
+    "NameLocalization":
+    {
+		"default": "Fairy Jelly",
+		"ru": "Сказочное желе",
+        "pt": "Geléia de Fada",
+        "zh": "仙女果冻"
+    },
+    "DescriptionLocalization":
+    {
+		"ru": "Таинственный деликатес с некими необычными свойствами.",
+        "pt": "Uma misteriosa delicadeza com algumas propriedades especiais.",
+        "zh": "一种具有某些特殊性质的神秘美食"
+    }
+}

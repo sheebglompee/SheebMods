@@ -1,0 +1,15 @@
+{
+    "Name": "Lewis's CD",
+    "Description": "Lewis's personal playlist!",
+    "Category": "Crafting",
+    "Edibility": 0,
+    "EdibleIsDrink": false,
+    "Price": 0,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {
+        "Love": ["Lewis"],
+        "Like": ["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Sandy","Shane"],
+        "Hate": ["Abigail","Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Haley","Jas","Krobus","Leo","Marnie","Penny","Pierre","Sam","Sebastian","Vincent","Willy","Wizard"]
+    }
+}

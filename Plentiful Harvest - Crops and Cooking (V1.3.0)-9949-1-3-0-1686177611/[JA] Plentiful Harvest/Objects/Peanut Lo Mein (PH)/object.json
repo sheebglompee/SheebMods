@@ -1,0 +1,91 @@
+{
+    "Name": "Peanut Lo Mein (PH)", 
+    "Description": "An exotic taste combination of a delectable peanut sauce and lo mein noodles.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_brown",
+        "dye_medium"
+        ],
+    "Edibility": 42, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 2,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 220,
+    }, 
+    "Price": 250, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Peanut (PH)", 
+            "Count": 1,
+        },
+		{
+            "Object": 246,
+            "Count": 1,
+        },
+        {
+            "Object": 245,
+            "Count": 1,
+        },
+		{
+            "Object": 419,
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Jodi"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Linus"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Peanut Lo Mein",
+		"es": "Peanut Lo Mein", //Spansih
+        "ko": "Peanut Lo Mein", //Korean
+        "de": "Erdnuss-Lo Mein", //German
+        "fr": "Peanut Lo Mein", //French
+        "hu": "Peanut Lo Mein", //Hungarian
+        "it": "Peanut Lo Mein", //Italian
+        "ja": "Peanut Lo Mein", //Japanese
+        "pt": "Peanut Lo Mein", //Portuguese
+        "ru": "Ло-мейн с арахисом", //Russian
+        "tr": "Peanut Lo Mein", //Turkish
+        "zh": "花生酱捞面", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "An exotic taste combination of a delectable peanut sauce and lo mein noodles.", //Spansih
+        "ko": "An exotic taste combination of a delectable peanut sauce and lo mein noodles.", //Korean
+        "de": "Ein exotischer Geschmack, kombiniert aus einer leckeren Erdnusssoße und Lo Mein Nudeln.", //German
+        "fr": "An exotic taste combination of a delectable peanut sauce and lo mein noodles.", //French
+        "hu": "An exotic taste combination of a delectable peanut sauce and lo mein noodles.", //Hungarian
+        "it": "An exotic taste combination of a delectable peanut sauce and lo mein noodles.", //Italian
+        "ja": "An exotic taste combination of a delectable peanut sauce and lo mein noodles.", //Japanese
+        "pt": "An exotic taste combination of a delectable peanut sauce and lo mein noodles.", //Portuguese
+        "ru": "Экзотическое вкусовое сочетание восхитительного арахисового соуса и лапши ло-мейн.", //Russian
+        "tr": "An exotic taste combination of a delectable peanut sauce and lo mein noodles.", //Turkish
+        "zh": "一种奇异的口味组合，美味的花生酱和捞面。", //Chinese (Simplified)
+    },
+	
+}

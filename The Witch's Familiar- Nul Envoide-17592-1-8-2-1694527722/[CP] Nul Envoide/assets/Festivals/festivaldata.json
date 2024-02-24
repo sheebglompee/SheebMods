@@ -1,0 +1,142 @@
+{
+"Changes": [
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=175920": "true", },
+   "Target": "Data/Festivals/summer28",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Nul 63 5 down",
+         "Delimiter": "/"
+		},
+	],
+	},
+
+	{
+	"Action": "EditData",
+	"When": { "HasSeenEvent: hostPlayer |contains=175920": "true", },
+	"Target": "Data/Festivals/summer28",
+	"Entries": {
+		"Nul": "Farmer @? How did you find me?#$b#Since as you're here, care to sit with me and chat for a bit? This is one of few events that I feel comfortable coming to.$h",
+		"Nul_spouse": "Hi, honeybun. I''l be right there to hold your hand as we watch the jellies in a moment.$l",
+		},
+	},
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=175920": "true", "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false"},
+   "Target": "Data/Festivals/fall27",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Nul 9 53 down",
+         "Delimiter": "/"
+		},
+	],
+	},
+
+	{
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=175920": "true",  "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true"},
+   "Target": "Data/Festivals/fall27",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Nul 9 53 down",
+         "Delimiter": "/"
+		},
+	],
+	},
+
+	{
+	"Action": "EditData",
+	"When": { "HasSeenEvent: hostPlayer |contains=175920": "true", },
+	"Target": "Data/Festivals/fall27",
+	"Entries": {
+		"Nul": "Shh... the children think I'm an animatronic. Haha.$h",
+		"Nul_spouse": "Boo!$h#$b#O-oh, I hope I didn't scare you too much...$2#$b#I didn't? Thank goodness. Here, I saved this for you.[243 279]",
+		},
+	},
+
+	{
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=175920": "true", "HasSeenEvent: hostPlayer |contains=175928": "false", "HasMod |contains=Rafseazz.RidgesideVillage": "true"},
+   "Target": "Data/Festivals/winter28",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Nul 39 22 down",
+         "Delimiter": "/"
+		},
+
+   //Main Event
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Nul 39 22 down",
+         "Delimiter": "/"
+		},
+
+	],
+	},
+
+	{
+	"Action": "EditData",
+	"When": { "HasSeenEvent: hostPlayer |contains=175920": "true", },
+	"Target": "Data/Festivals/winter28",
+	"Entries": {
+		"Nul": "%Nul is shivering.#$b#H-hey, don't give me that smug look. It's f-freezing up here.$a#$b#... May I share body heat w-with you as we celebrate another Annus Novus?",
+		"Nul_spouse": "%Nul pulls you closer to them and wraps their hands around you.#$b#%firstnameletter... @... please...$3#$b#Bring me some hot cocoa, please?$h#$b#Haha. My apologies for the scare, love. Happy Annus Novus, @.$h",
+		},
+	},
+
+	{
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=175920": "true", "HasSeenEvent: hostPlayer |contains=175928": "true", "HasMod |contains=Rafseazz.RidgesideVillage": "true"},
+   "Target": "Data/Festivals/winter28",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Nul 39 22 down",
+         "Delimiter": "/"
+		},
+
+   //Main Event
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Nul 38 49 up",
+         "Delimiter": "/"
+		},
+
+	],
+	},
+
+	{
+	"Action": "EditData",
+	"When": { "HasSeenEvent: hostPlayer |contains=175920": "true", },
+	"Target": "Data/Festivals/winter28",
+	"Entries": {
+		"Nul": "%Nul is shivering.#$b#H-hey, don't give me that smug look. It's f-freezing up here.$a#$b#... May I share body heat w-with you as we celebrate another Annus Novus?",
+		"Nul_spouse": "%Nul pulls you closer to them and wraps their hands around you.#$b#%firstnameletter... @... please...$3#$b#Bring me some hot cocoa, please?$h#$b#Haha. My apologies for the scare, love. Happy Annus Novus, @.$h",
+		},
+	},
+]
+}

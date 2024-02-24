@@ -1,0 +1,16 @@
+{
+    "Name": "Jas' CD",
+    "Description": "Jas' personal playlist!",
+    "Category": "Crafting",
+    "Edibility": 0,
+    "EdibleIsDrink": false,
+    "Price": 0,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {
+        "Love": ["Jas"],
+        "Like": ["Caroline","Emily","Evelyn","George","Gus","Haley","Harvey","Kent","Leah","Linus","Pam","Pierre","Sandy","Vincent"],
+        "Hate": ["Abigail","Alex","Clint","Demetrius","Dward","Elliott","Jodi","Krobus","Leo","Lewis","Marnie","Maru","Penny","Robin","Sam","Sebastain","Shane","Willy","Wizard"]
+    }
+}
+

@@ -1,0 +1,18 @@
+﻿{
+    "Name": "Gaelic-Root",
+    "Description": "Said to ward off Vampires if hung above your bed.",
+    "Category": "Vegetable",
+    "CategoryTextOverride": "Root",
+    "Edibility": 15,
+    "Price": 45,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Gaelic-Root",
+    "ContextTags": [
+    "season_spring",
+    "color_white",
+    "forage_item",
+    "root_item",
+  ],
+}

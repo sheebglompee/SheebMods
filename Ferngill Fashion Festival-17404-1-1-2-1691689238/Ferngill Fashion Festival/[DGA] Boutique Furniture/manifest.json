@@ -1,0 +1,13 @@
+﻿{
+	"Name": "Boutique Furniture for DGA",
+	"Author": "HimeTarts & Friends",
+	"Version": "1.1.2",
+	"Description": "Adds Wisteria's Boutique furniture through DGA",
+	"UniqueID": "UNA.BoutiqueFurniture.DGA",
+	"MinimumApiVersion": "3.13.0",
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.DynamicGameAssets"
+	},
+	"DGA.FormatVersion": 2,
+	"DGA.ConditionsFormatVersion": "1.23.0"
+}

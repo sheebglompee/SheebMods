@@ -1,0 +1,33 @@
+{
+    "Changes": [
+        {
+            "LogName": "Schedule Dialogue",
+            "Action": "EditData",
+            "Target": "Strings/schedules/RodneyOBrien",
+            "Entries": {
+                "rod.000": "{{i18n:rod.000}}",
+                "rod.001": "{{RodneyPierDialogue}}",
+                "rod.002": "{{i18n:rod.002}}[{{spacechase0.JsonAssets/ObjectId: An autographed photo}}]$1",
+                "rod.003": "{{i18n:rod.003}}",
+                "rod.004": "{{i18n:rod.004}}",
+                "rod.005": "{{i18n:rod.005}}",
+                "rod.006": "{{i18n:rod.006}}",
+                "rod.007": "{{RodneyMountainDialogue}}",
+                "rod.008": "{{i18n:rod.008}}",
+                "rod.009": "{{i18n:rod.009}}",
+                "rod.010": "{{i18n:rod.010}}",
+                "rod.011": "{{i18n:rod.011}}",
+                "rod.012": "{{i18n:rod.012}}",
+                "rod.013": "{{i18n:rod.013}}",
+                "rod.014": "{{i18n:rod.014}}",
+                "rod.015": "{{i18n:rod.015}}",
+                "rod.016": "{{i18n:rod.016}}",
+                "rod.017": "{{i18n:rod.017}}",
+                "rod.018": "{{i18n:rod.018}}",
+                "rod.019": "{{i18n:rod.019}}",
+                "rod.020": "{{i18n:rod.020}}",
+                "rod.021": "{{i18n:rod.021}}",
+            }
+        }
+    ]
+}

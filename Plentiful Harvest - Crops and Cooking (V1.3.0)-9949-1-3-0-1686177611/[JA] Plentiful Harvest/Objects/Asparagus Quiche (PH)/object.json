@@ -1,0 +1,91 @@
+{
+    "Name": "Asparagus Quiche (PH)", 
+    "Description": "You were ready for the responsibility.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_green"
+        ],
+    "Edibility": 60, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 1,
+        "Foraging": 0,
+        "MaxStamina": 10,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 240,
+    },
+    "Price": 254, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Asparagus (PH)", 
+            "Count": 1,
+        },
+		{
+            "Object": 246, 
+            "Count": 1,
+        },
+		{
+            "Object": 192, 
+            "Count": 1,
+        },
+        {
+            "Object": -5, 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Eliott"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Vincent"],
+    },
+
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Asparagus Quiche",
+		"es": "Asparagus Quiche", //Spansih
+        "ko": "Asparagus Quiche", //Korean
+        "de": "Spargelquiche", //German
+        "fr": "Asparagus Quiche", //French
+        "hu": "Asparagus Quiche", //Hungarian
+        "it": "Asparagus Quiche", //Italian
+        "ja": "Asparagus Quiche", //Japanese
+        "pt": "Asparagus Quiche", //Portuguese
+        "ru": "Киш со спаржей", //Russian
+        "tr": "Asparagus Quiche", //Turkish
+        "zh": "芦笋乳蛋饼", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "You were ready for the responsibility.", //Spansih
+        "ko": "You were ready for the responsibility.", //Korean
+        "de": "Du warst bereit für die Verantwortung.", //German
+        "fr": "You were ready for the responsibility.", //French
+        "hu": "You were ready for the responsibility.", //Hungarian
+        "it": "You were ready for the responsibility.", //Italian
+        "ja": "You were ready for the responsibility.", //Japanese
+        "pt": "You were ready for the responsibility.", //Portuguese
+        "ru": "Вы ведь готовы к ответственности?", //Russian
+        "tr": "You were ready for the responsibility.", //Turkish
+        "zh": "你准备好承担责任了吗?", //Chinese (Simplified)
+    },
+	
+}

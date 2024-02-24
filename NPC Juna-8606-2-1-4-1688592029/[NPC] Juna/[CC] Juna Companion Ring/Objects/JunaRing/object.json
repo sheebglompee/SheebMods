@@ -1,0 +1,44 @@
+{
+  "Name": "elhrvy.Rings.JunaRing",
+  "Companions": {
+    "EssenceOfJuna": {
+      "NumberToSummon": 1
+    }
+  },
+  "Description": "A magical ring gifted to the player by a scheming ballerina.",
+  "Category": "Ring",
+  "CategoryTextOverride": "Friendship",
+  "Edibility": -300,
+  "CanSell": false,
+  "CanTrash": false,
+  "Recipe": null,
+  "Price": 0,
+  "CanPurchase": false,
+  "NameLocalization": {
+      "en": "Juna's Ring",
+      //"es": "",
+      //"ko": "",
+      //"de": "",
+      //"fr": "",
+      //"hu": "",
+      //"it": "",
+      //"ja": "",
+      //"pt": "",
+      //"ru": "",
+      //"tr": "",
+      //"zh": "",
+  },
+  "DescriptionLocalization": {
+      //"es": "",
+      //"ko": "",
+      //"de": "",
+      //"fr": "",
+      //"hu": "",
+      //"it": "",
+      //"ja": "",
+      //"pt": "",
+      //"ru": "",
+      //"tr": "",
+      //"zh": "",
+  }
+}

@@ -1,0 +1,35 @@
+{    
+	"Changes": 
+    [        
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_FF_FashionShow",
+            "MapTiles": 
+            [
+               {
+                  "Position": { "X": 31, "Y": 35 },
+                  "Layer": "Back",
+                  "SetProperties": 
+                  {
+                     "CustomCompanions": "Spawn 1 UNA.FF.CC.FFFJonghyuk"
+                  }
+               }
+            ]
+         },
+         {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_FF_FashionShow",
+            "MapTiles": 
+            [
+               {
+                  "Position": { "X": 51, "Y": 28 },
+                  "Layer": "Back",
+                  "SetProperties": 
+                  {
+                     "CustomCompanions": "Spawn 1 UNA.FF.CC.FFFWren"
+                  }
+               }
+            ]
+         }
+    ]
+}

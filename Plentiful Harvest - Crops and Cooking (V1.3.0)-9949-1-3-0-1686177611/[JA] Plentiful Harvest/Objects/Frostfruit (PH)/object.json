@@ -1,0 +1,54 @@
+{
+    "Name": "Frostfruit (PH)",
+    "Description": "It's covered in a strange shell of ice. When you bite into the actual fruit, it's insanely juicy and sweet.",
+    "Category": "Fruit",
+	"ContextTags": 
+        [
+        "season_winter",
+		"ph_frostfruit",
+		"color_white",
+		"dye_medium"
+        ],
+    "Edibility": 20,
+    "Price": 200, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Krobus", "Dwarf", "Abigail", "Sebastian", "Linus", "Leah", "Shane"],
+        "Like": ["Gus", "Lewis", "George", "Evelyn", "Alex", "Sam"],
+        "Neutral": null, 
+        "Dislike": null, 
+        "Hate": ["Leo"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Frostfruit",
+		"es": "Frostfruit", 
+        "ko": "Frostfruit", 
+        "de": "Frostfrucht", 
+        "fr": "Frostfruit", 
+        "hu": "Frostfruit", 
+        "it": "Frostfruit", 
+        "ja": "Frostfruit",
+        "pt": "Frostfruit", 
+        "ru": "Морозофрукт", 
+        "tr": "Frostfruit",
+        "zh": "霜果", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "It's covered in a strange shell of ice. When you bite into the actual fruit, it's insanely juicy and sweet.", 
+        "ko": "It's covered in a strange shell of ice. When you bite into the actual fruit, it's insanely juicy and sweet. ", 
+        "de": "Sie ist mit einer merkwürdigen Eisschicht umhüllt. Wenn du in die eigentliche Frucht beißt, ist sie unglaublich saftig und süß.",
+        "fr": "It's covered in a strange shell of ice. When you bite into the actual fruit, it's insanely juicy and sweet.", 
+        "hu": "It's covered in a strange shell of ice. When you bite into the actual fruit, it's insanely juicy and sweet.",
+        "it": "It's covered in a strange shell of ice. When you bite into the actual fruit, it's insanely juicy and sweet.", 
+        "ja": "It's covered in a strange shell of ice. When you bite into the actual fruit, it's insanely juicy and sweet.", 
+        "pt": "It's covered in a strange shell of ice. When you bite into the actual fruit, it's insanely juicy and sweet.",
+        "ru": "Этот некий фрукт покрыт странной ледяной оболочкой. Если откусить кусочек, сей плод окажется безумно сочным и сладким.", 
+        "tr": "It's covered in a strange shell of ice. When you bite into the actual fruit, it's insanely juicy and sweet.", 
+        "zh": "它被一层奇怪的冰壳覆盖着。当你咬到真正的水果时，会发现它又甜又多汁。",
+    },
+}

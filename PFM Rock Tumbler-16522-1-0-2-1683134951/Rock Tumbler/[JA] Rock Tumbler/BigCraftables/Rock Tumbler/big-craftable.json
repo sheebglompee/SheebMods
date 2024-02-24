@@ -1,0 +1,32 @@
+{
+    "Name": "Rock Tumbler",
+    "Description": "Polishes gems to increase their value.",
+    "Price": 2000,
+    "ProvidesLight": false,	
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 72,
+            "Count": 1
+        },
+        {
+            "Object": 390,
+            "Count": 10
+        },
+		{
+            "Object": 335,
+            "Count": 5
+        },
+		{
+            "Object": 787,
+            "Count": 1
+        }
+		],
+        "IsDefault": false,
+		"SkillUnlockName": "Mining",
+		"SkillUnlockLevel": 5
+    }
+}

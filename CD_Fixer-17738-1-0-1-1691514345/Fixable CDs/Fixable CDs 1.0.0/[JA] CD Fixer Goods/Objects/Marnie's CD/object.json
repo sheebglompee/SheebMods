@@ -1,0 +1,16 @@
+{
+    "Name": "Marnie's CD",
+    "Description": "Marnie's personal playlist!",
+    "Category": "Crafting",
+    "Edibility": 0,
+    "EdibleIsDrink": false,
+    "Price": 0,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {
+        "Love": ["Marnie"],
+        "Like": ["Evelyn","Jodi","Leah","Linus","Pam","Penny","Pierre","Robin"],
+        "Hate": ["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emi","George","Gus","Haley","Harvey","Jas","Kent","Krobus","Leo","Lewis","Maru","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]
+    }
+}
+

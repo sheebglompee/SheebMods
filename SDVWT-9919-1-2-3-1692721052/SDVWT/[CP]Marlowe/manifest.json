@@ -1,0 +1,13 @@
+{
+  "Name": "Marlowe",
+  "Author": "Me bitxh",
+  "Description": "NPC for IMMERSION!",
+  "Version": "1.2.3",
+  "UniqueID": "Author.Mod",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "UpdateKeys": [
+    "Nexus: "
+  ]
+}

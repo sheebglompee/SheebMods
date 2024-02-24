@@ -1,0 +1,52 @@
+{
+    "Name": "Persimmon (PH)",
+    "Description": "This fruit matures through fall and into winter. They are chalky and bitter before they ripen.",
+    "Category": "Fruit",
+	"ContextTags": 
+        [
+        "season_winter",
+		"color_red"
+        ],
+    "Edibility": 12,
+    "Price": 115, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Jodi", "Dwarf"],
+        "Like": ["Gus", "Lewis", "Caroline", "Linus", "Leo", "Evelyn"],
+        "Neutral": null, 
+        "Dislike": ["Krobus", "Wizard", "Sam", "Pierre"], 
+        "Hate": ["Penny", "Haley", "Shane", "Alex"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Persimmon",
+		"es": "Persimmon", 
+        "ko": "Persimmon", 
+        "de": "Kakifrucht", 
+        "fr": "Persimmon", 
+        "hu": "Persimmon", 
+        "it": "Persimmon", 
+        "ja": "Persimmon",
+        "pt": "Persimmon", 
+        "ru": "Хурма", 
+        "tr": "Persimmon",
+        "zh": "柿子", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "This fruit matures through fall and into winter. They are chalky and bitter before they ripen.", 
+        "ko": "This fruit matures through fall and into winter. They are chalky and bitter before they ripen.", 
+        "de": "Diese Frucht reift durch den Herbst in den Winter hinein. Sie sind kreidig und bitter, bevor sie reifen.",
+        "fr": "This fruit matures through fall and into winter. They are chalky and bitter before they ripen.", 
+        "hu": "This fruit matures through fall and into winter. They are chalky and bitter before they ripen.",
+        "it": "This fruit matures through fall and into winter. They are chalky and bitter before they ripen.", 
+        "ja": "This fruit matures through fall and into winter. They are chalky and bitter before they ripen.", 
+        "pt": "This fruit matures through fall and into winter. They are chalky and bitter before they ripen.",
+        "ru": "Этот фрукт представляет собой ярко-оранжевый плод с вкуснейшей сладкой мякотью и лёгким вяжущим вкусом. Поэтому хурму иногда называют «пищей богов».", 
+        "tr": "This fruit matures through fall and into winter. They are chalky and bitter before they ripen.", 
+        "zh": "这种水果从秋天到冬天都会成熟。它们在成熟之前是苦涩的。",
+    },
+}

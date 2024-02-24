@@ -1,0 +1,14 @@
+{
+	"Name": "Waterfall Snakehead",
+	"TranslationKey": "objects.waterfall-snakehead",
+	"Category": "Fish",
+	"Edibility": 10,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 2100,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Willy"],
+	},
+}

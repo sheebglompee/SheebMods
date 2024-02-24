@@ -1,0 +1,10 @@
+{
+	"Name": "Ridgeside Bass",
+	"TranslationKey": "objects.ridgeside-bass",
+	"Category": "Fish",
+	"Edibility": 10,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 30,
+	"IsColored": false,
+}

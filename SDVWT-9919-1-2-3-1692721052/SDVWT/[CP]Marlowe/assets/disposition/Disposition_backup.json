@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "data/NPCDispositions",
+      "Entries": {
+        "Marlowe": "adult/polite/shy/neutral/male/non-datable/null/Town/summer 6//ArchaeologyHouse 5 5/Marlowe"
+      }
+    }
+  ]
+}

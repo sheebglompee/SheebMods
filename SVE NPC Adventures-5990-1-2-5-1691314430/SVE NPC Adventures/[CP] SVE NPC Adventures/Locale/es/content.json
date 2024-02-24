@@ -1,0 +1,18 @@
+
+{
+	"Changes": [
+	{
+      "Action": "Include",
+      "FromFile": "Locale/{{language}}/Data/Mail.json"
+    },
+    // Companion dialogues
+    {
+      "Action": "Include",
+      "FromFile": "Locale/{{language}}/Dialogues/Andy.json, Locale/{{language}}/Dialogues/Claire.json, Locale/{{language}}/Dialogues/MarlonFay.json, Locale/{{language}}/Dialogues/MorrisTod.json, Locale/{{language}}/Dialogues/Olivia.json, Locale/{{language}}/Dialogues/Sophia.json, Locale/{{language}}/Dialogues/Susan.json, Locale/{{language}}/Dialogues/Victor.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Locale/{{language}}/Strings/SpeechBubbles.json"
+    }
+	]
+}

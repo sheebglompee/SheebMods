@@ -1,0 +1,16 @@
+﻿{
+    "Name": "Chill-Bell",
+    "Description": "These flower are said to toll for the arrival of Winter.",
+    "Category": "Flower",
+    "Edibility": 0,
+    "Price": 75,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Chill-Bell",
+    "ContextTags": [
+    "season_winter",
+    "color_white",
+    "flower_item",
+  ],
+}

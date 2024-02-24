@@ -1,0 +1,52 @@
+{
+    "Name": "Cocoa Powder (PH)",
+    "Description": "A powder made from the beans of a Cacao pod. The basic ingredient for chocolate.",
+    "Category": "ArtisanGoods",
+	"ContextTags": 
+        [
+		"color_brown",
+        "dye_medium"
+        ],
+    "Edibility": -300,
+    "Price": 140, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Gus"],
+        "Like": ["Pierre"],
+        "Neutral": null, 
+        "Dislike": ["Emily", "Harvey"], 
+        "Hate": null,
+    },
+
+    "NameLocalization":
+    {
+        "default": "Cocoa Powder",
+		"es": "Cocoa Powder", 
+        "ko": "Cocoa Powder", 
+        "de": "Kakaopulver", 
+        "fr": "Cocoa Powder", 
+        "hu": "Cocoa Powder", 
+        "it": "Cocoa Powder", 
+        "ja": "Cocoa Powder",
+        "pt": "Cocoa Powder", 
+        "ru": "Какао-порошок", 
+        "tr": "Cocoa Powder",
+        "zh": "可可粉", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A powder made from the beans of a Cacao pod. The basic ingredient for chocolate.", 
+        "ko": "A powder made from the beans of a Cacao pod. The basic ingredient for chocolate.", 
+        "de": "Ein Pulver, das aus den Kakaobohnen hergestellt wird. Die Grundzutat von Schokolade.",
+        "fr": "A powder made from the beans of a Cacao pod. The basic ingredient for chocolate.", 
+        "hu": "A powder made from the beans of a Cacao pod. The basic ingredient for chocolate.",
+        "it": "A powder made from the beans of a Cacao pod. The basic ingredient for chocolate.", 
+        "ja": "A powder made from the beans of a Cacao pod. The basic ingredient for chocolate.", 
+        "pt": "A powder made from the beans of a Cacao pod. The basic ingredient for chocolate.",
+        "ru": "Порошок, приготовленный из какао-стручков. Ключевой ингредиент для приготовления шоколада.", 
+        "tr": "A powder made from the beans of a Cacao pod. The basic ingredient for chocolate.", 
+        "zh": "可可豆粉由可可豆制成的粉末 巧克力的基本成分。  ",
+    },
+}

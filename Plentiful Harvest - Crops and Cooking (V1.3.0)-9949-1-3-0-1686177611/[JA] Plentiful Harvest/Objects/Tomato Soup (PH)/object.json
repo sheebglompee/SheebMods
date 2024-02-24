@@ -1,0 +1,75 @@
+{
+    "Name": "Tomato Soup (PH)", 
+    "Description": "The warm aroma wafting from it is delectable.", 
+    "Category": "Cooking",
+	"ContextTags": 
+        [
+		"color_red",
+        "dye_medium"
+        ],
+    "Edibility": 36, 
+    "EdibleIsDrink": true, 
+    "EdibleBuffs": null,  
+    "Price": 130, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": 256, 
+            "Count": 1,
+        },
+		{
+            "Object": 399,
+            "Count": 1,
+        },
+        {
+            "Object": -6,
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Lewis", "Robin"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": null,
+    },
+
+// Localization
+
+    "NameLocalization":
+    {
+        "default": "Tomato Soup",
+		"es": "Tomato Soup", //Spansih
+        "ko": "Tomato Soup", //Korean
+        "de": "Tomatensuppe", //German
+        "fr": "Tomato Soup", //French
+        "hu": "Tomato Soup", //Hungarian
+        "it": "Tomato Soup", //Italian
+        "ja": "Tomato Soup", //Japanese
+        "pt": "Tomato Soup", //Portuguese
+        "ru": "Томатный суп", //Russian
+        "tr": "Tomato Soup", //Turkish
+        "zh": "番茄汤", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "The warm aroma wafting from it is delectable.", //Spansih
+        "ko": "The warm aroma wafting from it is delectable.", //Korean
+        "de": "Das warme Aroma, das die Suppe umweht, ist köstlich.", //German
+        "fr": "The warm aroma wafting from it is delectable.", //French
+        "hu": "The warm aroma wafting from it is delectable.", //Hungarian
+        "it": "The warm aroma wafting from it is delectable.", //Italian
+        "ja": "The warm aroma wafting from it is delectable.", //Japanese
+        "pt": "The warm aroma wafting from it is delectable.", //Portuguese
+        "ru": "Аромат, исходящий от него, восхитителен.", //Russian
+        "tr": "The warm aroma wafting from it is delectable.", //Turkish
+        "zh": "从它身上飘出的温暖香气令人心旷神怡。", //Chinese (Simplified)
+    },
+	
+}

@@ -1,0 +1,57 @@
+{
+  "Format": "2.0",
+  "Name": "Sophia",
+  "Skills": [
+    { "Name": "scared" },
+    {
+      "Name": "fighter",
+      "Strength": 0.5,
+      "Speed": 0.6,
+      "MissChance": 0.1
+    }
+  ],
+  "Rules": {
+    "!f Sophia 1250": "reject",
+    "t 600 2200": "accept",
+    "O Sophia": "accept"
+  },
+  "Buffs": {
+    "Attack": 1,
+    "Speed": 1,
+    "MagneticRadius": 30
+  },
+  "BuffsDescription": "[sophia.buffs]",
+  "Weapons": {
+    "0": "Sophia's Club", // 1-3
+    "1": "Wooden Blade", // 3-7
+    "2": "Femur", // 6-11
+    "3": "Cutlass", // 9-17
+    "4": "Forest Sword", // 8-18
+    "5": "Iron Edge", // 12-25
+    "6": "Holy Blade", // 18-24
+    "7": "Claymore", // 20-32
+    "8": "Steel Falchion", // 28-46
+    "9": "Obsidian Edge", // 30-45
+    "10": "Lava Katana" // 55-64
+  },
+  "IdleBehaviors": [
+    {
+      "Behavior": "Animate",
+      "Animations": [
+        "sophia_phone",
+        "sophia_read" 
+      ],
+      "Tendency": 5,
+      "MinDuration": 10,
+      "MaxDuration": 30
+    },
+    {
+      "Behavior": "Lookaround",
+      "FaceMinSeconds": 2,
+      "FaceMaxSeconds": 7,
+      "Tendency": 2,
+      "MinDuration": 10,
+      "MaxDuration": 30
+    }
+  ]
+}

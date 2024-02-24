@@ -1,0 +1,91 @@
+{
+    "Name": "Stuffed Bell Pepper (PH)", 
+    "Description": "Everything is cooked in the pepper so the flavor spreads throughout.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_orange",
+        "dye_medium"
+        ],
+    "Edibility": 60, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 2,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 180,
+    }, 
+    "Price": 180, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": 424, 
+            "Count": 1,
+        },
+		{
+            "Object": 423,
+            "Count": 1,
+        },
+		{
+            "Object": "Bell Pepper (PH)", 
+            "Count": 1,
+        },
+        {
+            "Object": "Soy Meat (PH)", 
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Clint"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": ["Haley"],
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Stuffed Bell Pepper",
+		"es": "Stuffed Bell Pepper", //Spansih
+        "ko": "Stuffed Bell Pepper", //Korean
+        "de": "Gefüllte Paprika", //German
+        "fr": "Stuffed Bell Pepper", //French
+        "hu": "Stuffed Bell Pepper", //Hungarian
+        "it": "Stuffed Bell Pepper", //Italian
+        "ja": "Stuffed Bell Pepper", //Japanese
+        "pt": "Stuffed Bell Pepper", //Portuguese
+        "ru": "Фаршированный болгарский перец", //Russian
+        "tr": "Stuffed Bell Pepper", //Turkish
+        "zh": "酿甜椒", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Everything is cooked in the pepper so the flavor spreads throughout.", //Spansih
+        "ko": "Everything is cooked in the pepper so the flavor spreads throughout.", //Korean
+        "de": "Alles wird in der Paprika gegart, sodass sich der Geschmack überall ausbreiten kann.", //German
+        "fr": "Everything is cooked in the pepper so the flavor spreads throughout.", //French
+        "hu": "Everything is cooked in the pepper so the flavor spreads throughout.", //Hungarian
+        "it": "Everything is cooked in the pepper so the flavor spreads throughout.", //Italian
+        "ja": "Everything is cooked in the pepper so the flavor spreads throughout.", //Japanese
+        "pt": "Everything is cooked in the pepper so the flavor spreads throughout.", //Portuguese
+        "ru": "Готовка происходит в самом перце, так что аромат распространяется по всему блюду.", //Russian
+        "tr": "Everything is cooked in the pepper so the flavor spreads throughout.", //Turkish
+        "zh": "所有的东西都是在胡椒里煮的，所以更入味。", //Chinese (Simplified)
+    },
+	
+}

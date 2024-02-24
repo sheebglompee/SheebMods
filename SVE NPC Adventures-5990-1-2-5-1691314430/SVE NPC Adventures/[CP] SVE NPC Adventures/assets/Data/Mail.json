@@ -1,0 +1,19 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load NPC Adventures mail data",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "purrplingcat.npcadventure.bagItemsSentLetter_Andy": "Heya Farmer,^^You forgot some items in my bag, so I've sent them back to you.^I had fun yesterday, I hope to see you again soon!^^    - {1}",
+        "purrplingcat.npcadventure.bagItemsSentLetter_Claire": "Hi {0},^^I saw some of your stuff in my bag, so I've kindly sent them back to you.^Yesterday was great, I hope we do it again soon!^^    - {1}",
+        "purrplingcat.npcadventure.bagItemsSentLetter_MarlonFay": "Hi {0},^^You must have been distracted yesterday, you left some of your stuff in my bag!^I've sent it back to you, keep the good work!^^    - {1}",
+        "purrplingcat.npcadventure.bagItemsSentLetter_MorrisTod": "Hi {0},^^I still had some of your stuff in my bag, so I've returned it to you. You're kind of forgetful.^Anyways, I'll see you around town.^^    - {1}",
+        "purrplingcat.npcadventure.bagItemsSentLetter_Olivia": "Hey {0},^^Yesterday was pretty nice, but you forgot the things you put in my bag. I sent them back to you, it's not a big deal.^Thanks for hanging out with me. We could do it again sometime.^^    - {1}",
+        "purrplingcat.npcadventure.bagItemsSentLetter_Sophia": "Hi {0},^^I still had some of your stuff in my bag, so I've returned it to you. You're kind of forgetful.^Anyways, I'll see you around town.^^    - {1}",
+        "purrplingcat.npcadventure.bagItemsSentLetter_Susan": "Hi {0},^^My bag felt extra heavy, so I checked it and realized you left your stuff with me!^I was very careful with your items, and they should all be there at your farmhouse now.^Come see me again at home by the railroad!^^    - {1}",
+        "purrplingcat.npcadventure.bagItemsSentLetter_Victor": "Hi {0},^^I guess you forgot, but you placed some of your things in my bag while we were together, and you didn't take them with you afterwards.^I'm pretty sure I packed it all, I hope everything's there.^^     - {1}"
+      }      
+    }
+  ]
+}

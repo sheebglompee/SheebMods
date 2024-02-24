@@ -1,0 +1,15 @@
+{
+    "Name": "Abigail's CD",
+    "Description": "Abigail's personal playlist!",
+    "Category": "Crafting",
+    "Edibility": 0,
+    "EdibleIsDrink": false,
+    "Price": 0,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {
+        "Love": ["Abigail"],
+        "Like": ["Dwarf","Emily","Harvey","Krobus","Leo","Marnie","Maru","Robin","Sandy","Sebastain","Willy","Wizard"],
+        "Hate": ["Alex","Caroline","Clint","Demetrius","Elliott","Evelyn","George","Gus","Haley","Jas","Jodi","Kent","Leah","Lewis","Linus","Pam","Penny","Pierre","Sam","Shane","Vincent"]
+    }
+}

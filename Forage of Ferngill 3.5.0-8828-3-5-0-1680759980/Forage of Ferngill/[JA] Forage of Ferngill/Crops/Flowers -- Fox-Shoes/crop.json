@@ -1,0 +1,17 @@
+{
+    "Name": "Fox-Shoes",
+    "Product": "Fox-Shoes",
+    "SeedName": "Fox-Shoes Seeds",
+    "SeedDescription": "Plant in Summer. Takes 7 days to grow.",
+    "Type": "Flower",
+    "Seasons": ["summer"],
+    "Phases": [1, 1, 2, 2, 1],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+	"Colors": null,
+    "SeedNameLocalization":
+    {},
+    "SeedDescriptionLocalization":
+    {},
+}

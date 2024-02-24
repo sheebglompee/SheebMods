@@ -1,0 +1,251 @@
+{
+"Introduction": "..Well, hello. You're that new farmer, right?#$e#I'll make you a deal. You don't bother me, and I - you.#$e#We seem to have agreed on something.$6#$e#Seriously, that was literally a minute ago.$5#$e#Now go away and don't annoy me.$10",
+"danceRejection": "Ahem..$9#$b#Next time, allright?",
+"divorced": "Khh..$10#$b#I have nothing to say to you. The sight of you pains me.$9#$e#%Wilford threw your hand off his shoulder.", 
+"breakUp": "..That's all? ..This is our end?$10#$b#Is this really the outcome we have been striving for so long..$9#$e#..For all this time you have become an integral part of my soul.$2#$e#%Wilford avoids your gaze.",
+"dumped_Boys": "..What do you want from me, @?$10#$b#I feel like a withered flower..$2#$e#%Wilford is ignoring you.",
+"secondChance_Boys": "You want to start over?$6#$e#I'm not your puppet, so don't play with me.$5#$e#..Sure.$2#$e#..Despite it all, I haven't forgotten you.$10",
+"stardrop_gift": "Hey, my sweet buttercup.$1#$b#Close your eyes..$4#$b#I've wanted to give you this for a long time...$8#$b#@, you are the dearest, and closest person to my heart. With you, I feel alive.$4#$b#I love you.$4",
+"give_flowersA": "Ah!$11#$b#What a familiar bouquet.$1#$b#I see a hand of the master, haha..$8#$b#..What?#$b#I accept your feelings.$1",
+"give_flowersB": "@..!$4#$b#..We can try.$8", 
+"give_pendant": "Aww, I..$1#$b#..Haha ..I'm..just.. I have no words..$4#$b#..Sorry! Of course I will!$8",  
+"rejectNPCA": "Yeah, @, very funny.$6",  
+"rejectNPCB": "@, you're humorous.$6#$e#Don't ever try that again. Understood?$5",
+"reject_two_heartA": "Perhaps somewhere we misunderstood each other.", 
+"reject_two_heartB": "Your feelings are not mutual, sorry.", 
+"reject_four_heartA": "Listen, @, it's not worth it.#$b#You don’t know me at all.$10",   
+"reject_four_heartB": "I'll pretend I didn't hear that.", 
+"engageA": "What is this?, huh?$6#$b#Why are you giving this to me, and who are you exactly?$6",  
+"engageB": "Take it away from me.$5",
+"marriedA": "...What did you just do?$3#$b#Am I hallucinating?$6#$e#Get out of my sight.$5",
+"marriedB": "Get that away from me, or I'll smack it off.$5#$b#You should be ashamed.$5#$b#I'll tell your spouse about this disgusting act.",  
+"refusal_knownA": "I don't think this is the right choice.",
+"refusal_knownB": "You should talk it over at least once.",
+"refusal_botherA": "No need, thanks.",
+"refusal_botherB": "Let's forget it.",
+"refusal_no_heartsA": "What is this little trinket?$7#$b#To be honest, I'm not an expert, but you can show it to Gunther.$0",
+"refusal_no_heartsB": "Hmm.. fascinating.$7",
+
+//new
+"Resort_Entering": "What a variety of landscapes!$1#$b#You can assemble a full palette of natural colors.",
+"Resort_Leaving": "Don't bother me, I'm trying to memorize all these incredible specimens so I can read about them in my encyclopedia.",
+"Resort_Shore": "I'm thinking about starting to use algae in my compositions.#$b#The catch is that these plants are quite capricious to work with, as they require extreme accuracy due to their fragility.",
+"Resort_Umbrella": "The sun is too cruel to my poor skin...#$b#And I've already used up the rest of my cream!$2",
+"Resort_Wander": "This place is an inexhaustible source of inspiration.$3#$b#I'll come home with some fresh ideas and get to work right away.$1",
+"Resort_Bar": "Most cocktails are sugary-sweet, so I negotiate with the bartender to substitute some of the ingredients.$3#$b#Technically, yes, we come up with new recipes. Would you like to give it a try?",
+"Resort": "A change of scenery has a favorable effect on the inner state.#$b#That's what Harvey says, and I have no reason not to believe him.",
+
+"GiftReactionCatergory_-80": "Thanks, that's never a waste.", //new
+
+
+"WilfordHouse_27_5": "%Wilford is naming the kinds of tree in his sleep. Pine, cedar...", //new
+"Saloon_6_17": "%Wilford is ignoring you.",
+"WilfordHouse_Entry": "Home, sweet home.../Finally, peace and quiet.../I'm so tired...", //new
+"SeedShop_Entry": "Hello, my dear friend!/Friend! What's fresh?/", //new
+
+"summer_Sat8": "Hi there, @.$1#$b#Today I was walking by a forest lake and I found a lot of interesting plants.$1#$b#And I was just thinking about you, haha.$4#$q 1001/1002 name_followup#Maybe we'll come up with friendly nicknames?#$r 1001 50 name_yes#Great idea! Let it be...Will. Simple and delicate.#$r 1002 -50 name_neutral#Haha, sounds interesting. How do you like «the Gardener»?#$r 1002 -125 name_no#I don't find this funny.", 
+"name_yes": "..Will?#$b#That was my nickname at university.$11#$b#With such a moniker you feel like a tough guy. *laughing*$8#$b#I like it.$1#$b#And you then...Ranunculus!$1#$b#..Oh, sorry: just a Buttercup.$8#$b#As brisk and bright as this flower.$7",
+"name_neutral": "...$10#$b#It was the bad idea.$2#$b#Just forget about it.$9",
+"name_no": "Okay. As you say.$10",
+"name_followup": "$p 1001#So how was your day, buttercup?$1|$p 1002#So how was your day?",
+
+"winter_Thu": "Ugh.#$q 4001/4002 suffer_followup#@, do you like seeing people suffer?$6#$r 4001 -10 suffer_yes#Yes, I do.#$r 4002 0 suffer_no#No, I don't.", 
+"suffer_yes": "That explains why you keep talking to me.",
+"suffer_no": "Then stop talking to me.",
+"suffer_followup": "Stop staring at me, I'm not wearing anything different.$5#$b#What is so interesting about me?$6", //new
+
+
+"fall_Wed2": "Hmm..$9#$q 2001/2002 opinion_followup#Am I too aggressive?#$r 2001 25 opinion_yes#You should be less irritable: negativity repels people.#$r 2001 50 opinion_neutral#Honestly, I'm pretty tired of you already. In addition to a spoiled mood, you haven't much to offer.#$r 2002 -50 opinion_no#Not at all!#$r 2002 -25 opinion_nono#It's okay, you just have such a nature.",
+"opinion_yes": "...$10#$b#You're right.$9",
+"opinion_neutral": "...$3#$b#I'm..$10#$b#Sorry.$2",
+"opinion_no": "...#$b#You're such a hypocrite.$5",
+"opinion_nono": "...#$b#Such a ridiculous argument.$5",
+"opinion_followup": "%Wilford looks confused",
+
+
+"spring_Fri": "Hey.#$q 3001 map_followup#If you had the choice to go anywhere in the world right now, what would you choose?$11#$r 3001 0 map_1#To the mountains: I would climb to the top of the ice block, listening to the howl of a blizzard and the creak of snow underfoot.#$r 3001 0 map_2#To an uninhabited island: I would bask in the hot sand and chew tropical fruits under the sound of waves and singing gulls.#$r 3001 0 map_3#Into a birch grove: I would splash around in a cool spring and talk to a cuckoo, then run into a meadow in the search for for scarlet strawberries.#$r 3001 0 map_4#Hmm... I'm fine right here, so I'd choose a Stardew Valley!",         
+"map_1": "..Fine.$1",
+"map_2": "Nice choice.$1",
+"map_3": "Hmm..$1",
+"map_4": "You're kinda funny.$8",
+"map_followup": "I keep dreaming of going on some trip, but I still can't decide where to go...$9",
+
+
+"summer_Tue": "...$9#$q 3002/3003 linus_followup#..How do you feel about Linus?#$r 3002 0 linus_a#I barely know him.#$r 3002 -25 linus_b#Who's that?#$r 3002 -50 linus_c#He disgusts me.#$r 3003 0 linus_d#He is...an unusual conversationalist.",
+"linus_a": "..I advise you to get to know him better.",
+"linus_b": "Don't play a fool with me.$5#$b#..I advise you to get to know him better.$10",
+"linus_c": "You disgust me, if you judge people so superficially.$5",
+"linus_d": "Did you have a conversation?$1#$b#Many in the valley for some reason are fastidious about him.$9#$b#..I advise you to get to know him better.",
+"linus_followup": "Today I visited Linus.#$b#He's fine, in case you were wondering.",
+
+"spring_Tue": "Hey...#$q 3004/3005 cook_followup#Hey, do you like cooking?#$r 3004 15 cook_yes#Yes.#$r 3005 0 cook_no#No.",         
+"cook_yes": "Me too! We could cook something together.$8#$b#But I still have to think about it...$9",
+"cook_no": "No?#$b#Well, okay.$2#$b#That's what I thought, a simple farmer can't do such a sophisticated thing.$7",
+"cook_followup": "I could share a couple of my recipes with you... If you want.", //new
+
+
+"spring_1": "The beginning of spring is always a joyful event for me. Just imagine how many flowers'll bloom in the meadows!$8",
+"spring_1_2": "Spring is here.#$b#We both have a lot of work to do.$1",
+"spring_23": "Oh, that dance is tomorrow...$9#$e#I'll come around, but only for the strawberry seeds.$1#$e#...And of course, to admire the floral decorations.$1#$b#Just to make sure my sleepless nights weren't for nothing.", 
+"spring_26": "Today is Pierre's birthday.$1#$e#You didn't forget to congratulate him, did you?",
+"spring_28": "Last spring day!$1#$b#I am tormented by the thought that I collected insufficient materials...$2",
+
+"spring": "I guess there’s a lot of people who don’t like me.$9#$e#What a pity.$8",
+"Mon": "..Hm?#$e#Do I have any debt?$10",
+"Mon2": "Monday..$2#$e#Should I be worried about it? Haha.$8",
+"Mon4": "Hi.$1#$e#How do you like the first day of the working week?$11#$b#Haha, don't mope, tomorrow's tuesday.$8#$e#I don’t know how to cheer.",
+"Mon6": "How are you doing?#$b#I’m going to the woods for the day, do you need anything?$1#$e#I'm in kind of a good mood today.$8",
+"Mon8": "Sometimes I'm in the mood to just walk through a fragrant meadow picking flowers.$1#$b#But it happens less and less often, because I mostly associate flowers with work.", //new
+"Tue2": "Greetings.#$e#You think I’m gonna ask how's it going?$6#$e#..How's it going?#$e#Actually, I don't even care.$11",
+"Tue4": "Oh those poor people who suffer from allergy to flowers!$2", //new
+"Tue6": "Do all farmers have such funny boots?$1#$b#Hahaha. Cute.$8",
+"Tue8": "@.#$b#Hi there.#$e#I don't know what to say to you..#$b#I've never been much of a conversationalist.$9",
+"Wed": "This is all fascinating, really..$7#$b#But I have to go.",
+"Wed2": "It's safe to run barefoot in my woods.#$b#I take good care of my lawn.$1", //new
+"Wed4": "Do not eat a lot of sweets and refuse soda if you want to have a beautiful smile.$1",  
+"Wed6": "Don’t work too hard.$9#$e#I mean on your...%farm farm.",
+"Wed6_2": "Remember to water your flowers.#$b#They may not bring a lot of profit, but they're still nice to look at.$1", //new
+"Wed8": "Hey.#$b#I’m glad we ran into each other.$1#$b#I feel a little better now.$1", 
+"Thu": "Whoa!!.. What's that over there?$3#$e#%Wilford turned away.",  
+"Thu2": "Do you have any potted plants?#$b#Live flowers in the house are not only beautiful and make the room cozy, but also very useful.$1",
+"Thu4": "Are you really interested in talking to me?..#$e#*sighs*$9#$b#I'll take your word for it.$10", 
+"Thu6": "I’m back in the woods.#$e#I can take you with me next time if you want.$1", 
+"Thu8": "..I’m not feeling well today.$2", 
+"Fri": "I have so much to do..$11#$e#So bye-bye!",
+"Fri2": "Friday.#$e#The saloon will be noisy.$11",
+"Fri4": "Sometimes I want to return to the big city.$9#$b#I just want to give up those thoughts.",
+"Fri6": "Tonight I go to the saloon.#$e#..Mh? You want to keep me company?$11",
+"Fri8": "Sometimes I understand George..$9#$e#Hey, stop laughing!$1",
+"Fri8_2": "I wish a fairy would come to my garden and grow all my plants for me.#$b#That way, I could catch up on some sleep.$2", //new
+"Sat": "What do you think of the garden by my house?$1#$e#Taking care of plants is the only activity that gives me real pleasure.",
+"Sat2": "Penny really likes messing with kids.#$e#I don't get it.$9",
+"Sat4": "*yawn* I'm kinda sleepy today.$7#$e#I spent all night in my greenhouse...$9#$b#Flowers, just like people, require attention and care.",
+"Sat6": "Tell me a little bit about yourself.#$b#I’m too exhausted for a meaningful dialogue.$11", 
+"Sat8": "May I follow you to the mines someday?", //new
+"Sun": "%Wilford doesn't seem really feel like talking right now.",  
+"Sun2": "Even though I can't stand the heat, the idea of a trip to Fern Islands sounds tempting.$1#$e#It might be very quiet and peaceful there.$7#$b#I would also like to discuss the diversity of the island's flora with the locals.$1",
+"Sun4": "I like Sundays.$1#$e#Citizens are morally preparing for the beginning of the new week and it seems as if the world is freezing.#$b#I'm especially pleased to walk along the deserted streets.$1", 
+"Sun8": "I hope you slept well tonight.$1#$e#On the weekends people usually rest, by the way.", 
+  
+
+"summer_1": "Summer is the ideal season for stock renewal.$1#$b#Flowers bloom on every corner!$8",
+"summer_1_2": "Summer is nothing more for me than a useful season to replenish materials and explore new plant species.#$b#And I don't see anything good in the scorching sun and heat.$9",
+"summer_4": "In the summer I have a few orders, but the fall festivals require a large amount of of decorations.#$e#Therefore I need to get down to work now.$1",
+"summer_Wed2_2": "I spoke to Harvey this morning about the general condition of the clinic.#$b#He's living from hand to mouth, while locals prefer solo treatment at home.$9#$e#Maru is a huge help to him.",
+"summer_7_2": "The sun is particularly annoying today.$2#$b#If my plants didn't need upkeep, I wouldn't leave my house.", //new
+"summer_16_1": "That man staying with Marnie. He displeases me.#$e#No, not Shane. Her loverboy.", //new
+
+
+"summer_Mon": "Yeah.#$b#It's really hot today, isn't it?$1",
+"summer_Mon_2": "What's with the red face?#$b#It isn't Spirit's Eve yet, why are you dressing up as a tomato?$1", //new
+"summer_Mon2": "Summer nights are the clearest.$1#$b#Sometimes at the darkest nights I go out to the beach and stare at the sky - a pitch-black canvas strewn with pink pearls.$1",
+"summer_Mon4": "Caroline once said that she adores Summer Spangle.#$e#..It might be useful for you.",
+"summer_Mon6": "How's your farm?$1",
+"summer_Mon8": "Well, hello.#$b#Everyday I pass by your farm, but don't have the courage to go in.$9#$e#Maybe you'll invite me sometime?", 
+"summer_Tue2": "I always start my day with a workout and a glass of freshly squeezed orange juice.$1",
+"summer_Tue4": "Today I dream only of a slice of juicy melon..$8",
+"summer_Tue10": "..Hm?$8#$b#Did you pass by a flower meadow?$1#$b#You smell of sage and chamomile.$1",
+"summer_Wed": "%Wilford seems to be in a bad mood today.",
+"summer_Wed2": "Emily told me interesting things about minerals.#$b#I plan to go down to the mines and get a few someday.$1#$e#...What's with that face? Is it not as easy as it seems?#$b#Oh.$9",
+"summer_Wed4": "The forest keeps many secrets.#$b#Did you go to the backwoods?#$e#And also this strange tower..$10",
+"summer_Wed6": "What do you mean, 'ice cream is critical for summer survival'?$6#$b#Am I an immortal being, then?", //new
+"summer_Wed10": "..You have a beautiful smile.#$b#Take care of it.$1",
+"summer_Thu": "Nothing to do?$6",
+"summer_Thu2": "Being a child is so easy..$9#$b#You can afford to be careless.$10",
+"summer_Thu4": "Many people think that floristics is not a serious business...$9#$b#In fact, the master can be compared with a floral jeweler - it is a painstaking and exhausting work.$10#$e#But I like it.$1#$e#I am happy to do my favorite thing.$8",
+"summer_Thu6": "Fairy roses? I've never seen one, but I've heard of them.#$b#The 'attracting fairies' thing is a farce.", //new
+"summer_Fri": "..$6#$e#You stink of manure.$7",
+"summer_Fri2": "Alex reopened his stall.#$e#And now every passerby is holding this cold sugar ball on a waffle cone.$10#$b#I hate sweets.$2#$e#Yes, I meant...ice cream.",
+"summer_Fri4": "I often visit the grocery store on the square.#$e#Over a cup of tea, Caroline and I discuss the nuances of caring for indoor plants, and Pierre shares with me the secrets of soil fertility.$1",
+"summer_Fri8": "Agh.$5#$e#Don't touch me.$5#$e#I got caught in the damn vine that grows near that old tower in the backwoods.$10#$b#Now all palms are in abrasions and blisters.$2",
+"summer_Sat": "Why do you keep hitting on me?$6",
+"summer_Sat2": "My job involves spending a lot of time outdoors.#$b#Why do I look so pale, then?$9#$e#It's all about genes, farmer.",
+"summer_Sat4": "My products are supplied to all retail outlets in the village.$1#$b#Sounds good until you remember that there are only three.#$e#Actually, I have a lot of work to do.$1",
+"summer_Sat6": "The air is so warm and soft today...$8#$e#It relaxes.$1",
+//"summer_Sat8": "",//
+"summer_Sun": "You are too intrusive.",
+"summer_Sun2": "I decided to make myself a long-awaited weekend.#$b#It is convenient to have a flexible hours..$1",
+"summer_Sun6": "The heat of summer annoys me.$5#$b#I start to sweat, and because of this I get angry and lose the desire to work.#$e#My uncle considered me a pretentious sissy.$9#$b#Yes, I aspire to purity, but I am not fastidious at all.",
+"summer_Sun8": "What a heatwave...#$e#Green tea with ice would be very refreshing right now.",
+
+
+"fall_1": "The most difficult, but also the most favorite season for me.$8#$e#Fall coolness and the aroma of forest berries with mushrooms are very calming, despite the large amount of work to be done.$1",
+"fall_10_1": "...#$e#..Your eyes..$10#$e#You remind me of someone..$9",
+"fall_28": "..I try to memorize these landscapes in as much detail as possible.#$e#Oh.$9#$b#Tomorrow nature will look very different.$10",
+"fall_16_1": "Do not throw away materials, even if they seem unimportant to you.#$b#In farming there are no extra resources, and every little thing can find a reasonable use.#$e#Or just load them into your shipping bin.$11#$b#You ought to make a profit of everything.$1",
+"fall_Thu2_1": "I had a friend, an optometrist.#$b#Whenever we went out together, he would offer check-ups to all those who said I looked handsome.#$b#Get yourself a friend like that.", //new
+
+
+"fall_Mon": "I don't like your company.#$e#Shoo.",  
+"fall_Mon2": "How's the %farm farm going?#$b#Do you grow any plants there?$1#$b#..I mean decorative ones.$9",  
+"fall_Mon4": "Mgh..$9#$e#Again.. I lost my temper.$9",
+"fall_Mon6": "I like to observe creative people.#$b#Their worldview often goes beyond social norms.$1#$e#Previously, I even tried to imitate such people.#$b#Unfortunately, my world consists only of a harsh reality.$9", 
+"fall_Mon8": "Be careful when you go down the mine.$1#$e#...#$e#I won't repeat it.$7",  
+"fall_Tue": "What do you mean, 'how are you'?$6#$b#Do you expect me to say 'fine' and move on with my day?$6#$b#Well, you're right, now leave.", //new  
+"fall_Tue2": "How are things on the farm?..#$e#..What? I am really.. curious.$9", 
+"fall_Tue4": "How do you not get tired of running like this all day?",
+"fall_Tue6": "Sometimes, when I pass by the railway, I go up to the platform and freeze: as if I am waiting for something.$9#$e#For some reason, there is an unbearable desire to jump on the first random train and go far, far away, beyond the horizon...$10#$e#So what is stopping me..?",
+"fall_Wed": "And what do you want from me?$6#$b#Apparently, I cannot understand the course of your thoughts.$9",  
+"fall_Wed4": "In my childhood I was a very sickly kid.$9#$e#And now I suffer from sudden migraine attacks and lack of appetite.",
+"fall_Wed6": "Hi. Here you go. [421]",
+//"fall_Wed8": "Haley keeps asking me to do her make-up like I do mine... I don't know how to respond.$2", //new
+"fall_Thu": "%Wilford isn't up to talking today.",  
+"fall_Thu2": "What do I think about Joja?$6#$b#I don't. All the flowers I see on their shelves are half-dead.", //new
+"fall_Thu4": "Do you like to pick mushrooms?#$b#This is one of my favorite «fall games».$8#$e#Sometimes in the forest you can find mushrooms the size of a whole pine tree.$1#$b#They usually grow in the middle of nowhere.$1#$b#If you manage to cut down at least one of these, you get a whole basket of regular mushrooms.$8",
+"fall_Thu6": "Come by for a cup of tea sometime.#$b#I have lots of dried flowers and berries at home, and Caroline once even shared with me her recipe of a very tasty apple pie.$1",
+"fall_Thu8": "I wonder if there are any flowers that grow in the mines.", //new
+"fall_Fri": "...?$5#$e#Nothing to say?$6#$e#I have to go then.", 
+"fall_Fri2": "I am going to have a good time in the evening.$8#$e#It is not an invitation.",  
+"fall_Fri4": "My favorite ficus got sick.$10#$b#I had to give it to Caroline for treatment.$9#$e#She has a good understanding of this case, so I have nothing to worry about.$1",
+"fall_Fri6": "My head...$2#$e#Terror.$9#$b#It's terrible..$9#$b#So much noise.$9#$e#Are you doing this on purpose?!$5",
+"fall_Sat": "My previous work was related to medicine.#$e#Now I completely gave myself to floral art.$1",  
+"fall_Sat2": "..Hey!$3#$e#Why are you sneaking around..?$2#$e#Grass mutes the steps..$7#$e#I had already thought..$9#$b#Don't scare me like that again, okay?$10",
+"fall_Sat4": "Today I am going to take a walk in the forest.$8#$e#Yes, again.$6",
+"fall_Sat6": "I have accumulated herbaria for the whole library.$9#$e#Maybe I should really give them to Gunter...?",
+"fall_Sat8": "Beauty is like a flower.#$b#Fleeting, and only beautiful for as long as you tend to it.#$b#Once its season passes, it will never return.$2", //new
+"fall_Sun": "You are like a weed in my garden.#$b#I want you to go away, but you keep coming back.", //new
+"fall_Sun2": "Um. Well, hello.#$e#Reach out your hand. [281 404 420]$7#$e#I was in the forest today, as you have already understood.$1",
+"fall_Sun4": "A wonderful day for a walk in the fresh air.$1",
+"fall_Sun6": "Have you been to the Calico Desert before?#$b#The bus stop is right near your farm. Practical.$1#$e#It's hot there even in winter.#$b#Daytime temperatures exceed our summer maximum.$9#$e#I wouldn't go there even for a sack of gold.#$b#There is also this sand around. Ew.$10",
+"fall_Sun8": "Hey, are you busy today?$1#$e#Then we could..$8#$b#Although no, forget it.$9",
+
+
+"winter_1": "The land is empty and cold - there is only ice around.$9#$e#I have to sit idle.$10#$b#I'm sure you suffer from the same folly.",
+"winter_28_1": "Finally.#$b#I've been waiting for this day all season.#$e#I'll spend the last day of winter at home under a warm blanket and with a book in my hands.$8",
+"winter_5_2": "Counting sheep until sleep takes you is overrated, I prefer going down with a fight. Sadly, I usually win.$2", //new
+"winter_19": "You look like you've seen a ghost.$6#$b#I didn't know my complexion was that sickly these days.$2", //new
+"winter_Wed4_2": "Jodi has been asking me my secret to looking young.#$b#I think she needs glasses.$2", //new
+"winter_28_2": "A beautiful time is coming..$1#$b#Can you already hear the rustling of young leaves and the singing of migratory birds?$8", //new instead of spring_1_3
+
+"winter_Mon": "Where are you in such a hurry?#$e#Don't slip, haha.$11",
+"winter_Mon2": "Aren't you cold?$10#$e#Haha, I don't care.$1",
+"winter_Mon4": "The forest is so spacious and clean: only white snow under your feet.$1#$e#And the air is cold too cold - scratches the throat when you breathe.$1",
+"winter_Mon6": "Oh, you have snowflakes on your eyelashes.$1#$b#Cute.$8",
+"winter_Tue": "What do you need?$6#$e#..What a nightmare.$9",
+"winter_Tue2": "Haley suggested I use a foundation cream.$0#$b#She said that this pale skin and bruises scare people away.$7#$e#Such a nice, naive girl.$1#$e#This primitivism's making me laugh.$8",
+"winter_Tue4": "Abigail will teach me ice skating.$1#$e#Haha. For some reason, I'm worried.$7",
+"winter_Tue6": "Hey, look what I dug up in the snow. [418]$1#$e#Snow flower petals are very soft and smell like spring pollen.$7#$b#Amazing.$1",
+"winter_Wed": "Abigail treated me with hot chocolate.$8#$e#Hey, you're not gonna ask me to try it, are you?$6#$b#I don't know you at all.",
+"winter_Wed2": "Now I have a lot of free time.#$b#I spend it on reading new books and additional walks.$1#$e#..So I go back to the clinic only for the night.",
+"winter_Wed4": "Hack-ha..$9#$e#It's okay.$10#$e#*coughs*$2#$e#Okay, I think I should drink hot herbal tea after all.$9",
+"winter_Wed6": "Do I consider you a friend?#$b#...Perhaps, but only as an ornamental.", //new
+"winter_Wed8": "Hey! Haha.$8#$e#%Wilford threw a snowball at you.",
+"winter_Thu": "%Wilford doesn't seem really feel like talking right now.",
+"winter_Thu2": "It seems to me that Clint has the 'hots' for Emily.$1#$e#Or are they just friends?..#$e#How interesting.$7",
+"winter_Thu4": "Winter nights are light, like...café au lait.$8#$e#Moonlight is reflected from the snow - at this time it is pleasant to walk in the forest.$1",
+"winter_Thu6": "I scared Jas for a joke.$10#$e#..And she cried.$9#$e#Marnie doesn't like me anyway.$9#$e#I'm such a fool..$9",
+"winter_Fri_1": "Ahem. Today saw something I shouldn't have seen.$9#$e#%Wilford is ignoring you.",
+"winter_Fri": "You're probably not having much fun now either.#$b#..On your %farm farm.$9#$e#And Caroline's greenhouse has summer all year round.$8",
+"winter_Fri2": "Mhm... It'll be hot in the saloon tonight.$8#$b#And tasty.$11",
+"winter_Fri4": "Grr..I'm so frozen.$9#$e#I'd love to stay home by the warm fireplace, but orders don't complete by themselves, you know?",
+"winter_Fri8": "Hi, @.$0#$e#I was thinking about my hometown...#$b#In the past, everything was so...alive.$7#$e#Harvey advises to stop living in the past, but sometimes it seems to me as if it follows in the footsteps and is about to catch up with me.$9",
+"winter_Sat": "Why are you chillin' here?$6#$b#Farmers don't have days off.$7",
+"winter_Sat2": "Today, I was having a snowball fight with the kids.#$b#Penny was so thankful.$1#$e#Smiling suits her.$8",
+"winter_Sat4": "Hey. Wait.#$b#...How are you doing?$1#$b#...$9#$e#Just forget it.$9",
+"winter_Sat6": "In winter, my weekends are no different from weekdays.$9#$e#I am serious.",
+"winter_Sun": "Do you have any friends at all..?$6#$e#And then why do you come to me?#$e#I am nobody to you.#$b#This is mutual, by the way.$1",
+"winter_Sun2": "..I was in a bad mood and I broke someone's snow castle.$9#$e#Sometimes I'm disgusted with myself.#$e#It seems like such a trifle, haha.$2",
+"winter_Sun4": "Do you like cooking?#$e#I would like to learn this skill, but for what?#$b#I have no one to treat, and I don't eat much myself..$9",
+"winter_Sun6": "..Have you been in the forest during the snowfall?#$e#The sound of falling snow is like crystal jingle.$7",
+"winter_Sun10": "..Hello.#$e#...$10#$e#Hey, why aren't you wearing mittens?#$b#Oh. Give me your hands.$7#$b#..Fingers are icy.#$e#%Wilford brought your hands to his mouth and blow on them.#$e#..Go to Emily and order yourself a pair of warm mittens."
+}

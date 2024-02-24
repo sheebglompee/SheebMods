@@ -1,0 +1,23 @@
+{
+  "Changes": [
+    {
+      "LogName": "Companion dialogues for Andy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Andy",
+      "Entries": {
+        "companionAccepted": "Sure, farmer. Let's get to it!$1",
+        "companionRejected": "I'm too busy with the farm today.$2",
+        "companionRejectedNight": "Are you joking? Go get some sleep for Yoba's sake!$5",
+        "companionDismiss": "Oh, sure thing. I'll get going.$0#$b#You know where to find me.$3",
+        "companionDismissAuto": "Sorry, farmer. But I have to call it a night.$0#$b# Dont worry, I'll ask Yoba to look out for you.$8",
+        "companionRecruited": "Should we grab a drink, @?$1",
+        "giveForages": "Hey, @, look what I found! Here, this is for you.",
+        "heal": "Dear eight pound, six ounce, newborn Baby Yoba...$8",
+        "nomedkits": "Don't abuse Yoba's mercy.$7",
+        "companion_SeedShop": "I don't see how anyone can afford to shop at this place.$5#$b#Pierre's got some nerve charging so much...$2",
+        "companion_Desert": "Nothin' but sand and there isn't even a Joja Mart... How could anyone live here?$7#$b#Looks like Yoba abandoned this place years ago.$8",
+        "companion_Town": "In this town I only feel welcome at The Saloon, Shrine ta' Yoba, and Joja Mart.$2#$b#I'd much rather be out in the woods on my own...$8"
+      }
+    }
+  ]
+}

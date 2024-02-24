@@ -1,0 +1,29 @@
+{
+// Rename this as config.json and place in Trash Can Reactions mod folder to use.
+// Settings are default for vanilla - if you changed any settings in your existing config move them to this one.
+  "Enabled": true,
+  "LinusDialogue": "Data\\ExtraDialogue:Town_DumpsterDiveComment_Linus",
+  "ChildDialogue": "Data\\ExtraDialogue:Town_DumpsterDiveComment_Child",
+  "TeenDialogue": "Data\\ExtraDialogue:Town_DumpsterDiveComment_Teen",
+  "AdultDialogue": "Data\\ExtraDialogue:Town_DumpsterDiveComment_Adult",
+  "LinusEmote": 32,
+  "LinusPoints": 5,
+  "ChildEmote": 28,
+  "ChildPoints": -25,
+  "TeenEmote": 8,
+  "TeenPoints": -25,
+  "AdultEmote": 12,
+  "AdultPoints": -25,
+  "SpecificCharacters": {
+    "Jean": {
+      "dialogue": "Characters\\Dialogue\\JeanCat:Town_DumpsterDiveComment_Adult",
+      "emote": 32,
+      "points": 10,
+    },
+	"Jorts": {
+      "dialogue": "Characters\\Dialogue\\JortsCat:Town_DumpsterDiveComment_Adult",
+      "emote": 20,
+      "points": 20,
+    },
+  },
+}

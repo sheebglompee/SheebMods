@@ -1,0 +1,309 @@
+﻿{
+    "Format": "1.8",
+    "ConfigSchema": {
+        "usecellar": {
+            "AllowValues": "true, false",
+            "Default": true
+        }
+    },
+    "DynamicTokens": [
+        {
+            "Name": "filename",
+            "Value":" greenhouse",
+            "When": {
+                "usecellar": true
+            }
+        },
+        {
+            "Name": "filename",
+            "Value": "greenhouse_withoutcellar",
+            "When": {
+                "usecellar": false
+            }
+        }
+    ],
+    "Changes": [
+        //map
+        {
+            "Action": "Load",
+            "Target": "Maps/Greenhouse",
+            "FromFile": "assets/{{filename}}.tbin"
+        },
+        //strings
+        //default
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "dngh.1": "This little plant is slow-growing, but with lots of care and attention, it will eventually tower over the rest.",
+                "dngh.2": "\"The fruit of the Averrhoa carambola tree is cultivated in hot, dry climates. Seeds are expensive and rare, but the wine the fruit produces is a delicacy and can sell for up to 6300g.\"",
+                "dngh.3": "Calvin the Cactus is looking very handsome today.",
+                "dngh.4": "It's filled with fresh crops.",
+                "dngh.5": "This place needs a bit of a tidy-up...",
+                "dngh.6": "It's filled with old batches of wine, slowly aging.",
+                "dngh.7": "The shelves are stocked with various wines, beers, and spirits. Grandpa once used this cellar as a bar where all the townspeople could come and taste the latest batch.",
+                "dngh.8": "-- ORDERS --^Lewis : x4 casks^Stardrop Saloon : x15 casks^Pam : a nice bottle - the good stuff",
+                "dngh.9": "Treasure! Well, savings... Grandpa used to make a lot of money exporting his world-famous starfruit wine.",
+                "dngh.10": "These barrels are hiding Grandpa's very last batch of starfruit wine. He always said it wouldn't do until it was aged 100 years. Then it would be the best wine anyone's ever tasted.",
+                "dngh.11": "A perfect set-up for a quiet, romantic date.",
+                "dngh.12": "The crystal radiates a mysterious energy...",
+                "dngh.13": "It's a book of poems. \"...and the last door closed at 4 A.M. and the last telephone slammed at the wall in reply...\"#\"...and the last furnished room emptied down to the last piece of mental furniture, a yellow paper rose twisted on a wire hanger in the closet...\"#\"...and even that imaginary, nothing but a hopeful little bit of hallucination--\"",
+                "dngh.14": "What's the point of a magical private oasis without a toy sailboat to splash around with?#...#Exactly.",
+                "dngh.15": "A beautiful spot for a quiet date.",
+                "dngh.16": "This tree is huge and ancient. Grandpa built the whole greenhouse around it. He used to say its roots linked {{FarmName}} Farm to the entire town."
+            }
+        },
+        //non-alcoholic version
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "dngh.1": "This little plant is slow-growing, but with lots of care and attention, it will eventually tower over the rest.",
+                "dngh.2": "\"The fruit of the Averrhoa carambola tree is cultivated in hot, dry climates. Seeds are expensive and rare, but the juice the fruit produces is a delicacy and can sell for up to 6300g.\"",
+                "dngh.3": "Calvin the Cactus is looking very handsome today.",
+                "dngh.4": "It's filled with fresh crops.",
+                "dngh.5": "This place needs a bit of a tidy-up...",
+                "dngh.9": "Treasure! Well, savings... Grandpa used to make a lot of money exporting his world-famous starfruit jelly.",
+                "dngh.10": "These barrels are hiding Grandpa's very last batch of starfruit jelly. He always said it wouldn't do until it was aged 100 years. Then it would be the best jelly anyone's ever tasted.",
+                "dngh.11": "A perfect set-up for a quiet, romantic date.",
+                "dngh.12": "The crystal radiates a mysterious energy...",
+                "dngh.13": "It's a book of poems. \"...and the last door closed at 4 A.M. and the last telephone slammed at the wall in reply...\"#\"...and the last furnished room emptied down to the last piece of mental furniture, a yellow paper rose twisted on a wire hanger in the closet...\"#\"...and even that imaginary, nothing but a hopeful little bit of hallucination--\"",
+                "dngh.14": "What's the point of a magical private oasis without a toy sailboat to splash around with?#...#Exactly.",
+                "dngh.15": "A beautiful spot for a quiet date.",
+                "dngh.16": "This tree is huge and ancient. Grandpa built the whole greenhouse around it. He used to say its roots linked {{FarmName}} Farm to the entire town."
+            },
+            "When": {
+                "usecellar": false
+            }
+        },
+        //translations
+        //german
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "dngh.1": "Diese kleine Pflanze wächst langsam. Aber mit der entsprechenden Aufmerksamkeit und Fürsorge könnte sie bald alles andere überragen.",
+                "dngh.2": "\"Der Averrhoa-carambola-Baum wird in einem heißen und trockenen Klima kultiviert. Samen sind sehr selten und demzufolge teuer. Aber der aus den Früchten hergestellte Wein ist sehr schmackhaft und kann beim Verkauf bis zu 6300G einbringen.\"",
+                "dngh.3": "'Calvin der Cactus' schaut heute recht hübsch aus.",
+                "dngh.4": "Das Fass ist gefüllt mit frisch geernteten Erzeugnissen.",
+                "dngh.5": "Hier sollte mal wieder etwas aufgeräumt werden...",
+                "dngh.6": "Das Fass ist mit Wein aus alten, sorgfältig gereiften Jahrgängen gefüllt.",
+                "dngh.7": "Die Regale sind gefüllt mit verschiedenen Weinen, Bieren und Branntweinen. Großvater nutzte einst diesen Keller als Bar, in der die Leute aus der Stadt die aktuellen Jahrgänge verkosten konnten.",
+                "dngh.8": "-- BESTELLUNGEN --^Lewis: 4 Fässer^Kneipe zum Sternenfall: 15 Fässer^Pam: Eine nette Flasche vom guten Stoff",
+                "dngh.9": "Schätze! Na schön, besser Rücklagen... Großvater pflegte eine Menge Geld mit dem Export seines weithin berühmten Sternenfrucht-Weines zu machen.",
+                "dngh.10": "Diese Fässer verbergen Großvaters allerletzten Jahrgang seines Sternenfrucht-Weines. Er sagte immer, der Wein könnte solange reifen, bis er mal 100 Jahre alt sei. Dann sei es der beste Wein, den je jemand probiert hätte.",
+                "dngh.11": "Ein perfektes Arrangement für ein heimliches, romantisches Date.",
+                "dngh.12": "Der Kristall emittiert eine seltsame Energie...",
+                "dngh.13": "Dieses Buch enthält Gedichte. \"...and the last door closed at 4 A.M. and the last telephone slammed at the wall in reply...\"#\"...and the last furnished room emptied down to the last piece of mental furniture, a yellow paper rose twisted on a wire hanger in the closet...\"#\"...and even that imaginary, nothing but a hopeful little bit of hallucination--\"",
+                "dngh.14": "Worin bestände wohl der Sinn einer privaten magischen Oase ohne ein Spielzeug-Segelboot, mit dem man herumplanschen kann?#...#Genau!",
+                "dngh.15": "Ein wunderbarer Ort für ein heimliches Date.",
+                "dngh.16": "Dieser Baum ist groß und uralt. Großvater hat das gesamte Gewächshaus um ihn herum gebaut. Er pflegte immer zu sagen, dass die Wurzeln des Baumes {{FarmName}} Hof mit der ganzen Stadt verbinden."
+            },
+            "When": {
+                "language": "de"
+            }
+        },
+        //german non-alcoholic
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "dngh.1": "Diese kleine Pflanze wächst langsam. Aber mit der entsprechenden Aufmerksamkeit und Fürsorge könnte sie bald alles andere überragen.",
+                "dngh.2": "\"Der Averrhoa-carambola-Baum wird in einem heißen und trockenen Klima kultiviert. Samen sind sehr selten und demzufolge teuer. Aber der aus den Früchten hergestellte Wein ist sehr schmackhaft und kann beim Verkauf bis zu 6300G einbringen.\"",
+                "dngh.3": "'Calvin der Cactus' schaut heute recht hübsch aus.",
+                "dngh.4": "Das Fass ist gefüllt mit frisch geernteten Erzeugnissen.",
+                "dngh.5": "Hier sollte mal wieder etwas aufgeräumt werden...",
+                "dngh.9": "Schätze! Na schön, besser Rücklagen... Großvater pflegte eine Menge Geld mit dem Export seines weithin berühmten Sternenfrucht-Weines zu machen.",
+                "dngh.10": "Diese Fässer verbergen Großvaters allerletzten Jahrgang seines Sternenfrucht-Weines. Er sagte immer, der Wein könnte solange reifen, bis er mal 100 Jahre alt sei. Dann sei es der beste Wein, den je jemand probiert hätte.",
+                "dngh.11": "Ein perfektes Arrangement für ein heimliches, romantisches Date.",
+                "dngh.12": "Der Kristall emittiert eine seltsame Energie...",
+                "dngh.13": "Dieses Buch enthält Gedichte. \"...and the last door closed at 4 A.M. and the last telephone slammed at the wall in reply...\"#\"...and the last furnished room emptied down to the last piece of mental furniture, a yellow paper rose twisted on a wire hanger in the closet...\"#\"...and even that imaginary, nothing but a hopeful little bit of hallucination--\"",
+                "dngh.14": "Worin bestände wohl der Sinn einer privaten magischen Oase ohne ein Spielzeug-Segelboot, mit dem man herumplanschen kann?#...#Genau!",
+                "dngh.15": "Ein wunderbarer Ort für ein heimliches Date.",
+                "dngh.16": "Dieser Baum ist groß und uralt. Großvater hat das gesamte Gewächshaus um ihn herum gebaut. Er pflegte immer zu sagen, dass die Wurzeln des Baumes {{FarmName}} Hof mit der ganzen Stadt verbinden."
+            },
+            "When": {
+                "usecellar": false,
+                "language": "de"
+            }
+        },
+        //korean
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "dngh.1": "이 작은 식물은 성장이 느리지만, 많은 주의와 관심을 가지고 보살피면 그것은 결국 나머지 식물들보다 훨씬 더 커질 것이다.",
+                "dngh.2": "\"애버로호아 카람볼라 나무의 열매는 덥고 건조한 기후에서 재배된다. 씨앗은 비싸고 희귀하지만 이 과일이 생산하는 와인은 별미여서 최대 6300g에 팔 수 있다.\"",
+                "dngh.3": "오늘 선인장 칼빈은 상태가 매우 좋아 보인다.",
+                "dngh.4": "신선한 작물로 가득 차 있다.",
+                "dngh.5": "여기는 좀 정리가 필요한데...",
+                "dngh.6": "오래된 와인이 한가득 담겨 있고 서서히 숙성되고 있다.",
+                "dngh.7": "선반에는 다양한 와인, 맥주, 양주가 저장되어 있다. 할아버지는 한때 이 지하실을 늦은 시간에 마을 사람들이 모두 와서 음식을 맛볼 수 있는 술집으로 사용하셨다.",
+                "dngh.8": "-- 주문 --^루이스 : x4 통^스타드롭 살롱 : x15 통^팸 : 좋은 병 - 좋은 술",
+                "dngh.9": "보물! 할아버지는 세계적으로 유명한 스타후르츠 와인을 수출하여 많은 돈을 벌곤 하셨다.",
+                "dngh.10": "이 통들은 할아버지의 마지막 남은 스타후르츠 와인을 숨기고 있다. 할아버지는 이 와인이 100년산이 되기 전까지는 공개하지 않을 것이라고 항상 말씀 하셨다. 그렇다면 그것은 그 누구도 맛보지 못한 최고의 와인이 될 것이다.",
+                "dngh.11": "조용하고 낭만적인 데이트를 위한 완벽한 설정.",
+                "dngh.12": "크리스탈은 신비한 에너지를 발산한다...",
+                "dngh.13": "이것은 시집이다.^\"...and the last door closed at 4 A.M. and the last telephone slammed at the wall in reply...\"#\"...and the last furnished room emptied down to the last piece of mental furniture, a yellow paper rose twisted on a wire hanger in the closet...\"#\"...and even that imaginary, nothing but a hopeful little bit of hallucination--\"",
+                "dngh.14": "장난감 돛단배가 없는 사적인 마법의 오아시스가 무슨 소용이 있겠어?#...#맞아",
+                "dngh.15": "조용한 데이트를 위한 아름다운 장소.",
+                "dngh.16": "이 나무는 크고 오래되었다. 할아버지는 온실 전체를 그 주위에 지었다. 할아버지는 나무의 뿌리가 {{FarmName}} 농장과 마을 전체를 연결시킨다고 말하곤 하셨다."
+            },
+            "When": {
+                "language": "ko"
+            }
+        },
+        //portuguese
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "dngh.1": "Esta pequena planta está crescendo lentamente, mas com carainho e cuidado, ela vai eventualmente ultrapassar as outras.",
+                "dngh.2": "\"A fruta da árvore de carambola é cultivada no calor, com climas secos. As sementes são caras e raras, mas o suco da fruta é delicado e pode ser vendido por até 6300g.\"",
+                "dngh.3": "Calvin o cacto está muito lindo hoje.",
+                "dngh.4": "Está cheio com frutas frescas.",
+                "dngh.5": "Esse lugar precisa de uma faxina...",
+                "dngh.6": "Está cheio de vinho, envelhecendo lentamente.",
+                "dngh.7": "As prateleiras estão cheias de vinho,cervejas e espíritos.Vovo usou essa adega uma vez como bar em que todos da cidades podiam ir e tomar um belo vinho.",
+                "dngh.8": "-- ENCOMENDAS --^Lewis : x4 Garrafas^Saloon Fruta Estelar : x15 Garrafas^Pam : Uma boa dose de A Coisa boa ",
+                "dngh.9": "Tesouro!Bem, o que restou... Vovo costumava fazer muito dinheiro exportando sua mundialmente famosa geleia de fruta estrela.",
+                "dngh.10": "Esses barris estão escondendo a última dose de vinho de carambola do vovo. Ele sempre disse que não iria abri-lo até que completasse 100 anos. Então, esse seria o melhor vinho que qualquer um podia tomar.",
+                "dngh.11": "O cenário perfeito para um calmo e romântico encontro.",
+                "dngh.12": "O cristal libera uma misteriosa energia...",
+                "dngh.13": "É um livro de poemas.^\"...and the last door closed at 4 A.M. and the last telephone slammed at the wall in reply...\"#\"...and the last furnished room emptied down to the last piece of mental furniture, a yellow paper rose twisted on a wire hanger in the closet...\"#\"...and even that imaginary, nothing but a hopeful little bit of hallucination--\"",
+                "dngh.14": "Qual a razão de ter um oasis mágico só pra você sem um barquinho de brinquedo para brincar?#...#Exatamente.",
+                "dngh.15": "O lugar perfeito para um calmo encontro.",
+                "dngh.16": "Essa árvore é gigante e antiga. Vovo contruiu a estufa ao redor dela. Ele costumava dizer que suas raízes ligavam a fazenda {{FarmName}} a cidade inteira."
+            },
+            "When": {
+                "language": "pt"
+            }
+        },
+        //russian
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "dngh.1": "Это маленькое растение медленно растет, но при большом уходе и внимании оно в конечном итоге будет возвышаться над остальными.",
+                "dngh.2": "\"Плод дерева Averrhoa carambola выращивается в жарком, сухом климате. Семена дорогие и редкие, но вино из этого фрукта - деликатес и цена может достигать 6300g.\"",
+                "dngh.3": "Кактус Кальвин сегодня выглядит бесподобно",
+                "dngh.4": "Здесь полно свежих плодов",
+                "dngh.5": "Здесь бы неплохо немного прибраться...",
+                "dngh.6": "Он полон старых партий вина, медленно зреющего",
+                "dngh.7": "Полки забиты различными винами, пивом и спиртами. Дедушка когда-то использовал этот подвал как бар, куда все горожане могли прийти и попробовать последнюю партию.",
+                "dngh.8": "-- ЗАКАЗЫ --^Льюис : x4 бочонка^Салун \"Звездная капля\" : x15 бочонков^Пэм : бутылочку отличного пойла",
+                "dngh.9": "Сокровища! Вернее, сбережения... Дедушка зарабатывал много денег, экспортируя свое всемирно известное вино из карамболы.",
+                "dngh.10": "В этих бочках таится последняя партия дедушкиного вина из карамболы. Он всегда говорил, что оно не будет готово, пока не будет выдержано 100 лет. Тогда это будет лучшее вино, которое кто-либо когда-либо пробовал.",
+                "dngh.11": "Идеальное место для тихого романтического свидания.",
+                "dngh.12": "Кристалл излучает таинственную энергию...",
+                "dngh.13": "Это сборник стихов. \"...and the last door closed at 4 A.M. and the last telephone slammed at the wall in reply...\"#\"...and the last furnished room emptied down to the last piece of mental furniture, a yellow paper rose twisted on a wire hanger in the closet...\"#\"...and even that imaginary, nothing but a hopeful little bit of hallucination--\"",
+                "dngh.14": "Какой смысл в личном волшебном оазисе без игрушечного парусника, чтобы плескаться с ним?#...#Точно.",
+                "dngh.15": "Отличное место для тихого свидания.",
+                "dngh.16": "Это дерево огромное и древнее. Дедушка построил вокруг него целую оранжерею. Он говорил, что его корни связывают ферму {{FarmName}} со всем городом."
+            },
+            "When": {
+                "language": "ru"
+            }
+        },
+        //chinese
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "dngh.1": "这株小小的植物生长十分缓慢，但当它沐浴着足够的关怀与爱意，它最终也会长为参天巨物。",
+                "dngh.2": "\"这种杨桃树需要生长在炎热干燥的气候中。它们的种子价格昂贵且稀有，但是它们结出的果实如果酿造成红酒，将是难得的美味。而且，这些酒的售价高达6300g。\"",
+                "dngh.3": "我们的仙人掌凯尔文先生，今天看起来也英俊非常。",
+                "dngh.4": "这里装满了新鲜的作物。",
+                "dngh.5": "这里大概需要做一下简单的清洁整理...",
+                "dngh.6": "这里装满了各种红酒陈酿。",
+                "dngh.7": "柜子里储存了各式各样的红酒、啤酒和烈性酒。祖父曾经将这里作为了一个对外开放的酒吧，那时候城里的居民都可以不时来到这里喝些最近产出的新酿。",
+                "dngh.8": "-- 订单 --^刘易斯: x4桶^星之果实酒吧餐厅: x15桶^潘姆: 一瓶好酒 - 包装好、品质佳",
+                "dngh.9": "宝藏！好吧，是存折...祖父曾经靠着外销他闻名世界的星果酒获得了不小的积蓄。",
+                "dngh.10": "这些大桶里窖藏着祖父最后最后的一批星果酒。他一直说，在酿满100年以前，这些酒就不算完成。等到了可以拿出来的时候，就将会成为世界上最醇和美好的酒，任何人都无法在曾经想象它的美味。",
+                "dngh.11": "对于一场安宁又浪漫的约会来说，准备十分充足。",
+                "dngh.12": "这些水晶正散发出一些奇异的能量...",
+                "dngh.13": "这是一本诗集。\"...and the last door closed at 4 A.M. and the last telephone slammed at the wall in reply...\"#\"...and the last furnished room emptied down to the last piece of mental furniture, a yellow paper rose twisted on a wire hanger in the closet...\"#\"...and even that imaginary, nothing but a hopeful little bit of hallucination--\"",
+                "dngh.14": "一座私人的魔法绿洲，如果没了转来转去的玩具帆船还有什么意思？#...#无言以对，难以反驳。",
+                "dngh.15": "安静约会的绝佳地点。",
+                "dngh.16": "这棵树古老又巨大，祖父围绕它建造了整座温室。他曾经还说过，这座古木的根系连接着{{FarmName}}农场和整座城。"
+            },
+            "When": {
+                "language": "zh"
+            }
+        },
+        //chinese non-alcoholic
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "dngh.1": "这株小小的植物生长十分缓慢，但当它沐浴着足够的关怀与爱意，它最终也会长为参天巨物。",
+                "dngh.2": "\"这种杨桃树需要生长在炎热干燥的气候中。它们的种子价格昂贵且稀有，但是它们结出的果实如果制成果汁，将是难得的美味。而且，这些果汁的售价高达6300g。\"",
+                "dngh.3": "我们的仙人掌凯尔文先生，今天看起来也英俊非常。",
+                "dngh.4": "这里装满了新鲜的作物。",
+                "dngh.5": "这里大概需要做一下简单的清洁整理...",
+                "dngh.9": "宝藏！好吧，是存折...祖父曾经靠着外销他闻名世界的星果果冻获得了不小的积蓄。",
+                "dngh.10": "这些大桶里窖藏着祖父最后最后的一批星果果冻。他一直说，在藏满100年以前，这些果冻就不算完成。等到了可以拿出来的时候，就将会成为世界上甘甜美好的珍馐，任何人都无法在曾经想象它的美味。",
+                "dngh.11": "对于一场安宁又浪漫的约会来说，准备十分充足。.",
+                "dngh.12": "这些水晶正散发出一些奇异的能量...",
+                "dngh.13": "这是一本诗集。\"...and the last door closed at 4 A.M. and the last telephone slammed at the wall in reply...\"#\"...and the last furnished room emptied down to the last piece of mental furniture, a yellow paper rose twisted on a wire hanger in the closet...\"#\"...and even that imaginary, nothing but a hopeful little bit of hallucination--\"",
+                "dngh.14": "一座私人的魔法绿洲，如果没了转来转去的玩具帆船还有什么意思？#...#无言以对，难以反驳。",
+                "dngh.15": "安静约会的绝佳地点。",
+                "dngh.16": "这棵树古老又巨大，祖父围绕它建造了整座温室。他曾经还说过，这座古木的根系连接着{{FarmName}}农场和整座城。"
+            },
+            "When": {
+                "usecellar": false,
+                "language": "zh"
+            }
+        },
+        //French version
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "dngh.1": "Cette petite plante pousse lentement, mais avec beaucoup de soin et d'attention, elle finira par surplomber le reste.",
+                "dngh.2": "\"Le fruit du carambolier Averrhoa est cultivé dans les climats chauds et secs. Les graines sont chères et rares, mais le vin que produit le fruit est un délice et peut se vendre jusqu'à 6300g.\"",
+                "dngh.3": "Calvin le cactus est très élégant aujourd'hui..",
+                "dngh.4": "C'est rempli de cultures fraîches.",
+                "dngh.5": "Cet endroit a besoin d'un peu de rangement...",
+                "dngh.6": "C'est rempli de vieilles cuvées de vin, qui vieillissent lentement.",
+                "dngh.7": "Les étagères sont remplies de divers vins, bières et spiritueux. Grand-père utilisait autrefois cette cave comme un bar où tous les habitants pouvaient venir goûter la dernière cuvée.",
+                "dngh.8": "-- COMMANDES --^Lewis : x4 fûts^Stardrop Saloon : x15 fûts^Pam : une belle bouteille - la meilleure cuvée.",
+                "dngh.9": "Un trésor ! Enfin plutôt, des économies... Grand-père gagnait beaucoup d'argent en exportant son fameux vin de carambole.",
+                "dngh.10": "Ces barils cachent le tout dernier lot de vin de carambole de grand-père. Il disait toujours qu'il ne serait pas bon avant d'avoir 100 ans. Ensuite ce serait le meilleur vin que personne n'ait jamais goûté.",
+                "dngh.11": "Une installation parfaite pour un rendez-vous tranquille et romantique.",
+                "dngh.12": "Le cristal dégage une énergie mystérieuse...",
+                "dngh.13": "C'est un livre de poèmes. \"...et la dernière porte s'est fermée à 4 heures du matin et le dernier téléphone a claqué contre le mur en guise de réponse...\"#\"...et la dernière chambre meublée s'est vidée jusqu'au dernier meuble mental, une rose en papier jaune accrochée à un cintre dans le placard...\"#\"...et même si c'est imaginaire, ce n'est rien d'autre qu'une petite hallucination pleine d'espoir--\"",
+                "dngh.14": "À quoi bon une oasis magique privée sans un petit voilier pour s'amuser ? #...#Exactement.",
+                "dngh.15": "Un bel endroit pour un rendez-vous tranquille.",
+                "dngh.16": "Cet arbre est immense et très ancien. Grand-père a construit toute la serre autour de lui. Il disait que ses racines reliaient la ferme {{FarmName}} à la ville entière."
+            },
+            "When": {
+                "language": "fr"
+            }
+        },
+        //French version non-alcoholic
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "dngh.1": "Cette petite plante pousse lentement, mais avec beaucoup de soin et d'attention, elle finira par surplomber le reste..",
+                "dngh.2": "\"Le fruit du carambolier Averrhoa est cultivé dans les climats chauds et secs. Les graines sont chères et rares, mais le jus que produit le fruit est un délice et peut se vendre jusqu'à 6300g..\"",
+                "dngh.3": "Calvin le cactus est très élégant aujourd'hui..",
+                "dngh.4": "C'est rempli de cultures fraîches.",
+                "dngh.5": "Cet endroit a besoin d'un peu de rangement...",
+                "dngh.9": "Un trésor ! Enfin plutôt, des économies... Grand-père gagnait beaucoup d'argent en exportant sa fameuse gelée de carambole.",
+                "dngh.10": "Ces barils cachent la toute dernière fournée de gelée de carambole de grand-père. Il disait toujours qu'elle ne serait pas bonne avant d'avoir vieilli de 100 ans. Ce serait alors la meilleure gelée que personne n'ait jamais goûtée.",
+                "dngh.11": "Une installation parfaite pour un rendez-vous tranquille et romantique.",
+                "dngh.12": "Le cristal dégage une énergie mystérieuse...",
+                "dngh.13": "C'est un livre de poèmes. \"...et la dernière porte s'est fermée à 4 heures du matin et le dernier téléphone a claqué contre le mur en guise de réponse...\"#\"...et la dernière chambre meublée s'est vidée jusqu'au dernier meuble mental, une rose en papier jaune accrochée à un cintre dans le placard...\"#\"...et même si c'est imaginaire, ce n'est rien d'autre qu'une petite hallucination pleine d'espoir--\"",
+                "dngh.14": "À quoi bon une oasis magique privée sans un petit voilier pour s'amuser ? #...#Exactement.",
+                "dngh.15": "Un bel endroit pour un rendez-vous tranquille.",
+                "dngh.16": "Cet arbre est immense et très ancien. Grand-père a construit toute la serre autour de lui. Il disait que ses racines reliaient la ferme {{FarmName}} à la ville entière."
+            },
+            "When": {
+                "usecellar": false,
+                "language": "fr"
+            }
+        }
+    ]
+}

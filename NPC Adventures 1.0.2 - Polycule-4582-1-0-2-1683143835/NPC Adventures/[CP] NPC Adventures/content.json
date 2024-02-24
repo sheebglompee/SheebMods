@@ -1,0 +1,41 @@
+﻿{
+  "Format": "1.26.0",
+  "Changes": [
+    // Common NPC Adventures data
+    {
+      "Action": "Include",
+      "FromFile": "Data/Animations.json, Data/Mail.json, Data/TempActors.json"
+    },
+
+    // Companion dialogues
+    {
+      "Action": "Include",
+      "FromFile": "Dialogues/Abigail.json, Dialogues/Alex.json, Dialogues/Elliott.json, Dialogues/Emily.json, Dialogues/Haley.json, Dialogues/Harvey.json, Dialogues/Kent.json, Dialogues/Leah.json, Dialogues/Maru.json, Dialogues/Penny.json, Dialogues/Sam.json, Dialogues/Sebastian.json, Dialogues/Shane.json"
+    },
+
+    // Companion events
+    {
+      "Action": "Include",
+      "FromFile": "Events/AdventureGuild.json, Events/Forest.json, Events/Mountain.json, Events/SandyHouse.json"
+    },
+
+    // Sprites
+    {
+      "Action": "Include",
+      "FromFile": "Sprites/Haley.json"
+    },
+
+    // Translations (loaded only if they exists)
+    // Example translation subfolder: Locale/ko (korean), Locale/pt (Portuguesse) Locale/es (Espanol), Locale/cs (czech. An example of custom lang supported since SDV 1.6)
+    // Every translation folder must contain their root content.json file with their patches to override. 
+    // Here you can anything you want to make NPCA translated 
+    {
+      "LogName": "Load translations",
+      "Action": "Include",
+      "FromFile": "Locale/{{language}}/content.json",
+      "When": {
+        "HasFile:{{FromFile}}": true
+      }
+    }
+  ]
+}

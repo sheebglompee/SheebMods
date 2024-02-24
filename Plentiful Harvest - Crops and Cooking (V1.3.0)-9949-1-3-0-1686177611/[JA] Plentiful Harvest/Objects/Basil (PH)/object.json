@@ -1,0 +1,52 @@
+{
+    "Name": "Basil (PH)",
+    "Description": "An herb that has a wide variety of uses but goes great with tomato dishes.",
+    "Category": "Vegetable",
+	"ContextTags": 
+        [
+        "season_summer",
+		"color_green",
+        ],
+    "Edibility": 5,
+    "Price": 12, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Robin", "Gus"],
+        "Like": ["Caroline", "Eliott", "Lewis"],
+        "Neutral": null, 
+        "Dislike": ["Willy"], 
+        "Hate": ["Vincent", "Jas"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Basil",
+		"es": "Basil", 
+        "ko": "Basil", 
+        "de": "Basilikum", 
+        "fr": "Basil", 
+        "hu": "Basil", 
+        "it": "Basil", 
+        "ja": "Basil",
+        "pt": "Basil", 
+        "ru": "Базилик", 
+        "tr": "Basil",
+        "zh": "罗勒", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "An herb that has a wide variety of uses but goes great with tomato dishes.", 
+        "ko": "An herb that has a wide variety of uses but goes great with tomato dishes.", 
+        "de": "Ein vielseitig verwendbares Kraut, das aber hervorragend zu Tomatengerichten passt.",
+        "fr": "An herb that has a wide variety of uses but goes great with tomato dishes.", 
+        "hu": "An herb that has a wide variety of uses but goes great with tomato dishes.",
+        "it": "An herb that has a wide variety of uses but goes great with tomato dishes.", 
+        "ja": "An herb that has a wide variety of uses but goes great with tomato dishes.", 
+        "pt": "An herb that has a wide variety of uses but goes great with tomato dishes.",
+        "ru": "Зелень, имеющая широкий спектр применений и отлично сочетающаяся с блюдами из помидоров.", 
+        "tr": "An herb that has a wide variety of uses but goes great with tomato dishes.", 
+        "zh": "一种用途广泛的草本植物，和西红柿很搭。",
+    },
+}

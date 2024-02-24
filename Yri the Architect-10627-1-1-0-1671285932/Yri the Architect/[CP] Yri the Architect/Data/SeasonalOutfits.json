@@ -1,0 +1,67 @@
+{
+    "Changes": [
+
+        //Yri and Charles Base
+
+        {
+            "LogName": "Loading Yri and Charles Portraits",
+            "Action": "Load",
+            "Target": "Portraits/Yri, Portraits/Charles",
+            "FromFile": "assets/Portraits/{{TargetWithoutPath}}.png",
+        },
+        {
+            "LogName": "Loading Yri and Charles Sprites",
+            "Action": "Load",
+            "Target": "Characters/Yri, Characters/Charles",
+            "FromFile": "assets/Characters/{{TargetWithoutPath}}.png",
+        },
+
+        //Yri Seasonal Sprites and Portraits
+        {
+            "LogName": "Loading Yri Seasonal Sprites",
+            "Action": "EditImage",
+            "Target": "Characters/Yri",
+            "FromFile": "assets/Characters/Yri/Yri_{{season}}.png",
+            "When": 
+            {
+              "LocationName |contains= Custom_Yri_House": false,
+            },
+            "Update": "OnLocationChange",
+        },
+        {
+            "LogName": "Loading Yri Seasonal Portraits",
+            "Action": "EditImage",
+            "Target": "Portraits/Yri",
+            "FromFile": "assets/Portraits/Yri/Yri_{{season}}.png",
+            "When": 
+            {
+              "LocationName |contains= Custom_Yri_House": false,
+            },
+            "Update": "OnLocationChange",
+        },
+        
+        //Charles Seasonal Sprites and Portraits 
+        {
+            "LogName": "Loading Charles Seasonal Sprites",
+            "Action": "EditImage",
+            "Target": "Characters/Charles",
+            "FromFile": "assets/Characters/Charles/Charles_{{season}}.png",
+            "When": 
+            {
+              "LocationName |contains= Custom_Yri_House": false,
+            },
+            "Update": "OnLocationChange",
+        },
+        {
+            "LogName": "Loading Charles Seasonal Portraits",
+            "Action": "EditImage",
+            "Target": "Portraits/Charles",
+            "FromFile": "assets/Portraits/Charles/Charles_{{season}}.png",
+            "When": 
+            {
+              "LocationName |contains= Custom_Yri_House": false,
+            },
+            "Update": "OnLocationChange",
+        },
+    ]
+}

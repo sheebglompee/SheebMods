@@ -1,0 +1,930 @@
+[	// PIERRE CACAO TREE UNLOCK
+	{
+		"Id": "PlentifulHarvest.PierreSecret", 
+		"GroupId": null, 
+		"Title": "ph.loc.pierre.title", 
+		"Text": "ph.loc.pierre.text",
+        "WhichBG": 0, 
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+        // CONDITIONS FOR DELIVERY
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Pierre", 
+				"FriendshipLevel": 7, 
+			}
+		],
+	},
+	// MARNIE CHOCOLATE EGG UNLOCK
+	{
+		"Id": "PlentifulHarvest.MarnieSecret", 
+		"GroupId": null, 
+		"Title": "ph.loc.marnie.title", 
+		"Text": "ph.loc.marnie.text",
+        "WhichBG": 0, 
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Chocolate Egg (PH)",
+        // CONDITIONS FOR DELIVERY
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Marnie", 
+				"FriendshipLevel": 10, 
+			}
+		],
+	},
+	// ROBIN PROCESSOR UNLOCK
+	{
+		"Id": "PlentifulHarvest.RobinProcessor", 
+		"GroupId": null, 
+		"Title": "ph.loc.robpro.title", 
+		"Text": "ph.loc.robpro.text",
+        "WhichBG": 0, 
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Processor (PH)",
+        // CONDITIONS FOR DELIVERY
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Robin", 
+				"FriendshipLevel": 3, 
+			}
+		],
+	},
+	// ROBIN BLENDER UNLOCK
+	{
+		"Id": "PlentifulHarvest.RobinBlender", 
+		"GroupId": null, 
+		"Title": "ph.loc.robble.title", 
+		"Text": "ph.loc.robble.text",
+        "WhichBG": 0, 
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Blender (PH)",
+        // CONDITIONS FOR DELIVERY
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Robin", 
+				"FriendshipLevel": 4, 
+			}
+		],
+	},
+	// ROBIN CHEESE UNLOCK
+	{
+		"Id": "PlentifulHarvest.RobinPress", 
+		"GroupId": null, 
+		"Title": "ph.loc.robpre.title", 
+		"Text": "ph.loc.robpre.text",
+        "WhichBG": 0, 
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Nut Cheese Press (PH)",
+        // CONDITIONS FOR DELIVERY
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Robin", 
+				"FriendshipLevel": 5, 
+			}
+		],
+	},
+	// ROBIN OIL UNLOCK
+	{
+		"Id": "PlentifulHarvest.RobinOil", 
+		"GroupId": null, 
+		"Title": "ph.loc.roboil.title", 
+		"Text": "ph.loc.roboil.text",
+        "WhichBG": 0, 
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Oil Maker (PH)",
+        // CONDITIONS FOR DELIVERY
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Robin", 
+				"FriendshipLevel": 6, 
+			}
+		],
+	},
+	{
+		"Id": "PlentifulHarvest.MarlonFruit", 
+		"GroupId": null, 
+		"Title": "ph.loc.marlon.title", 
+		"Text": "ph.loc.marlon.text",
+        "WhichBG": 0, 
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Frostfruit Smoothie (PH)",
+        // CONDITIONS FOR DELIVERY
+		"CollectionConditions": // Each collection condition of the list must have a value equal or higher than the defined amount.
+		[
+			{ 
+				"Collection": "Shipped", //[Shipped|Fish|Artifacts|Minerals|Cooking|Crafting] Required.
+				"Name":  "Frostfruit (PH)", //The name of the object or recipe for 'Crafting' collection. For object, if a name is given, it will look for that name instead of using the index. If the name is not found, the letter is ignored. Default is null.
+				"Amount": 1 // The amount the object in the collection should be equal or greater for the condition to be valid.
+			}
+		],
+	},
+	// GUS GIVES THE SUBSCRIPTION
+	{
+		"Id": "PlentifulHarvest.GusRecipeStart", 
+		"GroupId": null, 
+		"Title": "ph.loc.gussub.title",
+		"Text": "ph.loc.gussub.text", 
+        "WhichBG": 0, 
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+        // CONDITIONS FOR DELIVERY
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Gus", 
+				"FriendshipLevel": 1, 
+			}
+		],
+	},
+	{
+		"Id": "PlentifulHarvest.PHWelcome", 
+		"GroupId": null, 
+		"Title": "ph.loc.welcome.title",
+		"Text": "ph.loc.welcome.text", 
+        "WhichBG": 0, 
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+        // CONDITIONS FOR DELIVERY
+		"MailReceived": ["PlentifulHarvest.GusRecipeStart"], // Require one of the mails to have been received. The game list also contain others thing that are not mail, like community center flags.
+	},
+	
+	// KETCHUP
+	
+	{
+		"Id": "PlentifulHarvest.PHKetchup", 
+		"GroupId": null, 
+		"Title": "ph.loc.ketchup.title",
+		"Text": "ph.loc.ketchup.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Ketchup (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHWelcome"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHGrilledCheese", 
+		"GroupId": null, 
+		"Title": "ph.loc.grilledcheese.title",
+		"Text": "ph.loc.grilledcheese.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Grilled Cheese (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHKetchup"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHTomatoSoup", 
+		"GroupId": null, 
+		"Title": "ph.loc.tomatosoup.title",
+		"Text": "ph.loc.tomatosoup.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Tomato Soup (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHGrilledCheese"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHCaramel", 
+		"GroupId": null, 
+		"Title": "ph.loc.caramel.title",
+		"Text": "ph.loc.caramel.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Caramel (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHTomatoSoup"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHPumpkinBread", 
+		"GroupId": null, 
+		"Title": "ph.loc.pumpkinbread.title",
+		"Text": "ph.loc.pumpkinbread.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Pumpkin Bread (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHCaramel"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHBananaBread", 
+		"GroupId": null, 
+		"Title": "ph.loc.bananabread.title",
+		"Text": "ph.loc.bananabread.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Banana Bread (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHPumpkinBread"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHSoyMeat", 
+		"GroupId": null, 
+		"Title": "ph.loc.soymeat.title",
+		"Text": "ph.loc.soymeat.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Soy Meat (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHBananaBread"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHHotDog", 
+		"GroupId": null, 
+		"Title": "ph.loc.hotdog.title",
+		"Text": "ph.loc.hotdog.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Hot Dog (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHSoyMeat"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHTaco", 
+		"GroupId": null, 
+		"Title": "ph.loc.taco.title",
+		"Text": "ph.loc.taco.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Taco (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHHotDog"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHBurger", 
+		"GroupId": null, 
+		"Title": "ph.loc.burger.title",
+		"Text": "ph.loc.burger.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Cheeseburger (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHTaco"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHSteakSauce", 
+		"GroupId": null, 
+		"Title": "ph.loc.steaksauce.title",
+		"Text": "ph.loc.steaksauce.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Steak Sauce (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHBurger"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHSteak", 
+		"GroupId": null, 
+		"Title": "ph.loc.steak.title",
+		"Text": "ph.loc.steak.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Steak (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHSteakSauce"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHRoastTurkey", 
+		"GroupId": null, 
+		"Title": "ph.loc.roastturkey.title",
+		"Text": "ph.loc.roastturkey.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Roast Turkey (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHSteak"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHChickenWing", 
+		"GroupId": null, 
+		"Title": "ph.loc.chickenwing.title",
+		"Text": "ph.loc.chickenwing.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Chicken Wing (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHRoastTurkey"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHBuffaloWing", 
+		"GroupId": null, 
+		"Title": "ph.loc.buffalowing.title",
+		"Text": "ph.loc.buffalowing.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Buffalo Wing (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHChickenWing"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHBarbequeWing", 
+		"GroupId": null, 
+		"Title": "ph.loc.barbequewing.title",
+		"Text": "ph.loc.barbequewing.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Barbeque Wing (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHBuffaloWing"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHChocolateMilk", 
+		"GroupId": null, 
+		"Title": "ph.loc.choccymilk.title",
+		"Text": "ph.loc.choccymilk.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Chocolate Milk (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHBarbequeWing"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHChocolateBar", 
+		"GroupId": null, 
+		"Title": "ph.loc.chocolatebar.title",
+		"Text": "ph.loc.chocolatebar.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Chocolate Bar (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHChocolateMilk"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHRaspberryTart", 
+		"GroupId": null, 
+		"Title": "ph.loc.raspberrytart.title",
+		"Text": "ph.loc.raspberrytart.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Raspberry Tart (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHChocolateBar"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHWatermelonCaprese", 
+		"GroupId": null, 
+		"Title": "ph.loc.watermeloncaprese.title",
+		"Text": "ph.loc.watermeloncaprese.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Watermelon Caprese (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHRaspberryTart"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHCarrotCake", 
+		"GroupId": null, 
+		"Title": "ph.loc.carrotcake.title",
+		"Text": "ph.loc.carrotcake.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Carrot Cake (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHWatermelonCaprese"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHAsparagusQuiche", 
+		"GroupId": null, 
+		"Title": "ph.loc.asparagusquiche.title",
+		"Text": "ph.loc.asparagusquiche.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Asparagus Quiche (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHCarrotCake"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHLentilBun", 
+		"GroupId": null, 
+		"Title": "ph.loc.lentilbun.title",
+		"Text": "ph.loc.lentilbun.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Lentil Bun (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHAsparagusQuiche"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHPBJ", 
+		"GroupId": null, 
+		"Title": "ph.loc.pbj.title",
+		"Text": "ph.loc.pbj.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "PBJ Sandwich (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHLentilBun"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHFieldPeaSuccotash", 
+		"GroupId": null, 
+		"Title": "ph.loc.fpsuccotash.title",
+		"Text": "ph.loc.fpsuccotash.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Field Pea Succotash (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHPBJ"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHKumquatUpsideDownCake", 
+		"GroupId": null, 
+		"Title": "ph.loc.kupsidedown.title",
+		"Text": "ph.loc.kupsidedown.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Kumquat Upside-Down Cake (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHFieldPeaSuccotash"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHMapleWalnutBalls", 
+		"GroupId": null, 
+		"Title": "ph.loc.walnutballs.title",
+		"Text": "ph.loc.walnutballs.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Maple Walnut Balls (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHKumquatUpsideDownCake"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHPestoPasta", 
+		"GroupId": null, 
+		"Title": "ph.loc.pestopasta.title",
+		"Text": "ph.loc.pestopasta.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Pesto Pasta (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHMapleWalnutBalls"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHBloominOnion", 
+		"GroupId": null, 
+		"Title": "ph.loc.bloominonion.title",
+		"Text": "ph.loc.bloominonion.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0, 
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Bloomin' Onion (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHPestoPasta"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHCucumberSalad", 
+		"GroupId": null, 
+		"Title": "ph.loc.cucsalad.title",
+		"Text": "ph.loc.cucsalad.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Cucumber Salad (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHBloominOnion"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHStuffedBellPepper", 
+		"GroupId": null, 
+		"Title": "ph.loc.stuffedbell.title",
+		"Text": "ph.loc.stuffedbell.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Stuffed Bell Pepper (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHCucumberSalad"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHCurrantClafoutis", 
+		"GroupId": null, 
+		"Title": "ph.loc.curclafoutis.title",
+		"Text": "ph.loc.curclafoutis.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Currant Clafoutis (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHStuffedBellPepper"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHForbiddenDragon", 
+		"GroupId": null, 
+		"Title": "ph.loc.fordragon.title",
+		"Text": "ph.loc.fordragon.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Forbidden Dragon (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHCurrantClafoutis"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHGuavaChutney", 
+		"GroupId": null, 
+		"Title": "ph.loc.guavachutney.title",
+		"Text": "ph.loc.guavachutney.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Guava Chutney (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHForbiddenDragon"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHAlmondBrittle", 
+		"GroupId": null, 
+		"Title": "ph.loc.albrittle.title",
+		"Text": "ph.loc.albrittle.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Almond Brittle (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHGuavaChutney"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHPeanutLoMein", 
+		"GroupId": null, 
+		"Title": "ph.loc.pealomein.title",
+		"Text": "ph.loc.pealomein.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Peanut Lo Mein (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHAlmondBrittle"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHSweetPotatoFries", 
+		"GroupId": null, 
+		"Title": "ph.loc.sweetfries.title",
+		"Text": "ph.loc.sweetfries.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Sweet Potato Fries (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHPeanutLoMein"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHSpicySquashTaco", 
+		"GroupId": null, 
+		"Title": "ph.loc.squashtaco.title",
+		"Text": "ph.loc.squashtaco.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Spicy Squash Taco (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHSweetPotatoFries"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHCaramelApple", 
+		"GroupId": null, 
+		"Title": "ph.loc.carmapple.title",
+		"Text": "ph.loc.carmapple.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Caramel Apple (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHSpicySquashTaco"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHMembrillo", 
+		"GroupId": null, 
+		"Title": "ph.loc.membrillo.title",
+		"Text": "ph.loc.membrillo.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Membrillo (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHCaramelApple"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHHuckleberryPie", 
+		"GroupId": null, 
+		"Title": "ph.loc.huckpie.title",
+		"Text": "ph.loc.huckpie.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Huckleberry Pie (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHMembrillo"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHPearCrisp", 
+		"GroupId": null, 
+		"Title": "ph.loc.pearcrisp.title",
+		"Text": "ph.loc.pearcrisp.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Pear Crisp (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHHuckleberryPie"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHRoastedChestnuts", 
+		"GroupId": null, 
+		"Title": "ph.loc.rochestnuts.title",
+		"Text": "ph.loc.rochestnuts.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Roasted Chestnuts (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHPearCrisp"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHBroccoliRiceSkillet", 
+		"GroupId": null, 
+		"Title": "ph.loc.brocskill.title",
+		"Text": "ph.loc.brocskill.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Broccoli Rice Skillet (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHRoastedChestnuts"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHElderberryTea", 
+		"GroupId": null, 
+		"Title": "ph.loc.eltea.title",
+		"Text": "ph.loc.eltea.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Elderberry Tea (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHBroccoliRiceSkillet"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHBurfi", 
+		"GroupId": null, 
+		"Title": "ph.loc.burfi.title",
+		"Text": "ph.loc.burfi.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Burfi (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHElderberryTea"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHChimichurri", 
+		"GroupId": null, 
+		"Title": "ph.loc.chimichurri.title",
+		"Text": "ph.loc.chimichurri.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Chimichurri (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHBurfi"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHChardNestedEgg", 
+		"GroupId": null, 
+		"Title": "ph.loc.chardegg.title",
+		"Text": "ph.loc.chardegg.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Chard Nested Egg (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHChimichurri"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHCeasarSalad", 
+		"GroupId": null, 
+		"Title": "ph.loc.ceasarsalad.title",
+		"Text": "ph.loc.ceasarsalad.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Ceasar Salad (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHChardNestedEgg"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHPersimmonCookies", 
+		"GroupId": null, 
+		"Title": "ph.loc.percookies.title",
+		"Text": "ph.loc.percookies.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Persimmon Cookies (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHCeasarSalad"],
+	},
+	{
+		"Id": "PlentifulHarvest.PHPistachioMafroukeh", 
+		"GroupId": null, 
+		"Title": "ph.loc.pismaf.title",
+		"Text": "ph.loc.pismaf.text", 
+		"LetterBG": "PHBG.png",
+        "WhichBG": 0,
+		"TextColor": 0, //Remove this line to use the default color. -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false, 
+		"AutoOpen":  false, 
+		"Recipe": "Pistachio Mafroukeh (PH)", //It will only work if you have no other attachments to the mail.
+        // CONDITIONS FOR DELIVERY
+		"Days": [1,5,8,12,15,19,22,26],
+		"MailReceived": ["PlentifulHarvest.PHPersimmonCookies"],
+	},
+]

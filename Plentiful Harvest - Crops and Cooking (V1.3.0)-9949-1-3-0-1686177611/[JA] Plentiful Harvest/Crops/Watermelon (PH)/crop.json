@@ -1,0 +1,46 @@
+{
+    "Name": "Watermelon (PH)", 
+    "Product": "Watermelon (PH)",
+    "SeedName": "Watermelon Seeds (PH)", 
+    "SeedDescription": "Plant these in the spring. Takes 12 days to grow, and continues to produce after the first harvest.", 
+    "Type": "Fruit", 
+    "CropType": "Normal", 
+    "Seasons": ["spring"], 
+    "Phases": [2, 3, 3, 2, 2], 
+    "RegrowthPhase": 5, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": false, 
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "STF.PlentifulHarvest", 
+    "SeedPurchasePrice": 95, 
+
+    "SeedNameLocalization":
+    {
+        "default": "Watermelon Seeds",
+		"es": "Watermelon Seeds", 
+        "ko": "Watermelon Seeds", 
+        "de": "Wassermelonen-Saat", 
+        "fr": "Watermelon Seeds", 
+        "hu": "Watermelon Seeds", 
+        "it": "Watermelon Seeds", 
+        "ja": "Watermelon Seeds", 
+        "pt": "Watermelon Seeds", 
+        "ru": "Семена арбуза", 
+        "tr": "Watermelon Seeds", 
+        "zh": "西瓜种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plant these in the spring. Takes 12 days to grow, and continues to produce after the first harvest.", 
+        "ko": "Plant these in the spring. Takes 12 days to grow, and continues to produce after the first harvest.", 
+        "de": "Planze sie im Frühling. Wächst in 12 Tagen heran, kann aber danach mehrmals geerntet werden.", 
+        "fr": "Plant these in the spring. Takes 12 days to grow, and continues to produce after the first harvest.", 
+        "hu": "Plant these in the spring. Takes 12 days to grow, and continues to produce after the first harvest.", 
+        "it": "Plant these in the spring. Takes 12 days to grow, and continues to produce after the first harvest.", 
+        "ja": "Plant these in the spring. Takes 12 days to grow, and continues to produce after the first harvest.", 
+        "pt": "Plant these in the spring. Takes 12 days to grow, and continues to produce after the first harvest.", 
+        "ru": "Сажайте весной. Вырастает через 12 дней и продолжает давать урожай после первого сбора.", 
+        "tr": "Plant these in the spring. Takes 12 days to grow, and continues to produce after the first harvest.", 
+        "zh": "春天种植。 生长需要12天，在第一次收获后继续结果。", 
+    }
+}

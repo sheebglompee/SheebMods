@@ -1,0 +1,53 @@
+{
+    "Name": "Broccoli (PH)",
+    "Description": "It's very healthy. The hardy plant can handle some pretty cold temperatures.",
+    "Category": "Vegetable",
+	"ContextTags": 
+        [
+        "season_winter",
+		"color_green",
+		"dye_strong"
+        ],
+    "Edibility": 30,
+    "Price": 170, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Robin", "Emily", "Eliott"],
+        "Like": ["Caroline", "Gus", "Pierre", "George", "Evelyn"],
+        "Neutral": null, 
+        "Dislike": ["Shane", "Haley", "Sebastian"], 
+        "Hate": ["Jas", "Vincent", "Pam"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Broccoli",
+		"es": "Broccoli", 
+        "ko": "Broccoli", 
+        "de": "Brokkoli", 
+        "fr": "Broccoli", 
+        "hu": "Broccoli", 
+        "it": "Broccoli", 
+        "ja": "Broccoli",
+        "pt": "Broccoli", 
+        "ru": "Брокколи", 
+        "tr": "Broccoli",
+        "zh": "西兰花", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "It's very healthy. The hardy plant can handle some pretty cold temperatures.", 
+        "ko": "It's very healthy. The hardy plant can handle some pretty cold temperatures.", 
+        "de": "Es ist sehr gesund. Die winterharte Pflanze verträgt ziemlich kalte Temperaturen.",
+        "fr": "It's very healthy. The hardy plant can handle some pretty cold temperatures.", 
+        "hu": "It's very healthy. The hardy plant can handle some pretty cold temperatures.",
+        "it": "It's very healthy. The hardy plant can handle some pretty cold temperatures.", 
+        "ja": "It's very healthy. The hardy plant can handle some pretty cold temperatures.", 
+        "pt": "It's very healthy. The hardy plant can handle some pretty cold temperatures.",
+        "ru": "Разновидность капусты. Очень полезна для здоровья. Может выдерживать довольно низкие температуры.", 
+        "tr": "It's very healthy. The hardy plant can handle some pretty cold temperatures.", 
+        "zh": "绿色蔬菜。西兰花属于耐寒蔬菜，能适应相当严寒的气温。",
+    },
+}

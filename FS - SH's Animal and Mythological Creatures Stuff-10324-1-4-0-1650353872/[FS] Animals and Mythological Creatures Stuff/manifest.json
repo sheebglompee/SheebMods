@@ -1,0 +1,12 @@
+﻿{
+	"Name": "Animals and Mythological Creatures Stuff",
+	"Author": "SmolHooman",
+	"Version": "1.4.0",
+	"Description": "Adds animal-related and mythical creatures stuff for the Fashion Sense framework.",
+	"UniqueID": "SmolHooman.AnimalAndMythologicalCreaturesStuff",
+	"UpdateKeys": [ "Nexus:10324" ],	
+	"ContentPackFor": {
+		"UniqueID": "PeacefulEnd.FashionSense",
+		"MinimumVersion": "4.0.0"
+  }
+}

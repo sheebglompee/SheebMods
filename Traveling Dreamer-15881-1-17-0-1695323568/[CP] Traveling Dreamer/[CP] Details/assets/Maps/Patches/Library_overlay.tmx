@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="9" height="5" tilewidth="16" tileheight="16" infinite="0" nextlayerid="19" nextobjectid="151">
+ <editorsettings>
+  <export format="tmx"/>
+ </editorsettings>
+ <tileset firstgid="1" name="spring_Fellowclown_Dreamer" tilewidth="16" tileheight="16" tilecount="10486" columns="107">
+  <image source="spring_Fellowclown_Dreamer.png" width="1712" height="1568"/>
+ </tileset>
+ <layer id="1" name="Back" width="9" height="5">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="14" name="Back2" width="9" height="5">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="15" name="Back2"/>
+ <layer id="16" name="Back3" width="9" height="5">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="17" name="Back3"/>
+ <layer id="3" name="Buildings" width="9" height="5">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,323,324,325,326,327,328,329,330,
+0,430,431,432,433,434,435,436,437
+</data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="147" name="TileData" x="64" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="LockedDoorWarp 10 18 Custom_Fellowclown_TravelingTrailer 700 2200"/>
+    <property name="NPCWarp" value="6 69 Custom_Fellowclown_TravelingTrailer 10 18"/>
+   </properties>
+  </object>
+  <object id="149" name="TileData" x="112" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;TravelingLibrary.Sign&quot;"/>
+   </properties>
+  </object>
+  <object id="150" name="TileData" x="96" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;TravelingLibrary.Sign&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="7" name="Paths" width="9" height="5">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+ <layer id="9" name="Front" width="9" height="5">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="10" name="Front"/>
+ <layer id="11" name="AlwaysFront" width="9" height="5">
+  <data encoding="csv">
+0,2,3,4,5,6,7,8,9,
+0,109,110,111,112,113,114,115,116,
+0,216,217,218,219,220,221,222,223,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="12" name="AlwaysFront"/>
+</map>

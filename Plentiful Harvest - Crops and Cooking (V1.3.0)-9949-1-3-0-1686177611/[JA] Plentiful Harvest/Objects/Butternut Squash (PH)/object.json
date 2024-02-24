@@ -1,0 +1,53 @@
+{
+    "Name": "Butternut Squash (PH)",
+    "Description": "It's highly packed with nutrients. According to records, ancient people buried their dead with these to sustain their spirits on their final journey.",
+    "Category": "Vegetable",
+	"ContextTags": 
+        [
+        "season_fall",
+		"color_sand",
+		"dye_strong"
+        ],
+    "Edibility": 30,
+    "Price": 180, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Krobus", "Abigail"],
+        "Like": ["Caroline", "Gus", "Pierre", "George"],
+        "Neutral": null, 
+        "Dislike": ["Jas", "Vincent", "Shane", "Linus", "Willy"], 
+        "Hate": ["Dwarf"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Butternut Squash",
+		"es": "Butternut Squash", 
+        "ko": "Butternut Squash", 
+        "de": "Butternusskürbis", 
+        "fr": "Butternut Squash", 
+        "hu": "Butternut Squash", 
+        "it": "Butternut Squash", 
+        "ja": "Butternut Squash",
+        "pt": "Butternut Squash", 
+        "ru": "Мускатная тыква", 
+        "tr": "Butternut Squash",
+        "zh": "奶油南瓜", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "It's highly packed with nutrients. According to records, ancient people buried their dead with these to sustain their spirits on their final journey.", 
+        "ko": "It's highly packed with nutrients. According to records, ancient people buried their dead with these to sustain their spirits on their final journey.", 
+        "de": "Er ist vollgepackt mit Nährstoffen. Laut einiger Aufzeichnungen begruben früher Menschen ihre Toten damit, um ihren Geist auf ihrer letzten Reise zu stärken.",
+        "fr": "It's highly packed with nutrients. According to records, ancient people buried their dead with these to sustain their spirits on their final journey.", 
+        "hu": "It's highly packed with nutrients. According to records, ancient people buried their dead with these to sustain their spirits on their final journey.",
+        "it": "It's highly packed with nutrients. According to records, ancient people buried their dead with these to sustain their spirits on their final journey.", 
+        "ja": "It's highly packed with nutrients. According to records, ancient people buried their dead with these to sustain their spirits on their final journey.", 
+        "pt": "It's highly packed with nutrients. According to records, ancient people buried their dead with these to sustain their spirits on their final journey.",
+        "ru": "Прямо перенасыщена питательными веществами. Согласно писаниям, древние люди хоронили своих умерших вместе с мускатной тыквой, дабы помочь их душам в последнем путешествии.", 
+        "tr": "It's highly packed with nutrients. According to records, ancient people buried their dead with these to sustain their spirits on their final journey.", 
+        "zh": "它富含营养。据记载，古人以此祭奠死者，以支撑他们灵魂的最后的旅程。",
+    },
+}

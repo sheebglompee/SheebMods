@@ -1,0 +1,52 @@
+{
+    "Name": "Currant (PH)",
+    "Description": "A sweet cluster of berries that are cultivated for both their sweetness and their ornamental value.",
+    "Category": "Fruit",
+	"ContextTags": 
+        [
+        "season_summer",
+		"color_white"
+        ],
+    "Edibility": 12,
+    "Price": 18, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Linus", "Emily"],
+        "Like": ["Penny", "Marnie", "Demetrius"],
+        "Neutral": null, 
+        "Dislike": ["Maru", "Shane", "Alex", "Elliot", "Pierre", "Kent", "Krobus"], 
+        "Hate": ["Haley", "Willy"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Currant",
+		"es": "Currant", 
+        "ko": "Currant", 
+        "de": "Johannisbeere", 
+        "fr": "Currant", 
+        "hu": "Currant", 
+        "it": "Currant", 
+        "ja": "Currant",
+        "pt": "Currant", 
+        "ru": "Смородина", 
+        "tr": "Currant",
+        "zh": "红加仑", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A sweet cluster of berries that are cultivated for both their sweetness and their ornamental value.", 
+        "ko": "A sweet cluster of berries that are cultivated for both their sweetness and their ornamental value.", 
+        "de": "Eine süße Traube von Johannisbeeren, die wegen ihrer Süße und wegen ihres dekorativen Werts angebaut wird.",
+        "fr": "A sweet cluster of berries that are cultivated for both their sweetness and their ornamental value.", 
+        "hu": "A sweet cluster of berries that are cultivated for both their sweetness and their ornamental value.",
+        "it": "A sweet cluster of berries that are cultivated for both their sweetness and their ornamental value.", 
+        "ja": "A sweet cluster of berries that are cultivated for both their sweetness and their ornamental value.", 
+        "pt": "A sweet cluster of berries that are cultivated for both their sweetness and their ornamental value.",
+        "ru": "Сладкие ягоды, выращиваемые как из-за их сладости, так и из-за их декоративной ценности.", 
+        "tr": "A sweet cluster of berries that are cultivated for both their sweetness and their ornamental value.", 
+        "zh": "一串甜浆果，因其甜味和观赏价值而栽培",
+    },
+}

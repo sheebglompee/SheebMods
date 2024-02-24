@@ -1,0 +1,52 @@
+{
+	"Changes":[
+		{
+			"LogName": "Sophia - Winter Star, Dating",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sophia",
+			"Entries":{
+				"Event.cs.1801": "{{i18n:UWS.Sophia.Dating.Gifting}}",
+			},
+			"When": {
+				"relationship:Sophia": "dating",
+				"Sophia": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Claire - Winter Star, Dating",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Claire",
+			"Entries":{
+				"Event.cs.1801": "{{i18n:UWS.Claire.Dating.Gifting}}",
+			},
+			"When": {
+				"relationship:Claire": "dating",
+				"Claire": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Victor - Winter Star, Dating",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Victor",
+			"Entries":{
+				"Event.cs.1801": "{{i18n:UWS.Victor.Dating.Gifting}}",
+			},
+			"When": {
+				"relationship:Victor": "dating",
+				"Victor": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Olivia - Winter Star, Dating",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Olivia",
+			"Entries":{
+				"Event.cs.1801": "{{i18n:UWS.Olivia.Dating.Gifting}}",
+			},
+			"When": {
+				"relationship:Olivia": "dating",
+				"Olivia": "normal, spicy",
+			},
+		},
+	],
+}

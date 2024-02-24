@@ -1,0 +1,18 @@
+﻿{
+    "Name": "Ridged-Parasol Mushroom",
+    "Description": "Highly desired for cooking, pairs well with garlic butter.",
+    "Category": "Greens",
+    "CategoryTextOverride": "Mushroom",
+    "Edibility": 35,
+    "Price": 175,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Ridged-Parasol-Mushroom",
+    "ContextTags": [
+    "color_brown",
+    "forage_item",
+    "mushroom_item",
+    "forage_item_mines",
+  ],
+}

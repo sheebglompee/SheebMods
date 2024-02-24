@@ -1,0 +1,10 @@
+{
+  "Config.NewStyle.name": "NuevoEstilo",
+  "Config.NewStyle.description": "Utilizar nuevo estilo de sprites de los aldeanos",
+  "Config.Noses.name": "Narices",
+  "Config.Noses.description": "Utilizar sprites con nariz",
+  "Config.MarlonOriginalStyleFlowerDance.name": "MarlonEstiloOriginalDanzaFloral",
+  "Config.MarlonOriginalStyleFlowerDance.description": "Usa estilo Original de Traje para Marlon en la Danza Floral",
+  "Config.OliviaShortWeddingDress.name": "OliviaVestidoDeBodaCorto",
+  "Config.OliviaShortWeddingDress.description": "Usa un vestido corto para Olivia en la boda"
+}

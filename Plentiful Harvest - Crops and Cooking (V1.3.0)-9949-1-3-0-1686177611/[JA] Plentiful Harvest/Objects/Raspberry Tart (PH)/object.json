@@ -1,0 +1,87 @@
+{
+    "Name": "Raspberry Tart (PH)", 
+    "Description": "Crispy pastry with a sweet filling made from hand-picked berries.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_red",
+        "dye_medium"
+        ],
+    "Edibility": 32, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 1,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 180,
+    },
+    "Price": 250, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Raspberry (PH)", 
+            "Count": 1,
+        },
+		{
+            "Object": 246,
+            "Count": 1,
+        },
+        {
+            "Object": -6,
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Linus"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Raspberry Tart",
+		"es": "Raspberry Tart", //Spansih
+        "ko": "Raspberry Tart", //Korean
+        "de": "Himbeerenkuchen", //German
+        "fr": "Raspberry Tart", //French
+        "hu": "Raspberry Tart", //Hungarian
+        "it": "Raspberry Tart", //Italian
+        "ja": "Raspberry Tart", //Japanese
+        "pt": "Raspberry Tart", //Portuguese
+        "ru": "Малиновый пирог", //Russian
+        "tr": "Raspberry TartRaspberry Tart", //Turkish
+        "zh": "树莓馅饼", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Crispy pastry with a sweet filling made from hand-picked berries.", //Spansih
+        "ko": "Crispy pastry with a sweet filling made from hand-picked berries.", //Korean
+        "de": "Knuspriger Teig mit einer süßen Füllung, die aus handgepflückten Beeren hergestellt wird.", //German
+        "fr": "Crispy pastry with a sweet filling made from hand-picked berries.", //French
+        "hu": "Crispy pastry with a sweet filling made from hand-picked berries.", //Hungarian
+        "it": "Crispy pastry with a sweet filling made from hand-picked berries.", //Italian
+        "ja": "Crispy pastry with a sweet filling made from hand-picked berries.", //Japanese
+        "pt": "Crispy pastry with a sweet filling made from hand-picked berries.", //Portuguese
+        "ru": "Сдобное хрустящее тесто со сладкой начинкой из собранных своими руками ягод.", //Russian
+        "tr": "Crispy pastry with a sweet filling made from hand-picked berries.", //Turkish
+        "zh": "酥脆的糕点，馅料甜，由手工采摘的浆果制成。  ", //Chinese (Simplified)
+    },
+	
+}

@@ -1,0 +1,115 @@
+{
+  "Format": "1.0",
+
+//---------
+
+
+  "Quests": [
+  //Robin and Yri want Stone
+	{
+    "Name": "Robin_Stone", 
+    "Type": "ItemDelivery", 
+    "Title": "Stone for the foundation.",
+    "Description": "Thanks for accepting our offer. Yri and I need 100 stone and the deadline would be 14 days. Bring them to me when you're ready. - Robin",
+    "Objective": "Bring Robin 100 Stone",
+    "DaysLeft": 14, 
+    "Reward": 1500,
+		"RewardType": "Money",
+		"RewardDescription": "1500g",	
+    "Cancelable": true, 
+    "Trigger": "Robin 390 100", 
+    "AddMailOnComplete": "Yri.BroughtRobinStone noletter",
+    "ReactionText": "Thanks, @, I knew we could count on you. The quality is amazing, unlike anything we've had from Joja Mining so far.$h"
+    },
+	
+  //Charles needs Diamonds and Gold.
+	{
+    "Name": "Charles_Ring_1", 
+    "Type": "ItemDelivery", 
+    "Title": "Charles needs your help.",
+    "Description": "I wrote down what I need for the ring. Thank you so much, I wouldn't know what to do without you.",
+    "Objective": "Please bring me 3 diamonds.",
+    "DaysLeft": 0, 
+    "Reward": 1500,
+		"RewardType": "Money",
+		"RewardDescription": "1500g",	
+    "Cancelable": true, 
+    "Trigger": "Charles 72 3", 
+    "AddMailOnComplete": "Charles.QuestDone noletter",
+    "ReactionText": "I can't thank you enough, @! I'll bring them to Clint ASAP!$h"
+    },
+    //Charles needs Diamonds and Gold.
+	{
+    "Name": "Charles_Ring_2", 
+    "Type": "ItemDelivery", 
+    "Title": "Charles needs your help.",
+    "Description": "I wrote down what I need for the ring.Thank you so much, I wouldn't know what to do without you.",
+    "Objective": "Please bring me 1 bar of gold.",
+    "DaysLeft": 0, 
+    "Reward": 1500,
+		"RewardType": "Money",
+		"RewardDescription": "1500g",	
+    "Cancelable": true, 
+    "Trigger": "Charles 336 1", 
+    "AddMailOnComplete": "Charles.SecondQuestDone noletter",
+    "ReactionText": "I can't thank you enough, @! I'll bring them to Clint ASAP!$h"
+    },
+
+  //Yri needs a Starfruit
+	{
+	"Name": "Yri_starfruit",
+	"Type": "ItemDelivery",
+	"Title": "A starfruit for dessert",
+	"Description": "I want to prepare starfruit sorbet for Charles. Can you bring me one?",
+	"Objective": "Bring Yri 1 starfruit",
+	"DaysLeft": 3,
+	"Reward": 2000,
+	"RewardType": "Money",
+	"RewardDescription": "2000g",
+	"Cancelable": true,
+	"ReactionText": "Wow, this looks delicous, @! I can already see Charles' reaction!$h",
+	"Trigger": "Yri 268",
+	"FriendshipGain": { "Yri": 100 },
+	
+
+	"Offers": [
+    {
+      "QuestName": "Yri_starfruit",
+      "OfferedBy": "Bulletinboard",
+      "When": {
+        "DaysOfWeek": "Monday Friday",
+        "Seasons": "spring, summer, fall",
+      				}
+    }
+  					]
+  },
+
+	//Charles needs Sunflowers
+	{
+	"Name": "Charles_Flowers",
+	"Type": "ItemDelivery",
+	"Title": "Flower for Yri",
+	"Description": "I want to give Yri a bouquet. Please bring me some sunflowers for it.",
+	"Objective": "Bring Charles 10 sunflowers.",
+	"DaysLeft": 0,
+	"Reward": 2000,
+	"RewardType": "Money",
+	"RewardDescription": "2000g",
+	"Cancelable": true,
+	"ReactionText": "Thanks, Yri is going to love them.$h",
+	"Trigger": "Charles 421 10",
+	"FriendshipGain": { "Charles": 100 },
+
+	"Offers": [
+    {
+      "QuestName": "Charles_Flowers",
+      "OfferedBy": "Bulletinboard",
+      "When": {
+        "DaysOfWeek": "Friday Saturday",
+        "Seasons": "summer, fall",
+      				}
+    }
+  					]
+  },
+ ]
+}

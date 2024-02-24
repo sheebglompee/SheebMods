@@ -1,0 +1,19 @@
+﻿{
+    "Name": "Dew-Cup Mushroom",
+    "Description": "This mushroom gathers the morning dew in its cup-shaped hood. Gives the liquid a nutty flavour.",
+    "Category": "Greens",
+    "CategoryTextOverride": "Mushroom",
+    "Edibility": 30,
+    "Price": 75,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":  {},
+	"TranslationKey": "object.Dew-Cup-Mushroom",
+    "ContextTags": [
+	"season_spring",
+    "color_yellow",
+    "forage_item",
+    "mushroom_item",
+    "forage_item_mines",
+  ],
+}

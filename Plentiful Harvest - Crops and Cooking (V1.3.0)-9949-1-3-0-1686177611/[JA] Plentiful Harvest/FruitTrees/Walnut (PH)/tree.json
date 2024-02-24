@@ -1,0 +1,40 @@
+{
+    "Name": "Walnut (PH)", 
+    "Product": "Walnut (PH)",
+    "SaplingName": "Walnut Sapling (PH)", 
+    "SaplingDescription": "Takes 28 days to produce a mature Walnut tree. Bears nuts in the spring. Only grows if the 8 surrounding \"tiles\" are empty.",
+    "Season": "spring",
+    "SaplingPurchasePrice": 2300, 
+    "SaplingPurchaseFrom": "STF.PlentifulHarvest",
+    "SaplingPurchaseRequirements": null, 
+
+    "SaplingNameLocalization":
+    {
+        "default": "Walnut Sapling",
+		"es": "Walnut Sapling", 
+        "ko": "Walnut Sapling", 
+        "de": "Walnuss-Setzling", 
+        "fr": "Walnut Sapling", 
+        "hu": "Walnut Sapling", 
+        "it": "Walnut Sapling", 
+        "ja": "Walnut Sapling", 
+        "pt": "Walnut Sapling", 
+        "ru": "Саженец орехового дерева", 
+        "tr": "Walnut Sapling", 
+        "zh": "核桃树苗", 
+    },
+    "SaplingDescriptionLocalization":
+    {
+        "es": "Takes 28 days to produce a mature Walnut tree. Bears nuts in the spring. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "ko": "Takes 28 days to produce a mature Walnut tree. Bears nuts in the spring. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "de": "Wächst in 28 Tagen zu einem reifen Walnussbaum heran. Trägt im Frühling Nüsse. Wächst nur, wenn die 8 umliegenden \"Felder\" leer sind.", 
+        "fr": "Takes 28 days to produce a mature Walnut tree. Bears nuts in the spring. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "hu": "Takes 28 days to produce a mature Walnut tree. Bears nuts in the spring. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "it": "Takes 28 days to produce a mature Walnut tree. Bears nuts in the spring. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "ja": "Takes 28 days to produce a mature Walnut tree. Bears nuts in the spring. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "pt": "Takes 28 days to produce a mature Walnut tree. Bears nuts in the spring. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "ru": "Становится взрослым ореховым деревом через 28 дней. Плодоносит весной. Растет только если 8 «клеток» вокруг него не заняты.", 
+        "tr": "Takes 28 days to produce a mature Walnut tree. Bears nuts in the spring. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "zh": "28天成熟为成年核桃树。春天结核桃。只有在附近8块“地块”都空置的情况下才会成长。", 
+    }
+}

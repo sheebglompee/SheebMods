@@ -1,0 +1,16 @@
+{
+    "Name": "Pierre's CD",
+    "Description": "Pierre's personal playlist!",
+    "Category": "Crafting",
+    "Edibility": 0,
+    "EdibleIsDrink": false,
+    "Price": 0,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {
+        "Love": ["Pierre"],
+        "Like": ["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Leo","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],
+        "Hate": ["Clint","George","Sebastian"]
+    }
+}
+

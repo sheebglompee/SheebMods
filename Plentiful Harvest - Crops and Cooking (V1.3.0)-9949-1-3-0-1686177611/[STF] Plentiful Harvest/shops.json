@@ -1,0 +1,46 @@
+{
+	//"RemovePacksFromVanilla": "DomTSVG.PlentifulHarvest",
+	
+	"Shops": [
+
+    ///start of block for each vanilla shop. You can have one for each vanilla shop supported by STF
+    {
+      "ShopName": "PlentifulHarvest",
+      	"ReplaceInsteadOfAdd": false,
+		"CategoriesToSellHere": [1],
+      	"MaxNumItemsSoldInStore": 2147483647,
+		"FilterSeedsBySeason": false,
+		"Quote": "Looks like these seeds are from the Plentiful Harvest company. Pierre must have set this up.",
+		"PortraitPath": "assets/portrait.png",
+      	"ItemStocks": 
+		[   
+			{
+			"ItemType": "Seed",
+			//"JAPacks": "DomTSVG.PlentifulHarvest",
+			"Stock": 1,
+            		"MaxNumItemsSoldInItemStock": 1,
+            		"ItemNames": 
+				[	
+				"Raspberry",
+				"Carrot",
+				"AsparagusPH",
+				"Watermelon",
+				"Field Pea",
+				"Lentil",
+				"Walnut",
+				"Kumquat"
+            			],
+			},
+		],
+		"LocalizedQuote": { "ru": "Похоже, эти семена от компании «Обильный урожай». Должно быть, это дело рук Пьера." ,
+                    "zh": "看起来这些种子是
+丰收公司的。 
+一定是皮埃尔安排的。" ,
+
+
+    },
+    },
+    ///end of block for each vanilla shop
+
+  ]
+}

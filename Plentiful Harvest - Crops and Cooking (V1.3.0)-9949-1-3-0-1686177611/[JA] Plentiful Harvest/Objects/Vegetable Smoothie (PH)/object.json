@@ -1,0 +1,52 @@
+{
+    "Name": "Vegetable Smoothie (PH)",
+    "Description": "A drink made from blending milk, ice, and vegetables together.",
+    "Category": "ArtisanGoods",
+	"ContextTags": 
+        [
+		"color_green"
+        ],
+    "Edibility": 45,
+	"EdibleIsDrink": true,
+    "Price": 400, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Caroline", "Leah", "Haley", "Emily"],
+        "Like": ["Sebastian", "Lewis", "Harvey", "Linus", "George", "Evelyn", "Pierre", "Caroline", "Demetrius", "Abigail"],
+        "Neutral": null, 
+        "Dislike": ["Sam", "Leo", "Maru"], 
+        "Hate": ["Vincent"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Vegetable Smoothie",
+		"es": "Vegetable Smoothie", 
+        "ko": "Vegetable Smoothie", 
+        "de": "Gemüse-Smoothie", 
+        "fr": "Vegetable Smoothie", 
+        "hu": "Vegetable Smoothie", 
+        "it": "Vegetable Smoothie", 
+        "ja": "Vegetable Smoothie",
+        "pt": "Vegetable Smoothie", 
+        "ru": "Овощной смузи", 
+        "tr": "Vegetable Smoothie",
+        "zh": "蔬菜冰沙", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A drink made from blending milk, ice, and vegetables together.", 
+        "ko": "A drink made from blending milk, ice, and vegetables together.", 
+        "de": "Ein Getränk, gemixt aus Milch, Eis und Gemüse.",
+        "fr": "A drink made from blending milk, ice, and vegetables together.", 
+        "hu": "A drink made from blending milk, ice, and vegetables together.",
+        "it": "A drink made from blending milk, ice, and vegetables together.", 
+        "ja": "A drink made from blending milk, ice, and vegetables together.", 
+        "pt": "A drink made from blending milk, ice, and vegetables together.",
+        "ru": "Напиток, приготовленный из смешивания молока, льда и овощей.", 
+        "tr": "A drink made from blending milk, ice, and vegetables together.", 
+        "zh": "一种由牛奶、冰块和蔬菜混合而成的饮料。",
+    },
+}

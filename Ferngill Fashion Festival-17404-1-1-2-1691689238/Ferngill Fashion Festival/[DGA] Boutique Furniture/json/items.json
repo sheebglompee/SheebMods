@@ -1,0 +1,1341 @@
+[
+//Boutique Sewing Table
+
+	{
+		"$ItemType": "Furniture",
+		"ID": "BoutiqueSewingTable",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/BoutiqueSewingTable.png:0",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1,
+			},
+			{
+				"Texture": "assets/BoutiqueSewingTable.png:0",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1,
+				"Flipped": true,
+			}
+			],
+		"ShowInCatalogue":false
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "STF.DecoWisteria",
+		"Cost": 250,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "UNA.BoutiqueFurniture.DGA/BoutiqueSewingTable"
+		}
+	},
+
+	{
+		//Simple Boutique Mirror
+		"$ItemType": "Furniture",
+		"ID": "BoutiqueSimpleMirror",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/BoutiqueSimpleMirror.png:0",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1,
+			},
+			{
+				"Texture": "assets/BoutiqueSimpleMirror.png:0",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1,
+				"Flipped": true,
+			}
+			],
+		"ShowInCatalogue":false
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "STF.DecoWisteria",
+		"Cost": 450,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "UNA.BoutiqueFurniture.DGA/BoutiqueSimpleMirror"
+		}
+	},
+
+	{
+		//Boutique Umbrella Holder
+		"$ItemType": "Furniture",
+		"ID": "BoutiqueUmbrellaHolder",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/BoutiqueUmbrellaHolder.png:0",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1,
+			},
+			{
+				"Texture": "assets/BoutiqueUmbrellaHolder.png:0",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1,
+				"Flipped": true,
+			}
+			],
+		"ShowInCatalogue":false
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "STF.DecoWisteria",
+		"Cost": 250,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "UNA.BoutiqueFurniture.DGA/BoutiqueUmbrellaHolder"
+		}
+	},
+
+	{
+		//Boutique Flowerpot
+		"$ItemType": "Furniture",
+		"ID": "DecoBoutiqueFlowerpot",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/DecoBoutiqueFlowerpot.png:0",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1,
+			},
+			{
+				"Texture": "assets/DecoBoutiqueFlowerpot.png:0",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1,
+				"Flipped": true,
+			}
+			],
+		"ShowInCatalogue":false
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "STF.DecoWisteria",
+		"Cost": 50,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "UNA.BoutiqueFurniture.DGA/DecoBoutiqueFlowerpot"
+		}
+	},
+	{   //Boutique Vase
+		"$ItemType": "Furniture",
+		"ID": "DecoBoutiqueVase",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/DecoBoutiqueVase.png:0",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1,
+			},
+			{
+				"Texture": "assets/DecoBoutiqueVase.png:0",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1,
+				"Flipped": true,
+			}
+			],
+		"ShowInCatalogue":false
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "STF.DecoWisteria",
+		"Cost": 30,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "UNA.BoutiqueFurniture.DGA/DecoBoutiqueVase"
+		}
+	},
+	{   //Hat Standee 1
+	"$ItemType": "Furniture",
+	"ID": "DecoHat1",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/DecoHat1.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DecoHat1.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 75,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DecoHat1"
+	}
+},
+{   //Hat Standee 2
+	"$ItemType": "Furniture",
+	"ID": "DecoHat2",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/DecoHat2.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DecoHat2.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 75,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DecoHat2"
+	}
+},
+{   //Hat Standee 3
+	"$ItemType": "Furniture",
+	"ID": "DecoHat3",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/DecoHat3.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DecoHat3.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 75,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DecoHat3"
+	}
+},
+{   //Hat Standee 4
+	"$ItemType": "Furniture",
+	"ID": "DecoHat4",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/DecoHat4.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DecoHat4.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 75,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DecoHat4"
+	}
+},
+{   //Hat Standee 5
+	"$ItemType": "Furniture",
+	"ID": "DecoHat5",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/DecoHat5.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DecoHat5.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 75,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DecoHat5"
+	}
+},
+{   //Hat Standee 6
+	"$ItemType": "Furniture",
+	"ID": "DecoHat6",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/DecoHat6.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DecoHat6.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 75,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DecoHat6"
+	}
+},
+{   //Hat Standee 7
+	"$ItemType": "Furniture",
+	"ID": "DecoHat7",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/DecoHat7.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DecoHat7.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 75,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DecoHat7"
+	}
+},
+{   //Hat Standee 8
+	"$ItemType": "Furniture",
+	"ID": "DecoHat8",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/DecoHat8.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DecoHat8.png:0",
+			"DisplaySize": { "X": 2, "Y": 2},
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 75,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DecoHat8"
+	}
+},
+{   //Small Hat Boxes
+	"$ItemType": "Furniture",
+	"ID": "DecoHatBoxes",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/DecoHatBoxes.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DecoHatBoxes.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 100,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DecoHatBoxes"
+	}
+},
+{   //Large Hat Boxes
+	"$ItemType": "Furniture",
+	"ID": "DecoLargeHatBoxes",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/DecoLargeHatBoxes.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DecoLargeHatBoxes.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 150,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DecoLargeHatBoxes"
+	}
+},
+{   //Half Mannequin
+	"$ItemType": "Furniture",
+	"ID": "DecoMannequin",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/DecoMannequin.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DecoMannequin.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 150,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DecoMannequin"
+	}
+},
+{   //Single Necklace Displays
+	"$ItemType": "Furniture",
+	"ID": "DecoNecklaceDisplays",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/DecoNecklaceDisplays.png:0",
+			"DisplaySize": { "X": 1, "Y": 1 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DecoNecklaceDisplays.png:1",
+			"DisplaySize": { "X": 1, "Y": 1 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DecoNecklaceDisplays.png:2",
+			"DisplaySize": { "X": 1, "Y": 1 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DecoNecklaceDisplays.png:3",
+			"DisplaySize": { "X": 1, "Y": 1 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DecoNecklaceDisplays.png:4",
+			"DisplaySize": { "X": 1, "Y": 1 },
+			"CollisionHeight": 1,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 100,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DecoNecklaceDisplays"
+	}
+},
+{   //Parasol
+	"$ItemType": "Furniture",
+	"ID": "DecoParasols",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/DecoParasols.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DecoParasols.png:1",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DecoParasols.png:2",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DecoParasols.png:3",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DecoParasols.png:4",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 75,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DecoParasols"
+	}
+},
+{   //Founder Portrait
+	"$ItemType": "Furniture",
+	"ID": "DecoWisteria",
+	"Type": "Painting",
+	"Configurations": [
+		{
+			"Texture": "assets/DecoWisteria.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 2,
+		},
+		{
+			"Texture": "assets/DecoWisteria.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 2,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 250,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DecoWisteria"
+	}
+},
+{   //Half Mannequin
+	"$ItemType": "Furniture",
+	"ID": "DisplayCaseCenter",
+	"Type": "Dresser",
+	"Configurations": [
+		{
+			"Texture": "assets/DisplayCaseCenter.png:0",
+			"DisplaySize": { "X": 3, "Y": 4 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DisplayCaseCenter.png:0",
+			"DisplaySize": { "X": 3, "Y": 4 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 750,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DisplayCaseCenter"
+	}
+},
+{   //Half Mannequin
+	"$ItemType": "Furniture",
+	"ID": "DisplayCaseHats",
+	"Type": "Dresser",
+	"Configurations": [
+		{
+			"Texture": "assets/DisplayCaseHats.png:0",
+			"DisplaySize": { "X": 2, "Y": 4 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DisplayCaseHats.png:0",
+			"DisplaySize": { "X": 2, "Y": 4 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 500,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DisplayCaseHats"
+	}
+},
+{   //Half Mannequin
+	"$ItemType": "Furniture",
+	"ID": "DisplayCaseMannequinn",
+	"Type": "Dresser",
+	"Configurations": [
+		{
+			"Texture": "assets/DisplayCaseMannequinn.png:0",
+			"DisplaySize": { "X": 2, "Y": 4 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DisplayCaseMannequinn.png:0",
+			"DisplaySize": { "X": 2, "Y": 4 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 500,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DisplayCaseMannequinn"
+	}
+},
+{   //Half Mannequin
+	"$ItemType": "Furniture",
+	"ID": "DisplayNecklace",
+	"Type": "Dresser",
+	"Configurations": [
+		{
+			"Texture": "assets/DisplayNecklace.png:0",
+			"DisplaySize": { "X": 2, "Y": 3 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DisplayNecklace.png:0",
+			"DisplaySize": { "X": 2, "Y": 3 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 400,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DisplayNecklace"
+	}
+},
+{   //Half Mannequin
+	"$ItemType": "Furniture",
+	"ID": "DisplayShoes",
+	"Type": "Dresser",
+	"Configurations": [
+		{
+			"Texture": "assets/DisplayShoes.png:0",
+			"DisplaySize": { "X": 3, "Y": 3 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DisplayShoes.png:0",
+			"DisplaySize": { "X": 3, "Y": 3 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 500,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DisplayShoes"
+	}
+},
+{   //Half Mannequin
+	"$ItemType": "Furniture",
+	"ID": "DisplayHats",
+	"Type": "Dresser",
+	"Configurations": [
+		{
+			"Texture": "assets/DisplayHats.png:0",
+			"DisplaySize": { "X": 3, "Y": 3 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DisplayHats.png:0",
+			"DisplaySize": { "X": 3, "Y": 3 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 500,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DisplayHats"
+	}
+},
+{   //Half Mannequin
+	"$ItemType": "Furniture",
+	"ID": "DisplayTableLarge",
+	"Type": "Table",
+	"Configurations": [
+		{
+			"Texture": "assets/DisplayTableLarge.png:0",
+			"DisplaySize": { "X": 3, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DisplayTableLarge.png:0",
+			"DisplaySize": { "X": 3, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 300,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DisplayTableLarge"
+	}
+},
+{   //Half Mannequin
+	"$ItemType": "Furniture",
+	"ID": "DisplayTableMedium",
+	"Type": "Table",
+	"Configurations": [
+		{
+			"Texture": "assets/DisplayTableMedium.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DisplayTableMedium.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 200,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DisplayTableMedium"
+	}
+},
+{   //Half Mannequin
+	"$ItemType": "Furniture",
+	"ID": "DisplayTableSmall",
+	"Type": "Table",
+	"Configurations": [
+		{
+			"Texture": "assets/DisplayTableSmall.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DisplayTableSmall.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 100,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DisplayTableSmall"
+	}
+},
+{   //Half Mannequin
+	"$ItemType": "Furniture",
+	"ID": "DisplayTableOrnate",
+	"Type": "Table",
+	"Configurations": [
+		{
+			"Texture": "assets/DisplayTableZOrnate.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/DisplayTableZOrnate.png:0",
+			"DisplaySize": { "X": 2, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 100,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/DisplayTableOrnate"
+	}
+},
+{
+	//Boutique Sewing Table
+	"$ItemType": "Furniture",
+	"ID": "Mannequin",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/Mannequin.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/Mannequin.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 120,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/Mannequin"
+	}
+},
+{
+	//Boutique Sewing Table
+	"$ItemType": "Furniture",
+	"ID": "MannequinContrastParallel",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/MannequinContrastParallel.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/MannequinContrastParallel.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 150,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/MannequinContrastParallel"
+	}
+},
+{
+	//Boutique Sewing Table
+	"$ItemType": "Furniture",
+	"ID": "MannequinMeadowReverie",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/MannequinMeadowReverie.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/MannequinMeadowReverie.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 150,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/MannequinMeadowReverie"
+	}
+},
+{
+	//Boutique Sewing Table
+	"$ItemType": "Furniture",
+	"ID": "MannequinMedianTincture",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/MannequinMedianTincture.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/MannequinMedianTincture.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 150,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/MannequinMedianTincture"
+	}
+},
+{
+	//Boutique Sewing Table
+	"$ItemType": "Furniture",
+	"ID": "MannequinPlumFantasy",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/MannequinPlumFantasy.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/MannequinPlumFantasy.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 150,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/MannequinPlumFantasy"
+	}
+},
+{
+	//Boutique Sewing Table
+	"$ItemType": "Furniture",
+	"ID": "MannequinSaturatedRatio",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/MannequinSaturatedRatio.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/MannequinSaturatedRatio.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 150,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/MannequinSaturatedRatio"
+	}
+},
+{
+	//Boutique Sewing Table
+	"$ItemType": "Furniture",
+	"ID": "MannequinSunflowerVision",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/MannequinSunflowerVision.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/MannequinSunflowerVision.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 150,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/MannequinSunflowerVision"
+	}
+},
+{
+	//Boutique Sewing Table
+	"$ItemType": "Furniture",
+	"ID": "MannequinLissomeBlaze",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/MannequinLissomeBlaze.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/MannequinLissomeBlaze.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 150,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/MannequinLissomeBlaze"
+	}
+},
+{
+	//Boutique Sewing Table
+	"$ItemType": "Furniture",
+	"ID": "MannequinGracefulZephyr",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/MannequinGracefulZephyr.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/MannequinGracefulZephyr.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 150,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/MannequinGracefulZephyr"
+	}
+},
+{
+	//Boutique Sewing Table
+	"$ItemType": "Furniture",
+	"ID": "MannequinAquaticElegance",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/MannequinAquaticElegance.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/MannequinAquaticElegance.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 150,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/MannequinAquaticElegance"
+	}
+},
+{
+	//Boutique Sewing Table
+	"$ItemType": "Furniture",
+	"ID": "MannequinProfessionalByways",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/MannequinProfessionalByways.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/MannequinProfessionalByways.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 150,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/MannequinProfessionalByways"
+	}
+},
+{
+	//Boutique Sewing Table
+	"$ItemType": "Furniture",
+	"ID": "MannequinNaturalBustle",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/MannequinNaturalBustle.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/MannequinNaturalBustle.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 150,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/MannequinNaturalBustle"
+	}
+},
+{
+	//Boutique Sewing Table
+	"$ItemType": "Furniture",
+	"ID": "MannequinCapriciousSkylines",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/MannequinCapriciousSkylines.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		{
+			"Texture": "assets/MannequinCapriciousSkylines.png:0",
+			"DisplaySize": { "X": 1, "Y": 2 },
+			"CollisionHeight": 1,
+			"Flipped": true,
+		}
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 150,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/MannequinCapriciousSkylines"
+	}
+},
+{
+	//Boutique Sewing Table
+	"$ItemType": "Furniture",
+	"ID": "PedestalCourtains",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/PedestalCourtains.png:0",
+			"DisplaySize": { "X": 3, "Y": 4 },
+			"CollisionHeight": 1,
+		},
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 500,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/PedestalCourtains"
+	}
+},
+{
+	//Boutique Sewing Table
+	"$ItemType": "Furniture",
+	"ID": "PedestalPedestal",
+	"Type": "Rug",
+	"Configurations": [
+		{
+			"Texture": "assets/PedestalPedestal.png:0",
+			"DisplaySize": { "X": 3, "Y": 2 },
+			"CollisionHeight": 1,
+		},
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 500,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/PedestalPedestal"
+	}
+},
+{
+	//Boutique Sewing Table
+	"$ItemType": "Furniture",
+	"ID": "SewingTable",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/SewingTable.png:0",
+			"DisplaySize": { "X": 2, "Y": 3 },
+			"CollisionHeight": 1,
+		},
+		],
+	"ShowInCatalogue":false
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "STF.DecoWisteria",
+	"Cost": 350,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "UNA.BoutiqueFurniture.DGA/SewingTable"
+	}
+},
+]

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.0" orientation="orthogonal" renderorder="right-down" width="13" height="13" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="10">
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="p" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="2213" name="z_SebTerrariumTilesheet_Vanilla" tilewidth="16" tileheight="16" tilecount="144" columns="12">
+  <image source="SebTerrariumTilesheet_Vanilla.png" width="192" height="192"/>
+  <tile id="12">
+   <animation>
+    <frame tileid="12" duration="250"/>
+    <frame tileid="12" duration="250"/>
+    <frame tileid="15" duration="250"/>
+    <frame tileid="18" duration="250"/>
+    <frame tileid="15" duration="250"/>
+    <frame tileid="12" duration="250"/>
+    <frame tileid="12" duration="250"/>
+    <frame tileid="15" duration="250"/>
+    <frame tileid="18" duration="250"/>
+    <frame tileid="15" duration="250"/>
+    <frame tileid="12" duration="250"/>
+    <frame tileid="12" duration="250"/>
+    <frame tileid="12" duration="250"/>
+    <frame tileid="12" duration="250"/>
+    <frame tileid="12" duration="250"/>
+    <frame tileid="48" duration="250"/>
+    <frame tileid="51" duration="250"/>
+    <frame tileid="54" duration="250"/>
+    <frame tileid="57" duration="250"/>
+    <frame tileid="57" duration="250"/>
+    <frame tileid="57" duration="250"/>
+    <frame tileid="57" duration="250"/>
+    <frame tileid="57" duration="250"/>
+    <frame tileid="84" duration="250"/>
+    <frame tileid="87" duration="250"/>
+    <frame tileid="84" duration="250"/>
+    <frame tileid="84" duration="250"/>
+    <frame tileid="57" duration="250"/>
+    <frame tileid="84" duration="250"/>
+    <frame tileid="87" duration="250"/>
+    <frame tileid="90" duration="250"/>
+    <frame tileid="90" duration="250"/>
+    <frame tileid="90" duration="250"/>
+    <frame tileid="90" duration="250"/>
+    <frame tileid="93" duration="250"/>
+    <frame tileid="120" duration="250"/>
+    <frame tileid="123" duration="250"/>
+    <frame tileid="126" duration="250"/>
+    <frame tileid="126" duration="250"/>
+    <frame tileid="126" duration="250"/>
+    <frame tileid="126" duration="250"/>
+    <frame tileid="126" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="13">
+   <animation>
+    <frame tileid="13" duration="250"/>
+    <frame tileid="13" duration="250"/>
+    <frame tileid="16" duration="250"/>
+    <frame tileid="19" duration="250"/>
+    <frame tileid="16" duration="250"/>
+    <frame tileid="13" duration="250"/>
+    <frame tileid="16" duration="250"/>
+    <frame tileid="19" duration="250"/>
+    <frame tileid="16" duration="250"/>
+    <frame tileid="13" duration="250"/>
+    <frame tileid="13" duration="250"/>
+    <frame tileid="13" duration="250"/>
+    <frame tileid="13" duration="250"/>
+    <frame tileid="13" duration="250"/>
+    <frame tileid="49" duration="250"/>
+    <frame tileid="52" duration="250"/>
+    <frame tileid="55" duration="250"/>
+    <frame tileid="58" duration="250"/>
+    <frame tileid="58" duration="250"/>
+    <frame tileid="58" duration="250"/>
+    <frame tileid="58" duration="250"/>
+    <frame tileid="58" duration="250"/>
+    <frame tileid="85" duration="250"/>
+    <frame tileid="88" duration="250"/>
+    <frame tileid="85" duration="250"/>
+    <frame tileid="58" duration="250"/>
+    <frame tileid="85" duration="250"/>
+    <frame tileid="88" duration="250"/>
+    <frame tileid="85" duration="250"/>
+    <frame tileid="58" duration="250"/>
+    <frame tileid="91" duration="250"/>
+    <frame tileid="91" duration="250"/>
+    <frame tileid="91" duration="250"/>
+    <frame tileid="91" duration="250"/>
+    <frame tileid="94" duration="250"/>
+    <frame tileid="121" duration="250"/>
+    <frame tileid="124" duration="250"/>
+    <frame tileid="127" duration="250"/>
+    <frame tileid="127" duration="250"/>
+    <frame tileid="127" duration="250"/>
+    <frame tileid="127" duration="250"/>
+    <frame tileid="127" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="14">
+   <animation>
+    <frame tileid="14" duration="250"/>
+    <frame tileid="14" duration="250"/>
+    <frame tileid="17" duration="250"/>
+    <frame tileid="20" duration="250"/>
+    <frame tileid="17" duration="250"/>
+    <frame tileid="14" duration="250"/>
+    <frame tileid="17" duration="250"/>
+    <frame tileid="20" duration="250"/>
+    <frame tileid="17" duration="250"/>
+    <frame tileid="14" duration="250"/>
+    <frame tileid="14" duration="250"/>
+    <frame tileid="14" duration="250"/>
+    <frame tileid="14" duration="250"/>
+    <frame tileid="14" duration="250"/>
+    <frame tileid="50" duration="250"/>
+    <frame tileid="53" duration="250"/>
+    <frame tileid="56" duration="250"/>
+    <frame tileid="59" duration="250"/>
+    <frame tileid="59" duration="250"/>
+    <frame tileid="59" duration="250"/>
+    <frame tileid="59" duration="250"/>
+    <frame tileid="59" duration="250"/>
+    <frame tileid="86" duration="250"/>
+    <frame tileid="89" duration="250"/>
+    <frame tileid="86" duration="250"/>
+    <frame tileid="59" duration="250"/>
+    <frame tileid="86" duration="250"/>
+    <frame tileid="89" duration="250"/>
+    <frame tileid="86" duration="250"/>
+    <frame tileid="59" duration="250"/>
+    <frame tileid="92" duration="250"/>
+    <frame tileid="92" duration="250"/>
+    <frame tileid="92" duration="250"/>
+    <frame tileid="92" duration="250"/>
+    <frame tileid="95" duration="250"/>
+    <frame tileid="122" duration="250"/>
+    <frame tileid="125" duration="250"/>
+    <frame tileid="128" duration="250"/>
+    <frame tileid="128" duration="250"/>
+    <frame tileid="128" duration="250"/>
+    <frame tileid="128" duration="250"/>
+    <frame tileid="128" duration="250"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="13" height="13">
+  <data encoding="csv">
+0,1044,0,0,0,0,0,0,0,0,303,303,1,
+1,1044,302,302,302,302,302,302,302,302,302,303,1,
+1,1076,302,302,302,302,302,302,302,302,302,303,1,
+1,443,1,219,219,219,219,113,113,219,219,303,1,
+1,541,575,576,575,576,575,576,575,576,575,606,1,
+607,608,607,2147,607,608,607,608,607,608,607,608,1,
+639,2146,639,2147,639,640,2147,640,639,2146,639,640,1,
+608,2147,607,608,607,608,2147,608,607,608,607,608,1,
+640,639,639,640,639,640,639,640,2147,640,639,640,1,
+607,608,607,608,607,608,510,511,511,512,607,608,1,
+639,640,639,640,2147,640,542,543,543,544,639,640,1,
+607,608,607,608,2147,608,607,608,607,608,607,641,1,
+639,640,639,640,639,640,639,640,639,640,639,640,1
+</data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="13" height="13">
+  <data encoding="csv">
+1,0,1,0,0,0,0,0,0,0,0,0,1,
+1,0,155,0,0,0,0,0,0,0,0,0,1,
+1,0,187,81,81,81,81,81,81,81,81,82,1,
+1,121,219,553,557,558,559,814,1043,113,113,114,1,
+1,0,0,585,589,590,591,1073,1075,887,0,737,1,
+1,0,0,0,0,0,0,743,777,0,0,769,1,
+1,0,0,0,0,0,0,887,0,0,432,801,1,
+1,0,0,554,0,0,0,0,0,0,0,865,1,
+1,0,505,506,507,0,0,0,0,0,421,422,1,
+1,554,537,538,539,554,0,0,0,0,0,0,1,
+1,0,0,0,0,0,0,2225,2226,2227,323,324,1,
+1,434,0,0,0,0,0,2237,2238,2239,580,352,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="1" name="TileData" x="16" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door Sebastian"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="48" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SebastianRoom.1&quot;"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="128" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="playSound mouseClick"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="160" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SebastianRoom.2&quot;"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="176" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="'The Solarion Chronicles' books 1-13"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="48" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;SebastianRoom.3&quot;"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="112" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message SebTerrarium.Text"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="128" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message SebTerrarium.Text"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="144" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message SebTerrarium.Text"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="13" height="13">
+  <data encoding="csv">
+65,0,194,2122,11,11,11,2122,11,11,2122,4,0,
+65,0,438,408,404,339,308,244,245,340,827,44,37,
+65,89,0,0,0,0,280,276,277,309,0,0,2154,
+65,0,0,513,0,0,0,1108,744,855,0,0,69,
+2153,0,0,0,0,0,0,1140,1141,0,0,834,69,
+65,0,0,0,0,0,0,855,0,0,0,0,2154,
+65,0,0,0,0,0,0,0,0,0,0,0,69,
+2153,0,473,474,475,0,0,0,0,0,389,390,69,
+65,0,0,1109,0,0,0,0,0,0,417,418,69,
+65,0,0,0,0,0,0,2213,2214,2215,449,450,69,
+65,0,0,0,0,0,0,0,0,0,0,320,2154,
+161,162,166,2121,166,166,166,2121,166,166,166,167,168,
+1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="13" height="13">
+  <data encoding="csv">
+0,2183,0,0,0,0,0,0,0,0,0,0,0,
+0,2183,0,0,0,0,0,0,0,0,0,0,0,
+0,2183,0,0,0,0,0,0,0,0,0,0,0,
+0,2183,0,0,0,0,0,0,2185,2185,0,0,0,
+0,2183,0,0,0,2184,0,0,0,2184,0,0,0,
+0,2181,2182,2182,2181,2181,2179,0,0,2183,0,0,0,
+0,2183,0,0,2183,2183,2183,2184,0,2183,0,0,0,
+0,2183,0,2184,2180,2183,2177,2181,2182,2181,2184,0,0,
+0,2183,0,2185,0,2183,0,2183,2185,0,0,0,0,
+0,2184,0,0,0,2184,0,2177,2182,2182,2182,2184,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+</map>

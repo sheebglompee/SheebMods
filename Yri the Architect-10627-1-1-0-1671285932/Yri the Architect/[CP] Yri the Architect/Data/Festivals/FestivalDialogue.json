@@ -1,0 +1,133 @@
+{
+"Changes": [
+	
+//------------------------
+// FESTIVAL DIALOGUE   
+//------------------------
+
+	//Egg Festival----------------------
+	
+		{
+			"LogName": "EggFestival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": {
+			
+				"Yri": "I'm not one to enjoy festivals, but Robin invited me along...$s#$b#But... honestly, now I'm glad I didn't skip it.$h",
+        		"Yri_y2": "Nice to see you joined the festivities again. It actually isn't that bad to take a break every once in a while, right?",
+				"Charles": "Robin invited Yri. I just tagged along.",
+				"Charles_y2": "I didn't even know you could do so much with eggs."
+			}
+		},
+		
+	//Flowerdance----------------------
+
+		//Dialogue 
+		{
+			"LogName": "FlowerDance",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": {
+			
+        		"Yri": "Those dresses are so lovely. Maybe I should get one too. What do you think, dear?$h",
+        		"Yri_y2":"How do I look, honey?$h",
+				"Charles": "You look lovely the way you are, but if you want we can buy one for next year.$h",
+				"Charles_y2": "You're stunning. Would you do me the honor of being my dance partner?"
+			},
+		},
+		
+	//Luau----------------------
+	
+		{
+			"LogName": "Luau",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": {
+			
+        		"Yri": "I put in some coconut milk my mother shipped to me. Fresh from the Fern Isles!",
+        		"Yri_y2":"Yep. Coconut milk again. Well at least I know it's going to be good.$h",
+				"Charles" : "I hope no one plays any pranks.#$b#I'm not a fan of wasting food.$s",
+				"Charles_y2": "What are you going to add this year, @?"
+			},
+		},
+ 
+	//Jellies----------------------
+	
+		{
+			"LogName": "Jellies",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": {
+
+				"Yri": "I love the moonlight jellies... they're so beautiful.$h#$b#I wish I could see them every night. What do you think, honey?$h",
+				"Yri_y2": "Charles, can we go closer to the water? I want a better look at the jellies.",
+				"Charles": "The jellies are beautiful, but not as beautiful as you, dear.$h",
+				"Charles_y2": "Yri, please stop moving so much. You're going to fall."
+			}
+		},
+
+
+	//SVFair----------------------
+	
+		{
+			"LogName": "SVFair",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+			
+      			"Yri": "Have you seen Robin's woodwork? She's amazing, isn't she?$h",
+      			"Yri_y2":"Have you seen Charles? He said he'll be here soon.",
+				"Charles": "Come on.... I just need one more win for the giant plushy.",
+				"Charles_y2": "YES! Another win! Gimme the pink bear!"
+			}
+		},
+
+
+	//Sprits Eve--------------------
+		{
+      		"LogName": "SpritsEve",
+      		"Action": "EditData",
+      		"Target": "Data/Festivals/fall27",
+      		"Entries": {
+        	
+        	"Yri": "The food is divine, you need to try it out!$h",
+        	"Yri_y2": "I helped build the maze, so I've already finished it. Wait... where's Charles?",
+        	"Charles": "Yri.... Where are you? Hello...?$s",
+			"Charles_y2": "I can't believe she left me here again. How do I get out of here?$s"
+      }
+    },
+	
+	//IceFest----------------------
+	
+		{
+			"LogName": "IceFest",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": {
+			
+      			"Yri": "It's so cold... I think I'll never get used to this season.$s",
+      			"Yri_y2": "I forgot the carrot at home!$u",
+				"Charles": "I told you to dress warmer. Do you need some gloves, honey?$h",
+				"Charles_y2": "Maybe we can use something else as a nose?",
+				
+			}
+		},
+		
+		
+	//WinterStar----------------------
+	
+		{
+			"LogName": "WinterStar",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+			
+      			"Yri": "I hope Robin enjoys her present. I can't wait to see her open it.$h",
+      			"Yri_y2":"What do you think, Charles?$h",
+				"Charles": "I got Clint as my secret friend. I hope he likes his gift.",
+				"Charles_y2": "Are you serious? You're the best!$h"
+			
+			},
+		},
+]
+}

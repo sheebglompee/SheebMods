@@ -1,0 +1,312 @@
+{
+	"Changes": [
+		{
+			"LogName": "CFD Marriage",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"NPC.cs.3956": "Is this a stupid prank or something? No.$a",
+				"NPC.cs.3957": "I'm gonna pretend you didn't just try to give me that. Now, leave me alone.$a",
+				"NPC.cs.3958": "Uh... what? I barely even know you.",
+				"NPC.cs.3959": "Uh... do you even know what that thing means?#$b#Maybe you should go look it up before passing those out.",
+				"NPC.cs.3960": "%Shane refuses to make eye contact with you.",
+				"NPC.cs.3961": "%Shane refuses to make eye contact with you.",
+				"NPC.cs.3962": "...Wait, seriously?$10#$b#...You want... with me? I... uh... yes, please.$10#$e#%Shane covers his face.#$e#Hooooo boy. Okay, um... you're serious, right? You wanna get more serious with me?$6#$b#I just can't believe you actually feel...$h#$b#Okay, um. I... I'll see you around, @.$l",
+				"NPC.cs.3963": "...Wait, seriously?$10#$b#...You want... with me? I... uh... yes, please.$10#$e#%Shane covers his face.#$e#Hooooo boy. Okay, um... you're serious, right? You wanna get more serious with me?$6#$b#I just can't believe you actually feel...$h#$b#Okay, um. I... I'll see you around, @.$l",
+				"NPC.cs.3965": "You just got engaged! What are you thinking?$s",
+				"NPC.cs.3966": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+				"NPC.cs.3967": "Um, aren't you already married?",
+				"NPC.cs.3968": "You're already married, you weirdo!$s",
+				"NPC.cs.3970": "You're strange.$s",
+				"NPC.cs.3971": "Heh. That's real funny.",
+				"NPC.cs.3972": "I--what..?$10#$b#@... Sorry, but I can't. Not right now.$s",
+				"NPC.cs.3973": "No!$10#$b#I mean--look, I'm sorry. I don't feel that way about you.$s",
+				"NPC.cs.3974": "Look. I already told you no! Leave me alone.$a",
+				"NPC.cs.3975": "You already asked me that. What part of 'NO' don't you understand?!$a",
+				"NPC.cs.3980": "...!!!$10#$b#No way!? Wait no, I mean yes, I absolutely do want to marry you.$10#$b#Yes. I wanna marry you. Sorry I freaked out, I just... can't believe that this is actually happening...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+				"NPC.cs.4001": "I've never been good with words, so I wanted to give you that stardrop.$l#$b#How it made you feel... well, that's how I feel when I'm with you.$l",
+				"NPC.cs.4439": "It kinda freaks me out knowing how much the new baby will change things...$3#$b#But everything will work out, right?$6",
+				"NPC.cs.4440": "I hope our adoption request gets approved. They'll see that we can raise a kid right, right?",
+				"NPC.cs.4441": "Hey @, I just filed our adoption papers. That took way more forms than I thought it would take.#$b#*sigh*... Bureaucracy is such a hassle.$s#$b#I know it's gonna be worth it, though.$6",
+				"NPC.cs.4444": "Hm... we're gonna have to go shopping for supplies soon. You know, for baby stuff.$6#$b#Jas used to have this mobile hanging over her crib when she was a baby. Maybe we should get something like that.$6",
+				"NPC.cs.4447": "Hm... we're gonna have to go shopping for supplies soon. You know, for baby stuff.$6#$b#Jas used to have this mobile hanging over her crib when she was a baby. Maybe we should get something like that.$6",
+				"NPC.cs.4448": "...You're pregnant?$10#$b#Oh man, we're having a baby!$h",
+				"NPC.cs.4449": "I need a minute to myself...  Check on the kids yourself.$a",
+				"NPC.cs.4462": "I got up early and watered some crops for you. I hope it makes your job a little easier today.$6",
+				"NPC.cs.4463": "I also filled %pet's water bowl.$6",
+				"NPC.cs.4465": "Hey, @. ",
+				"NPC.cs.4466": "Morning, @. ",
+				"NPC.cs.4470": "I got up early to water some crops, but they were already done. I keep forgetting about that sweet sprinkler setup we've got.$h",
+				"NPC.cs.4474": "I got up early and fed all the farm animals. I hope that makes your job a little easier today.$6",
+				"NPC.cs.4481": "I couldn't sleep, so I got up and repaired a few of the fences. They should be as good as new.$6",
+				"NPC.cs.4500": "Your stuff's all over the place, bud. Could you tidy it up?#$b#I don't know where you usually store all that.",
+			},
+		},
+//FLOWER DANCE
+		{
+			"LogName": "CFD Flower Dance Friendly",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"Event.cs.1736": "$q -1 null#...What?#$r -1 0 danceAsk#(Ask Shane to be your dance partner)#$r -1 0 null#Nevermind...",
+				"Event.cs.1738": "$q -1 null#...What?#$r -1 0 danceAsk#(Ask Shane to be your dance partner)#$r -1 0 null#Nevermind...",
+				"Event.cs.1635": "...No.",
+			},
+			"When": {
+				"Relationship:Shane": "Unmet, Friendly",
+				"Hearts:Shane": "0, 1, 2, 3"
+			},
+		},
+		{
+			"LogName": "CFD Flower Dance Friendlier",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"Event.cs.1736": "$q -1 null#...What's up?#$r -1 0 danceAsk#(Ask Shane to be your dance partner)#$r -1 0 null#Nevermind...",
+				"Event.cs.1738": "$q -1 null#...What's up?#$r -1 0 danceAsk#(Ask Shane to be your dance partner)#$r -1 0 null#Nevermind...",
+				"Event.cs.1632": "You seriously wanna be my partner for the flower dance?#$b#Ah, what the heck. Sure.",
+				"Event.cs.1633": "You seriously wanna be my partner for the flower dance?#$b#Ah, what the heck. Sure.",
+				"Event.cs.1634": "You seriously wanna be my partner for the flower dance?#$b#Ah, what the heck. Sure.",
+				"Event.cs.1635": "Uh... I already said I'd dance with someone else. You wanna swap places with me?",
+			},
+			"When": {
+				"Relationship:Shane": "Friendly",
+				"Hearts:Shane": "4, 5"
+			},
+		},
+		{
+			"LogName": "CFD Flower Dance Friendliest",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"Event.cs.1736": "$q -1 null#...What's up, @?#$r -1 0 danceAsk#(Ask Shane to be your dance partner)#$r -1 0 null#Nevermind...",
+				"Event.cs.1738": "$q -1 null#...What's up, @?#$r -1 0 danceAsk#(Ask Shane to be your dance partner)#$r -1 0 null#Nevermind...",
+				"Event.cs.1632": "Fine, but only because it's you.$6",
+				"Event.cs.1633": "Fine, but only because it's you.$6",
+				"Event.cs.1634": "Fine, but only because it's you.$6",
+				"Event.cs.1635": "Sorry, @. I already said I'd dance with someone else.",
+			},
+			"When": {
+				"Relationship:Shane": "Friendly",
+				"Hearts:Shane": "6, 7, 8, 9, 10, 11, 12"
+			},
+		},
+		{
+			"LogName": "CFD Flower Dance Romantic",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"Event.cs.1736": "$q -1 null#...Yeah, bud?#$r -1 0 danceAsk#(Ask Shane to be your dance partner)#$r -1 0 null#Nevermind...",
+				"Event.cs.1738": "$q -1 null#...Yeah, bud?#$r -1 0 danceAsk#(Ask Shane to be your dance partner)#$r -1 0 null#Nevermind...",
+				"Event.cs.1632": "Dance? Hoo-boy. All right, gimme a minute to see if I still remember how to do this...$6",
+				"Event.cs.1633": "Dance? Hoo-boy. All right, gimme a minute to see if I still remember how to do this...$6",
+				"Event.cs.1634": "Dance? Hoo-boy. All right, gimme a minute to see if I still remember how to do this...$6",
+				"Event.cs.1635": "Dance? Hoo-boy. All right, gimme a minute to see if I still remember how to do this...$6",
+			},
+			"When": {
+				"Relationship:Shane": "Dating, Engaged, Married",
+			},
+		},
+//WINTER STAR
+		{
+			"LogName": "CFD Winter Star Romantic",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"Event.cs.1499": "Hey, @. I got a lucky draw this year, so I'm your secret gift-giver.#$b#Come on, open it!$6",
+			    "Event.cs.1500": "It's nothing fancy, but yeah. I hope you like it, anyway.$6",
+			    "Event.cs.1501": "Hey, @. I got a lucky draw this year, so I'm your secret gift-giver.#$b#Come on, open it!$6",
+			    "Event.cs.1503": "It's nothing fancy, but yeah. I hope you like it, anyway.$6",
+			    "Event.cs.1504": "It's nothing fancy, but yeah. I hope you like it, anyway.$6",
+			},
+			"When": {
+				"Relationship:Shane": "Dating, Engaged, Married"
+			},
+		},
+		{
+			"LogName": "CFD Winter Star Divorced",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"Event.cs.1499": "Lewis made you my secret friend this year.$3#$b#So here.$3",
+			    "Event.cs.1500": "Anyway. Have a Happy Feast, @.$s",
+			    "Event.cs.1501": "Lewis made you my secret friend this year.$3#$b#So here.$3",
+			    "Event.cs.1503": "Anyway. Have a Happy Feast, @.$s",
+			    "Event.cs.1504": "Anyway. Have a Happy Feast, @.$s",
+			},
+			"When": {
+				"Relationship:Shane": "Divorced"
+			},
+		},
+//EXTRA DIALOGUE
+		{
+			"LogName": "CFD Extra Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"ExtraDialogue_NewChild_SecondChild1": "Just look at our family... We've come a long way, haven't we?$6",
+				"ExtraDialogue_NewChild_SecondChild2": "Three great kids... We've come a long way, haven't we?$6",
+				"ExtraDialogue_NewChild_Adoption": "So, you ready to be the best parents %kid1 could ever have?$6#$b#It's a pretty tall order, but I think we'll manage.$h",
+				"ExtraDialogue_NewChild_FirstChild": "So, you ready to be the best parents %kid1 could ever have?$6#$b#It's a pretty tall order, but I think we'll manage.$h",
+				"ExtraDialogue_Spouse_KitchenBlocked": "You've got a bunch of your stuff blocking the kitchen... I don't know where you wanna keep all that, so could you tidy it up?",
+				"ExtraDialogue_Spouse_MonstersInHouse": "Uh... peach? What are these monsters doing in here?",
+				"ExtraDialogue_Mines_PlayerKilled_Spouse_PlayerMale": "You were gone so long I started to get worried about you! What happened down there? Can you walk?$10",
+				"ExtraDialogue_Mines_PlayerKilled_Spouse_PlayerFemale": "You were gone so long I started to get worried about you! What happened down there? Can you walk?$10",
+				},
+			},
+		{
+			"LogName": "CFD Dumpster Dive 0-6",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"ExtraDialogue_Town_DumpsterDiveComment_Adult": "Uh... what the heck?$a",
+			},
+			"When": {
+				"Hearts:Shane": "{{Range: 0, 6}}",
+			},
+		},
+		{
+			"LogName": "CFD Dumpster Dive 7-9",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"ExtraDialogue_Town_DumpsterDiveComment_Adult": "I'm just... gonna forget I saw anything.",
+			},
+			"When": {
+				"Hearts:Shane": "{{Range: 7, 9}}",
+			},
+		},
+		{
+			"LogName": "CFD Dumpster Dive 10+",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"ExtraDialogue_Town_DumpsterDiveComment_Adult": "Uh... you want me to get you some hand sanitizer or something, {{Random: chickadee, bud, peach, @}}?",
+			},
+			"When": {
+				"Hearts:Shane": "{{Range: 10, 14}}",
+			},
+		},
+//CHARACTERS STRINGS
+		{
+			"LogName": "CFD Characters Main",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"Characters_WipedMemory": "Uh... hey.#$e#Don't take this the wrong way, but do I know you?",
+			},
+		},
+	//Movies
+		{
+			"LogName": "CFD Movie Invitation Reactions 0-1",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"Characters_MovieInvite_InvitedBySomeoneElse": "I already have plans.",
+				"Characters_MovieInvite_AlreadySeen": "Eh, I've already seen it.",
+				"Characters_MovieInvite_Invited": "A movie? Uh... sure. See you at the theater, I guess...$3",
+				"Characters_MovieInvite_Invited_Rude": "A movie? Uh... sure. See you at the theater, I guess...$3",
+				"Characters_MovieInvite_Reject": "No thanks.$s",
+			},
+			"When": {
+				"Hearts:Shane": "0, 1",
+				"Relationship:Shane |contains= divorced": false,
+			},
+		},
+		{
+			"LogName": "CFD Movie Invitation Reactions 2-3",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"Characters_MovieInvite_InvitedBySomeoneElse": "Uh... I already have plans.$3",
+				"Characters_MovieInvite_AlreadySeen": "Eh, I've already seen it.",
+				"Characters_MovieInvite_Invited": "A movie? Uh... sure. See you at the theater, I guess...$3",
+				"Characters_MovieInvite_Invited_Rude": "A movie? Uh... sure. See you at the theater, I guess...$3",
+				"Characters_MovieInvite_Reject": "*sigh* No thanks.$s",
+			},
+			"When": {
+				"Hearts:Shane": "2, 3",
+				"Relationship:Shane |contains= divorced": false,
+			},
+		},
+		{
+			"LogName": "CFD Movie Invitation Reactions 4-5",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"Characters_MovieInvite_InvitedBySomeoneElse": "Uh... sorry. I kinda already have plans.$3",
+				"Characters_MovieInvite_AlreadySeen": "Sorry... I already saw that one. I don't really feel like seeing it again yet.$3",
+				"Characters_MovieInvite_Invited": "A movie? Eh, sure. See you there.$6",
+				"Characters_MovieInvite_Invited_Rude": "A movie? Eh, sure. See you there.$6",
+				"Characters_MovieInvite_Reject": "Sorry. Maybe some other time?$s",
+			},
+			"When": {
+				"Hearts:Shane": "4, 5",
+				"Relationship:Shane |contains= divorced": false,
+			},
+		},
+		{
+			"LogName": "CFD Movie Invitation Reactions 6-7",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"Characters_MovieInvite_InvitedBySomeoneElse": "Uh... sorry. I kinda already have plans.$3",
+				"Characters_MovieInvite_AlreadySeen": "Uh... I already saw that one. I don't really feel like seeing it again yet.#$b#Sorry.",
+				"Characters_MovieInvite_Invited": "A movie? Yeah, I guess that might be fun. See you there, then.",
+				"Characters_MovieInvite_Invited_Rude": "A movie? Yeah, I guess that might be fun. See you there, then.",
+				"Characters_MovieInvite_Reject": "...I just don't feel like going out. Sorry.$s",
+			},
+			"When": {
+				"Hearts:Shane": "6, 7",
+				"Relationship:Shane |contains= divorced": false,
+			},
+		},
+		{
+			"LogName": "CFD Movie Invitation Reactions 8",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"Characters_MovieInvite_InvitedBySomeoneElse": "Aw shoot, I already have plans.#$b#You could meet us at the theater if you want, though.$6",
+				"Characters_MovieInvite_AlreadySeen": "A movie? Oh... I just went to see that one. I don't really feel like seeing it again yet...",
+				"Characters_MovieInvite_Invited": "A movie? Sure, as long as we're getting snacks.$h#$b#I'm kidding... but I'm also not.$6#$b#Anyway, I'll meet you there.$6",
+				"Characters_MovieInvite_Invited_Rude": "A movie? Sure, as long as we're getting snacks.$h#$b#I'm kidding... but I'm also not.$6#$b#Anyway, I'll meet you there.$6",
+				"Characters_MovieInvite_Reject": "I'm not really feeling it today... maybe next time?",
+			},
+			"When": {
+				"Hearts:Shane": "8",
+				"Relationship:Shane |contains= divorced": false,
+			},
+		},
+		{
+			"LogName": "CFD Movie Invitation Reactions 9+",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"Characters_MovieInvite_InvitedBySomeoneElse": "Aw shoot, I already have plans.#$b#You could meet us at the theater if you want, though.$6",
+				"Characters_MovieInvite_AlreadySeen": "A movie? Oh... I just went to see that one. I don't really feel like seeing it again yet...",
+				"Characters_MovieInvite_Invited": "A movie? Sure, as long as we're getting snacks.$h#$b#I'm kidding... but I'm also not.$6#$b#Anyway, I'll meet you there, bud.$6",
+				"Characters_MovieInvite_Invited_Rude": "A movie? Sure, as long as we're getting snacks.$h#$b#I'm kidding... but I'm also not.$6#$b#Anyway, I'll meet you there, bud.$6",
+				"Characters_MovieInvite_Reject": "I'm not really feeling up to it today... maybe next time?",
+			},
+			"When": {
+				"Hearts:Shane": "{{Range: 9, 15}}",
+				"Relationship:Shane |contains= divorced": false,
+			},
+		},
+		{
+			"LogName": "CFD Movie Invitation Reactions Divorced",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"Characters_MovieInvite_InvitedBySomeoneElse": "You're kidding, right?$a",
+				"Characters_MovieInvite_AlreadySeen": "A movie?$a#$e#You're so full of it... Go away.$s",
+				"Characters_MovieInvite_Invited": "...Fine.$a",
+				"Characters_MovieInvite_Invited_Rude": "...Fine.$a",
+				"Characters_MovieInvite_Reject": "Just quit it, @.$a",
+			},
+			"When": {
+				"Relationship:Shane": "divorced",
+			},
+		},
+	]
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "Id": "SDVWT.SamBrownieLetter",
+        "GroupId": "SDVWT.WeedBrownie",
+        "Title": "Sam's Homemade Brownie Recipe'",
+        "Text": "Hey @^Why don't you try expanding your 'stock' with this?^I can't really bake it myself, since the smell^makes mom suspicious.^Oh, and don't forget to give me a taste!",
+
+        "Recipe": "Weed Brownie",
+        "WhichBG": 0,
+        "Repeatable": false,
+        "AutoOpen": false,
+
+        "Date": "17 summer Y1",
+        "Seasons": ["summer", "fall", "winter"],
+        "Weather": "sunny",
+        "FriendshipConditions": [
+            {
+                "NpcName": "Sam",
+                "FriendshipLevel": 4
+
+            }
+        ],
+        "SkillConditions": [
+            {
+                "SkillLevel": 1,
+                "SkillName": "Farming"
+            }
+        ]
+    }
+]

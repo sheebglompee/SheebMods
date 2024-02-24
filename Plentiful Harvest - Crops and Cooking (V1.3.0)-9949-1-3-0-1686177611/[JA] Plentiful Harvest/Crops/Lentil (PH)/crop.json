@@ -1,0 +1,46 @@
+{
+    "Name": "Lentils (PH)", 
+    "Product": "Lentils (PH)",
+    "SeedName": "Lentil Seeds (PH)", 
+    "SeedDescription": "Plant these in the spring. Takes 6 days to grow. Harvest with the scythe.", 
+    "Type": "Vegetable", 
+    "CropType": "Normal", 
+    "Seasons": ["spring"], 
+    "Phases": [1, 2, 2, 1], 
+    "RegrowthPhase": -1, 
+    "HarvestWithScythe": true, 
+    "TrellisCrop": false, 
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "STF.PlentifulHarvest", 
+    "SeedPurchasePrice": 34, 
+
+    "SeedNameLocalization":
+    {
+        "default": "Lentil Seeds",
+		"es": "Lentil Seeds", 
+        "ko": "Lentil Seeds", 
+        "de": "Linsenbohnen-Saat", 
+        "fr": "Lentil Seeds", 
+        "hu": "Lentil Seeds", 
+        "it": "Lentil Seeds", 
+        "ja": "Lentil Seeds", 
+        "pt": "Lentil Seeds", 
+        "ru": "Семена чечевицы", 
+        "tr": "Lentil Seeds", 
+        "zh": "小扁豆种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plant these in the spring. Takes 6 days to grow. Harvest with the scythe.", 
+        "ko": "Plant these in the spring. Takes 6 days to grow. Harvest with the scythe.", 
+        "de": "Pflanze sie im Frühling. Wächst in 6 Tagen heran. Ernte mit einer Sichel.", 
+        "fr": "Plant these in the spring. Takes 6 days to grow. Harvest with the scythe.", 
+        "hu": "Plant these in the spring. Takes 6 days to grow. Harvest with the scythe.", 
+        "it": "Plant these in the spring. Takes 6 days to grow. Harvest with the scythe.", 
+        "ja": "Plant these in the spring. Takes 6 days to grow. Harvest with the scythe.", 
+        "pt": "Plant these in the spring. Takes 6 days to grow. Harvest with the scythe.", 
+        "ru": "Сажайте весной. Вырастает через 6 дней. Собирайте урожай косой.", 
+        "tr": "Plant these in the spring. Takes 6 days to grow. Harvest with the scythe.", 
+        "zh": "春天种植。 生长需要6天。 用镰刀收割。", 
+    }
+}

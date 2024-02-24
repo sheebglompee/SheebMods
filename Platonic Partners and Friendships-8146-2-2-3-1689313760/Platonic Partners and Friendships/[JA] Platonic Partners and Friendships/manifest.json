@@ -1,0 +1,11 @@
+{
+	"Name": "[JA] Platonic Partners and Friendships",
+    "Author": "Amaranthacyan",
+    "Version": "1.0.0",
+    "Description": "Adds friendship bracelet to PPaF",
+    "UniqueID": "Amaranthacyan.PlatonicPartnersandFriendshipsJA",
+	"UpdateKeys": [ "Nexus:???" ],
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+}

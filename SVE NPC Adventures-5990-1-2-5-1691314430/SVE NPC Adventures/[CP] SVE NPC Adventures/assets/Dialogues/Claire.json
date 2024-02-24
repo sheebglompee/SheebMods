@@ -1,0 +1,108 @@
+{
+  "Changes": [
+    {
+      "LogName": "Companion dialogues for Claire",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Claire",
+      "Entries": {
+		  //Normal Lines
+		  
+		  "companionAccepted": "You'd like to adventure with me? I'd love to explore the Valley with you.$h",
+		  "companionRejected": "I'm sorry, I have other things to do today.$2",
+		  "companionRejectedAerobics": "I'm sorry, I have to go to my aerobics class.$2",
+		  "companionRejectedWork": "I'm sorry, I have to work now.$2",
+		  "companionRejectedNight": "I'm sorry, I have to go.$0#$b#Tomorrow I work early in the morning.$2",
+		  "companionDismiss": "It was a good day. I enjoyed spending time with you, @.$h#$b#Perhaps we can do this again sometime?$5",
+		  "companionDismissAuto": "%Claire yawns and looks visibly more tired than usual.#$b#I'm sorry, @, but I have to go. I already get little enough sleep as it is.$s#$b#I had fun adventuring with you, though! Another day, perhaps?$h",
+		  "companionRecruited": "Where do you want to go, @?",
+		  
+		  "companionSuggest": "I wanted to pass some time today exploring the Valley.#$q -1 -1#Do you want to come with me, @?#$r -1 0 Yes#Let's go adventuring, Claire.#$r -1 0 No#I have a lot to do today, maybe tomorrow.",
+		  "companionSuggest_Yes": "Excellent, lead the way!$1",
+		  "companionSuggest_No": "It's alright, @. We can explore together another day.",
+		  
+		  //Dating Lines
+
+		  "companionAccepted_Dating": "Oh, you're inviting me on a date, @?$l#$b#I suppose I could spare some time. Lead the way, @.$6",
+		  "companionRejectedNight_Dating": "I'm sorry, @, but it's really late.$s#$b#Perhaps we can spend some time together tomorrow?$l",
+		  "companionDismiss_Dating": "I understand, @. As much as I would love to continue spending time with you, I understand sometimes you have other things to do.$h#$b#I will see you tomorrow, I hope?$l",
+		  "companionDismissAuto_Dating": "%Claire yawns, then startles.#$b#Oh! Is it already that late? The time just flies by with you, @.$l#$b#I'm afraid I have to go for the night. May I see you tomorrow?$s",
+		  "companionRecruited_Dating": "It's always a pleasure to spend time with you, @. Do you have anything specific planned for us today?$5",
+
+		  "companionSuggest_Dating": "Hello, dear. I find myself with some unexpected time off today!$6#$q -1 -1#May I spend some time with you today?#$r -1 0 Yes#Of course!#$r -1 0 No#I need to do a few things today, another time?",
+		  "companionSuggest_Yes_Dating": "I look forward to spending time with you today, @.$l#$b#Lead the way.$5",
+		  "companionSuggest_No_Dating": "It's alright, @. I have a few ideas how I can spend my time otherwise today.$h#$b#Perhaps I shall see you tomorrow, then?$l",
+		  
+		  //Spouse Lines
+		  
+		  "companionAccepted_Spouse": "Of course! Perhaps we can forage for some food ingredients we can use at home?$l",
+		  "companionRejected_Spouse": "%Claire looks at you with some contempt, then ignores you. You consider you may want to rekindle your relationship before asking again.",
+		  "companionRejectedNight_Spouse": "It's quite late, @. And *yawn* I've personally had enough experience with being this tired that it's never a good idea to stay up this late.#$b#Tomorrow, perhaps? We can take the day and go exploring then.$l",
+		  "companionDismiss_Spouse": "I enjoyed spending time with you, dear. I will see you at home later.$l",
+		  "companionDismissAuto_Spouse": "%Claire yawns, then stumbles slightly.#$b#I don't think I can continue, dear. It's quite late and I do not do well without sleep.$s#$b#I will see you at home. Don't stay out too late, alright?",
+		  "companionRecruited_Spouse": "Shall we depart? I am quite eager to spend the day with you, whatever our plans may be.$l",
+		  
+		  "companionSuggest_Spouse": "Hello, dear. I find myself having some extra free time today.$5#$q -1 -1#May I spend some time with you today?#$r -1 0 Yes#Of course!#$r -1 0 No#I need to do a few things today, another time?",
+		  "companionSuggest_Yes_Spouse": "I look forward to spending time with you today, @.$l#$b#Lead the way.$5",
+		  "companionSuggest_No_Spouse": "It's alright, @. I have a few ideas how I can spend my time otherwise.$h#$b#Have a good day, my love.$7",
+		  
+		  //Locational Dialogue
+		  "companion_Forest": "The forest is so nice. I love the trees, the forage, and the birds.$0#$b#It's so full of life!$1",
+		  "companion_Forest_Spouse": "The forest is so nice. I love the trees, the forage, and the birds...#$b#But I love the person I'm adventuring with even more.$1",
+		  "companion_JojaMart": "Don't let Morris see me, he'll realize I'm not working!$2#$b#I'd rather not get my pay docked for an enjoyable day exploring.$3",
+		  "companion_JojaMart_Spouse": "Don't let Morris see me, he'll realize I'm not working!$2#$b#It'd be more enjoyable to spend the day with you, rather than be yelled at by Morris for a few hours for slacking off.$h",
+		  "companion_JojaMart_Night": "I always have to stay so late at night, and come in early the next morning.$2#$b#I'd rather just get more sleep.$3",
+		  "companion_Farm": "Your farm is beautiful, @.$1#$b#You've done well turning the farm into a cornerstone of the Valley.$5",
+		  "companion_Farm_Spouse": "Our farm is a marvel, @. It overflows with life and is green as far as the eye can see.$h#$b#I think this is my favorite place in the Valley, now. It helps that my favorite person is here, too.$7",
+		  "companion_Mine": "I'm not exactly a fighter, @. Can we go to the forest instead?$2#$b#Or at least somewhere with far fewer monsters. I wouldn't be of much help against them.$2",
+		  "companion_Mine_Spouse": "I'm not a fighter, dear. The Mines aren't the best place for me to be.$2#$b#Perhaps we could adjourn elsewhere and enjoy the day somewhere less dangerous?$l",
+		  "companion_ArchaeologyHouse": "The Museum collection is coming along fine, thanks to you. The artifacts and minerals are fascinating.$6#$b#The books are okay, too.$5",
+		  "companion_ArchaeologyHouse_Spouse": "The Museum collection is growing splendidly, dear.$6#$b#The artifacts and minerals are quite fascinating. Though I suppose that makes sense, considering the person who donated them.$l",
+		  "companion_SkullCave": "@, I am... not equipped to fight here.#$b#I will follow you, but I fear this will end badly.$s",
+		  "companion_SkullCave_Spouse": "Dear, may I request we perhaps not go in there?$s#$b#I know you've stated there are valuable resources in here, but I'm not really suited to fighting.$s#$b#...Very well. I will follow you, @, but please be careful. And if we are in trouble, please do not hesitate to leave.",
+		  "companion_Custom_CrimsonBadlands": "%Claire rears back in fear.#$b#Um, @? I cannot fight, and these monsters look alarmingly deadly. Please, may we leave?$s",
+		  "companion_Custom_CrimsonBadlands_Spouse": "%Claire rears back in fear.#$b#Dear, I don't wish to alarm you, but there are several serpents and undead monsters ahead, and I have no combat training.$s#$b# We should get out of here promptly. ...And if we are here intentionally, we will be having a talk when we get home.$3#$b#It is one thing to go here yourself, it is another to bring someone untrained here as well!$s",
+		  "companion_Custom_Ridgeside_RidgesideVillage": "This village is quite something, isn't it?$h#$b#Perhaps if I save up enough, I might room at the Log Cabin Hotel for a night or two. It seems like a nice place for a vacation.$5",
+		  "companion_Custom_Ridgeside_RidgesideVillage_Spouse": "Now that I live with you in the Valley, I love taking the occasional walk up to this place.$h#$b#The view of the Valley from the cable car station is amazing, and couples well with a dish from Pika's.$6#$b#I would love if you could join me sometime, @. It would make for a wonderful outing.$l",
+		  
+		  //Foraging Dialogues
+		  "farmerRunAway": "@, wait!$s",
+		  "giveForages": "I think this will be of use to you, @. It's excellent forage.$h",
+		  "farmerRunAway_Spouse": "Dear, come back!$s",
+		  "giveForages_Spouse": "Here you are, dear. I found some forage that may be of use to you.$7",
+      }
+    },
+	{
+      "LogName": "Free Love Compat Dialogues, Claire", //Some romantic dialogues are not used when the spouse is not the spouse variable - this just patches them into the normal keys if married.
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Claire",
+      "Entries": {		  
+		"companionAccepted": "Of course! Perhaps we can forage for some food ingredients we can use at home?$l",
+		"companionRejected": "%Claire looks at you with some contempt, then ignores you. You consider you may want to rekindle your relationship before asking again.",
+		"companionRejectedNight": "It's quite late, @. And *yawn* I've personally had enough experience with being this tired that it's never a good idea to stay up this late.#$b#Tomorrow, perhaps? We can take the day and go exploring then.$l",
+		"companionDismiss": "I enjoyed spending time with you, dear. I will see you at home later.$l",
+		"companionDismissAuto": "%Claire yawns, then stumbles slightly.#$b#I don't think I can continue, dear. It's quite late and I do not do well without sleep.$s#$b#I will see you at home. Don't stay out too late, alright?",
+		"companionRecruited": "Shall we depart? I am quite eager to spend the day with you, whatever our plans may be.$l",
+
+		"companionSuggest": "Hello, dear. I find myself having some extra free time today.$5#$q -1 -1#May I spend some time with you today?#$r -1 0 Yes#Of course!#$r -1 0 No#I need to do a few things today, another time?",
+		"companionSuggest_Yes": "I look forward to spending time with you today, @.$l#$b#Lead the way.$5",
+		"companionSuggest_No": "It's alright, @. I have a few ideas how I can spend my time otherwise.$h#$b#Have a good day, my love.$7",
+      },
+	  "When": {
+		  "HasMod": "aedenthorn.FreeLove",
+		  "relationship:Claire": "married",
+	  },
+    },
+	{
+      "LogName": "Movie Theater Dialogue", //Only if CC Movie Theater
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Claire",
+      "Entries": {		  
+		"companion_MovieTheater": "Working at the Movie Theater is much nicer than working at Joja.#$b#The hours are shorter, the management is nicer, and occasionally, we get to see movies early!$6",
+		"companion_MovieTheater_Spouse": "If you'd like, dear, I could serve you and any guest of yours a snack, while I'm in here.$h#$b#I won't be able to watch the movie with you, though. You'll have to tell me what you think!$5",
+      },
+	  "When": {
+		  "HasSeenEvent |contains=191393": true
+	  },
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "Marlowe 22 71 1"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "Marlowe 22 71 1"
+        }
+      ],
+      {
+        "LogName": "Dialogue for winter25",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+        "Entries": {
+          "Marlowe": "I'm sitting at the table for people who don't have relatives in town.#$b#You can join us if you want."
+        }
+      }
+    }
+  ]
+}

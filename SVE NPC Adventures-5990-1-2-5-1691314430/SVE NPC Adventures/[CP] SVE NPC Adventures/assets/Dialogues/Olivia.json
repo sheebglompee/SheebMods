@@ -1,0 +1,33 @@
+{
+  "Changes": [
+    {
+      "LogName": "Companion dialogues for Olivia",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Olivia",
+      "Entries": {
+        "companionAccepted": "Oh that sounds like fun, dear!$1",
+        "companionRejected": "I'm sorry, sweetie, but my schedule is booked today.$2",
+        "companionRejectedNight": "I'm sorry, sweetie, but it's a little late in the day for me.$0#$b#I'm simply a mess when I don't get my 8 hours of sleep.$2",
+        "companionDismiss": "I enjoyed our little stroll today, dear.$1#$b#If time permits, we should do this again.$3",
+        "companionDismissAuto": "Oh my, it's gotten so late!$7#$b#I apologize, but I'll have to be getting back now.$3",
+        "companionRecruited": "Ready to sieze the day, dear?$0",
+        "companion_Forest_winter": "Every year I hope the pond here freezes over so I can go ice skating.$0#$b#Who knows... maybe one of these days I'll wake up to a Winter Star miracle!$4",
+        "companion_Railroad": "I wish Caroline and Jodi would join me for a spa day in the bathhouse.$2#$b#It would be such fun, but those two can be so modest!$4",
+        "companion_Beach_summer_Indoor_Day": "I should've brought a parisol. The sun is so harsh today.$2",
+        "companion_Beach_summer_Night": "The cool ocean breeze is so refreshing after a long day, don't you agree?$3",
+        "companion_JojaMart": "I can't really endorse Joja's frozen dinners.$2#$b#I tried one years ago and the added sodium made my face puff up like a pufferfish!$5",
+        "companion_JojaMart_Night": "Morris really overworks that poor girl, Claire.$2#$b#Everyone needs sleep to stay healthy, but she clearly isn't being allowed to get enough.$5",
+        "companion_Farm": "Your farm is so quaint, @!$1#$b#Locally sourced produce is part of why I came to Stardew Valley to begin with.$3",
+        "companion_Farm_Spouse": "I feel so at peace here on our farm, darling.$1#$b#Compared to the hustle and bustle of Zuzu City, it feels like our own little slice of paradise!$4",
+        "companion_Mine": "I hope I can pick up some quality gemstones while we're here.$3#$b#My mother would love a new necklace and I know of an absolutely fabulous jeweler in Sautine City.$1",
+        "companion_Mountain": "I'd love to do some yoga in this crisp mountain air.$1#$b#I wonder if Caroline and Jodi would be interested in joining me?$3",
+        "companion_Mountain_summer": "Are you doing OK, dear? Be careful you don't push yourself too hard in this heat.$2#$b#We should come take a dip in the lake one day to cool off. Wouldn't that just be fabulous?$4",
+        "companion_Mountain_summer_spouse": "Are you doing OK, my love? Be careful you don't push yourself too hard in this heat.$2#$b#We should come take a private dip in the lake one night to cool off. Wouldn't that be... exciting?$4",
+        "companion_Town_Night": "The night sky is so radiant in the Valley at night.$4#$b#I almost forgot what stars looked like living in Zuzu City with all of its bright lights.$2",
+        "companion_Town_spring": "Fresh air really is good for the body and mind.$1#$b#I feel a bit guilty though... Jodi gets so stressed every spring because of poor Sam's allergies.$2",
+        "companion_Town_Rainy": "Sweetie...Is my makeup is running?$7",
+        "companion_ArchaeologyHouse": "Do you think I could buy one of these trinkets from Gunther?$6#$b#Victor seems to enjoy this type of thing.$3"
+      }
+    }
+  ]
+}

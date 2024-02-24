@@ -1,0 +1,19 @@
+﻿{
+    "Name": "Plump-Belly Mushroom",
+    "Description": "A much valued cooking ingredient, it has a deep flavour.",
+    "Category": "Greens",
+    "CategoryTextOverride": "Mushroom",
+    "Edibility": 30,
+    "Price": 50,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Plump-Belly Mushroom",
+    "ContextTags": [
+    "season_spring",
+    "color_brown",
+    "forage_item",
+    "mushroom_item",
+    "forage_item_mines",
+  ],
+}

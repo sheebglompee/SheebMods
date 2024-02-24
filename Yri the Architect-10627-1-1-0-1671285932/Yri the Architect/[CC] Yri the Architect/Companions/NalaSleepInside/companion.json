@@ -1,0 +1,30 @@
+{
+    "Name": "NalaSleepInside",
+    "Type": "Walking", 
+    "EnableFarmerCollision": true, 
+
+    "TravelSpeed": 1, 
+    "SpawnDirection": 2, 
+    "SpawnOffsetX": 0, 
+    "SpawnOffsetY": 0, 
+    "MaxIdleDistance": -1, 
+    "MaxDistanceBeforeTeleport": -1, 
+    "InspectionDialogue": "Nala is drooling. Probably she's dreaming of food.", 
+    "Portrait": {
+        "PortraitDisplayName": "Nala",
+        "FrameSizeWidth": 64,
+        "FrameSizeHeight": 64,
+        "FrameIndex": 0 
+                },
+
+    "IdleBehavior": "Nothing", 
+    "FrameSizeWidth": 32, 
+    "FrameSizeHeight": 32, 
+
+    "UniformAnimation": {
+        "StartingFrame": 28,
+        "NumberOfFrames": 2,
+        "Duration": 1600
+                        },
+}
+      

@@ -1,0 +1,20 @@
+{
+  "Changes": [
+    {
+      "LogName": "Companion dialogues for MorrisTod",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MorrisTod",
+      "Entries": {
+        "companionAccepted": "Me? Really? Ok, sure.$0",
+        "companionRejected": "I've already got enough on my plate today.$2",
+        "companionRejectedNight": "If I go who will make sure Claire doesn't nod off during the night shift?$3",
+        "companionDismiss": "Ok. Thanks!$1#$b#Remember, if you need ever anything be sure to stop by Joja Mart!$5",
+        "companionDismissAuto": "Such a busy day!$6#$b#Ahem... Anyway... I have other things to attend to now so I'll be off.$neutral",
+        "companionRecruited": "Don't worry, I brought my handy Joja Corp. Wilderness Guide!$5#$b#Hmm... What's a 'tiger'?$2",
+        "heal": "Here, try some Joja Cola X.$5",
+        "nomedkits": "I don't have anymore free samples.$3",
+        "companion_Town": "I'll never understand why some townsfolk are so against Joja Corp.$2#$b#Our presence has done nothing but help Stardew Valley!$3"
+      }
+    }
+  ]
+}

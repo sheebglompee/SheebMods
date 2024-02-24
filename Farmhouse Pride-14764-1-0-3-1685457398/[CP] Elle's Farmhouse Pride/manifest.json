@@ -1,0 +1,23 @@
+{
+   "Name": "Elle's Farmhouse Pride",
+   "Author": "Elle/Junimods",
+   "Version": "1.0.3",
+   "Description": "A CP overlay that adds a pride flag to your house!",
+   "UniqueID": "Elle.FarmhousePride",
+   "UpdateKeys": [ "Nexus:14764" ],
+   "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+  },
+  
+    
+  "Dependencies": [
+   {
+      "UniqueID": "Elle.SeasonalVanillaBuildings",
+      "IsRequired": false,
+   },
+   {
+      "UniqueID": "Elle.VanillaBuildingRecolor",
+      "IsRequired": false,
+   },
+],
+}

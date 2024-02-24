@@ -1,0 +1,23 @@
+{
+  "Changes": [
+    {
+      "LogName": "Companion dialogues for MarlonFay",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarlonFay",
+      "Entries": {
+        "companionAccepted": "Now this is what the Adventurer's Guild is all about! Haha!$2",
+        "companionRejected": "I'm sorry, but I'm just not up to it.$0#$b#Maybe I really am getting too old for this...$0",
+        "companionRejectedNight": "Don't you know how dangerous it is to go monster hunting at night?$0#$b#Let's wait until tomorrow, ok?$2",
+        "companionDismiss": "It was a pleasure to fight by your side, @.$2#$b#If you ever need help again, the Guild will always be here.$1",
+        "companionDismissAuto": "We should call it a day and head back. Monsters get stronger once the sun goes down.$0#$b#I'll see you back at the Guild, my friend.$2",
+        "companionRecruited": "You have my sword! Lead the way and I shall follow.$1",
+        "companion_Railroad": "The guild has lost a lot of good people over the years...$0#$b#Eventually, I'll rejoin my old friends here.$0",
+        "companion_Forest": "I won't pretend to understand everything Rasmodius does up there in his magical tower, but I'll be forever grateful for his work.$1#$b#Never forget, a guild's wizard or witch is an invaluable ally to have at your side.$0",
+        "companionOnce_Mine": "Don't forget to stock up on some potions before we descend. You can never be too prepared.$1",
+        "companion_Bugland": "Strike fast and hard, @.$0#$b#Corrupted insects may seem weak on their own, but they have a tendancy to attack in swarms.$0",
+        "companion_Saloon": "Do me a favor and keep your wits about you.$0",
+        "companion_Sewers": "I'd advise against bringing anyone else down here, but if you must, please try to keep them from seeing Krobus at all costs.$1#$b#He's been through so much already... we can't have word of his location getting out.$0"
+      }
+    }
+  ]
+}

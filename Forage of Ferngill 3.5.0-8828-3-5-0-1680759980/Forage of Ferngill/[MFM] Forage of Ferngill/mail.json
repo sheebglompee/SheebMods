@@ -1,0 +1,23 @@
+[
+	{
+		"Id": "ForageofFerngillFryingMushrooms",
+		"GroupID": "ForageofFerngill",
+		"Title": "Frying Mushrooms.",
+		"Text": "Dear @^^. As you're enjoying the bounties of nature more, I thought you might like to know one of my favourite meals. Wild Mushroom Platter. You should try it, im sure it would taste better cooked in a well stocked kitchen. Here's the recipe.^^Linus.",
+		"Recipe": "Wild Mushroom Platter",
+		"Repeatable": false,
+		"SkillConditions": [{ "SkillName": "Foraging", "SkillLevel": 5 }],
+		"FriendshipConditions": [{ "NpcName": "Linus", "FriendshipLevel": 4, }],
+	},
+	{
+		"Id": "ForageofFerngillDandelion&Bardic",
+		"GroupID": "ForageofFerngill",
+		"Title": "Dandelion & Bardic.",
+		"Text": "Dear @^^. During Summer you can find Bardic Root growing all around. Its not so nice by itself, but if you mix it with Dandelion you can create a lovely drink. Here's the recipe.^^Linus.",
+		"Recipe": "Dandelion & Bardic",
+		"Repeatable": false,
+		"Seasons": ["fall"],
+		"SkillConditions": [{ "SkillName": "Foraging", "SkillLevel": 4 }],
+		"FriendshipConditions": [{ "NpcName": "Linus", "FriendshipLevel": 3, }],
+	},
+]

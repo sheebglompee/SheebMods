@@ -1,0 +1,46 @@
+{
+    "Name": "Butternut Squash (PH)", 
+    "Product": "Butternut Squash (PH)",
+    "SeedName": "Butternut Squash Seeds (PH)", 
+    "SeedDescription": "Plant these in the fall. Takes 12 days to mature and produces a long squash.", 
+    "Type": "Vegetable", 
+    "CropType": "Normal", 
+    "Seasons": ["fall"], 
+    "Phases": [1, 4, 4, 3], 
+    "RegrowthPhase": -1, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": false, 
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "STF.PlentifulHarvest", 
+    "SeedPurchasePrice": 90, 
+
+    "SeedNameLocalization":
+    {
+        "default": "Butternut Squash Seeds",
+		"es": "Butternut Squash Seeds", 
+        "ko": "Butternut Squash Seeds", 
+        "de": "Butternusskürbis-Saat", 
+        "fr": "Butternut Squash Seeds", 
+        "hu": "Butternut Squash Seeds", 
+        "it": "Butternut Squash Seeds", 
+        "ja": "Butternut Squash Seeds", 
+        "pt": "Butternut Squash Seeds", 
+        "ru": "Семена мускатной тыквы", 
+        "tr": "Butternut Squash Seeds", 
+        "zh": "奶油南瓜种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plant these in the fall. Takes 12 days to mature and produces a long squash.", 
+        "ko": "Plant these in the fall. Takes 12 days to mature and produces a long squash.", 
+        "de": "Pflanze sie im Herbst. Wächst in 12 Tagen heran.", 
+        "fr": "Plant these in the fall. Takes 12 days to mature and produces a long squash.", 
+        "hu": "Plant these in the fall. Takes 12 days to mature and produces a long squash.", 
+        "it": "Plant these in the fall. Takes 12 days to mature and produces a long squash.", 
+        "ja": "Plant these in the fall. Takes 12 days to mature and produces a long squash.", 
+        "pt": "Plant these in the fall. Takes 12 days to mature and produces a long squash.", 
+        "ru": "Сажайте осенью. Через 12 дней вырастает удлиненная тыква, похожая на кабачок.", 
+        "tr": "Plant these in the fall. Takes 12 days to mature and produces a long squash.", 
+        "zh": "秋天种植。 奶油南瓜需要12天才能成熟，长成一个长长的奶油南瓜。", 
+    }
+}

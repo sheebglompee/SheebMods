@@ -1,0 +1,54 @@
+{
+    "Name": "Peanut (PH)",
+    "Description": "Within the textured shell there is a nut so delicious it's widely cultivated and imported everywhere.",
+    "Category": "ArtisanGoods",
+	"ContextTags": 
+        [
+        "season_fall",
+        "ph_nut",
+		"ph_oilable",
+		"color_sand"
+        ],
+    "Edibility": 15,
+    "Price": 50, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Pierre", "Leo", "Robin", "Eliott"],
+        "Like": ["Alex", "Evelyn", "George"],
+        "Neutral": null, 
+        "Dislike": ["Haley", "Penny", "Eliott", "Sandy"], 
+        "Hate": ["Demetrius", "Maru"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Peanut",
+		"es": "Peanut", 
+        "ko": "Peanut", 
+        "de": "Erdnuss", 
+        "fr": "Peanut", 
+        "hu": "Peanut", 
+        "it": "Peanut", 
+        "ja": "Peanut",
+        "pt": "Peanut", 
+        "ru": "Арахис", 
+        "tr": "Peanut",
+        "zh": "花生", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Within the textured shell there is a nut so delicious it's widely cultivated and imported everywhere.", 
+        "ko": "Within the textured shell there is a nut so delicious it's widely cultivated and imported everywhere.", 
+        "de": "In der texturierten Schale ist eine Nuss, die so köstlich ist, dass sie weltweit angebaut und importiert wird.",
+        "fr": "Within the textured shell there is a nut so delicious it's widely cultivated and imported everywhere.", 
+        "hu": "Within the textured shell there is a nut so delicious it's widely cultivated and imported everywhere.",
+        "it": "Within the textured shell there is a nut so delicious it's widely cultivated and imported everywhere.", 
+        "ja": "Within the textured shell there is a nut so delicious it's widely cultivated and imported everywhere.", 
+        "pt": "Within the textured shell there is a nut so delicious it's widely cultivated and imported everywhere.",
+        "ru": "Внутри скорлупы находится орех, настолько вкусный, что его выращивают и продают повсеместно.", 
+        "tr": "Within the textured shell there is a nut so delicious it's widely cultivated and imported everywhere.", 
+        "zh": "在网状纹理的外壳里有一种非常美味的坚果，它被广泛种植和进口到各地。",
+    },
+}

@@ -1,0 +1,47 @@
+{
+	"Format": "1.28.4",
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "aedenthorn.BuffFramework/dictionary",
+			"LogName": "",
+			"Entries": {
+				"aedenthorn.MidnightBuff": {
+					"which": -1,
+					"sheetIndex": -1,
+					"glow": {
+						"R": 255,
+						"G": 255,
+						"B": 0,
+						"A": 255
+					},
+					"speed": "{{Speed}}",
+					"source": "aedenthorn.MidnightBuff",
+					"displaySource": "Midnight Buff",
+					"description": "It's After Midnight!\nSpeed +{{Speed}}",
+					"buffId": 1890175412,
+					"glowRate": 0.05,
+					"sound": "{{Sound}}",
+					"texturePath": "aedenthorn.MidnightBuff/icon"
+				}
+			},
+			"When": {
+				"Time": "{{Range: 2400, 2600}}"
+			},
+			"Update": "OnTimeChange"
+		},
+		{
+			"Action": "Load",
+			"Target": "aedenthorn.MidnightBuff/icon",
+			"FromFile": "assets/icon.png"
+		}
+	],
+	"ConfigSchema": {
+		"Speed": {
+			"Default": "3"
+		},
+		"Sound": {
+			"Default": "cowboy_boss"
+		}
+	}
+}

@@ -1,0 +1,266 @@
+﻿[
+	{
+		//Emerald
+		"ProducerName": "Rock Tumbler",
+		"InputIdentifier": 60,
+		"InputStack": 1,
+		"RequiredInputQuality": [0,1,2],
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 60, 
+				"OutputQuality": 4,
+				"MinutesUntilReady": 720,
+				"RequiredInputQuality": [2]
+			},
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 60,
+				"OutputQuality": 2,
+				"MinutesUntilReady": 360,
+				"RequiredInputQuality": [1]
+			},
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 60,
+				"OutputQuality": 1,
+				"MinutesUntilReady": 360,
+				"RequiredInputQuality": [0]
+			
+			}
+		],
+		"Sounds": [ "bubbles" ], //List of sound to make when an input is placed. Default is an empty list.
+		"DelayedSounds": [ { "bubbles": 50 } ], //List of sounds to make after a delay. Default is an empty list.
+	},
+	{
+		//Aquamarine
+		"ProducerName": "Rock Tumbler",
+		"InputIdentifier": 62,
+		"InputStack": 1,
+		"RequiredInputQuality": [0,1,2],
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 62, 
+				"OutputQuality": 4,
+				"MinutesUntilReady": 720,
+				"RequiredInputQuality": [2]
+			},
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 62,
+				"OutputQuality": 2,
+				"MinutesUntilReady": 360,
+				"RequiredInputQuality": [1]
+			},
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 62,
+				"OutputQuality": 1,
+				"MinutesUntilReady": 360,
+				"RequiredInputQuality": [0]
+			
+			}
+		],
+		"Sounds": [ "bubbles" ], //List of sound to make when an input is placed. Default is an empty list.
+		"DelayedSounds": [ { "bubbles": 50 } ], //List of sounds to make after a delay. Default is an empty list.
+	},
+	{
+		//Ruby
+		"ProducerName": "Rock Tumbler",
+		"InputIdentifier": 64,
+		"InputStack": 1,
+		"RequiredInputQuality": [0,1,2],
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 64, 
+				"OutputQuality": 4,
+				"MinutesUntilReady": 720,
+				"RequiredInputQuality": [2]
+			},
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 64,
+				"OutputQuality": 2,
+				"MinutesUntilReady": 360,
+				"RequiredInputQuality": [1]
+			},
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 64,
+				"OutputQuality": 1,
+				"MinutesUntilReady": 360,
+				"RequiredInputQuality": [0]
+			
+			}
+		],
+		"Sounds": [ "bubbles" ], //List of sound to make when an input is placed. Default is an empty list.
+		"DelayedSounds": [ { "bubbles": 50 } ], //List of sounds to make after a delay. Default is an empty list.
+	},
+	{
+		//Amethyst
+		"ProducerName": "Rock Tumbler",
+		"InputIdentifier": 66,
+		"InputStack": 1,
+		"RequiredInputQuality": [0,1,2],
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 66, 
+				"OutputQuality": 4,
+				"MinutesUntilReady": 720,
+				"RequiredInputQuality": [2]
+			},
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 66,
+				"OutputQuality": 2,
+				"MinutesUntilReady": 360,
+				"RequiredInputQuality": [1]
+			},
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 66,
+				"OutputQuality": 1,
+				"MinutesUntilReady": 360,
+				"RequiredInputQuality": [0]
+			
+			}
+		],
+		"Sounds": [ "bubbles" ], //List of sound to make when an input is placed. Default is an empty list.
+		"DelayedSounds": [ { "bubbles": 50 } ], //List of sounds to make after a delay. Default is an empty list.
+	},
+	{
+		//Topaz
+		"ProducerName": "Rock Tumbler",
+		"InputIdentifier": 68,
+		"InputStack": 1,
+		"RequiredInputQuality": [0,1,2],
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 68, 
+				"OutputQuality": 4,
+				"MinutesUntilReady": 720,
+				"RequiredInputQuality": [2]
+			},
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 68,
+				"OutputQuality": 2,
+				"MinutesUntilReady": 360,
+				"RequiredInputQuality": [1]
+			},
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 68,
+				"OutputQuality": 1,
+				"MinutesUntilReady": 360,
+				"RequiredInputQuality": [0]
+			
+			}
+		],
+		"Sounds": [ "bubbles" ], //List of sound to make when an input is placed. Default is an empty list.
+		"DelayedSounds": [ { "bubbles": 50 } ], //List of sounds to make after a delay. Default is an empty list.
+	},
+	{
+		//Jade
+		"ProducerName": "Rock Tumbler",
+		"InputIdentifier": 70,
+		"InputStack": 1,
+		"RequiredInputQuality": [0,1,2],
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 70, 
+				"OutputQuality": 4,
+				"MinutesUntilReady": 720,
+				"RequiredInputQuality": [2]
+			},
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 70,
+				"OutputQuality": 2,
+				"MinutesUntilReady": 360,
+				"RequiredInputQuality": [1]
+			},
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 70,
+				"OutputQuality": 1,
+				"MinutesUntilReady": 360,
+				"RequiredInputQuality": [0]
+			
+			}
+		],
+		"Sounds": [ "bubbles" ], //List of sound to make when an input is placed. Default is an empty list.
+		"DelayedSounds": [ { "bubbles": 50 } ], //List of sounds to make after a delay. Default is an empty list.
+	},
+	{
+		//Diamond
+		"ProducerName": "Rock Tumbler",
+		"InputIdentifier": 72,
+		"InputStack": 1,
+		"RequiredInputQuality": [0,1,2],
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 72, 
+				"OutputQuality": 4,
+				"MinutesUntilReady": 720,
+				"RequiredInputQuality": [2]
+			},
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 72,
+				"OutputQuality": 2,
+				"MinutesUntilReady": 360,
+				"RequiredInputQuality": [1]
+			},
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 72,
+				"OutputQuality": 1,
+				"MinutesUntilReady": 360,
+				"RequiredInputQuality": [0]
+			
+			}
+		],
+		"Sounds": [ "bubbles" ], //List of sound to make when an input is placed. Default is an empty list.
+		"DelayedSounds": [ { "bubbles": 50 } ], //List of sounds to make after a delay. Default is an empty list.
+	},
+	{
+		//Prismatic Shard
+		"ProducerName": "Rock Tumbler",
+		"InputIdentifier": 74,
+		"InputStack": 1,
+		"RequiredInputQuality": [0,1,2],
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 74, 
+				"OutputQuality": 4,
+				"MinutesUntilReady": 720,
+				"RequiredInputQuality": [2]
+			},
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 74,
+				"OutputQuality": 2,
+				"MinutesUntilReady": 360,
+				"RequiredInputQuality": [1]
+			},
+			{
+				"OutputProbability": 1,
+				"OutputIdentifier": 74,
+				"OutputQuality": 1,
+				"MinutesUntilReady": 360,
+				"RequiredInputQuality": [0]
+			
+			}
+		],
+		"Sounds": [ "bubbles" ], //List of sound to make when an input is placed. Default is an empty list.
+		"DelayedSounds": [ { "bubbles": 50 } ], //List of sounds to make after a delay. Default is an empty list.
+	}
+]	

@@ -1,0 +1,62 @@
+{
+  "Changes": [
+    {
+      "LogName": "Custom Gift Dialogue Main",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Juna",
+      "Entries": {
+        //Loved
+        "GiftReaction_Joja_Cola": "{{i18n: gift.reaction.cola.0}}",
+        "GiftReaction_Joja_Cola~1": "{{i18n: gift.reaction.cola.1}}",
+        "GiftReaction_Joja_Cola~2": "{{i18n: gift.reaction.cola.2}}",
+        "GiftReaction_Ancient_Doll": "{{i18n: gift.reaction.ancientdoll}}",
+        "GiftReaction_Elvish_Jewelry": "{{i18n: gift.reaction.elvishjewelry}}",
+        "GiftReaction_Dinosaur_Egg": "{{i18n: gift.reaction.dinosauregg}}",
+        "GiftReaction_Strange_Doll": "{{i18n: gift.reaction.strangedoll}}",
+        "GiftReaction_Hashbrowns": "{{i18n: gift.reaction.hashbrowns}}",
+        "GiftReaction_Pancakes": "{{i18n: gift.reaction.pancakes}}",
+        "GiftReaction_Pink_Cake": "{{i18n: gift.reaction.pinkcake}}",
+        "GiftReaction_Ghost_Crystal": "{{i18n: gift.reaction.ghost.crystal}}",
+        "GiftReaction_Prehistoric_Scapula": "{{i18n: gift.reaction.prehistoric}}",
+        "GiftReaction_Cherry": "{{i18n: gift.reaction.cherry}}",
+        "GiftReaction_Poppy": "{{i18n: gift.reaction.poppy}}",
+        "GiftReactionTag_jelly_item": "{{i18n: gift.reaction.tag.jelly}}",
+        "GiftReaction_An_autographed_photo": "{{i18n: gift.reaction.RodneyAutograph}}",
+        //Liked
+        "GiftReaction_Broken_CD": "{{i18n: gift.reaction.brokencd}}",
+        "GiftReaction_Piña_Colada": "{{i18n: gift.reaction.pinacolada}}",
+        //Hated
+        "GiftReaction_Super_Cucumber": "{{i18n: gift.reaction.scucumber}}",
+        "GiftReaction_Purple_Mushroom": "{{i18n: gift.reaction.purplemushroom}}",
+        "GiftReaction_Solar_Essence": "{{i18n: gift.reaction.solaressence}}",
+        "GiftReaction_Void_Essence": "{{i18n: gift.reaction.voidessence}}",
+        //Disliked
+        "GiftReactionCategory_-4": "{{i18n: gift.reaction.category.fish}}"
+      }
+    },
+
+    {
+        "LogName": "CGD Joja Cola",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Juna",
+        "Entries": {
+            "GiftReaction_Joja_Cola~3": "{{i18n: gift.reaction.cola.3}}"
+        },
+        "When": {
+            "HasSeenEvent |contains=86060100": "false"
+        }
+    },
+
+    {
+        "LogName": "CGD Potato",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Juna",
+        "Entries": {
+            "GiftReaction_Potato": "{{i18n: gift.reaction.potato}}"
+        },
+        "When": {
+            "HasSeenEvent": "86060002"
+        }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+    "Name": "Luck-Puff",
+    "Description": "Some people say that if you keep a Luck-Puff in your shirt pocket it'll bring you luck.",
+    "Category": "Flower",
+    "Edibility": 0,
+    "Price": 35,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Luck-Puff",
+    "ContextTags": [
+    "season_summer",
+    "color_pink",
+    "flower_item",
+  ],
+}

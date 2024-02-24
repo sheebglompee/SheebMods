@@ -1,0 +1,52 @@
+{
+    "Name": "Pear (PH)",
+    "Description": "A crisp fall fruit. The wood of the pear tree is the main wood used in woodwind instruments.",
+    "Category": "Fruit",
+	"ContextTags": 
+        [
+        "season_fall",
+		"color_green"
+        ],
+    "Edibility": 12,
+    "Price": 125, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Eliott", "Penny", "Sam"],
+        "Like": ["Leah", "Marnie", "Gus", "Lewis", "Emily", "Linus", "Abigail", "Harvey", "Evelyn", "Jas", "Vincent", "Demetrius"],
+        "Neutral": null, 
+        "Dislike": ["Dwarf", "Wizard"], 
+        "Hate": ["Sebastian"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Pear",
+		"es": "", 
+        "ko": "", 
+        "de": "Birne", 
+        "fr": "", 
+        "hu": "", 
+        "it": "", 
+        "ja": "",
+        "pt": "", 
+        "ru": "Груша", 
+        "tr": "",
+        "zh": "梨子", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "A crisp fall fruit. The wood of the pear tree is the main wood used in woodwind instruments.", 
+        "ko": "A crisp fall fruit. The wood of the pear tree is the main wood used in woodwind instruments.", 
+        "de": "Eine knackige Herbstfrucht. Das Holz des Birnenbaums ist das Hauptholz, das für Holzblasinstrumente verwendet wird.",
+        "fr": "A crisp fall fruit. The wood of the pear tree is the main wood used in woodwind instruments.", 
+        "hu": "A crisp fall fruit. The wood of the pear tree is the main wood used in woodwind instruments.",
+        "it": "A crisp fall fruit. The wood of the pear tree is the main wood used in woodwind instruments.", 
+        "ja": "A crisp fall fruit. The wood of the pear tree is the main wood used in woodwind instruments.", 
+        "pt": "A crisp fall fruit. The wood of the pear tree is the main wood used in woodwind instruments.",
+        "ru": "Сочный осенний фрукт. Древесина грушевого дерева является ключевой в создании деревянных духовых инструментов.", 
+        "tr": "A crisp fall fruit. The wood of the pear tree is the main wood used in woodwind instruments.", 
+        "zh": "清脆的秋果。梨树木是木管乐器的主要木材。",
+    },
+}

@@ -1,0 +1,36 @@
+{
+  "Format": "2.0",
+  "Name": "Susan",
+  "Skills": [
+    { "Name": "doctor" }
+  ],
+  "Rules": {
+    "!f Susan 1250": "reject",
+    "t 600 2200": "accept"
+  },
+  "Buffs": {
+    "Farming": 2,
+    "Foraging": 2
+  },
+  "BuffsDescription": "[susan.buffs]",
+  "IdleBehaviors": [
+    {
+      "Behavior": "Animate",
+      "Animations": [
+        "susan_read",
+        "susan_sigh" 
+      ],
+      "Tendency": 5,
+      "MinDuration": 10,
+      "MaxDuration": 30
+    },
+    {
+      "Behavior": "Lookaround",
+      "FaceMinSeconds": 2,
+      "FaceMaxSeconds": 7,
+      "Tendency": 2,
+      "MinDuration": 10,
+      "MaxDuration": 30
+    }
+  ]
+}

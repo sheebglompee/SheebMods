@@ -1,0 +1,90 @@
+{
+    "Name": "Lentil Bun (PH)", 
+    "Description": "Filling and portable! It fits nicely in your hand.", 
+    "Category": "Cooking", 
+	"ContextTags": 
+        [
+		"color_sand"
+        ],
+    "Edibility": 60, 
+    "EdibleIsDrink": false, 
+    "EdibleBuffs":{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 2,
+        "Attack": 0,
+        "Duration": 180,
+    },
+    "Price": 220, 
+    "IsColored": false,
+
+    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, 
+        "Ingredients": [
+        {
+            "Object": "Lentils (PH)", 
+            "Count": 1,
+        },
+		{
+            "Object": 246, 
+            "Count": 1,
+        },
+		{
+            "Object": 156,
+            "Count": 1,
+        },
+        {
+            "Object": -5,
+            "Count": 1,
+        },
+      ],
+	  },
+	"GiftTastes": 
+    {
+        "Love": ["Clint"],
+        "Like": null,
+        "Neutral": null, 
+        "Dislike": ["Krobus"], 
+        "Hate": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "default": "Lentil Bun",
+		"es": "Lentil Bun", //Spansih
+        "ko": "Lentil Bun", //Korean
+        "de": "Linsenbrötchen", //German
+        "fr": "Lentil Bun", //French
+        "hu": "Lentil Bun", //Hungarian
+        "it": "Lentil Bun", //Italian
+        "ja": "Lentil Bun", //Japanese
+        "pt": "Lentil Bun", //Portuguese
+        "ru": "Булочка с чечевицей", //Russian
+        "tr": "Lentil Bun", //Turkish
+        "zh": "扁豆面包", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Filling and portable! It fits nicely in your hand.", //Spansih
+        "ko": "Filling and portable! It fits nicely in your hand.", //Korean
+        "de": "Nahrhaft und tragbar. Es passt perfekt in deine Hände.", //German
+        "fr": "Filling and portable! It fits nicely in your hand.", //French
+        "hu": "Filling and portable! It fits nicely in your hand.", //Hungarian
+        "it": "Filling and portable! It fits nicely in your hand.", //Italian
+        "ja": "Filling and portable! It fits nicely in your hand.", //Japanese
+        "pt": "Filling and portable! It fits nicely in your hand.", //Portuguese
+        "ru": "Питательная и удобная! Прекрасно помещается в руке.", //Russian
+        "tr": "Filling and portable! It fits nicely in your hand.", //Turkish
+        "zh": "又营养又便携！手拿吃很方便。", //Chinese (Simplified)
+    },
+	
+}

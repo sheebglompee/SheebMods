@@ -1,0 +1,53 @@
+{
+    "Name": "Chestnut (PH)",
+    "Description": "The spiny shells hide a delicious nut on the inside. Careful when peeling!",
+    "Category": "ArtisanGoods",
+	"ContextTags": 
+        [
+        "season_fall",
+        "ph_nut",
+		"color_green"
+        ],
+    "Edibility": 20,
+    "Price": 100, 
+    "IsColored": false,
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Leah", "Linus", "Sebastian"],
+        "Like": ["Alex", "Evelyn", "George", "Robin"],
+        "Neutral": null, 
+        "Dislike": ["Haley", "Penny", "Eliott", "Sandy"], 
+        "Hate": ["Demetrius", "Maru"]
+    },
+
+    "NameLocalization":
+    {
+        "default": "Chestnut",
+		"es": "Chestnut", 
+        "ko": "Chestnut", 
+        "de": "Kastanie", 
+        "fr": "Chestnut", 
+        "hu": "Chestnut", 
+        "it": "Chestnut", 
+        "ja": "Chestnut",
+        "pt": "Chestnut", 
+        "ru": "Каштан", 
+        "tr": "Chestnut",
+        "zh": "栗子", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "The spiny shells hide a delicious nut on the inside. Careful when peeling!", 
+        "ko": "The spiny shells hide a delicious nut on the inside. Careful when peeling!", 
+        "de": "Die stacheligen Schalen verstecken im Inneren eine köstliche Nuss. Vorsicht beim Schälen!",
+        "fr": "The spiny shells hide a delicious nut on the inside. Careful when peeling!", 
+        "hu": "The spiny shells hide a delicious nut on the inside. Careful when peeling!",
+        "it": "The spiny shells hide a delicious nut on the inside. Careful when peeling!", 
+        "ja": "The spiny shells hide a delicious nut on the inside. Careful when peeling!", 
+        "pt": "The spiny shells hide a delicious nut on the inside. Careful when peeling!",
+        "ru": "Под колючей скорлупой скрывается вкусный орех. Будьте осторожны при очистке!", 
+        "tr": "The spiny shells hide a delicious nut on the inside. Careful when peeling!", 
+        "zh": "多刺的外壳里面藏着一颗美味的坚果。剥皮时要小心！",
+    },
+}

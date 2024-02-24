@@ -1,0 +1,62 @@
+{
+	"CraftingStations": [
+		{
+			"BigCraftable": "Doll Crafting Station",
+			"ExclusiveRecipes": true,
+			"CraftingRecipes": [
+				//^Vanilla Candidates
+
+				"Abigail Doll",
+				"Alex Doll",
+				"Elliot Doll",
+				"Emily Doll",
+				"Haley Doll",
+				"Harvey Doll",
+				"Leah Doll",
+				"Maru Doll",
+				"Penny Doll",
+				"Sam Doll",
+				"Sebastian Doll",
+				"Shane Doll",
+				//^Vanilla Flowers
+
+				"Crocus Doll",
+				"Dandelion Doll",
+				"Daffodil Doll",
+				"Sweet Pea Doll",
+				"Blue Jazz Doll",
+				"Fairy Rose Doll",
+				"Poppy Doll",
+				"Summer Spangle Doll",
+				"Sunflower Doll",
+				"Tulip Doll",
+				//^RSV Candidates
+
+				"Alissa Doll",
+				"Corine Doll",
+				"Daia Doll",
+				"Flor Doll",
+				"Ian Doll",
+				"Jeric Doll",
+				"Jio Doll",
+				"Kenneth Doll",
+				"Maddie Doll",
+				"Philip Doll",
+				"Shiro Doll",
+				"Ysabelle Doll",
+
+				//^RSV Flowers
+				"Prince Amancay Doll",
+				"Prince Azorean Doll",
+				"Prince Butterwort Doll",
+				"Prince Devil Doll",
+				"Prince Hokkaido Doll",
+				"Prince Iris Doll",
+				"Prince Lava Lily Doll",
+				"Prince Monkshood Doll",
+				"Prince Snowbell Doll",
+				"Prince Wintergreen Doll"
+			]
+		}
+	]
+}

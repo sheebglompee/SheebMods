@@ -1,0 +1,40 @@
+{
+    "Name": "Pistachio (PH)", 
+    "Product": "Pistachio (PH)",
+    "SaplingName": "Pistachio Sapling (PH)", 
+    "SaplingDescription": "Takes 28 days to produce a mature Pistachio tree. Bears nuts in winter. Only grows if the 8 surrounding \"tiles\" are empty.",
+    "Season": "winter",
+    "SaplingPurchasePrice": 4000, 
+    "SaplingPurchaseFrom": "STF.PlentifulHarvest",
+    "SaplingPurchaseRequirements": null, 
+
+    "SaplingNameLocalization":
+    {
+        "default": "Pistachio Sapling",
+		"es": "Pistachio Sapling", 
+        "ko": "Pistachio Sapling", 
+        "de": "Pistazien-Setzling", 
+        "fr": "Pistachio Sapling", 
+        "hu": "Pistachio Sapling", 
+        "it": "Pistachio Sapling", 
+        "ja": "Pistachio Sapling", 
+        "pt": "Pistachio Sapling", 
+        "ru": "Саженец фисташкового дерева", 
+        "tr": "Pistachio Sapling", 
+        "zh": "开心果树苗", 
+    },
+    "SaplingDescriptionLocalization":
+    {
+        "es": "Takes 28 days to produce a mature Pistachio tree. Bears nuts in winter. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "ko": "Takes 28 days to produce a mature Pistachio tree. Bears nuts in winter. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "de": "Wächst in 28 Tagen zu einem reifen Pistazienbaum heran. Trägt im Winter Nüsse. Wächst nur, wenn die 8 umliegenden \"Felder\" leer sind.", 
+        "fr": "Takes 28 days to produce a mature Pistachio tree. Bears nuts in winter. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "hu": "Takes 28 days to produce a mature Pistachio tree. Bears nuts in winter. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "it": "Takes 28 days to produce a mature Pistachio tree. Bears nuts in winter. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "ja": "Takes 28 days to produce a mature Pistachio tree. Bears nuts in winter. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "pt": "Takes 28 days to produce a mature Pistachio tree. Bears nuts in winter. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "ru": "Становится взрослым фисташковым деревом через 28 дней. Плодоносит зимой. Растет только если 8 «клеток» вокруг него не заняты.", 
+        "tr": "Takes 28 days to produce a mature Pistachio tree. Bears nuts in winter. Only grows if the 8 surrounding \"tiles\" are empty.", 
+        "zh": "28天成熟为成年开心果树。冬天结果。只有在附近8块“地块”都空置的情况下才会成长。", 
+    }
+}

@@ -1,0 +1,62 @@
+{
+	"Name": "Elliot Doll",
+	"Description": "Handcrafted doll made from repurposed materials and forage. Looks like Elliot.",
+	"Category": "Crafting",
+	"CategoryTextOverride": "Doll",
+	"Edibility": -300,
+	"Price": 300,
+	"IsColored": false,
+	"Recipe": {
+		"ResultCount": 1,
+		"Ingredients": [
+			{
+				"Object": 408, //Hazelnut
+				"Count": 1
+			},
+			{
+				"Object": 168, //Trash
+				"Count": 1
+			},
+			{
+				"Object": "Base Doll",
+				"Count": 1
+			}
+		],
+		"IsDefault": true
+	},
+	"GiftTastes": {
+		"Love": ["Elliott", "Leah"],
+		"Like": [
+			"Emily",
+			"Jas",
+			"Penny",
+			"Sam",
+			"Maddie",
+			"Yuuma",
+			"Daia",
+			"Philip"
+		],
+		"Neutral": [
+			"Abigail",
+			"Alex",
+			"Haley",
+			"Harvey",
+			"Maru",
+			"Shane",
+			"Sebastian",
+			"Vincent",
+			"Willy",
+			"Trinnie",
+			"Keahi",
+			"Jeric",
+			"Flor"
+		]
+	},
+	"NameLocalization": {
+		"ko": "엘리엇 인형"
+	},
+	"DescriptionLocalization": {
+		"ko": "재활용품과 채집물로 만든 수공예 인형. 엘리엇을 닮았습니다."
+	},
+	"CanPurchase": false
+}

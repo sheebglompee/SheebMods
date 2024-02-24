@@ -1,0 +1,12 @@
+﻿{
+	"Name": "Rock Tumbler",
+	"Author": "oddGo",
+	"Version": "1.0.2",
+	"Description": "Adds the JSON assets for the rock tumbler.",
+	"UniqueID": "oddGo.JSONRockTumbler",
+	"MinimumApiVersion": "3.13.0",
+	"UpdateKeys": [ "Nexus:16522" ],
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets"
+	}
+}

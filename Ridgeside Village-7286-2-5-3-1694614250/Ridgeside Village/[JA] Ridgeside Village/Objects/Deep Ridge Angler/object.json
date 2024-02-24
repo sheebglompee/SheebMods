@@ -1,0 +1,14 @@
+{
+	"Name": "Deep Ridge Angler",
+	"TranslationKey": "objects.deep-ridge-angler",
+	"Category": "Fish",
+	"Edibility": 10,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 2500,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Willy"],
+	},
+}

@@ -1,0 +1,35 @@
+{
+  "Name": "[NPC] Nul Envoide- New NPC for Witch's Hut",
+  "Author": "Tortart",
+  "Description": "Adds new NPC that lives in the Witch's Hut",
+  "Version": "1.8.2",
+  "UniqueID": "tortart.nulenvoide",
+  "UpdateKeys": [
+    "Nexus: 17592"
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "SuperAardvark.AntiSocial",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Esca.CustomNPCExclusions",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Rafseazz.RidgesideVillage",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "LemurKat.EastScarpe.CP",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": false
+    },
+]
+}

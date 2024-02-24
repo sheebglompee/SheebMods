@@ -1,0 +1,18 @@
+﻿{
+    "Name": "Ruff-Puff Mushroom",
+    "Description": "These puffed up mushrooms can float on water due to their inhenent bouyancy.",
+    "Category": "Greens",
+    "CategoryTextOverride": "Mushroom",
+    "Edibility": 20,
+    "Price": 50,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Ruff-Puff-Mushroom",
+    "ContextTags": [
+    "color_brown",
+    "forage_item",
+    "mushroom_item",
+    "forage_item_mines",
+  ],
+}

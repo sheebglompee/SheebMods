@@ -1,0 +1,172 @@
+{
+	"Changes":[
+		{
+			"LogName": "Abigail - Solstice, Best Friends",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries":{
+				"Event.cs.1801": "{{i18n:UWS.Abigail.Solstice.Friends.Gifting}}",
+			},
+			"When": {
+				"relationship:Abigail": "dating",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Abigail": "SexWithoutRomance, FullyPlatonic",
+				"Abigail": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Sebastian - Solstice, Best Friends",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries":{
+				"Event.cs.1801": "{{i18n:UWS.Sebastian.Solstice.Friends.Gifting}}",
+			},
+			"When": {
+				"relationship:Sebastian": "dating",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Sebastian": "SexWithoutRomance, FullyPlatonic",
+				"Sebastian": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Alex - Solstice, Best Friends",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries":{
+				"Event.cs.1801": "{{i18n:UWS.Alex.Solstice.Friends.Gifting}}",
+			},
+			"When": {
+				"relationship:Alex": "dating",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Sebastian": "SexWithoutRomance, FullyPlatonic",
+				"Alex": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Haley - Solstice, Best Friends",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries":{
+				"Event.cs.1801": "{{i18n:UWS.Haley.Solstice.Friends.Gifting}}",
+			},
+			"When": {
+				"relationship:Haley": "dating",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Haley": "SexWithoutRomance, FullyPlatonic",
+				"Haley": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Shane - Solstice, Best Friends",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries":{
+				"Event.cs.1801": "{{i18n:UWS.Shane.Solstice.Friends.Gifting}}",
+			},
+			"When": {
+				"relationship:Shane": "dating",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Shane": "SexWithoutRomance, FullyPlatonic",
+				"Shane": "normal",
+			},
+		},
+		{
+			"LogName": "Emily - Solstice, Best Friends",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries":{
+				"Event.cs.1801": "{{i18n:UWS.Emily.Solstice.Friends.Gifting}}",
+			},
+			"When": {
+				"relationship:Emily": "dating",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Emily": "SexWithoutRomance, FullyPlatonic",
+				"Emily": "normal",
+			},
+		},
+		{
+			"LogName": "Leah - Solstice, Best Friends",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries":{
+				"Event.cs.1801": "{{i18n:UWS.Leah.Solstice.Friends.Gifting}}",
+			},
+			"When": {
+				"relationship:Leah": "dating",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Leah": "SexWithoutRomance, FullyPlatonic",
+				"Leah": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Elliott - Solstice, Best Friends",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries":{
+				"Event.cs.1801": "{{i18n:UWS.Elliott.Solstice.Friends.Gifting}}",
+			},
+			"When": {
+				"relationship:Elliott": "dating",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Elliott": "SexWithoutRomance, FullyPlatonic",
+				"Elliott": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Penny - Solstice, Best Friends",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries":{
+				"Event.cs.1801": "{{i18n:UWS.Penny.Solstice.Friends.Gifting}}",
+			},
+			"When": {
+				"relationship:Penny": "dating",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Penny": "SexWithoutRomance, FullyPlatonic",
+				"Penny": "normal",
+			},
+		},
+		{
+			"LogName": "Sam - Solstice, Best Friends",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries":{
+				"Event.cs.1801": "{{i18n:UWS.Sam.Solstice.Friends.Gifting}}",
+			},
+			"When": {
+				"relationship:Sam": "dating",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Sam": "SexWithoutRomance, FullyPlatonic",
+				"Sam": "normal",
+			},
+		},
+		{
+			"LogName": "Harvey - Solstice, Best Friends",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries":{
+				"Event.cs.1801": "{{i18n:UWS.Harvey.Solstice.Friends.Gifting}}",
+			},
+			"When": {
+				"relationship:Harvey": "dating",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Harvey": "SexWithoutRomance, FullyPlatonic",
+				"Harvey": "normal, spicy",
+			},
+		},
+		{
+			"LogName": "Maru - Solstice, Best Friends",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries":{
+				"Event.cs.1801": "{{i18n:UWS.Maru.Solstice.Friends.Gifting}}",
+			},
+			"When": {
+				"relationship:Maru": "dating",
+				"HasMod": "Amaranthacyan.PPAFSMAPI",
+				"Amaranthacyan.PPAFSMAPI/Maru": "SexWithoutRomance, FullyPlatonic",
+				"Maru": "normal, spicy",
+			},
+		},
+	],
+}

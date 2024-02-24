@@ -1,0 +1,462 @@
+{
+	"Changes": [
+	//0-1 Hearts
+		{
+			"LogName": "CGD Gift Dialogue 0-1",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+			//Love
+				//Booze
+				"GiftReaction_Beer": "Oh, that's... really decent of you. Thanks.",
+				"GiftReaction_Beer~1": "Look, this is some really good beer, but that doesn't mean we're all buddy-buddy now.#$b#Thanks, though.$3",
+				//Food
+				"GiftReaction_Hot_Pepper": "How did you..?#$b#Uh. Thanks.$3",
+				"GiftReaction_Pizza": "How did you..?#$b#Uh. Thanks.$3",
+				"GiftReaction_Pepper_Poppers": "How did you..?#$b#Uh. Thanks.$3",
+				//Universal Loves
+				"GiftReaction_Prismatic_Shard": "Oh... this looks really valuable...#$b#Um. Thanks.$3",
+				"GiftReaction_Pearl": "Oh... this looks really valuable...#$b#Um. Thanks.$3",
+				"GiftReaction_Golden_Pumpkin": "Oh... this looks really valuable...#$b#Um. Thanks.$3",
+				"GiftReaction_Magic_Rock_Candy": "Oh... this looks really valuable...#$b#Um. Thanks.$3",
+				"GiftReaction_Rabbit's_Foot": "Heh. I do look like I need some luck, don't I?#$b#...Thanks.$3",
+			//Like
+				//Eggs
+				"GiftReactionCategory_-5": "Oh... from your hens?#$b#Thanks...",
+				// Booze
+				"GiftReaction_Pale_Ale": "Uh... thanks. This looks fancy.",
+				"GiftReaction_Mead": "Uh... thanks. This looks fancy.",
+				"GiftReaction_Wine": "Uh... thanks. This looks fancy.",
+				"GiftReaction_Piña_Colada": "Uh... thanks. This looks... fruity.",
+			//Dislike
+				"GiftReaction_Void_Egg": "Ugh... where did you even get this fucked-up egg?$a",
+			//Hate
+				"GiftReaction_Preserved_Pickle": "Thanks, I hate pickles.$a",
+				"GiftReaction_Void_Mayonnaise": "Is this supposed to be mayonnaise? Why does it look...#$b#Ugh, just quit giving me your garbage.$a",
+				"GiftReaction_Poppy": "Ugh. Why?$s",
+			},
+			"When": {
+				"Hearts:Shane": "0, 1",
+				"Relationship:Shane |contains=Married": false,
+			},
+		},
+	//2-3 Hearts
+		{
+			"LogName": "CGD Gift Dialogue 2-3",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+			//Love
+				//Booze
+				"GiftReaction_Beer": "I'm not sure why you're wasting your beer on me, but thanks.",
+				"GiftReaction_Beer~1": "You sure you wanna give this to *me*?#$b#Fine, but no take-backs. Thanks.$6",
+				//Food
+				"GiftReaction_Hot_Pepper": "...I actually really love these, so. Thanks.$6",
+				"GiftReaction_Pizza": "I gotta admit, this smells really good.$3#$b#Thanks.$6",
+				"GiftReaction_Pepper_Poppers": "I gotta admit, these smell really good.$3#$b#Thanks.$6",
+				//Universal Loves
+				"GiftReaction_Prismatic_Shard": "Oh... this looks really valuable...#$b#Um. Thanks?",
+				"GiftReaction_Pearl": "Oh... this looks really valuable...#$b#Um. Thanks?",
+				"GiftReaction_Golden_Pumpkin": "Oh... this looks really valuable...#$b#Um. Thanks?",
+				"GiftReaction_Magic_Rock_Candy": "Oh... this looks really valuable...#$b#Um. Thanks?",
+				"GiftReaction_Rabbit's_Foot": "Heh. I do look like I need some luck, don't I?#$b#...Thanks.",
+			//Like
+				//Eggs
+				"GiftReactionCategory_-5": "Oh... is this from your hens?#$b#Thanks.$6",
+				// Booze
+				"GiftReaction_Pale_Ale": "Huh, this is fancier than my usual, but thanks.",
+				"GiftReaction_Mead": "Huh, this is fancier than my usual, but thanks.",
+				"GiftReaction_Wine": "Huh, this is fancier than my usual, but thanks.",
+				"GiftReaction_Piña_Colada": "Huh, this is... fruitier than my usual, but thanks.",
+			//Dislike
+				"GiftReaction_Void_Egg": "Ugh... where did you even get this fucked-up egg?$a",
+			//Hate
+				"GiftReaction_Preserved_Pickle": "Thanks, I hate pickles.$a",
+				"GiftReaction_Void_Mayonnaise": "Is this supposed to be mayonnaise? Why does it look...#$b#Ugh, why are you giving me your garbage?$a",
+				"GiftReaction_Poppy": "Ugh. Why?$s",
+			},
+			"When": {
+				"Hearts:Shane": "2, 3",
+				"Relationship:Shane |contains=Married": false,
+			},
+		},
+	//4-5 Hearts
+		{
+			"LogName": "CGD Gift Dialogue 4-5",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+			//Love
+				//Booze
+				"GiftReaction_Beer": "Oh, thank fuck. I seriously needed a drink.#$b#Thanks, @.$6",
+				"GiftReaction_Beer~1": "Well, who am I to say no to a good pint? Thanks, @.$6",
+				//Food
+				"GiftReaction_Hot_Pepper": "Hey, this looks real spicy. Thanks, @.$6",
+				"GiftReaction_Pizza": "Aw man, the cheese on this thing looks super gooey... Thanks, @.$6",
+				"GiftReaction_Pepper_Poppers": "Aw man, the cheese in these looks super gooey... Thanks, @.$6",
+				//Universal Loves
+				"GiftReaction_Prismatic_Shard": "Do you always just hand out super expensive gems or something? Thanks, @.$6",
+				"GiftReaction_Pearl": "Do you always just hand out super expensive stuff or something? Thanks, @.$6",
+				"GiftReaction_Golden_Pumpkin": "Huh... so this is what you get from finishing the hedge maze?#$b#Thanks.$6",
+				"GiftReaction_Magic_Rock_Candy": "This is just way too fancy to be real candy. Do rich people seriously eat this?#$b#I mean, I appreciate it. Thanks, @.$6",
+				"GiftReaction_Rabbit's_Foot": "Heh. I do look like I need some luck, don't I?#$b#Thanks, @.$6",
+			//Like
+				//Eggs
+				"GiftReactionCategory_-5": "Oh hey, is this from your hens? Thanks, @.$6",
+				// Booze
+				"GiftReaction_Pale_Ale": "Huh, this is fancier than my usual, but I'm not one to say no to free booze.#$b#Thanks, @.",
+				"GiftReaction_Mead": "Huh, this is fancier than my usual, but I'm not one to say no to free booze.#$b#Thanks, @.",
+				"GiftReaction_Wine": "Huh, this is fancier than my usual, but I'm not one to say no to free booze.#$b#Thanks, @.",
+				"GiftReaction_Piña_Colada": "Huh, this is fruitier than my usual, but I'm not one to say no to free booze.#$b#Thanks, @.",
+			//Dislike
+				"GiftReaction_Void_Egg": "Ugh... where did you even get this fucked-up egg?$a",
+			//Hate
+				"GiftReaction_Preserved_Pickle": "Not gonna lie, @, I kinda hate pickles.",
+				"GiftReaction_Void_Mayonnaise": "Is this supposed to be mayonnaise? Why does it look...#$b#Ugh, why are you giving me your garbage?$a",
+				"GiftReaction_Poppy": "Ugh. Why?$s",
+			},
+			"When": {
+				"Hearts:Shane": "4, 5",
+				"Relationship:Shane |contains=Married": false,
+			},
+		},
+	//6 Hearts
+		{
+			"LogName": "CGD Gift Dialogue 6",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+			//Love
+				//Food
+				"GiftReaction_Hot_Pepper": "Hey, thanks! This'll be perfect to chop up onto some pizza.$6",
+				"GiftReaction_Hot_Pepper~1": "Thanks, @. This looks real fresh.",
+				"GiftReaction_Pizza": "Hey, looks like I won't have to worry about dinner anymore. Thanks, @.$6",
+				"GiftReaction_Pepper_Poppers": "Hey, looks like I won't have to worry about dinner anymore. Thanks, @.$6",
+				//Universal Loves
+				"GiftReaction_Prismatic_Shard": "So is this a hobby of your or something? Giving away ridiculously expensive gems?$6#$b#Thanks, @.$6",
+				"GiftReaction_Pearl": "Do you always just hand out super expensive stuff or something? Thanks, @.$6",
+				"GiftReaction_Golden_Pumpkin": "Huh... so this is what you get from finishing the hedge maze?#$b#Thanks.$6",
+				"GiftReaction_Magic_Rock_Candy": "This is just way too fancy to be real candy. Do rich people seriously eat this?#$b#I mean, I appreciate it. Thanks, @.$6",
+				"GiftReaction_Rabbit's_Foot": "I don't believe in woo-woo stuff like luck, but... can't hurt to have some, I guess.#$b#Thanks, @.$6",
+			//Like
+				//Eggs
+				"GiftReactionCategory_-5": "Oh hey, is this from your hens? Thanks, @.$6",
+			//Dislike
+				"GiftReaction_Void_Egg": "Ugh... where did you even get this fucked-up egg?$a",
+			//Hate
+				"GiftReaction_Preserved_Pickle": "Not gonna lie, @, I kinda hate pickles.",
+				"GiftReaction_Void_Mayonnaise": "Is this supposed to be mayonnaise? Why does it look...#$b#Ugh, why are you giving me your garbage?$a",
+				"GiftReaction_Poppy": "Ugh. Why?$s",
+			},
+			"When": {
+				"Hearts:Shane": "6",
+				"Relationship:Shane |contains=Married": false,
+			},
+		},
+		{
+			"LogName": "CGD Gift Dialogue 6 Pre-recovery",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+			//Love
+				//Booze
+				"GiftReaction_Beer": "Thanks, @. I really needed this.$6",
+				"GiftReaction_Beer~1": "Ah, I probably shouldn't... but I'd hate to waste some good beer. Thanks, @.",
+			//Like
+				// Booze
+				"GiftReaction_Pale_Ale": "Huh, this is fancier than my usual, but I'm not one to say no to free booze.#$b#Thanks, @.",
+				"GiftReaction_Mead": "Huh, this is fancier than my usual, but I'm not one to say no to free booze.#$b#Thanks, @.",
+				"GiftReaction_Wine": "Huh, this is fancier than my usual, but I'm not one to say no to free booze.#$b#Thanks, @.",
+				"GiftReaction_Piña_Colada": "Huh, this is fruitier than my usual, but I'm not one to say no to free booze.#$b#Thanks, @.",
+			},
+			"When": {
+				"Hearts:Shane": "6",
+				"HasSeenEvent |contains=2118991": false,
+				"Relationship:Shane |contains=Married": false,
+			},
+		},
+		{
+			"LogName": "CGD Gift Tastes 6 Recovery",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"Shane": "Hey, this is my favorite! Thanks, @./206 215 260/This is neat. Thanks, @./203 -5 -79 113 167/Uh... no thanks./-81 152 330/What is wrong with you?/80 342 346 348 303 459 873/Oh, you got me something? Thanks.// ",
+			},
+			"When": {
+				"Hearts:Shane": "6",
+				"HasSeenEvent |contains=2118991": true,
+				"Relationship:Shane |contains=Married": false,
+			},
+		},
+		{
+			"LogName": "CGD Gift Dialogue 6 Recovery",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+			//Hate
+				// Booze
+				"GiftReaction_Beer": "...You're seriously giving this to me, the guy you dragged to the hospital for alcohol poisoning. The fuck is wrong with you?$a",
+				"GiftReaction_Beer~1": "Okay seriously, fuck off if you're just gonna try to get me to drink again.$a",
+				"GiftReaction_Pale_Ale": "...You're seriously giving this to me, the guy you dragged to the hospital for alcohol poisoning. The fuck is wrong with you?$a",
+				"GiftReaction_Pale_Ale~1": "Okay seriously, fuck off if you're just gonna try to get me to drink again.$a",
+				"GiftReaction_Mead": "...You're seriously giving this to me, the guy you dragged to the hospital for alcohol poisoning. The fuck is wrong with you?$a",
+				"GiftReaction_Mead~1": "Okay seriously, fuck off if you're just gonna try to get me to drink again.$a",
+				"GiftReaction_Wine": "...You're seriously giving this to me, the guy you dragged to the hospital for alcohol poisoning. The fuck is wrong with you?$a",
+				"GiftReaction_Wine~1": "Okay seriously, fuck off if you're just gonna try to get me to drink again.$a",
+				"GiftReaction_Piña_Colada": "...You're seriously giving this to me, the guy you dragged to the hospital for alcohol poisoning. The fuck is wrong with you?$a",
+				"GiftReaction_Piña_Colada~1": "Okay seriously, fuck off if you're just gonna try to get me to drink again.$a",
+			},
+			"When": {
+				"Hearts:Shane": "6",
+				"HasSeenEvent |contains=2118991": true,
+				"Relationship:Shane |contains=Married": false,
+			},
+		},
+	//7-8 Hearts
+		{
+			"LogName": "CGD Gift Tastes 7-8",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"Shane": "Yoba, you're the best. Thanks, @!/206 215 260/Heh, this is neat. Thanks, @./203 -5 -79 113 167/I don't really like this./-81 152 330/Stop giving me booze, you fuck./80 342 346 348 303 459 873/Oh, you got me something? Thanks.// " 
+			},
+			"When": {
+				"Hearts:Shane": "7, 8",
+				"Relationship:Shane |contains=Married": false,
+			},
+		},
+		{
+			"LogName": "CGD Gift Dialogue 7-8",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+			//Love
+				//Food
+				"GiftReaction_Hot_Pepper": "Ugh, I could eat these all day. Thanks, @.$6",
+				"GiftReaction_Hot_Pepper~1": "Aw, thanks!$h#$b#Hey, do you think I should join a hot pepper eating contest or something? I bet I'd be pretty good at it.",
+				"GiftReaction_Pizza": "Yoba, you're the best. Thanks, @!$h",
+				"GiftReaction_Pizza~1": "Yoba, you're the best. Thanks, @!$h",
+				"GiftReaction_Pizza~2": "Yoba, you're the best. Thanks, @!$h",
+				"GiftReaction_Pizza~3": "Have I told you that you're the best friend a guy can ask for? I should tell you that more often.#$b#Ah, this smells so fucking good. Want a slice?$6",
+				"GiftReaction_Pepper_Poppers": "Oh man, do I wanna eat these now or save them for later? Decisions, decisions.$3#$b#Eh, I'll figure it out. Thanks, @.$6",
+				"GiftReaction_Pepper_Poppers~1": "Yoba, you're the best. Thanks, @!$h",
+				"GiftReaction_Pepper_Poppers~2": "Yoba, you're the best. Thanks, @!$h",
+				"GiftReaction_Pepper_Poppers~3": "Yoba, you're the best. Thanks, @!$h",
+				//Universal Loves
+				"GiftReaction_Prismatic_Shard": "Do you always just hand out super expensive gems or something? Thanks, @.$6",
+				"GiftReaction_Pearl": "Do you always just hand out super expensive stuff or something? Thanks, @.$6",
+				"GiftReaction_Golden_Pumpkin": "Huh... so this is what you get from finishing the hedge maze?#$b#Thanks.$6",
+				"GiftReaction_Magic_Rock_Candy": "This is just way too fancy to be real candy. Do rich people seriously eat this?#$b#I mean, I appreciate it. Thanks, @.$6",
+				"GiftReaction_Rabbit's_Foot": "Heh. I do look like I need some luck, don't I?#$b#Thanks, @.$6",
+			//Like
+				//Eggs
+				"GiftReactionCategory_-5": "Oh hey, is this from your hens? Thanks, @.$6",
+				//Loved Ones
+				"GiftReaction_Pink_Cake": "Hey, this is Jas and Marnie's favorite. You mind if I share it with them?$6#$b#Thanks, @.",
+				"GiftReaction_Diamond": "Oh, is this a diamond? Marnie loves these.$6#$b#Is it okay if I pass this to her?$6",
+				"GiftReaction_Farmer's_Lunch": "Hey, I'm pretty sure Marnie loves this dish. Would you mind if I shared?$6",
+				"GiftReaction_Pumpkin_Pie": "Oh man, Marnie loves pumpkin pie. Hope you won't mind if she ends up eating most of this.$6",
+				"GiftReaction_Plum_Pudding": "Hey, is this plum pudding? Jas loves this stuff!$h#$b#I'm gonna share this with her, if you don't mind.$6",
+				"GiftReaction_Fairy_Rose": "Oh, thanks. I think I'll stick these in Jas's room or something. She just loves these.$6",
+			//Dislike
+				"GiftReaction_Void_Egg": "Ugh... where did you even get this fucked-up egg?$a",
+			//Hate
+				"GiftReaction_Preserved_Pickle": "Not gonna lie, @, I kinda hate pickles.",
+				"GiftReaction_Void_Mayonnaise": "Is this supposed to be mayonnaise? Why does it look...#$b#Ugh, why are you giving me your garbage?$a",
+				"GiftReaction_Poppy": "Ugh. Why?$s",
+				//Booze
+				"GiftReaction_Beer": "Nope, fuck that and fuck you.$a#$b#Don't make this even harder for me, @.$s",
+				"GiftReaction_Beer~1": "Stop giving me booze, you fuck.$a",
+				"GiftReaction_Pale_Ale": "Nope, fuck that and fuck you.$a#$b#Don't make this even harder for me, @.$s",
+				"GiftReaction_Pale_Ale~1": "Stop giving me booze, you fuck.$a",
+				"GiftReaction_Mead": "Nope, fuck that and fuck you.$a#$b#Don't make this even harder for me, @.$s",
+				"GiftReaction_Mead~1": "Stop giving me booze, you fuck.$a",
+				"GiftReaction_Wine": "Nope, fuck that and fuck you.$a#$b#Don't make this even harder for me, @.$s",
+				"GiftReaction_Wine~1": "Stop giving me booze, you fuck.$a",
+				"GiftReaction_Piña_Colada": "Nope, fuck that and fuck you.$a#$b#Don't make this even harder for me, @.$s",
+				"GiftReaction_Piña_Colada~1": "Stop giving me booze, you fuck.$a",
+			},
+			"When": {
+				"Hearts:Shane": "7, 8",
+				"Relationship:Shane |contains=Married": false,
+			},
+		},
+	//9-10 Hearts
+		{
+			"LogName": "Gift Tastes 9-10 Platonic",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"Shane": "See, this is why we're friends... heh, just kidding. Thanks, @!/206 215 260/Hey, this is neat! Thanks, bud./203 -5 -79 113 167/Uh... I don't really like this./-81 152 330/Yoba, you of all people should know better than to give me this./80 342 346 348 303 459 873/Oh, you got me something? Thanks, bud.// " 
+			},
+			"When": {
+				"Hearts:Shane": "{{Range: 9, 14}}",
+				"Relationship:Shane |contains= Dating, Engaged, Married, Divorced": false,
+			},
+		},
+		{
+			"LogName": "CGD Gift Dialogue 9-10",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+			//Love
+				//Food
+				"GiftReaction_Hot_Pepper~1": "Aw, thanks!$h#$b#You know what? I bet I could win a hot pepper eating contest. Just totally demolish the competition.$6",
+				"GiftReaction_Hot_Pepper~2": "Seriously, I could eat these all day. Thanks, @.$6",
+				"GiftReaction_Pizza~1": "Oh man, the cheese is all bubbly and stringy... I love this. Thanks, @.$6",
+				"GiftReaction_Pizza~2": "Yoba, you're the best. Thanks, @!$h",
+				"GiftReaction_Pizza~3": "Have I told you that you're my favorite person in the universe? I should tell you that more often.#$b#Ah, this smells so fucking good. Want a slice?$6",
+				"GiftReaction_Pizza~4": "Yoba, you're the best. Thanks, @!$h",
+				"GiftReaction_Pepper_Poppers": "Oh man, do I wanna eat these now or save them for later? Decisions, decisions.$3#$b#Eh, I'll figure it out. Thanks, @.$6",
+				"GiftReaction_Pepper_Poppers~2": "Yoba, you're the best. Thanks, @!$h",
+				"GiftReaction_Pepper_Poppers~3": "Yoba, you're the best. Thanks, @!$h",
+				//Universal Loves
+				"GiftReaction_Prismatic_Shard": "Do you always just hand out super expensive gems or something? Thanks, @.$6",
+				"GiftReaction_Pearl": "Do you always just hand out super expensive stuff or something? Thanks, @.$6",
+				"GiftReaction_Golden_Pumpkin": "Huh... so this is what you get from finishing the hedge maze?#$b#Thanks.$6",
+				"GiftReaction_Magic_Rock_Candy": "This is just way too fancy to be real candy. Do rich people seriously eat this?#$b#I mean, I appreciate it. Thanks, @.$6",
+				"GiftReaction_Rabbit's_Foot": "Heh. I do look like I need some luck, don't I?#$b#Thanks, @.$6",
+			//Like
+				//Eggs
+				"GiftReactionCategory_-5": "Oh hey, is this from your hens? Thanks, @.$6",
+				//Loved Ones
+				"GiftReaction_Pink_Cake": "Hey, this is Jas and Marnie's favorite. You mind if I share it with them?$6#$b#Thanks, @.",
+				"GiftReaction_Diamond": "Oh, is this a diamond? Marnie loves these.$6#$b#Is it okay if I pass this to her?$6",
+				"GiftReaction_Farmer's_Lunch": "Hey, I'm pretty sure Marnie loves this dish. Would you mind if I shared?$6",
+				"GiftReaction_Pumpkin_Pie": "Oh man, Marnie loves pumpkin pie. Hope you won't mind if she ends up eating most of this.$6",
+				"GiftReaction_Plum_Pudding": "Hey, is this plum pudding? Jas loves this stuff!$h#$b#I'm gonna share this with her, if you don't mind.$6",
+				"GiftReaction_Fairy_Rose": "Oh, thanks. I think I'll stick these in Jas's room or something. She just loves these.$6",
+			//Dislike
+				"GiftReaction_Void_Egg": "Ugh... where did you even get this fucked-up egg?$a",
+			//Hate
+				"GiftReaction_Preserved_Pickle": "Not gonna lie, @, I kinda hate pickles.",
+				"GiftReaction_Void_Mayonnaise": "Is this supposed to be mayonnaise? Why does it look...#$b#Ugh, why are you giving me your garbage?$a",
+				"GiftReaction_Poppy": "Ugh. Why?$s",
+				//Booze
+				"GiftReaction_Beer": "Nope, fuck that and fuck you.$a#$b#Don't make this even harder for me, @.$s",
+				"GiftReaction_Beer~1": "Yoba, you of all people should know better than to give me this.$s",
+				"GiftReaction_Pale_Ale": "Nope, fuck that and fuck you.$a#$b#Don't make this even harder for me, @.$s",
+				"GiftReaction_Pale_Ale~1": "Yoba, you of all people should know better than to give me this.$s",
+				"GiftReaction_Mead": "Nope, fuck that and fuck you.$a#$b#Don't make this even harder for me, @.$s",
+				"GiftReaction_Mead~1": "Yoba, you of all people should know better than to give me this.$s",
+				"GiftReaction_Wine": "Nope, fuck that and fuck you.$a#$b#Don't make this even harder for me, @.$s",
+				"GiftReaction_Wine~1": "Yoba, you of all people should know better than to give me this.$s",
+				"GiftReaction_Piña_Colada": "Nope, fuck that and fuck you.$a#$b#Don't make this even harder for me, @.$s",
+				"GiftReaction_Piña_Colada~1": "Yoba, you of all people should know better than to give me this.$s",
+			},
+			"When": {
+				"Hearts:Shane": "{{Range: 9, 14}}",
+				"Relationship:Shane |contains= Married": false,
+			},
+		},
+		{
+			"LogName": "CGD Gift Dialogue 9-10 Platonic",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+			//Love
+				//Food
+				"GiftReaction_Hot_Pepper": "See, this is why we're friends... heh, just kidding. Thanks, @!$h",
+				"GiftReaction_Pizza": "See, this is why we're friends... heh, just kidding. Thanks, @!$h",
+				"GiftReaction_Pepper_Poppers~1": "See, this is why we're friends... heh, just kidding. Thanks, @!$h",
+			},
+			"When": {
+				"Hearts:Shane": "{{Range: 9, 14}}",
+				"Relationship:Shane |contains= Dating, Engaged, Married, Divorced": false,
+			},
+		},
+		{
+			"LogName": "CGD Gift Dialogue 9-10 Romantic",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+			//Love
+				//Food
+				"GiftReaction_Hot_Pepper": "See, this is why I'm dating you... heh, just kidding. Thanks, @!$h",
+				"GiftReaction_Pizza": "See, this is why I'm dating you... heh, just kidding. Thanks, @!$h",
+				"GiftReaction_Pepper_Poppers~1": "See, this is why I'm dating you... heh, just kidding. Thanks, @!$h",
+			},
+			"When": {
+				"Hearts:Shane": "{{Range: 9, 14}}",
+				"Relationship:Shane |contains= Dating, Engaged": true,
+			},
+		},
+	//Marriage Gift Tastes
+		{
+			"LogName": "CGD Gift Tastes Spouse Romantic",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"Shane": "{{Random: Have I told you that I love you? I love you, this is great. ++ Aw bugaboo, now you're just spoiling me. ++ Ugh, I just can't get enough of this stuff. Thanks, @! ++ You know me too well, @. ++ *smooch* You're the best, @. ++ Hell yes, this is the good shit. Thanks, @! |inputSeparator=++}}/206 215 260/{{Random: Aw, @, you shouldn't have. ++ Thanks, chickadee! I really like this. ++ Hey, I like this stuff. Thanks! ++ Hey, I was just thinking of this! Thanks, sunshine. ++ Oh, neat! Thanks, peach. ++ Aw, thanks, bud. I really like this. ++ I seriously like this! Thanks, @. |inputSeparator=++}}/203 -5 -79 113 167/{{Random: The trash can's over there, bud. Put your trash there instead. ++ Eugh, why? Did I do something to piss you off? ++ I'll just... throw this away for you, I guess. ++ Don't take this the wrong way, but this is fucking nasty. ++ Uh... are you asking me to put this in the trash for you? ++ Is this supposed to be a gift? No thanks. ++ *sigh* Why are you giving me this? |inputSeparator=++}}/-81 152 330/{{Random: You've gotta be fucking kidding me. ++ C'mon, @... why do you have to do this? ++ Seriously, @, you gotta stop giving me this shit. ++ Is this some kinda prank? It's not funny. ++ Yeah, no. Not cool. ++ @, I really need you to stop giving me this crap. |inputSeparator=++}}/80 342 346 348 303 459 873/{{Random: Heh, thanks, @. ++ Oh, you got me something? Thanks, sunshine. ++ Hey, for me? Thanks, bud. ++ Thanks, @. ++ You're giving this to me? Heh, thanks. ++ Thanks, peach. |inputSeparator=++}}// " 
+			},
+			"When": {
+				"Relationship:Shane": "Married",
+			},
+		},
+		{
+			"LogName": "CGD Gift Dialogue Married",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+			//Love
+				//Food
+				"GiftReaction_Hot_Pepper": "Hell yes, this is the good shit. Thanks, @!$h",
+				"GiftReaction_Hot_Pepper~1": "Have I told you that I love you? I love you, this is great.$h",
+				"GiftReaction_Hot_Pepper~2": "Seriously, I could eat these all day. Thanks, @.$6",
+				"GiftReaction_Hot_Pepper~3": "Aw bugaboo, now you're just spoiling me. I'm just drowning in hot peppers here.$6",
+				"GiftReaction_Pizza": "Hell yes, this is the good shit. Just look at that sauce... Thanks, @!$h",
+				"GiftReaction_Pizza~1": "Oh man, the cheese is all bubbly and stringy... I love this. Thanks, @.$6",
+				"GiftReaction_Pizza~2": "Yoba, you're the best. Thanks, @!$h",
+				"GiftReaction_Pizza~3": "Have I told you that you're my favorite person in the universe? I should tell you that more often.#$b#Ah, this smells so fucking good. Want a slice?$6",
+				"GiftReaction_Pizza~4": "Yoba, you're the best. Thanks, @!$h",
+				"GiftReaction_Pepper_Poppers": "Oh man, do I wanna eat these now or save them for later? Decisions, decisions.$3#$b#Eh, I'll figure it out. Thanks, @.$6",
+				"GiftReaction_Pepper_Poppers~1": "*smooch* You're the best, @.$h",
+				"GiftReaction_Pepper_Poppers~2": "Yoba, you're the best. Thanks, @!$h",
+				"GiftReaction_Pepper_Poppers~3": "You know me too well, @. Thanks.$6",
+				"GiftReaction_Pepper_Poppers~4": "Ugh, I just can't get enough of these poppers. Thanks, @!$h",
+				//Universal Loves
+				"GiftReaction_Prismatic_Shard": "Thanks, but you know you don't need to shower me in ridiculously expensive gems, right?$6#$b#I mean, I'm not complaining, but I'd be just as happy with a pizza or something.$6",
+				"GiftReaction_Pearl": "Thanks, but you know you don't need to shower me in ridiculously expensive gifts, right?$6#$b#I mean, I'm not complaining, but I'd be just as happy with a pizza or something.$6",
+				"GiftReaction_Golden_Pumpkin": "Huh... so this is what you get from finishing the hedge maze?#$b#Thanks.$6",
+				"GiftReaction_Magic_Rock_Candy": "This is just way too fancy to be real candy. Do rich people seriously eat this?#$b#I mean, I appreciate it. Thanks, @.$6",
+				"GiftReaction_Rabbit's_Foot": "Heh. I do look like I need some luck, don't I?#$b#Thanks, @.$6",
+			//Like
+				//Eggs
+				"GiftReactionCategory_-5": "Oh hey, is this from the hens? Thanks, @.$6",
+				//Loved Ones
+				"GiftReaction_Pink_Cake": "Hey, this is Jas and Marnie's favorite. You mind if I share it with them?$6#$b#Thanks, @.",
+				"GiftReaction_Diamond": "Oh, is this a diamond? Marnie loves these.$6#$b#Is it okay if I pass this to her?$6",
+				"GiftReaction_Farmer's_Lunch": "Hey, I'm pretty sure Marnie loves this dish. Would you mind if I shared?$6",
+				"GiftReaction_Pumpkin_Pie": "Oh man, Marnie loves pumpkin pie. Hope you won't mind if she ends up eating most of this.$6",
+				"GiftReaction_Plum_Pudding": "Hey, is this plum pudding? Jas loves this stuff!$h#$b#I'm gonna share this with her, if you don't mind.$6",
+				"GiftReaction_Fairy_Rose": "Oh, thanks. I think I'll stick these in Jas's room or something. She just loves these.$6",
+			//Dislike
+				"GiftReaction_Void_Egg": "Ugh... where did you even get this fucked-up egg?$a",
+			//Hate
+				"GiftReaction_Preserved_Pickle": "...I hate pickles.$s",
+				"GiftReaction_Void_Mayonnaise": "Is this supposed to be mayonnaise? Why does it look...#$b#Ugh, why are you giving me your garbage?$a",
+				"GiftReaction_Poppy": "Ugh. Why?$s",
+				//Booze
+				"GiftReaction_Beer": "Yeah, this shit is going down the drain. Quit it, @.$a",
+				"GiftReaction_Beer~1": "Yoba, you of all people should know better than to give me this.$s",
+				"GiftReaction_Beer~2": "Beer? Seriously? You just gotta make things harder for me, don't you?$a",
+				"GiftReaction_Beer~3": "Seriously, @, you gotta stop giving me booze.$a",
+				"GiftReaction_Pale_Ale": "Yeah, this shit is going down the drain. Quit it, @.$a",
+				"GiftReaction_Pale_Ale~1": "Yoba, you of all people should know better than to give me this.$s",
+				"GiftReaction_Pale_Ale~2": "Seriously, @, you gotta stop giving me booze.$a",
+				"GiftReaction_Mead": "Yeah, this shit is going down the drain. Quit it, @.$a",
+				"GiftReaction_Mead~1": "Yoba, you of all people should know better than to give me this.$s",
+				"GiftReaction_Mead~2": "Seriously, @, you gotta stop giving me booze.$a",
+				"GiftReaction_Wine": "Yeah, this shit is going down the drain. Quit it, @.$a",
+				"GiftReaction_Wine~1": "Yoba, you of all people should know better than to give me this.$s",
+				"GiftReaction_Wine~2": "Seriously, @, you gotta stop giving me booze.$a",
+				"GiftReaction_Piña_Colada": "Yeah, this shit is going down the drain. Quit it, @.$a",
+				"GiftReaction_Piña_Colada~1": "Yoba, you of all people should know better than to give me this.$s",
+				"GiftReaction_Piña_Colada~2": "Seriously, @, you gotta stop giving me booze.$a",
+			},
+			"When": {
+				"Relationship:Shane": "Married",
+			},
+		},
+	]
+}

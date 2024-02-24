@@ -1,0 +1,18 @@
+﻿{
+    "Name": "Woodland-Stool Mushroom",
+    "Description": "Small woodland animals use this mushroom as a perching point.",
+    "Category": "Greens",
+    "CategoryTextOverride": "Mushroom",
+    "Edibility": 25,
+    "Price": 50,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Woodland-Stool-Mushroom",
+    "ContextTags": [
+    "color_brown",
+    "forage_item",
+    "mushroom_item",
+    "forage_item_mines",
+  ],
+}

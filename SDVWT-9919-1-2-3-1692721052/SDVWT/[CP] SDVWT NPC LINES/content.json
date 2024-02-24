@@ -1,0 +1,53 @@
+{
+    "Format": "1.5",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gus",
+            "Entries": {
+                "Saloon_Wed": "Between you and me, @, the Weed Brownies are my top seller.$h#$b#The main ingredient is harmless as far as the doc is concerned."
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "Entries": {
+                "Thu6": "Gus and I sometimes sneak a brownie after our shift.#$b#It helps after a stressful day."
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "Thu2": "There's a strange smell coming from Sam's room sometimes.#$b#I think I know what he's doing, but I really shouldn't stick my nose into his business.#$b#Sam's a grown man now, and I trust he's making good descisions.",
+                "Sat2": "I've told Sam if he was going to smoke weed, he should do it outside the house.#$b#I don't want it near Vincent.#$b#And I really hate the smell."
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "Entries": {
+                "Sun2": "There's a spike in the use of marijuana among the youth of Pelican Town lately.#$b#I just hope they're not using it irresponsibly. The side effects can be quite scary.$2"
+            }
+        },
+
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Sam",
+        "Entries": {
+          "Wed8": "You should join me and Sebastian for a sesh sometime.$h#$b#Seb always brings a few blunts, too."
+        }
+      },
+
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Penny",
+        "Entries": {
+          "Sat4": "I've noticed Marlowe seems to be a bit brighter these days.#$b#You've noticed too?#$b#I'm glad he's feeling better."
+        }
+      }
+    ]
+}

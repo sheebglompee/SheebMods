@@ -1,0 +1,15 @@
+﻿{
+    "Name": "Buckle-Bray",
+    "Description": "This hardy coastal flower can be found along the bluffs of Ferngills coasts.",
+    "Category": "Flower",
+    "Edibility": 10,
+    "Price": 45,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Buckle-Bray",
+    "ContextTags": [
+	"color_lilac",
+    "flower_item",
+  ],
+}

@@ -1,0 +1,1855 @@
+[
+//FLORAL COFFEE
+	{
+        "ProducerName": "Keg",
+        "InputIdentifier": "-80",
+        "InputStack": 1,
+        "FuelIdentifier": "Coffee Bean",
+        "FuelStack": 4,
+        "MinutesUntilReady": 120,
+        "OutputIdentifier": "Floral Coffee",
+        "OutputName": "{inputName} Coffee",		
+        "Sounds": ["Ship"],
+	},
+///ROOT BEER FOF
+	{
+        "ProducerName": "Keg",
+        "InputIdentifier": "Gaelic-Root",
+        "InputStack": 1,
+        "FuelIdentifier": "Hops",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1750,
+        "OutputIdentifier": "Root Beer FOF",
+        "OutputName": "{inputName} Beer",
+		"InputPriceBased": true,
+        "OutputPriceMultiplier": 1.25,
+		"OutputPriceIncrement": 250,
+        "Sounds": ["Ship"],
+	},
+	{
+        "ProducerName": "Keg",
+        "InputIdentifier": "Chub-Root",
+        "InputStack": 1,
+        "FuelIdentifier": "Hops",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1750,
+        "OutputIdentifier": "Root Beer FOF",
+        "OutputName": "{inputName} Beer",
+		"InputPriceBased": true,
+        "OutputPriceMultiplier": 1.25,
+		"OutputPriceIncrement": 250,
+        "Sounds": ["Ship"],
+	},
+	{
+        "ProducerName": "Keg",
+        "InputIdentifier": "Bardic-Root",
+        "InputStack": 1,
+        "FuelIdentifier": "Hops",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1750,
+        "OutputIdentifier": "Root Beer FOF",
+        "OutputName": "{inputName} Beer",
+		"InputPriceBased": true,
+        "OutputPriceMultiplier": 1.25,
+		"OutputPriceIncrement": 250,
+        "Sounds": ["Ship"],
+	},
+	{
+        "ProducerName": "Keg",
+        "InputIdentifier": "Ghastly-Root",
+        "InputStack": 1,
+        "FuelIdentifier": "Hops",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1750,
+        "OutputIdentifier": "Root Beer FOF",
+        "OutputName": "{inputName} Beer",
+		"InputPriceBased": true,
+        "OutputPriceMultiplier": 1.25,
+		"OutputPriceIncrement": 250,
+        "Sounds": ["Ship"],
+	},
+	{
+        "ProducerName": "Keg",
+        "InputIdentifier": "Ridge-Root",
+        "InputStack": 1,
+        "FuelIdentifier": "Hops",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1750,
+        "OutputIdentifier": "Root Beer FOF",
+        "OutputName": "{inputName} Beer",
+		"InputPriceBased": true,
+        "OutputPriceMultiplier": 1.25,
+		"OutputPriceIncrement": 250,
+        "Sounds": ["Ship"],
+	},
+	{
+        "ProducerName": "Keg",
+        "InputIdentifier": "Sabi-Root",
+        "InputStack": 1,
+        "FuelIdentifier": "Hops",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1750,
+        "OutputIdentifier": "Root Beer FOF",
+        "OutputName": "{inputName} Beer",
+		"InputPriceBased": true,
+        "OutputPriceMultiplier": 1.25,
+		"OutputPriceIncrement": 250,
+        "Sounds": ["Ship"],
+	},
+	{
+        "ProducerName": "Keg",
+        "InputIdentifier": "Winter Root",
+        "InputStack": 1,
+        "FuelIdentifier": "Hops",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1750,
+        "OutputIdentifier": "Root Beer FOF",
+        "OutputName": "{inputName} Beer",
+		"InputPriceBased": true,
+        "OutputPriceMultiplier": 1.25,
+		"OutputPriceIncrement": 250,
+        "Sounds": ["Ship"],
+	},
+	{
+        "ProducerName": "Keg",
+        "InputIdentifier": "Cave Carrot",
+        "InputStack": 1,
+        "FuelIdentifier": "Hops",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1750,
+        "OutputIdentifier": "Root Beer FOF",
+        "OutputName": "{inputName} Root Beer",
+		"InputPriceBased": true,
+        "OutputPriceMultiplier": 1.25,
+		"OutputPriceIncrement": 250,
+        "Sounds": ["Ship"],
+	},
+///ROOT BEER WILDFLOUR	
+	{
+        "ProducerName": "Keg",
+        "InputIdentifier": "wf redonion",
+        "InputStack": 1,
+        "FuelIdentifier": "Hops",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1750,
+        "OutputIdentifier": "Root Beer FOF",
+        "OutputName": "{inputName} Beer",
+		"InputPriceBased": true,
+        "OutputPriceMultiplier": 1.25,
+		"OutputPriceIncrement": 250,
+        "Sounds": ["Ship"],
+	},
+	{
+        "ProducerName": "Keg",
+        "InputIdentifier": "wf carrot",
+        "InputStack": 1,
+        "FuelIdentifier": "Hops",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1750,
+        "OutputIdentifier": "Root Beer FOF",
+        "OutputName": "{inputName} Root Beer",
+		"InputPriceBased": true,
+        "OutputPriceMultiplier": 1.25,
+		"OutputPriceIncrement": 250,
+        "Sounds": ["Ship"],
+	},
+///ROOT BEER PPJA	
+	{
+        "ProducerName": "Keg",
+        "InputIdentifier": "Carrot",
+        "InputStack": 1,
+        "FuelIdentifier": "Hops",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1750,
+        "OutputIdentifier": "Root Beer FOF",
+        "OutputName": "{inputName} Beer",
+		"InputPriceBased": true,
+        "OutputPriceMultiplier": 1.25,
+		"OutputPriceIncrement": 250,
+        "Sounds": ["Ship"],
+	},
+	{
+        "ProducerName": "Keg",
+        "InputIdentifier": "Cassava",
+        "InputStack": 1,
+        "FuelIdentifier": "Hops",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1750,
+        "OutputIdentifier": "Root Beer FOF",
+        "OutputName": "{inputName} Root Beer",
+		"InputPriceBased": true,
+        "OutputPriceMultiplier": 1.25,
+		"OutputPriceIncrement": 250,
+        "Sounds": ["Ship"],
+	},
+	{
+        "ProducerName": "Keg",
+        "InputIdentifier": "Onion",
+        "InputStack": 1,
+        "FuelIdentifier": "Hops",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1750,
+        "OutputIdentifier": "Root Beer FOF",
+        "OutputName": "{inputName} Root Beer",
+		"InputPriceBased": true,
+        "OutputPriceMultiplier": 1.25,
+		"OutputPriceIncrement": 250,
+        "Sounds": ["Ship"],
+	},
+	{
+        "ProducerName": "Keg",
+        "InputIdentifier": "Red Onion",
+        "InputStack": 1,
+        "FuelIdentifier": "Hops",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1750,
+        "OutputIdentifier": "Root Beer FOF",
+        "OutputName": "{inputName} Root Beer",
+		"InputPriceBased": true,
+        "OutputPriceMultiplier": 1.25,
+		"OutputPriceIncrement": 250,
+        "Sounds": ["Ship"],
+	},
+	{
+        "ProducerName": "Keg",
+        "InputIdentifier": "Shallot",
+        "InputStack": 1,
+        "FuelIdentifier": "Hops",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1750,
+        "OutputIdentifier": "Root Beer FOF",
+        "OutputName": "{inputName} Root Beer",
+		"InputPriceBased": true,
+        "OutputPriceMultiplier": 1.25,
+		"OutputPriceIncrement": 250,
+        "Sounds": ["Ship"],
+	},
+	{
+        "ProducerName": "Keg",
+        "InputIdentifier": "Sugar Beet",
+        "InputStack": 1,
+        "FuelIdentifier": "Hops",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1750,
+        "OutputIdentifier": "Root Beer FOF",
+        "OutputName": "{inputName} Root Beer",
+		"InputPriceBased": true,
+        "OutputPriceMultiplier": 1.25,
+		"OutputPriceIncrement": 250,
+        "Sounds": ["Ship"],
+	},
+	{
+        "ProducerName": "Keg",
+        "InputIdentifier": "Wasabi Root",
+        "InputStack": 1,
+        "FuelIdentifier": "Hops",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1750,
+        "OutputIdentifier": "Root Beer FOF",
+        "OutputName": "{inputName} Root Beer",
+		"InputPriceBased": true,
+        "OutputPriceMultiplier": 1.25,
+		"OutputPriceIncrement": 250,
+        "Sounds": ["Ship"],
+	},
+//MUSHROOM BOX
+	{
+        "ProducerName": "Mushroom Box",
+	    "InputIdentifier":  null,
+        "MinutesUntilReady": 1600,
+        "SubtractTimeOfDay": true,
+        "OutputIdentifier": "404",
+        "AdditionalOutputs": [
+            {
+                "OutputProbability": 0.0560,
+                "OutputIdentifier": "422"
+            },
+            {
+                "OutputProbability": 0.0560,
+                "OutputIdentifier": "281"
+            },
+            {
+                "OutputProbability": 0.0560,
+                "OutputIdentifier": "257"
+            },
+            {
+                "OutputProbability": 0.0560,
+                "OutputIdentifier": "420"
+			},
+			{
+                "OutputProbability": 0.0456,
+                "OutputIdentifier": "Dew-Cup Mushroom"
+            },
+            {
+                "OutputProbability": 0.0456,
+                "OutputIdentifier": "Drooping-Hood Mushroom"
+            },
+            {
+                "OutputProbability": 0.0456,
+                "OutputIdentifier": "Frost-Spot Mushroom"
+            },
+			{
+                "OutputProbability": 0.0456,
+                "OutputIdentifier": "Ink-Dipped Mushroom"
+            },
+            {
+                "OutputProbability": 0.0456,
+                "OutputIdentifier": "Muffin-Button Mushroom"
+            },
+            {
+                "OutputProbability": 0.0456,
+                "OutputIdentifier": "Plump-Belly Mushroom"
+            },
+            {
+                "OutputProbability": 0.0456,
+                "OutputIdentifier": "Ridged-Parasol Mushroom"
+            },
+            {
+                "OutputProbability": 0.0456,
+                "OutputIdentifier": "Ruff-Puff Mushroom"
+            },
+            {
+                "OutputProbability": 0.0456,
+                "OutputIdentifier": "Stalk-Cluster Mushroom"
+            },
+            {
+                "OutputProbability": 0.0456,
+                "OutputIdentifier": "Tooting-Funnel Mushroom"
+            },
+            {
+                "OutputProbability": 0.0456,
+                "OutputIdentifier": "White-Cap Mushroom"
+            },
+            {
+                "OutputProbability": 0.0456,
+                "OutputIdentifier": "Woodland-Stool Mushroom"
+            },
+			{
+                "OutputProbability": 0.0456,
+                "OutputIdentifier": "wf chickenofthewoods"
+            },
+            {
+                "OutputProbability": 0.0456,
+                "OutputIdentifier": "wf honeyfungus"
+            },
+            {
+                "OutputProbability": 0.0456,
+                "OutputIdentifier": "wf meringueshroom"
+            },
+            {
+                "OutputProbability": 0.0456,
+                "OutputIdentifier": "wf milkshroom"
+            },
+            {
+                "OutputProbability": 0.0456,
+                "OutputIdentifier": "wf wheatshroom"
+            },
+		]
+	},
+///GROW BAG FOF
+	{
+        "ProducerName": "Grow Bag",
+        "MinutesUntilReady": 3200,
+	    "InputIdentifier":  null,
+        "SubtractTimeOfDay": true,
+        "OutputIdentifier": "771",
+		"AdditionalOutputs": [
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Wild Horseradish",
+		"RequiredSeason": [ "spring" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Daffodil",
+		"RequiredSeason": [ "spring" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Leek",
+		"RequiredSeason": [ "spring" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Dandelion",
+		"RequiredSeason": [ "spring" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Spring Onion",
+		"RequiredSeason": [ "spring" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Sweet Pea",
+		"RequiredSeason": [ "summer" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Fiddlehead Fern",
+		"RequiredSeason": [ "summer" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Snow Yam",
+		"RequiredSeason": [ "winter" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Winter Root",
+		"RequiredSeason": [ "winter" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Crocus",
+		"RequiredSeason": [ "winter" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Holly",
+		"RequiredSeason": [ "winter" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Buttered-Star",
+		"RequiredSeason": [ "spring" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Daye-Breaks",
+		"RequiredSeason": [ "spring" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Dew-Dawn",
+		"RequiredSeason": [ "spring" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Bon-Bons",
+		"RequiredSeason": [ "summer" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Fox-Shoes",
+		"RequiredSeason": [ "summer" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Luck-Puff",
+		"RequiredSeason": [ "summer" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Night-Shadow",
+		"RequiredSeason": [ "fall" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Spike-Ball",
+		"RequiredSeason": [ "fall" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Sun-Brella",
+		"RequiredSeason": [ "fall" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Chill-Bell",
+		"RequiredSeason": [ "winter" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Wish-Blooms",
+		"RequiredSeason": [ "winter" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Carpet Moss",
+		"RequiredSeason": [ "winter" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Shifter-Bloom",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredOutdoors": true,
+            },		
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Rock-Blush",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredOutdoors": true,
+            },	
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Buckle-Bray",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredOutdoors": true,
+            },				
+		]
+	},
+///GROW BAG WILDFLOUR
+	{
+        "ProducerName": "Grow Bag",
+        "MinutesUntilReady": 3200,
+	    "InputIdentifier":  null,
+        "SubtractTimeOfDay": true,
+        "OutputIdentifier": "771",
+		"AdditionalOutputs": [
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Wild Horseradish",
+		"RequiredSeason": [ "spring" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Daffodil",
+		"RequiredSeason": [ "spring" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Leek",
+		"RequiredSeason": [ "spring" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Dandelion",
+		"RequiredSeason": [ "spring" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Spring Onion",
+		"RequiredSeason": [ "spring" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Sweet Pea",
+		"RequiredSeason": [ "summer" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Fiddlehead Fern",
+		"RequiredSeason": [ "summer" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Snow Yam",
+		"RequiredSeason": [ "winter" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Winter Root",
+		"RequiredSeason": [ "winter" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Crocus",
+		"RequiredSeason": [ "winter" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Holly",
+		"RequiredSeason": [ "winter" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Buttered-Star",
+		"RequiredSeason": [ "spring" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Daye-Breaks",
+		"RequiredSeason": [ "spring" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Dew-Dawn",
+		"RequiredSeason": [ "spring" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Bon-Bons",
+		"RequiredSeason": [ "summer" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Fox-Shoes",
+		"RequiredSeason": [ "summer" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Luck-Puff",
+		"RequiredSeason": [ "summer" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Night-Shadow",
+		"RequiredSeason": [ "fall" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Spike-Ball",
+		"RequiredSeason": [ "fall" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Sun-Brella",
+		"RequiredSeason": [ "fall" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Chill-Bell",
+		"RequiredSeason": [ "winter" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Wish-Blooms",
+		"RequiredSeason": [ "winter" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Carpet Moss",
+		"RequiredSeason": [ "winter" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Shifter-Bloom",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredOutdoors": true,
+            },		
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Rock-Blush",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredOutdoors": true,
+            },	
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "Buckle-Bray",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredOutdoors": true,
+            },				
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "wf carrot",
+		"RequiredSeason": [ "spring", "fall" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "wf mint",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "wf mallow",
+		"RequiredSeason": [ "spring", "summer" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "wf lavender",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "wf chamomile",
+		"RequiredSeason": [ "fall" ],
+		"RequiredOutdoors": true,
+            },
+            {
+				"OutputProbability": 0.0250,
+                "OutputIdentifier": "wf tealeaf",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredOutdoors": true,
+            }				
+		]
+	},
+///MUSHROOM BAG FOF
+	{
+        "ProducerName": "Mushroom Bag",
+        "MinutesUntilReady": 3200,
+	    "InputIdentifier":  null,
+        "SubtractTimeOfDay": true,
+        "OutputIdentifier": "Common Mushroom",
+		"AdditionalOutputs": [	
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Morel",
+		"RequiredSeason": [ "spring" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },			
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Red Mushroom",
+		"RequiredSeason": [ "Summer", "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Chanterelle",
+		"RequiredSeason": [ "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Purple Mushroom",
+		"RequiredSeason": [ "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },			
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Winter Root",
+		"RequiredSeason": [ "winter" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			{
+				"OutputProbability": 0.0363,
+				"OutputIdentifier": "Dew-Cup Mushroom",
+		"RequiredSeason": [ "spring" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			{
+				"OutputProbability": 0.0363,
+				"OutputIdentifier": "Plump-Belly Mushroom",
+		"RequiredSeason": [ "spring" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Gaelic-Root",
+		"RequiredSeason": [ "spring" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },			
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Drooping-Hood Mushroom",
+		"RequiredSeason": [ "Summer" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			{
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "White-Cap Mushroom",
+		"RequiredSeason": [ "Summer" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Chub-Root",
+		"RequiredSeason": [ "Summer" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },		
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Ink-Dipped Mushroom",
+		"RequiredSeason": [ "Fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Muffin-Button Mushroom",
+		"RequiredSeason": [ "Fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Bardic-Root",
+		"RequiredSeason": [ "Fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },				
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Frost-Spot Mushroom",
+		"RequiredSeason": [ "winter" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			{
+				"OutputProbability": 0.0363,
+				"OutputIdentifier": "Carpet Moss",
+		"RequiredSeason": [ "winter" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Ridged-Parasol Mushroom",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			{
+				"OutputProbability": 0.0363,
+				"OutputIdentifier": "Ridge-Root",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			{
+				"OutputProbability": 0.0363,
+				"OutputIdentifier": "Woodland-Stool Mushroom",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			{
+				"OutputProbability": 0.0363,
+				"OutputIdentifier": "Stalk-Cluster Mushroom",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },			
+			{
+				"OutputProbability": 0.0363,
+				"OutputIdentifier": "Tooting-Funnel Mushroom",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			{
+				"OutputProbability": 0.0363,
+				"OutputIdentifier": "Ruff-Puff Mushroom",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+		]
+	},
+///MUSHROOM BAG WILDFLOUR
+	{
+        "ProducerName": "Mushroom Bag",
+        "MinutesUntilReady": 3200,
+	    "InputIdentifier":  null,
+        "SubtractTimeOfDay": true,
+        "OutputIdentifier": "Common Mushroom",
+		"AdditionalOutputs": [	
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Morel",
+		"RequiredSeason": [ "spring" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },			
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Red Mushroom",
+		"RequiredSeason": [ "Summer", "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Chanterelle",
+		"RequiredSeason": [ "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Purple Mushroom",
+		"RequiredSeason": [ "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },			
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Winter Root",
+		"RequiredSeason": [ "winter" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			{
+				"OutputProbability": 0.0363,
+				"OutputIdentifier": "Dew-Cup Mushroom",
+		"RequiredSeason": [ "spring" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			{
+				"OutputProbability": 0.0363,
+				"OutputIdentifier": "Plump-Belly Mushroom",
+		"RequiredSeason": [ "spring" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Gaelic-Root",
+		"RequiredSeason": [ "spring" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },			
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Drooping-Hood Mushroom",
+		"RequiredSeason": [ "Summer" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			{
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "White-Cap Mushroom",
+		"RequiredSeason": [ "Summer" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Chub-Root",
+		"RequiredSeason": [ "Summer" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },		
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Ink-Dipped Mushroom",
+		"RequiredSeason": [ "Fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Muffin-Button Mushroom",
+		"RequiredSeason": [ "Fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Bardic-Root",
+		"RequiredSeason": [ "Fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },				
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Frost-Spot Mushroom",
+		"RequiredSeason": [ "winter" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			{
+				"OutputProbability": 0.0363,
+				"OutputIdentifier": "Carpet Moss",
+		"RequiredSeason": [ "winter" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+            {
+				"OutputProbability": 0.0363,
+                "OutputIdentifier": "Ridged-Parasol Mushroom",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			{
+				"OutputProbability": 0.0363,
+				"OutputIdentifier": "Ridge-Root",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			{
+				"OutputProbability": 0.0363,
+				"OutputIdentifier": "Woodland-Stool Mushroom",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			{
+				"OutputProbability": 0.0363,
+				"OutputIdentifier": "Stalk-Cluster Mushroom",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },			
+			{
+				"OutputProbability": 0.0363,
+				"OutputIdentifier": "Tooting-Funnel Mushroom",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			{
+				"OutputProbability": 0.0363,
+				"OutputIdentifier": "Ruff-Puff Mushroom",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			{
+				"OutputProbability": 0.0363,
+				"OutputIdentifier": "wf chickenofthewoods",
+		"RequiredSeason": [ "summer", "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			{
+				"OutputProbability": 0.0363,
+				"OutputIdentifier": "wf honeyfungus",
+		"RequiredSeason": [ "summer", "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			{
+				"OutputProbability": 0.0363,
+				"OutputIdentifier": "wf meringueshroom",
+		"RequiredSeason": [ "spring", "summer", "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },			
+			{
+				"OutputProbability": 0.0363,
+				"OutputIdentifier": "wf milkshroom",
+		"RequiredSeason": [ "summer", "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },
+			{
+				"OutputProbability": 0.0363,
+				"OutputIdentifier": "wf wheatshroom",
+		"RequiredSeason": [ "spring", "fall" ],
+		"RequiredLocation": [ "FarmCave" ],
+            },				
+		]
+	},
+//SCOBY STARTER
+    {
+        "ProducerName": "Scoby Starter",
+		"InputIdentifier":  null,
+        "MinutesUntilReady": 1600,
+        "OutputIdentifier": "Scoby",
+        "OutputStack": 1,
+        "Sounds": ["Ship"],
+	},
+///FLOWER PRESS
+	{
+        "ProducerName": "Flower Press",
+        "InputIdentifier": "flower_item",
+        "InputStack": 1,
+        "MinutesUntilReady": 1200,
+        "OutputIdentifier": "Pressed Flowers",
+		"OutputName": "Pressed {inputName}",
+        "OutputColorConfig":
+        {
+            "Type": "ObjectDyeColor",
+            "Red": 235,
+            "Green": 72,
+            "Blue": 71
+        },
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Flower Press",
+        "InputIdentifier": "Sabi-Root",
+        "InputStack": 1,
+        "MinutesUntilReady": 1200,
+        "OutputIdentifier": "Sabi Root Paste",
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+///KOMBUCHA JAR
+	{
+        "ProducerName": "Kombucha Jar",
+        "InputIdentifier": "Scoby",
+        "InputStack": 1,
+		"FuelIdentifier": "Wild Tea Leaf",
+        "FuelStack": 1,
+        "MinutesUntilReady": 2000,
+		"KeepInputQuality": true,
+        "OutputIdentifier": "Plain Kombucha",
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Kombucha Jar",
+        "InputIdentifier": "-80",
+        "InputStack": 1,
+		"FuelIdentifier": "Plain Kombucha",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1200,
+		"KeepInputQuality": true,
+        "OutputIdentifier": "Floral Kombucha",
+        "OutputName": "{inputName} Kombucha",
+        "OutputColorConfig":
+        {
+            "Type": "ObjectDyeColor",
+            "Red": 235,
+            "Green": 72,
+            "Blue": 71
+        },
+        "InputPriceBased": true,
+        "OutputPriceMultiplier": 1.25,
+		"OutputPriceIncrement": 100,
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Kombucha Jar",
+        "InputIdentifier": "tree_seed_item",
+        "InputStack": 1,
+		"FuelIdentifier": "Plain Kombucha",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1200,
+		"KeepInputQuality": true,
+        "OutputIdentifier": "Nutty Kombucha",
+        "OutputName": "{inputName} Kombucha",
+        "OutputColorConfig":
+        {
+            "Type": "ObjectDyeColor",
+            "Red": 235,
+            "Green": 72,
+            "Blue": 71
+        },
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Kombucha Jar",
+        "InputIdentifier": "fish_nonfish",
+        "InputStack": 1,
+		"FuelIdentifier": "Plain Kombucha",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1200,
+		"KeepInputQuality": true,
+        "OutputIdentifier": "Salty Kombucha",
+        "OutputName": "{inputName} Kombucha",
+        "OutputColorConfig":
+        {
+            "Type": "ObjectDyeColor",
+            "Red": 235,
+            "Green": 72,
+            "Blue": 71
+        },
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Kombucha Jar",
+        "InputIdentifier": "mushroom_item",
+        "InputStack": 1,
+		"FuelIdentifier": "Plain Kombucha",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1200,
+		"KeepInputQuality": true,
+        "OutputIdentifier": "Savoury Kombucha",
+        "OutputName": "{inputName} Kombucha",
+        "OutputColorConfig":
+        {
+            "Type": "ObjectDyeColor",
+            "Red": 235,
+            "Green": 72,
+            "Blue": 71
+        },
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Kombucha Jar",
+        "InputIdentifier": "savoury_forage",
+        "InputStack": 1,
+		"FuelIdentifier": "Plain Kombucha",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1200,
+		"KeepInputQuality": true,
+        "OutputIdentifier": "Savoury Kombucha",
+        "OutputName": "{inputName} Kombucha",
+        "OutputColorConfig":
+        {
+            "Type": "ObjectDyeColor",
+            "Red": 235,
+            "Green": 72,
+            "Blue": 71
+        },
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Kombucha Jar",
+        "InputIdentifier": "fruit_item",
+        "InputStack": 1,
+		"FuelIdentifier": "Plain Kombucha",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1200,
+		"KeepInputQuality": true,
+        "OutputIdentifier": "Sweet Kombucha",
+        "OutputName": "{inputName} Kombucha",
+        "OutputColorConfig":
+        {
+            "Type": "ObjectDyeColor",
+            "Red": 235,
+            "Green": 72,
+            "Blue": 71
+        },
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Kombucha Jar",
+        "InputIdentifier": "root_item",
+        "InputStack": 1,
+		"FuelIdentifier": "Plain Kombucha",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1200,
+		"KeepInputQuality": true,
+        "OutputIdentifier": "Sour Kombucha",
+        "OutputName": "{inputName} Kombucha",
+        "OutputColorConfig":
+        {
+            "Type": "ObjectDyeColor",
+            "Red": 235,
+            "Green": 72,
+            "Blue": 71
+        },
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+///KOMBUCHA -- WILDFLOUR FORAGE
+	{
+        "ProducerName": "Kombucha Jar",
+        "InputIdentifier": "wf pistachio",
+        "InputStack": 1,
+		"FuelIdentifier": "Plain Kombucha",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1200,
+		"KeepInputQuality": true,
+        "OutputIdentifier": "Nutty Kombucha",
+        "OutputName": "{inputName} Kombucha",
+        "OutputColorConfig":
+        {
+            "Type": "ObjectDyeColor",
+            "Red": 235,
+            "Green": 72,
+            "Blue": 71
+        },
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Kombucha Jar",
+        "InputIdentifier": "wf cashew",
+        "InputStack": 1,
+		"FuelIdentifier": "Plain Kombucha",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1200,
+		"KeepInputQuality": true,
+        "OutputIdentifier": "Nutty Kombucha",
+        "OutputName": "{inputName} Kombucha",
+        "OutputColorConfig":
+        {
+            "Type": "ObjectDyeColor",
+            "Red": 235,
+            "Green": 72,
+            "Blue": 71
+        },
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Kombucha Jar",
+        "InputIdentifier": "wf walnut",
+        "InputStack": 1,
+		"FuelIdentifier": "Plain Kombucha",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1200,
+		"KeepInputQuality": true,
+        "OutputIdentifier": "Nutty Kombucha",
+        "OutputName": "{inputName} Kombucha",
+        "OutputColorConfig":
+        {
+            "Type": "ObjectDyeColor",
+            "Red": 235,
+            "Green": 72,
+            "Blue": 71
+        },
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Kombucha Jar",
+        "InputIdentifier": "wf almond",
+        "InputStack": 1,
+		"FuelIdentifier": "Plain Kombucha",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1200,
+		"KeepInputQuality": true,
+        "OutputIdentifier": "Nutty Kombucha",
+        "OutputName": "{inputName} Kombucha",
+        "OutputColorConfig":
+        {
+            "Type": "ObjectDyeColor",
+            "Red": 235,
+            "Green": 72,
+            "Blue": 71
+        },
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },	
+	{
+        "ProducerName": "Kombucha Jar",
+        "InputIdentifier": "wf olive",
+        "InputStack": 1,
+		"FuelIdentifier": "Plain Kombucha",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1200,
+		"KeepInputQuality": true,
+        "OutputIdentifier": "Savoury Kombucha",
+        "OutputName": "{inputName} Kombucha",
+        "OutputColorConfig":
+        {
+            "Type": "ObjectDyeColor",
+            "Red": 235,
+            "Green": 72,
+            "Blue": 71
+        },
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Kombucha Jar",
+        "InputIdentifier": "wf tealeaf",
+        "InputStack": 1,
+		"FuelIdentifier": "Plain Kombucha",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1200,
+		"KeepInputQuality": true,
+        "OutputIdentifier": "Floral Kombucha",
+        "OutputName": "{inputName} Kombucha",
+        "OutputColorConfig":
+        {
+            "Type": "ObjectDyeColor",
+            "Red": 235,
+            "Green": 72,
+            "Blue": 71
+        },
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Kombucha Jar",
+        "InputIdentifier": "wf cinnamon",
+        "InputStack": 1,
+		"FuelIdentifier": "Plain Kombucha",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1200,
+		"KeepInputQuality": true,
+        "OutputIdentifier": "Sweet Kombucha",
+        "OutputName": "{inputName} Kombucha",
+        "OutputColorConfig":
+        {
+            "Type": "ObjectDyeColor",
+            "Red": 235,
+            "Green": 72,
+            "Blue": 71
+        },
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Kombucha Jar",
+        "InputIdentifier": "wf mint",
+        "InputStack": 1,
+		"FuelIdentifier": "Plain Kombucha",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1200,
+		"KeepInputQuality": true,
+        "OutputIdentifier": "Sweet Kombucha",
+        "OutputName": "{inputName} Kombucha",
+        "OutputColorConfig":
+        {
+            "Type": "ObjectDyeColor",
+            "Red": 235,
+            "Green": 72,
+            "Blue": 71
+        },
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Kombucha Jar",
+        "InputIdentifier": "wf carrot",
+        "InputStack": 1,
+		"FuelIdentifier": "Plain Kombucha",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1200,
+		"KeepInputQuality": true,
+        "OutputIdentifier": "Savoury Kombucha",
+        "OutputName": "{inputName} Kombucha",
+        "OutputColorConfig":
+        {
+            "Type": "ObjectDyeColor",
+            "Red": 235,
+            "Green": 72,
+            "Blue": 71
+        },
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Kombucha Jar",
+        "InputIdentifier": "wf redonion",
+        "InputStack": 1,
+		"FuelIdentifier": "Plain Kombucha",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1200,
+		"KeepInputQuality": true,
+        "OutputIdentifier": "Savoury Kombucha",
+        "OutputName": "{inputName} Kombucha",
+        "OutputColorConfig":
+        {
+            "Type": "ObjectDyeColor",
+            "Red": 235,
+            "Green": 72,
+            "Blue": 71
+        },
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Kombucha Jar",
+        "InputIdentifier": "wf strawberry",
+        "InputStack": 1,
+		"FuelIdentifier": "Plain Kombucha",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1200,
+		"KeepInputQuality": true,
+        "OutputIdentifier": "Sweet Kombucha",
+        "OutputName": "{inputName} Kombucha",
+        "OutputColorConfig":
+        {
+            "Type": "ObjectDyeColor",
+            "Red": 221,
+            "Green": 37,
+            "Blue": 50
+        },
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+	{
+        "ProducerName": "Kombucha Jar",
+        "InputIdentifier": "wf raspberry",
+        "InputStack": 1,
+		"FuelIdentifier": "Plain Kombucha",
+        "FuelStack": 1,
+        "MinutesUntilReady": 1200,
+		"KeepInputQuality": true,
+        "OutputIdentifier": "Sweet Kombucha",
+        "OutputName": "{inputName} Kombucha",
+        "OutputColorConfig":
+        {
+            "Type": "ObjectDyeColor",
+            "Red": 223,
+            "Green": 62,
+            "Blue": 35
+        },
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },	
+///SEED MAKER
+	{
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Sol-Berry",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Sol-Berry Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Bramble-Berry",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Bramble-Berry Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Nimbus-Berry",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Nimbus-Berry Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Bon-Bons",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Bon-Bon Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Buckle-Bray",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Buckle-Bray Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Buttered-Star",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Buttered-Star Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Chill-Bell",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Chill-Bell Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Daye-Breaks",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Daye-Break Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Dew-Dawn",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Dew-Dawn Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Fox-Shoes",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Fox-Shoes Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Luck-Puff",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Luck-Puff Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Night-Shadow",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Night-Shadow Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Rock-Blush",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Rock-Blush Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Shifter-Bloom",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Shifter-Bloom Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Spike-Ball",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Spike-Ball Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Sun-Brella",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Sun-Brella Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+	},
+]

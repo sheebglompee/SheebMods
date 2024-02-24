@@ -1,0 +1,17 @@
+﻿{
+    "Name": "Bon-Bons",
+    "Description": "These brightly coloured forest flowers are a rare sight, but their reach is being Expanded.",
+    "Category": "Flower",
+    "Edibility": 0,
+    "Price": 125,
+    "IsColored": true,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Bon-Bon",
+    "ContextTags": [
+    "season_summer",
+    "color_blue",
+    "bon-bon_item",
+    "flower_item",
+  ],
+}

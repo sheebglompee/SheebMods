@@ -1,0 +1,15 @@
+﻿{
+    "Name": "Nimbus-Berry",
+    "Description": "Found on mountain Ridges, these berrys have a sweet and salty flavour.",
+    "Category": "Fruit",
+    "Edibility": 25,
+    "Price": 180,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+    "TranslationKey": "object.Nimbus-Berry",
+    "ContextTags": [
+    "color_pink",
+    "fruit_item",
+  ],
+}

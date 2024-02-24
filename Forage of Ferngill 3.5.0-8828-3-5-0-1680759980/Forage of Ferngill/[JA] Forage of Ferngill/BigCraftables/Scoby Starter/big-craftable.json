@@ -1,0 +1,29 @@
+{
+    "Name": "Scoby Starter",
+    "Description": "Produces useable Scoby for the creation of Kombucha.",
+    "Price": 250,
+    "ProvidesLight": false,
+    "ReserveNextIndex": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 35,
+        },
+        {
+            "Object": 335,
+            "Count": 2,
+        },
+        {
+            "Object": 82,
+            "Count": 1,
+        }, ],
+    "IsDefault": false,
+    "CanPurchase": false,
+    "SkillUnlockName": "Foraging",
+    "SkillUnlockLevel": 3,
+        },
+	"TranslationKey": "BigCraftables.Scoby-Starter",
+}

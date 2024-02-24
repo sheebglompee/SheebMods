@@ -1,0 +1,18 @@
+﻿{
+    "Name": "Bardic-Root",
+    "Description": "A gritty but nourishing root.",
+    "Category": "Vegetable",
+    "CategoryTextOverride": "Root",
+    "Edibility": 25,
+    "Price": 45,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {},
+	"TranslationKey": "object.Bardic-Root",
+    "ContextTags": [
+    "season_fall",
+    "color_red",
+    "forage_item",
+    "root_item",
+  ],
+}

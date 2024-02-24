@@ -1,0 +1,139 @@
+{
+    "Changes":
+    [
+
+//Charles Events:
+
+
+    //East Scarp
+        //0 Hearts
+
+        {
+            "LogName": "Charles Introduction",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_EastScarpe",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270023/f Charles 0/t 600 2200": "playful/-1000 -1000/Charles 50 52 2 farmer 43 57 1/viewport 50 54/skippable/addConversationTopic CharlesIntroduction 7/pause 1000/move Charles 0 5 3 true/move farmer 6 0 1 false/pause 200/speak Charles \"Hello?#$b#Oh, you're @, right? I remember.#$b#Yri told me you were moving here.$1#$b#Well... Welcome to East Scarp, where heart meets ocean. Nice slogan, don't you think?$1#$b# I hope we get along well. If you need anything, feel free to stop by our house. Yri loves guests.$1#$b#Anyway... I need to go, I want to pick up Yri from work. See you later, @. $4\"/move Charles 0 1 3/faceDirection farmer 2/pause 100/move Charles -10 0 0 true/faceDirection farmer 3/textAboveHead Charles \"It was nice meeting you. Goodbye.\"/pause 1000/globalFade/viewport -999 -999/end"
+            },
+        },
+
+    //SebastianRoom 
+        //2 Hearts
+
+        {
+            "LogName": "Charles and Seb have a bug",
+            "Action": "EditData",
+            "Target": "Data/Events/SebastianRoom",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270024/f Charles 500/t 1500 2000": "playful/-1000 -1000/Charles 9 5 3 Sebastian 9 4 3 farmer 1 1 2/viewport 6 6/skippable/addConversationTopic Bug 7/pause 1000/emote Charles 28/pause 1500/emote Sebastian 8/pause 1500/faceDirection Charles 0/pause 100/emote Charles 12/pause 1500/emote Sebastian 12/pause 1500/speak Sebastian \"Why isn't it working?$5\"/speak Charles \"I checked the code four times, I have no idea what's wrong.$3\"/speak Sebastian \"Me too, I went through every line...$2#$b#....$2\"/speak Charles \"...This doesn't make sense...$2\"/move farmer 0 1 2/doAction 1 3/move farmer 0 3 1/faceDirection Charles 3/emote Charles 12/pause 1500/emote farmer 8/emote Sebastian 12/move farmer 5 0 2/move farmer 0 2 1/move farmer 2 0 0/move farmer 0 -1 0/emote farmer 8/pause 1500/speak Sebastian \"Hi, @.\"/speak Charles \"Hello, @.\"/speak Sebastian \"We're a bit busy right now with work.$2\"/emote farmer 8/speak Charles \"Sebastian and I were writing new code for a client. But it isn't working.$2#$b#Are you familiar with code by any chance?\"/quickQuestion Maybe you can help us?#It's a comma, isn't it? It's always a comma.#I've never written code before, I'm sorry.#Of course I know how to code, but I won't help. You have to find it alone. Nerds.(break)speak Sebastian \"We already checked that. But thanks for the suggestion.\"\\speak Charles \"Don't worry, we'll find the problem eventually.\"(break)speak Sebastian \"I guess we'll have to find a fix ourselves.\"\\speak Charles \"Of course. It's never that easy, right? Thanks for your interest, @.\"(break)speak Sebastian \"Pretty cocky of you, don't you think?$5\"\\speak Charles \"That comment wasn't necessary...$5\"/speak Sebastian \"I think we should continue working. Sorry to kick you out, but thanks for your visit, @.\"/speak Charles \"Can you run it again?\"/textAboveHead Sebastian \"Yeah...\"/pause 150/move farmer 0 1 1/move farmer -4 0 0 true/pause 500/globalFade/viewport -999 -999/end"
+            },
+        },
+
+    //Saloon
+        //4 Hearts
+        {
+            "LogName": "Dinner for two",
+            "Action": "EditData",
+            "Target": "Data/Events/Saloon",
+            "Entries":
+{
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270025/f Charles 1000/t 1200 1400": "Saloon1/-1000 -1000/Charles 14 20 0 farmer -500 -500 0 Gus 14 18 2/addConversationTopic DinnerForTwo 7/viewport 14 18/skippable/pause 1000/speak Gus \"Hello Charles, do you want to reserve a table?$1\"/speak Charles \"Yes, but this time it's for a special occasion.$1#$b#It's been five years since Yri and I started dating, so I want to surprise her with something special.$4\"/emote Charles 56/pause 1500/speak Gus \"I'm happy you two want to celebrate here.#$b# Can I interest you in the back room? You two would have some privacy there.$1#$b#And since it's your anniversary, I'll play the violin for free. What do you say?$1\"/speak Charles \"That's perfect, Gus, I'll take it!$1.\"/emote Gus 56/pause 1500/speak Charles \"Gus... Actually there is something else I would need to talk about...$2\"/speak Gus \"Of course, what can I help you with?$1\"/textAboveHead Charles \"So the situation is like this...\"/pause 1000/globalFade/viewport -999 -999/end"
+            },
+        },
+
+
+//SebastianRoom 
+        //6 Hearts
+
+        {
+            "LogName": "Charles and Seb have a bugfix",
+            "Action": "EditData",
+            "Target": "Data/Events/SebastianRoom",
+            "Entries":
+{
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270026/f Charles 1500/t 1500 2000": "playful/-1000 -1000/Charles 9 5 3 Sebastian 9 4 3 farmer -500 -500 0/viewport 6 6/skippable/addConversationTopic Bugfix 7/pause 1000/emote Charles 28/pause 1500/emote Sebastian 8/pause 1500/faceDirection Charles 0/pause 100/emote Charles 12/pause 1500/emote Sebastian 12/pause 1500/speak Sebastian \"...I don't get it...$5\"/speak Charles \"How is this even possible?$2\"/emote Sebastian 40/pause 1500/faceDirection Charles 3/pause 500/jump Charles 8/emote Charles 16/pause 1500/speak Charles \"Seb! Look... My god...$2#$b#You wrote facedirection and not faceDirection!$3\"/jump Sebastian 8/emote Sebastian 28/speak Sebastian \"Of course it was something like that...$2\"/speak Charles \"Hey, at least we found the problem!$1#$b#Let's mail the client the fixed version.\"/emote Sebastian 56/pause 1500/faceDirection Charles 0/speak Charles \"Hey Seb, since we fixed that one... Can you do me a solid? There's something I need.\"/faceDirection Sebastian 2/textAboveHead Sebastian \"Sure, what's the matter?\"/pause 1000/globalFade/viewport -999 -999/end"
+            },
+        },
+
+    //Charles encourages Yri
+        //8Hearts
+
+        {
+            "LogName": "Charles encourages Yri",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_Yri_House",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270015/f Charles 2000/f Yri 2500/t 1000 2200": "continue/-1000 -1000/Yri 16 17 2 Charles 17 17 3 farmer -500 -500 0/addConversationTopic CharlesEncouragement 7/viewport 17 18/skippable/showFrame Yri 18/showFrame Charles 18/pause 1000/speak Yri \"He ignored my letters again...$s#$b#He also turned down my appointment. Again... $s#$b# It's been so long maybe I should just drop it...$s\"/showFrame Yri 19/speak Charles \"I know you're frustrated... I am too.$s\"/pause 500/showFrame Yri 23/emote Charles 60/pause 1500/showFrame Charles 12/speak Charles \"What if we ask @ for help?\"/emote Yri 8/showFrame Yri 4/faceDirection Yri 1/pause 500/speak Yri \"Why @?\"/Speak Charles \"@ did a lot for the town and I'm sure @'s word carries a lot of weight with Lewis.#$b#I'm sure @ would help you.\"/speak Yri \"You're right... let's ask. The worst @ could say is no, right?\"/globalFade/viewport -999 -999/warp Yri -501 -500/warp Charles -502 -500/changeToTemporaryMap CharlesComfort/viewport 14 8 clamp/bgColor 0 0 0/ambientLight 0 0 0/playMusic QuietTime/pause 5000/speak Charles \"Right.$h#$b#I love you, everything is going to be alright.\"/speak Yri \"I love you too, thank you... For always being at my side.\"/globalFade/viewport -999 -999/warp Charles 17 17 3/showFrame Charles 31/changeLocation Custom_Yri_House/viewport 17 18/bgColor 0 0 0/ambientLight 0 0 0/pause 1000/emote Charles 20/pause 1500/speak Yri \"Charles... Thank you.$8\"/pause 1000/globalFade/viewport -999 -999/end"
+            },
+        },
+
+    //Yri House
+        //8 Hearts
+
+        {
+            "LogName": "Charles is hiding something",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_Yri_House",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "1062700027 /f Charles 2000/t 0800 2200": "playful/-1000 -1000/Charles 2 16 3 farmer -500 -500 0/addConversationTopic CharlesIsHidingSomething 7/viewport 5 17/skippable/pause 1000/emote Charles 12/pause 1500/speak Charles \"What should I do... When...$2\"/pause 200/textAboveHead Charles \"Soon... Just a bit longer...\"/pause 1500/move Charles 8 0 1/emote Charles 40/pause 1500/textAboveHead Charles \"I need more time...\"/pause 1500/emote Charles 12 true/move Charles 0 3 2/playSound doorOpen/pause 150/warp farmer 10 20 0/playSound doorClose/jump Charles 8 true/emote Charles 16/pause 1500/speak Charles \"Oh.$3#$b#Hello,@.$3#$b#Yri isn't here right now.\"/pause 1000/emote farmer 40/pause 1000/emote Charles 40/pause 1500/speak Charles \"So... I think I need to work a bit more...$3#$b#On work and stuff and things and such.$2#$b#So...$2\"/pause 1500/emote farmer 40/pause 1000/emote Charles 40/pause 1500/speak Charles \"*whisper*...this is so awkward...$2#$b#Anyway, uh... I need to do.... things... Sooo... see you later?$3#$b#Okay? Great! Bye!\"/speed Charles 6/move Charles 0 -3 1/speed Charles 6/move Charles -5 0 0/speed Charles 6/move Charles 0 -8 0 true/emote farmer 8/pause 1000/globalFade/viewport -999 -999/end"
+            },
+        },
+        
+    //Farm
+     //8 Hearts Continuation
+        {
+            "LogName": "Charles ask for Help",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries":
+            {
+                 "106270028/e 1062700027/t 600 2200": "continue/-1000 -1000/farmer 64 16 2 Charles 64 18 0/viewport 64 15/skippable/addConversationTopic CharlesQuest 14/pause 1500/speak Charles \"Hello, @... So... I just came here to say that I'm sorry.#$b#I know I was acting strange...$2#$b#The truth is I want to ask Yri to marry me.#$b#It's a surprise, she can't know.\"/emote Charles 40/pause 1500/speak Charles \"I trust you, @. So I want to ask for your help.#$b#I gathered some people and I plan to propose to Yri, but I need a ring.#$b#I want it to be unique, so I tried to commission Clint to make one just for her. But he need some materials.#$b#Clint said he needs 1 gold bar and 3 diamonds for it.#$b# So... I wanted to ask you if you could help me get those from the mines? This is really important to me and I'll pay you well for it, @.$1\"/question fork0 \"#Of course, just give me the list. #Uh no, why don't you do it yourself?\"/fork FarmerAcceptedCharlesQuest/pause 500/speak Charles \"Are you serious? That was uncalled for. Sorry I asked.$a.\"/emote Charles 12/pause 500/globalFade/viewport -999 -999/end",
+
+
+                "FarmerAcceptedCharlesQuest": "resetVariable/pause 500/speak Charles \"Thank you, @! Thank you so much! $h#$b#You're an absolute lifesaver, here is the list!$h [quest:Charles_Ring_1 yri.yri.QF]\"/pause 100/speak Charles \"Thank you again.$h [quest:Charles_Ring_2 yri.yri.QF]\"/emote Charles 20/pause 500/globalFade/viewport -999 -999/end"
+            },
+        },
+
+        {
+            "LogName": "Charles Thanks",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270029/n Charles.QuestDone Charles.SecondQuestDone/t 600 2200": "playful/-1000 -1000/farmer 64 16 2 Charles 64 18 0/viewport 64 15/skippable/addConversationTopic CharlesThanks 7/pause 1000/speak Charles \"@, thank you so much. I mean it, I really can't thank you enough.$h#$b#Clint finished the ring. It looks amazing.#$b#He was impressed at what great quality the materials were.$h\"/emote Charles 20/speak Charles \"I think we're ready now. If you're ready too, meet us at the bus stop at 6 PM.#$b#Be aware it'll be a long night for all of us, so please finish up everything before you join us.#$b#Seb will fill you in on the details. See you, @, and thank you again!$h\"/pause 1000/globalFade/viewport -999 -999/end"
+            },
+        },
+        {
+            "LogName": "Charles Final Preperations",
+            "Action": "EditData",
+            "Target": "Data/Events/BusStop",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270030/e 106270029/z winter/w sunny/d Mon Tue Wed Thu Fri Sun/t 1800 2000": "playful/-1000 -1000/Yri -500 -500 0 Charles 14 17 3 farmer 8 23 1 Sebastian 13 16 2 Abigail 16 12 2 Gus 10 13 0 Sam 15 13 1 Elliott 17 13 3 Pam 10 12 2 Robin 12 17 1/addConversationTopic AfterProposal/viewport 14 15 clamp/skippable/pause 1000/move farmer 5 0 0 true/emote Sam 8/emote Abigail 32/emote Gus 56/jump Elliott 4/emote Elliott 16/move farmer 0 -4 0 false/faceDirection Robin 2/faceDirection Charles 2/pause 150/speak Charles \"Thank you for coming, @.\"/emote Charles 32/speak Charles \"Okay... Okay... We're almost ready. God, I'm so nervous.$2\"/faceDirection Robin 1/speak Robin \"Don't worry, Yri will love it!$h\"/faceDirection Charles 3/emote Sebastian 32/speak Sebastian \"Yeah, she's so blinded by love she'd probably marry you if you proposed to her with a candy ring.\"/emote Charles 28/emote Robin 56/speak Charles \"Thanks, that actually helps.$h#$b#Seb, I'll go and get Yri. Message me when everything is set up and we'll catch up with you.\"/speak Sebastian \"Leave it to me.$h\"/emote Charles 56/move Charles 0 6 1 true/faceDirection Sebastian 0/faceDirection Robin 0/textAboveHead Sebastian \"Alright, guys! Let's go.\"/emote Abigail 56/faceDirection Gus 2/textAboveHead Sam \"Do you mind tuning my guitar in the bus?\"/emote Gus 16/faceDirection Elliott 2/faceDirection Sam 2/textAboveHead Charles \"Deep breaths, deep breaths...\"/move Charles 2 0 1 true/move Gus 2 0 0 false/move Charles 3 0 1 true/faceDirection Pam 1/textAboveHead Pam \"Don't even try, kiddo!\"/move Gus 0 -3 0 false/warp Gus -502 -500/textAboveHead Abigail \"Let's get that ship sailing!\"/move Abigail -4 0 0 true/move Charles 7 0 1 true/move Sam -3 0 0 true/move Elliott 0 -1 3 false/warp Charles -501 -500/emote Elliott 56 true/move Abigail 0 -2 0 false/warp Abigail -503 -500/move Sam 0 -3 0/warp Sam -504 -500/textAboveHead Elliott \"This is perfect material for my new romance novel.\"/move Elliott -5 0 0/move Elliott 0 -2 0/warp Elliott -505 -500/faceDirection Pam 2/textAboveHead Pam \"Are you two coming?\"/move Robin 0 -7 0/warp Robin -506 -500/faceDirection Sebastian 2/textAboveHead Sebastian \"Are you ready?\"/emote farmer 32/globalFade/viewport -999 -999/warp farmer 5 14/warp Pam -508 -500/warp Sebastian 4 9/warp Robin 4 14/warp Elliott 2 7/warp Abigail 10 9/warp Sam 14 11/warp Gus 14 8/faceDirection Gus 2/faceDirection Abigail 2/faceDirection farmer 3/faceDirection Robin 1/faceDirection Elliott 2/pause 1500/changeSprite Yri Event/changePortrait Yri Event/changeToTemporaryMap MountainScene/viewport 9 6 clamp/bgColor 0 0 0/ambientLight 150 150 1/playMusic nightTime/pause 1500/emote Elliott 12/speak Elliott \"Why do we have to hide behind these bushes?$s#$b#Isn't Yri supposed to be blindfolded?\"/faceDirection Abigail 3/speak Abigail \"Don't be like that, I think it makes it more interesting.$h\"/emote Abigail 56/emote Sam 56/speak Sam \"I can't believe we actually carried everything up without any problems.$1\"/speak Robin \"I got my camera ready, I can't wait to capture the moment! How about you, @?$h\"/emote Robin 20/emote farmer 56/pause 1350/playSound phone/pause 1000/playSound phone/pause 1000/playSound phone/emote Sebastian 16/pause 1500/emote Sebastian 40/pause 1000/faceDirection farmer 0/faceDirection Robin 0/speak Sebastian \"Alright, Pam called, she's just dropped them off now.#$b#They should be here soon. Get ready, everyone!$h\"/emote Sebastian 32/textAboveHead Elliott \"I think a mosquito bit me...\"/faceDirection Abigail 1/textAboveHead Abigail \"Are you ready, Gus?\"/pause 350/textAboveHead Gus \"Of course\"/emote Robin 32/emote farmer 32/pause 1500/faceDirection Sam 1/jump Sam 8/emote Sam 16/textAboveHead Sam \"I see them, everyone quiet now!\"/pause 4000/warp Yri 19 13 3/move Yri -1 0 3/warp Charles 19 13 3/move Yri -8 0 3 true/move Charles -8 0 3 false/speak Yri \"Charles, are we there yet?$11\"/faceDirection Sam 3/faceDirection Abigail 3/faceDirection Sebastian 1/speak Charles \"Almost, just a bit further.$h\"/move Yri -2 0 0 true/move Charles -2 0 3 false/move Yri 0 -1 0/move Charles -1 0 0/move Yri 0 -4 0 true/move Charles 0 -4 0 false/textAboveHead Charles \"One second, honey...\"/faceDirection Charles 3/faceDirection Sebastian 1/message \"Charles looks at Sebastian, who gives him a thumbs up.\"/textAboveHead Charles \"Okay, just a tiny bit more.\"/move Yri 0 -5 0 true/move Charles 0 -5 0 false/globalFade/viewport -999 -999/warp farmer -500 -500/warp Elliott -501 -500/warp Sebastian -502 -500/warp Robin -503 -500/warp Abigail -504 -500/warp Sam -505 -500/warp Gus -506 -500/warp Yri -507 -500/warp Charles -508 -500/pause 1500/speak Charles \"Are you ready?\"/speak Yri \"Yes, don't keep me on tenterhooks.$11\"/speak Charles \"Okay, you can open your eyes now.$h\"/speak Yri \"...$14\"/pause 500/changeLocation BusStop/speak Yri \"Oh...! Charles, this is beautiful!$8\"/message \"Yri embraces Charles. It looks like Charles is ready to propose. What should I do?\"/question fork0 \"#I'll stay and help Robin with the camera.#I'll excuse myself. I'm not a fan of lovey-dovey couple stuff.\"/fork FarmerStays/pause 500/message \"I went back to the bus. After a while, the rest of the group joined me and we drove back home.\"/message \"Everyone was pleased with the surprise and told me the proposal was a success!\"/pause 500/globalFade/viewport -999 -999/end",
+
+
+                "FarmerStays": "resetVariable/pause 500/changeToTemporaryMap YriNightScene/viewport 14 8 clamp/bgColor 0 0 0/ambientLight 150 150 1/speak Charles \"Yri... There's something I need to tell you...\"/pause 250/message \"Sebastian gives the group the signal to start.\"/playMusic Cloth/pause 1500/speak Yri \"...Charles...? Where is this music coming from?$3\"/speak Charles \"*hmph* Yri... Please focus on me.$6\"/speak Yri \"Sorry.$3\"/pause 500/speak Charles \"Yri, I love you...$4#$b#...and I can't imagine my life without you...$4\"/pause 2500/speak Charles \"...$3\"/speak Yri \"...?$2\"/speak Charles \"I-- I forgot my text...$2#$b#Yri, I'm.... Sorry, I'm nervous.$2\"/speak Yri \"No!$3#$b# No, no, no! It's fine! Take your time.$8\"/pause 500/speak Charles \"Okay... Okay...$2#$b#Yri... I want to ask you, would you do me the honor of being my wife?$4\"/speak Yri \"Yes...!$7#$b#YES! A thousand times yes!$8\"/speak Charles \"Even though I forgot my text and ruined the moment?$2\"/speak Yri \"Charles, are you kidding me?$7#$b# This is the best moment in my entire life!$7\"/viewport -999 -999/changeToTemporaryMap YriNightSceneCG/pause 2500/viewport 14 8 clamp/bgColor 0 0 0/ambientLight 1 1 1/message \"Yri and Charles share a tender kiss. The music slowly fades out. It's time for us to leave.\"/message \"The proposal was a success! What an eventful day.\"globalFade/viewport -999 -999/end newDay"
+            },
+        },
+    ]
+  }

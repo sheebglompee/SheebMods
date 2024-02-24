@@ -1,0 +1,18 @@
+{
+  "Name": "Hector for NPC Adventures",
+  "Author": "DestyNova",
+  "Version": "2.1.0",
+  "Description": "Invite Hector on an adventure! For PurrplingCat's NPC Adventures 1.0.2",
+  "UniqueID": "DestyNova.Hector.NPCA",
+  "MinimumApiVersion": "3.13.0",
+  "UpdateKeys": [ "Nexus:14361" ],
+  "ContentPackFor": {
+    "UniqueID": "purrplingcat.npcadventure",
+	"MinimumVersion": "1.0.0-alpha"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "purrplingcat.npcadventure"
+    }
+  ]
+}

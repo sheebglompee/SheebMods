@@ -1,0 +1,38 @@
+{
+  "Changes": 
+    [
+
+    //Map Object Strings
+    {
+      "LogName": "Map Strings",
+      "Action": "EditData",
+      "Target": "strings/StringsFromMaps",
+      "Entries": 
+          {
+        //Yri Workspace
+          "": "",
+          "": "",
+          "": "",
+
+        
+        //Charles Workspace
+          "": "",
+          "": "",
+          "": "",
+
+        
+        //Yri's House
+          "": "",
+          "": "",
+          "": "",
+          "": "",
+          "": "",
+          "": "",
+          "": "",
+          "": "",
+          "": "",
+          }
+    }
+    ]
+}
+    

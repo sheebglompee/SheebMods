@@ -1,0 +1,17 @@
+{
+  "Name": "Sydney - A New NPC MFM",
+  "Author": "Lex",
+  "Description": "Adds mail for Sydney",
+  "Version": "1.0.9",
+  "UniqueID": "Lex.Sydney.MFM",
+  "UpdateKeys": [],
+   "Dependencies": [
+	{
+    "UniqueID": "Lex.Sydney",
+    "IsRequired": true,
+ 		},
+	],
+  "ContentPackFor": {
+  "UniqueID": "DIGUS.MailFrameworkMod"
+  	}
+}
